@@ -2,220 +2,256 @@
   "lastUpdated": "2026-04-09",
   "items": [
     {
-      "id": "2026-04-09-001",
-      "date": "2026-04-09",
-      "category": "microsoft",
-      "title": {
-        "zh": "GitHub Copilot in VS Code — 三月更新汇总",
-        "ja": "GitHub Copilot in VS Code — 3月リリースまとめ",
-        "en": "GitHub Copilot in VS Code — March Releases"
-      },
-      "summary": {
-        "zh": "VS Code weekly stable 化后，v1.111 至 v1.115 的 Copilot/Agent 更新汇总。涵盖 Autopilot、browser/terminal tool 改进、customization 等。",
-        "ja": "VS Code weekly stable 化以降、v1.111〜v1.115 の Copilot/Agent アップデートまとめ。Autopilot、browser/terminal ツール改善、カスタマイズなど。",
-        "en": "A roundup of Copilot/Agent updates from VS Code v1.111 through v1.115 after the weekly stable cadence. Covers Autopilot, browser/terminal tool improvements, customization, and more."
-      },
-      "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
-      "tags": ["copilot", "vscode", "release"],
-      "source": "GitHub Changelog"
-    },
-    {
-      "id": "2026-04-09-002",
-      "date": "2026-04-09",
-      "category": "microsoft",
-      "title": {
-        "zh": "GitHub Mobile: Copilot Cloud Agent 随时随地可用",
-        "ja": "GitHub Mobile: Copilot Cloud Agent がどこでも利用可能に",
-        "en": "GitHub Mobile: Research & Code with Copilot Cloud Agent Anywhere"
-      },
-      "summary": {
-        "zh": "GitHub Mobile 支持 Copilot Cloud Agent，移动端也能执行代码研究和实现任务，不再局限于桌面环境。",
-        "ja": "GitHub Mobile が Copilot Cloud Agent に対応。モバイルでもコード調査や実装タスクが可能になり、デスクトップに限定されなくなりました。",
-        "en": "GitHub Mobile now supports Copilot Cloud Agent, enabling code research and implementation tasks on mobile without being limited to the desktop."
-      },
-      "url": "https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere",
-      "tags": ["copilot", "github", "mobile"],
-      "source": "GitHub Changelog"
-    },
-    {
-      "id": "2026-04-09-003",
-      "date": "2026-04-09",
-      "category": "microsoft",
-      "title": {
-        "zh": "VS Code 1.115: Browser Agent Tools 改进",
-        "ja": "VS Code 1.115: Browser Agent Tools の改善",
-        "en": "VS Code 1.115: Browser Agent Tools Improvements"
-      },
-      "summary": {
-        "zh": "Browser tool 调用标签更清晰，新增对目标标签页的直接跳转链接。Playwright Code 的长时运行 deferred result 也得到改善。",
-        "ja": "Browser ツール呼び出しのラベルがより明確になり、ターゲットタブへの直接リンクが追加。Playwright Code の長時間実行 deferred result も改善。",
-        "en": "Browser tool invocation labels are now clearer with direct links to target tabs. Long-running deferred results in Playwright Code have also been improved."
-      },
-      "url": "https://code.visualstudio.com/updates/v1_115",
-      "tags": ["vscode", "agent", "release"],
-      "source": "VS Code Updates"
-    },
-    {
       "id": "2026-04-08-001",
       "date": "2026-04-08",
-      "category": "anthropic",
+      "category": "openai",
       "title": {
-        "zh": "Claude 4.5 Opus 正式发布",
-        "ja": "Claude 4.5 Opus が正式リリース",
-        "en": "Claude 4.5 Opus Officially Released"
+        "zh": "企业 AI 的下一阶段",
+        "ja": "エンタープライズ AI の次のフェーズ",
+        "en": "The Next Phase of Enterprise AI"
       },
       "summary": {
-        "zh": "Anthropic 发布 Claude 4.5 Opus，在复杂推理、代码生成和长上下文理解方面显著提升，支持 1M token 上下文窗口。",
-        "ja": "Anthropic が Claude 4.5 Opus をリリース。複雑な推論、コード生成、長文コンテキスト理解が大幅に向上し、1M トークンのコンテキストウィンドウに対応。",
-        "en": "Anthropic releases Claude 4.5 Opus with significant improvements in complex reasoning, code generation, and long-context understanding, supporting a 1M token context window."
+        "zh": "OpenAI 宣布企业 AI 战略的下一阶段，聚焦更深度的企业集成、安全合规和大规模部署方案。",
+        "ja": "OpenAI がエンタープライズ AI の次のフェーズを発表。より深い企業統合、セキュリティ・コンプライアンス、大規模展開に重点。",
+        "en": "OpenAI announces the next phase of enterprise AI strategy, focusing on deeper enterprise integration, security compliance, and large-scale deployment."
       },
-      "url": "https://www.anthropic.com/news/claude-4-5-opus",
-      "tags": ["model", "release", "claude"],
-      "source": "Anthropic News"
+      "url": "https://openai.com/index/next-phase-of-enterprise-ai/",
+      "tags": ["enterprise", "strategy", "deployment"],
+      "source": "OpenAI News"
     },
     {
       "id": "2026-04-08-002",
       "date": "2026-04-08",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-5.3 Codex 开放 API 访问",
-        "ja": "GPT-5.3 Codex の API アクセスが開放",
-        "en": "GPT-5.3 Codex API Access Now Available"
-      },
-      "summary": {
-        "zh": "OpenAI 宣布 GPT-5.3 Codex 系列模型正式向 API 用户开放，同时宣布 GPT-5.1 Codex 的弃用时间表。",
-        "ja": "OpenAI が GPT-5.3 Codex シリーズモデルの API 提供を開始。同時に GPT-5.1 Codex の廃止スケジュールも発表。",
-        "en": "OpenAI announces GPT-5.3 Codex series models are now available to API users, along with a deprecation timeline for GPT-5.1 Codex."
-      },
-      "url": "https://openai.com/blog/gpt-5-3-codex",
-      "tags": ["model", "api", "codex"],
-      "source": "OpenAI Blog"
-    },
-    {
-      "id": "2026-04-08-003",
-      "date": "2026-04-08",
       "category": "google",
       "title": {
-        "zh": "Gemini 3.0 Pro 在 Google AI Studio 中可用",
-        "ja": "Gemini 3.0 Pro が Google AI Studio で利用可能に",
-        "en": "Gemini 3.0 Pro Available in Google AI Studio"
+        "zh": "Gemini 笔记本功能上线，轻松跟踪项目进度",
+        "ja": "Gemini にノートブック機能が登場、プロジェクト管理が簡単に",
+        "en": "Try Notebooks in Gemini to Easily Keep Track of Projects"
       },
       "summary": {
-        "zh": "Google 在 AI Studio 中上线 Gemini 3.0 Pro，支持多模态输入和 2M token 上下文，面向开发者免费开放。",
-        "ja": "Google が AI Studio に Gemini 3.0 Pro を導入。マルチモーダル入力と 2M トークンコンテキストに対応し、開発者向けに無料提供。",
-        "en": "Google launches Gemini 3.0 Pro in AI Studio with multimodal input and 2M token context, available to developers for free."
+        "zh": "Google 在 Gemini 应用中推出笔记本功能（NotebookLM 集成），帮助用户在 AI 对话中组织和跟踪项目。",
+        "ja": "Google が Gemini アプリにノートブック機能 (NotebookLM 統合) を導入。AI 会話内でプロジェクトを整理・追跡可能に。",
+        "en": "Google launches notebooks in the Gemini app (NotebookLM integration), helping users organize and track projects within AI conversations."
       },
-      "url": "https://blog.google/technology/ai/gemini-3-pro",
-      "tags": ["model", "gemini", "release"],
-      "source": "Google AI Blog"
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "tags": ["gemini", "notebooklm", "feature"],
+      "source": "Google Blog"
     },
     {
       "id": "2026-04-07-001",
       "date": "2026-04-07",
-      "category": "microsoft",
-      "title": {
-        "zh": "GitHub Copilot CLI 支持自定义模型提供商",
-        "ja": "GitHub Copilot CLI がカスタムモデルプロバイダーに対応",
-        "en": "GitHub Copilot CLI Supports Custom Model Providers"
-      },
-      "summary": {
-        "zh": "Copilot CLI 现在允许接入自定义模型提供商或完全本地模型，无需依赖 GitHub 默认的模型路由。",
-        "ja": "Copilot CLI でカスタムモデルプロバイダーや完全ローカルモデルの接続が可能に。GitHub デフォルトのモデルルーティングに依存不要。",
-        "en": "Copilot CLI now supports custom model providers or fully local models without relying on GitHub's default model routing."
-      },
-      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-custom-model-providers",
-      "tags": ["copilot", "cli", "model"],
-      "source": "GitHub Changelog"
-    },
-    {
-      "id": "2026-04-07-002",
-      "date": "2026-04-07",
       "category": "anthropic",
       "title": {
-        "zh": "Claude Code 支持 MCP Server 自动发现",
-        "ja": "Claude Code が MCP Server の自動検出に対応",
-        "en": "Claude Code Supports MCP Server Auto-Discovery"
+        "zh": "Project Glasswing：跨行业联手保护关键软件安全",
+        "ja": "Project Glasswing：業界横断で重要ソフトウェアのセキュリティを強化",
+        "en": "Project Glasswing: Securing Critical Software for the AI Era"
       },
       "summary": {
-        "zh": "Claude Code 新增对 MCP (Model Context Protocol) Server 的自动发现功能，大幅简化工具集成流程。",
-        "ja": "Claude Code に MCP (Model Context Protocol) Server の自動検出機能が追加され、ツール統合が大幅に簡素化。",
-        "en": "Claude Code adds auto-discovery for MCP (Model Context Protocol) Servers, greatly simplifying tool integration workflows."
+        "zh": "Anthropic 联合 AWS、Apple、Google、Microsoft、NVIDIA 等 12 家巨头发起 Project Glasswing，使用未发布的 Claude Mythos Preview 模型查找关键软件的零日漏洞，已发现数千个高危漏洞。",
+        "ja": "Anthropic が AWS、Apple、Google、Microsoft、NVIDIA など 12 社と Project Glasswing を発足。未公開の Claude Mythos Preview モデルで重要ソフトウェアのゼロデイ脆弱性を発見、既に数千件の重大脆弱性を検出。",
+        "en": "Anthropic partners with AWS, Apple, Google, Microsoft, NVIDIA and others to launch Project Glasswing — using the unreleased Claude Mythos Preview model to find zero-day vulnerabilities in critical software, having already discovered thousands of high-severity flaws."
       },
-      "url": "https://www.anthropic.com/news/claude-code-mcp",
-      "tags": ["claude", "mcp", "tools"],
+      "url": "https://www.anthropic.com/glasswing",
+      "tags": ["security", "mythos", "partnership"],
       "source": "Anthropic News"
     },
     {
       "id": "2026-04-06-001",
       "date": "2026-04-06",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 扩大与 Google 和 Broadcom 的合作，获取数千兆瓦级算力",
+        "ja": "Anthropic が Google・Broadcom との提携を拡大、数ギガワット級の次世代コンピュートを確保",
+        "en": "Anthropic Expands Partnership with Google and Broadcom for Multiple Gigawatts of Next-Gen Compute"
+      },
+      "summary": {
+        "zh": "Anthropic 宣布与 Google 和 Broadcom 扩大合作，获取多个千兆瓦级的下一代计算资源，以支撑更大规模的模型训练。",
+        "ja": "Anthropic が Google と Broadcom との提携を拡大。複数ギガワット規模の次世代コンピュートリソースを確保し、大規模モデル訓練を支える。",
+        "en": "Anthropic announces expanded partnership with Google and Broadcom to secure multiple gigawatts of next-generation compute resources for large-scale model training."
+      },
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "tags": ["partnership", "compute", "infrastructure"],
+      "source": "Anthropic News"
+    },
+    {
+      "id": "2026-04-02-001",
+      "date": "2026-04-02",
       "category": "openai",
       "title": {
-        "zh": "ChatGPT 新增 Deep Research 实时协作模式",
-        "ja": "ChatGPT に Deep Research リアルタイムコラボモードが追加",
-        "en": "ChatGPT Adds Real-Time Collaboration to Deep Research"
+        "zh": "OpenAI 收购 TBPN",
+        "ja": "OpenAI が TBPN を買収",
+        "en": "OpenAI Acquires TBPN"
       },
       "summary": {
-        "zh": "ChatGPT 的 Deep Research 功能支持实时协作，多人可同时参与同一研究会话，共享发现和分析结果。",
-        "ja": "ChatGPT の Deep Research 機能がリアルタイムコラボレーションに対応。複数人が同一の調査セッションに参加し、発見や分析結果を共有可能。",
-        "en": "ChatGPT's Deep Research feature now supports real-time collaboration, allowing multiple users to participate in the same research session and share findings."
+        "zh": "OpenAI 宣布收购 TBPN，进一步扩展其技术和人才储备，加速产品研发进程。",
+        "ja": "OpenAI が TBPN の買収を発表。技術力と人材を強化し、製品開発を加速。",
+        "en": "OpenAI announces the acquisition of TBPN, expanding its technology and talent base to accelerate product development."
       },
-      "url": "https://openai.com/blog/deep-research-collaboration",
-      "tags": ["chatgpt", "research", "feature"],
-      "source": "OpenAI Blog"
+      "url": "https://openai.com/index/openai-acquires-tbpn/",
+      "tags": ["acquisition", "company"],
+      "source": "OpenAI News"
     },
     {
-      "id": "2026-04-06-002",
-      "date": "2026-04-06",
+      "id": "2026-04-02-002",
+      "date": "2026-04-02",
       "category": "google",
       "title": {
-        "zh": "Google DeepMind 发布 AlphaCode 3",
-        "ja": "Google DeepMind が AlphaCode 3 を発表",
-        "en": "Google DeepMind Releases AlphaCode 3"
+        "zh": "Gemma 4 发布：同等规模下最强开放模型",
+        "ja": "Gemma 4 発表：同サイズで最も高性能なオープンモデル",
+        "en": "Gemma 4: Byte for Byte, the Most Capable Open Models"
       },
       "summary": {
-        "zh": "AlphaCode 3 在竞赛编程基准测试中达到顶尖水平，支持更复杂的算法推理和多文件项目生成。",
-        "ja": "AlphaCode 3 が競技プログラミングベンチマークでトップレベルに到達。より複雑なアルゴリズム推論とマルチファイルプロジェクト生成に対応。",
-        "en": "AlphaCode 3 achieves top-tier performance in competitive programming benchmarks with support for more complex algorithmic reasoning and multi-file project generation."
+        "zh": "Google 发布 Gemma 4 系列开放模型，在同参数量级下性能领先，面向开发者和研究者提供最强开源选择。",
+        "ja": "Google が Gemma 4 シリーズオープンモデルを発表。同パラメータ規模で業界トップの性能を実現し、開発者・研究者に最強のオープンソース選択肢を提供。",
+        "en": "Google releases the Gemma 4 series of open models, delivering leading performance at the same parameter scale for developers and researchers."
       },
-      "url": "https://deepmind.google/blog/alphacode-3",
-      "tags": ["deepmind", "coding", "model"],
-      "source": "DeepMind Blog"
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "tags": ["gemma", "open-source", "model"],
+      "source": "Google Blog"
     },
     {
-      "id": "2026-04-05-001",
-      "date": "2026-04-05",
+      "id": "2026-03-26-001",
+      "date": "2026-03-26",
       "category": "microsoft",
       "title": {
-        "zh": "Copilot Cloud Agent Firewall 支持组织级管控",
-        "ja": "Copilot Cloud Agent Firewall が組織レベルの管理に対応",
-        "en": "Copilot Cloud Agent Firewall Supports Organization-Level Controls"
+        "zh": "GitHub Actions 2026 安全路线图",
+        "ja": "GitHub Actions 2026 セキュリティロードマップ",
+        "en": "What's Coming to Our GitHub Actions 2026 Security Roadmap"
       },
       "summary": {
-        "zh": "管理员可在组织级别配置 Copilot Cloud Agent 的防火墙规则，设置推荐白名单并控制仓库是否可以覆写。",
-        "ja": "管理者が組織レベルで Copilot Cloud Agent のファイアウォールルールを設定可能に。推奨ホワイトリストの設定やリポジトリによる上書き制御にも対応。",
-        "en": "Admins can now configure Copilot Cloud Agent firewall rules at the organization level, set recommended allowlists, and control whether repositories can override them."
+        "zh": "GitHub 公布 Actions 2026 安全路线图，涵盖安全默认配置、策略控制和 CI/CD 可观测性，端到端加固软件供应链。",
+        "ja": "GitHub が Actions 2026 セキュリティロードマップを公開。セキュアデフォルト、ポリシー制御、CI/CD 可観測性によりソフトウェアサプライチェーンをエンドツーエンドで強化。",
+        "en": "GitHub shares the Actions 2026 security roadmap, outlining how secure defaults, policy controls, and CI/CD observability harden the software supply chain end to end."
       },
-      "url": "https://github.blog/changelog/2026-04-05-copilot-cloud-agent-firewall",
-      "tags": ["copilot", "enterprise", "security"],
-      "source": "GitHub Changelog"
+      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap/",
+      "tags": ["actions", "security", "roadmap"],
+      "source": "GitHub Blog"
     },
     {
-      "id": "2026-04-05-002",
-      "date": "2026-04-05",
-      "category": "google",
+      "id": "2026-03-24-001",
+      "date": "2026-03-24",
+      "category": "openai",
       "title": {
-        "zh": "Gemini API 支持结构化输出 JSON Mode 2.0",
-        "ja": "Gemini API が構造化出力 JSON Mode 2.0 に対応",
-        "en": "Gemini API Supports Structured Output JSON Mode 2.0"
+        "zh": "ChatGPT 上线商品发现功能",
+        "ja": "ChatGPT にショッピング機能が追加",
+        "en": "Powering Product Discovery in ChatGPT"
       },
       "summary": {
-        "zh": "Gemini API 新增增强版 JSON Mode，支持嵌套 schema 验证和流式结构化输出，开发者集成更简便。",
-        "ja": "Gemini API に強化版 JSON Mode が追加。ネストされたスキーマ検証とストリーミング構造化出力に対応し、開発者の統合がより簡単に。",
-        "en": "Gemini API adds an enhanced JSON Mode with nested schema validation and streaming structured output, making developer integration easier."
+        "zh": "OpenAI 在 ChatGPT 中推出商品发现功能，用户可以在对话中搜索、比较和探索商品，开启 AI 驱动的购物体验。",
+        "ja": "OpenAI が ChatGPT に商品発見機能を導入。会話内で商品の検索・比較・探索が可能に、AI 駆動のショッピング体験を提供。",
+        "en": "OpenAI launches product discovery in ChatGPT, enabling users to search, compare, and explore products within conversations for an AI-powered shopping experience."
       },
-      "url": "https://blog.google/technology/ai/gemini-json-mode",
-      "tags": ["gemini", "api", "feature"],
-      "source": "Google AI Blog"
+      "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/",
+      "tags": ["chatgpt", "shopping", "feature"],
+      "source": "OpenAI News"
+    },
+    {
+      "id": "2026-03-05-001",
+      "date": "2026-03-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.4 正式发布",
+        "ja": "GPT-5.4 が正式リリース",
+        "en": "Introducing GPT-5.4"
+      },
+      "summary": {
+        "zh": "OpenAI 发布 GPT-5.4，在推理、编码和多模态能力上实现大幅提升，是迄今最强大的 GPT 模型。",
+        "ja": "OpenAI が GPT-5.4 を発表。推論、コーディング、マルチモーダル能力が大幅に向上し、史上最強の GPT モデル。",
+        "en": "OpenAI releases GPT-5.4 with major improvements in reasoning, coding, and multimodal capabilities — the most powerful GPT model to date."
+      },
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "tags": ["model", "gpt-5.4", "release"],
+      "source": "OpenAI News"
+    },
+    {
+      "id": "2026-02-17-001",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Sonnet 4.6 发布：最强 Sonnet 模型",
+        "ja": "Claude Sonnet 4.6 発表：史上最強の Sonnet モデル",
+        "en": "Introducing Claude Sonnet 4.6"
+      },
+      "summary": {
+        "zh": "Anthropic 发布 Claude Sonnet 4.6，全面升级编码、计算机操作、长上下文推理和代理规划能力，支持 1M token 上下文窗口，免费用户也可使用。",
+        "ja": "Anthropic が Claude Sonnet 4.6 を発表。コーディング、コンピュータ操作、長文コンテキスト推論、エージェント計画能力を全面アップグレード。1M トークンコンテキストに対応し、無料ユーザーも利用可能。",
+        "en": "Anthropic releases Claude Sonnet 4.6, a full upgrade of coding, computer use, long-context reasoning, and agent planning skills. Features 1M token context and is free for all users."
+      },
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "tags": ["model", "sonnet", "release"],
+      "source": "Anthropic News"
+    },
+    {
+      "id": "2026-02-05-001",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Opus 4.6 正式发布",
+        "ja": "Claude Opus 4.6 が正式リリース",
+        "en": "Introducing Claude Opus 4.6"
+      },
+      "summary": {
+        "zh": "Anthropic 发布 Claude Opus 4.6，在 Terminal-Bench 2.0 等多项基准取得业界最高分。新增自适应思考、上下文压缩和代理团队功能，支持 1M token 上下文和 128k 输出。",
+        "ja": "Anthropic が Claude Opus 4.6 を発表。Terminal-Bench 2.0 など複数のベンチマークで業界最高スコアを達成。適応的思考、コンテキスト圧縮、エージェントチーム機能を追加、1M トークンコンテキストと 128k 出力に対応。",
+        "en": "Anthropic releases Claude Opus 4.6, achieving top scores on Terminal-Bench 2.0 and other benchmarks. Adds adaptive thinking, context compaction, agent teams, 1M token context and 128k output."
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "tags": ["model", "opus", "release"],
+      "source": "Anthropic News"
+    },
+    {
+      "id": "2025-08-19-001",
+      "date": "2025-08-19",
+      "category": "microsoft",
+      "title": {
+        "zh": "Agents 面板：在 GitHub 任意位置启动 Copilot 编码任务",
+        "ja": "Agents パネル：GitHub のどこからでも Copilot コーディングタスクを起動",
+        "en": "Agents Panel: Launch Copilot Coding Agent Tasks Anywhere on GitHub"
+      },
+      "summary": {
+        "zh": "GitHub 推出 Agents 面板，可在 GitHub 任何页面将编码任务委派给 Copilot。Copilot 在后台工作，创建 Pull Request，完成后通知用户审查。",
+        "ja": "GitHub が Agents パネルを導入。GitHub のどのページからでもコーディングタスクを Copilot に委任可能。Copilot がバックグラウンドで作業し、PR を作成、完了後にレビューを通知。",
+        "en": "GitHub launches the Agents panel to delegate coding tasks to Copilot from anywhere on GitHub. Copilot works in the background, creates a PR, and tags you for review when done."
+      },
+      "url": "https://github.blog/news-insights/product-news/agents-panel-launch-copilot-coding-agent-tasks-anywhere-on-github/",
+      "tags": ["copilot", "agent", "feature"],
+      "source": "GitHub Blog"
+    },
+    {
+      "id": "2025-05-19-001",
+      "date": "2025-05-19",
+      "category": "microsoft",
+      "title": {
+        "zh": "GitHub Copilot 编码代理正式亮相",
+        "ja": "GitHub Copilot コーディングエージェントが登場",
+        "en": "GitHub Copilot: Meet the New Coding Agent"
+      },
+      "summary": {
+        "zh": "GitHub 推出 Copilot 编码代理：只需分配任务或 Issue 给 Copilot，它在后台通过 GitHub Actions 运行，完成后提交 Pull Request。",
+        "ja": "GitHub が Copilot コーディングエージェントを発表。タスクや Issue を Copilot に割り当てるだけで、GitHub Actions でバックグラウンド実行し、完了後に PR を提出。",
+        "en": "GitHub launches the Copilot coding agent: assign a task or issue to Copilot, it runs in the background with GitHub Actions, and submits a pull request when done."
+      },
+      "url": "https://github.blog/news-insights/product-news/github-copilot-meet-the-new-coding-agent/",
+      "tags": ["copilot", "agent", "release"],
+      "source": "GitHub Blog"
+    },
+    {
+      "id": "2026-03-27-001",
+      "date": "2026-03-27",
+      "category": "google",
+      "title": {
+        "zh": "Gemini Drop 三月更新",
+        "ja": "Gemini Drop 3月アップデート",
+        "en": "Gemini Drop: March 2026 Updates"
+      },
+      "summary": {
+        "zh": "Google 发布 2026 年三月 Gemini Drop，为 Gemini 应用带来一系列新功能和体验改进。",
+        "ja": "Google が 2026 年 3 月の Gemini Drop を発表。Gemini アプリに新機能と体験改善を提供。",
+        "en": "Google releases the March 2026 Gemini Drop with a batch of new features and experience improvements for the Gemini app."
+      },
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+      "tags": ["gemini", "update", "feature"],
+      "source": "Google Blog"
     }
   ]
 }
