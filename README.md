@@ -6,17 +6,21 @@
 
 ![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![GitHub last commit](https://img.shields.io/github/last-commit/lijunliu-gh/ai-news-digest)
+![GitHub release](https://img.shields.io/github/v/release/lijunliu-gh/ai-news-digest)
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/lijunliu-gh/ai-news-digest/update-digest.yml?label=digest%20refresh)
 
 ## Features
 
-- � **Trend Chart** — Interactive line chart showing monthly update frequency per company, color-coded and auto-generated from live data
-- �🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
+- 📈 **Trend Chart** — Interactive line chart showing monthly update frequency per company, color-coded and auto-generated from live data
+- 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
 - 🌍 **Trilingual** — Switch between 中文 / 日本語 / English with data-level localization for every item
 - 🌓 **Dark & Light Mode** — Polished dual themes with gradient backgrounds, glassmorphism cards, category-colored borders, and a sliding toggle switch
-- 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
+- 🔍 **Search & Filter** — Filter by company, source type (News / Changelog / Release Notes), month, and full-text search across titles, summaries, and tags
+- ⬆️ **Back to Top & Month Navigator** — Floating back-to-top button and a sidebar month indicator for quick navigation through long feeds
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
-- 📱 **Responsive** — Works on desktop, tablet, and mobile
+- 📱 **Responsive** — Works on desktop, tablet, and mobile (iOS & Android)
 - ⚡ **No Frontend Build Step** — Pure HTML / CSS / JS frontend, with a small Python dependency only for the refresh script
 
 ## Project Structure

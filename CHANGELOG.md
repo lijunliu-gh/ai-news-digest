@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-04-09
+
+### Added
+- Source type filter row (News / Changelog / Release Notes) below the company filter, with dynamic counts that reflect the active company selection and vice versa
+- Back-to-top floating button in the bottom-right corner, appears after scrolling 400px
+- Month sidebar navigator fixed on the left (screens ≥ 1280px), highlights the current scroll position and supports click-to-jump
+- Translation now protects ~40 proper nouns (Claude, Gemini, Copilot, Vertex AI, etc.) with placeholders before sending to Google Translate, preventing mistranslations like “克劳德” for Claude or “双子座” for Gemini
+
+### Fixed
+- Logo link changed from `/` to `./` to prevent 404 on GitHub Pages sub-path deployments
+- Footer disclaimer updated to remove “manual” — data is now fully automated
+- Source type filter button styling fixed with `appearance: none` reset for cross-browser consistency
+- Cleared and regenerated all previously mistranslated entries in digest data and translation cache
+
 ## [1.0.0] - 2026-04-09
 
 ### Changed

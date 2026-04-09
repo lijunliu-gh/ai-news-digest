@@ -684,18 +684,25 @@ a:hover { text-decoration: underline; }
   .hero h1 { font-size: 1.5rem; }
   .stats-bar { gap: 1rem; }
   .stat-val { font-size: 1.2rem; }
-  .filter-row { gap: 0.4rem; }
+  .filter-row { gap: 0.4rem; overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 2px; }
+  .filter-row::-webkit-scrollbar { display: none; }
+  .type-filter-row { gap: 0.3rem; }
+  .type-btn { padding: 0.3rem 0.6rem; font-size: 0.72rem; flex-shrink: 0; }
   .secondary-controls { align-items: stretch; }
   .month-filter { width: 100%; justify-content: space-between; }
   .month-select { flex: 1; }
   .search-box { flex-basis: 100%; }
-  .filter-btn { padding: 0.4rem 0.75rem; font-size: 0.8rem; }
+  .search-input { max-width: 100%; }
+  .filter-btn { padding: 0.4rem 0.75rem; font-size: 0.8rem; flex-shrink: 0; }
   .card { padding: 0.85rem 1rem; }
-  .card-top { align-items: flex-start; }
+  .card-top { align-items: flex-start; flex-wrap: wrap; }
   .card-source-meta { justify-content: flex-start; }
   .card-title { font-size: 0.95rem; }
   .header-inner { padding: 0.6rem 1rem; }
-  .theme-toggle { width: 40px; }
+  .site-logo { font-size: 0.95rem; }
+  .lang-btn { padding: 0.35rem 0.45rem; font-size: 0.7rem; }
+  .trend-title { font-size: 0.78rem; }
+  .main { padding: 1.5rem 1rem 3rem; }
 }
 
 /* ---------- Scrollbar ---------- */
