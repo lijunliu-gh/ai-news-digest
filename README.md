@@ -11,7 +11,7 @@
 
 - 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
 - 🌍 **Trilingual** — Switch between 中文 / 日本語 / English with data-level localization for every item
-- 🌓 **Dark & Light Mode** — Respects user preference with a sliding toggle switch
+- 🌓 **Dark & Light Mode** — Polished dual themes with gradient backgrounds, glassmorphism cards, category-colored borders, and a sliding toggle switch
 - 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset

@@ -284,7 +284,7 @@
     const summary = localized(item.summary);
     const sourceType = resolveSourceType(item);
     return `
-      <a class="card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${delay}s">
+      <a class="card" data-cat="${escapeHtml(item.category)}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${delay}s">
         <div class="card-top">
           <span class="card-cat" data-cat="${escapeHtml(item.category)}">${escapeHtml(catLabel)}</span>
           <div class="card-source-meta">

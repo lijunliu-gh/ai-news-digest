@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-04-09
+
+### Changed
+- Redesigned both dark and light themes with radial-gradient backgrounds, glassmorphism card surfaces, and multi-layer shadow system for better visual depth
+- Cards now display a color-coded left border matching their source category (GitHub blue, Anthropic gold, OpenAI green, Google red) and emit a matching glow on hover
+- Hero title uses a text gradient from the primary text color to the accent color
+- Stats bar is now a standalone card with backdrop blur instead of a plain line-separated row
+- Theme toggle switch has smoother cubic-bezier animation and a subtle glow in dark mode
+- Date group labels include a small accent dot indicator
+- Tags gain a border and respond to card hover state
+- Footer uses a blurred card-style background to separate it from page content
+- Border radii slightly increased (10 → 12 px, 6 → 8 px) for a softer feel
+
 ## [0.7.0] - 2026-04-09
 
 ### Changed
