@@ -126,7 +126,7 @@ a:hover { text-decoration: underline; }
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);
-  color: var(--text-muted);
+  color: var(--text);
   width: 36px;
   height: 36px;
   border-radius: var(--radius-sm);
@@ -136,7 +136,7 @@ a:hover { text-decoration: underline; }
   justify-content: center;
   transition: all var(--transition);
 }
-.theme-toggle:hover { color: var(--text); border-color: var(--border-hover); }
+.theme-toggle:hover { color: var(--accent); border-color: var(--border-hover); }
 .theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
 [data-theme="light"] .icon-moon { display: none; }
