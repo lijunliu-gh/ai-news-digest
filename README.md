@@ -1,6 +1,6 @@
 # AI News Digest
 
-> Daily curated AI product news from **GitHub**, **Anthropic**, **OpenAI**, and **Google**.
+> Official AI product updates from the past three months across **GitHub**, **Anthropic**, **OpenAI**, and **Google**.
 
 🌐 **Live Site:** [https://lijunliu-gh.github.io/ai-news-digest/](https://lijunliu-gh.github.io/ai-news-digest/)
 
@@ -11,8 +11,7 @@
 
 - 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
 - 🌍 **Trilingual** — Switch between 中文 / 日本語 / English with data-level localization for every item
-- 🌓 **Dark & Light Mode** — Respects user preference with manual toggle
-- 🎛️ **Clear Theme Toggle** — The header theme switch uses stable sun and crescent symbols with strong contrast in both light and dark modes
+- 🌓 **Dark & Light Mode** — Respects user preference with a sliding toggle switch
 - 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
@@ -112,7 +111,7 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 - Only official product-oriented sources are ingested.
 - Official sources include both public news pages and developer release-note / changelog surfaces.
 - For Google, the digest now combines Google Blog, Google Cloud release notes, and Google DeepMind product-news posts.
-- For GitHub, changelog entries are evaluated using full post content instead of only short feed excerpts so developer-facing Copilot, Actions, and intelligent security workflow updates are less likely to be missed.
+- For GitHub, Product News and Changelog entries use separate relevance rules: product posts trust official AI-oriented category labels and full article content, while changelog entries apply stricter keyword matching to avoid platform-maintenance noise.
 - Locale fields that still match the English source text are treated as untranslated and regenerated during refreshes.
 - The homepage dataset is rebuilt from scratch on every run.
 - Automated refreshes fail closed when the rebuilt dataset drops below health thresholds or a required official source disappears.
