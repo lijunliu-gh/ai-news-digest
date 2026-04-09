@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-04-09
+
+### Changed
+- Renamed the old `microsoft` category and UI language to `GitHub` because the dataset currently contains GitHub-only sources rather than Microsoft-wide sources
+- Expanded Google coverage to include product-focused posts from Google DeepMind in addition to Google Blog and Google Cloud release notes
+
+### Fixed
+- Normalized official source URLs during digest rebuilds so trailing-slash variants no longer create duplicate Google and GitHub entries
+
 ## [0.5.1] - 2026-04-09
 
 ### Fixed

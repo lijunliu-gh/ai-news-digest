@@ -49,6 +49,7 @@ DEFAULT_REQUIRED_SOURCES = {
     'OpenAI News',
     'OpenAI API Changelog',
     'Google Blog',
+    'Google DeepMind News',
     'Google Cloud Release Notes',
     'GitHub Changelog',
 }
@@ -378,6 +379,43 @@ def extract_meta_description(html: str) -> str:
     return ''
 
 
+def extract_meta_title(html: str) -> str:
+    patterns = (
+        r'<meta[^>]+property=["\']og:title["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:title["\']',
+        r'<meta[^>]+name=["\']twitter:title["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:title["\']',
+        r'<title>(.*?)</title>',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, html, flags=re.I | re.S)
+        if match:
+            return normalize_whitespace(strip_html(match.group(1)))
+    return ''
+
+
+def extract_meta_published_date(html: str) -> str:
+    patterns = (
+        r'<meta[^>]+property=["\']article:published_time["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']article:published_time["\']',
+        r'<meta[^>]+itemprop=["\']datePublished["\'][^>]+content=["\']([^"\']+)["\']',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, html, flags=re.I)
+        if match:
+            return parse_pub_date(match.group(1))
+    return ''
+
+
+def normalize_url(url: str) -> str:
+    normalized = normalize_whitespace(url)
+    if not normalized:
+        return ''
+    parsed = urlparse(normalized)
+    path = parsed.path.rstrip('/') or '/'
+    return parsed._replace(path=path).geturl()
+
+
 def load_existing_items() -> tuple[dict[str, dict], list[dict]]:
     existing_by_url: dict[str, dict] = {}
     archived_items: list[dict] = []
@@ -389,7 +427,9 @@ def load_existing_items() -> tuple[dict[str, dict], list[dict]]:
         if path == ARCHIVE_PATH:
             archived_items.extend(items)
         for item in items:
-            existing_by_url.setdefault(item.get('url', ''), item)
+            item_url = normalize_url(item.get('url', ''))
+            if item_url:
+                existing_by_url.setdefault(item_url, item)
     return existing_by_url, archived_items
 
 
@@ -474,8 +514,15 @@ def localize(
     english_text: str,
     translator: TranslationService,
     refresh_generated: bool = False,
+    force_retranslate: bool = False,
 ) -> dict[str, str]:
     value = existing.get(field) if existing else None
+    if force_retranslate:
+        return {
+            'zh': translator.translate(english_text, 'zh'),
+            'ja': translator.translate(english_text, 'ja'),
+            'en': english_text,
+        }
     if isinstance(value, dict):
         english_value = value.get('en') or english_text
         if refresh_generated and is_generated_localization(value):
@@ -509,7 +556,7 @@ def localize(
 
 
 def slug_from_url(url: str) -> str:
-    path = urlparse(url).path.rstrip('/')
+    path = urlparse(normalize_url(url)).path.rstrip('/')
     slug = path.split('/')[-1] if path else 'item'
     slug = re.sub(r'[^a-z0-9]+', '-', slug.lower()).strip('-')
     return slug or 'item'
@@ -521,24 +568,26 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], tran
     seen_urls: set[str] = set()
 
     for entry in sorted(entries, key=lambda item: (item.date, item.url), reverse=True):
-        if entry.url in seen_urls:
+        normalized_url = normalize_url(entry.url)
+        if normalized_url in seen_urls:
             continue
-        seen_urls.add(entry.url)
-        existing = existing_by_url.get(entry.url)
-        item_id = f"{entry.date}-{entry.category}-{slug_from_url(entry.url)}"
+        seen_urls.add(normalized_url)
+        existing = existing_by_url.get(normalized_url)
+        item_id = f"{entry.date}-{entry.category}-{slug_from_url(normalized_url)}"
         suffix = 2
         while item_id in used_ids:
-            item_id = f"{entry.date}-{entry.category}-{slug_from_url(entry.url)}-{suffix}"
+            item_id = f"{entry.date}-{entry.category}-{slug_from_url(normalized_url)}-{suffix}"
             suffix += 1
         used_ids.add(item_id)
+        force_retranslate = entry.source == 'Google DeepMind News'
 
         items.append({
             'id': item_id,
             'date': entry.date,
             'category': entry.category,
-            'title': localize(existing, 'title', entry.title_en, translator, refresh_generated=True),
-            'summary': localize(existing, 'summary', entry.summary_en, translator, refresh_generated=True),
-            'url': entry.url,
+            'title': localize(existing, 'title', entry.title_en, translator, refresh_generated=True, force_retranslate=force_retranslate),
+            'summary': localize(existing, 'summary', entry.summary_en, translator, refresh_generated=True, force_retranslate=force_retranslate),
+            'url': normalized_url,
             'tags': entry.tags,
             'source': entry.source,
             'sourceType': entry.source_type,
@@ -645,6 +694,18 @@ def is_google_relevant(title: str, summary: str, url: str, categories: list[str]
     return any(token in haystack for token in ('gemini', 'gemma', 'google-ai-updates', 'ai updates'))
 
 
+def is_google_deepmind_relevant(title: str, category: str, url: str) -> bool:
+    lowered_title = title.lower()
+    lowered_category = category.lower()
+    lowered_url = url.lower()
+    if lowered_category in {'research', 'responsibility & safety', 'science'}:
+        return False
+    product_keywords = ('gemini', 'gemma', 'veo', 'lyria', 'imagen', 'genie', 'nano banana')
+    if lowered_category == 'models':
+        return any(token in lowered_title or token in lowered_url for token in product_keywords)
+    return any(token in lowered_title or token in lowered_url for token in product_keywords)
+
+
 def parse_google_entries(cutoff: date) -> list[FeedEntry]:
     entries: list[FeedEntry] = []
     for item in parse_rss('https://blog.google/innovation-and-ai/technology/ai/rss/'):
@@ -666,6 +727,57 @@ def parse_google_entries(cutoff: date) -> list[FeedEntry]:
             summary_en=description,
             url=link,
             tags=unique_tags(categories + ['google']),
+        ))
+    return entries
+
+
+def parse_google_deepmind_entries(cutoff: date) -> list[FeedEntry]:
+    html = fetch_text('https://deepmind.google/blog/')
+    entries: list[FeedEntry] = []
+    seen_urls: set[str] = set()
+    card_pattern = re.compile(
+        r'<article class="card card-blog card--small_h card--is-link">.*?'
+        r'<a[^>]+href=(?P<href>[^\s>]+)[^>]*></a>.*?'
+        r'<h3 class="heading-6 card__title">(?P<title>.*?)</h3>.*?'
+        r'<time[^>]*>(?P<label>.*?)</time>.*?'
+        r'<span class="text-caption meta__category">(?P<category>.*?)</span>',
+        re.S,
+    )
+
+    for match in card_pattern.finditer(html):
+        raw_href = match.group('href').strip('"\'')
+        link = urljoin('https://deepmind.google', raw_href)
+        if link in seen_urls:
+            continue
+        seen_urls.add(link)
+
+        title = normalize_whitespace(strip_html(match.group('title')))
+        category_label = normalize_whitespace(strip_html(match.group('category')))
+        if not is_google_deepmind_relevant(title, category_label, link):
+            continue
+
+        article_html = try_fetch_text(link) or ''
+        full_title = extract_meta_title(article_html)
+        if full_title:
+            title = full_title
+        published = extract_meta_published_date(article_html)
+        if not published:
+            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', normalize_whitespace(match.group('label')))
+            if date_match:
+                published = date_match.group(1)
+        if not published or not within_window(published, cutoff):
+            continue
+
+        summary = extract_meta_description(article_html) or title
+        entries.append(FeedEntry(
+            date=published,
+            category='google',
+            source='Google DeepMind News',
+            source_type='news',
+            title_en=title,
+            summary_en=summary,
+            url=link,
+            tags=unique_tags([category_label, 'google-deepmind', 'google']),
         ))
     return entries
 
@@ -724,7 +836,7 @@ def parse_github_entries(cutoff: date) -> list[FeedEntry]:
             continue
         entries.append(FeedEntry(
             date=published,
-            category='microsoft',
+            category='github',
             source='GitHub Product News',
             source_type='news',
             title_en=title,
@@ -749,7 +861,7 @@ def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
             continue
         entries.append(FeedEntry(
             date=published,
-            category='microsoft',
+            category='github',
             source='GitHub Changelog',
             source_type='changelog',
             title_en=title,
@@ -872,16 +984,22 @@ def parse_anthropic_release_entries(cutoff: date) -> list[FeedEntry]:
 def merge_archive(existing_archive: list[dict], previous_digest: list[dict], fresh_digest: list[dict], cutoff: date) -> list[dict]:
     archive_by_url: dict[str, dict] = {}
     for item in existing_archive + previous_digest:
-        url = item.get('url')
+        url = normalize_url(item.get('url', ''))
         if not url:
             continue
         if date.fromisoformat(item['date']) >= cutoff:
             continue
-        archive_by_url.setdefault(url, item)
+        archived_item = dict(item)
+        archived_item['url'] = url
+        archive_by_url.setdefault(url, archived_item)
 
     for item in fresh_digest:
         if date.fromisoformat(item['date']) < cutoff:
-            archive_by_url.setdefault(item['url'], item)
+            url = normalize_url(item.get('url', ''))
+            if url:
+                archived_item = dict(item)
+                archived_item['url'] = url
+                archive_by_url.setdefault(url, archived_item)
 
     return sorted(archive_by_url.values(), key=lambda item: (item['date'], item['id']), reverse=True)
 
@@ -977,6 +1095,7 @@ def main() -> int:
         + parse_openai_entries(cutoff)
         + parse_openai_changelog_entries(cutoff)
         + parse_google_entries(cutoff)
+        + parse_google_deepmind_entries(cutoff)
         + parse_google_release_entries(cutoff)
         + parse_github_entries(cutoff)
         + parse_github_changelog_entries(cutoff)

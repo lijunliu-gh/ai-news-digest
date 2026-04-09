@@ -1,6 +1,6 @@
 # AI News Digest
 
-> Daily curated AI news from **Microsoft / GitHub**, **Anthropic**, **OpenAI**, and **Google**.
+> Daily curated AI product news from **GitHub**, **Anthropic**, **OpenAI**, and **Google**.
 
 🌐 **Live Site:** [https://lijunliu-gh.github.io/ai-news-digest/](https://lijunliu-gh.github.io/ai-news-digest/)
 
@@ -12,7 +12,7 @@
 - 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
 - 🌍 **Trilingual** — Switch between 中文 / 日本語 / English with data-level localization for every item
 - 🌓 **Dark & Light Mode** — Respects user preference with manual toggle
-- 🎛️ **Clear Theme Toggle** — The header theme switch now shows both an icon and a text label instead of an ambiguous icon-only button
+- 🎛️ **Clear Theme Toggle** — The header theme switch uses a clear moon/sun icon pair with strong contrast in both light and dark modes
 - 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
@@ -53,6 +53,7 @@ ai-news-digest/
 | OpenAI News | https://openai.com/news/rss.xml |
 | OpenAI API Changelog | https://developers.openai.com/api/docs/changelog |
 | Google Blog | https://blog.google/innovation-and-ai/technology/ai/rss/ |
+| Google DeepMind News | https://deepmind.google/blog/ |
 | Google Cloud Release Notes | https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes |
 | GitHub Product News | https://github.blog/news-insights/product-news/ |
 | GitHub Changelog | https://github.blog/changelog/feed/ |
@@ -83,7 +84,7 @@ Edit `data/digest.json`. Each item follows this structure:
 }
 ```
 
-**Categories:** `microsoft`, `anthropic`, `openai`, `google`
+**Categories:** `github`, `anthropic`, `openai`, `google`
 
 **Source types:** `news`, `changelog`, `release-notes`
 
@@ -108,8 +109,9 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 
 ### Update Rules
 
-- Only official sources are ingested.
+- Only official product-oriented sources are ingested.
 - Official sources include both public news pages and developer release-note / changelog surfaces.
+- For Google, the digest now combines Google Blog, Google Cloud release notes, and Google DeepMind product-news posts.
 - The homepage dataset is rebuilt from scratch on every run.
 - Automated refreshes fail closed when the rebuilt dataset drops below health thresholds or a required official source disappears.
 - Health thresholds are configurable through GitHub Actions environment inputs for manual runs and workflow defaults for scheduled runs.

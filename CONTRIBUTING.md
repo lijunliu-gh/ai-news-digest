@@ -19,7 +19,7 @@ The most common contribution is improving the fetcher, UI, or documentation. Dir
 {
   "id": "YYYY-MM-DD-NNN",
   "date": "YYYY-MM-DD",
-  "category": "microsoft | anthropic | openai | google",
+  "category": "github | anthropic | openai | google",
   "title": { "zh": "...", "ja": "...", "en": "..." },
   "summary": { "zh": "...", "ja": "...", "en": "..." },
   "url": "https://official-source-url",
@@ -35,7 +35,7 @@ The most common contribution is improving the fetcher, UI, or documentation. Dir
 - **Keep summaries concise** — 1-2 sentences, factual, no opinions
 - **Provide all three languages** — zh (Chinese), ja (Japanese), en (English)
 - **Use the correct source type** — `news`, `changelog`, or `release-notes`
-- **Use correct categories** — `microsoft` (includes GitHub), `anthropic`, `openai`, `google`
+- **Use correct categories** — `github`, `anthropic`, `openai`, `google`
 - **Validate JSON** — Run `python3 -c "import json; json.load(open('data/digest.json'))"` before submitting
 - **Do not hand-edit the translation cache unless necessary** — `data/translation-cache.json` is generated and reused by the refresh script
 

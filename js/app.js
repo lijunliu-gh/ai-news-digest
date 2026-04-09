@@ -7,7 +7,7 @@
 
   const CATEGORY_LABELS = {
     all: 'All',
-    microsoft: 'Microsoft / GitHub',
+    github: 'GitHub',
     anthropic: 'Anthropic',
     openai: 'OpenAI',
     google: 'Google',
@@ -16,7 +16,7 @@
   /* ---------- i18n ---------- */
   const I18N = {
     zh: {
-      heroSub: '关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态',
+      heroSub: '关注 GitHub, Anthropic, OpenAI, Google 四大 AI 平台的最新产品动态',
       statTotal: '总数', statToday: '今日', statCategories: '分类',
       filterAll: '全部',
       themeToggleAria: '切换明暗主题',
@@ -34,7 +34,7 @@
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
     },
     ja: {
-      heroSub: 'Microsoft / GitHub Copilot, Anthropic, OpenAI, Google — 4大AIベンダーの最新ニュース',
+      heroSub: 'GitHub, Anthropic, OpenAI, Google の4大AIプラットフォームの最新プロダクト情報',
       statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
       filterAll: 'すべて',
       themeToggleAria: 'ライト/ダークテーマを切り替え',
@@ -52,7 +52,7 @@
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
     },
     en: {
-      heroSub: 'Stay updated with the latest from Microsoft / GitHub Copilot, Anthropic, OpenAI & Google',
+      heroSub: 'Stay updated with the latest product launches and updates from GitHub, Anthropic, OpenAI, and Google',
       statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
       filterAll: 'All',
       themeToggleAria: 'Toggle light and dark theme',

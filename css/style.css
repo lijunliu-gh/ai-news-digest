@@ -311,7 +311,7 @@ a:hover { text-decoration: underline; }
 .filter-btn.active .count { color: var(--text-muted); }
 
 .filter-btn[data-cat="all"] .dot { background: var(--accent); }
-.filter-btn[data-cat="microsoft"] .dot { background: var(--microsoft); }
+.filter-btn[data-cat="github"] .dot { background: var(--microsoft); }
 .filter-btn[data-cat="anthropic"] .dot { background: var(--anthropic); }
 .filter-btn[data-cat="openai"] .dot { background: var(--openai); }
 .filter-btn[data-cat="google"] .dot { background: var(--google); }
@@ -454,7 +454,7 @@ a:hover { text-decoration: underline; }
   border-radius: 999px;
   white-space: nowrap;
 }
-.card-cat[data-cat="microsoft"] { color: var(--microsoft); background: var(--microsoft-bg); }
+.card-cat[data-cat="github"] { color: var(--microsoft); background: var(--microsoft-bg); }
 .card-cat[data-cat="anthropic"] { color: var(--anthropic); background: var(--anthropic-bg); }
 .card-cat[data-cat="openai"] { color: var(--openai); background: var(--openai-bg); }
 .card-cat[data-cat="google"] { color: var(--google); background: var(--google-bg); }

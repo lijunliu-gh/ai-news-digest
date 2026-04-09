@@ -22,7 +22,7 @@ on:
       required_sources:
         description: Comma-separated required sources
         required: false
-        default: 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google Cloud Release Notes,GitHub Changelog'
+        default: 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google DeepMind News,Google Cloud Release Notes,GitHub Changelog'
       optional_sources:
         description: Comma-separated optional sources excluded from drop checks
         required: false
@@ -49,7 +49,7 @@ jobs:
       DIGEST_TOTAL_DROP_RATIO: ${{ github.event.inputs.total_drop_ratio || '0.6' }}
       DIGEST_SOURCE_DROP_RATIO: ${{ github.event.inputs.source_drop_ratio || '0.4' }}
       DIGEST_SOURCE_BASELINE: ${{ github.event.inputs.source_baseline || '3' }}
-      DIGEST_REQUIRED_SOURCES: ${{ github.event.inputs.required_sources || 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google Cloud Release Notes,GitHub Changelog' }}
+      DIGEST_REQUIRED_SOURCES: ${{ github.event.inputs.required_sources || 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google DeepMind News,Google Cloud Release Notes,GitHub Changelog' }}
       DIGEST_OPTIONAL_SOURCES: ${{ github.event.inputs.optional_sources || 'GitHub Product News' }}
       DIGEST_ENABLE_TRANSLATION: '1'
 
