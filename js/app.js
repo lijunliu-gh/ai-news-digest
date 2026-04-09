@@ -29,6 +29,8 @@
       emptyState: '没有找到匹配的内容。',
       footerCredit: 'AI News Digest &mdash; 由 <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> 策划',
       footerDisclaimer: '数据通过手动或自动化更新，与所列公司无隶属关系。',
+      trendTitle: '更新频率趋势',
+      trendTooltipSuffix: '条更新',
       item: '条', items: '条',
       months: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
@@ -47,6 +49,8 @@
       emptyState: '一致する項目が見つかりません。',
       footerCredit: 'AI News Digest &mdash; <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> がキュレーション',
       footerDisclaimer: 'データは手動または自動で更新されます。掲載企業とは無関係です。',
+      trendTitle: '更新頻度トレンド',
+      trendTooltipSuffix: '件の更新',
       item: '件', items: '件',
       months: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
@@ -65,6 +69,8 @@
       emptyState: 'No matching items found.',
       footerCredit: 'AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a>',
       footerDisclaimer: 'Data updated manually or via automation. Not affiliated with any listed company.',
+      trendTitle: 'Update Frequency Trend',
+      trendTooltipSuffix: 'updates',
       item: 'item', items: 'items',
       months: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
       dateFmt: (y, m, d, months) => `${months[m]} ${d}, ${y}`,
@@ -105,6 +111,7 @@
         applyI18n();
         populateMonthFilter();
         render();
+        renderTrendChart();
       });
     });
   }
@@ -145,6 +152,7 @@
     bindLangSwitcher();
     applyI18n();
     render();
+    renderTrendChart();
   }
 
   /* ---------- Stats ---------- */
@@ -346,6 +354,149 @@
     if (el) el.textContent = value;
   }
 
+  /* ---------- Trend Chart ---------- */
+  const CHART_COLORS = {
+    github:    { line: '#00a4ef', fill: 'rgba(0, 164, 239, 0.08)' },
+    anthropic: { line: '#d4a574', fill: 'rgba(212, 165, 116, 0.08)' },
+    openai:    { line: '#10a37f', fill: 'rgba(16, 163, 127, 0.08)' },
+    google:    { line: '#ea4335', fill: 'rgba(234, 67, 53, 0.08)' },
+  };
+
+  let trendChart = null;
+
+  function buildTrendData() {
+    // Collect all YYYY-MM keys, sorted ascending
+    const monthSet = new Set();
+    for (const item of allItems) {
+      monthSet.add(item.date.slice(0, 7));
+    }
+    const months = [...monthSet].sort();
+
+    // Count per category per month
+    const cats = ['github', 'anthropic', 'openai', 'google'];
+    const series = {};
+    for (const cat of cats) {
+      series[cat] = months.map(m => allItems.filter(i => i.category === cat && i.date.startsWith(m)).length);
+    }
+
+    // Format labels
+    const labels = months.map(m => {
+      const [y, mon] = m.split('-');
+      const idx = parseInt(mon, 10) - 1;
+      const lang = I18N[currentLang] || I18N.zh;
+      if (currentLang === 'en') return `${lang.months[idx]} ${y}`;
+      return `${y}年${lang.months[idx]}`;
+    });
+
+    return { labels, months, series, cats };
+  }
+
+  function renderTrendChart() {
+    const canvas = document.getElementById('trend-chart');
+    if (!canvas || typeof Chart === 'undefined') return;
+
+    const { labels, series, cats } = buildTrendData();
+    if (labels.length === 0) return;
+
+    const isDark = (document.documentElement.getAttribute('data-theme') || 'dark') === 'dark';
+    const gridColor = isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)';
+    const tickColor = isDark ? '#8888a0' : '#555570';
+
+    const datasets = cats.map(cat => ({
+      label: CATEGORY_LABELS[cat] || cat,
+      data: series[cat],
+      borderColor: CHART_COLORS[cat].line,
+      backgroundColor: CHART_COLORS[cat].fill,
+      borderWidth: 2.5,
+      pointRadius: 4,
+      pointHoverRadius: 6,
+      pointBackgroundColor: CHART_COLORS[cat].line,
+      pointBorderColor: isDark ? '#12121a' : '#ffffff',
+      pointBorderWidth: 2,
+      tension: 0.35,
+      fill: true,
+    }));
+
+    const tooltipSuffix = t('trendTooltipSuffix');
+
+    if (trendChart) {
+      trendChart.data.labels = labels;
+      trendChart.data.datasets = datasets;
+      trendChart.options.scales.x.grid.color = gridColor;
+      trendChart.options.scales.y.grid.color = gridColor;
+      trendChart.options.scales.x.ticks.color = tickColor;
+      trendChart.options.scales.y.ticks.color = tickColor;
+      trendChart.update('none');
+      return;
+    }
+
+    trendChart = new Chart(canvas.getContext('2d'), {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: {
+          mode: 'index',
+          intersect: false,
+        },
+        plugins: {
+          legend: {
+            position: 'top',
+            align: 'end',
+            labels: {
+              boxWidth: 12,
+              boxHeight: 12,
+              borderRadius: 3,
+              useBorderRadius: true,
+              padding: 16,
+              font: { family: "'Inter', sans-serif", size: 12, weight: '500' },
+              color: tickColor,
+            },
+          },
+          tooltip: {
+            backgroundColor: isDark ? 'rgba(18,18,26,0.95)' : 'rgba(255,255,255,0.95)',
+            titleColor: isDark ? '#e0e0e8' : '#1a1a2e',
+            bodyColor: isDark ? '#8888a0' : '#555570',
+            borderColor: isDark ? 'rgba(30,30,46,0.8)' : 'rgba(200,200,220,0.5)',
+            borderWidth: 1,
+            cornerRadius: 8,
+            padding: 10,
+            bodyFont: { family: "'Inter', sans-serif", size: 12 },
+            titleFont: { family: "'Inter', sans-serif", size: 13, weight: '600' },
+            callbacks: {
+              label: function(ctx) {
+                return `${ctx.dataset.label}: ${ctx.parsed.y} ${tooltipSuffix}`;
+              }
+            }
+          },
+        },
+        scales: {
+          x: {
+            grid: { color: gridColor, drawBorder: false },
+            ticks: {
+              color: tickColor,
+              font: { family: "'Inter', sans-serif", size: 11 },
+              maxRotation: 0,
+            },
+            border: { display: false },
+          },
+          y: {
+            beginAtZero: true,
+            grid: { color: gridColor, drawBorder: false },
+            ticks: {
+              color: tickColor,
+              font: { family: "'JetBrains Mono', monospace", size: 11 },
+              stepSize: 1,
+              precision: 0,
+            },
+            border: { display: false },
+          },
+        },
+      },
+    });
+  }
+
   /* ---------- Theme ---------- */
   function syncThemeCheckbox() {
     const cb = document.getElementById('theme-checkbox');
@@ -358,6 +509,7 @@
     document.documentElement.setAttribute('data-theme', next);
     try { localStorage.setItem('theme', next); } catch {}
     syncThemeCheckbox();
+    renderTrendChart();
   };
 
   // Restore saved theme

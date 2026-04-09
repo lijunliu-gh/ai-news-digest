@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-04-09
+
+### Added
+- Interactive trend chart at the top of the page showing monthly update frequency per company (GitHub / Anthropic / OpenAI / Google) as color-coded line chart
+- Chart uses Chart.js via CDN, auto-aggregates from existing digest data, and updates dynamically with theme and language switches
+
 ## [0.8.0] - 2026-04-09
 
 ### Changed
