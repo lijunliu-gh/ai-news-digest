@@ -154,15 +154,14 @@ a:hover { text-decoration: underline; }
   background: var(--bg-filter);
   border: 1px solid var(--border);
   color: var(--text);
-  min-width: 74px;
+  width: 40px;
   height: 36px;
   border-radius: var(--radius-sm);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.45rem;
-  padding: 0 0.75rem 0 0.5rem;
+  padding: 0;
   transition: all var(--transition);
 }
 .theme-toggle:hover { color: var(--accent); border-color: var(--border-hover); background: var(--bg-filter-active); }
@@ -172,8 +171,8 @@ a:hover { text-decoration: underline; }
   box-shadow: 0 0 0 3px var(--accent-glow);
 }
 .theme-toggle-icon {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -182,12 +181,6 @@ a:hover { text-decoration: underline; }
   flex-shrink: 0;
 }
 .theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.theme-toggle-text {
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 [data-theme="light"] .theme-toggle { color: #b35c00; border-color: #d6c4a8; background: #fff8ed; }
 [data-theme="light"] .theme-toggle-icon { background: rgba(230, 126, 34, 0.14); }
 [data-theme="light"] .theme-toggle svg { stroke: #e67e22; fill: none; stroke-width: 2; }
@@ -580,7 +573,7 @@ a:hover { text-decoration: underline; }
   .card-source-meta { justify-content: flex-start; }
   .card-title { font-size: 0.95rem; }
   .header-inner { padding: 0.6rem 1rem; }
-  .theme-toggle { min-width: 68px; padding-right: 0.65rem; }
+  .theme-toggle { width: 40px; }
 }
 
 /* ---------- Scrollbar ---------- */

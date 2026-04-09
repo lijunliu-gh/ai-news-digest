@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.5.1] - 2026-04-09
+
+### Fixed
+- Simplified the theme toggle back to a clear icon-only control, keeping the moon visible in light mode and the sun visible in dark mode without an extra text label
+
 ## [0.5.0] - 2026-04-09
 
 ### Changed
