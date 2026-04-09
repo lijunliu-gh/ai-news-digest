@@ -1,10 +1,13 @@
 {
-  "Claude Managed Agents": {},
+  "Claude Managed Agents": {
+    "zh": "Claude 托管代理"
+  },
   "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview.": {
     "zh": "我们推出了公开测试版的 Claude Managed Agents，这是一个完全托管的代理工具，用于将 Claude 作为自治代理运行，具有安全沙箱、内置工具和服务器发送的事件流。通过 API 创建代理、配置容器并运行会话。所有端点都需要 Managed-agents-2026-04-01 beta 标头。在 Claude Managed Agents 概述中了解更多信息。"
   },
   "ant CLI": {
-    "ja": "アント CLI"
+    "ja": "アント CLI",
+    "zh": "蚂蚁命令行界面"
   },
   "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.": {
     "ja": "Claude API のコマンドライン クライアントである Ant CLI をリリースしました。これにより、Claude API との高速な対話、Claude Code とのネイティブ統合、YAML ファイル内の API リソースのバージョン管理が可能になります。詳細については、CLI リファレンスを参照してください。",
@@ -65,7 +68,9 @@
     "ja": "GitHub Copilot CLI を使用すると、GitHub でホストされるモデル ルーティングを使用する代わりに、独自のモデル プロバイダーに接続したり、完全にローカル モデルを実行したりできるようになりました。つまり、モデルを使用して…",
     "zh": "GitHub Copilot CLI 现在允许您连接自己的模型提供程序或运行完全本地模型，而不是使用 GitHub 托管的模型路由。这意味着您可以使用模型并且......"
   },
-  "Claude Mythos Preview": {},
+  "Claude Mythos Preview": {
+    "zh": "Claude 神话预览"
+  },
   "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.": {
     "ja": "Claude Mythos Preview が、Project Glasswing の一環として防御サイバーセキュリティ作業のためのゲート型研究プレビューとして利用可能であると発表しました。アクセスは招待制です。",
     "zh": "我们宣布 Claude Mythos Preview 作为 Glasswing 项目的一部分，作为防御性网络安全工作的封闭研究预览版提供。仅受邀请方可进入。"
@@ -111,7 +116,8 @@
     "zh": "Codex 现在包括 ChatGPT 商业版和企业版的即用即付定价，为团队提供更灵活的选择来启动和扩展采用。"
   },
   "Veo 3.1 Lite": {
-    "ja": "Veo 3.1 ライト"
+    "ja": "Veo 3.1 ライト",
+    "zh": "Veo 3.1 精简版"
   },
   "Feature Veo 3.1 Lite Veo 3.1 Lite is available in public preview. This release is our most cost-efficient Veo on Vertex AI model. For more information, see 3.1 Lite Generate Announcement Gemini 2.5 model retirement dates updated The retirement dates for Gemini 2.5 Pro, Gemini 2.5 Flash-Lite, and Gemini 2.5 Flash have been updated to October 16, 2026. For more information, see Model versions and lifecycle.": {
     "ja": "機能 Veo 3.1 Lite Veo 3.1 Lite はパブリック プレビューで利用可能です。このリリースは、最もコスト効率の高い Veo on Vertex AI モデルです。詳細については、「3.1 Lite 生成のお知らせ」を参照してください。 Gemini 2.5 モデルの廃止日が更新されました。 Gemini 2.5 Pro、Gemini 2.5 Flash-Lite、および Gemini 2.5 Flash の廃止日が 2026 年 10 月 16 日に更新されました。 詳細については、「モデルのバージョンとライフサイクル」を参照してください。",
@@ -206,7 +212,8 @@
     "zh": "Imagen 生成 GA 端点弃用"
   },
   "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image Deprecated Video generation GA endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001": {
-    "ja": "非推奨の Imagen 生成 GA エンドポイントの非推奨 次の表では、非推奨となったイメージ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image 非推奨 ビデオ生成 GA エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントについて説明します。および彼らの代替品。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001"
+    "ja": "非推奨の Imagen 生成 GA エンドポイントの非推奨 次の表では、非推奨となったイメージ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image 非推奨 ビデオ生成 GA エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントについて説明します。および彼らの代替品。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001",
+    "zh": "已弃用的 Imagen 生成 GA 端点已弃用 下表介绍了已弃用的映像生成端点及其替代品。我们建议在 2026 年 6 月 30 日之前更新您的模型端点，以避免服务中断。已停产的端点 建议的端点迁移 image Generation@002 gemini-2.5-flash-image image Generation@003 gemini-2.5-flash-image image Generation@004 gemini-2.5-flash-image image Generation@005 gemini-2.5-flash-image image Generation@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 双子座-2.5-flash-image imagen-3.0-capability-002 双子座-2.5-flash-image imagen-3.0-fast-generate-001 双子座-2.5-flash-image imagen-3.0-generate-001 双子座-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image 已弃用 视频生成 GA 端点弃用 下表介绍了已弃用的视频生成端点及其用途替代品。我们建议在 2026 年 6 月 30 日之前更新您的模型端点，以避免服务中断。已停用的端点 建议的端点迁移 veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001"
   },
   "Creating with Sora Safely": {
     "ja": "Sora で安全に作成する",
@@ -303,7 +310,9 @@
     "ja": "Anthropic が Claude Partner Network に 1 億ドルを投資",
     "zh": "Anthropic 向 Claude 合作伙伴网络投资 1 亿美元"
   },
-  "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.": {},
+  "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.": {
+    "zh": "我们正在启动 Claude 合作伙伴网络，这是一个为合作伙伴组织提供的计划，帮助企业采用 Claude。"
+  },
   "Added POST /v1/videos/edits for editing existing videos.": {
     "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。",
     "zh": "添加了 POST /v1/videos/edits 用于编辑现有视频。"
@@ -517,7 +526,8 @@
     "zh": "OpenAI 和 Figma 推出了新的 Codex 集成，将代码和设计连接起来，使团队能够在实施和 Figma 画布之间移动，以更快地迭代和交付。"
   },
   "Gemini 3.1 Flash Image": {
-    "ja": "Gemini 3.1 フラッシュ イメージ"
+    "ja": "Gemini 3.1 フラッシュ イメージ",
+    "zh": "Gemini 3.1 Flash 图片"
   },
   "Feature Gemini 3.1 Flash Image Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is available in public preview. This release enables high-quality image generation with improved pricing and latency. We recommend using Gemini 3.1 Flash Image when generating images. For more information, see Gemini 3.1 Flash Image.": {
     "ja": "機能 Gemini 3.1 Flash イメージ Gemini 3.1 Flash イメージ ( gemini-3.1-flash-image ) はパブリック プレビューで利用できます。このリリースでは、価格設定と遅延が改善された高品質のイメージ生成が可能になります。イメージを生成するときは、Gemini 3.1 Flash Image を使用することをお勧めします。詳細については、「Gemini 3.1 フラッシュ イメージ」を参照してください。",
@@ -639,7 +649,9 @@
     "ja": "OpenAI と Paradigm は、重大度の高いスマート コントラクトの脆弱性を検出、パッチ適用、悪用する AI エージェントの能力を評価するベンチマークである EVMbench を導入しました。",
     "zh": "OpenAI 和 Paradigm 推出了 EVMbench，这是一个评估 AI 代理检测、修补和利用高严重性智能合约漏洞能力的基准。"
   },
-  "Claude Sonnet 4.6": {},
+  "Claude Sonnet 4.6": {
+    "zh": "__保持00__ 4.6"
+  },
   "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details.": {
     "zh": "我们推出了 Claude Sonnet 4.6，这是我们最新的平衡模型，结合了日常任务的速度和智能。 Sonnet 4.6 提供改进的代理搜索性能，同时消耗更少的令牌。 Sonnet 4.6 支持扩展思维和 1M 令牌上下文窗口（测试版）。有关详细信息，请参阅型号和定价。"
   },
@@ -1141,7 +1153,8 @@
     "ja": "3.1 Pro は、単純な答えでは不十分なタスク向けに設計されています。"
   },
   "A new way to express yourself: Gemini can now create music": {
-    "ja": "自分自身を表現する新しい方法: ジェミニは音楽を作成できるようになりました"
+    "ja": "自分自身を表現する新しい方法: ジェミニは音楽を作成できるようになりました",
+    "zh": "表达自己的新方式：Gemini 现在可以创作音乐"
   },
   "Lyria 3 is now available in the Gemini app. Create custom, high-quality 30-second tracks from text and images.": {
     "zh": "Lyria 3 现已在 Gemini 应用程序中提供。从文本和图像创建自定义、高质量的 30 秒曲目。",
