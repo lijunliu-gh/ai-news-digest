@@ -170,25 +170,15 @@ a:hover { text-decoration: underline; }
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-glow);
 }
-.theme-toggle-icon {
-  width: 24px;
-  height: 24px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  border-radius: 999px;
-  background: var(--accent-glow);
-}
 .theme-icon {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   display: block;
-  fill: currentColor;
 }
 [data-theme="light"] .theme-toggle { color: #b35c00; border-color: #d6c4a8; background: #fff8ed; }
-[data-theme="light"] .theme-toggle-icon { background: rgba(230, 126, 34, 0.14); }
 [data-theme="light"] .theme-toggle:hover { color: #d35400; border-color: #e67e22; background: #fff3df; }
+[data-theme="dark"] .theme-toggle { color: #f4e3a1; }
+[data-theme="dark"] .theme-toggle:hover { color: #ffd866; }
 [data-theme="light"] .lang-btn { color: #444460; }
 [data-theme="light"] .lang-btn.active { color: #6c5ce7; }
 
