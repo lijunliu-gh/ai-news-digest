@@ -6,7 +6,7 @@ If you discover a security vulnerability in this project, please report it respo
 
 **Do NOT open a public issue.**
 
-Instead, please email: **lijunliu.gh@gmail.com**
+Instead, please open a [private security advisory](https://github.com/lijunliu-gh/ai-news-digest/security/advisories/new) on this repository.
 
 Include:
 - A description of the vulnerability
