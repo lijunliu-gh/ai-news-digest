@@ -32,9 +32,12 @@
           <button class="lang-btn" data-lang="ja">日</button>
           <button class="lang-btn" data-lang="en">EN</button>
         </div>
-        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-          <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3"/><path d="M12 18.5v3"/><path d="M21.5 12h-3"/><path d="M5.5 12h-3"/><path d="m18.7 5.3-2.1 2.1"/><path d="m7.4 16.6-2.1 2.1"/><path d="m18.7 18.7-2.1-2.1"/><path d="m7.4 7.4-2.1-2.1"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.2 7.2 0 0 0 9.8 9.8Z"/></svg>
+        <button class="theme-toggle" onclick="toggleTheme()" data-i18n-aria-label="themeToggleAria" data-i18n-title="themeToggleAria">
+          <span class="theme-toggle-icon" aria-hidden="true">
+            <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3"/><path d="M12 18.5v3"/><path d="M21.5 12h-3"/><path d="M5.5 12h-3"/><path d="m18.7 5.3-2.1 2.1"/><path d="m7.4 16.6-2.1 2.1"/><path d="m18.7 18.7-2.1-2.1"/><path d="m7.4 7.4-2.1-2.1"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.2 7.2 0 0 0 9.8 9.8Z"/></svg>
+          </span>
+          <span class="theme-toggle-text" data-i18n="themeToggleLabel">主题</span>
         </button>
       </div>
     </div>

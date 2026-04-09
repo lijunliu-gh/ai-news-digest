@@ -17,16 +17,27 @@ from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
+try:
+    from deep_translator import GoogleTranslator
+except ImportError:
+    GoogleTranslator = None
+
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / 'data'
 DIGEST_PATH = DATA_DIR / 'digest.json'
 ARCHIVE_PATH = DATA_DIR / 'archive.json'
+TRANSLATION_CACHE_PATH = DATA_DIR / 'translation-cache.json'
 REPORT_PATH = ROOT / '.digest-report.json'
 WINDOW_MONTHS = 3
 REQUEST_TIMEOUT = 30
 USER_AGENT = 'ai-news-digest-bot/0.5'
 ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
+TRANSLATION_TARGETS = ('zh', 'ja')
+TRANSLATION_LANGUAGE_CODES = {
+    'zh': 'zh-CN',
+    'ja': 'ja',
+}
 DEFAULT_MIN_ACTIVE_ITEMS = 60
 DEFAULT_TOTAL_DROP_RATIO = 0.6
 DEFAULT_SOURCE_DROP_RATIO = 0.4
@@ -382,6 +393,72 @@ def load_existing_items() -> tuple[dict[str, dict], list[dict]]:
     return existing_by_url, archived_items
 
 
+def load_translation_cache() -> dict[str, dict[str, str]]:
+    if not TRANSLATION_CACHE_PATH.exists():
+        return {}
+    payload = json.loads(TRANSLATION_CACHE_PATH.read_text(encoding='utf-8'))
+    return payload if isinstance(payload, dict) else {}
+
+
+class TranslationService:
+    def __init__(self, cache: dict[str, dict[str, str]]) -> None:
+        self.enabled = os.environ.get('DIGEST_ENABLE_TRANSLATION', '1') != '0'
+        self.cache = cache
+        self.clients: dict[str, object] = {}
+        self.dirty = False
+        self.cache_hits = 0
+        self.generated = 0
+        self.errors: list[str] = []
+
+    def translate(self, text: str, target: str) -> str:
+        normalized = normalize_whitespace(text)
+        if not normalized or target == 'en' or not self.enabled:
+            return normalized
+
+        cached = self.cache.get(normalized, {})
+        cached_value = normalize_whitespace(cached.get(target, '')) if isinstance(cached, dict) else ''
+        if cached_value:
+            self.cache_hits += 1
+            return cached_value
+
+        if GoogleTranslator is None:
+            self._record_error('Translation package missing; falling back to English text.')
+            return normalized
+
+        try:
+            client = self.clients.get(target)
+            if client is None:
+                client = GoogleTranslator(source='en', target=TRANSLATION_LANGUAGE_CODES.get(target, target))
+                self.clients[target] = client
+            translated = normalize_whitespace(client.translate(normalized))
+            if not translated:
+                translated = normalized
+            self.cache.setdefault(normalized, {})[target] = translated
+            self.generated += 1
+            self.dirty = True
+            return translated
+        except Exception as exc:
+            self._record_error(f'Translation failed for {target}: {exc}')
+            return normalized
+
+    def stats(self) -> dict[str, object]:
+        return {
+            'enabled': self.enabled,
+            'cacheEntries': len(self.cache),
+            'cacheHits': self.cache_hits,
+            'generated': self.generated,
+            'errors': self.errors[:10],
+        }
+
+    def _record_error(self, message: str) -> None:
+        if message not in self.errors:
+            self.errors.append(message)
+
+
+def save_translation_cache(cache: dict[str, dict[str, str]]) -> None:
+    write_json(TRANSLATION_CACHE_PATH, cache)
+
+
 def is_generated_localization(value: dict | str | None) -> bool:
     if isinstance(value, str):
         return bool(value)
@@ -391,21 +468,44 @@ def is_generated_localization(value: dict | str | None) -> bool:
     return bool(normalized_values) and len(set(normalized_values)) == 1
 
 
-def localize(existing: dict | None, field: str, english_text: str, refresh_generated: bool = False) -> dict[str, str]:
+def localize(
+    existing: dict | None,
+    field: str,
+    english_text: str,
+    translator: TranslationService,
+    refresh_generated: bool = False,
+) -> dict[str, str]:
     value = existing.get(field) if existing else None
     if isinstance(value, dict):
+        english_value = value.get('en') or english_text
         if refresh_generated and is_generated_localization(value):
-            return {'zh': english_text, 'ja': english_text, 'en': english_text}
+            return {
+                'zh': translator.translate(english_text, 'zh'),
+                'ja': translator.translate(english_text, 'ja'),
+                'en': english_text,
+            }
         return {
-            'zh': value.get('zh') or value.get('en') or english_text,
-            'ja': value.get('ja') or value.get('en') or english_text,
-            'en': value.get('en') or english_text,
+            'zh': value.get('zh') or translator.translate(english_value, 'zh'),
+            'ja': value.get('ja') or translator.translate(english_value, 'ja'),
+            'en': english_value,
         }
     if isinstance(value, str) and value:
         if refresh_generated:
-            return {'zh': english_text, 'ja': english_text, 'en': english_text}
-        return {'zh': value, 'ja': value, 'en': value}
-    return {'zh': english_text, 'ja': english_text, 'en': english_text}
+            return {
+                'zh': translator.translate(english_text, 'zh'),
+                'ja': translator.translate(english_text, 'ja'),
+                'en': english_text,
+            }
+        return {
+            'zh': translator.translate(value, 'zh'),
+            'ja': translator.translate(value, 'ja'),
+            'en': value,
+        }
+    return {
+        'zh': translator.translate(english_text, 'zh'),
+        'ja': translator.translate(english_text, 'ja'),
+        'en': english_text,
+    }
 
 
 def slug_from_url(url: str) -> str:
@@ -415,7 +515,7 @@ def slug_from_url(url: str) -> str:
     return slug or 'item'
 
 
-def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict]) -> list[dict]:
+def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], translator: TranslationService) -> list[dict]:
     items: list[dict] = []
     used_ids: set[str] = set()
     seen_urls: set[str] = set()
@@ -436,8 +536,8 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict]) -> l
             'id': item_id,
             'date': entry.date,
             'category': entry.category,
-            'title': localize(existing, 'title', entry.title_en, refresh_generated=True),
-            'summary': localize(existing, 'summary', entry.summary_en, refresh_generated=True),
+            'title': localize(existing, 'title', entry.title_en, translator, refresh_generated=True),
+            'summary': localize(existing, 'summary', entry.summary_en, translator, refresh_generated=True),
             'url': entry.url,
             'tags': entry.tags,
             'source': entry.source,
@@ -865,6 +965,8 @@ def main() -> int:
     cutoff = subtract_months(today, WINDOW_MONTHS)
 
     existing_by_url, existing_archive = load_existing_items()
+    translation_cache = load_translation_cache()
+    translator = TranslationService(translation_cache)
     previous_digest = []
     if DIGEST_PATH.exists():
         previous_digest = json.loads(DIGEST_PATH.read_text(encoding='utf-8')).get('items', [])
@@ -879,7 +981,7 @@ def main() -> int:
         + parse_github_entries(cutoff)
         + parse_github_changelog_entries(cutoff)
     )
-    fresh_digest = materialize(fresh_entries, existing_by_url)
+    fresh_digest = materialize(fresh_entries, existing_by_url, translator)
     fresh_digest = [item for item in fresh_digest if date.fromisoformat(item['date']) >= cutoff]
     fresh_digest.sort(key=lambda item: (item['date'], item['id']), reverse=True)
 
@@ -908,6 +1010,7 @@ def main() -> int:
                 'optionalSources': sorted(validation_config['optional_sources']),
             },
         },
+        'translation': translator.stats(),
     }
     emit_report(report)
 
@@ -915,6 +1018,8 @@ def main() -> int:
         for issue in validation_issues:
             print(f'VALIDATION ERROR: {issue}', file=sys.stderr)
         return 1
+
+    save_translation_cache(translation_cache)
 
     write_json(DIGEST_PATH, {
         'lastUpdated': today.isoformat(),

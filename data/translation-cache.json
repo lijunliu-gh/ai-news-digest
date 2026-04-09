@@ -1,0 +1,851 @@
+{
+  "Claude Managed Agents": {
+    "ja": "クロードが管理するエージェント"
+  },
+  "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview.": {
+    "ja": "クロード マネージド エージェントをパブリック ベータ版で開始しました。これは、安全なサンドボックス、組み込みツール、サーバー送信イベント ストリーミングを備えた自律エージェントとしてクロードを実行するためのフルマネージド エージェント ハーネスです。 API を介してエージェントを作成し、コンテナを構成し、セッションを実行します。すべてのエンドポイントには、managed-agents-2026-04-01 ベータ ヘッダーが必要です。詳細については、Claude 管理対象エージェントの概要をご覧ください。"
+  },
+  "ant CLI": {
+    "ja": "アント CLI"
+  },
+  "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.": {
+    "ja": "Claude API のコマンドライン クライアントである Ant CLI をリリースしました。これにより、Claude API との高速な対話、Claude Code とのネイティブ統合、YAML ファイル内の API リソースのバージョン管理が可能になります。詳細については、CLI リファレンスを参照してください。"
+  },
+  "GitHub Mobile: Research and code with Copilot cloud agent anywhere": {
+    "ja": "GitHub モバイル: Copilot クラウド エージェントを使用してどこでも調査とコード作成が可能"
+  },
+  "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…": {
+    "ja": "Copilot クラウド エージェントは、GitHub Mobile 上のプル リクエスト ワークフロー以上のものをサポートするようになったので、デスクから離れていても作業を続けることができます。副操縦士に調査を依頼してください…"
+  },
+  "GitHub Copilot in Visual Studio Code, March Releases": {
+    "ja": "Visual Studio Code の GitHub Copilot、3 月リリース"
+  },
+  "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully…": {
+    "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログは、2026 年 3 月から 4 月上旬にかけて出荷されたリリース v1.111 から v1.115 までをカバーしています。ハイライトには、完全な…"
+  },
+  "Copilot-reviewed pull request merge metrics now in the usage metrics API": {
+    "ja": "Copilot がレビューしたプル リクエストのマージ メトリクスが使用状況メトリクス API に追加されました"
+  },
+  "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new…": {
+    "ja": "2 月に出荷された、Copilot が作成したコーディング エージェントからのプル リクエストを追跡するプル リクエストのスループットとサイクルタイム メトリクスに基づいて、Copilot 使用状況メトリクス API には 2 つの新しい…"
+  },
+  "Project Glasswing": {
+    "ja": "プロジェクト・グラスウィング"
+  },
+  "A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software.": {
+    "ja": "世界で最も重要なソフトウェアを保護するために、Amazon Web Services、Anthropic、Apple、Broadcom、Cisco、CrowdStrike、Google、JPMorganChase、Linux Foundation、Microsoft、NVIDIA、および Palo Alto Networks が結集する新しい取り組みです。"
+  },
+  "Messages API": {
+    "ja": "メッセージAPI"
+  },
+  "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock.": {
+    "ja": "Messages API は、リサーチプレビューとして Amazon Bedrock で利用できるようになりました。 /anthropic/v1/messages にある Amazon Bedrock エンドポイントの新しい Claude は、ファーストパーティの Claude API と同じリクエスト形式を使用し、オペレーターアクセスなしで AWS 管理のインフラストラクチャ上で実行されます。 us-east-1 で利用可能です。 Anthropic アカウント エグゼクティブに連絡してアクセスをリクエストしてください。詳細については、Amazon Bedrock のクロードをご覧ください。"
+  },
+  "Dependabot alerts are now assignable to AI agents for remediation": {
+    "ja": "修復のために、Dependabot アラートを AI エージェントに割り当てられるようになりました"
+  },
+  "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,…": {
+    "ja": "依存関係の脆弱性の中には、バージョンを上げるだけではなく、プロジェクト全体でコードを変更する必要があるものもあります。 Dependabot アラートを、Copilot、Claude、Codex などの AI コーディング エージェントに割り当てることができるようになりました。"
+  },
+  "Copilot CLI now supports BYOK and local models": {
+    "ja": "Copilot CLI が BYOK およびローカル モデルをサポートするようになりました"
+  },
+  "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and…": {
+    "ja": "GitHub Copilot CLI を使用すると、GitHub でホストされるモデル ルーティングを使用する代わりに、独自のモデル プロバイダーに接続したり、完全にローカル モデルを実行したりできるようになりました。つまり、モデルを使用して…"
+  },
+  "Claude Mythos Preview": {
+    "ja": "クロード神話プレビュー"
+  },
+  "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.": {
+    "ja": "Claude Mythos Preview が、Project Glasswing の一環として防御サイバーセキュリティ作業のためのゲート型研究プレビューとして利用可能であると発表しました。アクセスは招待制です。"
+  },
+  "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute": {
+    "ja": "Anthropic は、数ギガワットの次世代コンピューティングを実現するために Google および Broadcom との提携を拡大します"
+  },
+  "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.": {
+    "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。"
+  },
+  "Industrial policy for the Intelligence Age": {
+    "ja": "インテリジェンス時代の産業政策"
+  },
+  "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.": {
+    "ja": "高度なインテリジェンスの進化に伴い、機会の拡大、繁栄の共有、回復力のある組織の構築に重点を置いた、AI 時代に向けた人間第一の野心的な産業政策のアイデアを探ってください。"
+  },
+  "Metadata search for RAG Engine": {
+    "ja": "RAG エンジンのメタデータ検索"
+  },
+  "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search.": {
+    "ja": "機能 RAG エンジンのメタデータ検索 Vertex AI RAG エンジンでスキーマベースのメタデータ検索を使用します。コーパスのメタデータ スキーマを定義し、そのコーパス内のファイルにメタデータを添付し、取得中にこのメタデータを使用してコンテキストをフィルタリングできます。詳細については、「メタデータ検索によるフィルター」を参照してください。"
+  },
+  "Vertex AI RAG Engine Serverless mode": {
+    "ja": "Vertex AI RAG エンジン サーバーレス モード"
+  },
+  "Feature Vertex AI RAG Engine Serverless mode Vertex AI RAG Engine Serverless mode is now available in public preview. Serverless mode provides a fully managed database for storing RAG resources that abstracts away database provisioning and scaling. You can seamlessly switch between Serverless mode and Spanner mode, which provides dedicated, isolated database instances. For more information, see the following: Deployment modes in Vertex AI RAG Engine Serverless mode Managing Spanner mode Switching between modes": {
+    "ja": "機能 Vertex AI RAG エンジン サーバーレス モード Vertex AI RAG エンジン サーバーレス モードがパブリック プレビューで利用できるようになりました。サーバーレス モードは、データベースのプロビジョニングとスケーリングを抽象化して、RAG リソースを保存するためのフルマネージド データベースを提供します。サーバーレス モードと、専用の分離されたデータベース インスタンスを提供する Spanner モードをシームレスに切り替えることができます。詳細については、次を参照してください。 Vertex AI RAG Engine のデプロイ モード サーバーレス モード Spanner モードの管理 モード間の切り替え"
+  },
+  "Codex now offers more flexible pricing for teams": {
+    "ja": "Codex はチーム向けに、より柔軟な価格設定を提供するようになりました"
+  },
+  "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.": {
+    "ja": "Codex には ChatGPT Business および Enterprise の従量課金制の価格が含まれており、チームが導入を開始して拡大するためのより柔軟なオプションを提供します。"
+  },
+  "Veo 3.1 Lite": {
+    "ja": "Veo 3.1 ライト"
+  },
+  "Feature Veo 3.1 Lite Veo 3.1 Lite is available in public preview. This release is our most cost-efficient Veo on Vertex AI model. For more information, see 3.1 Lite Generate Announcement Gemini 2.5 model retirement dates updated The retirement dates for Gemini 2.5 Pro, Gemini 2.5 Flash-Lite, and Gemini 2.5 Flash have been updated to October 16, 2026. For more information, see Model versions and lifecycle.": {
+    "ja": "機能 Veo 3.1 Lite Veo 3.1 Lite はパブリック プレビューで利用可能です。このリリースは、最もコスト効率の高い Veo on Vertex AI モデルです。詳細については、「3.1 Lite 生成のお知らせ」を参照してください。 Gemini 2.5 モデルの廃止日が更新されました。 Gemini 2.5 Pro、Gemini 2.5 Flash-Lite、および Gemini 2.5 Flash の廃止日が 2026 年 10 月 16 日に更新されました。 詳細については、「モデルのバージョンとライフサイクル」を参照してください。"
+  },
+  "New ways to balance cost and reliability in the Gemini API": {
+    "ja": "Gemini API でコストと信頼性のバランスをとる新しい方法"
+  },
+  "Google is introducing two new inference tiers to the Gemini API, Flex and Priority, to balance cost and latency.": {
+    "ja": "Google は、コストとレイテンシのバランスを取るために、Gemini API に Flex と Priority という 2 つの新しい推論層を導入しています。"
+  },
+  "Australian government and Anthropic sign MOU for AI safety and research": {
+    "ja": "オーストラリア政府とAnthropicがAIの安全性と研究に関するMOUを締結"
+  },
+  "Build with Veo 3.1 Lite, our most cost-effective video generation model": {
+    "ja": "当社の最もコスト効率の高いビデオ生成モデルである Veo 3.1 Lite で構築"
+  },
+  "Veo 3.1 Lite is now available in paid preview through the Gemini API and for testing in Google AI Studio.": {
+    "ja": "Veo 3.1 Lite は、Gemini API を介して有料プレビューで利用できるようになり、Google AI Studio でテストできるようになりました。"
+  },
+  "max_tokens": {
+    "ja": "max_tokens",
+    "zh": "最大令牌数"
+  },
+  "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.": {
+    "ja": "Claude Opus 4.6 および Sonnet 4.6 のメッセージ バッチ API の max_tokens の上限を 300k に引き上げました。長い形式のコンテンツ、構造化データ、および大規模なコード生成タスク用に、より長い 1 ターンの出力を生成するには、output-300k-2026-03-24 ベータ ヘッダーを含めます。"
+  },
+  "April 30, 2026": {
+    "ja": "2026 年 4 月 30 日"
+  },
+  "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required.": {
+    "ja": "Claude Sonnet 4.5 および Claude Sonnet 4 の 1M トークン コンテキスト ウィンドウ ベータ版は、2026 年 4 月 30 日に廃止されます。その日以降、context-1m-2025-08-07 ベータ ヘッダーはこれらのモデルに影響を与えなくなり、標準の 200k トークン コンテキスト ウィンドウを超えるリクエストはエラーを返します。 1M コンテキスト ウィンドウを引き続き使用するには、Claude Sonnet 4.6 または Claude Opus 4.6 に移行します。これらは、ベータ ヘッダーを必要とせず、標準価格で完全な 1M トークン コンテキスト ウィンドウをサポートします。"
+  },
+  "Helping disaster response teams turn AI into action across Asia": {
+    "ja": "災害対応チームがアジア全域で AI を活用できるよう支援"
+  },
+  "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation": {
+    "ja": "アジアにおける災害対応のための AI: ゲイツ財団との OpenAI ワークショップ"
+  },
+  "Inside our approach to the Model Spec": {
+    "ja": "モデルスペックへのアプローチの内部"
+  },
+  "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.": {
+    "ja": "OpenAI の Model Spec が、AI システムの進歩に合わせてモデルの動作、安全性、ユーザーの自由、説明責任のバランスをとるための公開フレームワークとしてどのように機能するかを学びましょう。"
+  },
+  "Lyria 3": {
+    "ja": "ルリア 3"
+  },
+  "Feature Lyria 3 Lyria is available in public preview. You can use lyria-3-pro-preview to generate 184 seconds of audio, or lyria-3-clip-preview to generate 30 seconds of audio. For more information, see the following: Lyria 3 Pro Preview Lyria 3 Clip Preview": {
+    "ja": "機能 Lyria 3 Lyria はパブリック プレビューで利用可能です。 lyria-3-pro-preview を使用して 184 秒のオーディオを生成するか、lyria-3-clip-preview を使用して 30 秒のオーディオを生成できます。詳細については、次を参照してください。 Lyria 3 Pro プレビュー Lyria 3 クリップ プレビュー"
+  },
+  "Build with Lyria 3, our newest music generation model": {
+    "ja": "最新の音楽生成モデルである Lyria 3 で構築"
+  },
+  "Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.": {
+    "ja": "Lyria 3 は、Gemini API を介して有料プレビューで利用できるようになり、Google AI Studio でテストできるようになりました。"
+  },
+  "Lyria 3 Pro: Create longer tracks in more Google products": {
+    "ja": "Lyria 3 Pro: より多くの Google サービスで長いトラックを作成"
+  },
+  "We are bringing Lyria 3 to the tools where professionals work and create every day.": {
+    "ja": "私たちは、プロフェッショナルが毎日作業し、作成するツールに Lyria 3 を導入します。"
+  },
+  "Helping developers build safer AI experiences for teens": {
+    "ja": "開発者による十代の若者向けのより安全な AI エクスペリエンスの構築を支援"
+  },
+  "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.": {
+    "ja": "OpenAI は、gpt-oss-safeguard を使用する開発者向けにプロンプ​​トベースの 10 代の安全ポリシーをリリースし、AI システムにおける年齢特有のリスクを緩和するのに役立ちます。"
+  },
+  "Imagen generation GA endpoints deprecation": {
+    "ja": "Imagen 生成の GA エンドポイントの非推奨"
+  },
+  "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image Deprecated Video generation GA endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001": {
+    "ja": "非推奨の Imagen 生成 GA エンドポイントの非推奨 次の表では、非推奨となったイメージ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image 非推奨 ビデオ生成 GA エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントについて説明します。および彼らの代替品。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001"
+  },
+  "Creating with Sora Safely": {
+    "ja": "Sora で安全に作成する"
+  },
+  "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.": {
+    "ja": "最先端のビデオ モデルと新しいソーシャル クリエーション プラットフォームによってもたらされる新たな安全性の課題に対処するために、私たちは安全性を基盤として Sora 2 と Sora アプリを構築しました。私たちのアプローチは具体的な保護に基づいています。"
+  },
+  "How we monitor internal coding agents for misalignment": {
+    "ja": "内部コーディングエージェントの位置ずれを監視する方法"
+  },
+  "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.": {
+    "ja": "OpenAI がどのように思考連鎖モニタリングを使用して内部コーディング エージェントの不整合を調査し、現実世界の展開を分析してリスクを検出し、AI の安全保護を強化するのか。"
+  },
+  "GET /v1/models": {
+    "ja": "GET /v1/models",
+    "zh": "获取/v1/模型"
+  },
+  "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports.": {
+    "ja": "モデル API にモデル機能フィールドを追加しました。 GET /v1/models および GET /v1/models/{model_id} は、max_input_tokens、max_tokens、および機能オブジェクトを返すようになりました。 API にクエリを実行して、各モデルがサポートしている内容を確認します。"
+  },
+  "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first": {
+    "ja": "OpenAI Japan、ティーンエイジャーの安全を最優先にするジャパン・ティーン・セーフティ・ブループリントを発表"
+  },
+  "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.": {
+    "ja": "OpenAI Japan は、生成 AI を使用した、10 代の若者に対するより強力な年齢保護、ペアレンタルコントロール、健康保護策を導入する Japan Teen Safety Blueprint を発表しました。"
+  },
+  "Equipping workers with insights about compensation": {
+    "ja": "従業員に報酬に関する洞察を提供する"
+  },
+  "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.": {
+    "ja": "新しい調査によると、アメリカ人は報酬や収入について尋ねるメッセージを毎日 300 万件近く ChatGPT に送信し、賃金情報の格差を埋めるのに役立っています。"
+  },
+  "GPT-5.4 mini, GPT-5.4 nano": {
+    "ja": "GPT-5.4ミニ、GPT-5.4ナノ"
+  },
+  "Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most. GPT-5.4 mini supports tool search, built-in computer use, and compaction. GPT-5.4 nano supports compaction, but does not support tool search or computer use.": {
+    "ja": "GPT-5.4 mini および GPT-5.4 nano をチャット完了および応答 API にリリースしました。 GPT-5.4 mini は、GPT-5.4 クラスの機能を大容量ワークロード向けのより高速で効率的なモデルにもたらします。一方、GPT-5.4 nano は、速度とコストが最も重要な単純な大容量タスク向けに最適化されています。 GPT-5.4 mini は、ツール検索、内蔵コンピューターの使用、および圧縮をサポートしています。 GPT-5.4 nano は圧縮をサポートしていますが、ツール検索やコンピューターの使用はサポートしていません。"
+  },
+  "Bringing the power of Personal Intelligence to more people": {
+    "ja": "パーソナル インテリジェンスのパワーをより多くの人に届ける"
+  },
+  "We're expanding Personal Intelligence across AI Mode in Search, the Gemini app and Gemini in Chrome.": {
+    "ja": "Google は、検索の AI モード、Gemini アプリ、Chrome の Gemini 全体にわたってパーソナル インテリジェンスを拡張しています。"
+  },
+  "display": {
+    "ja": "画面"
+  },
+  "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display.": {
+    "ja": "拡張思考のための表示フィールドを開始しました。これにより、ストリーミングを高速化するために応答から思考コンテンツを省略できるようになります。 Thinking.display: \"省略\" を設定すると、空の思考フィールドと複数ターンの連続性のために保存された署名を持つ思考ブロックを受け取ります。請求額は変更ありません。詳細については、思考表示の制御を参照してください。"
+  },
+  "Why Codex Security Doesn’t Include a SAST Report": {
+    "ja": "Codex Security に SAST レポートが含まれない理由"
+  },
+  "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.": {
+    "ja": "Codex Security が従来の SAST に依存せず、代わりに AI 主導の制約推論と検証を使用して、誤検知を減らして実際の脆弱性を検出する理由を詳しく説明します。"
+  },
+  "We've removed the dedicated 1M rate limits for all supported models.": {
+    "ja": "サポートされているすべてのモデルに対して、専用の 1M レート制限を削除しました。"
+  },
+  "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.": {
+    "ja": "サポートされているすべてのモデルに対して、専用の 1M レート制限を削除しました。標準アカウントの制限は、すべてのコンテキスト長に適用されるようになりました。"
+  },
+  "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.": {
+    "ja": "1M トークン コンテキスト ウィンドウを使用する場合、メディア制限をリクエストごとに 100 から 600 ページの画像または PDF ページに引き上げました。"
+  },
+  "1M token context window": {
+    "ja": "1M トークンのコンテキスト ウィンドウ"
+  },
+  "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.": {
+    "ja": "1M トークン コンテキスト ウィンドウは、Claude Opus 4.6 および Sonnet 4.6 で標準価格で一般提供されるようになりました。これらのモデルでは、ベータ ヘッダーを必要とせずに、200,000 トークンを超えるリクエストが自動的に機能します。 1M トークン コンテキスト ウィンドウは、Claude Sonnet 4.5 および Sonnet 4 のベータ版のままです。"
+  },
+  "Anthropic invests $100 million into the Claude Partner Network": {
+    "ja": "Anthropic が Claude Partner Network に 1 億ドルを投資"
+  },
+  "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude.": {
+    "ja": "私たちは、企業によるクロードの導入を支援するパートナー組織向けのプログラムであるクロード パートナー ネットワークを立ち上げます。"
+  },
+  "Added POST /v1/videos/edits for editing existing videos.": {
+    "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。"
+  },
+  "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here.": {
+    "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。これは、6 か月後に非推奨となる POST /v1/videos/{video_id}/remix に代わるものです。詳細については、こちらをご覧ください。"
+  },
+  "Expanded the Sora API with reusable character references, longer generations up to": {
+    "ja": "再利用可能な文字参照を使用して Sora API を拡張し、世代が長くなりました。"
+  },
+  "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here.": {
+    "ja": "再利用可能な文字参照、最大 20 秒の長い世代、sora-2-pro の 1080p 出力、ビデオ拡張機能、および POST /v1/videos のバッチ API サポートを備えた Sora API を拡張しました。 sora-2-pro の 1080p 世代の料金は 1 秒あたり 0.70 ドルです。詳細については、こちらをご覧ください。"
+  },
+  "Introducing The Anthropic Institute": {
+    "ja": "人類研究所の紹介"
+  },
+  "We’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies.": {
+    "ja": "私たちは、強力な AI が社会にもたらすであろう最も重大な課題に立ち向かうための新たな取り組みである The Anthropic Institute を立ち上げます。"
+  },
+  "From model to agent: Equipping the Responses API with a computer environment": {
+    "ja": "モデルからエージェントへ: Responses API にコンピュータ環境を装備"
+  },
+  "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.": {
+    "ja": "OpenAI が、Responses API、シェル ツール、ホストされたコンテナーを使用して、ファイル、ツール、状態を備えた安全でスケーラブルなエージェントを実行するエージェント ランタイムをどのように構築したか。"
+  },
+  "Designing AI agents to resist prompt injection": {
+    "ja": "即時注入に耐えられるように AI エージェントを設計する"
+  },
+  "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.": {
+    "ja": "ChatGPT は、エージェント ワークフローで危険なアクションを制限し、機密データを保護することで、プロンプト インジェクションとソーシャル エンジニアリングをどのように防御するか。"
+  },
+  "Sydney will become Anthropic’s fourth office in Asia-Pacific": {
+    "ja": "シドニーはAnthropicのアジア太平洋地域で4番目のオフィスとなる"
+  },
+  "New ways to learn math and science in ChatGPT": {
+    "ja": "ChatGPT で数学と科学を学ぶ新しい方法"
+  },
+  "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.": {
+    "ja": "ChatGPT は、数学と科学に関するインタラクティブな視覚的説明を導入し、学生が公式、変数、概念をリアルタイムで探索できるようにします。"
+  },
+  "Improving instruction hierarchy in frontier LLMs": {
+    "ja": "フロンティア LLM の命令階層の改善"
+  },
+  "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.": {
+    "ja": "IH-Challenge は、信頼できる命令に優先順位を付けるようにモデルをトレーニングし、命令階層、安全性の操作性、プロンプト インジェクション攻撃に対する耐性を向上させます。"
+  },
+  "Partnering with Mozilla to improve Firefox’s security": {
+    "ja": "Mozilla と提携して Firefox のセキュリティを向上"
+  },
+  "Where things stand with the Department of War": {
+    "ja": "陸軍省の現状"
+  },
+  "A statement from Dario Amodei": {
+    "ja": "ダリオ・アモデイ氏の声明"
+  },
+  "Reasoning models struggle to control their chains of thought, and that’s good": {
+    "ja": "推論モデルは思考連鎖を制御するのに苦労しますが、それは良いことです"
+  },
+  "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.": {
+    "ja": "OpenAI は CoT-Control を導入し、推論モデルが思考連鎖の制御に苦労していることを発見し、AI の安全保護手段としての監視可能性を強化します。"
+  },
+  "GPT-5.4 Thinking System Card": {
+    "ja": "GPT-5.4 思考システムカード"
+  },
+  "Introducing ChatGPT for Excel and new financial data integrations": {
+    "ja": "Excel 用 ChatGPT と新しい財務データ統合の紹介"
+  },
+  "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.": {
+    "ja": "OpenAI は、GPT-5.4 を利用した Excel 用 ChatGPT と新しい金融アプリの統合を導入し、規制された環境でのモデリング、調査、分析を加速します。"
+  },
+  "Ensuring AI use in education leads to opportunity": {
+    "ja": "教育における AI 活用の確実な推進が機会につながる"
+  },
+  "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.": {
+    "ja": "OpenAI は、学校や大学が AI 能力のギャップを埋め、機会を拡大できるよう、新しいツール、認定、測定リソースを共有します。"
+  },
+  "GPT-5.4, GPT-5.4 pro": {
+    "ja": "GPT-5.4、GPT-5.4プロ"
+  },
+  "Released GPT-5.4, our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency. Built-in Computer use support in GPT-5.4 through the Responses API computer tool for screenshot-based UI interaction. A 1M token context window and native Compaction support for longer-running agent workflows.": {
+    "ja": "プロフェッショナルな仕事向けの最新のフロンティア モデルである GPT-5.4 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対応するための GPT-5.4 プロを応答 API にリリースしました。また、リリースされました: Responses API のツール検索。これにより、モデルは実行時まで大きなツール サーフェスを延期して、トークンの使用量を削減し、キャッシュのパフォーマンスを維持し、レイテンシを改善できます。内蔵コンピューターは、スクリーンショット ベースの UI 対話用の Responses API コンピューター ツールを介して GPT-5.4 のサポートを使用します。 1M トークン コンテキスト ウィンドウとネイティブの圧縮サポートにより、長時間実行されるエージェント ワークフローがサポートされます。"
+  },
+  "Understanding AI and learning outcomes": {
+    "ja": "AI と学習成果を理解する"
+  },
+  "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.": {
+    "ja": "OpenAI は、さまざまな教育環境における生徒の学習に対する AI の影響を長期的に評価するための Learning Outcomes Measurement Suite を導入しています。"
+  },
+  "Extending single-minus amplitudes to gravitons": {
+    "ja": "単一マイナス振幅を重力子に拡張する"
+  },
+  "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.": {
+    "ja": "新しいプレプリントは、シングルマイナス振幅を重力子まで拡張し、GPT-5.2 Pro が量子重力における非ゼロ重力子ツリー振幅の導出と検証を支援します。"
+  },
+  "GPT-5.3 Instant System Card": {
+    "ja": "GPT-5.3 インスタント システム カード"
+  },
+  "GPT-5.3 Instant: Smoother, more useful everyday conversations": {
+    "ja": "GPT-5.3 Instant: よりスムーズでより便利な日常会話"
+  },
+  "Gemini 3.1 Flash-Lite": {
+    "ja": "ジェミニ 3.1 フラッシュライト"
+  },
+  "Feature Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite-preview ) is available in public preview. This release is our most cost-efficient Gemini model and is optimized for low latency use cases for high-volume, cost-sensitive LLM traffic. For more information, see Gemini 3.1 Flash-Lite. Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp veo-2.0-generate-001 veo-001-preview-0815 veo-2.0-generate-001 veo-001-preview veo-2.0-generate-001 veo-3.1-generate-preview veo-3.1-generate-001 veo-3.1-fast-generate-preview veo-3.1-fast-generate-001": {
+    "ja": "機能 Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite-preview ) はパブリック プレビューで利用可能です。このリリースは、最もコスト効率の高い Gemini モデルであり、大容量でコスト重視の LLM トラフィックの低遅延ユースケース向けに最適化されています。詳細については、「Gemini 3.1 Flash-Lite」を参照してください。非推奨のビデオ生成プレビュー エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 4 月 2 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp veo-2.0-generate-001 veo-001-preview-0815 veo-2.0-generate-001 veo-001-preview veo-2.0-generate-001 veo-3.1-generate-preview veo-3.1-generate-001 veo-3.1-fast-generate-preview veo-3.1-fast-generate-001"
+  },
+  "Our agreement with the Department of War": {
+    "ja": "陸軍省との協定"
+  },
+  "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.": {
+    "ja": "OpenAI と陸軍省との契約の詳細、安全上のレッドライン、法的保護、機密環境での AI システムの展開方法の概要。"
+  },
+  "Statement on the comments from Secretary of War Pete Hegseth": {
+    "ja": "ピート・ヘグセス陸軍長官のコメントに関する声明"
+  },
+  "Anthropic's response to the Secretary of War and advice for customers": {
+    "ja": "陸軍長官に対する Anthropic の回答と顧客へのアドバイス"
+  },
+  "An update on our mental health-related work": {
+    "ja": "メンタルヘルス関連の取り組みに関する最新情報"
+  },
+  "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.": {
+    "ja": "OpenAI は、ペアレンタルコントロール、信頼できる連絡先、苦痛検出の改善、最近の訴訟の展開など、メンタルヘルスの安全に関する取り組みに関する最新情報を共有しています。"
+  },
+  "Scaling AI for everyone": {
+    "ja": "AI を誰もが利用できるように拡張する"
+  },
+  "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.": {
+    "ja": "本日、プレマネー評価額 7,300 億ドルでの新規投資額 1,100 億ドルを発表します。これには、SoftBank からの 300 億ドル、NVIDIA からの 300 億ドル、Amazon からの 500 億ドルが含まれます。"
+  },
+  "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock": {
+    "ja": "Amazon Bedrock のエージェント向けステートフル ランタイム環境の紹介"
+  },
+  "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.": {
+    "ja": "Amazon Bedrock のエージェント用ステートフル ランタイムは、OpenAI を利用したマルチステップ AI ワークフローに永続的なオーケストレーション、メモリ、安全な実行をもたらします。"
+  },
+  "Joint Statement from OpenAI and Microsoft": {
+    "ja": "OpenAI と Microsoft の共同声明"
+  },
+  "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.": {
+    "ja": "Microsoft と OpenAI は、長年にわたる緊密なコラボレーションと成功の共有を基盤として、研究、エンジニアリング、製品開発の分野で緊密に連携し続けています。"
+  },
+  "Statement from Dario Amodei on our discussions with the Department of War": {
+    "ja": "陸軍省との協議に関するダリオ・アモデイ氏の声明"
+  },
+  "A statement from our CEO on national security uses of AI": {
+    "ja": "国家安全保障における AI の利用に関する CEO の声明"
+  },
+  "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting": {
+    "ja": "パシフィック・ノースウェスト国立研究所と OpenAI が提携して連邦政府の許可を加速"
+  },
+  "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.": {
+    "ja": "OpenAI とパシフィック ノースウェスト国立研究所は、AI コーディング エージェントが連邦許可をどのように加速できるかを評価する新しいベンチマークである DraftNEPABench を導入し、NEPA の起草時間を最大 15% 削減し、インフラストラクチャのレビューを最新化する可能性を示しています。"
+  },
+  "OpenAI Codex and Figma launch seamless code-to-design experience": {
+    "ja": "OpenAI Codex と Figma がシームレスなコードから設計までのエクスペリエンスを開始"
+  },
+  "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.": {
+    "ja": "OpenAI と Figma は、コードと設計を接続する新しい Codex 統合を開始し、チームが実装と Figma キャンバスの間を移動して反復し、より迅速に出荷できるようにします。"
+  },
+  "Gemini 3.1 Flash Image": {
+    "ja": "Gemini 3.1 フラッシュ イメージ"
+  },
+  "Feature Gemini 3.1 Flash Image Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is available in public preview. This release enables high-quality image generation with improved pricing and latency. We recommend using Gemini 3.1 Flash Image when generating images. For more information, see Gemini 3.1 Flash Image.": {
+    "ja": "機能 Gemini 3.1 Flash イメージ Gemini 3.1 Flash イメージ ( gemini-3.1-flash-image ) はパブリック プレビューで利用できます。このリリースでは、価格設定と遅延が改善された高品質のイメージ生成が可能になります。イメージを生成するときは、Gemini 3.1 Flash Image を使用することをお勧めします。詳細については、「Gemini 3.1 フラッシュ イメージ」を参照してください。"
+  },
+  "Anthropic acquires Vercept to advance Claude's computer use capabilities": {
+    "ja": "Anthropic が Vercept を買収し、Claude のコンピュータ利用能力を向上"
+  },
+  "Disrupting malicious uses of AI | February 2026": {
+    "ja": "AI の悪意のある使用を阻止する | 2026年2月"
+  },
+  "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.": {
+    "ja": "当社の最新の脅威レポートでは、悪意のある攻撃者が AI モデルを Web サイトやソーシャル プラットフォームとどのように組み合わせるか、またそれが検出と防御に何を意味するかを調査しています。"
+  },
+  "Arvind KC appointed Chief People Officer": {
+    "ja": "Arvind KC が最高人事責任者に任命"
+  },
+  "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.": {
+    "ja": "OpenAI は、会社の規模を拡大し、企業文化を強化し、AI 時代における仕事の進化を主導するため、Arvind KC を最高人事責任者に任命しました。"
+  },
+  "Released gpt-5.3-codex to the Responses API.": {
+    "ja": "gpt-5.3-codex を応答 API にリリースしました。"
+  },
+  "Released gpt-5.3-codex to the Responses API. Read more here.": {
+    "ja": "gpt-5.3-codex を応答 API にリリースしました。詳細はこちらをご覧ください。"
+  },
+  "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types.": {
+    "ja": "input_file のサポートが拡張され、より多くのドキュメント、プレゼンテーション、スプレッドシート、コード、テキスト ファイル タイプを受け入れるようになりました。"
+  },
+  "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here.": {
+    "ja": "input_file のサポートが拡張され、より多くのドキュメント、プレゼンテーション、スプレッドシート、コード、テキスト ファイル タイプを受け入れるようになりました。詳細については、こちらをご覧ください。"
+  },
+  "Why we no longer evaluate SWE-bench Verified": {
+    "ja": "SWEベンチを評価しなくなった理由"
+  },
+  "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro.": {
+    "ja": "SWE ベンチ Verified はますます汚染されており、フロンティア コーディングの進捗状況を誤って測定しています。私たちの分析では、欠陥のあるテストとトレーニングの漏れが明らかになりました。 SWE-bench Pro をお勧めします。"
+  },
+  "OpenAI announces Frontier Alliance Partners": {
+    "ja": "OpenAI、フロンティア・アライアンス・パートナーを発表"
+  },
+  "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.": {
+    "ja": "OpenAI は、安全でスケーラブルなエージェント展開により企業が AI パイロットから本番環境に移行できるよう支援する Frontier Alliance Partners を発表しました。"
+  },
+  "Released gpt-realtime-1.5 to the Realtime API.": {
+    "ja": "gpt-realtime-1.5 を Realtime API にリリースしました。"
+  },
+  "Released gpt-realtime-1.5 to the Realtime API. Read more here. Released gpt-audio-1.5 to the Chat Completions API. Read more here.": {
+    "ja": "gpt-realtime-1.5 を Realtime API にリリースしました。詳細はこちらをご覧ください。 gpt-audio-1.5 を Chat Completions API にリリースしました。詳細はこちらをご覧ください。"
+  },
+  "Launched WebSocket mode for the Responses API.": {
+    "ja": "Responses API の WebSocket モードを開始しました。"
+  },
+  "Launched WebSocket mode for the Responses API. Learn more here.": {
+    "ja": "Responses API の WebSocket モードを開始しました。詳細については、こちらをご覧ください。"
+  },
+  "Our First Proof submissions": {
+    "ja": "最初の校正刷りの提出"
+  },
+  "We share our AI model’s proof attempts for the First Proof math challenge, testing research-grade reasoning on expert-level problems.": {
+    "ja": "専門家レベルの問題について研究レベルの推論をテストする、最初の証明数学チャレンジに対する AI モデルの証明の試みを共有します。"
+  },
+  "automatic caching": {
+    "ja": "自動キャッシュ"
+  },
+  "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching.": {
+    "ja": "Messages API の自動キャッシュを開始しました。単一のcache_controlフィールドをリクエスト本文に追加すると、システムは最後のキャッシュ可能なブロックを自動的にキャッシュし、会話の成長に応じてキャッシュポイントを前方に移動します。手動によるブレークポイント管理は必要ありません。既存のブロックレベルのキャッシュ制御と連携して、きめ細かい最適化を実現します。 Claude API および Azure AI Foundry (プレビュー) で利用できます。詳細については、「プロンプト キャッシュ」を参照してください。"
+  },
+  "Advancing independent research on AI alignment": {
+    "ja": "AI アラインメントに関する独立した研究を推進"
+  },
+  "OpenAI commits $7.5M to The Alignment Project to fund independent AI alignment research, strengthening global efforts to address AGI safety and security risks.": {
+    "ja": "OpenAI は、独立した AI アラインメント研究に資金を提供するために The Alignment Project に 750 万ドルをコミットし、AGI の安全性とセキュリティのリスクに対処する世界的な取り組みを強化します。"
+  },
+  "Gemini 3.1 Pro Preview": {
+    "ja": "Gemini 3.1 プロ プレビュー"
+  },
+  "Feature Gemini 3.1 Pro Preview Gemini 3.1 Pro is available in preview in Model Garden. Gemini 3.1 Pro is our most advanced reasoning Gemini model, capable of solving complex problems from different information sources, including text, audio, images, video, PDFs, and even entire code repositories with its 1M token context window.": {
+    "ja": "機能 Gemini 3.1 Pro プレビュー Gemini 3.1 Pro は Model Garden でプレビューで利用できます。 Gemini 3.1 Pro は当社の最も高度な推論 Gemini モデルであり、テキスト、音声、画像、ビデオ、PDF、さらには 1M トークン コンテキスト ウィンドウを備えたコード リポジトリ全体など、さまざまな情報ソースからの複雑な問題を解決できます。"
+  },
+  "Introducing OpenAI for India": {
+    "ja": "インド向け OpenAI の紹介"
+  },
+  "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills.": {
+    "ja": "OpenAI for India は、インド全土に AI へのアクセスを拡大し、地域のインフラストラクチャを構築し、企業を強化し、従業員のスキルを向上させます。"
+  },
+  "Introducing EVMbench": {
+    "ja": "EVMbench の紹介"
+  },
+  "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities.": {
+    "ja": "OpenAI と Paradigm は、重大度の高いスマート コントラクトの脆弱性を検出、パッチ適用、悪用する AI エージェントの能力を評価するベンチマークである EVMbench を導入しました。"
+  },
+  "Claude Sonnet 4.6": {
+    "ja": "クロード・ソネット 4.6"
+  },
+  "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details.": {
+    "ja": "クロード ソネット 4.6 を発売しました。これは、日常業務向けのスピードとインテリジェンスを組み合わせたバランスの取れた最新モデルです。 Sonnet 4.6 は、トークンの消費量を減らしながら、エージェント検索のパフォーマンスを向上させます。 Sonnet 4.6 は拡張思考と 1M トークン コンテキスト ウィンドウ (ベータ版) をサポートしています。詳細については、「モデルと価格」を参照してください。"
+  },
+  "web search tool": {
+    "ja": "ウェブ検索ツール"
+  },
+  "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.": {
+    "ja": "Web 検索ツールとプログラムによるツール呼び出しが一般公開されました (ベータ ヘッダーは必要ありません)。 Web 検索と Web フェッチは動的フィルタリングをサポートするようになりました。これは、コード実行を使用して結果がコンテキスト ウィンドウに到達する前にフィルタリングすることで、パフォーマンスの向上とトークン コストの削減を実現します。"
+  },
+  "free when used with web search or web fetch": {
+    "ja": "Web 検索または Web フェッチと一緒に使用する場合は無料"
+  },
+  "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.": {
+    "ja": "Web 検索または Web フェッチと併用すると、API コードの実行が無料になりました。サンドボックス化されたコードの実行により、モデルの機能とトークンの効率が向上します。スタンドアロン使用の料金の詳細をご覧ください。"
+  },
+  "Scaling social science research": {
+    "ja": "社会科学研究の拡大"
+  },
+  "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.": {
+    "ja": "GABRIEL は OpenAI の新しいオープンソース ツールキットで、GPT を使用して定性的なテキストと画像を定量的なデータに変換し、社会科学者が研究を大規模に分析できるようにします。"
+  },
+  "GPT-5.2 derives a new result in theoretical physics": {
+    "ja": "GPT-5.2 は理論物理学における新たな結果を導き出します"
+  },
+  "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators.": {
+    "ja": "新しいプレプリントには、GPT-5.2 がグルーオン振幅の新しい公式を提案しており、後に OpenAI と学術協力者によって正式に証明および検証されたことが示されています。"
+  },
+  "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT": {
+    "ja": "ChatGPT にロックダウン モードとリスク上昇ラベルを導入"
+  },
+  "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration.": {
+    "ja": "ChatGPT にロックダウン モードとリスク上昇ラベルを導入し、組織が迅速なインジェクションや AI 主導のデータ漏洩から防御できるようにします。"
+  },
+  "Beyond rate limits: scaling access to Codex and Sora": {
+    "ja": "レート制限を超えて: Codex と Sora へのアクセスをスケーリングする"
+  },
+  "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex.": {
+    "ja": "OpenAI が、Sora と Codex への継続的なアクセスを強化するために、レート制限、使用量追跡、クレジットを組み合わせたリアルタイム アクセス システムをどのように構築したか。"
+  },
+  "Introducing GPT-5.3-Codex-Spark": {
+    "ja": "GPT-5.3-Codex-Spark の紹介"
+  },
+  "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users.": {
+    "ja": "当社初のリアルタイム コーディング モデルである GPT-5.3-Codex-Spark の紹介。 15 倍高速な生成、128k コンテキスト、現在 ChatGPT Pro ユーザー向けのリサーチ プレビュー中です。"
+  },
+  "Harness engineering: leveraging Codex in an agent-first world": {
+    "ja": "ハーネス エンジニアリング: エージェントファーストの世界で Codex を活用する"
+  },
+  "By Ryan Lopopolo, Member of the Technical Staff": {
+    "ja": "Ryan Lopopolo、技術スタッフのメンバーによる"
+  },
+  "Skills": {
+    "ja": "スキル"
+  },
+  "Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution.": {
+    "ja": "Responses API でのスキルのサポートを開始しました。ローカル実行とホストされたコンテナベースの実行の両方でスキルをサポートします。"
+  },
+  "server-side compaction": {
+    "ja": "サーバー側の圧縮"
+  },
+  "Launched server-side compaction in the Responses API.": {
+    "ja": "Responses API でサーバー側の圧縮を開始しました。"
+  },
+  "Hosted Shell": {
+    "ja": "ホストされたシェル"
+  },
+  "Launched a new Hosted Shell tool, as well as support for networking in containers.": {
+    "ja": "新しい Hosted Shell ツールとコンテナーでのネットワークのサポートを開始しました。"
+  },
+  "Batch API": {
+    "ja": "バッチAPI"
+  },
+  "Batch API is now supported for GPT Image models: gpt-image-1.5, chatgpt-image-latest, gpt-image-1, and gpt-image-1-mini.": {
+    "ja": "バッチ API が GPT イメージ モデル (gpt-image-1.5、chatgpt-image-latest、gpt-image-1、および gpt-image-1-mini) でサポートされるようになりました。"
+  },
+  "Testing ads in ChatGPT": {
+    "ja": "ChatGPT での広告のテスト"
+  },
+  "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.": {
+    "ja": "OpenAI は、明確なラベル付け、回答の独立性、強力なプライバシー保護、ユーザー制御を備えた無料アクセスをサポートするために、ChatGPT で広告のテストを開始します。"
+  },
+  "Bringing ChatGPT to GenAI.mil": {
+    "ja": "ChatGPT を GenAI.mil に導入"
+  },
+  "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams.": {
+    "ja": "OpenAI for Government は、GenAI.mil へのカスタム ChatGPT の展開を発表し、安全で安全性を重視した AI を米国の国防チームに提供します。"
+  },
+  "Added support for application/json requests on /v1/images/edits for GPT image models.": {
+    "ja": "GPT イメージ モデルの /v1/images/edits での application/json リクエストのサポートが追加されました。"
+  },
+  "Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads.": {
+    "ja": "GPT イメージ モデルの /v1/images/edits での application/json リクエストのサポートが追加されました。 JSON リクエストでは、マルチパート アップロードの代わりに、image_url または file_id 参照を持つ画像 (およびオプションのマスク) を使用します。"
+  },
+  "speed": {
+    "ja": "スピード"
+  },
+  "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.": {
+    "ja": "Opus 4.6 のリサーチ プレビューで高速モードを開始し、speed パラメーターを介して出力トークンの生成を大幅に高速化しました。高速モードは、プレミアム価格で最大 2.5 倍の速度になります。興味のあるお客様は順番待ちリストに参加してください。"
+  },
+  "Making AI work for everyone, everywhere: our approach to localization": {
+    "ja": "AI をどこでも誰でも使えるようにする: ローカリゼーションへのアプローチ"
+  },
+  "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety.": {
+    "ja": "OpenAI は、AI ローカライゼーションへのアプローチを共有し、安全性を損なうことなく、世界的に共有されるフロンティア モデルを現地の言語、法律、文化にどのように適応させることができるかを示しています。"
+  },
+  "thinking: {type: \"adaptive\"}": {
+    "ja": "思考: {タイプ: \"アダプティブ\"}"
+  },
+  "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: \"adaptive\"} ); manual thinking ( type: \"enabled\" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6.": {
+    "ja": "当社は、複雑なエージェント タスクや長期にわたる作業向けの最もインテリジェントなモデルである Claude Opus 4.6 をリリースしました。 Opus 4.6 では、適応的思考 ( Thinking: {type: \"adaptive\"} ) を推奨しています。手動による考え方 ( type: \"enabled\" with Budget_tokens ) は非推奨です。 Opus 4.6 は、アシスタント メッセージの事前入力をサポートしていません。詳細については、Claude 4.6 の新機能をご覧ください。"
+  },
+  "budget_tokens": {
+    "ja": "予算トークン"
+  },
+  "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models.": {
+    "ja": "努力パラメータは現在一般利用可能であり (ベータヘッダーは必要ありません)、Claude Opus 4.6 をサポートしています。 Effort は、新しいモデルの思考の深さを制御するために Budget_token を置き換えます。"
+  },
+  "inference_geo": {
+    "ja": "推論_地理"
+  },
+  "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.": {
+    "ja": "データ常駐制御が導入され、inference_geo パラメーターを使用してモデル推論を実行する場所を指定できるようになりました。 2026 年 2 月 1 日以降にリリースされたモデルについては、米国のみの推論を 1.1 倍の価格で利用できます。"
+  },
+  "compaction API": {
+    "ja": "コンパクションAPI"
+  },
+  "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6.": {
+    "ja": "私たちはコンパクション API をベータ版で開始し、実質的に無限の会話を実現するサーバー側のコンテキストの要約を提供しました。 Opus 4.6 で利用可能です。"
+  },
+  "Introducing Trusted Access for Cyber": {
+    "ja": "サイバー向けの信頼されたアクセスの導入"
+  },
+  "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse.": {
+    "ja": "OpenAI は、悪用に対する保護手段を強化しながら、最先端のサイバー機能へのアクセスを拡大する信頼ベースのフレームワークである Trusted Access for Cyber​​ を導入します。"
+  },
+  "GPT-5 lowers the cost of cell-free protein synthesis": {
+    "ja": "GPT-5 は無細胞タンパク質合成のコストを削減します"
+  },
+  "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.": {
+    "ja": "OpenAI の GPT-5 と Ginkgo Bioworks のクラウド オートメーションを組み合わせた自律型ラボは、閉ループ実験を通じて無細胞タンパク質合成コストを 40% 削減しました。"
+  },
+  "GPT-5.3-Codex System Card": {
+    "ja": "GPT-5.3-Codex システム カード"
+  },
+  "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.": {
+    "ja": "GPT-5.3-Codex は、GPT-5.2-Codex のフロンティア コーディング パフォーマンスと GPT-5.2 の推論および専門知識機能を組み合わせた、これまでで最も有能なエージェント コーディング モデルです。"
+  },
+  "Unlocking the Codex harness: how we built the App Server": {
+    "ja": "Codex ハーネスのロックを解除する: App Server の構築方法"
+  },
+  "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs.": {
+    "ja": "ストリーミングの進行状況、ツールの使用、承認、および差分を強化する双方向 JSON-RPC API である Codex App Server を使用して Codex エージェントを埋め込む方法を学びます。"
+  },
+  "The Sora feed philosophy": {
+    "ja": "ソラフィードの哲学"
+  },
+  "Discover the Sora feed philosophy—built to spark creativity, foster connections, and keep experiences safe with personalized recommendations, parental controls, and strong guardrails.": {
+    "ja": "Sora フィードの哲学をご覧ください。創造性を刺激し、つながりを育み、パーソナライズされた推奨事項、ペアレンタル コントロール、強力なガードレールによって体験を安全に保つために構築されています。"
+  },
+  "GPT-5.2, GPT-5.2-Codex": {
+    "ja": "GPT-5.2、GPT-5.2-コーデックス"
+  },
+  "We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged.": {
+    "ja": "API 顧客向けに推論スタックを最適化し、GPT-5.2 および GPT-5.2-Codex が最大 40% 高速に実行されるようになりました。モデルとモデルの重量は変更されません。"
+  },
+  "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data": {
+    "ja": "Snowflake と OpenAI が提携し、エンタープライズ データにフロンティア インテリジェンスを導入"
+  },
+  "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake.": {
+    "ja": "OpenAI と Snowflake は、フロンティア インテリジェンスをエンタープライズ データに取り込み、Snowflake で直接 AI エージェントと洞察を可能にするために 2 億ドルの契約で提携しています。"
+  },
+  "output_format": {
+    "ja": "出力形式"
+  },
+  "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.": {
+    "ja": "構造化出力は、Claude Sonnet 4.5、Claude Opus 4.5、および Claude Haiku 4.5 の Claude API で一般提供されるようになりました。 GA には、拡張スキーマ サポート、改善された文法コンパイル レイテンシ、およびベータ ヘッダーを必要としない簡素化された統合パスが含まれています。 Output_format パラメータは、output_config.format に移動されました。既存のベータ版ユーザーは、移行期間中引き続きベータ版ヘッダーを使用できます。構造化された出力は、Amazon Bedrock と Microsoft Foundry のパブリックベータ版のままです。"
+  },
+  "Inside OpenAI’s in-house data agent": {
+    "ja": "OpenAI の社内データ エージェントの内部"
+  },
+  "How OpenAI built an in-house AI data agent that uses GPT-5, Codex, and memory to reason over massive datasets and deliver reliable insights in minutes.": {
+    "ja": "OpenAI が、GPT-5、Codex、メモリを使用して大規模なデータセットを推論し、信頼性の高い洞察を数分で提供する社内 AI データ エージェントをどのように構築したか。"
+  },
+  "The next chapter for AI in the EU": {
+    "ja": "EU における AI の次の章"
+  },
+  "OpenAI launches the EU Economic Blueprint 2.0 with new data, partnerships, and initiatives to accelerate AI adoption, skills, and growth across Europe.": {
+    "ja": "OpenAI は、ヨーロッパ全土で AI の導入、スキル、成長を加速するための新しいデータ、パートナーシップ、イニシアチブを備えた EU 経済ブループリント 2.0 を発表します。"
+  },
+  "EMEA Youth & Wellbeing Grant": {
+    "ja": "EMEA の青少年と福祉の助成金"
+  },
+  "Apply for the EMEA Youth & Wellbeing Grant, a €500,000 program funding NGOs and researchers advancing youth safety and wellbeing in the age of AI.": {
+    "ja": "EMEA Youth & Wellbeing Grant に応募してください。この助成金は、AI 時代における青少年の安全と福祉を推進する NGO や研究者に資金を提供する 50 万ユーロのプログラムです。"
+  },
+  "Keeping your data safe when an AI agent clicks a link": {
+    "ja": "AI エージェントがリンクをクリックしたときにデータを安全に保つ"
+  },
+  "Learn how OpenAI protects user data when AI agents open links, preventing URL-based data exfiltration and prompt injection with built-in safeguards.": {
+    "ja": "AI エージェントがリンクを開いたときに OpenAI がどのようにユーザー データを保護し、URL ベースのデータ漏洩や組み込みの安全装置によるプロンプト インジェクションを防止するかを学びましょう。"
+  },
+  "PVH reimagines the future of fashion with OpenAI": {
+    "ja": "PVH は OpenAI でファッションの未来を再考します"
+  },
+  "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.": {
+    "ja": "Calvin Klein と Tommy Hilfiger の親会社である PVH Corp. は、ファッション デザイン、サプライ チェーン、消費者エンゲージメントに AI を導入するために ChatGPT Enterprise を採用しています。"
+  },
+  "Introducing Prism": {
+    "ja": "プリズムの紹介"
+  },
+  "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.": {
+    "ja": "Prism は、GPT-5.2 が組み込まれた無料の LaTeX ネイティブ ワークスペースで、研究者が 1 か所で執筆、共同作業、推論するのに役立ちます。"
+  },
+  "Unrolling the Codex agent loop": {
+    "ja": "Codex エージェント ループの展開"
+  },
+  "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API.": {
+    "ja": "Codex エージェント ループの技術的な詳細を説明し、Codex CLI が Responses API を使用してモデル、ツール、プロンプト、パフォーマンスを調整する方法を説明します。"
+  },
+  "Scaling PostgreSQL to power 800 million ChatGPT users": {
+    "ja": "PostgreSQL を拡張して 8 億 ChatGPT ユーザーをサポート"
+  },
+  "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation.": {
+    "ja": "OpenAI がレプリカ、キャッシュ、レート制限、ワークロード分離を使用して、PostgreSQL を 1 秒あたり数百万のクエリにどのように拡張したかを内部的に見ていきます。"
+  },
+  "How countries can end the capability overhang": {
+    "ja": "各国が能力のオーバーハングをどのように解消できるか"
+  },
+  "Our latest report reveals stark differences in advanced AI adoption across countries and outlines new initiatives to help nations capture productivity gains from AI.": {
+    "ja": "私たちの最新のレポートでは、先進的な AI 導入における各国の明らかな違いが明らかになり、各国が AI による生産性の向上を実現できるよう支援する新たな取り組みについて概説しています。"
+  },
+  "How Higgsfield turns simple ideas into cinematic social videos": {
+    "ja": "ヒッグスフィールド氏がシンプルなアイデアを映画のようなソーシャル ビデオに変える方法"
+  },
+  "Discover how Higgsfield gives creators cinematic, social-first video output from simple inputs using OpenAI GPT-4.1, GPT-5, and Sora 2.": {
+    "ja": "Higgsfield が OpenAI GPT-4.1、GPT-5、Sora 2 を使用して、単純な入力から映画のようなソーシャル ファーストのビデオ出力をクリエイターに提供する方法をご覧ください。"
+  },
+  "Stargate Community": {
+    "ja": "スターゲイト コミュニティ"
+  },
+  "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities.": {
+    "ja": "Stargate Community 計画では、コミュニティからの意見、エネルギー需要、労働力の優先順位に基づいて形成された地域に合わせた計画を使用して、AI インフラストラクチャに対するコミュニティファーストのアプローチを詳しく説明します。"
+  },
+  "ServiceNow powers actionable enterprise AI with OpenAI": {
+    "ja": "ServiceNow は OpenAI を使用して実用的なエンタープライズ AI を強化します"
+  },
+  "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform.": {
+    "ja": "ServiceNow は、OpenAI フロンティア モデルへのアクセスを拡張し、ServiceNow プラットフォーム全体で AI 主導のエンタープライズ ワークフロー、要約、検索、音声を強化します。"
+  },
+  "Our approach to age prediction": {
+    "ja": "年齢予測に対する当社のアプローチ"
+  },
+  "ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time.": {
+    "ja": "ChatGPT は、アカウントが 18 歳未満か 18 歳以上かを推定する年齢予測を展開​​し、10 代の若者に保護措置を適用し、時間の経過とともに精度を向上させています。"
+  },
+  "Horizon 1000: Advancing AI for primary healthcare": {
+    "ja": "Horizo​​n 1000: プライマリヘルスケアのための AI の進歩"
+  },
+  "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028.": {
+    "ja": "OpenAI とゲイツ財団は、アフリカの医療向け AI 機能を推進する 5,000 万ドルのパイロット事業である Horizo​​n 1000 を立ち上げました。この取り組みでは、2028 年までに 1,000 の診療所を設立することを目指しています。"
+  },
+  "AI for self empowerment": {
+    "ja": "自己啓発のための AI"
+  },
+  "How AI can expand human agency by closing the capability overhang—helping people, businesses, and countries unlock real productivity, growth, and opportunity.": {
+    "ja": "AI が機能のオーバーハングを解消することで人間の主体性をどのように拡張できるか—人々、企業、国が真の生産性、成長、機会を解放できるよう支援します。"
+  },
+  "A business that scales with the value of intelligence": {
+    "ja": "インテリジェンスの価値に合わせて拡張するビジネス"
+  },
+  "OpenAI’s business model scales with intelligence—spanning subscriptions, API, ads, commerce, and compute—driven by deepening ChatGPT adoption.": {
+    "ja": "OpenAI のビジネス モデルは、ChatGPT の導入の深化によって推進され、サブスクリプション、API、広告、コマース、コンピューティングに及ぶインテリジェンスに応じて拡張されます。"
+  },
+  "The truth left out from Elon Musk’s recent court filing": {
+    "ja": "イーロン・マスクの最近の裁判所への提出から抜け落ちた真実"
+  },
+  "The truth left out from Elon Musk’s recent court filing.": {
+    "ja": "イーロン・マスクの最近の裁判所への提出からは抜け落ちた真実。"
+  },
+  "Our approach to advertising and expanding access to ChatGPT": {
+    "ja": "ChatGPT へのアクセスを宣伝し拡大するための当社のアプローチ"
+  },
+  "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.": {
+    "ja": "OpenAI は、プライバシー、信頼、回答の品質を保護しながら、世界中で AI への手頃な価格のアクセスを拡大するために、米国で ChatGPT の無料層と Go 層の広告をテストする予定です。"
+  },
+  "Introducing ChatGPT Go, now available worldwide": {
+    "ja": "ChatGPT Go の紹介、世界中で利用可能になりました"
+  },
+  "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally.": {
+    "ja": "ChatGPT Go は現在世界中で利用可能であり、GPT-5.2 Instant への拡張アクセス、より高い使用制限、より長いメモリを提供し、高度な AI を世界中でより手頃な価格にしています。"
+  },
+  "Strengthening the U.S. AI supply chain through domestic manufacturing": {
+    "ja": "国内製造による米国AIサプライチェーンの強化"
+  },
+  "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure.": {
+    "ja": "OpenAI は、国内製造の加速、雇用の創出、AI インフラストラクチャの拡張によって米国の AI サプライ チェーンを強化するための新しい RFP を発表します。"
+  },
+  "Investing in Merge Labs": {
+    "ja": "Merge Labs への投資"
+  },
+  "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience.": {
+    "ja": "OpenAI は、生物学的知能と人工知能を橋渡しして人間の能力、主体性、経験を最大化する新しいブレイン コンピューター インターフェイスをサポートするために Merge Labs に投資しています。"
+  },
+  "Open Responses": {
+    "ja": "自由回答"
+  },
+  "Announced Open Responses: an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API.": {
+    "ja": "発表された Open Responses: オリジナルの OpenAI Responses API 上に構築された、マルチプロバイダーの相互運用可能な LLM インターフェイスを構築するためのオープンソース仕様。"
+  },
+  "OpenAI partners with Cerebras": {
+    "ja": "OpenAI が Cerebras と提携"
+  },
+  "OpenAI partners with Cerebras to add 750MW of high-speed AI compute, reducing inference latency and making ChatGPT faster for real-time AI workloads.": {
+    "ja": "OpenAI は Cerebras と提携して 750MW の高速 AI コンピューティングを追加し、推論レイテンシーを削減し、リアルタイム AI ワークロード向けに ChatGPT を高速化します。"
+  },
+  "Released gpt-5.2-codex to the Responses API.": {
+    "ja": "gpt-5.2-codex を応答 API にリリースしました。"
+  },
+  "Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here.": {
+    "ja": "gpt-5.2-codex を応答 API にリリースしました。 GPT-5.2-Codex は、Codex または同様の環境でのエージェント コーディング タスク用に最適化された GPT-5.2 のバージョンです。詳細はこちらをご覧ください。"
+  },
+  "Veo 3.1 reference-to-video update": {
+    "ja": "Veo 3.1 リファレンスとビデオの更新"
+  },
+  "Feature Veo 3.1 reference-to-video update Veo 3.1 Preview models now support the following features: 9:16 aspect ratio for reference-to-video. Upsampling for videos generated at 1080p and 4k resolutions. For more information, see the following: Generate Veo videos from reference images Veo on Vertex AI video generation API": {
+    "ja": "機能 Veo 3.1 リファレンス対ビデオのアップデート Veo 3.1 プレビュー モデルは、次の機能をサポートするようになりました: リファレンス対ビデオのアスペクト比 9:16。 1080p および 4k 解像度で生成されたビデオのアップサンプリング。詳細については、以下を参照してください: 参照画像から Veo ビデオを生成する Vertex AI ビデオ生成 API 上の Veo"
+  },
+  "Added dedicated SIP IP ranges for Realtime API.": {
+    "ja": "リアルタイム API の専用 SIP IP 範囲を追加しました。"
+  },
+  "Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more.": {
+    "ja": "リアルタイム API の専用 SIP IP 範囲を追加しました。 sip.api.openai.com は GeoIP ルーティングを実行し、SIP トラフィックを最も近いリージョンに送信します。もっと詳しく知る。"
+  },
+  "console.anthropic.com": {
+    "ja": "console.anthropic.com",
+    "zh": "console.anthropic.com"
+  },
+  "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement.": {
+    "ja": "console.anthropic.com は platform.claude.com にリダイレクトされるようになりました。クロード コンソールは、クロード ブランド統合の一環として新しい場所に移動しました。既存のブックマークとリンクは、自動リダイレクトによって引き続き機能します。詳細については、2025 年 9 月 16 日の発表をご覧ください。"
+  },
+  "OpenAI’s Raising Concerns Policy": {
+    "ja": "OpenAI の懸念表明ポリシー"
+  },
+  "We’re publishing our Raising Concerns Policy, which protects employees’ rights to make protected disclosures.": {
+    "ja": "当社は、従業員が保護された開示を行う権利を保護する懸念提起ポリシーを公開しています。"
+  },
+  "OpenAI and SoftBank Group partner with SB Energy": {
+    "ja": "OpenAIとソフトバンクグループがSBエナジーと提携"
+  },
+  "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative.": {
+    "ja": "OpenAIとソフトバンクグループはSBエナジーと提携して、スターゲイト構想をサポートする1​​.2ギガワットのテキサス施設を含む、マルチギガワットのAIデータセンターキャンパスを開発している。"
+  }
+}

@@ -10,13 +10,14 @@
 ## Features
 
 - 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
-- 🌍 **Trilingual** — Switch between 中文 / 日本語 / English
+- 🌍 **Trilingual** — Switch between 中文 / 日本語 / English with data-level localization for every item
 - 🌓 **Dark & Light Mode** — Respects user preference with manual toggle
+- 🎛️ **Clear Theme Toggle** — The header theme switch now shows both an icon and a text label instead of an ambiguous icon-only button
 - 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
-- ⚡ **Zero Dependencies** — Pure HTML / CSS / JS, no build step required
+- ⚡ **No Frontend Build Step** — Pure HTML / CSS / JS frontend, with a small Python dependency only for the refresh script
 
 ## Project Structure
 
@@ -29,7 +30,8 @@ ai-news-digest/
 │   └── app.js          # App logic (i18n, filtering, rendering)
 ├── data/
 │   ├── archive.json    # Older items moved out of the active 3-month window
-│   └── digest.json     # Active news data for the latest 3 months
+│   ├── digest.json     # Active news data for the latest 3 months
+│   └── translation-cache.json # Cached machine translations for titles and summaries
 ├── scripts/
 │   └── update_digest.py # Official-source fetcher and retention manager
 ├── .github/
@@ -113,13 +115,20 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 - Items older than 3 months are removed from `data/digest.json`.
 - Removed items are preserved in `data/archive.json`.
 - Existing manual translations are preserved when the same URL already exists.
-- Newly fetched items default to English text in all three language fields unless translations already exist locally.
+- Newly fetched English items are machine-translated into Chinese and Japanese, then cached for reuse in later refreshes.
+- The translation cache lives in `data/translation-cache.json` and is committed so future runs reuse the same phrasing.
 - The homepage shows whether an item came from a news page, changelog, or release-notes surface.
 - Each GitHub Actions run publishes a job summary with total items, per-source counts, and any validation issues.
 
 ## Development
 
-No build tools needed. Just open `index.html` in a browser, or run a local server:
+No frontend build tools are needed. For the automation script, install Python dependencies first:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Then open `index.html` in a browser, run a local server, or rebuild the datasets manually:
 
 ```bash
 # Python
@@ -127,6 +136,9 @@ python3 -m http.server 8000
 
 # Node.js
 npx serve .
+
+# Refresh digest data
+python3 scripts/update_digest.py
 ```
 
 ## Contributing

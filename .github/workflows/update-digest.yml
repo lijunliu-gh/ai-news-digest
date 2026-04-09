@@ -51,6 +51,7 @@ jobs:
       DIGEST_SOURCE_BASELINE: ${{ github.event.inputs.source_baseline || '3' }}
       DIGEST_REQUIRED_SOURCES: ${{ github.event.inputs.required_sources || 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google Cloud Release Notes,GitHub Changelog' }}
       DIGEST_OPTIONAL_SOURCES: ${{ github.event.inputs.optional_sources || 'GitHub Product News' }}
+      DIGEST_ENABLE_TRANSLATION: '1'
 
     steps:
       - name: Checkout repository
@@ -60,6 +61,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
 
       - name: Refresh digest data
         env:
@@ -96,11 +100,21 @@ jobs:
                   lines.append(f"- Total drop ratio: {config.get('totalDropRatio')}")
                   lines.append(f"- Source drop ratio: {config.get('sourceDropRatio')}")
                   lines.append(f"- Source baseline: {config.get('sourceBaseline')}")
-              if validation.get('issues'):
+                if validation.get('issues'):
                   lines.append('')
                   lines.append('### Validation issues')
                   for issue in validation['issues']:
                       lines.append(f'- {issue}')
+                translation = report.get('translation', {})
+                if translation:
+                  lines.append('')
+                  lines.append('### Translation')
+                  lines.append(f"- Enabled: {translation.get('enabled')}")
+                  lines.append(f"- Cache entries: {translation.get('cacheEntries')}")
+                  lines.append(f"- Cache hits: {translation.get('cacheHits')}")
+                  lines.append(f"- New translations: {translation.get('generated')}")
+                  for error in translation.get('errors', []):
+                    lines.append(f'- Translation note: {error}')
               if active.get('sources'):
                   lines.append('')
                   lines.append('### Source counts')
@@ -118,12 +132,12 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- data/digest.json data/archive.json; then
+          if git diff --quiet -- data/digest.json data/archive.json data/translation-cache.json; then
             echo "No digest changes detected."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/digest.json data/archive.json
+          git add data/digest.json data/archive.json data/translation-cache.json
           git commit -m "chore: refresh digest data"
           git push

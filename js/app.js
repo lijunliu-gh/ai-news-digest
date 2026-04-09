@@ -19,6 +19,8 @@
       heroSub: '关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态',
       statTotal: '总数', statToday: '今日', statCategories: '分类',
       filterAll: '全部',
+      themeToggleLabel: '主题',
+      themeToggleAria: '切换明暗主题',
       sourceTypeNews: '新闻',
       sourceTypeChangelog: '变更日志',
       sourceTypeReleaseNotes: '发布说明',
@@ -36,6 +38,8 @@
       heroSub: 'Microsoft / GitHub Copilot, Anthropic, OpenAI, Google — 4大AIベンダーの最新ニュース',
       statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
       filterAll: 'すべて',
+      themeToggleLabel: 'テーマ',
+      themeToggleAria: 'ライト/ダークテーマを切り替え',
       sourceTypeNews: 'ニュース',
       sourceTypeChangelog: '変更履歴',
       sourceTypeReleaseNotes: 'リリースノート',
@@ -53,6 +57,8 @@
       heroSub: 'Stay updated with the latest from Microsoft / GitHub Copilot, Anthropic, OpenAI & Google',
       statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
       filterAll: 'All',
+      themeToggleLabel: 'Theme',
+      themeToggleAria: 'Toggle light and dark theme',
       sourceTypeNews: 'News',
       sourceTypeChangelog: 'Changelog',
       sourceTypeReleaseNotes: 'Release Notes',
@@ -76,6 +82,12 @@
   function applyI18n() {
     document.querySelectorAll('[data-i18n]').forEach(el => {
       el.textContent = t(el.dataset.i18n);
+    });
+    document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+      el.setAttribute('aria-label', t(el.dataset.i18nAriaLabel));
+    });
+    document.querySelectorAll('[data-i18n-title]').forEach(el => {
+      el.setAttribute('title', t(el.dataset.i18nTitle));
     });
     document.querySelectorAll('[data-i18n-html]').forEach(el => {
       el.innerHTML = t(el.dataset.i18nHtml);

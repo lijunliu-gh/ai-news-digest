@@ -12,6 +12,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - The homepage now labels each item as News, Changelog, or Release Notes, and low-quality auto-generated titles are normalized during rebuilds
 - GitHub Actions refreshes now fail closed on suspicious digest drops or missing required sources, and publish per-run source summaries for easier debugging
 - Validation thresholds are now configurable from the GitHub Actions workflow instead of being hard-coded in the script
+- Newly fetched English-only entries are now automatically translated into Chinese and Japanese during digest rebuilds, with translations cached for later runs
+- The header theme toggle now uses an explicit labeled control instead of a barely recognizable icon-only button
+- Language switching is now consistent across the digest because English-only auto-filled entries are translated during refresh instead of being written unchanged into every locale field
 
 ## [0.4.0] - 2026-04-09
 
