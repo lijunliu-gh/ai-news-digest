@@ -27,6 +27,11 @@
         AI News Digest
       </a>
       <div class="header-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="zh">中</button>
+          <button class="lang-btn" data-lang="ja">日</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
         <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
           <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3"/><path d="M12 18.5v3"/><path d="M21.5 12h-3"/><path d="M5.5 12h-3"/><path d="m18.7 5.3-2.1 2.1"/><path d="m7.4 16.6-2.1 2.1"/><path d="m18.7 18.7-2.1-2.1"/><path d="m7.4 7.4-2.1-2.1"/></svg>
           <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.2 7.2 0 0 0 9.8 9.8Z"/></svg>
@@ -41,22 +46,22 @@
     <!-- Hero -->
     <section class="hero">
       <h1>AI News Digest</h1>
-      <p class="hero-sub">关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态</p>
+      <p class="hero-sub" data-i18n="heroSub">关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态</p>
     </section>
 
     <!-- Stats -->
     <div class="stats-bar">
       <div class="stat">
         <div class="stat-val" id="stat-total">—</div>
-        <div class="stat-lbl">Total</div>
+        <div class="stat-lbl" data-i18n="statTotal">Total</div>
       </div>
       <div class="stat">
         <div class="stat-val" id="stat-today">—</div>
-        <div class="stat-lbl">Today</div>
+        <div class="stat-lbl" data-i18n="statToday">Today</div>
       </div>
       <div class="stat">
         <div class="stat-val" id="stat-sources">—</div>
-        <div class="stat-lbl">Categories</div>
+        <div class="stat-lbl" data-i18n="statCategories">Categories</div>
       </div>
     </div>
 
@@ -64,7 +69,7 @@
     <div class="controls">
       <div class="filter-row">
         <button class="filter-btn active" data-cat="all">
-          <span class="dot"></span>All<span class="count">0</span>
+          <span class="dot"></span><span data-i18n="filterAll">All</span><span class="count">0</span>
         </button>
         <button class="filter-btn" data-cat="microsoft">
           <span class="dot"></span>Microsoft / GitHub<span class="count">0</span>
@@ -81,7 +86,7 @@
       </div>
       <div class="search-box">
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" class="search-input" id="search-input" placeholder="Search titles, summaries, tags…">
+        <input type="text" class="search-input" id="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Search titles, summaries, tags…">
       </div>
     </div>
 
@@ -92,8 +97,8 @@
 
   <!-- Footer -->
   <footer class="site-footer">
-    <p>AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a></p>
-    <p style="margin-top:0.3rem;">Data updated manually or via automation. Not affiliated with any listed company.</p>
+    <p data-i18n-html="footerCredit">AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a></p>
+    <p style="margin-top:0.3rem;" data-i18n="footerDisclaimer">Data updated manually or via automation. Not affiliated with any listed company.</p>
   </footer>
 
   <script src="js/app.js"></script>

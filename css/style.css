@@ -123,6 +123,33 @@ a:hover { text-decoration: underline; }
   gap: 0.5rem;
 }
 
+.lang-switcher {
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.lang-btn {
+  background: none;
+  border: none;
+  border-right: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.4rem 0.55rem;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-family: var(--font);
+  line-height: 1;
+}
+.lang-btn:last-child { border-right: none; }
+.lang-btn:hover { color: var(--text); background: var(--bg-filter); }
+.lang-btn.active {
+  color: var(--accent);
+  background: var(--accent-glow);
+  font-weight: 600;
+}
+
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);
