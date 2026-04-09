@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.6.1] - 2026-04-09
+
+### Fixed
+- Replaced the fragile theme-toggle SVG with stable sun and crescent symbols so the header icon renders correctly in both light and dark themes
+- Backfilled stale Chinese localizations whose `zh` fields still matched English, and updated translation handling so untranslated locale values are regenerated instead of being preserved as-is
+
 ## [0.6.0] - 2026-04-09
 
 ### Changed

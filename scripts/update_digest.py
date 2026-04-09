@@ -457,7 +457,7 @@ class TranslationService:
 
         cached = self.cache.get(normalized, {})
         cached_value = normalize_whitespace(cached.get(target, '')) if isinstance(cached, dict) else ''
-        if cached_value:
+        if cached_value and cached_value != normalized:
             self.cache_hits += 1
             return cached_value
 
@@ -471,11 +471,13 @@ class TranslationService:
                 client = GoogleTranslator(source='en', target=TRANSLATION_LANGUAGE_CODES.get(target, target))
                 self.clients[target] = client
             translated = normalize_whitespace(client.translate(normalized))
-            if not translated:
+            if not translated or translated == normalized:
                 translated = normalized
-            self.cache.setdefault(normalized, {})[target] = translated
-            self.generated += 1
-            self.dirty = True
+            elif isinstance(cached, dict):
+                self.cache.setdefault(normalized, {})[target] = translated
+                self.generated += 1
+                self.dirty = True
+                return translated
             return translated
         except Exception as exc:
             self._record_error(f'Translation failed for {target}: {exc}')
@@ -508,6 +510,12 @@ def is_generated_localization(value: dict | str | None) -> bool:
     return bool(normalized_values) and len(set(normalized_values)) == 1
 
 
+def needs_retranslation(value: str | None, english_text: str) -> bool:
+    localized_text = normalize_whitespace(value or '')
+    english_value = normalize_whitespace(english_text)
+    return not localized_text or localized_text == english_value
+
+
 def localize(
     existing: dict | None,
     field: str,
@@ -531,9 +539,11 @@ def localize(
                 'ja': translator.translate(english_text, 'ja'),
                 'en': english_text,
             }
+        zh_value = value.get('zh')
+        ja_value = value.get('ja')
         return {
-            'zh': value.get('zh') or translator.translate(english_value, 'zh'),
-            'ja': value.get('ja') or translator.translate(english_value, 'ja'),
+            'zh': translator.translate(english_value, 'zh') if needs_retranslation(zh_value, english_value) else zh_value,
+            'ja': translator.translate(english_value, 'ja') if needs_retranslation(ja_value, english_value) else ja_value,
             'en': english_value,
         }
     if isinstance(value, str) and value:
