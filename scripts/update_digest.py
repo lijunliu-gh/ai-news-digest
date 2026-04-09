@@ -187,6 +187,32 @@ def parse_rss(url: str) -> list[ET.Element]:
     return [] if channel is None else channel.findall('item')
 
 
+def parse_rss_paged(url: str, cutoff: date, *, max_pages: int = 30) -> list[ET.Element]:
+    """Fetch multiple pages of a WordPress RSS feed using ``?paged=N``."""
+    all_items: list[ET.Element] = []
+    for page in range(1, max_pages + 1):
+        paged_url = url if page == 1 else f'{url}?paged={page}'
+        try:
+            text = fetch_text(paged_url)
+        except (HTTPError, URLError):
+            break
+        root = ET.fromstring(text)
+        channel = root.find('channel')
+        items = [] if channel is None else channel.findall('item')
+        if not items:
+            break
+        all_items.extend(items)
+        last_pub = items[-1].find('pubDate')
+        if last_pub is not None and last_pub.text:
+            try:
+                last_date = parse_pub_date(normalize_whitespace(last_pub.text))
+                if not within_window(last_date, cutoff):
+                    break
+            except (ValueError, TypeError):
+                pass
+    return all_items
+
+
 def parse_atom(url: str) -> list[ET.Element]:
     root = ET.fromstring(fetch_text(url))
     return root.findall('atom:entry', ATOM_NS)
@@ -854,7 +880,7 @@ def is_github_product_news_relevant(title: str, summary: str, url: str, categori
 def is_github_changelog_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
     haystack = github_haystack(title, summary, url, categories)
     direct_signals = re.search(
-        r'\bcopilot\b|\bagent\b|\bagents\b|\bmcp\b|\bmodels?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bpremium requests?\b|\bai\b',
+        r'\bcopilot\b|\bagents?\b|\bmcp\b|\bai models?\b|\bgithub models?\b|\blanguage models?\b|\bllms?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bpremium requests?\b|\bai\b',
         haystack,
     )
     if direct_signals:
@@ -863,12 +889,12 @@ def is_github_changelog_relevant(title: str, summary: str, url: str, categories:
     developer_surface_signals = re.search(r'\bactions\b|\bvscode\b|\bvisual studio code\b|\bgithub mobile\b', haystack)
     security_workflow_signals = re.search(r'\bdependabot\b|\bsecret scanning\b|\bcode security\b', haystack)
     intelligent_context_signals = re.search(r'\bruntime context\b|\bautofix\b|\bassign to agent\b|\bcoding agents?\b', haystack)
-    return bool(developer_surface_signals or (security_workflow_signals and intelligent_context_signals))
+    return bool((developer_surface_signals and direct_signals) or (security_workflow_signals and intelligent_context_signals))
 
 
 def parse_github_entries(cutoff: date) -> list[FeedEntry]:
     entries: list[FeedEntry] = []
-    for item in parse_rss('https://github.blog/news-insights/product-news/feed/'):
+    for item in parse_rss_paged('https://github.blog/news-insights/product-news/feed/', cutoff):
         published = parse_pub_date(first_text(item, 'pubDate'))
         if not within_window(published, cutoff):
             continue
@@ -895,7 +921,7 @@ def parse_github_entries(cutoff: date) -> list[FeedEntry]:
 
 def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
     entries: list[FeedEntry] = []
-    for item in parse_rss('https://github.blog/changelog/feed/'):
+    for item in parse_rss_paged('https://github.blog/changelog/feed/', cutoff):
         published = parse_pub_date(first_text(item, 'pubDate'))
         if not within_window(published, cutoff):
             continue
