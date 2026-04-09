@@ -30,7 +30,51 @@ jobs:
           python-version: '3.12'
 
       - name: Refresh digest data
+        env:
+          DIGEST_REPORT_PATH: .digest-report.json
         run: python scripts/update_digest.py
+
+      - name: Publish digest summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          summary_path = os.environ['GITHUB_STEP_SUMMARY']
+          report_path = Path('.digest-report.json')
+
+          lines = ['## Digest refresh summary', '']
+          if not report_path.exists():
+              lines.append('- No digest report was generated.')
+          else:
+              report = json.loads(report_path.read_text(encoding='utf-8'))
+              active = report.get('active', {})
+              validation = report.get('validation', {})
+              lines.append(f"- Generated at: {report.get('generatedAt', 'unknown')}")
+              lines.append(f"- Active items: {active.get('totalItems', 0)}")
+              lines.append(f"- Archived items: {report.get('archive', {}).get('totalItems', 0)}")
+              lines.append(f"- Validation: {'passed' if validation.get('passed') else 'failed'}")
+              if validation.get('issues'):
+                  lines.append('')
+                  lines.append('### Validation issues')
+                  for issue in validation['issues']:
+                      lines.append(f'- {issue}')
+              if active.get('sources'):
+                  lines.append('')
+                  lines.append('### Source counts')
+                  for name, count in active['sources'].items():
+                      lines.append(f'- {name}: {count}')
+              if active.get('sourceTypes'):
+                  lines.append('')
+                  lines.append('### Source type counts')
+                  for name, count in active['sourceTypes'].items():
+                      lines.append(f'- {name}: {count}')
+
+          with open(summary_path, 'a', encoding='utf-8') as handle:
+              handle.write('\n'.join(lines) + '\n')
+          PY
 
       - name: Commit changes
         run: |

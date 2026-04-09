@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Expanded automated ingestion beyond marketing news pages to include official developer release notes and changelogs for Anthropic, OpenAI, Google, and GitHub
 - The digest rebuild now captures product and API updates that may appear in docs or changelog surfaces before or instead of blog-style news posts
 - The homepage now labels each item as News, Changelog, or Release Notes, and low-quality auto-generated titles are normalized during rebuilds
+- GitHub Actions refreshes now fail closed on suspicious digest drops or missing required sources, and publish per-run source summaries for easier debugging
 
 ## [0.4.0] - 2026-04-09
 

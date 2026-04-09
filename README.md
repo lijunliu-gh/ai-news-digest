@@ -108,11 +108,13 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 - Only official sources are ingested.
 - Official sources include both public news pages and developer release-note / changelog surfaces.
 - The homepage dataset is rebuilt from scratch on every run.
+- Automated refreshes fail closed when the rebuilt dataset drops below health thresholds or a required official source disappears.
 - Items older than 3 months are removed from `data/digest.json`.
 - Removed items are preserved in `data/archive.json`.
 - Existing manual translations are preserved when the same URL already exists.
 - Newly fetched items default to English text in all three language fields unless translations already exist locally.
 - The homepage shows whether an item came from a news page, changelog, or release-notes surface.
+- Each GitHub Actions run publishes a job summary with total items, per-source counts, and any validation issues.
 
 ## Development
 

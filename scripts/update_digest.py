@@ -6,7 +6,7 @@ import re
 import sys
 from calendar import monthrange
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import UTC, date, datetime
 from email.utils import parsedate_to_datetime
 from html import unescape
 from html.parser import HTMLParser
@@ -22,10 +22,22 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / 'data'
 DIGEST_PATH = DATA_DIR / 'digest.json'
 ARCHIVE_PATH = DATA_DIR / 'archive.json'
+REPORT_PATH = ROOT / '.digest-report.json'
 WINDOW_MONTHS = 3
 REQUEST_TIMEOUT = 30
 USER_AGENT = 'ai-news-digest-bot/0.5'
 ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
+MIN_ACTIVE_ITEMS = 60
+OPTIONAL_SOURCES = {'GitHub Product News'}
+REQUIRED_SOURCES = {
+    'Anthropic News',
+    'Anthropic Release Notes',
+    'OpenAI News',
+    'OpenAI API Changelog',
+    'Google Blog',
+    'Google Cloud Release Notes',
+    'GitHub Changelog',
+}
 
 
 @dataclass
@@ -743,6 +755,65 @@ def write_json(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
+def summarize_items(items: list[dict]) -> dict:
+    source_counts: dict[str, int] = {}
+    source_type_counts: dict[str, int] = {}
+    category_counts: dict[str, int] = {}
+    for item in items:
+        source_counts[item['source']] = source_counts.get(item['source'], 0) + 1
+        source_type = item.get('sourceType', 'missing')
+        source_type_counts[source_type] = source_type_counts.get(source_type, 0) + 1
+        category = item['category']
+        category_counts[category] = category_counts.get(category, 0) + 1
+    return {
+        'totalItems': len(items),
+        'sources': dict(sorted(source_counts.items())),
+        'sourceTypes': dict(sorted(source_type_counts.items())),
+        'categories': dict(sorted(category_counts.items())),
+    }
+
+
+def validate_digest_health(fresh_digest: list[dict], previous_digest: list[dict]) -> list[str]:
+    issues: list[str] = []
+    current_summary = summarize_items(fresh_digest)
+    previous_summary = summarize_items(previous_digest)
+
+    if current_summary['totalItems'] < MIN_ACTIVE_ITEMS:
+        issues.append(
+            f"Active digest only has {current_summary['totalItems']} items, below minimum threshold {MIN_ACTIVE_ITEMS}."
+        )
+
+    previous_total = previous_summary['totalItems']
+    current_total = current_summary['totalItems']
+    if previous_total >= MIN_ACTIVE_ITEMS and current_total < max(MIN_ACTIVE_ITEMS, int(previous_total * 0.6)):
+        issues.append(
+            f'Active digest dropped sharply from {previous_total} to {current_total} items.'
+        )
+
+    current_sources = current_summary['sources']
+    previous_sources = previous_summary['sources']
+    for source in sorted(REQUIRED_SOURCES):
+        if current_sources.get(source, 0) == 0:
+            issues.append(f'Missing required source: {source}.')
+
+    for source, previous_count in previous_sources.items():
+        if source in OPTIONAL_SOURCES or previous_count < 3:
+            continue
+        current_count = current_sources.get(source, 0)
+        minimum_allowed = max(1, int(previous_count * 0.4))
+        if current_count < minimum_allowed:
+            issues.append(
+                f'Source {source} dropped from {previous_count} to {current_count}, below guard threshold {minimum_allowed}.'
+            )
+
+    return issues
+
+
+def emit_report(report: dict) -> None:
+    report_path = Path(os.environ.get('DIGEST_REPORT_PATH', REPORT_PATH))
+    write_json(report_path, report)
+
+
 def main() -> int:
     today = get_today()
     cutoff = subtract_months(today, WINDOW_MONTHS)
@@ -768,6 +839,28 @@ def main() -> int:
 
     archive_items = merge_archive(existing_archive, previous_digest, fresh_digest, cutoff)
 
+    validation_issues = []
+    if os.environ.get('DIGEST_SKIP_VALIDATION') != '1':
+        validation_issues = validate_digest_health(fresh_digest, previous_digest)
+
+    report = {
+        'generatedAt': datetime.now(UTC).isoformat(timespec='seconds').replace('+00:00', 'Z'),
+        'today': today.isoformat(),
+        'windowMonths': WINDOW_MONTHS,
+        'active': summarize_items(fresh_digest),
+        'archive': {'totalItems': len(archive_items)},
+        'validation': {
+            'passed': not validation_issues,
+            'issues': validation_issues,
+        },
+    }
+    emit_report(report)
+
+    if validation_issues:
+        for issue in validation_issues:
+            print(f'VALIDATION ERROR: {issue}', file=sys.stderr)
+        return 1
+
     write_json(DIGEST_PATH, {
         'lastUpdated': today.isoformat(),
         'windowMonths': WINDOW_MONTHS,
@@ -780,6 +873,7 @@ def main() -> int:
     })
 
     print(f'Updated digest with {len(fresh_digest)} active items and {len(archive_items)} archived items.')
+    print('Source counts: ' + ', '.join(f"{name}={count}" for name, count in report['active']['sources'].items()))
     return 0
 
 
