@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-04-09
+
+### Changed
+- Anthropic News scraper rewritten to discover articles via sitemap.xml and extract metadata from individual article pages, replacing the fragile front-page HTML regex that only captured ~12 items; coverage tripled from ~12 to ~35 articles
+- Google DeepMind scraper switched from HTML card parsing to the official RSS feed at deepmind.google/blog/rss.xml, eliminating per-article fetches and improving reliability
+- Broadened Google Blog keyword filter to include AI Studio, NotebookLM, AI Overviews, AI Mode, Workspace AI, Circle to Search, Project Astra, Project Mariner, and Jules
+- Broadened Google Cloud Release Notes filter to include Vertex AI Search, Agent Builder, context caching, batch prediction, Model Garden, function calling, tuning, multimodal, embeddings, and more
+- Broadened Google DeepMind filter with additional product keywords (AlphaFold, AlphaCode, AlphaProof, AlphaGeometry, Trillium, Nano Banana, NotebookLM, AI Studio) while keeping pure-research/safety posts filtered
+- Removed unused resolve_anthropic_url helper
+
 ## [0.9.0] - 2026-04-09
 
 ### Added

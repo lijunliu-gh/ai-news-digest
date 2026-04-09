@@ -390,7 +390,11 @@ def is_google_release_relevant(title: str, summary: str, kind: str) -> bool:
     return any(token in text for token in (
         'gemini', 'gemma', 'veo', 'imagen', 'lyria', 'vertex ai agent engine', 'agent engine',
         'agent development kit', 'adk', 'agent garden', 'live api', 'grounding',
-        'prompt optimizer', 'rag engine', 'vertex ai studio', 'google gen ai sdk'
+        'prompt optimizer', 'rag engine', 'vertex ai studio', 'google gen ai sdk',
+        'vertex ai search', 'agent builder', 'context caching', 'batch prediction',
+        'model garden', 'extensions', 'function calling', 'tuning',
+        'multimodal', 'embeddings', 'code execution', 'safety filter',
+        'token count', 'count tokens',
     ))
 
 
@@ -727,19 +731,31 @@ def parse_openai_changelog_entries(cutoff: date) -> list[FeedEntry]:
 
 def is_google_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
     haystack = ' '.join([title, summary, url, *categories]).lower()
-    return any(token in haystack for token in ('gemini', 'gemma', 'google-ai-updates', 'ai updates'))
+    return any(token in haystack for token in (
+        'gemini', 'gemma', 'google-ai-updates', 'ai updates', 'ai studio',
+        'notebooklm', 'notebook lm', 'ai overviews', 'ai mode',
+        'google ai', 'bard', 'duet ai', 'workspace ai',
+        'android ai', 'search generative', 'circle to search',
+        'project astra', 'project mariner', 'jules',
+    ))
 
 
 def is_google_deepmind_relevant(title: str, category: str, url: str) -> bool:
     lowered_title = title.lower()
     lowered_category = category.lower()
     lowered_url = url.lower()
-    if lowered_category in {'research', 'responsibility & safety', 'science'}:
+    # Pure-safety posts are excluded
+    if lowered_category in {'responsibility & safety'}:
         return False
-    product_keywords = ('gemini', 'gemma', 'veo', 'lyria', 'imagen', 'genie', 'nano banana')
-    if lowered_category == 'models':
-        return any(token in lowered_title or token in lowered_url for token in product_keywords)
-    return any(token in lowered_title or token in lowered_url for token in product_keywords)
+    product_keywords = (
+        'gemini', 'gemma', 'veo', 'lyria', 'imagen', 'genie',
+        'alphafold', 'alphacode', 'alphaproof', 'alphageometry',
+        'trillium', 'project astra', 'project mariner',
+        'notebooklm', 'ai studio', 'ai overviews',
+        'nano banana',
+    )
+    haystack = f'{lowered_title} {lowered_url}'
+    return any(token in haystack for token in product_keywords)
 
 
 def parse_google_entries(cutoff: date) -> list[FeedEntry]:
@@ -768,43 +784,27 @@ def parse_google_entries(cutoff: date) -> list[FeedEntry]:
 
 
 def parse_google_deepmind_entries(cutoff: date) -> list[FeedEntry]:
-    html = fetch_text('https://deepmind.google/blog/')
     entries: list[FeedEntry] = []
     seen_urls: set[str] = set()
-    card_pattern = re.compile(
-        r'<article class="card card-blog card--small_h card--is-link">.*?'
-        r'<a[^>]+href=(?P<href>[^\s>]+)[^>]*></a>.*?'
-        r'<h3 class="heading-6 card__title">(?P<title>.*?)</h3>.*?'
-        r'<time[^>]*>(?P<label>.*?)</time>.*?'
-        r'<span class="text-caption meta__category">(?P<category>.*?)</span>',
-        re.S,
-    )
-
-    for match in card_pattern.finditer(html):
-        raw_href = match.group('href').strip('"\'')
-        link = urljoin('https://deepmind.google', raw_href)
-        if link in seen_urls:
+    for item in parse_rss('https://deepmind.google/blog/rss.xml'):
+        title = first_text(item, 'title')
+        link = first_text(item, 'link') or first_text(item, 'guid')
+        if not link or link in seen_urls:
             continue
         seen_urls.add(link)
-
-        title = normalize_whitespace(strip_html(match.group('title')))
-        category_label = normalize_whitespace(strip_html(match.group('category')))
-        if not is_google_deepmind_relevant(title, category_label, link):
-            continue
-
-        article_html = try_fetch_text(link) or ''
-        full_title = extract_meta_title(article_html)
-        if full_title:
-            title = full_title
-        published = extract_meta_published_date(article_html)
-        if not published:
-            date_match = re.search(r'(\d{4}-\d{2}-\d{2})', normalize_whitespace(match.group('label')))
-            if date_match:
-                published = date_match.group(1)
+        pub_raw = first_text(item, 'pubDate')
+        if pub_raw:
+            published = parse_pub_date(pub_raw)
+        else:
+            published = ''
         if not published or not within_window(published, cutoff):
             continue
-
-        summary = extract_meta_description(article_html) or title
+        description = clean_description(first_text(item, 'description'))
+        categories = [normalize_whitespace(node.text or '') for node in item.findall('category') if node.text]
+        category_label = categories[0] if categories else ''
+        if not is_google_deepmind_relevant(title, category_label, link):
+            continue
+        summary = description or title
         entries.append(FeedEntry(
             date=published,
             category='google',
@@ -813,7 +813,7 @@ def parse_google_deepmind_entries(cutoff: date) -> list[FeedEntry]:
             title_en=title,
             summary_en=summary,
             url=link,
-            tags=unique_tags([category_label, 'google-deepmind', 'google']),
+            tags=unique_tags([category_label, 'google-deepmind', 'google'] if category_label else ['google-deepmind', 'google']),
         ))
     return entries
 
@@ -946,75 +946,91 @@ def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
     return entries
 
 
-def resolve_anthropic_url(slug: str) -> tuple[str, str]:
-    for candidate in (f'https://www.anthropic.com/news/{slug}', f'https://www.anthropic.com/{slug}'):
-        html = try_fetch_text(candidate)
-        if html:
-            return candidate, html
-    return f'https://www.anthropic.com/news/{slug}', ''
+def _parse_anthropic_sitemap_urls(cutoff: date) -> list[tuple[str, str]]:
+    """Return ``(url, lastmod_iso)`` pairs for /news/ URLs whose lastmod >= cutoff."""
+    sitemap_xml = fetch_text('https://www.anthropic.com/sitemap.xml')
+    root = ET.fromstring(sitemap_xml)
+    ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+    results: list[tuple[str, str]] = []
+    for url_el in root.findall('sm:url', ns):
+        loc = url_el.findtext('sm:loc', default='', namespaces=ns).strip()
+        lastmod = url_el.findtext('sm:lastmod', default='', namespaces=ns).strip()
+        if '/news/' not in loc or not lastmod:
+            continue
+        lastmod_date = lastmod[:10]
+        if not within_window(lastmod_date, cutoff):
+            continue
+        results.append((loc, lastmod_date))
+    results.sort(key=lambda x: x[1], reverse=True)
+    return results
+
+
+def _extract_anthropic_published_date(html: str) -> str:
+    """Extract the first visible date like 'Feb 5, 2026' from an Anthropic article page."""
+    match = re.search(
+        r'(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}',
+        html,
+    )
+    if match:
+        return datetime.strptime(normalize_whitespace(match.group(0)), '%b %d, %Y').date().isoformat()
+    return ''
 
 
 def parse_anthropic_entries(cutoff: date) -> list[FeedEntry]:
-    html = fetch_text('https://www.anthropic.com/news')
     entries: list[FeedEntry] = []
     seen_urls: set[str] = set()
 
-    featured_pattern = re.compile(
-        r'<a href="(?P<href>/[^"]+)" class="FeaturedGrid-module-scss-module__[^"]+__content">'
-        r'<h2[^>]*>(?P<title>[^<]+)</h2>.*?'
-        r'<span class="caption bold">(?P<subject>[^<]+)</span>'
-        r'<time[^>]*>(?P<published>[^<]+)</time>.*?'
-        r'<p[^>]*>(?P<summary>.*?)</p>',
-        re.S,
-    )
-    list_pattern = re.compile(
-        r'<li><a href="(?P<href>/news/[^"]+)" class="PublicationList-module-scss-module__[^"]+__listItem">.*?'
-        r'<time[^>]*>(?P<published>[^<]+)</time>'
-        r'<span[^>]*>(?P<subject>[^<]+)</span>.*?'
-        r'<span class="PublicationList-module-scss-module__[^"]+__title body-3">(?P<title>[^<]+)</span>',
-        re.S,
-    )
+    # --- Phase 1: Sitemap discovery (finds all /news/ articles updated recently) ---
+    candidate_urls = _parse_anthropic_sitemap_urls(cutoff)
 
-    def add_match(href: str, title: str, published_label: str, subject: str, summary: str | None) -> None:
-        published = datetime.strptime(normalize_whitespace(published_label), '%b %d, %Y').date().isoformat()
-        if not within_window(published, cutoff):
-            return
-        article_url = f'https://www.anthropic.com{href}'
+    for article_url, _lastmod in candidate_urls:
         if article_url in seen_urls:
-            return
+            continue
         seen_urls.add(article_url)
-
-        article_html = try_fetch_text(article_url) or ''
-        meta_summary = extract_meta_description(article_html)
-        final_summary = normalize_whitespace((summary or '').strip()) or meta_summary or normalize_whitespace(title)
+        article_html = try_fetch_text(article_url)
+        if not article_html:
+            continue
+        published = _extract_anthropic_published_date(article_html)
+        if not published or not within_window(published, cutoff):
+            continue
+        title = extract_meta_title(article_html) or article_url.rstrip('/').split('/')[-1].replace('-', ' ').title()
+        summary = extract_meta_description(article_html) or title
         entries.append(FeedEntry(
             date=published,
             category='anthropic',
             source='Anthropic News',
             source_type='news',
             title_en=normalize_whitespace(title),
-            summary_en=final_summary,
+            summary_en=normalize_whitespace(summary),
             url=article_url,
-            tags=unique_tags([subject, 'anthropic']),
+            tags=unique_tags(['anthropic']),
         ))
 
-    for match in featured_pattern.finditer(html):
-        add_match(
-            match.group('href'),
-            strip_html(match.group('title')),
-            match.group('published'),
-            match.group('subject'),
-            strip_html(match.group('summary')),
-        )
-
-    for match in list_pattern.finditer(html):
-        add_match(
-            match.group('href'),
-            strip_html(match.group('title')),
-            match.group('published'),
-            strip_html(match.group('subject')),
-            None,
-        )
+    # --- Phase 2: Front-page scrape (catches items sitemap may lag on) ---
+    front_html = try_fetch_text('https://www.anthropic.com/news') or ''
+    for href in re.findall(r'href="(/news/[a-z0-9][a-z0-9-]*)"', front_html):
+        article_url = f'https://www.anthropic.com{href}'
+        if article_url in seen_urls:
+            continue
+        seen_urls.add(article_url)
+        article_html = try_fetch_text(article_url)
+        if not article_html:
+            continue
+        published = _extract_anthropic_published_date(article_html)
+        if not published or not within_window(published, cutoff):
+            continue
+        title = extract_meta_title(article_html) or href.split('/')[-1].replace('-', ' ').title()
+        summary = extract_meta_description(article_html) or title
+        entries.append(FeedEntry(
+            date=published,
+            category='anthropic',
+            source='Anthropic News',
+            source_type='news',
+            title_en=normalize_whitespace(title),
+            summary_en=normalize_whitespace(summary),
+            url=article_url,
+            tags=unique_tags(['anthropic']),
+        ))
 
     return entries
 

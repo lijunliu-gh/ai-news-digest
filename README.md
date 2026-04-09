@@ -48,12 +48,12 @@ ai-news-digest/
 
 | Source | URL |
 |--------|-----|
-| Anthropic News | https://www.anthropic.com/news |
+| Anthropic News | https://www.anthropic.com/sitemap.xml + article pages |
 | Anthropic Release Notes | https://platform.claude.com/docs/en/release-notes |
 | OpenAI News | https://openai.com/news/rss.xml |
 | OpenAI API Changelog | https://developers.openai.com/api/docs/changelog |
 | Google Blog | https://blog.google/innovation-and-ai/technology/ai/rss/ |
-| Google DeepMind News | https://deepmind.google/blog/ |
+| Google DeepMind News | https://deepmind.google/blog/rss.xml |
 | Google Cloud Release Notes | https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes |
 | GitHub Product News | https://github.blog/news-insights/product-news/ |
 | GitHub Changelog | https://github.blog/changelog/feed/ |
@@ -111,7 +111,8 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 
 - Only official product-oriented sources are ingested.
 - Official sources include both public news pages and developer release-note / changelog surfaces.
-- For Google, the digest now combines Google Blog, Google Cloud release notes, and Google DeepMind product-news posts.
+- For Anthropic, the scraper discovers articles via the sitemap.xml and extracts published dates and metadata from each article page, giving full coverage beyond the front-page listing.
+- For Google, the digest combines Google Blog, Google Cloud release notes, and Google DeepMind product-news posts (via RSS). Keyword filters match product names (Gemini, Gemma, NotebookLM, AI Studio, etc.) while excluding non-product research and safety content.
 - For GitHub, Product News and Changelog entries use separate relevance rules: product posts trust official AI-oriented category labels and full article content, while changelog entries apply stricter keyword matching to avoid platform-maintenance noise.
 - Locale fields that still match the English source text are treated as untranslated and regenerated during refreshes.
 - The homepage dataset is rebuilt from scratch on every run.
