@@ -162,7 +162,7 @@ a:hover { text-decoration: underline; }
 .theme-slider {
   position: absolute;
   inset: 0;
-  background: #ccc;
+  background: #b0bec5;
   border-radius: 26px;
   transition: background 0.3s;
 }
@@ -175,19 +175,15 @@ a:hover { text-decoration: underline; }
   height: 20px;
   background: #fff;
   border-radius: 50%;
-  transition: transform 0.3s;
+  transition: transform 0.3s, background 0.3s;
 }
-[data-theme="dark"] .theme-slider,
-:not([data-theme]) .theme-slider {
+.theme-switch input:checked ~ .theme-slider {
   background: #555;
 }
-[data-theme="dark"] .theme-slider::before,
-:not([data-theme]) .theme-slider::before {
+.theme-switch input:checked ~ .theme-slider::before {
   transform: translateX(22px);
   background: #fdd835;
 }
-[data-theme="light"] .theme-slider { background: #b0bec5; }
-[data-theme="light"] .theme-slider::before { background: #fff; }
 [data-theme="light"] .lang-btn { color: #444460; }
 [data-theme="light"] .lang-btn.active { color: #6c5ce7; }
 
