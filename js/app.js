@@ -167,21 +167,31 @@
     setText('stat-today', todayCount);
     setText('stat-sources', cats.size);
 
-    // Update filter counts
+    // Items filtered by current source type (for category counts)
+    const byType = activeSourceType === 'all'
+      ? allItems
+      : allItems.filter(i => (i.sourceType || 'news') === activeSourceType);
+
+    // Items filtered by current category (for type counts)
+    const byCat = activeCategory === 'all'
+      ? allItems
+      : allItems.filter(i => i.category === activeCategory);
+
+    // Update category filter counts (scoped to active source type)
     document.querySelectorAll('.filter-btn').forEach(btn => {
       const cat = btn.dataset.cat;
       const countEl = btn.querySelector('.count');
       if (!countEl) return;
-      const c = cat === 'all' ? allItems.length : allItems.filter(i => i.category === cat).length;
+      const c = cat === 'all' ? byType.length : byType.filter(i => i.category === cat).length;
       countEl.textContent = c;
     });
 
-    // Update source type counts
+    // Update source type counts (scoped to active category)
     document.querySelectorAll('.type-btn').forEach(btn => {
       const type = btn.dataset.type;
       const countEl = btn.querySelector('.count');
       if (!countEl) return;
-      const c = type === 'all' ? allItems.length : allItems.filter(i => (i.sourceType || 'news') === type).length;
+      const c = type === 'all' ? byCat.length : byCat.filter(i => (i.sourceType || 'news') === type).length;
       countEl.textContent = c;
     });
   }
@@ -254,6 +264,8 @@
 
   /* ---------- Render ---------- */
   function render() {
+    renderStats();
+
     const container = document.getElementById('feed');
     if (!container) return;
 

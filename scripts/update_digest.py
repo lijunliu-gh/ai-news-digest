@@ -471,6 +471,18 @@ def load_translation_cache() -> dict[str, dict[str, str]]:
 
 
 class TranslationService:
+    # Proper nouns that must never be translated
+    PRESERVE_TERMS = [
+        'Claude Code', 'Claude Opus', 'Claude Sonnet', 'Claude Haiku', 'Claude',
+        'Anthropic', 'OpenAI', 'GitHub', 'Google DeepMind', 'DeepMind', 'Google Cloud',
+        'Gemini', 'Gemma', 'GPT-4o', 'GPT-4', 'GPT-3.5', 'ChatGPT', 'DALL-E',
+        'Copilot', 'Codex', 'Sora', 'Veo', 'Imagen', 'Lyria', 'NotebookLM',
+        'AlphaFold', 'AlphaCode', 'AlphaProof', 'AlphaGeometry', 'AlphaGo',
+        'Vertex AI', 'Nano Banana', 'Trillium', 'Project Astra', 'Project Mariner',
+        'Jules', 'Genie', 'Bard', 'AI Studio', 'MCP', 'Glasswing',
+        'Flash', 'Deep Think', 'Flash-Lite',
+    ]
+
     def __init__(self, cache: dict[str, dict[str, str]]) -> None:
         self.enabled = os.environ.get('DIGEST_ENABLE_TRANSLATION', '1') != '0'
         self.cache = cache
@@ -479,6 +491,26 @@ class TranslationService:
         self.cache_hits = 0
         self.generated = 0
         self.errors: list[str] = []
+        # Build sorted term list (longer terms first to avoid partial matches)
+        self._sorted_terms = sorted(self.PRESERVE_TERMS, key=len, reverse=True)
+
+    def _protect(self, text: str) -> tuple[str, list[tuple[str, str]]]:
+        """Replace proper nouns with numbered placeholders."""
+        protected = text
+        replacements: list[tuple[str, str]] = []
+        for term in self._sorted_terms:
+            if term in protected:
+                placeholder = f'__KEEP{len(replacements):02d}__'
+                protected = protected.replace(term, placeholder)
+                replacements.append((placeholder, term))
+        return protected, replacements
+
+    def _restore(self, text: str, replacements: list[tuple[str, str]]) -> str:
+        """Restore proper nouns from placeholders."""
+        restored = text
+        for placeholder, original in replacements:
+            restored = restored.replace(placeholder, original)
+        return restored
 
     def translate(self, text: str, target: str) -> str:
         normalized = normalize_whitespace(text)
@@ -500,14 +532,16 @@ class TranslationService:
             if client is None:
                 client = GoogleTranslator(source='en', target=TRANSLATION_LANGUAGE_CODES.get(target, target))
                 self.clients[target] = client
-            translated = normalize_whitespace(client.translate(normalized))
-            if not translated or translated == normalized:
+            protected, replacements = self._protect(normalized)
+            raw_translated = normalize_whitespace(client.translate(protected))
+            if not raw_translated or raw_translated == protected:
                 translated = normalized
-            elif isinstance(cached, dict):
+            else:
+                translated = normalize_whitespace(self._restore(raw_translated, replacements))
+            if translated != normalized and isinstance(cached, dict):
                 self.cache.setdefault(normalized, {})[target] = translated
                 self.generated += 1
                 self.dirty = True
-                return translated
             return translated
         except Exception as exc:
             self._record_error(f'Translation failed for {target}: {exc}')
