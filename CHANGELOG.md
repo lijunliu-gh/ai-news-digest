@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-04-09
+
 ### Changed
 - Expanded automated ingestion beyond marketing news pages to include official developer release notes and changelogs for Anthropic, OpenAI, Google, and GitHub
 - The digest rebuild now captures product and API updates that may appear in docs or changelog surfaces before or instead of blog-style news posts
