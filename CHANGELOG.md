@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+### Changed
+- Split GitHub relevance matching into separate Product News and Changelog rules so product posts can trust official AI-oriented labels and full article content without making changelog filtering overly broad
+
 ## [0.6.2] - 2026-04-09
 
 ### Changed

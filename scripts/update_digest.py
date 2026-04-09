@@ -827,10 +827,34 @@ def parse_google_release_entries(cutoff: date) -> list[FeedEntry]:
     return entries
 
 
-def is_github_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
-    haystack = ' '.join([title, summary, url, *categories]).lower()
+def github_haystack(title: str, summary: str, url: str, categories: list[str]) -> str:
+    return ' '.join([title, summary, url, *categories]).lower()
+
+
+def is_github_product_news_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
+    haystack = github_haystack(title, summary, url, categories)
+    normalized_categories = {category.lower() for category in categories}
+    trusted_categories = {
+        'github copilot',
+        'ai & ml',
+        'generative ai',
+        'agentic ai',
+        'github actions',
+        'github models',
+        'ai models',
+    }
+    if normalized_categories & trusted_categories:
+        return True
+    return bool(re.search(
+        r'\bcopilot\b|\bagent\b|\bagents\b|\bmcp\b|\bmodels?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bpremium requests?\b|\bgithub actions\b|\bactions\b|\bgithub mobile\b|\bvscode\b|\bvisual studio code\b|\bai\b',
+        haystack,
+    ))
+
+
+def is_github_changelog_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
+    haystack = github_haystack(title, summary, url, categories)
     direct_signals = re.search(
-        r'\bcopilot\b|\bagent\b|\bagents\b|\bmcp\b|\bmodels?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bai\b|\bpremium requests?\b',
+        r'\bcopilot\b|\bagent\b|\bagents\b|\bmcp\b|\bmodels?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bpremium requests?\b|\bai\b',
         haystack,
     )
     if direct_signals:
@@ -850,9 +874,11 @@ def parse_github_entries(cutoff: date) -> list[FeedEntry]:
             continue
         title = first_text(item, 'title')
         description = clean_description(first_text(item, 'description'))
+        content = normalize_whitespace(strip_html(first_text(item, '{http://purl.org/rss/1.0/modules/content/}encoded')))
+        relevance_text = content or description
         link = first_text(item, 'link')
         categories = [normalize_whitespace(node.text or '') for node in item.findall('category') if node.text]
-        if not is_github_relevant(title, description, link, categories):
+        if not is_github_product_news_relevant(title, relevance_text, link, categories):
             continue
         entries.append(FeedEntry(
             date=published,
@@ -879,7 +905,7 @@ def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
         summary = content or description
         link = first_text(item, 'link') or first_text(item, 'guid')
         categories = [normalize_whitespace(node.text or '') for node in item.findall('category') if node.text]
-        if not is_github_relevant(title, summary, link, categories):
+        if not is_github_changelog_relevant(title, summary, link, categories):
             continue
         entries.append(FeedEntry(
             date=published,
