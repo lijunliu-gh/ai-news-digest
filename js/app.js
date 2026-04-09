@@ -118,6 +118,7 @@
 
   let allItems = [];
   let activeCategory = 'all';
+  let activeSourceType = 'all';
   let activeMonth = 'all';
   let searchQuery = '';
 
@@ -146,6 +147,7 @@
 
     renderStats();
     bindFilterButtons();
+    bindSourceTypeButtons();
     bindMonthFilter();
     populateMonthFilter();
     bindSearch();
@@ -173,6 +175,15 @@
       const c = cat === 'all' ? allItems.length : allItems.filter(i => i.category === cat).length;
       countEl.textContent = c;
     });
+
+    // Update source type counts
+    document.querySelectorAll('.type-btn').forEach(btn => {
+      const type = btn.dataset.type;
+      const countEl = btn.querySelector('.count');
+      if (!countEl) return;
+      const c = type === 'all' ? allItems.length : allItems.filter(i => (i.sourceType || 'news') === type).length;
+      countEl.textContent = c;
+    });
   }
 
   /* ---------- Filters ---------- */
@@ -181,6 +192,17 @@
       btn.addEventListener('click', () => {
         activeCategory = btn.dataset.cat;
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        render();
+      });
+    });
+  }
+
+  function bindSourceTypeButtons() {
+    document.querySelectorAll('.type-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeSourceType = btn.dataset.type;
+        document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         render();
       });
@@ -240,6 +262,11 @@
     // Apply category filter
     if (activeCategory !== 'all') {
       filtered = filtered.filter(i => i.category === activeCategory);
+    }
+
+    // Apply source type filter
+    if (activeSourceType !== 'all') {
+      filtered = filtered.filter(i => (i.sourceType || 'news') === activeSourceType);
     }
 
     if (activeMonth !== 'all') {
