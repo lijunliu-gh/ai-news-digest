@@ -165,8 +165,9 @@ a:hover { text-decoration: underline; }
 }
 .theme-toggle:hover { color: var(--accent); border-color: var(--border-hover); }
 .theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-[data-theme="light"] .theme-toggle { color: #1a1a2e; border-color: #b0b0c0; }
-[data-theme="light"] .theme-toggle svg { stroke: #1a1a2e; stroke-width: 2.5; }
+[data-theme="light"] .theme-toggle { color: #e67e22; border-color: #ccc; background: #fff8f0; }
+[data-theme="light"] .theme-toggle svg { stroke: #e67e22; fill: #e67e22; stroke-width: 2; }
+[data-theme="light"] .theme-toggle:hover { color: #d35400; border-color: #e67e22; }
 [data-theme="light"] .lang-btn { color: #444460; }
 [data-theme="light"] .lang-btn.active { color: #6c5ce7; }
 
