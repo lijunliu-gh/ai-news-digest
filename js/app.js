@@ -16,7 +16,7 @@
   /* ---------- i18n ---------- */
   const I18N = {
     zh: {
-      heroSub: '关注 GitHub, Anthropic, OpenAI, Google 四大 AI 平台的最新产品动态',
+      heroSub: '聚合近三个月 GitHub、Anthropic、OpenAI、Google 四大 AI 平台的官方产品更新',
       statTotal: '总数', statToday: '今日', statCategories: '分类',
       filterAll: '全部',
       themeToggleAria: '切换明暗主题',
@@ -34,7 +34,7 @@
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
     },
     ja: {
-      heroSub: 'GitHub, Anthropic, OpenAI, Google の4大AIプラットフォームの最新プロダクト情報',
+      heroSub: '過去3か月分の GitHub、Anthropic、OpenAI、Google による公式プロダクト更新をまとめて確認できます',
       statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
       filterAll: 'すべて',
       themeToggleAria: 'ライト/ダークテーマを切り替え',
@@ -52,7 +52,7 @@
       dateFmt: (y, m, d, months) => `${y}年${months[m]}${d}日`,
     },
     en: {
-      heroSub: 'Stay updated with the latest product launches and updates from GitHub, Anthropic, OpenAI, and Google',
+      heroSub: 'Track official product updates from the past three months across GitHub, Anthropic, OpenAI, and Google',
       statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
       filterAll: 'All',
       themeToggleAria: 'Toggle light and dark theme',
