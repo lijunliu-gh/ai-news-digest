@@ -56,6 +56,7 @@
   let currentLang = 'zh';
 
   function t(key) { return (I18N[currentLang] || I18N.zh)[key] || key; }
+  function localized(field) { return (typeof field === 'object' && field !== null) ? (field[currentLang] || field.zh || field.en || '') : (field || ''); }
 
   function applyI18n() {
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -178,12 +179,14 @@
 
     // Apply search
     if (searchQuery) {
-      filtered = filtered.filter(i =>
-        i.title.toLowerCase().includes(searchQuery) ||
-        i.summary.toLowerCase().includes(searchQuery) ||
-        i.tags.some(t => t.toLowerCase().includes(searchQuery)) ||
-        i.source.toLowerCase().includes(searchQuery)
-      );
+      filtered = filtered.filter(i => {
+        const title = localized(i.title).toLowerCase();
+        const summary = localized(i.summary).toLowerCase();
+        return title.includes(searchQuery) ||
+          summary.includes(searchQuery) ||
+          i.tags.some(t => t.toLowerCase().includes(searchQuery)) ||
+          i.source.toLowerCase().includes(searchQuery);
+      });
     }
 
     if (filtered.length === 0) {
@@ -216,14 +219,16 @@
     const catLabel = CATEGORY_LABELS[item.category] || item.category;
     const tagsHtml = item.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
     const delay = Math.min(idx * 0.04, 0.6);
+    const title = localized(item.title);
+    const summary = localized(item.summary);
     return `
       <a class="card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${delay}s">
         <div class="card-top">
           <span class="card-cat" data-cat="${escapeHtml(item.category)}">${escapeHtml(catLabel)}</span>
           <span class="card-source">${escapeHtml(item.source)}</span>
         </div>
-        <div class="card-title">${escapeHtml(item.title)}</div>
-        <div class="card-summary">${escapeHtml(item.summary)}</div>
+        <div class="card-title">${escapeHtml(title)}</div>
+        <div class="card-summary">${escapeHtml(summary)}</div>
         <div class="card-tags">${tagsHtml}</div>
       </a>`;
   }
