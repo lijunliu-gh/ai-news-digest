@@ -347,11 +347,17 @@
   }
 
   /* ---------- Theme ---------- */
+  function syncThemeCheckbox() {
+    const cb = document.getElementById('theme-checkbox');
+    if (cb) cb.checked = (document.documentElement.getAttribute('data-theme') || 'dark') === 'dark';
+  }
+
   window.toggleTheme = function () {
     const current = document.documentElement.getAttribute('data-theme') || 'dark';
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     try { localStorage.setItem('theme', next); } catch {}
+    syncThemeCheckbox();
   };
 
   // Restore saved theme
@@ -360,6 +366,7 @@
       const saved = localStorage.getItem('theme');
       if (saved) document.documentElement.setAttribute('data-theme', saved);
     } catch {}
+    syncThemeCheckbox();
   })();
 
   /* ---------- Boot ---------- */

@@ -32,7 +32,10 @@
           <button class="lang-btn" data-lang="ja">日</button>
           <button class="lang-btn" data-lang="en">EN</button>
         </div>
-        <button class="theme-toggle" onclick="toggleTheme()" data-i18n-aria-label="themeToggleAria" data-i18n-title="themeToggleAria"></button>
+        <label class="theme-switch" data-i18n-aria-label="themeToggleAria">
+          <input type="checkbox" onclick="toggleTheme()" id="theme-checkbox">
+          <span class="theme-slider"></span>
+        </label>
       </div>
     </div>
   </header>
