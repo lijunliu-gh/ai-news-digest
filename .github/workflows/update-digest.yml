@@ -2,6 +2,31 @@ name: Update Digest
 
 on:
   workflow_dispatch:
+    inputs:
+      min_active_items:
+        description: Minimum active item count before failing the refresh
+        required: false
+        default: '60'
+      total_drop_ratio:
+        description: Minimum allowed retained ratio for total items vs previous run
+        required: false
+        default: '0.6'
+      source_drop_ratio:
+        description: Minimum allowed retained ratio per source vs previous run
+        required: false
+        default: '0.4'
+      source_baseline:
+        description: Minimum previous source count before per-source drop checks apply
+        required: false
+        default: '3'
+      required_sources:
+        description: Comma-separated required sources
+        required: false
+        default: 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google Cloud Release Notes,GitHub Changelog'
+      optional_sources:
+        description: Comma-separated optional sources excluded from drop checks
+        required: false
+        default: 'GitHub Product News'
   schedule:
     - cron: '12 23 * * *'
     - cron: '21 3 * * *'
@@ -19,6 +44,13 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      DIGEST_MIN_ACTIVE_ITEMS: ${{ github.event.inputs.min_active_items || '60' }}
+      DIGEST_TOTAL_DROP_RATIO: ${{ github.event.inputs.total_drop_ratio || '0.6' }}
+      DIGEST_SOURCE_DROP_RATIO: ${{ github.event.inputs.source_drop_ratio || '0.4' }}
+      DIGEST_SOURCE_BASELINE: ${{ github.event.inputs.source_baseline || '3' }}
+      DIGEST_REQUIRED_SOURCES: ${{ github.event.inputs.required_sources || 'Anthropic News,Anthropic Release Notes,OpenAI News,OpenAI API Changelog,Google Blog,Google Cloud Release Notes,GitHub Changelog' }}
+      DIGEST_OPTIONAL_SOURCES: ${{ github.event.inputs.optional_sources || 'GitHub Product News' }}
 
     steps:
       - name: Checkout repository
@@ -56,6 +88,14 @@ jobs:
               lines.append(f"- Active items: {active.get('totalItems', 0)}")
               lines.append(f"- Archived items: {report.get('archive', {}).get('totalItems', 0)}")
               lines.append(f"- Validation: {'passed' if validation.get('passed') else 'failed'}")
+                config = validation.get('config', {})
+                if config:
+                  lines.append('')
+                  lines.append('### Validation config')
+                  lines.append(f"- Min active items: {config.get('minActiveItems')}")
+                  lines.append(f"- Total drop ratio: {config.get('totalDropRatio')}")
+                  lines.append(f"- Source drop ratio: {config.get('sourceDropRatio')}")
+                  lines.append(f"- Source baseline: {config.get('sourceBaseline')}")
               if validation.get('issues'):
                   lines.append('')
                   lines.append('### Validation issues')

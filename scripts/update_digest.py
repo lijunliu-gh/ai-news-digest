@@ -27,9 +27,12 @@ WINDOW_MONTHS = 3
 REQUEST_TIMEOUT = 30
 USER_AGENT = 'ai-news-digest-bot/0.5'
 ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
-MIN_ACTIVE_ITEMS = 60
-OPTIONAL_SOURCES = {'GitHub Product News'}
-REQUIRED_SOURCES = {
+DEFAULT_MIN_ACTIVE_ITEMS = 60
+DEFAULT_TOTAL_DROP_RATIO = 0.6
+DEFAULT_SOURCE_DROP_RATIO = 0.4
+DEFAULT_SOURCE_BASELINE = 3
+DEFAULT_OPTIONAL_SOURCES = {'GitHub Product News'}
+DEFAULT_REQUIRED_SOURCES = {
     'Anthropic News',
     'Anthropic Release Notes',
     'OpenAI News',
@@ -128,6 +131,38 @@ def get_today() -> date:
         return date.fromisoformat(override)
     env_override = os.environ.get('TODAY_OVERRIDE')
     return date.fromisoformat(env_override) if env_override else date.today()
+
+
+def env_int(name: str, default: int) -> int:
+    value = os.environ.get(name, '').strip()
+    if not value:
+        return default
+    return int(value)
+
+
+def env_float(name: str, default: float) -> float:
+    value = os.environ.get(name, '').strip()
+    if not value:
+        return default
+    return float(value)
+
+
+def env_csv_set(name: str, default: set[str]) -> set[str]:
+    value = os.environ.get(name, '').strip()
+    if not value:
+        return set(default)
+    return {normalize_whitespace(part) for part in value.split(',') if normalize_whitespace(part)}
+
+
+def get_validation_config() -> dict[str, int | float | set[str]]:
+    return {
+        'min_active_items': env_int('DIGEST_MIN_ACTIVE_ITEMS', DEFAULT_MIN_ACTIVE_ITEMS),
+        'total_drop_ratio': env_float('DIGEST_TOTAL_DROP_RATIO', DEFAULT_TOTAL_DROP_RATIO),
+        'source_drop_ratio': env_float('DIGEST_SOURCE_DROP_RATIO', DEFAULT_SOURCE_DROP_RATIO),
+        'source_baseline': env_int('DIGEST_SOURCE_BASELINE', DEFAULT_SOURCE_BASELINE),
+        'required_sources': env_csv_set('DIGEST_REQUIRED_SOURCES', DEFAULT_REQUIRED_SOURCES),
+        'optional_sources': env_csv_set('DIGEST_OPTIONAL_SOURCES', DEFAULT_OPTIONAL_SOURCES),
+    }
 
 
 def within_window(day_str: str, cutoff: date) -> bool:
@@ -773,34 +808,45 @@ def summarize_items(items: list[dict]) -> dict:
     }
 
 
-def validate_digest_health(fresh_digest: list[dict], previous_digest: list[dict]) -> list[str]:
+def validate_digest_health(
+    fresh_digest: list[dict],
+    previous_digest: list[dict],
+    config: dict[str, int | float | set[str]],
+) -> list[str]:
     issues: list[str] = []
     current_summary = summarize_items(fresh_digest)
     previous_summary = summarize_items(previous_digest)
+    min_active_items = int(config['min_active_items'])
+    total_drop_ratio = float(config['total_drop_ratio'])
+    source_drop_ratio = float(config['source_drop_ratio'])
+    source_baseline = int(config['source_baseline'])
+    required_sources = set(config['required_sources'])
+    optional_sources = set(config['optional_sources'])
 
-    if current_summary['totalItems'] < MIN_ACTIVE_ITEMS:
+    if current_summary['totalItems'] < min_active_items:
         issues.append(
-            f"Active digest only has {current_summary['totalItems']} items, below minimum threshold {MIN_ACTIVE_ITEMS}."
+            f"Active digest only has {current_summary['totalItems']} items, below minimum threshold {min_active_items}."
         )
 
     previous_total = previous_summary['totalItems']
     current_total = current_summary['totalItems']
-    if previous_total >= MIN_ACTIVE_ITEMS and current_total < max(MIN_ACTIVE_ITEMS, int(previous_total * 0.6)):
+    total_drop_floor = max(min_active_items, int(previous_total * total_drop_ratio))
+    if previous_total >= min_active_items and current_total < total_drop_floor:
         issues.append(
             f'Active digest dropped sharply from {previous_total} to {current_total} items.'
         )
 
     current_sources = current_summary['sources']
     previous_sources = previous_summary['sources']
-    for source in sorted(REQUIRED_SOURCES):
+    for source in sorted(required_sources):
         if current_sources.get(source, 0) == 0:
             issues.append(f'Missing required source: {source}.')
 
     for source, previous_count in previous_sources.items():
-        if source in OPTIONAL_SOURCES or previous_count < 3:
+        if source in optional_sources or previous_count < source_baseline:
             continue
         current_count = current_sources.get(source, 0)
-        minimum_allowed = max(1, int(previous_count * 0.4))
+        minimum_allowed = max(1, int(previous_count * source_drop_ratio))
         if current_count < minimum_allowed:
             issues.append(
                 f'Source {source} dropped from {previous_count} to {current_count}, below guard threshold {minimum_allowed}.'
@@ -840,8 +886,9 @@ def main() -> int:
     archive_items = merge_archive(existing_archive, previous_digest, fresh_digest, cutoff)
 
     validation_issues = []
+    validation_config = get_validation_config()
     if os.environ.get('DIGEST_SKIP_VALIDATION') != '1':
-        validation_issues = validate_digest_health(fresh_digest, previous_digest)
+        validation_issues = validate_digest_health(fresh_digest, previous_digest, validation_config)
 
     report = {
         'generatedAt': datetime.now(UTC).isoformat(timespec='seconds').replace('+00:00', 'Z'),
@@ -852,6 +899,14 @@ def main() -> int:
         'validation': {
             'passed': not validation_issues,
             'issues': validation_issues,
+            'config': {
+                'minActiveItems': validation_config['min_active_items'],
+                'totalDropRatio': validation_config['total_drop_ratio'],
+                'sourceDropRatio': validation_config['source_drop_ratio'],
+                'sourceBaseline': validation_config['source_baseline'],
+                'requiredSources': sorted(validation_config['required_sources']),
+                'optionalSources': sorted(validation_config['optional_sources']),
+            },
         },
     }
     emit_report(report)
