@@ -235,6 +235,27 @@ a:hover { text-decoration: underline; }
   margin: 0 auto;
 }
 
+.hero-repo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-filter);
+  transition: all var(--transition);
+  text-decoration: none;
+}
+.hero-repo:hover {
+  color: var(--text);
+  border-color: var(--border-hover);
+  text-decoration: none;
+}
+
 /* ---------- Stats Bar ---------- */
 .stats-bar {
   display: flex;
