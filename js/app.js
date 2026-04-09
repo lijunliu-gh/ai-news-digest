@@ -28,7 +28,7 @@
       searchPlaceholder: '搜索标题、摘要、标签…',
       emptyState: '没有找到匹配的内容。',
       footerCredit: 'AI News Digest &mdash; 由 <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> 策划',
-      footerDisclaimer: '数据通过手动或自动化更新，与所列公司无隶属关系。',
+      footerDisclaimer: '数据通过自动化定时更新，与所列公司无隶属关系。',
       trendTitle: '更新频率趋势',
       trendTooltipSuffix: '条更新',
       item: '条', items: '条',
@@ -48,7 +48,7 @@
       searchPlaceholder: 'タイトル、要約、タグを検索…',
       emptyState: '一致する項目が見つかりません。',
       footerCredit: 'AI News Digest &mdash; <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> がキュレーション',
-      footerDisclaimer: 'データは手動または自動で更新されます。掲載企業とは無関係です。',
+      footerDisclaimer: 'データは自動で定期更新されます。掲載企業とは無関係です。',
       trendTitle: '更新頻度トレンド',
       trendTooltipSuffix: '件の更新',
       item: '件', items: '件',
@@ -68,7 +68,7 @@
       searchPlaceholder: 'Search titles, summaries, tags…',
       emptyState: 'No matching items found.',
       footerCredit: 'AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a>',
-      footerDisclaimer: 'Data updated manually or via automation. Not affiliated with any listed company.',
+      footerDisclaimer: 'Data updated automatically on a schedule. Not affiliated with any listed company.',
       trendTitle: 'Update Frequency Trend',
       trendTooltipSuffix: 'updates',
       item: 'item', items: 'items',
@@ -155,6 +155,7 @@
     applyI18n();
     render();
     renderTrendChart();
+    initBackToTop();
   }
 
   /* ---------- Stats ---------- */
@@ -299,6 +300,7 @@
 
     if (filtered.length === 0) {
       container.innerHTML = renderEmpty();
+      renderMonthIndicatorFromFeed();
       return;
     }
 
@@ -311,8 +313,12 @@
 
     let html = '';
     let idx = 0;
+    let lastMonth = '';
     for (const [date, items] of groups) {
-      html += `<div class="date-group">`;
+      const monthKey = date.slice(0, 7);
+      const monthAttr = monthKey !== lastMonth ? ` data-month="${monthKey}" id="month-${monthKey}"` : '';
+      if (monthKey !== lastMonth) lastMonth = monthKey;
+      html += `<div class="date-group"${monthAttr}>`;
       html += `<div class="date-label">${formatDate(date)} <span class="day-count">${items.length} ${items.length > 1 ? t('items') : t('item')}</span></div>`;
       for (const item of items) {
         html += renderCard(item, idx++);
@@ -321,6 +327,7 @@
     }
 
     container.innerHTML = html;
+    renderMonthIndicatorFromFeed();
   }
 
   function renderCard(item, idx) {
@@ -559,6 +566,93 @@
     } catch {}
     syncThemeCheckbox();
   })();
+
+  /* ---------- Back to Top ---------- */
+  function initBackToTop() {
+    const btn = document.getElementById('back-to-top');
+    if (!btn) return;
+    const threshold = 400;
+    let ticking = false;
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          btn.classList.toggle('visible', window.scrollY > threshold);
+          updateMonthIndicator();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  /* ---------- Month Indicator ---------- */
+  function renderMonthIndicatorFromFeed() {
+    const container = document.getElementById('month-indicator');
+    if (!container) return;
+
+    const groups = document.querySelectorAll('[data-month]');
+    if (groups.length === 0) {
+      container.innerHTML = '';
+      container.classList.remove('visible');
+      return;
+    }
+
+    const seen = new Set();
+    const items = [];
+    groups.forEach(el => {
+      const key = el.dataset.month;
+      if (!key || seen.has(key)) return;
+      seen.add(key);
+      items.push({ key, el });
+    });
+
+    container.innerHTML = items.map(({ key }) =>
+      `<a href="#month-${key}" data-month-link="${key}">${formatMonth(key)}</a>`
+    ).join('');
+
+    // Smooth scroll on click
+    container.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.getElementById(link.getAttribute('href').slice(1));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    container.classList.toggle('visible', items.length > 1 && window.scrollY > 300);
+  }
+
+  function updateMonthIndicator() {
+    const container = document.getElementById('month-indicator');
+    if (!container) return;
+
+    const links = container.querySelectorAll('a[data-month-link]');
+    if (links.length === 0) return;
+
+    container.classList.toggle('visible', links.length > 1 && window.scrollY > 300);
+
+    // Find the month group currently in view
+    const groups = document.querySelectorAll('[data-month]');
+    let activeKey = '';
+    const viewTop = window.scrollY + 120;
+
+    groups.forEach(el => {
+      if (el.offsetTop <= viewTop) {
+        activeKey = el.dataset.month;
+      }
+    });
+
+    links.forEach(link => {
+      link.classList.toggle('active', link.dataset.monthLink === activeKey);
+    });
+  }
 
   /* ---------- Boot ---------- */
   if (document.readyState === 'loading') {
