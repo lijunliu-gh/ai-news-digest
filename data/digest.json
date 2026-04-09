@@ -21,7 +21,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-08-openai-introducing-child-safety-blueprint",
@@ -42,7 +43,224 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-08-microsoft-2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere",
+      "date": "2026-04-08",
+      "category": "microsoft",
+      "title": {
+        "zh": "GitHub Mobile: Research and code with Copilot cloud agent anywhere",
+        "ja": "GitHub Mobile: Research and code with Copilot cloud agent anywhere",
+        "en": "GitHub Mobile: Research and code with Copilot cloud agent anywhere"
+      },
+      "summary": {
+        "zh": "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…",
+        "ja": "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…",
+        "en": "Copilot cloud agent now supports more than pull request workflows on GitHub Mobile, so you can keep work moving even when you’re away from your desk. Ask Copilot to research…"
+      },
+      "url": "https://github.blog/changelog/2026-04-08-github-mobile-research-and-code-with-copilot-cloud-agent-anywhere",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-08-microsoft-2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "date": "2026-04-08",
+      "category": "microsoft",
+      "title": {
+        "zh": "GitHub Copilot in Visual Studio Code, March Releases",
+        "ja": "GitHub Copilot in Visual Studio Code, March Releases",
+        "en": "GitHub Copilot in Visual Studio Code, March Releases"
+      },
+      "summary": {
+        "zh": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully…",
+        "ja": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully…",
+        "en": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully…"
+      },
+      "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-08-microsoft-2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
+      "date": "2026-04-08",
+      "category": "microsoft",
+      "title": {
+        "zh": "Copilot-reviewed pull request merge metrics now in the usage metrics API",
+        "ja": "Copilot-reviewed pull request merge metrics now in the usage metrics API",
+        "en": "Copilot-reviewed pull request merge metrics now in the usage metrics API"
+      },
+      "summary": {
+        "zh": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new…",
+        "ja": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new…",
+        "en": "Building on the pull request throughput and cycle-time metrics shipped in February, which track Copilot-created pull requests from the coding agent, the Copilot usage metrics API now includes two new…"
+      },
+      "url": "https://github.blog/changelog/2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-08-anthropic-overview",
+      "date": "2026-04-08",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Managed Agents",
+        "ja": "Claude Managed Agents",
+        "en": "Claude Managed Agents"
+      },
+      "summary": {
+        "zh": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview.",
+        "ja": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview.",
+        "en": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+      "tags": [
+        "claude-managed-agents",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-08-anthropic-cli",
+      "date": "2026-04-08",
+      "category": "anthropic",
+      "title": {
+        "zh": "ant CLI",
+        "ja": "ant CLI",
+        "en": "ant CLI"
+      },
+      "summary": {
+        "zh": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.",
+        "ja": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference.",
+        "en": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference."
+      },
+      "url": "https://platform.claude.com/docs/en/api/sdks/cli",
+      "tags": [
+        "ant-cli",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-07-microsoft-2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "date": "2026-04-07",
+      "category": "microsoft",
+      "title": {
+        "zh": "Dependabot alerts are now assignable to AI agents for remediation",
+        "ja": "Dependabot alerts are now assignable to AI agents for remediation",
+        "en": "Dependabot alerts are now assignable to AI agents for remediation"
+      },
+      "summary": {
+        "zh": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,…",
+        "ja": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,…",
+        "en": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex,…"
+      },
+      "url": "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "tags": [
+        "improvement",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-microsoft-2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "date": "2026-04-07",
+      "category": "microsoft",
+      "title": {
+        "zh": "Copilot CLI now supports BYOK and local models",
+        "ja": "Copilot CLI now supports BYOK and local models",
+        "en": "Copilot CLI now supports BYOK and local models"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and…",
+        "ja": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and…",
+        "en": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and…"
+      },
+      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-anthropic-messages",
+      "date": "2026-04-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "Messages API",
+        "ja": "Messages API",
+        "en": "Messages API"
+      },
+      "summary": {
+        "zh": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock.",
+        "ja": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock.",
+        "en": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock."
+      },
+      "url": "https://platform.claude.com/docs/en/api/messages",
+      "tags": [
+        "messages-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-07-anthropic-glasswing-2",
+      "date": "2026-04-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Mythos Preview",
+        "ja": "Claude Mythos Preview",
+        "en": "Claude Mythos Preview"
+      },
+      "summary": {
+        "zh": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.",
+        "ja": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only.",
+        "en": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only."
+      },
+      "url": "https://anthropic.com/glasswing",
+      "tags": [
+        "claude-mythos-preview",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-07-anthropic-glasswing",
@@ -63,7 +281,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-06-openai-introducing-openai-safety-fellowship",
@@ -84,7 +303,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-06-openai-industrial-policy-for-the-intelligence-age",
@@ -105,7 +325,31 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-06-google-release-notes",
+      "date": "2026-04-06",
+      "category": "google",
+      "title": {
+        "zh": "Metadata search for RAG Engine",
+        "ja": "Metadata search for RAG Engine",
+        "en": "Metadata search for RAG Engine"
+      },
+      "summary": {
+        "zh": "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search.",
+        "ja": "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search.",
+        "en": "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search."
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#April_06_2026-metadata-search-for-rag-engine",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-06-anthropic-google-broadcom-partnership-compute",
@@ -126,7 +370,31 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-03-google-release-notes",
+      "date": "2026-04-03",
+      "category": "google",
+      "title": {
+        "zh": "Vertex AI RAG Engine Serverless mode",
+        "ja": "Vertex AI RAG Engine Serverless mode",
+        "en": "Vertex AI RAG Engine Serverless mode"
+      },
+      "summary": {
+        "zh": "Feature Vertex AI RAG Engine Serverless mode Vertex AI RAG Engine Serverless mode is now available in public preview. Serverless mode provides a fully managed database for storing RAG resources that abstracts away database provisioning and scaling. You can seamlessly switch between Serverless mode and Spanner mode, which provides dedicated, isolated database instances. For more information, see the following: Deployment modes in Vertex AI RAG Engine Serverless mode Managing Spanner mode Switching between modes",
+        "ja": "Feature Vertex AI RAG Engine Serverless mode Vertex AI RAG Engine Serverless mode is now available in public preview. Serverless mode provides a fully managed database for storing RAG resources that abstracts away database provisioning and scaling. You can seamlessly switch between Serverless mode and Spanner mode, which provides dedicated, isolated database instances. For more information, see the following: Deployment modes in Vertex AI RAG Engine Serverless mode Managing Spanner mode Switching between modes",
+        "en": "Feature Vertex AI RAG Engine Serverless mode Vertex AI RAG Engine Serverless mode is now available in public preview. Serverless mode provides a fully managed database for storing RAG resources that abstracts away database provisioning and scaling. You can seamlessly switch between Serverless mode and Spanner mode, which provides dedicated, isolated database instances. For more information, see the following: Deployment modes in Vertex AI RAG Engine Serverless mode Managing Spanner mode Switching between modes"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#April_03_2026-vertex-ai-rag-engine-serverless-mode",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-02-openai-openai-acquires-tbpn",
@@ -147,7 +415,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-02-openai-codex-flexible-pricing-for-teams",
@@ -168,7 +437,31 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-02-google-release-notes",
+      "date": "2026-04-02",
+      "category": "google",
+      "title": {
+        "zh": "Veo 3.1 Lite",
+        "ja": "Veo 3.1 Lite",
+        "en": "Veo 3.1 Lite"
+      },
+      "summary": {
+        "zh": "Feature Veo 3.1 Lite Veo 3.1 Lite is available in public preview. This release is our most cost-efficient Veo on Vertex AI model. For more information, see 3.1 Lite Generate Announcement Gemini 2.5 model retirement dates updated The retirement dates for Gemini 2.5 Pro, Gemini 2.5 Flash-Lite, and Gemini 2.5 Flash have been updated to October 16, 2026. For more information, see Model versions and lifecycle.",
+        "ja": "Feature Veo 3.1 Lite Veo 3.1 Lite is available in public preview. This release is our most cost-efficient Veo on Vertex AI model. For more information, see 3.1 Lite Generate Announcement Gemini 2.5 model retirement dates updated The retirement dates for Gemini 2.5 Pro, Gemini 2.5 Flash-Lite, and Gemini 2.5 Flash have been updated to October 16, 2026. For more information, see Model versions and lifecycle.",
+        "en": "Feature Veo 3.1 Lite Veo 3.1 Lite is available in public preview. This release is our most cost-efficient Veo on Vertex AI model. For more information, see 3.1 Lite Generate Announcement Gemini 2.5 model retirement dates updated The retirement dates for Gemini 2.5 Pro, Gemini 2.5 Flash-Lite, and Gemini 2.5 Flash have been updated to October 16, 2026. For more information, see Model versions and lifecycle."
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#April_02_2026-veo-3-1-lite",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-02-google-introducing-flex-and-priority-inference",
@@ -190,7 +483,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-01-google-google-ai-updates-march-2026",
@@ -222,7 +516,8 @@
         "health",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
@@ -243,7 +538,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-31-google-veo-3-1-lite",
@@ -265,7 +561,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-31-anthropic-australia-mou",
@@ -286,7 +583,54 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-30-anthropic-overview",
+      "date": "2026-03-30",
+      "category": "anthropic",
+      "title": {
+        "zh": "April 30, 2026",
+        "ja": "April 30, 2026",
+        "en": "April 30, 2026"
+      },
+      "summary": {
+        "zh": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required.",
+        "ja": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required.",
+        "en": "We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026. After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standard 200k-token context window will return an error. To continue using 1M context windows, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, which support the full 1M token context window at standard pricing with no beta header required."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "tags": [
+        "april-30-2026",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-30-anthropic-batch-processing",
+      "date": "2026-03-30",
+      "category": "anthropic",
+      "title": {
+        "zh": "max_tokens",
+        "ja": "max_tokens",
+        "en": "max_tokens"
+      },
+      "summary": {
+        "zh": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.",
+        "ja": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks.",
+        "en": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing#extended-output-beta",
+      "tags": [
+        "max-tokens",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-03-29-openai-helping-disaster-response-teams-asia",
@@ -307,7 +651,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-26-microsoft-whats-coming-to-our-github-actions-2026-security-roadmap",
@@ -332,7 +677,8 @@
         "supply-chain-security",
         "github"
       ],
-      "source": "GitHub Product News"
+      "source": "GitHub Product News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-26-google-gemini-3-1-flash-live",
@@ -354,7 +700,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-25-openai-safety-bug-bounty",
@@ -375,7 +722,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-25-openai-our-approach-to-the-model-spec",
@@ -396,7 +744,31 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-25-google-release-notes",
+      "date": "2026-03-25",
+      "category": "google",
+      "title": {
+        "zh": "Lyria 3",
+        "ja": "Lyria 3",
+        "en": "Lyria 3"
+      },
+      "summary": {
+        "zh": "Feature Lyria 3 Lyria is available in public preview. You can use lyria-3-pro-preview to generate 184 seconds of audio, or lyria-3-clip-preview to generate 30 seconds of audio. For more information, see the following: Lyria 3 Pro Preview Lyria 3 Clip Preview",
+        "ja": "Feature Lyria 3 Lyria is available in public preview. You can use lyria-3-pro-preview to generate 184 seconds of audio, or lyria-3-clip-preview to generate 30 seconds of audio. For more information, see the following: Lyria 3 Pro Preview Lyria 3 Clip Preview",
+        "en": "Feature Lyria 3 Lyria is available in public preview. You can use lyria-3-pro-preview to generate 184 seconds of audio, or lyria-3-clip-preview to generate 30 seconds of audio. For more information, see the following: Lyria 3 Pro Preview Lyria 3 Clip Preview"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#March_25_2026-lyria-3",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-03-25-google-lyria-3-pro",
@@ -420,7 +792,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-25-google-lyria-3-developers",
@@ -442,7 +815,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-24-openai-update-on-the-openai-foundation",
@@ -463,7 +837,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-24-openai-teen-safety-policies-gpt-oss-safeguard",
@@ -484,7 +859,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-24-openai-powering-product-discovery-in-chatgpt",
@@ -505,7 +881,31 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-24-google-release-notes",
+      "date": "2026-03-24",
+      "category": "google",
+      "title": {
+        "zh": "Imagen generation GA endpoints deprecation",
+        "ja": "Imagen generation GA endpoints deprecation",
+        "en": "Imagen generation GA endpoints deprecation"
+      },
+      "summary": {
+        "zh": "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image Deprecated Video generation GA endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001",
+        "ja": "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image Deprecated Video generation GA endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001",
+        "en": "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006 gemini-2.5-flash-image imagetext@001 gemini-2.5-flash-image imagen-3.0-capability-001 gemini-2.5-flash-image imagen-3.0-capability-002 gemini-2.5-flash-image imagen-3.0-fast-generate-001 gemini-2.5-flash-image imagen-3.0-generate-001 gemini-2.5-flash-image imagen-3.0-generate-002 gemini-2.5-flash-image imagen-4.0-fast-generate-001 gemini-2.5-flash-image imagen-4.0-generate-001 gemini-2.5-flash-image imagen-4.0-ultra-generate-001 gemini-2.5-flash-image Deprecated Video generation GA endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-001 veo-3.1-generate-001 veo-3.0-fast-generate-001 veo-3.1-fast-generate-001 veo-2.0-generate-001 veo-3.1-generate-001"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#March_24_2026-imagen-generation-ga-endpoints-deprecation",
+      "tags": [
+        "deprecated",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-03-23-openai-creating-with-sora-safely",
@@ -526,7 +926,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-19-openai-openai-to-acquire-astral",
@@ -547,7 +948,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-19-openai-how-we-monitor-internal-coding-agents-misalignment",
@@ -568,7 +970,31 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-18-anthropic-list",
+      "date": "2026-03-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "GET /v1/models",
+        "ja": "GET /v1/models",
+        "en": "GET /v1/models"
+      },
+      "summary": {
+        "zh": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports.",
+        "ja": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports.",
+        "en": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports."
+      },
+      "url": "https://platform.claude.com/docs/en/api/models/list",
+      "tags": [
+        "get-v1-models",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-03-17-openai-japan-teen-safety-blueprint",
@@ -589,7 +1015,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-17-openai-introducing-gpt-5-4-mini-and-nano",
@@ -610,7 +1037,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-17-openai-equipping-workers-with-insights-about-compensation",
@@ -631,7 +1059,35 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-17-openai-changelog",
+      "date": "2026-03-17",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.4 mini, GPT-5.4 nano",
+        "ja": "GPT-5.4 mini, GPT-5.4 nano",
+        "en": "GPT-5.4 mini, GPT-5.4 nano"
+      },
+      "summary": {
+        "zh": "Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most. GPT-5.4 mini supports tool search, built-in computer use, and compaction. GPT-5.4 nano supports compaction, but does not support tool search or computer use.",
+        "ja": "Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most. GPT-5.4 mini supports tool search, built-in computer use, and compaction. GPT-5.4 nano supports compaction, but does not support tool search or computer use.",
+        "en": "Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most. GPT-5.4 mini supports tool search, built-in computer use, and compaction. GPT-5.4 nano supports compaction, but does not support tool search or computer use."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-17-feature-gpt-5-4-mini-gpt-5-4-nano",
+      "tags": [
+        "gpt-5-4-mini",
+        "gpt-5-4-nano",
+        "v1-responses",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-17-google-personal-intelligence-expansion",
@@ -654,7 +1110,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-16-openai-why-codex-security-doesnt-include-sast",
@@ -675,7 +1132,156 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-16-anthropic-extended-thinking",
+      "date": "2026-03-16",
+      "category": "anthropic",
+      "title": {
+        "zh": "display",
+        "ja": "display",
+        "en": "display"
+      },
+      "summary": {
+        "zh": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display.",
+        "ja": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display.",
+        "en": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#controlling-thinking-display",
+      "tags": [
+        "display",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-13-anthropic-release-notes-2",
+      "date": "2026-03-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+        "ja": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+        "en": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window."
+      },
+      "summary": {
+        "zh": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+        "ja": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window.",
+        "en": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes#march-13-2026-we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window-we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window",
+      "tags": [
+        "we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-13-anthropic-release-notes",
+      "date": "2026-03-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "We've removed the dedicated 1M rate limits for all supported models.",
+        "ja": "We've removed the dedicated 1M rate limits for all supported models.",
+        "en": "We've removed the dedicated 1M rate limits for all supported models."
+      },
+      "summary": {
+        "zh": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.",
+        "ja": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length.",
+        "en": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes#march-13-2026-we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models-your-standard-account-limits-now-apply-across-every-context-length-we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models",
+      "tags": [
+        "we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-13-anthropic-context-windows",
+      "date": "2026-03-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "1M token context window",
+        "ja": "1M token context window",
+        "en": "1M token context window"
+      },
+      "summary": {
+        "zh": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.",
+        "ja": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.",
+        "en": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "tags": [
+        "1m-token-context-window",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-12-openai-changelog-2",
+      "date": "2026-03-12",
+      "category": "openai",
+      "title": {
+        "zh": "Expanded the Sora API with reusable character references, longer generations up to",
+        "ja": "Expanded the Sora API with reusable character references, longer generations up to",
+        "en": "Expanded the Sora API with reusable character references, longer generations up to"
+      },
+      "summary": {
+        "zh": "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here.",
+        "ja": "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here.",
+        "en": "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-feature-expanded-the-sora-api-with-reusable-character-references-longer-generations-up-to",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "v1-videos",
+        "v1-videos-characters",
+        "v1-videos-extensions",
+        "v1-batch",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-12-openai-changelog",
+      "date": "2026-03-12",
+      "category": "openai",
+      "title": {
+        "zh": "Added POST /v1/videos/edits for editing existing videos.",
+        "ja": "Added POST /v1/videos/edits for editing existing videos.",
+        "en": "Added POST /v1/videos/edits for editing existing videos."
+      },
+      "summary": {
+        "zh": "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here.",
+        "ja": "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here.",
+        "en": "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-update-added-post-v1-videos-edits-for-editing-existing-videos",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "v1-videos-edits",
+        "v1-videos-video-id-remix",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-12-anthropic-claude-partner-network",
@@ -696,7 +1302,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-11-openai-equip-responses-api-computer-environment",
@@ -717,7 +1324,8 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-11-openai-designing-agents-to-resist-prompt-injection",
@@ -738,7 +1346,8 @@
         "security",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-11-anthropic-the-anthropic-institute",
@@ -759,7 +1368,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-10-openai-new-ways-to-learn-math-and-science-in-chatgpt",
@@ -780,7 +1390,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-10-openai-instruction-hierarchy-challenge",
@@ -801,7 +1412,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-10-google-gemini-google-sheets-state-of-the-art",
@@ -824,7 +1436,8 @@
         "ai",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-10-anthropic-sydney-fourth-office-asia-pacific",
@@ -845,7 +1458,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-09-openai-openai-to-acquire-promptfoo",
@@ -866,7 +1480,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-06-openai-codex-security-now-in-research-preview",
@@ -887,7 +1502,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-06-anthropic-mozilla-firefox-security",
@@ -908,7 +1524,8 @@
         "policy",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-openai-reasoning-models-chain-of-thought-controllability",
@@ -929,7 +1546,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-openai-introducing-gpt-5-4",
@@ -950,7 +1568,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-openai-gpt-5-4-thinking-system-card",
@@ -971,7 +1590,8 @@
         "publication",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-openai-chatgpt-for-excel",
@@ -992,7 +1612,35 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-05-openai-changelog",
+      "date": "2026-03-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.4, GPT-5.4 pro",
+        "ja": "GPT-5.4, GPT-5.4 pro",
+        "en": "GPT-5.4, GPT-5.4 pro"
+      },
+      "summary": {
+        "zh": "Released GPT-5.4, our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency. Built-in Computer use support in GPT-5.4 through the Responses API computer tool for screenshot-based UI interaction. A 1M token context window and native Compaction support for longer-running agent workflows.",
+        "ja": "Released GPT-5.4, our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency. Built-in Computer use support in GPT-5.4 through the Responses API computer tool for screenshot-based UI interaction. A 1M token context window and native Compaction support for longer-running agent workflows.",
+        "en": "Released GPT-5.4, our newest frontier model for professional work, to the Chat Completions and Responses API, and released GPT-5.4 pro to the Responses API for tougher problems that benefit from more compute. Also released: Tool search in the Responses API, which lets models defer large tool surfaces until runtime to reduce token usage, preserve cache performance, and improve latency. Built-in Computer use support in GPT-5.4 through the Responses API computer tool for screenshot-based UI interaction. A 1M token context window and native Compaction support for longer-running agent workflows."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-05-feature-gpt-5-4-gpt-5-4-pro",
+      "tags": [
+        "gpt-5-4",
+        "gpt-5-4-pro",
+        "v1-responses",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-05-openai-ai-education-opportunity",
@@ -1013,7 +1661,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-google-google-ai-updates-february-2026",
@@ -1047,7 +1696,8 @@
         "grow-with-google",
         "google"
       ],
-      "source": "Google Blog"
+      "source": "Google Blog",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-05-anthropic-where-stand-department-war",
@@ -1068,7 +1718,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-04-openai-understanding-ai-and-learning-outcomes",
@@ -1089,7 +1740,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-04-openai-extending-single-minus-amplitudes-to-gravitons",
@@ -1110,7 +1762,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-03-openai-gpt-5-3-instant-system-card",
@@ -1131,7 +1784,8 @@
         "publication",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-03-03-openai-gpt-5-3-instant",
@@ -1152,7 +1806,31 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-03-google-release-notes",
+      "date": "2026-03-03",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 3.1 Flash-Lite",
+        "ja": "Gemini 3.1 Flash-Lite",
+        "en": "Gemini 3.1 Flash-Lite"
+      },
+      "summary": {
+        "zh": "Feature Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite-preview ) is available in public preview. This release is our most cost-efficient Gemini model and is optimized for low latency use cases for high-volume, cost-sensitive LLM traffic. For more information, see Gemini 3.1 Flash-Lite. Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp veo-2.0-generate-001 veo-001-preview-0815 veo-2.0-generate-001 veo-001-preview veo-2.0-generate-001 veo-3.1-generate-preview veo-3.1-generate-001 veo-3.1-fast-generate-preview veo-3.1-fast-generate-001",
+        "ja": "Feature Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite-preview ) is available in public preview. This release is our most cost-efficient Gemini model and is optimized for low latency use cases for high-volume, cost-sensitive LLM traffic. For more information, see Gemini 3.1 Flash-Lite. Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp veo-2.0-generate-001 veo-001-preview-0815 veo-2.0-generate-001 veo-001-preview veo-2.0-generate-001 veo-3.1-generate-preview veo-3.1-generate-001 veo-3.1-fast-generate-preview veo-3.1-fast-generate-001",
+        "en": "Feature Gemini 3.1 Flash-Lite Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite-preview ) is available in public preview. This release is our most cost-efficient Gemini model and is optimized for low latency use cases for high-volume, cost-sensitive LLM traffic. For more information, see Gemini 3.1 Flash-Lite. Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp veo-2.0-generate-001 veo-001-preview-0815 veo-2.0-generate-001 veo-001-preview veo-2.0-generate-001 veo-3.1-generate-preview veo-3.1-generate-001 veo-3.1-fast-generate-preview veo-3.1-fast-generate-001"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#March_03_2026-gemini-3-1-flash-lite",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-28-openai-our-agreement-with-the-department-of-war",
@@ -1173,7 +1851,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-openai-update-on-mental-health-related-work",
@@ -1194,7 +1873,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-openai-scaling-ai-for-everyone",
@@ -1215,7 +1895,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-openai-introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
@@ -1236,7 +1917,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-openai-continuing-microsoft-partnership",
@@ -1257,7 +1939,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-openai-amazon-partnership",
@@ -1278,7 +1961,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-27-anthropic-statement-comments-secretary-war",
@@ -1299,7 +1983,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-26-openai-pacific-northwest-national-laboratory",
@@ -1320,7 +2005,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-26-openai-figma-partnership",
@@ -1341,7 +2027,31 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-26-google-release-notes",
+      "date": "2026-02-26",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 3.1 Flash Image",
+        "ja": "Gemini 3.1 Flash Image",
+        "en": "Gemini 3.1 Flash Image"
+      },
+      "summary": {
+        "zh": "Feature Gemini 3.1 Flash Image Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is available in public preview. This release enables high-quality image generation with improved pricing and latency. We recommend using Gemini 3.1 Flash Image when generating images. For more information, see Gemini 3.1 Flash Image.",
+        "ja": "Feature Gemini 3.1 Flash Image Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is available in public preview. This release enables high-quality image generation with improved pricing and latency. We recommend using Gemini 3.1 Flash Image when generating images. For more information, see Gemini 3.1 Flash Image.",
+        "en": "Feature Gemini 3.1 Flash Image Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is available in public preview. This release enables high-quality image generation with improved pricing and latency. We recommend using Gemini 3.1 Flash Image when generating images. For more information, see Gemini 3.1 Flash Image."
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#February_26_2026-gemini-3-1-flash-image",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-26-anthropic-statement-department-of-war",
@@ -1362,7 +2072,8 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-25-openai-disrupting-malicious-ai-uses",
@@ -1383,7 +2094,8 @@
         "security",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-25-anthropic-acquires-vercept",
@@ -1404,7 +2116,58 @@
         "announcements",
         "anthropic"
       ],
-      "source": "Anthropic News"
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-24-openai-changelog-2",
+      "date": "2026-02-24",
+      "category": "openai",
+      "title": {
+        "zh": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types.",
+        "ja": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types.",
+        "en": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types."
+      },
+      "summary": {
+        "zh": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here.",
+        "ja": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here.",
+        "en": "Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-24-feature-expanded-input-file-support-to-accept-more-document-presentation-spreadsheet-code-and-text-file-types",
+      "tags": [
+        "v1-responses",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-24-openai-changelog",
+      "date": "2026-02-24",
+      "category": "openai",
+      "title": {
+        "zh": "Released gpt-5.3-codex to the Responses API.",
+        "ja": "Released gpt-5.3-codex to the Responses API.",
+        "en": "Released gpt-5.3-codex to the Responses API."
+      },
+      "summary": {
+        "zh": "Released gpt-5.3-codex to the Responses API. Read more here.",
+        "ja": "Released gpt-5.3-codex to the Responses API. Read more here.",
+        "en": "Released gpt-5.3-codex to the Responses API. Read more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-24-feature-released-gpt-5-3-codex-to-the-responses-api",
+      "tags": [
+        "gpt-5-3-codex",
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-24-openai-arvind-kc-chief-people-officer",
@@ -1425,7 +2188,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-23-openai-why-we-no-longer-evaluate-swe-bench-verified",
@@ -1446,7 +2210,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-23-openai-frontier-alliance-partners",
@@ -1467,7 +2232,59 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-23-openai-changelog-2",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "Launched WebSocket mode for the Responses API.",
+        "ja": "Launched WebSocket mode for the Responses API.",
+        "en": "Launched WebSocket mode for the Responses API."
+      },
+      "summary": {
+        "zh": "Launched WebSocket mode for the Responses API. Learn more here.",
+        "ja": "Launched WebSocket mode for the Responses API. Learn more here.",
+        "en": "Launched WebSocket mode for the Responses API. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-23-feature-launched-websocket-mode-for-the-responses-api",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-23-openai-changelog",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "Released gpt-realtime-1.5 to the Realtime API.",
+        "ja": "Released gpt-realtime-1.5 to the Realtime API.",
+        "en": "Released gpt-realtime-1.5 to the Realtime API."
+      },
+      "summary": {
+        "zh": "Released gpt-realtime-1.5 to the Realtime API. Read more here. Released gpt-audio-1.5 to the Chat Completions API. Read more here.",
+        "ja": "Released gpt-realtime-1.5 to the Realtime API. Read more here. Released gpt-audio-1.5 to the Chat Completions API. Read more here.",
+        "en": "Released gpt-realtime-1.5 to the Realtime API. Read more here. Released gpt-audio-1.5 to the Chat Completions API. Read more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-23-feature-released-gpt-realtime-1-5-to-the-realtime-api",
+      "tags": [
+        "gpt-realtime-1-5",
+        "gpt-audio-1-5",
+        "v1-realtime",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-20-openai-first-proof-submissions",
@@ -1488,7 +2305,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-19-openai-advancing-independent-research-ai-alignment",
@@ -1509,7 +2327,54 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-19-google-release-notes",
+      "date": "2026-02-19",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 3.1 Pro Preview",
+        "ja": "Gemini 3.1 Pro Preview",
+        "en": "Gemini 3.1 Pro Preview"
+      },
+      "summary": {
+        "zh": "Feature Gemini 3.1 Pro Preview Gemini 3.1 Pro is available in preview in Model Garden. Gemini 3.1 Pro is our most advanced reasoning Gemini model, capable of solving complex problems from different information sources, including text, audio, images, video, PDFs, and even entire code repositories with its 1M token context window.",
+        "ja": "Feature Gemini 3.1 Pro Preview Gemini 3.1 Pro is available in preview in Model Garden. Gemini 3.1 Pro is our most advanced reasoning Gemini model, capable of solving complex problems from different information sources, including text, audio, images, video, PDFs, and even entire code repositories with its 1M token context window.",
+        "en": "Feature Gemini 3.1 Pro Preview Gemini 3.1 Pro is available in preview in Model Garden. Gemini 3.1 Pro is our most advanced reasoning Gemini model, capable of solving complex problems from different information sources, including text, audio, images, video, PDFs, and even entire code repositories with its 1M token context window."
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#February_19_2026-gemini-3-1-pro-preview",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-19-anthropic-prompt-caching",
+      "date": "2026-02-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "automatic caching",
+        "ja": "automatic caching",
+        "en": "automatic caching"
+      },
+      "summary": {
+        "zh": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching.",
+        "ja": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching.",
+        "en": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching#automatic-caching",
+      "tags": [
+        "automatic-caching",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-18-openai-openai-for-india",
@@ -1530,7 +2395,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-18-openai-introducing-evmbench",
@@ -1551,7 +2417,77 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-17-anthropic-web-search-tool",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "web search tool",
+        "ja": "web search tool",
+        "en": "web search tool"
+      },
+      "summary": {
+        "zh": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.",
+        "ja": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost.",
+        "en": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "tags": [
+        "web-search-tool",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-17-anthropic-code-execution-tool",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "free when used with web search or web fetch",
+        "ja": "free when used with web search or web fetch",
+        "en": "free when used with web search or web fetch"
+      },
+      "summary": {
+        "zh": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.",
+        "ja": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.",
+        "en": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
+      "tags": [
+        "free-when-used-with-web-search-or-web-fetch",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-17-anthropic-claude-sonnet-4-6",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Sonnet 4.6",
+        "ja": "Claude Sonnet 4.6",
+        "en": "Claude Sonnet 4.6"
+      },
+      "summary": {
+        "zh": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details.",
+        "ja": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details.",
+        "en": "We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details."
+      },
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "tags": [
+        "claude-sonnet-4-6",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-13-openai-scaling-social-science-research",
@@ -1572,7 +2508,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-13-openai-new-result-theoretical-physics",
@@ -1593,7 +2530,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-13-openai-introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
@@ -1614,7 +2552,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-13-openai-beyond-rate-limits",
@@ -1635,7 +2574,8 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-12-openai-introducing-gpt-5-3-codex-spark",
@@ -1656,7 +2596,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-11-openai-harness-engineering",
@@ -1677,7 +2618,108 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-10-openai-changelog-4",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "Batch API",
+        "ja": "Batch API",
+        "en": "Batch API"
+      },
+      "summary": {
+        "zh": "Batch API is now supported for GPT Image models: gpt-image-1.5, chatgpt-image-latest, gpt-image-1, and gpt-image-1-mini.",
+        "ja": "Batch API is now supported for GPT Image models: gpt-image-1.5, chatgpt-image-latest, gpt-image-1, and gpt-image-1-mini.",
+        "en": "Batch API is now supported for GPT Image models: gpt-image-1.5, chatgpt-image-latest, gpt-image-1, and gpt-image-1-mini."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-batch-api",
+      "tags": [
+        "gpt-image-1-5",
+        "gpt-image-1",
+        "gpt-image-1-mini",
+        "chatgpt-image-latest",
+        "v1-batch",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog-3",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "Hosted Shell",
+        "ja": "Hosted Shell",
+        "en": "Hosted Shell"
+      },
+      "summary": {
+        "zh": "Launched a new Hosted Shell tool, as well as support for networking in containers.",
+        "ja": "Launched a new Hosted Shell tool, as well as support for networking in containers.",
+        "en": "Launched a new Hosted Shell tool, as well as support for networking in containers."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-hosted-shell",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog-2",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "server-side compaction",
+        "ja": "server-side compaction",
+        "en": "server-side compaction"
+      },
+      "summary": {
+        "zh": "Launched server-side compaction in the Responses API.",
+        "ja": "Launched server-side compaction in the Responses API.",
+        "en": "Launched server-side compaction in the Responses API."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-server-side-compaction",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "Skills",
+        "ja": "Skills",
+        "en": "Skills"
+      },
+      "summary": {
+        "zh": "Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution.",
+        "ja": "Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution.",
+        "en": "Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-skills",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-09-openai-testing-ads-in-chatgpt",
@@ -1698,7 +2740,36 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-09-openai-changelog",
+      "date": "2026-02-09",
+      "category": "openai",
+      "title": {
+        "zh": "Added support for application/json requests on /v1/images/edits for GPT image models.",
+        "ja": "Added support for application/json requests on /v1/images/edits for GPT image models.",
+        "en": "Added support for application/json requests on /v1/images/edits for GPT image models."
+      },
+      "summary": {
+        "zh": "Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads.",
+        "ja": "Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads.",
+        "en": "Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-09-feature-added-support-for-application-json-requests-on-v1-images-edits-for-gpt-image-models",
+      "tags": [
+        "gpt-image-1-5",
+        "gpt-image-1",
+        "gpt-image-1-mini",
+        "chatgpt-image-latest",
+        "v1-images-edits",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-09-openai-bringing-chatgpt-to-genaimil",
@@ -1719,7 +2790,31 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-07-anthropic-fast-mode",
+      "date": "2026-02-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "speed",
+        "ja": "speed",
+        "en": "speed"
+      },
+      "summary": {
+        "zh": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.",
+        "ja": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.",
+        "en": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "speed",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-06-openai-our-approach-to-localization",
@@ -1740,7 +2835,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-05-openai-trusted-access-for-cyber",
@@ -1761,7 +2857,8 @@
         "security",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-05-openai-introducing-openai-frontier",
@@ -1782,7 +2879,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-05-openai-introducing-gpt-5-3-codex",
@@ -1803,7 +2901,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-05-openai-gpt-5-lowers-protein-synthesis-cost",
@@ -1824,7 +2923,8 @@
         "research",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-05-openai-gpt-5-3-codex-system-card",
@@ -1845,7 +2945,100 @@
         "publication",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-anthropic-effort",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "budget_tokens",
+        "ja": "budget_tokens",
+        "en": "budget_tokens"
+      },
+      "summary": {
+        "zh": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models.",
+        "ja": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models.",
+        "en": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "tags": [
+        "budget-tokens",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-data-residency",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "inference_geo",
+        "ja": "inference_geo",
+        "en": "inference_geo"
+      },
+      "summary": {
+        "zh": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.",
+        "ja": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026.",
+        "en": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/data-residency",
+      "tags": [
+        "inference-geo",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-compaction",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "compaction API",
+        "ja": "compaction API",
+        "en": "compaction API"
+      },
+      "summary": {
+        "zh": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6.",
+        "ja": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6.",
+        "en": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "tags": [
+        "compaction-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-claude-opus-4-6",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "thinking: {type: \"adaptive\"}",
+        "ja": "thinking: {type: \"adaptive\"}",
+        "en": "thinking: {type: \"adaptive\"}"
+      },
+      "summary": {
+        "zh": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: \"adaptive\"} ); manual thinking ( type: \"enabled\" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6.",
+        "ja": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: \"adaptive\"} ); manual thinking ( type: \"enabled\" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6.",
+        "en": "We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: \"adaptive\"} ); manual thinking ( type: \"enabled\" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6."
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "tags": [
+        "thinking-type-adaptive",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-04-openai-unlocking-the-codex-harness",
@@ -1866,7 +3059,8 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-03-openai-sora-feed-philosophy",
@@ -1887,7 +3081,33 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-03-openai-changelog",
+      "date": "2026-02-03",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.2, GPT-5.2-Codex",
+        "ja": "GPT-5.2, GPT-5.2-Codex",
+        "en": "GPT-5.2, GPT-5.2-Codex"
+      },
+      "summary": {
+        "zh": "We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged.",
+        "ja": "We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged.",
+        "en": "We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-03-update-gpt-5-2-gpt-5-2-codex",
+      "tags": [
+        "gpt-5-2",
+        "gpt-5-2-codex",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-02-openai-snowflake-partnership",
@@ -1908,7 +3128,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-02-02-openai-introducing-the-codex-app",
@@ -1929,7 +3150,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-29-openai-retiring-gpt-4o-and-older-models",
@@ -1950,7 +3172,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-29-openai-inside-our-in-house-data-agent",
@@ -1971,7 +3194,31 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-01-29-anthropic-structured-outputs",
+      "date": "2026-01-29",
+      "category": "anthropic",
+      "title": {
+        "zh": "output_format",
+        "ja": "output_format",
+        "en": "output_format"
+      },
+      "summary": {
+        "zh": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.",
+        "ja": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.",
+        "en": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format. Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "tags": [
+        "output-format",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-01-28-openai-the-next-chapter-for-ai-in-the-eu",
@@ -1992,7 +3239,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-28-openai-emea-youth-and-wellbeing-grant",
@@ -2013,7 +3261,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-28-openai-ai-agent-link-safety",
@@ -2034,7 +3283,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-27-openai-pvh-future-of-fashion",
@@ -2055,7 +3305,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-27-openai-introducing-prism",
@@ -2076,7 +3327,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-23-openai-unrolling-the-codex-agent-loop",
@@ -2097,7 +3349,8 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-22-openai-scaling-postgresql",
@@ -2118,7 +3371,8 @@
         "engineering",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-21-openai-how-countries-can-end-the-capability-overhang",
@@ -2139,7 +3393,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-21-openai-higgsfield",
@@ -2160,7 +3415,8 @@
         "api",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-21-openai-edu-for-countries",
@@ -2181,7 +3437,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-20-openai-stargate-community",
@@ -2202,7 +3459,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-20-openai-servicenow-powers-actionable-enterprise-ai-with-openai",
@@ -2222,7 +3480,8 @@
       "tags": [
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-20-openai-our-approach-to-age-prediction",
@@ -2243,7 +3502,8 @@
         "safety",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-20-openai-horizon-1000",
@@ -2264,7 +3524,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-18-openai-ai-for-self-empowerment",
@@ -2284,7 +3545,8 @@
       "tags": [
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-18-openai-a-business-that-scales-with-the-value-of-intelligence",
@@ -2305,7 +3567,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-16-openai-the-truth-elon-left-out",
@@ -2325,7 +3588,8 @@
       "tags": [
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-16-openai-our-approach-to-advertising-and-expanding-access",
@@ -2346,7 +3610,8 @@
         "company",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-16-openai-introducing-chatgpt-go",
@@ -2367,7 +3632,8 @@
         "product",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-15-openai-strengthening-the-us-ai-supply-chain",
@@ -2388,7 +3654,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-01-15-openai-investing-in-merge-labs",
@@ -2409,7 +3676,56 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-01-15-openai-changelog",
+      "date": "2026-01-15",
+      "category": "openai",
+      "title": {
+        "zh": "Open Responses",
+        "ja": "Open Responses",
+        "en": "Open Responses"
+      },
+      "summary": {
+        "zh": "Announced Open Responses: an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API.",
+        "ja": "Announced Open Responses: an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API.",
+        "en": "Announced Open Responses: an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-01-15-announcement-open-responses",
+      "tags": [
+        "announcement",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-14-openai-changelog",
+      "date": "2026-01-14",
+      "category": "openai",
+      "title": {
+        "zh": "Released gpt-5.2-codex to the Responses API.",
+        "ja": "Released gpt-5.2-codex to the Responses API.",
+        "en": "Released gpt-5.2-codex to the Responses API."
+      },
+      "summary": {
+        "zh": "Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here.",
+        "ja": "Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here.",
+        "en": "Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-01-14-feature-released-gpt-5-2-codex-to-the-responses-api",
+      "tags": [
+        "gpt-5-2-codex",
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-01-14-openai-cerebras-partnership",
@@ -2430,7 +3746,55 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-01-13-openai-changelog",
+      "date": "2026-01-13",
+      "category": "openai",
+      "title": {
+        "zh": "Added dedicated SIP IP ranges for Realtime API.",
+        "ja": "Added dedicated SIP IP ranges for Realtime API.",
+        "en": "Added dedicated SIP IP ranges for Realtime API."
+      },
+      "summary": {
+        "zh": "Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more.",
+        "ja": "Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more.",
+        "en": "Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-01-13-feature-added-dedicated-sip-ip-ranges-for-realtime-api",
+      "tags": [
+        "v1-realtime",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-13-google-release-notes",
+      "date": "2026-01-13",
+      "category": "google",
+      "title": {
+        "zh": "Veo 3.1 reference-to-video update",
+        "ja": "Veo 3.1 reference-to-video update",
+        "en": "Veo 3.1 reference-to-video update"
+      },
+      "summary": {
+        "zh": "Feature Veo 3.1 reference-to-video update Veo 3.1 Preview models now support the following features: 9:16 aspect ratio for reference-to-video. Upsampling for videos generated at 1080p and 4k resolutions. For more information, see the following: Generate Veo videos from reference images Veo on Vertex AI video generation API",
+        "ja": "Feature Veo 3.1 reference-to-video update Veo 3.1 Preview models now support the following features: 9:16 aspect ratio for reference-to-video. Upsampling for videos generated at 1080p and 4k resolutions. For more information, see the following: Generate Veo videos from reference images Veo on Vertex AI video generation API",
+        "en": "Feature Veo 3.1 reference-to-video update Veo 3.1 Preview models now support the following features: 9:16 aspect ratio for reference-to-video. Upsampling for videos generated at 1080p and 4k resolutions. For more information, see the following: Generate Veo videos from reference images Veo on Vertex AI video generation API"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#January_13_2026-veo-3-1-reference-to-video-update",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-01-12-openai-openai-raising-concerns-policy",
@@ -2451,7 +3815,31 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-01-12-anthropic-item",
+      "date": "2026-01-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "console.anthropic.com",
+        "ja": "console.anthropic.com",
+        "en": "console.anthropic.com"
+      },
+      "summary": {
+        "zh": "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement.",
+        "ja": "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement.",
+        "en": "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement."
+      },
+      "url": "https://platform.claude.com#september-16-2025",
+      "tags": [
+        "console-anthropic-com",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-01-09-openai-stargate-sb-energy-partnership",
@@ -2472,7 +3860,8 @@
         "global-affairs",
         "openai"
       ],
-      "source": "OpenAI News"
+      "source": "OpenAI News",
+      "sourceType": "news"
     }
   ]
 }

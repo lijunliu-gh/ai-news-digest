@@ -9,10 +9,10 @@
 
 ## Features
 
-- 🗞️ **Four AI Sources** — Aggregates news from [Anthropic](https://www.anthropic.com/news), [OpenAI](https://openai.com/news/), [Google Gemini](https://blog.google/products-and-platforms/products/gemini/), and [GitHub](https://github.blog/news-insights/product-news/)
+- 🗞️ **Official Release Surfaces** — Aggregates both marketing news and developer-facing changelogs / release notes from Anthropic, OpenAI, Google, and GitHub
 - 🌍 **Trilingual** — Switch between 中文 / 日本語 / English
 - 🌓 **Dark & Light Mode** — Respects user preference with manual toggle
-- 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, and tags
+- 🔍 **Search & Filter** — Filter by company, month, and search across titles, summaries, tags, and official source surfaces
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
@@ -45,10 +45,14 @@ ai-news-digest/
 
 | Source | URL |
 |--------|-----|
-| Anthropic | https://www.anthropic.com/news |
-| OpenAI | https://openai.com/news/company-announcements/ |
-| Google Gemini | https://blog.google/products-and-platforms/products/gemini/ |
-| GitHub / Microsoft | https://github.blog/news-insights/product-news/ |
+| Anthropic News | https://www.anthropic.com/news |
+| Anthropic Release Notes | https://platform.claude.com/docs/en/release-notes |
+| OpenAI News | https://openai.com/news/rss.xml |
+| OpenAI API Changelog | https://developers.openai.com/api/docs/changelog |
+| Google Blog | https://blog.google/innovation-and-ai/technology/ai/rss/ |
+| Google Cloud Release Notes | https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes |
+| GitHub Product News | https://github.blog/news-insights/product-news/ |
+| GitHub Changelog | https://github.blog/changelog/feed/ |
 
 ## Adding News
 
@@ -71,11 +75,14 @@ Edit `data/digest.json`. Each item follows this structure:
   },
   "url": "https://...",
   "tags": ["tag1", "tag2"],
-  "source": "Anthropic News"
+  "source": "Anthropic News",
+  "sourceType": "news"
 }
 ```
 
 **Categories:** `microsoft`, `anthropic`, `openai`, `google`
+
+**Source types:** `news`, `changelog`, `release-notes`
 
 ## Automation
 
@@ -99,11 +106,13 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 ### Update Rules
 
 - Only official sources are ingested.
+- Official sources include both public news pages and developer release-note / changelog surfaces.
 - The homepage dataset is rebuilt from scratch on every run.
 - Items older than 3 months are removed from `data/digest.json`.
 - Removed items are preserved in `data/archive.json`.
 - Existing manual translations are preserved when the same URL already exists.
 - Newly fetched items default to English text in all three language fields unless translations already exist locally.
+- The homepage shows whether an item came from a news page, changelog, or release-notes surface.
 
 ## Development
 

@@ -19,6 +19,9 @@
       heroSub: '关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态',
       statTotal: '总数', statToday: '今日', statCategories: '分类',
       filterAll: '全部',
+      sourceTypeNews: '新闻',
+      sourceTypeChangelog: '变更日志',
+      sourceTypeReleaseNotes: '发布说明',
       monthFilterLabel: '月份',
       monthFilterAll: '全部月份',
       searchPlaceholder: '搜索标题、摘要、标签…',
@@ -33,6 +36,9 @@
       heroSub: 'Microsoft / GitHub Copilot, Anthropic, OpenAI, Google — 4大AIベンダーの最新ニュース',
       statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
       filterAll: 'すべて',
+      sourceTypeNews: 'ニュース',
+      sourceTypeChangelog: '変更履歴',
+      sourceTypeReleaseNotes: 'リリースノート',
       monthFilterLabel: '月別',
       monthFilterAll: 'すべての月',
       searchPlaceholder: 'タイトル、要約、タグを検索…',
@@ -47,6 +53,9 @@
       heroSub: 'Stay updated with the latest from Microsoft / GitHub Copilot, Anthropic, OpenAI & Google',
       statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
       filterAll: 'All',
+      sourceTypeNews: 'News',
+      sourceTypeChangelog: 'Changelog',
+      sourceTypeReleaseNotes: 'Release Notes',
       monthFilterLabel: 'Month',
       monthFilterAll: 'All months',
       searchPlaceholder: 'Search titles, summaries, tags…',
@@ -264,11 +273,15 @@
     const delay = Math.min(idx * 0.04, 0.6);
     const title = localized(item.title);
     const summary = localized(item.summary);
+    const sourceType = resolveSourceType(item);
     return `
       <a class="card" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" style="animation-delay:${delay}s">
         <div class="card-top">
           <span class="card-cat" data-cat="${escapeHtml(item.category)}">${escapeHtml(catLabel)}</span>
-          <span class="card-source">${escapeHtml(item.source)}</span>
+          <div class="card-source-meta">
+            <span class="source-type-badge">${escapeHtml(sourceType)}</span>
+            <span class="card-source">${escapeHtml(item.source)}</span>
+          </div>
         </div>
         <div class="card-title">${escapeHtml(title)}</div>
         <div class="card-summary">${escapeHtml(summary)}</div>
@@ -297,6 +310,20 @@
     const lang = I18N[currentLang] || I18N.zh;
     if (currentLang === 'en') return `${lang.months[monthIndex]} ${y}`;
     return `${y}年${lang.months[monthIndex]}`;
+  }
+
+  function resolveSourceType(item) {
+    const type = item.sourceType || inferSourceType(item.source || '');
+    if (type === 'changelog') return t('sourceTypeChangelog');
+    if (type === 'release-notes') return t('sourceTypeReleaseNotes');
+    return t('sourceTypeNews');
+  }
+
+  function inferSourceType(source) {
+    const normalized = source.toLowerCase();
+    if (normalized.includes('changelog')) return 'changelog';
+    if (normalized.includes('release notes')) return 'release-notes';
+    return 'news';
   }
 
   function escapeHtml(str) {

@@ -13,7 +13,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
@@ -24,7 +24,8 @@ DIGEST_PATH = DATA_DIR / 'digest.json'
 ARCHIVE_PATH = DATA_DIR / 'archive.json'
 WINDOW_MONTHS = 3
 REQUEST_TIMEOUT = 30
-USER_AGENT = 'ai-news-digest-bot/0.4'
+USER_AGENT = 'ai-news-digest-bot/0.5'
+ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
 
 
 @dataclass
@@ -32,6 +33,7 @@ class FeedEntry:
     date: str
     category: str
     source: str
+    source_type: str
     title_en: str
     summary_en: str
     url: str
@@ -62,7 +64,12 @@ class HTMLTextExtractor(HTMLParser):
 
 
 def normalize_whitespace(text: str) -> str:
-    return ' '.join(unescape(text).replace('\xa0', ' ').split())
+    cleaned = ' '.join(unescape(text).replace('\xa0', ' ').split())
+    return re.sub(r'\s+([,.;:!?])', r'\1', cleaned)
+
+
+def slugify_text(value: str) -> str:
+    return normalize_tag(value)
 
 
 def strip_html(html_text: str) -> str:
@@ -121,13 +128,22 @@ def parse_rss(url: str) -> list[ET.Element]:
     return [] if channel is None else channel.findall('item')
 
 
+def parse_atom(url: str) -> list[ET.Element]:
+    root = ET.fromstring(fetch_text(url))
+    return root.findall('atom:entry', ATOM_NS)
+
+
 def first_text(element: ET.Element, tag: str) -> str:
     child = element.find(tag)
     return normalize_whitespace(child.text or '') if child is not None and child.text else ''
 
 
 def parse_pub_date(value: str) -> str:
-    return parsedate_to_datetime(value).date().isoformat()
+    value = normalize_whitespace(value)
+    try:
+        return datetime.fromisoformat(value.replace('Z', '+00:00')).date().isoformat()
+    except ValueError:
+        return parsedate_to_datetime(value).date().isoformat()
 
 
 def normalize_tag(value: str) -> str:
@@ -150,8 +166,147 @@ def unique_tags(values: Iterable[str]) -> list[str]:
 
 def clean_description(value: str) -> str:
     text = strip_html(value)
-    text = re.sub(r'\s*The post .*? appeared first on The GitHub Blog\.?$', '', text, flags=re.I)
+    text = re.sub(r'\bThe post\b.*?\bappeared first on The GitHub Blog\b\s*\.?', '', text, flags=re.I)
     return normalize_whitespace(text)
+
+
+def append_anchor(url: str, anchor_suffix: str) -> str:
+    clean_suffix = slugify_text(anchor_suffix) or 'item'
+    if '#' in url:
+        base, fragment = url.split('#', 1)
+        return f'{base}#{fragment}-{clean_suffix}'
+    return f'{url}#{clean_suffix}'
+
+
+def first_sentence(text: str) -> str:
+    text = normalize_whitespace(text)
+    if not text:
+        return ''
+    match = re.match(r'(.+?[.!?])(?:\s|$)', text)
+    sentence = match.group(1) if match else text
+    sentence = sentence.strip()
+    if len(sentence) <= 120:
+        return sentence
+    words = sentence.split()
+    return ' '.join(words[:12]).rstrip('.,;:')
+
+
+def extract_link_texts(html: str) -> list[str]:
+    return [normalize_whitespace(strip_html(match)) for match in re.findall(r'<a[^>]*>(.*?)</a>', html, re.I | re.S)]
+
+
+def extract_emphasized_text(html: str) -> str:
+    for pattern in (r'<strong[^>]*>(.*?)</strong>', r'<code[^>]*>(.*?)</code>'):
+        match = re.search(pattern, html, re.I | re.S)
+        if match:
+            text = normalize_whitespace(strip_html(match.group(1)))
+            if text:
+                return text
+    return ''
+
+
+def is_valid_release_title(candidate: str) -> bool:
+    normalized = normalize_whitespace(strip_html(candidate))
+    lowered = normalized.lower()
+    if not normalized:
+        return False
+    if normalized.startswith('/'):
+        return False
+    if lowered.startswith('we ') or lowered.startswith("we've "):
+        return False
+    if lowered.startswith('learn more '):
+        return False
+    if lowered in {'here', 'learn more', 'read more', 'more', 'details'}:
+        return False
+    return len(normalized) <= 96
+
+
+def derive_release_title(text: str) -> str:
+    normalized = normalize_whitespace(text)
+    patterns: list[tuple[str, callable]] = [
+        (r"^(?:We've launched|We launched|Launching|Introduced|Introducing|Added|Released)\s+(?:the\s+)?(.+?)(?:,|\.|\s+for\b|\s+in\b|\s+as\b|\s+that\b)", lambda m: m.group(1)),
+        (r'^The\s+(.+?)\s+is now available on\s+(.+?)(?:\s+as\b|,|\.|$)', lambda m: f'{m.group(1)} on {m.group(2)}'),
+        (r'^The\s+(.+?)\s+is now available(?:\s+as\b|,|\.|$)', lambda m: m.group(1)),
+        (r'^We announced\s+(.+?)\s+is available(?:\s+as\b|,|\.|$)', lambda m: m.group(1)),
+        (r'^(.+?)\s+is now available(?:\s+as\b|,|\.|$)', lambda m: m.group(1)),
+    ]
+    for pattern, formatter in patterns:
+        match = re.search(pattern, normalized, re.I)
+        if not match:
+            continue
+        candidate = normalize_whitespace(formatter(match))
+        if is_valid_release_title(candidate):
+            return candidate
+    return ''
+
+
+def choose_release_title(text: str, *candidates: str) -> str:
+    for candidate in candidates:
+        candidate = normalize_whitespace(candidate)
+        if is_valid_release_title(candidate):
+            return candidate
+    derived = derive_release_title(text)
+    if derived:
+        return derived
+    return first_sentence(text) or 'Update'
+
+
+def parse_section_date(month_name: str, year: str, day_label: str) -> str:
+    day_number = re.search(r'(\d{1,2})', day_label)
+    if not day_number:
+        raise ValueError(f'Unrecognized day label: {day_label}')
+    return datetime.strptime(f'{month_name} {day_number.group(1)} {year}', '%B %d %Y').date().isoformat()
+
+
+def is_openai_changelog_relevant(kind: str, badges: list[str], body_text: str) -> bool:
+    text = ' '.join([kind, *badges, body_text]).lower()
+    strong_signal = (
+        'gpt-', 'responses', 'chat completions', 'chatgpt', 'realtime', 'audio', 'image',
+        'video', 'sora', 'codex', 'tool', 'skills', 'shell', 'computer use', 'compaction',
+        'reasoning', 'websocket', 'webhook', 'connector', 'agent', 'fine-tuning',
+        'batch api', 'assistants', 'evals', 'embedding', 'vision'
+    )
+    low_signal = (
+        'slug to point to the latest model',
+        'latest model currently used in chatgpt',
+        'points to the',
+        'point to the',
+        'slugs to point to',
+        'snapshot',
+        'snapshots',
+        'rate limits page',
+        'documentation update',
+        'docs update',
+        'typo fix',
+        'clarified documentation',
+        'renamed a field',
+        'intermediate commentary',
+    )
+    kind_lower = kind.lower()
+    if any(token in text for token in low_signal):
+        return False
+    if kind_lower in {'feature', 'announcement', 'deprecated'}:
+        return any(token in text for token in strong_signal)
+    if kind_lower == 'update':
+        return any(token in text for token in strong_signal) and any(token in text for token in (
+            'gpt-', 'responses', 'realtime', 'audio', 'image', 'video', 'codex', 'tool',
+            'agent', 'fine-tuning', 'embedding', 'vision', 'webhook', 'connector'
+        ))
+    return False
+
+
+def is_google_release_relevant(title: str, summary: str, kind: str) -> bool:
+    text = ' '.join([title, summary, kind]).lower()
+    if any(token in text for token in (
+        'anthropic', 'deepseek', 'mistral', 'qwen', 'glm ', 'codestral', 'llama',
+        'phi-', 'kimi', 'minimax', 'whisper', 'openai', 'claude '
+    )):
+        return False
+    return any(token in text for token in (
+        'gemini', 'gemma', 'veo', 'imagen', 'lyria', 'vertex ai agent engine', 'agent engine',
+        'agent development kit', 'adk', 'agent garden', 'live api', 'grounding',
+        'prompt optimizer', 'rag engine', 'vertex ai studio', 'google gen ai sdk'
+    ))
 
 
 def extract_meta_description(html: str) -> str:
@@ -180,15 +335,28 @@ def load_existing_items() -> tuple[dict[str, dict], list[dict]]:
     return existing_by_url, archived_items
 
 
-def localize(existing: dict | None, field: str, english_text: str) -> dict[str, str]:
+def is_generated_localization(value: dict | str | None) -> bool:
+    if isinstance(value, str):
+        return bool(value)
+    if not isinstance(value, dict):
+        return False
+    normalized_values = [normalize_whitespace(value.get(lang, '')) for lang in ('zh', 'ja', 'en') if value.get(lang)]
+    return bool(normalized_values) and len(set(normalized_values)) == 1
+
+
+def localize(existing: dict | None, field: str, english_text: str, refresh_generated: bool = False) -> dict[str, str]:
     value = existing.get(field) if existing else None
     if isinstance(value, dict):
+        if refresh_generated and is_generated_localization(value):
+            return {'zh': english_text, 'ja': english_text, 'en': english_text}
         return {
             'zh': value.get('zh') or value.get('en') or english_text,
             'ja': value.get('ja') or value.get('en') or english_text,
             'en': value.get('en') or english_text,
         }
     if isinstance(value, str) and value:
+        if refresh_generated:
+            return {'zh': english_text, 'ja': english_text, 'en': english_text}
         return {'zh': value, 'ja': value, 'en': value}
     return {'zh': english_text, 'ja': english_text, 'en': english_text}
 
@@ -221,11 +389,12 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict]) -> l
             'id': item_id,
             'date': entry.date,
             'category': entry.category,
-            'title': localize(existing, 'title', entry.title_en),
-            'summary': localize(existing, 'summary', entry.summary_en),
+            'title': localize(existing, 'title', entry.title_en, refresh_generated=True),
+            'summary': localize(existing, 'summary', entry.summary_en, refresh_generated=True),
             'url': entry.url,
             'tags': entry.tags,
             'source': entry.source,
+            'sourceType': entry.source_type,
         })
 
     return items
@@ -262,11 +431,65 @@ def parse_openai_entries(cutoff: date) -> list[FeedEntry]:
             date=published,
             category='openai',
             source='OpenAI News',
+            source_type='news',
             title_en=title,
             summary_en=description,
             url=link,
             tags=unique_tags(categories + ['openai']),
         ))
+    return entries
+
+
+def parse_openai_changelog_entries(cutoff: date) -> list[FeedEntry]:
+    html = fetch_text('https://developers.openai.com/api/docs/changelog')
+    entries: list[FeedEntry] = []
+    section_pattern = re.compile(
+        r'<h3 class="[^"]*_ChangelogSectionTitle[^"]*">(?P<month>[A-Za-z]+), (?P<year>\d{4})</h3>(?P<section>.*?)(?=<h3 class="[^"]*_ChangelogSectionTitle|<footer|</main>)',
+        re.S,
+    )
+    entry_pattern = re.compile(
+        r'<div class="mt-5"><div class="grid[^>]*>.*?<div class="_Badge[^"]*"[^>]*data-variant="outline">(?P<day_label>[A-Za-z]{3} \d{1,2})</div>.*?'
+        r'<div class="flex flex-wrap gap-2 mb-2">(?P<badges>.*?)</div><div class="_MarkdownContent[^"]*">(?P<body>.*?)</div></div></div></div>',
+        re.S,
+    )
+
+    for section_match in section_pattern.finditer(html):
+        month_name = section_match.group('month')
+        year = section_match.group('year')
+        section_html = section_match.group('section')
+        for match in entry_pattern.finditer(section_html):
+            published = parse_section_date(month_name, year, match.group('day_label'))
+            if not within_window(published, cutoff):
+                continue
+            badge_values = [
+                normalize_whitespace(strip_html(value))
+                for value in re.findall(r'data-variant="soft">(.*?)</div>', match.group('badges'), re.S)
+            ]
+            if not badge_values:
+                continue
+            kind = badge_values[0]
+            body_html = match.group('body')
+            body_text = normalize_whitespace(strip_html(body_html))
+            if not is_openai_changelog_relevant(kind, badge_values[1:], body_text):
+                continue
+
+            paragraphs = re.findall(r'<p>(.*?)</p>', body_html, re.S)
+            first_paragraph = normalize_whitespace(strip_html(paragraphs[0])) if paragraphs else body_text
+            link_texts = [text for text in extract_link_texts(paragraphs[0] if paragraphs else body_html) if text]
+            headline_candidates = [text for text in link_texts if '/' not in text and len(text) <= 64]
+            title = choose_release_title(first_paragraph, ', '.join(headline_candidates[:2]), first_sentence(first_paragraph))
+            summary = body_text
+            url = append_anchor('https://developers.openai.com/api/docs/changelog', f'{published}-{kind}-{title}')
+            entries.append(FeedEntry(
+                date=published,
+                category='openai',
+                source='OpenAI API Changelog',
+                source_type='changelog',
+                title_en=title,
+                summary_en=summary,
+                url=url,
+                tags=unique_tags(badge_values[1:] + [kind, 'openai', 'changelog']),
+            ))
     return entries
 
 
@@ -291,6 +514,7 @@ def parse_google_entries(cutoff: date) -> list[FeedEntry]:
             date=published,
             category='google',
             source='Google Blog',
+            source_type='news',
             title_en=title,
             summary_en=description,
             url=link,
@@ -299,9 +523,44 @@ def parse_google_entries(cutoff: date) -> list[FeedEntry]:
     return entries
 
 
+def parse_google_release_entries(cutoff: date) -> list[FeedEntry]:
+    entries: list[FeedEntry] = []
+    for entry in parse_atom('https://docs.cloud.google.com/feeds/generative-ai-on-vertex-ai-release-notes.xml'):
+        published = parse_pub_date(entry.findtext('atom:updated', default='', namespaces=ATOM_NS))
+        if not within_window(published, cutoff):
+            continue
+
+        link = ''
+        for link_node in entry.findall('atom:link', ATOM_NS):
+            if link_node.get('rel') == 'alternate':
+                link = link_node.get('href', '')
+                break
+
+        content_html = entry.findtext('atom:content', default='', namespaces=ATOM_NS)
+        kind_match = re.search(r'<h3>(.*?)</h3>', content_html, re.I | re.S)
+        title_match = re.search(r'<strong>(.*?)</strong>', content_html, re.I | re.S)
+        kind = normalize_whitespace(strip_html(kind_match.group(1))) if kind_match else 'Update'
+        title = normalize_whitespace(strip_html(title_match.group(1))) if title_match else first_sentence(strip_html(content_html))
+        summary = normalize_whitespace(strip_html(content_html))
+        if not is_google_release_relevant(title, summary, kind):
+            continue
+
+        entries.append(FeedEntry(
+            date=published,
+            category='google',
+            source='Google Cloud Release Notes',
+            source_type='release-notes',
+            title_en=title,
+            summary_en=summary,
+            url=append_anchor(link, title),
+            tags=unique_tags([kind, 'google', 'release-notes']),
+        ))
+    return entries
+
+
 def is_github_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
     haystack = ' '.join([title, summary, url, *categories]).lower()
-    return any(token in haystack for token in ('copilot', 'agent', 'ai', 'actions', 'model'))
+    return bool(re.search(r'\bcopilot\b|\bagent\b|\bactions\b|\bmodels?\b|\bai\b', haystack))
 
 
 def parse_github_entries(cutoff: date) -> list[FeedEntry]:
@@ -320,10 +579,36 @@ def parse_github_entries(cutoff: date) -> list[FeedEntry]:
             date=published,
             category='microsoft',
             source='GitHub Product News',
+            source_type='news',
             title_en=title,
             summary_en=description,
             url=link,
             tags=unique_tags(categories + ['github']),
+        ))
+    return entries
+
+
+def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
+    entries: list[FeedEntry] = []
+    for item in parse_rss('https://github.blog/changelog/feed/'):
+        published = parse_pub_date(first_text(item, 'pubDate'))
+        if not within_window(published, cutoff):
+            continue
+        title = first_text(item, 'title')
+        description = clean_description(first_text(item, 'description'))
+        link = first_text(item, 'link') or first_text(item, 'guid')
+        categories = [normalize_whitespace(node.text or '') for node in item.findall('category') if node.text]
+        if not is_github_relevant(title, description, link, categories):
+            continue
+        entries.append(FeedEntry(
+            date=published,
+            category='microsoft',
+            source='GitHub Changelog',
+            source_type='changelog',
+            title_en=title,
+            summary_en=description,
+            url=link,
+            tags=unique_tags(categories + ['github', 'changelog']),
         ))
     return entries
 
@@ -373,6 +658,7 @@ def parse_anthropic_entries(cutoff: date) -> list[FeedEntry]:
             date=published,
             category='anthropic',
             source='Anthropic News',
+            source_type='news',
             title_en=normalize_whitespace(title),
             summary_en=final_summary,
             url=article_url,
@@ -397,6 +683,42 @@ def parse_anthropic_entries(cutoff: date) -> list[FeedEntry]:
             None,
         )
 
+    return entries
+
+
+def parse_anthropic_release_entries(cutoff: date) -> list[FeedEntry]:
+    html = fetch_text('https://platform.claude.com/docs/en/release-notes')
+    entries: list[FeedEntry] = []
+    section_pattern = re.compile(
+        r'<h3[^>]*><div class="group relative pt-6 pb-2" id="(?P<anchor>[^"]+)">.*?<div>(?P<published>[A-Za-z]+ \d{1,2}, \d{4})</div>.*?</h3>\s*<ul[^>]*>(?P<body>.*?)</ul>',
+        re.S,
+    )
+    item_pattern = re.compile(r'<li[^>]*>(.*?)</li>', re.S)
+
+    for section_match in section_pattern.finditer(html):
+        published = datetime.strptime(normalize_whitespace(section_match.group('published')), '%B %d, %Y').date().isoformat()
+        if not within_window(published, cutoff):
+            continue
+        base_link = f"https://platform.claude.com/docs/en/release-notes#{section_match.group('anchor')}"
+        for item_html in item_pattern.findall(section_match.group('body')):
+            summary = normalize_whitespace(strip_html(item_html))
+            if not summary:
+                continue
+            emphasized = extract_emphasized_text(item_html)
+            link_texts = [text for text in extract_link_texts(item_html) if text]
+            first_link = re.search(r'href="([^"]+)"', item_html)
+            link = urljoin('https://platform.claude.com', first_link.group(1)) if first_link else append_anchor(base_link, summary)
+            title = choose_release_title(summary, emphasized, link_texts[0] if link_texts else '', first_sentence(summary))
+            entries.append(FeedEntry(
+                date=published,
+                category='anthropic',
+                source='Anthropic Release Notes',
+                source_type='release-notes',
+                title_en=title,
+                summary_en=summary,
+                url=append_anchor(link, title) if first_link is None else link,
+                tags=unique_tags([title, 'anthropic', 'release-notes']),
+            ))
     return entries
 
 
@@ -432,9 +754,13 @@ def main() -> int:
 
     fresh_entries = (
         parse_anthropic_entries(cutoff)
+        + parse_anthropic_release_entries(cutoff)
         + parse_openai_entries(cutoff)
+        + parse_openai_changelog_entries(cutoff)
         + parse_google_entries(cutoff)
+        + parse_google_release_entries(cutoff)
         + parse_github_entries(cutoff)
+        + parse_github_changelog_entries(cutoff)
     )
     fresh_digest = materialize(fresh_entries, existing_by_url)
     fresh_digest = [item for item in fresh_digest if date.fromisoformat(item['date']) >= cutoff]

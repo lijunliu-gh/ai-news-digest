@@ -448,6 +448,28 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
 }
 
+.card-source-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.source-type-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-filter);
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .card-title {
   font-size: 1rem;
   font-weight: 600;
@@ -530,6 +552,8 @@ a:hover { text-decoration: underline; }
   .search-box { flex-basis: 100%; }
   .filter-btn { padding: 0.4rem 0.75rem; font-size: 0.8rem; }
   .card { padding: 0.85rem 1rem; }
+  .card-top { align-items: flex-start; }
+  .card-source-meta { justify-content: flex-start; }
   .card-title { font-size: 0.95rem; }
   .header-inner { padding: 0.6rem 1rem; }
 }
