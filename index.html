@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Digest — Microsoft · Anthropic · OpenAI · Google</title>
+  <meta name="description" content="Daily curated AI news from Microsoft/GitHub/Copilot, Anthropic, OpenAI, and Google. Filter, search, stay informed.">
+  <meta property="og:title" content="AI News Digest">
+  <meta property="og:description" content="Daily curated AI news from Microsoft, Anthropic, OpenAI, and Google.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="site-logo">
+        <span class="logo-dots"><span></span><span></span><span></span><span></span></span>
+        AI News Digest
+      </a>
+      <div class="header-actions">
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3"/><path d="M12 18.5v3"/><path d="M21.5 12h-3"/><path d="M5.5 12h-3"/><path d="m18.7 5.3-2.1 2.1"/><path d="m7.4 16.6-2.1 2.1"/><path d="m18.7 18.7-2.1-2.1"/><path d="m7.4 7.4-2.1-2.1"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.2 7.2 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>AI News Digest</h1>
+      <p class="hero-sub">关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态</p>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-val" id="stat-total">—</div>
+        <div class="stat-lbl">Total</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" id="stat-today">—</div>
+        <div class="stat-lbl">Today</div>
+      </div>
+      <div class="stat">
+        <div class="stat-val" id="stat-sources">—</div>
+        <div class="stat-lbl">Categories</div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <div class="filter-row">
+        <button class="filter-btn active" data-cat="all">
+          <span class="dot"></span>All<span class="count">0</span>
+        </button>
+        <button class="filter-btn" data-cat="microsoft">
+          <span class="dot"></span>Microsoft / GitHub<span class="count">0</span>
+        </button>
+        <button class="filter-btn" data-cat="anthropic">
+          <span class="dot"></span>Anthropic<span class="count">0</span>
+        </button>
+        <button class="filter-btn" data-cat="openai">
+          <span class="dot"></span>OpenAI<span class="count">0</span>
+        </button>
+        <button class="filter-btn" data-cat="google">
+          <span class="dot"></span>Google<span class="count">0</span>
+        </button>
+      </div>
+      <div class="search-box">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" class="search-input" id="search-input" placeholder="Search titles, summaries, tags…">
+      </div>
+    </div>
+
+    <!-- Feed -->
+    <div id="feed"></div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a></p>
+    <p style="margin-top:0.3rem;">Data updated manually or via automation. Not affiliated with any listed company.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
