@@ -92,21 +92,21 @@ jobs:
               lines.append(f"- Active items: {active.get('totalItems', 0)}")
               lines.append(f"- Archived items: {report.get('archive', {}).get('totalItems', 0)}")
               lines.append(f"- Validation: {'passed' if validation.get('passed') else 'failed'}")
-                config = validation.get('config', {})
-                if config:
+              config = validation.get('config', {})
+              if config:
                   lines.append('')
                   lines.append('### Validation config')
                   lines.append(f"- Min active items: {config.get('minActiveItems')}")
                   lines.append(f"- Total drop ratio: {config.get('totalDropRatio')}")
                   lines.append(f"- Source drop ratio: {config.get('sourceDropRatio')}")
                   lines.append(f"- Source baseline: {config.get('sourceBaseline')}")
-                if validation.get('issues'):
+              if validation.get('issues'):
                   lines.append('')
                   lines.append('### Validation issues')
                   for issue in validation['issues']:
                       lines.append(f'- {issue}')
-                translation = report.get('translation', {})
-                if translation:
+              translation = report.get('translation', {})
+              if translation:
                   lines.append('')
                   lines.append('### Translation')
                   lines.append(f"- Enabled: {translation.get('enabled')}")
@@ -114,7 +114,7 @@ jobs:
                   lines.append(f"- Cache hits: {translation.get('cacheHits')}")
                   lines.append(f"- New translations: {translation.get('generated')}")
                   for error in translation.get('errors', []):
-                    lines.append(f'- Translation note: {error}')
+                      lines.append(f'- Translation note: {error}')
               if active.get('sources'):
                   lines.append('')
                   lines.append('### Source counts')

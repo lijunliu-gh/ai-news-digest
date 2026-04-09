@@ -40,6 +40,7 @@ ai-news-digest/
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── requirements.txt
 └── README.md
 ```
 
@@ -112,13 +113,14 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 - The homepage dataset is rebuilt from scratch on every run.
 - Automated refreshes fail closed when the rebuilt dataset drops below health thresholds or a required official source disappears.
 - Health thresholds are configurable through GitHub Actions environment inputs for manual runs and workflow defaults for scheduled runs.
+- Manual GitHub Actions runs can override validation thresholds from the workflow dispatch form without editing the script.
 - Items older than 3 months are removed from `data/digest.json`.
 - Removed items are preserved in `data/archive.json`.
 - Existing manual translations are preserved when the same URL already exists.
 - Newly fetched English items are machine-translated into Chinese and Japanese, then cached for reuse in later refreshes.
 - The translation cache lives in `data/translation-cache.json` and is committed so future runs reuse the same phrasing.
 - The homepage shows whether an item came from a news page, changelog, or release-notes surface.
-- Each GitHub Actions run publishes a job summary with total items, per-source counts, and any validation issues.
+- Each GitHub Actions run publishes a job summary with total items, per-source counts, translation stats, validation config, and any validation issues.
 
 ## Development
 
