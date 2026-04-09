@@ -240,6 +240,14 @@ a:hover { text-decoration: underline; }
   margin-bottom: 2rem;
 }
 
+.secondary-controls {
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .filter-row {
   display: flex;
   gap: 0.5rem;
@@ -293,6 +301,7 @@ a:hover { text-decoration: underline; }
 
 .search-box {
   position: relative;
+  flex: 1 1 320px;
 }
 .search-box svg {
   position: absolute;
@@ -322,6 +331,47 @@ a:hover { text-decoration: underline; }
 }
 .search-input::placeholder { color: var(--text-dim); }
 .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+
+.month-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.2rem 0;
+  color: var(--text-muted);
+}
+
+.month-filter-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.month-select {
+  min-width: 150px;
+  padding: 0.55rem 2rem 0.55rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-filter);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-family: var(--font);
+  outline: none;
+  transition: all var(--transition);
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--text-dim) 50%),
+    linear-gradient(135deg, var(--text-dim) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) calc(50% - 3px),
+    calc(100% - 12px) calc(50% - 3px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+}
+
+.month-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-glow);
+}
 
 /* ---------- Date Group ---------- */
 .date-group {
@@ -474,6 +524,10 @@ a:hover { text-decoration: underline; }
   .stats-bar { gap: 1rem; }
   .stat-val { font-size: 1.2rem; }
   .filter-row { gap: 0.4rem; }
+  .secondary-controls { align-items: stretch; }
+  .month-filter { width: 100%; justify-content: space-between; }
+  .month-select { flex: 1; }
+  .search-box { flex-basis: 100%; }
   .filter-btn { padding: 0.4rem 0.75rem; font-size: 0.8rem; }
   .card { padding: 0.85rem 1rem; }
   .card-title { font-size: 0.95rem; }

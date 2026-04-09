@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [0.4.0] - 2026-04-09
+
+### Added
+- Month-based filtering on the homepage in addition to source filters and full-text search
+- Automated digest refresh via GitHub Actions using only official source pages and feeds
+- Rolling 3-month retention with `data/archive.json` for older items
+- Repository script `scripts/update_digest.py` to fetch, deduplicate, preserve translations, and rebuild datasets
+
+### Changed
+- `README.md` now documents the automation workflow, schedule, retention rules, and archive behavior
+- `data/digest.json` is now intended to be machine-refreshed from official sources instead of maintained as a fixed manual snapshot
+
 ## [0.3.0] - 2026-04-09
 
 ### Changed

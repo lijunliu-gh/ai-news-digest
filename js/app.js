@@ -19,6 +19,8 @@
       heroSub: '关注 Microsoft / GitHub Copilot, Anthropic, OpenAI, Google 四大 AI 厂商的最新动态',
       statTotal: '总数', statToday: '今日', statCategories: '分类',
       filterAll: '全部',
+      monthFilterLabel: '月份',
+      monthFilterAll: '全部月份',
       searchPlaceholder: '搜索标题、摘要、标签…',
       emptyState: '没有找到匹配的内容。',
       footerCredit: 'AI News Digest &mdash; 由 <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> 策划',
@@ -31,6 +33,8 @@
       heroSub: 'Microsoft / GitHub Copilot, Anthropic, OpenAI, Google — 4大AIベンダーの最新ニュース',
       statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
       filterAll: 'すべて',
+      monthFilterLabel: '月別',
+      monthFilterAll: 'すべての月',
       searchPlaceholder: 'タイトル、要約、タグを検索…',
       emptyState: '一致する項目が見つかりません。',
       footerCredit: 'AI News Digest &mdash; <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a> がキュレーション',
@@ -43,6 +47,8 @@
       heroSub: 'Stay updated with the latest from Microsoft / GitHub Copilot, Anthropic, OpenAI & Google',
       statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
       filterAll: 'All',
+      monthFilterLabel: 'Month',
+      monthFilterAll: 'All months',
       searchPlaceholder: 'Search titles, summaries, tags…',
       emptyState: 'No matching items found.',
       footerCredit: 'AI News Digest &mdash; curated by <a href="https://roundtableailab.org" target="_blank" rel="noopener">RoundTable AI Lab</a>',
@@ -79,6 +85,7 @@
         btn.classList.add('active');
         try { localStorage.setItem('lang', currentLang); } catch {}
         applyI18n();
+        populateMonthFilter();
         render();
       });
     });
@@ -86,6 +93,7 @@
 
   let allItems = [];
   let activeCategory = 'all';
+  let activeMonth = 'all';
   let searchQuery = '';
 
   /* ---------- Init ---------- */
@@ -113,6 +121,8 @@
 
     renderStats();
     bindFilterButtons();
+    bindMonthFilter();
+    populateMonthFilter();
     bindSearch();
     bindLangSwitcher();
     applyI18n();
@@ -151,6 +161,35 @@
     });
   }
 
+  function bindMonthFilter() {
+    const select = document.getElementById('month-filter');
+    if (!select) return;
+
+    select.addEventListener('change', () => {
+      activeMonth = select.value;
+      render();
+    });
+  }
+
+  function populateMonthFilter() {
+    const select = document.getElementById('month-filter');
+    if (!select) return;
+
+    const months = [...new Set(allItems.map(item => item.date.slice(0, 7)))].sort((a, b) => b.localeCompare(a));
+    if (activeMonth !== 'all' && !months.includes(activeMonth)) {
+      activeMonth = 'all';
+    }
+
+    const options = [`<option value="all">${escapeHtml(t('monthFilterAll'))}</option>`];
+    for (const month of months) {
+      const selected = month === activeMonth ? ' selected' : '';
+      options.push(`<option value="${escapeHtml(month)}"${selected}>${escapeHtml(formatMonth(month))}</option>`);
+    }
+
+    select.innerHTML = options.join('');
+    select.value = activeMonth;
+  }
+
   /* ---------- Search ---------- */
   function bindSearch() {
     const input = document.getElementById('search-input');
@@ -175,6 +214,10 @@
     // Apply category filter
     if (activeCategory !== 'all') {
       filtered = filtered.filter(i => i.category === activeCategory);
+    }
+
+    if (activeMonth !== 'all') {
+      filtered = filtered.filter(i => i.date.startsWith(activeMonth));
     }
 
     // Apply search
@@ -246,6 +289,14 @@
     const [y, m, d] = dateStr.split('-');
     const lang = I18N[currentLang] || I18N.zh;
     return lang.dateFmt(y, parseInt(m, 10) - 1, parseInt(d, 10), lang.months);
+  }
+
+  function formatMonth(monthStr) {
+    const [y, m] = monthStr.split('-');
+    const monthIndex = parseInt(m, 10) - 1;
+    const lang = I18N[currentLang] || I18N.zh;
+    if (currentLang === 'en') return `${lang.months[monthIndex]} ${y}`;
+    return `${y}年${lang.months[monthIndex]}`;
   }
 
   function escapeHtml(str) {

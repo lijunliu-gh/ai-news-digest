@@ -84,9 +84,17 @@
           <span class="dot"></span>Google<span class="count">0</span>
         </button>
       </div>
-      <div class="search-box">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="text" class="search-input" id="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Search titles, summaries, tags…">
+      <div class="secondary-controls">
+        <label class="month-filter" for="month-filter">
+          <span class="month-filter-label" data-i18n="monthFilterLabel">Month</span>
+          <select id="month-filter" class="month-select" aria-label="Filter by month">
+            <option value="all">All months</option>
+          </select>
+        </label>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" class="search-input" id="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Search titles, summaries, tags…">
+        </div>
       </div>
     </div>
 
