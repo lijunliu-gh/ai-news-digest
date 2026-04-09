@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-04-09
+
+### Changed
+- Expanded GitHub coverage by evaluating changelog entries against full post content instead of only short feed descriptions, which pulls in more developer-facing Copilot, Actions, and intelligent security workflow updates
+
+### Fixed
+- Tightened GitHub relevance matching so generic platform-maintenance notices are excluded while developer-relevant Copilot and smart security workflow releases remain included
+
 ## [0.6.1] - 2026-04-09
 
 ### Fixed

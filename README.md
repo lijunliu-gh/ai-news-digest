@@ -112,6 +112,7 @@ GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equiva
 - Only official product-oriented sources are ingested.
 - Official sources include both public news pages and developer release-note / changelog surfaces.
 - For Google, the digest now combines Google Blog, Google Cloud release notes, and Google DeepMind product-news posts.
+- For GitHub, changelog entries are evaluated using full post content instead of only short feed excerpts so developer-facing Copilot, Actions, and intelligent security workflow updates are less likely to be missed.
 - Locale fields that still match the English source text are treated as untranslated and regenerated during refreshes.
 - The homepage dataset is rebuilt from scratch on every run.
 - Automated refreshes fail closed when the rebuilt dataset drops below health thresholds or a required official source disappears.

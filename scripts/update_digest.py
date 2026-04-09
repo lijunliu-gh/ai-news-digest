@@ -829,7 +829,17 @@ def parse_google_release_entries(cutoff: date) -> list[FeedEntry]:
 
 def is_github_relevant(title: str, summary: str, url: str, categories: list[str]) -> bool:
     haystack = ' '.join([title, summary, url, *categories]).lower()
-    return bool(re.search(r'\bcopilot\b|\bagent\b|\bactions\b|\bmodels?\b|\bai\b', haystack))
+    direct_signals = re.search(
+        r'\bcopilot\b|\bagent\b|\bagents\b|\bmcp\b|\bmodels?\b|\bembedding\b|\bcode review\b|\bautofix\b|\bai\b|\bpremium requests?\b',
+        haystack,
+    )
+    if direct_signals:
+        return True
+
+    developer_surface_signals = re.search(r'\bactions\b|\bvscode\b|\bvisual studio code\b|\bgithub mobile\b', haystack)
+    security_workflow_signals = re.search(r'\bdependabot\b|\bsecret scanning\b|\bcode security\b', haystack)
+    intelligent_context_signals = re.search(r'\bruntime context\b|\bautofix\b|\bassign to agent\b|\bcoding agents?\b', haystack)
+    return bool(developer_surface_signals or (security_workflow_signals and intelligent_context_signals))
 
 
 def parse_github_entries(cutoff: date) -> list[FeedEntry]:
@@ -865,9 +875,11 @@ def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
             continue
         title = first_text(item, 'title')
         description = clean_description(first_text(item, 'description'))
+        content = normalize_whitespace(strip_html(first_text(item, '{http://purl.org/rss/1.0/modules/content/}encoded')))
+        summary = content or description
         link = first_text(item, 'link') or first_text(item, 'guid')
         categories = [normalize_whitespace(node.text or '') for node in item.findall('category') if node.text]
-        if not is_github_relevant(title, description, link, categories):
+        if not is_github_relevant(title, summary, link, categories):
             continue
         entries.append(FeedEntry(
             date=published,
@@ -875,7 +887,7 @@ def parse_github_changelog_entries(cutoff: date) -> list[FeedEntry]:
             source='GitHub Changelog',
             source_type='changelog',
             title_en=title,
-            summary_en=description,
+            summary_en=summary,
             url=link,
             tags=unique_tags(categories + ['github', 'changelog']),
         ))
