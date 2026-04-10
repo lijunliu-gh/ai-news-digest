@@ -3,6 +3,30 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-10-github-2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的验证工具现在速度提高了 20%",
+        "ja": "Copilot クラウド エージェントの検証ツールが 20% 高速になりました",
+        "en": "Copilot cloud agent’s validation tools are now 20% faster"
+      },
+      "summary": {
+        "zh": "当Copilot云代理编写代码时，它会自动运行GitHub的安全和质量验证工具，包括CodeQL、GitHub咨询数据库、秘密扫描和Copilot代码审查。如果发现任何问题，Copilot 会在完成工作并请求审核之前尝试解决它们。这些验证工具现在并行运行，而不是顺序运行，从而将验证时间缩短了 20%。这意味着 Copilot 工作速度更快，同时仍保持相同的质量。您可以从存储库设置中的 Copilot -> 云代理部分配置云代理运行哪些验证工具。要了解更多信息，请参阅我们的 Copilot 云代理文档。 Copilot 云代理的验证工具现在速度提高了 20% 的帖子首先出现在 GitHub 博客上。",
+        "ja": "Copilot クラウド エージェントがコードを記述すると、CodeQL、GitHub アドバイザリー データベース、シークレット スキャン、Copilot コード レビューなどの GitHub のセキュリティおよび品質検証ツールが自動的に実行されます。問題が見つかった場合、Copilot は作業を終了してレビューを要求する前に問題の解決を試みます。これらの検証ツールは順次ではなく並行して実行されるようになり、検証時間が 20% 短縮されます。これは、Copilot が同じ品質を維持しながら高速に動作することを意味します。リポジトリ設定の Copilot -> クラウド エージェント セクションから、クラウド エージェントが実行する検証ツールを構成できます。詳細については、Copilot クラウド エージェントのドキュメントを参照してください。 Copilot クラウド エージェントの検証ツールが 20% 高速化されたという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before finishing work and requesting review. These validation tools now run in parallel rather than sequentially, reducing validation time by 20%. This means Copilot works faster while still maintaining the same quality. You can configure which validation tools the cloud agent runs from the Copilot -> Cloud agent section in repository settings. To learn more, head to our Copilot cloud agent documentation. The post Copilot cloud agent’s validation tools are now 20% faster appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-09-openai-full-fan-mode-contest-terms-conditions",
       "date": "2026-04-09",
       "category": "openai",
@@ -5972,29 +5996,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
-      "date": "2026-02-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "输出格式",
-        "ja": "出力形式",
-        "en": "output_format"
-      },
-      "summary": {
-        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
-        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
-        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
-      "tags": [
-        "output-format",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-05-anthropic-effort",
