@@ -101,15 +101,17 @@ This repository uses a scheduled GitHub Actions workflow to keep the site curren
 - Active window: latest 3 calendar months
 - Archive target: `data/archive.json`
 
-Scheduled refreshes run at these China Standard Time slots by default:
+Scheduled refreshes run five times a day, evenly spaced ~4 h 48 min apart:
 
-- 08:17
-- 13:05
-- 17:53
-- 22:41
-- 03:29 (next day)
+| UTC | CST (UTC+8) | JST (UTC+9) | PT (UTC−7) |
+|-------|-------------|-------------|------------|
+| 00:17 | 08:17 | 09:17 | 17:17 (−1) |
+| 05:05 | 13:05 | 14:05 | 22:05 (−1) |
+| 09:53 | 17:53 | 18:53 | 02:53 |
+| 14:41 | 22:41 | 23:41 | 07:41 |
+| 19:29 | 03:29 (+1) | 04:29 (+1) | 12:29 |
 
-GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equivalents.
+GitHub Actions uses UTC internally; the workflow cron entries match the UTC column.
 
 ### Update Rules
 
