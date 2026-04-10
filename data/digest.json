@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09",
+  "lastUpdated": "2026-04-10",
   "windowMonths": 3,
   "items": [
     {
@@ -140,6 +140,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-08-github-2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "date": "2026-04-08",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code 中的 GitHub Copilot，3 月发布",
+        "ja": "Visual Studio Code の GitHub Copilot、3 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code, March Releases"
+      },
+      "summary": {
+        "zh": "VS Code 改为每周稳定版本。此变更日志涵盖了 v1.111 至 v1.115 版本，这些版本是我们在 2026 年 3 月和 4 月初发布的。亮点包括用于完全自主代理会话的 Autopilot（公开预览版）、集成浏览器调试、聊天中的图像和视频支持以及用于管理聊天自定义的新统一编辑器。控制代理如何运行代理权限：选择每个会话的权限级别（默认、绕过批准或自动驾驶）以控制哪些操作或决策需要手动干预。适用于本地和 Copilot CLI 会话。自动驾驶：代理批准自己的操作，自动重试错误，并自主工作直到任务完成。无需手动批准。此功能处于预览状态。可配置的思维工作：控制推理模型（例如 Claude Sonnet 4.6 和 GPT-5.4）在响应之前思考的深度，并直接从模型选择器中执行此操作。您的偏好在对话中持续存在。扩展代理可以执行的操作 使用集成浏览器进行调试：设置断点、单步调试代码以及​​检查集成浏览器中的变量，而无需离开 VS Code。新的编辑器浏览器调试类型适用于大多数现有的 chrome 和 msedge 配置。嵌套子代理：子代理现在可以调用其他子代理 (chat.subagents.allowInitationsFromSubagents)，从而实现复杂的多步骤工作流程和更好的任务分解。处理图像和视频：将屏幕截图和视频附加到聊天消息中。客服人员可以返回更改的图像或记录，您可以在轮播中查看这些图像或记录。在具有缩放、平移和缩略图导航功能的全功能轮播中预览它们。 CLI 和 Claude 代理改进：在 VS Code 中配置的 MCP 服务器现在可以在 Copilot CLI 和 Claude 代理会话中工作。您还可以分叉任何会话来探索替代方法，同时保持原始对话不变。简化自定义和调试聊天自定义编辑器：从一个统一的界面创建和管理所有指令、自定义代理、技能和插件。直接从编辑器浏览 MCP 和插件市场。此功能处于预览状态。更快的工作区搜索：#codebase 工具现在针对单个自动管理索引运行纯语义搜索。不再需要本地索引与远程索引 — 只是更快、更一致的结果。沙箱 MCP 服务器：在受限沙箱中运行本地 MCP 服务器以限制文件和网络访问（macOS 和 Linux）。使用 /troubleshoot 进行诊断：直接在聊天中分析代理调试日志，以了解意外行为、指令被忽略的原因或响应缓慢的原因（包括过去会话的响应）。 Monorepo 自定义：VS Code 现在可以发现从父文件夹到存储库根目录的指令、代理、技能和挂钩，从而可以更轻松地跨包共享团队范围的配置。代理范围的挂钩：将预处理和后处理逻辑附加到特定的自定义代理，而不影响其他聊天交互 (chat.useCustomAgentHooks)。在.agent.md 文件的 YAML frontmatter 中定义钩子。此功能处于预览状态。相关 VS Code 生产力更新 新的默认“VS Code Light”和“VS Code Dark”主题具有焕然一新的现代外观。 TypeScript 6.0 支持，在 TypeScript 7.0 原生重写之前进行了重要修复。集成浏览器中的自签名证书支持本地 HTTPS 开发。通过“快速打开”、“全部关闭”和标题栏快捷方式改进了浏览器选项卡管理。将代码符号粘贴到聊天中时自动引用符号。复制最终响应命令仅复制代理的最终答案，跳过思考步骤和工具调用。快乐编码！请参阅 VS Code 发行说明了解更多信息，并加入 GitHub 社区中的讨论。 Visual Studio Code 三月版本中的 GitHub Copilot 帖子首先出现在 GitHub 博客上。",
+        "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログでは、2026 年 3 月から 4 月初めにかけて出荷されたリリース v1.111 から v1.115 までを対象としています。ハイライトには、完全自律エージェント セッション用のオートパイロット (パブリック プレビュー中)、統合されたブラウザ デバッグ、チャットでの画像とビデオのサポート、チャットのカスタマイズを管理するための新しい統合エディターが含まれます。エージェントがエージェント権限を実行する方法を制御する: セッションごとの権限レベル (デフォルト、承認のバイパス、または自動操縦) を選択して、手動介入が必要なアクションまたは決定を制御します。ローカルおよび Copilot CLI セッションの両方に適用されます。オートパイロット: エージェントは自身のアクションを承認し、エラーが発生した場合は自動的に再試行し、タスクが完了するまで自律的に作業します。手動による承認は必要ありません。この機能はプレビュー段階です。構成可能な思考努力: 応答する前に推論モデル (Claude Sonnet 4.6 や GPT-5.4 など) がどの程度深く考えるかを制御し、これをモデル ピッカーから直接実行します。あなたの好みは会話を超えて持続します。エージェントができることの拡張 統合ブラウザを使用したデバッグ: VS Code を離れることなく、統合ブラウザでブレークポイントを設定し、コードをステップ実行し、変数を検査します。新しいエディター/ブラウザー デバッグ タイプは、ほとんどの既存の chrome および msedge 構成で動作します。ネストされたサブエージェント: サブエージェントは他のサブエージェント ( chat.subagents.allowInvocationsFromSubagents ) を呼び出すことができるようになり、複雑な複数ステップのワークフローとより適切なタスク分解が可能になります。画像とビデオを操作する: チャット メッセージにスクリーンショットとビデオを添付します。エージェントは、カルーセルで確認できる変更の画像または記録を返すことができます。ズーム、パン、サムネイル ナビゲーションを備えたフル機能のカルーセルでプレビューします。 CLI および Claude エージェントの改善: VS Code で構成された MCP サーバーは、Copilot CLI および Claude エージェント セッションで動作するようになりました。また、セッションをフォークして、元の会話をそのまま維持しながら別のアプローチを検討することもできます。カスタマイズとデバッグを簡素化 チャット カスタマイズ エディター: すべての指示、カスタム エージェント、スキル、プラグインを 1 つの統一インターフェイスから作成および管理します。 MCP とプラグイン マーケットプレイスをエディターから直接参照します。この機能はプレビュー段階です。ワークスペース検索の高速化: #codebase ツールは、単一の自動管理インデックスに対して純粋にセマンティック検索を実行するようになりました。ローカルとリモートのインデックス作成は不要になり、より高速で一貫性のある結果が得られます。サンドボックス MCP サーバー: 制限付きサンドボックスでローカル MCP サーバーを実行し、ファイルとネットワークへのアクセスを制限します (macOS および Linux)。 /troubleshoot で診断する: エージェントのデバッグ ログをチャットで直接分析し、予期しない動作、指示が無視された理由、または過去のセッションを含む応答が遅かった理由を理解します。 Monorepo のカスタマイズ: VS Code は、親フォルダーからリポジトリ ルートまでの命令、エージェント、スキル、フックを検出するようになり、パッケージ間でチーム全体の構成を共有することが容易になります。エージェント スコープのフック: 他のチャット インタラクションに影響を与えることなく、前処理および後処理ロジックを特定のカスタム エージェントに接続します ( chat.useCustomAgentHooks )。.agent.md ファイルの YAML フロントマターでフックを定義します。この機能はプレビュー段階です。関連する VS Code 生産性アップデート リフレッシュされたモダンな外観を持つ、新しいデフォルトの「VS Code Light」および「VS Code Dark」テーマ。 TypeScript 6.0 は、TypeScript 7.0 のネイティブな書き換えに先立って重要な修正を加えてサポートされています。ローカル HTTPS 開発用の統合ブラウザでの自己署名証明書のサポート。クイックオープン、すべて閉じる、タイトルバーのショートカットによりブラウザタブ管理が改善されました。コードシンボルをチャットに貼り付ける際の自動シンボル参照。 [最終応答をコピー] コマンドを使用すると、エージェントの最終応答のみをコピーし、思考ステップやツールの呼び出しをスキップします。コーディングを楽しんでください! VS Code リリース ノートで詳細を確認し、GitHub コミュニティ内のディスカッションに参加してください。 Visual Studio Code、3 月リリースの投稿 GitHub Copilot は、GitHub ブログに最初に掲載されました。",
+        "en": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully autonomous agent sessions (in public preview), integrated browser debugging, image and video support in chat, and a new unified editor for managing chat customizations. Control how agents run Agent permissions: Choose a permission level per session ( Default, Bypass Approvals, or Autopilot ) to control which actions or decisions require manual intevention. Applies to both local and Copilot CLI sessions. Autopilot: Agents approve their own actions, automatically retry on errors, and work autonomously until the task completes. No manual approvals required. This feature is in preview. Configurable thinking effort: Control how deeply reasoning models (e.g., Claude Sonnet 4.6 and GPT-5.4) think before responding, and do this directly from the model picker. Your preference persists across conversations. Expand what agents can do Debug with the integrated browser: Set breakpoints, step through code, and inspect variables in the integrated browser without leaving VS Code. The new editor-browser debug type works with most existing chrome and msedge configurations. Nested subagents: Subagents can now invoke other subagents ( chat.subagents.allowInvocationsFromSubagents ), enabling complex multi-step workflows and better task decomposition. Work with images and video: Attach screenshots and videos to your chat messages. Agents can return images or recordings of changes that you can review in the carousel. Preview them in a full-featured carousel with zoom, pan, and thumbnail navigation. CLI and Claude agent improvements: MCP servers configured in VS Code now work in Copilot CLI and Claude agent sessions. You can also fork any session to explore alternative approaches while keeping the original conversation intact. Simplify customization and debugging Chat customizations editor: Create and manage all your instructions, custom agents, skills, and plugins from one unified interface. Browse MCP and plugin marketplaces directly from the editor. This feature is in preview. Faster workspace search: The #codebase tool now runs purely semantic searches against a single auto-managed index. No more local vs. remote indexing—just faster, more consistent results. Sandbox MCP servers: Run local MCP servers in a restricted sandbox to limit file and network access (macOS and Linux). Diagnose with /troubleshoot: Analyze agent debug logs directly in chat to understand unexpected behavior, why instructions were ignored, or why responses were slow, including from past sessions. Monorepo customizations: VS Code now discovers instructions, agents, skills, and hooks from parent folders up to the repository root, making it easier to share team-wide configurations across packages. Agent-scoped hooks: Attach pre- and post-processing logic to specific custom agents without affecting other chat interactions ( chat.useCustomAgentHooks ). Define hooks in the YAML frontmatter of.agent.md files. This feature is in preview. Related VS Code productivity updates New default “VS Code Light” and “VS Code Dark” themes with a refreshed modern look. TypeScript 6.0 support with important fixes ahead of the TypeScript 7.0 native rewrite. Self-signed certificate support in the integrated browser for local HTTPS development. Improved browser tab management with Quick Open, Close All, and a title bar shortcut. Automatic symbol references when pasting code symbols into chat. Copy Final Response command to copy just the agent’s final answer, skipping thinking steps and tool calls. Happy coding! Learn more at the VS Code release notes and join the discussion within GitHub Community. The post GitHub Copilot in Visual Studio Code, March Releases appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-08-github-2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
       "date": "2026-04-08",
       "category": "github",
@@ -234,6 +258,80 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "使用 Dynatrace 的运行时上下文确定安全警报的优先级",
+        "ja": "Dynatrace のランタイム コンテキストを使用してセキュリティ アラートに優先順位を付ける",
+        "en": "Prioritize security alerts with runtime context from Dynatrace"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 Dynatrace 中的运行时上下文，根据 Kubernetes 环境中部署的工件和运行时风险来确定 GitHub 高级安全警报的优先级。当您将 Dynatrace 连接到 GitHub 时，您将看到 Dynatrace 映射到您的存储库的容器映像的部署上下文，以及运行时风险信号。您可以使用此上下文将修复重点放在影响已部署工件的警报上，尤其是当 Dynatrace 检测到较高风险的运行时条件时。如何在 GitHub 中使用运行时上下文 您可以使用部署可见性和运行时风险信号来过滤警报页面和安全活动中的 GitHub 代码扫描和 Dependabot 警报并确定其优先级。例如，您可以将一个大列表过滤为仅影响已部署工件并暴露在互联网上的漏洞： has:deployment AND running-risk:internet-exposed 运行时风险信号包括：公共互联网暴露 (runtime-risk:internet-exposed )。访问敏感数据资产（运行时风险：敏感数据）。可用性 此功能通常可供 GitHub Enterprise Cloud 客户使用。要了解如何配置 Dynatrace 与 GitHub Advanced Security 的集成，请参阅 Dynatrace 的文档。 Dynatrace 的文章“使用运行时上下文确定安全警报的优先级”首先出现在 GitHub 博客上。",
+        "ja": "Dynatrace のランタイム コンテキストを使用して、Kubernetes 環境でデプロイされたアーティファクトとランタイム リスクに基づいて GitHub Advanced Security アラートに優先順位を付けることができるようになりました。 Dynatrace を GitHub に接続すると、Dynatrace がリポジトリにマッピングするコンテナ イメージのデプロイメント コンテキストと、実行時のリスク シグナルが表示されます。このコンテキストを使用すると、特に Dynatrace がよりリスクの高い実行時状態を検出した場合に、デプロイされたアーティファクトに影響を与えるアラートの修復に重点を置くことができます。 GitHub でランタイム コンテキストを使用する方法 デプロイメントの可視性とランタイム リスク シグナルを使用して、アラート ページとセキュリティ キャンペーンの両方で、GitHub コード スキャンと dependabot アラートをフィルタリングして優先順位を付けることができます。たとえば、大きなリストをフィルタリングして、デプロイされたアーティファクトに影響を及ぼし、インターネットに公開されている脆弱性だけを絞り込むことができます。 has:deployment AND runtime-risk:internet-exused ランタイム リスク シグナルには次のものが含まれます: 公衆インターネット公開 ( runtime-risk:internet-exused )。機密データ資産へのアクセス ( runtime-risk:sensitive-data )。可用性 この機能は、GitHub Enterprise Cloud の顧客向けに一般提供されています。 Dynatrace と GitHub Advanced Security の統合を構成する方法については、Dynatrace のドキュメントを参照してください。 Dynatrace のランタイム コンテキストを使用してセキュリティ アラートを優先するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to GitHub, you’ll see deployment context for container images that Dynatrace maps to your repositories, along with runtime risk signals. You can use this context to focus remediation on alerts that affect deployed artifacts, especially when Dynatrace detects higher-risk runtime conditions. How to use runtime context in GitHub You can use deployment visibility and runtime risk signals to filter and prioritize GitHub code scanning and Dependabot alerts, both on the alert pages and in security campaigns. For example, you can filter a large list down to just those vulnerabilities that affect deployed artifacts and are exposed to the internet: has:deployment AND runtime-risk:internet-exposed Runtime risk signals include: Public internet exposure ( runtime-risk:internet-exposed ). Access to sensitive data assets ( runtime-risk:sensitive-data ). Availability This feature is generally available for GitHub Enterprise Cloud customers. To learn how to configure the Dynatrace integration with GitHub Advanced Security, see Dynatrace’s documentation. The post Prioritize security alerts with runtime context from Dynatrace appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "tags": [
+        "release",
+        "application-security",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "Dependabot 警报现在可分配给 AI 代理进行修复",
+        "ja": "修復のために、Dependabot アラートを AI エージェントに割り当てられるようになりました",
+        "en": "Dependabot alerts are now assignable to AI agents for remediation"
+      },
+      "summary": {
+        "zh": "一些依赖项漏洞需要的不仅仅是版本更新，它们还需要整个项目的代码更改。您现在可以将 Dependabot 警报分配给 AI 编码代理（包括 Copilot、Claude 和 Codex），以分析漏洞并打开包含建议修复方案的草稿拉取请求。工作原理 在 Dependabot 警报详细信息页面中，选择分配给代理，然后选择所需的编码代理，包括 Copilot、Claude 和 Codex。指定的代理将： 分析警报，包括咨询详细信息和存储库的依赖项使用情况。打开包含建议修复的草稿拉取请求。尝试解决更新引起的任何测试失败。您可以将多个代理分配给同一个警报。每个代理独立工作并打开自己的草稿拉取请求，让您可以比较方法。使用编码代理处理复杂的依赖项更新 Dependabot 安全更新已经自动打开拉取请求，将易受攻击的依赖项升级到最近的修补版本。对于许多警报，这就是您所需要的：合并拉取请求并继续。然而，一些依赖项更新并不那么简单。主要版本升级可能会引入重大 API 更改、不推荐使用的方法调用或需要在整个项目中修改代码的不兼容类型签名。这就是编码代理发挥作用的地方。Dependabot 传达版本升级，编码代理可以接手 Dependabot 未完成的工作：修复重大更改：当依赖项更新破坏您的构建或测试时，代理可以分析故障，识别根本原因，并提出代码更改来解决它们。软件包降级：当依赖项遭到破坏或包含恶意软件并且没有可用的修补版本时，代理可以降级到最后一个已知的安全版本。创建复杂的拉取请求：对于 Dependabot 基于规则的引擎之外的复杂更新场景，编码代理可以生成拉取请求来解决漏洞。这两种工具协同工作：Dependabot 自动保持您的依赖项处于最新状态，而编码代理则帮助解决需要更深入分析的修复问题。始终检查代理输出 AI 生成的修复并不总是正确的。编码代理可能会产生不完整的补丁、错过边缘情况或提出引入新问题的更改建议。在合并之前，请务必检查拉取请求，验证测试是否通过，并确认修复是否适当。谁可以使用此功能？将 Dependabot 警报分配给编码代理需要 GitHub 代码安全性和包含编码代理访问权限的 Copilot 计划。此功能可在 github.com 上找到。立即尝试 打开存储库中的任何 Dependabot 警报，然后选择分配给代理即可开始。在文档中了解有关管理 Dependabot 警报和分配警报的更多信息。加入 GitHub 社区内的讨论。 Dependabot 后警报现在可分配给 AI 代理进行修复，该警报首先出现在 GitHub 博客上。",
+        "ja": "依存関係の脆弱性の中には、バージョンを上げるだけではなく、プロジェクト全体でコードを変更する必要があるものもあります。 Copilot、Claude、Codex などの AI コーディング エージェントに dependabot アラートを割り当てて、脆弱性を分析し、提案された修正を含むドラフト プル リクエストをオープンできるようになりました。仕組み dependabot アラートの詳細ページから、[エージェントに割り当て] を選択し、Copilot、Claude、Codex など、目的のコーディング エージェントを選択します。割り当てられたエージェントは次のことを行います。 アドバイザリーの詳細やリポジトリの依存関係の使用状況など、アラートを分析します。提案された修正を含むドラフト プル リクエストを開きます。アップデートによって発生したテストの失敗を解決してみます。複数のエージェントを同じアラートに割り当てることができます。各エージェントは独立して動作し、独自のドラフト プル リクエストをオープンして、アプローチを比較できます。コーディング エージェントを使用して複雑な依存関係の更新に取り組みます。Dependabot のセキュリティ アップデートでは、脆弱な依存関係を最も近いパッチ適用バージョンにアップグレードするプル リクエストが自動的にオープンされています。多くのアラートでは、プル リクエストをマージして次に進むだけで十分です。ただし、一部の依存関係の更新はそれほど単純ではありません。メジャー バージョンのアップグレードでは、API の重大な変更、非推奨のメソッド呼び出し、またはプロジェクト全体でコードの変更を必要とする互換性のない型シグネチャが導入される可能性があります。ここで、コーディング エージェントの出番です。Dependabot はバージョン バンプを伝え、コーディング エージェントは、Dependabot が中断したところから拾うことができます。 重大な変更の修正: 依存関係の更新によってビルドやテストが中断されると、エージェントは障害を分析し、根本原因を特定し、それらを解決するためのコード変更を提案できます。パッケージのダウングレード: 依存関係が侵害されているかマルウェアが含まれており、パッチ適用されたバージョンが利用できない場合、エージェントは最後に知られている安全なバージョンにダウングレードできます。複雑なプル リクエストの作成: dependabot のルールベース エンジンの範囲外である複雑な更新シナリオの場合、コーディング エージェントは脆弱性に対処するプル リクエストを生成できます。どちらのツールも連携して動作します。Dependabot は依存関係を自動的に最新に保ち、コーディング エージェントはより深い分析が必要な修正に取り組むのに役立ちます。エージェントの出力を常に確認する AI によって生成された修正は、常に正しいとは限りません。コーディング エージェントは、不完全なパッチを作成したり、エッジ ケースを見逃したり、新しい問題を引き起こす変更を提案したりする可能性があります。マージする前に、必ずプル リクエストを確認し、テストが合格することを確認し、修正が適切であることを確認してください。この機能を使用できるのは誰ですか? dependabot アラートをコーディング エージェントに割り当てるには、GitHub コード セキュリティと、コーディング エージェントのアクセスを含む Copilot プランが必要です。この機能は github.com で利用できます。今すぐ試してみる リポジトリ内の依存ボット アラートを開き、[エージェントに割り当て] を選択して開始します。ドキュメントで、Dependabot アラートの管理とアラートの割り当てについて詳しく学習してください。 GitHub コミュニティ内のディスカッションに参加してください。 「Dependabot アラートを修復のために AI エージェントに割り当てられるようになりました」という記事は、最初に The GitHub Blog に掲載されました。",
+        "en": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex, to analyze the vulnerability and open a draft pull request with a proposed fix. How it works From the Dependabot alert detail page, select Assign to Agent and then select your desired coding agent, including Copilot, Claude and Codex. The assigned agent will: Analyze the alert, including the advisory details and your repository’s dependency usage. Open a draft pull request with a proposed fix. Attempt to resolve any test failures introduced by the update. You can assign multiple agents to the same alert. Each agent works independently and opens its own draft pull request, letting you compare approaches. Tackle complex dependency updates with coding agents Dependabot security updates already automatically open pull requests to upgrade vulnerable dependencies to the nearest patched version. For many alerts, that’s all you need: merge the pull request and move on. However, some dependency updates aren’t that simple. A major version upgrade can introduce breaking API changes, deprecated method calls, or incompatible type signatures that require code modifications across your project. That’s where coding agents come in. Dependabot conveys the version bump, and a coding agent can pick up where Dependabot leaves off: Fixing breaking changes: When a dependency update breaks your build or tests, the agent can analyze the failures, identify the root cause, and propose code changes to resolve them. Package downgrades: When a dependency is compromised or contains malware and no patched version is available, the agent can downgrade to the last known safe version. Creating complex pull requests: For complex update scenarios that fall outside Dependabot’s rule-based engine, a coding agent can generate a pull request to address the vulnerability. Both tools work together: Dependabot automatically keeps your dependencies current, and coding agents help tackle the fixes that require deeper analysis. Always review agent output AI-generated fixes are not always correct. Coding agents can produce incomplete patches, miss edge cases, or suggest changes that introduce new issues. Always review the pull request, verify that tests pass, and confirm the fix is appropriate before merging. Who can use this feature? Assigning Dependabot alerts to coding agents requires GitHub Code Security and a Copilot plan that includes coding agent access. This feature is available on github.com. Try it now Open any Dependabot alert in your repository and select Assign to Agent to get started. Learn more about managing Dependabot alerts and assigning alerts in the documentation. Join the discussion within GitHub Community. The post Dependabot alerts are now assignable to AI agents for remediation appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "tags": [
+        "improvement",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 现在支持 BYOK 和本地模型",
+        "ja": "Copilot CLI が BYOK およびローカル モデルをサポートするようになりました",
+        "en": "Copilot CLI now supports BYOK and local models"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI 现在允许您连接自己的模型提供程序或运行完全本地模型，而不是使用 GitHub 托管的模型路由。这意味着您可以使用已经付费的模型和提供商，在隔离环境中运营，并保持对 LLM 支出的直接控制，同时保持相同的代理终端体验。连接任何模型提供程序通过在启动 CLI 之前设置一些环境变量，将 Copilot CLI 配置为使用 Azure OpenAI、Anthropic 或任何 OpenAI 兼容终结点。这适用于 OpenAI 和 Azure OpenAI 等远程服务，以及 Ollama、vLLM 和 Foundry Local 等本地运行的模型。有关设置说明，请参阅在 GitHub Copilot CLI 中使用您自己的 LLM 模型。气隙环境的离线模式 设置 COPILOT_OFFLINE=true 以防止 Copilot CLI 联系 GitHub 的服务器。在离线模式下，所有遥测均被禁用，CLI 仅与您配置的提供商进行通信。与本地模型相结合，这可以实现完全隔离的开发工作流程。有关详细信息，请参阅在离线模式下运行。 GitHub 身份验证现在是可选的当使用您自己的模型提供程序时，不需要 GitHub 身份验证。您只需使用您的提供商凭据即可立即开始使用 Copilot CLI。如果您还登录 GitHub，您将获得两全其美的优势：您首选的 AI 响应模型，以及对 /delegate、GitHub 代码搜索和 GitHub MCP 服务器等功能的访问权限。有关详细信息，请参阅未经身份验证的使用。您需要了解什么您的模型必须支持工具调用和流式传输。为了获得最佳结果，请使用至少具有 128k 令牌上下文窗口的模型。内置子代理（探索、任务、代码审查）自动继承您的提供程序配置。如果您的提供程序配置无效，Copilot CLI 会显示可操作的错误消息 - 它永远不会默默地回退到 GitHub 托管模型。直接在终端中运行 copilot 帮助提供程序以获取快速设置说明。加入 GitHub 社区内的讨论。 Copilot CLI 帖子现在支持 BYOK，并且本地模型首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot CLI では、GitHub でホストされるモデル ルーティングを使用する代わりに、独自のモデル プロバイダーに接続したり、完全にローカル モデルを実行したりできるようになりました。これは、同じエージェント端末エクスペリエンスを維持しながら、既に料金を支払っているモデルとプロバイダーを使用し、エアギャップ環境で運用し、LLM 支出を直接制御できることを意味します。任意のモデル プロバイダーに接続する CLI を起動する前にいくつかの環境変数を設定して、Azure OpenAI、Anthropic、または任意の OpenAI 互換エンドポイントを使用するように Copilot CLI を構成します。これは、OpenAI や Azure OpenAI などのリモート サービスだけでなく、Ollama、vLLM、Foundry Local などのローカルで実行されるモデルでも機能します。セットアップ手順については、「GitHub Copilot CLI での独自の LLM モデルの使用」を参照してください。エアギャップ環境のオフライン モード Copilot CLI が GitHub のサーバーに接続しないようにするには、COPILOT_OFFLINE=true を設定します。オフライン モードでは、すべてのテレメトリが無効になり、CLI は構成されたプロバイダーとのみ通信します。ローカル モデルと組み合わせることで、完全にエアギャップのある開発ワークフローが可能になります。詳細については、「オフライン モードでの実行」を参照してください。 GitHub 認証はオプションになりました 独自のモデル プロバイダーを使用する場合、GitHub 認証は必要ありません。プロバイダーの資格情報だけで、すぐに Copilot CLI の使用を開始できます。 GitHub にもサインインすると、AI 応答の優先モデルに加えて、/delegate、GitHub コード検索、GitHub MCP サーバーなどの機能へのアクセスという、両方の長所を利用できます。詳細については、「認証されていない使用」を参照してください。知っておくべきこと モデルはツールの呼び出しとストリーミングをサポートする必要があります。最良の結果を得るには、少なくとも 128k トークン コンテキスト ウィンドウを持つモデルを使用してください。組み込みのサブエージェント (探索、タスク、コードレビュー) は、プロバイダー構成を自動的に継承します。プロバイダー構成が無効な場合、Copilot CLI は対処可能なエラー メッセージを表示します。GitHub でホストされるモデルに暗黙的にフォールバックすることはありません。コパイロット ヘルプ プロバイダーを実行すると、ターミナルで直接簡単なセットアップ手順を実行できます。 GitHub コミュニティ内のディスカッションに参加してください。投稿 Copilot CLI は BYOK をサポートするようになり、ローカル モデルは GitHub ブログに最初に登場しました。",
+        "en": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you’re already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience. Connect any model provider Configure Copilot CLI to use Azure OpenAI, Anthropic, or any OpenAI-compatible endpoint by setting a few environment variables before launching the CLI. This works with remote services like OpenAI and Azure OpenAI, as well as locally running models like Ollama, vLLM, and Foundry Local. See Using your own LLM models in GitHub Copilot CLI for setup instructions. Offline mode for air-gapped environments Set COPILOT_OFFLINE=true to prevent Copilot CLI from contacting GitHub’s servers. In offline mode, all telemetry is disabled and the CLI only communicates with your configured provider. Combined with a local model, this enables fully air-gapped development workflows. See Running in offline mode for details. GitHub authentication is now optional When using your own model provider, GitHub authentication is not required. You can start using Copilot CLI immediately with just your provider credentials. If you also sign in to GitHub, you get the best of both worlds: your preferred model for AI responses, plus access to features like /delegate, GitHub Code Search, and the GitHub MCP server. See Unauthenticated use for more information. What you need to know Your model must support tool calling and streaming. For best results, use a model with at least a 128k token context window. Built-in sub-agents (explore, task, code-review) automatically inherit your provider configuration. If your provider configuration is invalid, Copilot CLI shows actionable error messages—it never silently falls back to GitHub-hosted models. Run copilot help providers for quick setup instructions directly in the terminal. Join the discussion within GitHub Community. The post Copilot CLI now supports BYOK and local models appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-07-github-2026-04-06-npm-trusted-publishing-now-supports-circleci",
@@ -798,6 +896,104 @@
       "url": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.4 mini现已在Copilot Student车型选择中提供",
+        "ja": "GPT-5.4 mini が Copilot Student Auto Model Selection で利用可能になりました",
+        "en": "GPT-5.4 mini is now available in Copilot Student auto model selection"
+      },
+      "summary": {
+        "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择供 Copilot 学生计划使用。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.4 mini 现已在 Copilot 中提供，学生自动模型选择首先出现在 GitHub 博客上。",
+        "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を通じて Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot Chat の Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を使い始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 GPT-5.4 mini が Copilot で利用可能になったという投稿 学生の自動車モデルの選択 appeared first on The GitHub Blog.",
+        "en": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Mobile：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
+        "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持",
+        "en": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已移至导航栏作为 Copilot 选项卡，从而可以更快地跳转到会话和聊天历史记录。在“Copilot”选项卡中，新的“主页”体验可让您更清晰地了解座席会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括按状态对任务进行排序的过滤器，并在新会话启动时实时更新。您还可以直接在应用程序中对代理会话执行更多操作： 原生查看完整会话日志 从已完成的会话创建拉取请求 深入审查拉取请求 停止正在运行的会话 总之，这些更新使 GitHub Mobile 成为跟踪进度、审查结果和从任何地方采取行动的更强大方式。该功能现已在 iOS 和 Android 版 GitHub Mobile 的最新生产版本中提供。加入 GitHub 社区内的讨论。 GitHub Mobile：通过刷新的 Copilot 选项卡和本机会话日志保持流畅状态这一帖子首先出现在 GitHub 博客上。",
+        "ja": "GitHub Mobile では、更新された [Copilot] タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot がナビゲーション バーに [Copilot] タブとして移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 [Copilot] タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、状態ごとにタスクを並べ替えるフィルターが含まれており、新しいセッションが開始されるとリアルタイムで更新されます。アプリ内で直接エージェント セッションを使用してさらに多くのことを実行することもできます。 完全なセッション ログをネイティブで表示する 完了したセッションからプル リクエストを作成する プル リクエストを詳細にレビューする 実行中のセッションを停止する これらのアップデートにより、GitHub Mobile は、どこからでも進捗状況を追跡し、結果を確認し、アクションを実行できる、より強力な方法になります。これは、iOS および Android 上の GitHub Mobile の最新の実稼働ビルドで利用できるようになりました。 GitHub コミュニティ内のディスカッションに参加してください。 GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to sort tasks by state, with real-time updates as new sessions are kicked off. You can also do more with agent sessions directly in the app: View full session logs natively Create a pull request from a completed session Review the pull request in depth Stop a running session Together, these updates make GitHub Mobile a more powerful way to track progress, review outcomes, and take action from anywhere. This is now available on the latest production build of GitHub Mobile on iOS and Android. Join the discussion within GitHub Community. The post GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-faster-more-flexible-agent-assignment-from-issues",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Mobile：更快、更灵活地从问题中分配代理",
+        "ja": "GitHub Mobile: 問題からのエージェントの割り当てがより速く、より柔軟に",
+        "en": "GitHub Mobile: Faster, more flexible agent assignment from issues"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在可以使用问题溢出菜单中新的“分配代理”选项更轻松地委派工作，以便您可以更快地开始工作。分配代理时，您现在可以添加自定义指令并选择不同的存储库，以更好地控制工作的委派方式。创建新问题时也可以使用这些相同的选项，从而可以更轻松地在不离开流程的情况下交接工作。这些更新简化了您在 GitHub Mobile 中向代理分配工作的方式，并在问题创建和问题管理中内置了更大的灵活性。该功能现已在 iOS 和 Android 版 GitHub Mobile 的最新生产版本中提供。加入 GitHub 社区内的讨论。 GitHub Mobile：更快、更灵活地从问题中分配代理一文首先出现在 GitHub 博客上。",
+        "ja": "GitHub Mobile では、問題のオーバーフロー メニューにある新しい [エージェントの割り当て] オプションを使用して作業を簡単に委任できるようになり、より迅速に作業を開始できるようになりました。エージェントを割り当てるときに、カスタム指示を追加し、別のリポジトリを選択して、作業の委任方法をより詳細に制御できるようになりました。これらと同じオプションは、新しい問題を作成するときにも使用できるため、フローを離れることなく作業を簡単に引き継ぐことができます。これらの更新により、GitHub Mobile でエージェントに作業を割り当てる方法が合理化され、問題の作成と問題管理にさらに柔軟性が組み込まれています。これは、iOS および Android 上の GitHub Mobile の最新の実稼働ビルドで利用できるようになりました。 GitHub コミュニティ内のディスカッションに参加してください。 「GitHub Mobile: 問題からのエージェントの割り当てがより速く、より柔軟に」という記事は、最初に GitHub ブログに掲載されました。",
+        "en": "GitHub Mobile now makes it easier to delegate work with a new Assign an Agent option in the issue overflow menu, so you can get started more quickly. When assigning an agent, you can now add custom instructions and choose a different repository for more control over how work gets delegated. These same options are also available when creating a new issue, making it easier to hand off work without leaving your flow. These updates streamline how you assign work to agents in GitHub Mobile, with more flexibility built right into issue creation and issue management. This is now available on the latest production build of GitHub Mobile on iOS and Android. Join the discussion within GitHub Community. The post GitHub Mobile: Faster, more flexible agent assignment from issues appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-faster-more-flexible-agent-assignment-from-issues",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 即将弃用 Claude Sonnet 4",
+        "ja": "GitHub Copilot における Claude Sonnet 4 の今後の非推奨予定",
+        "en": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 5 月 1 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。一旦模型被弃用，就不需要采取任何措施来删除它们。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。分享您的反馈 要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。加入 GitHub 社区分享您的反馈。 GitHub Copilot 中即将弃用 Claude Sonnet 4 的帖子首先出现在 GitHub 博客上。",
+        "ja": "2026 年 5 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 この日付より前にサポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨になったモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。フィードバックを共有してください。Copilot で利用可能なモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。 GitHub コミュニティに参加してフィードバックを共有してください。 GitHub Copilot における Claude Sonnet 4 の今後の非推奨に関する投稿 最初に GitHub ブログに登場しました。",
+        "en": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/1/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Join the GitHub Community to share your feedback. The post Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "tags": [
+        "retired",
         "copilot",
         "github",
         "changelog"
@@ -1599,6 +1795,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-20-github-2026-03-20-monitor-copilot-coding-agent-logs-live-in-raycast",
+      "date": "2026-03-20",
+      "category": "github",
+      "title": {
+        "zh": "监控 Raycast 中的 Copilot 编码代理日志",
+        "ja": "Raycast で Copilot コーディング エージェントのログをライブで監視する",
+        "en": "Monitor Copilot coding agent logs live in Raycast"
+      },
+      "summary": {
+        "zh": "Raycast 是一款适用于 macOS 和 Windows 的强大免费启动器。它可以启动应用程序、搜索文件、控制您的系统并利用社区构建的扩展。借助 Raycast 的 GitHub Copilot 扩展，您可以将任务交给 Copilot 编码代理（我们基于云的后台代理），并从任何地方跟踪进度。现在，您可以从 Raycast 实时观看 Copilot 的日志，而无需跳转到 GitHub，这样您只需敲击几下键盘即可关注 Copilot 正在做什么并跟踪进度。要实时观看 Copilot 的日志，请安装扩展程序，打开 Raycast，选择“查看任务”命令，然后从列表中选择您的会话。 Copilot 编码代理可供 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者使用。如果您是 Copilot Business 或 Copilot Enterprise 订阅者，管理员必须先从“策略”页面启用 Copilot 编码代理，然后您才能使用它。 Raycast 中的 Monitor Copilot 编码代理日志首先出现在 GitHub 博客上。",
+        "ja": "Raycast は、macOS および Windows 用の強力な無料ランチャーです。アプリの起動、ファイルの検索、システムの制御、コミュニティが構築した拡張機能の活用が可能です。 Raycast 用の GitHub Copilot 拡張機能を使用すると、クラウドベースのバックグラウンド エージェントである Copilot コーディング エージェントにタスクを渡し、どこからでも進捗状況を追跡できます。 GitHub にジャンプしなくても、Raycast から Copilot のログをライブで見ることができるため、キーボードを数回打つだけで Copilot の動作を監視し、進捗状況を追跡することができます。 Copilot のログをライブで見るには、拡張機能をインストールし、Raycast を開き、[タスクの表示] コマンドを選択して、リストからセッションを選択します。 Copilot コーディング エージェントは、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。 Copilot Business または Copilot Enterprise サブスクライバーの場合、管理者は、Copilot コーディング エージェントを使用する前に、[ポリシー] ページから Copilot コーディング エージェントを有効にする必要があります。 Raycast でライブの Copilot コーディング エージェント ログを監視するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Raycast is a powerful free launcher for macOS and Windows. It can launch apps, search files, control your system, and leverage community-built extensions. With the GitHub Copilot extension for Raycast, you can hand tasks to Copilot coding agent, our cloud-based background agent, and track progress from anywhere. Now, you can watch Copilot’s logs live from Raycast without jumping to GitHub, so you can keep an eye on what Copilot is doing and track progress with just a few keyboard strokes. To watch Copilot’s logs live, install the extension, open Raycast, select the View Tasks command, then pick your session from the list. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. The post Monitor Copilot coding agent logs live in Raycast appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-20-monitor-copilot-coding-agent-logs-live-in-raycast",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-20-github-2026-03-20-copilot-usage-metrics-now-resolve-auto-model-selection-to-actual-models",
       "date": "2026-03-20",
       "category": "github",
@@ -1665,6 +1885,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-19-github-2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "date": "2026-03-19",
+      "category": "github",
+      "title": {
+        "zh": "更清楚地了解 Copilot 编码代理会话",
+        "ja": "Copilot コーディング エージェント セッションの可視性の向上",
+        "en": "More visibility into Copilot coding agent sessions"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了多项改进，以便您更好地了解 Copilot 正在执行的操作： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙（如果启用）来做好准备。现在，当这些步骤开始和完成时，您将在日志中看到更新，以便您可以了解等待 Copilot 开始工作时发生的情况。更好地了解自定义设置步骤：您可以使用存储库中的 copilot-setup-steps.yml 文件自定义 Copilot 的开发环境。如果您已经定义了 Copilot 运行的设置步骤，这些步骤的输出现在会显示在会话日志中，因此您可以验证环境配置是否正确并调试任何问题，而无需跳转到 GitHub Actions 中的详细日志。当 Copilot 将工作委托给子代理时，可见性更高：Copilot 可以将任务委托给子代理。例如，它通常会启动一个子代理来在进行更改之前研究和了解代码的当前状态。当 Copilot 将工作委托给子代理时，子代理的活动现在默认折叠，平视显示器显示其当前正在处理的内容。随时展开详细信息以查看完整的输出。要了解更多信息，请参阅有关 Copilot 编码代理的文档。这篇文章“更多地了解 Copilot 编码代理会话”首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントにタスクを委任すると、Copilot コーディング エージェントはバックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot の動作をよりわかりやすく表示するために、Copilot コーディング エージェントのセッション ログに多くの改善を加えました。 組み込みのセットアップ手順の可視性が向上しました。 Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォール (有効な場合) を起動して準備を整える必要があります。これらのステップの開始時と終了時にログに更新が表示されるので、Copilot が動作を開始するのを待っている間に何が起こっているかを理解できるようになります。カスタム セットアップ ステップの可視性の向上: リポジトリ内の copilot-setup-steps.yml ファイルを使用して、Copilot の開発環境をカスタマイズできます。 Copilot を実行するためのセットアップ ステップを定義している場合、それらのステップの出力がセッション ログに表示されるため、GitHub Actions の詳細ログにジャンプすることなく、環境が正しく構成されていることを確認し、問題をデバッグできます。 Copilot がサブエージェントに作業を委任する場合の可視性の向上: Copilot はタスクをサブエージェントに委任できます。たとえば、変更を加える前に、コードの現在の状態を調査して理解するためにサブエージェントを起動することがよくあります。 Copilot がサブエージェントに作業を委任すると、サブエージェントのアクティビティはデフォルトで折りたたまれ、ヘッドアップ ディスプレイに現在作業中の内容が表示されます。いつでも詳細を展開して完全な出力を確認できます。詳細については、Copilot コーディング エージェントに関するドキュメントを参照してください。 Copilot コーディング エージェント セッションの可視性の向上に関する投稿 最初に GitHub ブログに掲載されました。",
+        "en": "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall (if enabled). You’ll now see updates in the logs when these steps start and finish, so you can understand what’s happening while you wait for Copilot to start work. Better visibility of your custom setup steps: You can customize Copilot’s development environment with a copilot-setup-steps.yml file in your repository. If you’ve defined setup steps for Copilot to run, the output from those steps now shows in the session logs, so you can verify the environment is configured correctly and debug any issues without jumping to the verbose logs in GitHub Actions. Better visibility when Copilot delegates work to subagents: Copilot can delegate tasks to subagents. For example, it will often spin up a subagent to research and understand the current state of your code before making changes. When Copilot delegates work to a subagent, the subagent’s activity is now collapsed by default, with a heads-up display showing what it’s working on right now. Expand the details at any time to see the full output. To learn more, head to our documentation about Copilot coding agent. The post More visibility into Copilot coding agent sessions appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-19-github-2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
@@ -3268,6 +3512,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-02-github-2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
+        "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の廃止予定",
+        "en": "Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models"
+      },
+      "summary": {
+        "zh": "我们将在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex 由于提供商弃用，Gemini 3 Pro 弃用日期提前。请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。一旦模型被弃用，就不需要采取任何措施来删除它们。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。分享您的反馈 要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。加入 GitHub 社区分享您的反馈。 Gemini 3 Pro 和 GPT-5.1 型号即将弃用的帖子首先出现在 GitHub 博客上。",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替品 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex プロバイダーの廃止により、Gemini 3 Pro の廃止日が早まります。これらの日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨になったモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。フィードバックを共有してください。Copilot で利用可能なモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。 GitHub コミュニティに参加してフィードバックを共有してください。 The post Gemini 3 Pro および GPT-5.1 モデルの今後の非推奨について appeared first on The GitHub Blog.",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions): Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex The Gemini 3 Pro deprecation date is accelerated due to provider deprecation. Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Join the GitHub Community to share your feedback. The post Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-02-github-2026-03-02-network-configuration-changes-for-copilot-coding-agent-now-in-effect",
       "date": "2026-03-02",
       "category": "github",
@@ -4204,6 +4472,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-02-20-github-2026-02-20-organization-level-copilot-usage-metrics-dashboard-available-in-public-preview",
+      "date": "2026-02-20",
+      "category": "github",
+      "title": {
+        "zh": "组织级 Copilot 使用指标仪表板可在公共预览版中使用",
+        "ja": "組織レベルの Copilot 使用状況メトリクス ダッシュボードがパブリック プレビューで利用可能",
+        "en": "Organization-level Copilot usage metrics dashboard available in public preview"
+      },
+      "summary": {
+        "zh": "到目前为止，Copilot 使用指标仪表板仅在企业级别可用。在此版本中，组织所​​有者可以直接在 GitHub UI 中查看其组织的 GitHub Copilot 使用指标。该仪表板将与最近发布的组织使用 API 相同的组织范围的见解带入易于扫描的体验中。这样，组织管理员不需要依赖企业报告来了解采用和使用趋势。工作原理 仪表板显示组织范围内组织成员的 Copilot 使用情况指标。谁可以使用它 所有组织类型都可以使用仪表板，包括企业拥有的组织和独立的免费或团队组织。只要为企业或组织启用了 Copilot 使用指标，组织所有者和具有包含查看组织 Copilot 指标的自定义角色的用户就可以访问它。主要优势 了解 Copilot 在组织层面的采用和使用趋势。使用组织范围的角色以最少的权限共享访问权限，而无需授予企业范围的可见性。减少对企业报告的依赖以获取日常组织级别的见解。重要说明 如果您的组织属于企业，则组织级别总计将与企业总计不匹配。用户可以属于多个组织，因此他们的使用情况可以出现在多个组织报告中，而企业报告可以消除重复的用户。请查看我们有关 Copilot 指标的文档，了解其中包含哪些指标。加入 GitHub 社区内的讨论。公共预览版中提供的组织级 Copilot 使用指标仪表板首先出现在 GitHub 博客上。",
+        "ja": "これまで、Copilot の使用状況メトリック ダッシュボードはエンタープライズ レベルでのみ利用可能でした。このリリースにより、組織の所有者は、組織の GitHub Copilot 使用状況メトリクスを GitHub UI で直接表示できるようになりました。このダッシュボードは、最近リリースされた組織の使用状況 API と同じ、組織を対象とした洞察をスキャンしやすいエクスペリエンスにもたらします。これにより、組織管理者は導入と使用の傾向を理解するためにエンタープライズ レポートに依存する必要がなくなります。仕組み ダッシュボードには、組織のメンバーに関する組織スコープの Copilot 使用状況メトリクスが表示されます。使用できるユーザー 企業所有の組織やスタンドアロンの無料またはチーム組織を含む、すべての組織タイプがダッシュボードを使用できます。組織の所有者と、組織のコパイロット メトリックの表示を含むカスタム ロールを持つユーザーは、企業または組織でコパイロットの使用状況メトリックが有効になっている限り、組織のコパイロット メトリックにアクセスできます。主な利点 組織レベルでの Copilot の導入と使用の傾向を理解します。企業全体の可視性を付与せずに、組織スコープのロールを使用して最小限の権限でアクセスを共有します。組織レベルの日常的な洞察を得るために企業レポートへの依存を減らします。重要な注意事項 組織がエンタープライズに属している場合、組織レベルの合計はエンタープライズ合計と一致しません。ユーザーは複数の組織に所属できるため、エンタープライズ レポートではユーザーの重複が排除されながら、ユーザーの使用状況が複数の組織レポートに表示されることがあります。どのメトリックが含まれているかを確認するには、Copilot メトリックに関するドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。パブリック プレビューで利用できるポスト組織レベルの Copilot 使用状況メトリクス ダッシュボードは、GitHub ブログに最初に登場しました。",
+        "en": "Until now, Copilot usage metrics dashboards were only available at the enterprise level. With this release, organization owners can view GitHub Copilot usage metrics for their organization directly in the GitHub UI. This dashboard brings the same organization-scoped insights as the recently released organization usage APIs into an easy-to-scan experience. This way, org admins don’t need to rely on enterprise reporting to understand adoption and usage trends. How it works The dashboard shows organization-scoped Copilot usage metrics for members of your organization. Who can use it All organization types can use the dashboard, including enterprise-owned organizations and standalone Free or Team organizations. Organization owners and users with a custom role that includes View Organization Copilot Metrics can access it, as long as Copilot usage metrics are enabled for the enterprise or organization. Key benefits Understand Copilot adoption and usage trends at the organization level. Share access with least privilege using organization-scoped roles without granting enterprise-wide visibility. Reduce reliance on enterprise reporting for day-to-day org-level insights. Important note If your organization belongs to an enterprise, organization-level totals won’t match enterprise totals. Users can belong to multiple organizations, so their usage can appear in more than one organization report, while enterprise reporting deduplicates users. Check out our documentation on Copilot metrics to see which metrics are included. Join the discussion within GitHub Community. The post Organization-level Copilot usage metrics dashboard available in public preview appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-20-organization-level-copilot-usage-metrics-dashboard-available-in-public-preview",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-20-anthropic-claude-code-security",
       "date": "2026-02-20",
       "category": "anthropic",
@@ -4356,6 +4649,30 @@
         "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment in the cloud. Once Copilot finishes work, it opens a pull request and requests your review. In December, we launched model selection for Copilot Pro and Pro+ users. Today, we’ve opened up the model picker to Copilot Business and Copilot Enterprise users, so you can choose the model that’s right for your task. When assigning an issue to Copilot on github.com, or when starting a task from the agents tab, agents panel, GitHub Mobile, or the Raycast launcher, you can use the dropdown to pick from the following models: Auto Claude Opus 4.5 Claude Opus 4.6 Claude Sonnet 4.5 Claude Sonnet 4.6 GPT-5.1-Codex-Max GPT-5.2-Codex GPT-5.3-Codex If you leave the setting on Auto, Copilot optimizes speed and performance by automatically choosing a model based on availability. If your administrator has not enabled any of the models listed above, the model picker will not be shown, and Claude Sonnet 4.6 will be used automatically. To learn more, head to our documentation about model selection in Copilot coding agent. The post Copilot coding agent model picker for Copilot Business and Enterprise appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-02-19-model-picker-for-copilot-coding-agent-for-copilot-business-and-enterprise-users",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-19-github-2026-02-19-github-copilot-support-in-zed-generally-available",
+      "date": "2026-02-19",
+      "category": "github",
+      "title": {
+        "zh": "Zed 中的 GitHub Copilot 支持全面可用",
+        "ja": "Zed での GitHub Copilot サポートが一般提供開始",
+        "en": "GitHub Copilot support in Zed generally available"
+      },
+      "summary": {
+        "zh": "GitHub 正式支持将 Copilot Pro、Pro+、Business 或 Enterprise 订阅与 Zed 结合使用。 GitHub Copilot 现在通过正式合作伙伴关系完全支持 Zed 身份验证，允许您在更多的开发工作流程中使用现有的 Copilot 订阅。泽德是什么？ Zed 是一款高性能、多人代码编辑器，由 Atom 和 Tree-sitter 的创建者用 Rust 构建。您可以在 Zed 的网站上了解更多信息。工作原理 Zed 和 GitHub Copilot 的入门很简单：在 Zed 中，打开“设置”并转到“GitHub Copilot 聊天”部分。单击“登录”以使用 GitHub Copilot，然后按照模式中的步骤操作。开始使用由 Copilot 提供支持的 Zed。谁可以使用此功能 所有拥有付费 GitHub Copilot 订阅（Pro、Pro+、Business 或 Enterprise）的开发人员现在都可以使用其 Copilot 凭据进行 Zed 身份验证，无需额外的 AI 许可证。了解有关 Zed 的 Copilot 集成的更多信息。加入 GitHub 社区内的讨论。 Zed 中的 GitHub Copilot 支持普遍可用的帖子首先出现在 GitHub 博客上。",
+        "ja": "GitHub は、Zed での Copilot Pro、Pro+、Business、または Enterprise サブスクリプションの使用を正式にサポートしています。 GitHub Copilot は、正式なパートナーシップを通じて Zed による認証を完全にサポートするようになり、より多くの開発ワークフローで既存の Copilot サブスクリプションを使用できるようになりました。ゼッドとは何ですか？ Zed は、Atom と Tree-sitter の作成者によって Rust で構築された高性能のマルチプレイヤー コード エディタです。詳細については、Zed のサイトをご覧ください。仕組み Zed と GitHub Copilot を始めるのは簡単です。Zed で、[設定] を開き、[GitHub Copilot Chat] セクションに移動します。 「サインイン」をクリックして GitHub Copilot を使用し、モーダルの手順に従います。 Copilot を搭載した Zed の使用を開始します。この機能を使用できるユーザー 有料の GitHub Copilot サブスクリプション (Pro、Pro+、Business、または Enterprise) を持つすべての開発者は、Copilot 資格情報を使用して Zed に認証できるようになりました。追加の AI ライセンスは必要ありません。 Zed の Copilot 統合について詳しくは、こちらをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。 Zed での GitHub Copilot サポートの一般公開の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with Zed. GitHub Copilot now fully supports authentication with Zed through a formal partnership, allowing you to use your existing Copilot subscription across more of your development workflow. What is Zed? Zed is a high-performance, multiplayer code editor built in Rust by the creators of Atom and Tree-sitter. You can learn more at Zed’s site. How it works Getting started with Zed and GitHub Copilot is simple: In Zed, open Settings and go to the “GitHub Copilot Chat” section. Click Sign in to use GitHub Copilot and then follow the steps in the modal. Start using Zed powered by Copilot. Who can use this feature All developers with paid GitHub Copilot subscriptions (Pro, Pro+, Business, or Enterprise) can now authenticate into Zed using their Copilot credentials—no additional AI license needed. Learn more about Zed’s Copilot integration. Join the discussion within GitHub Community. The post GitHub Copilot support in Zed generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-19-github-copilot-support-in-zed-generally-available",
       "tags": [
         "improvement",
         "copilot",
@@ -5609,6 +5926,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-02-05-github-2026-02-05-github-actions-early-february-2026-updates",
+      "date": "2026-02-05",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Actions：2026 年 2 月上旬更新",
+        "ja": "GitHub アクション: 2026 年 2 月初旬の更新",
+        "en": "GitHub Actions: Early February 2026 updates"
+      },
+      "summary": {
+        "zh": "本月，GitHub Actions 推出了新功能，包括自定义运行程序自动缩放、针对所有用户的扩展安全控制以及抢先访问新的 Windows 和 macOS 运行程序映像。 GitHub Actions 运行器规模集客户端 GitHub Actions 运行器规模集客户端现已提供公共预览版。该客户端是一个基于 Go 的独立模块，可让您为 GitHub Actions 运行程序构建自定义自动缩放解决方案，而无需 Kubernetes。客户端提供了在任何基础设施上实现自动缩放的核心构建块。无论您运行的是容器、虚拟机、裸机服务器还是云服务，通过直接与 GitHub 的规模集 API 集成，您都可以完全控制运行器生命周期管理，同时 GitHub 处理编排逻辑。主要功能： 平台无关设计：可在 Windows、Linux 和 macOS 上使用容器、虚拟机和裸机服务器。完全配置控制：您可以根据您的具体要求定义如何创建、扩展和销毁运行器。本机多标签支持：为每个规模集分配多个标签，优化多种构建类型的资源。代理场景支持：支持代理工作流程，包括 GitHub Copilot 编码代理。实时遥测：使用内置指标监控作业执行和运行器性能。工作原理 客户端协调 API 与 GitHub 规模集基础设施的交互，同时将实际的运行器配置完全交给您。这种分离意味着您可以完全控制基础架构决策。无论是启动容器、启动云虚拟机还是配置物理硬件，都可以从 GitHub 的规模集 API 中受益。重要提示：您将管理所有基础设施设置、配置逻辑和扩展策略。 GitHub 提供 API 和客户端库。您负责实施基础设施自动化。与 Actions Runner Controller 的关系 Runner 规模集客户端并不是 Actions Runner Controller (ARC) 的替代品，后者仍然是规模集 API 的参考实现以及针对自动缩放运行器推荐的 Kubernetes 解决方案。相反，客户端是一个新工具，用于与相同规模集 API 接口，以在 Kubernetes 之外构建自定义自动缩放解决方案。 ARC 0.14.0 也将提供多标签支持，该版本将于 2026 年 3 月推出 - 请参阅问题以添加此支持。编者注（2026 年 2 月 5 日）：更正了日期中错误的 2025 年 3 月的拼写错误。 开始使用 GitHub Actions Runner Scale Set 客户端完全开源，可供您探索源代码并根据您的特定基础设施需求调整实施。您还可以访问 GitHub Actions Runner Scale Set Client 文档以获取更多信息。试用 GitHub Actions Runner Scale Set Client、加入社区讨论并分享您的反馈！允许的操作设置现在可用于所有计划类型 操作允许列表现在可在所有 GitHub 计划中使用，为免费、团队和企业客户带来安全控制。您可以准确定义存储库中运行的操作和可重用工作流程，以实施最小权限原则、防止可能受到损害的操作并维护一致的策略。请参阅管理 GitHub Actions 权限文档了解更多信息，其中包括分步配置示例和安全最佳实践。带有 Visual Studio 2026 映像的 Windows Server 2025 现已可用于 GitHub 托管的运行程序带有 Visual Studio 2026 的新 Windows 运行程序映像现已提供公共预览版。此专用映像与当前的 windows-2025 映像一起运行，在默认 Windows 映像迁移之前提供安全的验证路径。当 windows-2025 映像于 2026 年 5 月 4 日全面上市时，Visual Studio 2026 将集成到 windows-2025 映像中。您可以在不中断现有管道的情况下对 Visual Studio 2026 进行测试，识别并修复时间线上的兼容性问题，根据需要维护回退选项（如 windows-2022），并在全面了解升级时间线的情况下规划迁移。要使用新的运行程序映像，请将 YAML 工作流文件中的 running-on: 目标更新为 windows-2025-vs2026。有关可用 Windows 运行程序图像的更多信息，请访问我们的文档。 macOS 26 Intel 映像现已可供 GitHub 托管的运行程序使用 我们已为大型运行程序发布了 GitHub Actions macOS 26 Intel 运行程序映像的公共预览版，为基于 Intel 的工作流程提供了最新的 macOS 和 Xcode 工具。要使用它，请将 YAML 工作流文件中的 runs-on: 目标更新为 macos-26-large。有关可用软件和版本的完整详细信息，请访问 macOS 运行程序映像文档。 GitHub Actions：2026 年 2 月上旬更新一文首先出现在 GitHub 博客上。",
+        "ja": "今月、GitHub Actions には、カスタム ランナーの自動スケーリング、すべてのユーザー向けのセキュリティ制御の拡張、新しい Windows および macOS ランナー イメージへの早期アクセスなどの新機能が導入されます。 GitHub Actions ランナー スケール セット クライアント GitHub Actions ランナー スケール セット クライアントがパブリック プレビューで利用できるようになりました。クライアントはスタンドアロンの Go ベースのモジュールで、Kubernetes を必要とせずに GitHub Actions ランナー用のカスタム自動スケーリング ソリューションを構築できます。クライアントは、あらゆるインフラストラクチャに自動スケーリングを実装するためのコア構成要素を提供します。コンテナー、仮想マシン、ベア メタル サーバー、クラウド サービスのいずれを実行している場合でも、GitHub のスケール セット API と直接統合することで、GitHub がオーケストレーション ロジックを処理しながら、ランナーのライフサイクル管理を完全に制御できるようになります。主な機能: プラットフォームに依存しない設計: Windows、Linux、macOS 上のコンテナー、仮想マシン、ベアメタル サーバーで動作します。完全なプロビジョニング制御: 特定の要件に基づいて、ランナーの作成、スケーリング、破棄の方法を定義します。ネイティブのマルチラベル サポート: 各スケール セットに複数のラベルを割り当て、複数のビルド タイプのリソースを最適化します。エージェント シナリオのサポート: GitHub Copilot コーディング エージェントを含むエージェント ワークフローをサポートします。リアルタイム テレメトリ: 組み込みのメトリクスを使用して、ジョブの実行とランナーのパフォーマンスを監視します。仕組みクライアントは、実際のランナーのプロビジョニングを完全にユーザーに任せながら、GitHub のスケール セット インフラストラクチャとの API 対話を調整します。この分離は、インフラストラクチャの決定を完全に制御できることを意味します。コンテナーの起動、クラウド仮想マシンの起動、物理ハードウェアのプロビジョニングなど、すべてを GitHub のスケール セット API の恩恵を受けながら行います。重要: すべてのインフラストラクチャのセットアップ、プロビジョニング ロジック、およびスケーリング戦略を管理します。 GitHub は API とクライアント ライブラリを提供します。インフラストラクチャの自動化を実装するのはあなた自身の責任です。 Actions Runner Controller との関係 Runner Scale Set Client は、Actions Runner Controller (ARC) に代わるものではなく、スケール セット API の参照実装であり、自動スケーリング ランナーに推奨される Kubernetes ソリューションのままです。代わりに、クライアントは、Kubernetes の外部でカスタム自動スケーリング ソリューションを構築するために、同じスケール セット API とインターフェイスするための新しいツールです。マルチラベル サポートは、2026 年 3 月に利用可能になる 0.14.0 の ARC でも利用できるようになります。このサポートの追加については、この問題を参照してください。編集者注 (2026 年 2 月 5 日): 誤って 2025 年 3 月となっていた日付のタイプミスを修正しました。 はじめに GitHub Actions Runner Scale Set Client は完全にオープン ソースであり、ソース コードを探索し、実装を特定のインフラストラクチャのニーズに適合させることができます。詳細については、GitHub Actions Runner Scale Set Client のドキュメントを参照してください。 GitHub Actions Runner Scale Set Client を試して、コミュニティのディスカッションに参加し、フィードバックを共有してください。すべてのプラン タイプで許可されたアクションの設定が利用できるようになりました アクションの許可リストがすべての GitHub プランで利用できるようになり、Free、Team、Enterprise の顧客にセキュリティ制御が提供されます。リポジトリ内で実行するアクションと再利用可能なワークフローを正確に定義して、最小権限の原則を適用し、侵害される可能性のあるアクションから保護し、一貫したポリシーを維持できます。詳細については、GitHub Actions 権限の管理に関するドキュメントをご覧ください。このドキュメントには、段階的な構成例とセキュリティのベスト プラクティスが含まれています。 Visual Studio 2026 を備えた Windows Server 2025 イメージが GitHub でホストされているランナーで利用可能になりました Visual Studio 2026 を備えた新しい Windows ランナー イメージがパブリック プレビューで利用できるようになりました。この専用イメージは現在の Windows-2025 イメージと並行して実行され、デフォルトの Windows イメージの移行に先立って安全な検証パスを提供します。 Visual Studio 2026 は、2026 年 5 月 4 日に一般公開されると、windows-2025 イメージに統合されます。既存のパイプラインを中断することなく Visual Studio 2026 に対してテストし、タイムラインで互換性の問題を特定して修正し、必要に応じてフォールバック オプション (windows-2022 など) を維持し、アップグレード タイムラインを完全に把握して移行を計画できます。新しいランナー イメージを使用するには、YAML ワークフロー ファイルの run-on: ターゲットを windows-2025-vs2026 に更新します。利用可能な Windows ランナー イメージの詳細については、ドキュメントを参照してください。 GitHub でホストされているランナー向けに macOS 26 Intel イメージが利用可能になりました。大規模ランナー向けに GitHub Actions macOS 26 Intel ランナー イメージをパブリック プレビューでリリースし、Intel ベースのワークフローに最新の macOS および Xcode ツールを提供しました。これを使用するには、YAML ワークフロー ファイル内の run-on: ターゲットを macos-26-large に更新します。利用可能なソフトウェアとバージョンの詳細については、macOS ランナー イメージのドキュメントを参照してください。 GitHub Actions: 2026 年 2 月初旬の更新の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "This month, GitHub Actions introduces new capabilities, including custom runner autoscaling, expanded security controls for all users, and early access to new Windows and macOS runner images. GitHub Actions runner scale set client The GitHub Actions runner scale set client is now available in public preview. The client is a standalone Go-based module that lets you build custom autoscaling solutions for GitHub Actions runners without requiring Kubernetes. The client provides the core building blocks for implementing autoscaling on any infrastructure. Whether you’re running containers, virtual machines, bare metal servers, or cloud services, by integrating directly with GitHub’s scale set APIs, you gain full control over runner lifecycle management while GitHub handles the orchestration logic. Key capabilities: Platform agnostic design: Works with containers, virtual machines, and bare metal servers across Windows, Linux, and macOS. Full provisioning control: You define how runners are created, scaled, and destroyed based on your specific requirements. Native multi-label support: Assign multiple labels to each scale set, optimizing resources for multiple build types. Agentic scenario support: Supports agentic workflows, including GitHub Copilot coding agent. Real-time telemetry: Monitor job execution and runner performance with built-in metrics. How it works The client orchestrates API interactions with GitHub’s scale set infrastructure while leaving the actual runner provisioning entirely in your hands. This separation means you maintain complete control over your infrastructure decisions. Whether that’s spinning up containers, launching cloud virtual machines, or provisioning physical hardware, all while benefiting from GitHub’s scale set APIs. Important: You’ll manage all infrastructure setup, provisioning logic, and scaling strategies. GitHub provides the APIs and client libraries. You’re responsible for implementing your infrastructure automation. Relationship to Actions Runner Controller The Runner Scale Set Client isn’t a replacement for Actions Runner Controller (ARC), which remains a reference implementation of the scale set APIs and the recommended Kubernetes solution for autoscaling runners. Instead, the client is a new tool for interfacing with same scale set APIs for building custom autoscaling solutions outside of Kubernetes. Multi-label support will also be made available for ARC with the 0.14.0, which will be available in March 2026—see the issue for adding this support. Editor’s note (February 5, 2026): Corrected a typo in the date that mistakenly said March 2025. Get started The GitHub Actions Runner Scale Set Client is fully open source and available for you to explore the source code and adapt the implementation to your specific infrastructure needs. You can also visit the GitHub Actions Runner Scale Set Client documentation for additional information. Try out GitHub Actions Runner Scale Set Client, join the community discussion, and share your feedback! Allowed actions settings now available for all plan types Action allowlisting is now available across all GitHub plans, bringing security controls to Free, Team, and Enterprise customers. You can define exactly which actions and reusable workflows run in your repositories to enforce least privilege principles, protect against potentially compromised actions, and maintain consistent policies. Learn more in the managing GitHub Actions permissions documentation, which includes step-by-step configuration examples and security best practices. Windows Server 2025 with Visual Studio 2026 image now available for GitHub-hosted runners A new Windows runner image with Visual Studio 2026 is now available in public preview. This dedicated image runs alongside the current windows-2025 image, providing a safe validation path ahead of the default Windows image migration. Visual Studio 2026 will be integrated into the windows-2025 image when it reaches general availability on May 4, 2026. You can test against Visual Studio 2026 without disrupting existing pipelines, identify and fix compatibility issues on your timeline, maintain fallback options (like windows-2022) if needed, and plan migrations with full visibility into the upgrade timeline. To use the the new runner image, update the runs-on: target in your YAML workflow file to windows-2025-vs2026. For additional information on the available windows runner images, visit our doucmentation. macOS 26 Intel image now available for GitHub-hosted runners We’ve released the GitHub Actions macOS 26 Intel runner image in public preview for larger runners, providing the latest macOS and Xcode tooling for Intel-based workflows. To use it, update the runs-on: target in your YAML workflow file to macos-26-large. For complete details on available software and versions, visit the macOS runner images documentation. The post GitHub Actions: Early February 2026 updates appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates",
+      "tags": [
+        "release",
+        "actions",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-05-github-2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot",
       "date": "2026-02-05",
       "category": "github",
@@ -5743,6 +6084,78 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "显示网络上 Copilot 聊天的工具调用和其他改进",
+        "ja": "ツール呼び出しとその他の Copilot チャットの改善点を Web 上で表示",
+        "en": "Showing tool calls and other improvements to Copilot chat on the web"
+      },
+      "summary": {
+        "zh": "我们添加了一些增强功能，让您在 github.com 上的 GitHub Copilot 聊天体验更加流畅、快捷。聊天响应中的工具调用 现在，您将看到清晰的工具调用详细信息，以便在向 Copilot 发送消息时实时跟踪发生的情况。此更新可帮助您： 了解 Copilot 为满足您的请求而采取的步骤。如果出现问题，则进行纠正。查看每个工具调用生成的参考。轻松将聊天导出为 JSON 或 Markdown 您现在可以导出聊天以便稍后引用。导出对话： 选择您要下载的聊天。按更多菜单（“管理聊天”）并选择导出。选择是将对话导出为 JSON 还是 Markdown 文件。对存储库附件的改进我们还改进了将存储库附加到聊天的方式，以便您可以更快地找到正确的存储库。现在，您在搜索时会看到更好的存储库推荐。我们很乐意听取您的意见加入 GitHub 社区内的讨论，分享您对这些改进的想法，或者分享您希望在网络上的 Copilot Chat 中看到的其他内容。显示工具调用和 Copilot 网络聊天的其他改进的帖子首先出现在 GitHub 博客上。",
+        "ja": "github.com での GitHub Copilot Chat エクスペリエンスをよりスムーズかつ高速にするための機能強化が追加されました。チャット応答内のツール呼び出し 明確なツール呼び出しの詳細が表示されるようになり、Copilot にメッセージを送信するときに何が起こっているかをリアルタイムで追跡できるようになりました。このアップデートは次のことに役立ちます。 リクエストを満たすために Copilot が実行している手順を理解します。何かが失敗しても軌道修正します。各ツール呼び出しによって生成された参照を参照してください。チャットを JSON または Markdown に簡単にエクスポートできるようになりました。チャットをエクスポートして、後で参照できるようになりました。会話をエクスポートするには: ダウンロードするチャットを選択します。その他メニュー (「チャットの管理」) を押して、「エクスポート」を選択します。会話を JSON ファイルとしてエクスポートするか、Markdown ファイルとしてエクスポートするかを選択します。リポジトリの添付ファイルの改善 チャットにリポジトリを添付する方法も改善され、適切なリポジトリをより速く見つけられるようになりました。検索時に、より適切なリポジトリの推奨事項が表示されるようになりました。 GitHub コミュニティ内のディスカッションに参加して、これらの改善点についての意見を共有したり、Web 上の Copilot Chat で他に見たいことを共有したりするために、皆様からのご意見をお待ちしております。 Web 上の Copilot チャットに対するツール呼び出しとその他の改善点の表示という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response You’ll now see clear tool call details so you can track what’s happening in real time when you send Copilot a message. This update helps you: Understand the steps Copilot is taking to fulfill your request. Course-correct if something fails. See references generated by each tool call. Easily export a chat to JSON or Markdown You can now export a chat to reference it later. To export a conversation: Select the chat you want to download. Press the more menu (“Manage chat”) and choose Export. Choose whether you want to export your conversation as a JSON or Markdown file. Improvements to repository attachments We’ve also improved how you attach repositories to chat so you can find the right repository faster. You’ll now see better repository recommendations when you search. We’d love to hear from you Join the discussion within GitHub Community to share your thoughts on these improvements, or to share what else you’d like to see in Copilot Chat on the web. The post Showing tool calls and other improvements to Copilot chat on the web appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-january-update",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 1 月更新",
+        "ja": "Visual Studio の GitHub Copilot — 1 月の更新",
+        "en": "GitHub Copilot in Visual Studio — January update"
+      },
+      "summary": {
+        "zh": "2026 年 1 月带来了彩色代码补全、部分接受代码补全、生产力提高等。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。查看 Insiders 频道​​了解最新动态： 彩色代码补全：代码补全现在具有语法突出显示功能，可帮助您快速区分变量、函数和其他元素。通过选择使用彩色文本完成代码来在设置中启用此功能。单击以部分接受代码完成：通过直接在建议内部单击来仅接受建议的一部分。将鼠标悬停在建议上可查看突出显示的每个段，并接受直至光标位置。生产力改进：一系列备受期待的改进让您可以通过更快的滚动、富含 HTML 的复制粘贴、语法行压缩等更好地控制和自定义编辑器。简化的 Markdown 预览控件：在分割预览、打开预览和编辑 Markdown 模式之间切换，以获得更大的灵活性。缩放控件有助于美人鱼图，Copilot Chat 现在包含一个预览按钮，可直接渲染和编辑生成的 Markdown 内容。现在可以在稳定频道中使用。立即下载 Visual Studio 2026 体验 Copilot 的所有新功能。要了解有关新功能的更多信息，请查看 Visual Studio 博客和发行说明。 Visual Studio 中 Copilot 的下一步发展 关注 Visual Studio 博客，了解最新的 Copilot 功能，您可以在其中找到路线图更新和分享反馈的机会。有关最新新闻、发行说明、视频和社区对话，请访问 Visual Studio 中心，这是有关 Visual Studio 的所有内容的中心资源。 Visual Studio 中的 GitHub Copilot — 一月更新一文首先出现在 GitHub 博客上。",
+        "ja": "2026 年 1 月には、色付きのコード補完、コード補完の部分的な受け入れ、生産性の向上などが実現しました。 Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。最新情報については Insiders チャネルをチェックしてください: 色分けされたコード補完: コード補完に構文の強調表示機能が追加され、変数、関数、その他の要素をすばやく区別できるようになりました。設定でこれを有効にするには、コード補完に色付きのテキストを使用するを選択します。クリックしてコード補完を部分的に受け入れる: 提案内を直接クリックして、提案の一部のみを受け入れます。提案の上にマウスを移動すると、各セグメントが強調表示され、カーソル位置まで受け入れられます。生産性の向上: 要望の多かった一連の改善により、スクロールの高速化、HTML リッチなコピー貼り付け、構文上の行圧縮などにより、エディターの制御とカスタマイズが向上します。合理化された Markdown プレビュー コントロール: 分割プレビュー、オープン プレビュー、編集 Markdown モードを切り替えて、より柔軟に対応できます。ズーム コントロールはマーメイド ダイアグラムに役立ち、Copilot Chat には、生成されたマークダウン コンテンツを直接レンダリングして編集するための [プレビュー] ボタンが追加されました。これは安定版チャンネルで利用できるようになりました。 Visual Studio 2026 をダウンロードして、Copilot のすべての新機能を今すぐ体験してください。新機能の詳細については、Visual Studio のブログとリリース ノートを確認してください。 Visual Studio の Copilot の次のステップ Visual Studio ブログをフォローして、最新の Copilot 機能の最新情報を入手してください。ロードマップの更新やフィードバックを共有する機会が見つかります。最新のニュース、リリース ノート、ビデオ、コミュニティでの会話については、Visual Studio に関するすべての中心となるリソースである Visual Studio Hub にアクセスしてください。 Visual Studio の GitHub Copilot — 1 月の更新という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest: Colorized code completions: Code completions now feature syntax highlighting to help you quickly distinguish variables, functions, and other elements. Enable this in settings by selecting Use colorized text for code completions. Click to partially accept code completions: Accept only part of a suggestion by clicking directly inside it. Hover over the suggestion to see each segment highlighted, and accept up to the cursor position. Productivity improvements: A series of highly requested improvements let you better control and customize your editor with faster scrolling, HTML-rich copy paste, syntactic line compression, and more. Streamlined Markdown preview controls: Switch between Split Preview, Open Preview, and Edit Markdown modes for more flexibility. Zoom controls help with Mermaid diagrams, and Copilot Chat now includes a Preview button to render and edit generated markdown content directly. This is now available in the Stable channel. Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes. What’s next for Copilot in Visual Studio Stay up to date on the latest Copilot features by following the Visual Studio blog, where you’ll find roadmap updates and opportunities to share feedback. For the latest news, release notes, videos, and community conversations, visit the Visual Studio Hub, your central resource for all things Visual Studio. The post GitHub Copilot in Visual Studio — January update appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code 中的 GitHub Copilot v1.109 – 1 月版本",
+        "ja": "Visual Studio Code v1.109 の GitHub Copilot – 1 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code v1.109 – January Release"
+      },
+      "summary": {
+        "zh": "2026 年 1 月发布的版本对 Visual Studio Code 中的 GitHub Copilot 进行了重大改进，包括代理驱动的工作流程、对代理会话管理的改进，以及在 IDE 中引入了对 Claude by Anthropic 的代理支持。代理可扩展性（模型 + 集成） Claude 代理支持处于公共预览版，并允许使用 GitHub Copilot 订阅中的 Claude 模型将任务委派给 Anthropic 的官方 Claude Agent SDK。与 MCP 应用程序的更丰富的聊天交互可在 VS Code 内实现更多工具驱动的交互式 Copilot 体验。 Copilot 聊天和用户体验 更快、更敏捷的聊天体验，并改进了流媒体响应能力。更高质量的推理结果可提供更可靠的答案和更好的任务执行。通过提出问题而不是假设的思考标记和代理，可以更好地了解模型推理。改进的编辑器内联聊天，使您在编码时上下文中的 Copilot 交互感觉更加自然和有效。多座席开发和会话管理 改进的座席会话管理可以更轻松地将工作委派给： 副驾驶 Claude 本地座席 后台座席 云座席 无缝切换和干预：在需要时跳入座席工作，而不会中断动力。代理状态指示器显示需要注意的会话，子代理并行运行以更快完成。 Copilot 代理定制 代理编排可以构建适合您的团队或项目的可重复工作流程。代理技能加上组织范围的定制有助于确保跨开发人员和环境的结果更加一致。座席优化（更智能+更快） Copilot Memory 通过保留交互中的相关上下文来帮助座席更智能地工作。通过外部索引进行更快的代码搜索可提高大型存储库开发期间的检索速度和响应能力。代理安全和信任 终端命令沙箱可提高代理提出或执行命令时的信心（实验性，仅限 macOS/Linux）。有效的自动批准规则可以提高代理驱动操作的安全性和控制力，同时减少不必要的提示。终端生命周期的改进可以通过超时、等待和终止功能更好地控制后台命令。相关 VS Code 生产力更新（与 Copilot 无关） 集成浏览器：无需离开编辑器即可测试和运行应用程序。终端增强功能：提高生活质量，使终端使用更顺畅、更可靠。编码和编辑器改进：对日常编码流程进行多项改进。扩展和 API 更新：扩展作者可以构建更丰富体验的新功能。快乐编码！加入 GitHub 社区内的讨论。 Visual Studio Code v1.109 中的 GitHub Copilot – 一月版本首先出现在 GitHub 博客上。",
+        "ja": "この 2026 年 1 月のリリースでは、エージェント主導のワークフロー、エージェント セッション管理の改善、IDE 内での Anthropic による Claude のエージェント サポートの導入により、Visual Studio Code の GitHub Copilot が大幅に改善されました。エージェントの拡張性 (モデル + 統合) Claude エージェントのサポートはパブリック プレビュー段階にあり、GitHub Copilot サブスクリプションの Claude モデルを使用して、Anthropic の公式 Claude エージェント SDK にタスクを委任できます。 MCP アプリとのより豊富なチャット対話により、VS Code 内でよりツール主導型のインタラクティブな Copilot エクスペリエンスが可能になります。 Copilot チャットと UX ストリーミングの応答性が向上し、より速く、よりきびきびとしたチャット エクスペリエンス。より質の高い推論結果により、より信頼性の高い答えが得られ、より適切なタスク実行が可能になります。思考トークンと、仮定するのではなく質問するエージェントを使用することで、モデル推論の可視性が向上します。エディターのインライン チャットが改良され、コーディング中にコンテキスト内の Copilot インタラクションがより自然かつ効果的に感じられるようになりました。マルチエージェント開発とセッション管理 改善されたエージェント セッション管理により、次の作業の委任が容易になります。 Copilot Claude ローカル エージェント バックグラウンド エージェント クラウド エージェント シームレスなハンドオフと介入: 勢いを乱すことなく、必要に応じてエージェントの作業に飛び込みます。エージェント ステータス インジケーターは注意が必要なセッションを示し、サブエージェントはより速く完了するために並行して実行されます。 Copilot エージェントのカスタマイズ エージェント オーケストレーションにより、チームまたはプロジェクトに合わせた反復可能なワークフローを構築できます。エージェント スキルと組織全体のカスタマイズにより、開発者や環境全体でより一貫した結果を確保できます。エージェントの最適化 (よりスマートかつ高速) Copilot メモリは、インタラクション間で関連するコンテキストを保持することで、エージェントがよりスマートに作業できるようにします。外部インデックスによるコード検索の高速化により、大規模リポジトリ開発時の取得速度と応答性が向上します。エージェントのセキュリティと信頼 ターミナル コマンド サンドボックスにより、エージェントがコマンドを提案または実行するときの信頼性が向上します (実験的、macOS/Linux のみ)。効果的な自動承認ルールにより、不要なプロンプトを削減しながら、エージェント主導のアクションの安全性と制御が向上します。ターミナルのライフサイクルの改善により、タイムアウト、待機、および強制終了の機能を使用してバックグラウンド コマンドをより適切に制御できるようになりました。関連する VS Code 生産性更新プログラム (Copilot 関連ではない) 統合ブラウザー: エディターを離れることなくアプリをテストおよび実行します。端末の機能強化: 端末をよりスムーズに、より信頼性高く使用できるよう、生活の質が向上しました。コーディングとエディターの改善: 日常のコーディング フローに複数の改良を加えました。拡張機能と API の更新: 拡張機能の作成者がより充実したエクスペリエンスを構築できる新機能。コーディングを楽しんでください! GitHub コミュニティ内のディスカッションに参加してください。 Visual Studio Code v1.109 – 1 月リリースの投稿 GitHub Copilot は、GitHub ブログに最初に掲載されました。",
+        "en": "This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude by Anthropic – right in your IDE. Agent extensibility (models + integrations) Claude agent support is in public preview and enables delegating tasks to Anthropic’s official Claude Agent SDK using Claude models from your GitHub Copilot subscription. Richer chat interactions with MCP apps enable more tool-driven, interactive Copilot experiences inside VS Code. Copilot Chat & UX Faster, snappier chat experience with improved streaming responsiveness. Higher-quality reasoning results for more reliable answers and better task execution. Better visibility into model reasoning with thinking tokens and agents that ask questions instead of assuming. Revamped editor inline chat to make in-context Copilot interactions feel more natural and effective while you code. Multiagent development & session management Improved agent session management makes it easier to delegate work across: Copilot Claude Local agents Background agents Cloud agents Seamless handoff and intervention: jump into agent work when needed, without disrupting momentum. Agent status indicator shows sessions needing attention, subagents run in parallel for faster completion. Copilot agent customization Agent orchestrations enable building repeatable workflows tailored to your team or project. Agent Skills plus org-wide customization help ensure more consistent outcomes across developers and environments. Agent optimizations (smarter + faster) Copilot Memory helps agents work smarter by retaining relevant context across interactions. Faster code search via external indexing improves retrieval speed and responsiveness during large-repo development. Agent security & trust Terminal command sandboxing increases confidence when agents propose or execute commands (experimental, macOS/Linux only). Effective auto-approval rules improve safety and control for agent-driven actions while reducing unnecessary prompts. Terminal lifecycle improvements give better control over background commands with timeout, await, and kill capabilities. Related VS Code productivity updates (not Copilot-related) Integrated browser: Test and run apps without leaving the editor. Terminal enhancements: Quality-of-life improvements for smoother, more reliable terminal usage. Coding & editor improvements: Multiple refinements to everyday coding flow. Extensions & API updates: New capabilities for extension authors to build richer experiences. Happy coding! Join the discussion within GitHub Community. The post GitHub Copilot in Visual Studio Code v1.109 – January Release appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-02-04-github-2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
@@ -6285,6 +6698,54 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-01-26-github-2026-01-26-introducing-the-agents-tab-in-your-repository",
+      "date": "2026-01-26",
+      "category": "github",
+      "title": {
+        "zh": "在存储库中引入“代理”选项卡",
+        "ja": "リポジトリに「エージェント」タブを導入",
+        "en": "Introducing the Agents tab in your repository"
+      },
+      "summary": {
+        "zh": "我们重新设计了管理 Copilot 编码代理任务的位置。我们通过新的“代理”选项卡将任务控制样式视图直接引入到您的存储库中，带来新的外观和感觉。您的代理会话现在与您的代码、拉取请求和问题一起存在，而不是导航到单独的页面。在一处查看存储库的所有会话、创建新会话以及在任务之间切换，而无需离开代码库。一键链接可以轻松直接跳转到相关的拉取请求。您还可以存档会话以保持事物井井有条并翻阅会话历史记录。重新设计的会话日志 会话日志现在更易于阅读和跟踪。类似的工具调用被分组在一起，减少噪音并使流程更加清晰。工具输出呈现内联预览，文件更改会以熟悉的差异视图显示，您可以一键展开这些视图。每个工具调用都有一个独特的图标，并且 bash 命令现在可见以实现完全透明。使用 Copilot CLI 恢复 如果您更喜欢在终端中工作，现在可以直接在 Copilot CLI 中继续 Copilot 会话。在 Copilot CLI 中单击继续，复制命令，然后从上次停下的地方继续。开始使用 导航到存储库。单击新的代理选项卡。创建任务。要在 CLI 中打开会话，请在 Copilot CLI 中单击继续。复制命令并粘贴到终端中以开始使用 Copilot CLI。注意：要查看“代理”选项卡，请确保您为存储库启用了 Copilot 编码代理。加入社区讨论。介绍存储库中的“代理”选项卡一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェント タスクを管理する場所を再設計しました。新しい [エージェント] タブを使用して、ミッション コントロール スタイルのビューに新しいルック アンド フィールをリポジトリに直接導入します。別のページに移動する代わりに、エージェント セッションがコード、プル リクエスト、問題と並行して表示されるようになりました。コードベースを離れることなく、リポジトリのすべてのセッションを 1 か所で表示し、新しいセッションを作成し、タスク間を切り替えることができます。リンクを 1 回クリックするだけで、関連するプル リクエストに簡単に直接ジャンプできます。セッションをアーカイブして整理し、セッション履歴をページごとに確認することもできます。再設計されたセッション ログ セッション ログが読みやすくなり、追跡しやすくなりました。同様のツール呼び出しがグループ化されるため、ノイズが減り、フローがより明確になります。ツールの出力はインライン プレビューをレンダリングし、ファイルの変更はワンクリックで展開できる使い慣れた差分ビューで表示されます。すべてのツール呼び出しには特徴的なアイコンがあり、bash コマンドは完全に透明で表示されるようになりました。 Copilot CLI を使用した再開 端末で作業したい場合は、Copilot CLI で直接 Copilot セッションを続行できるようになりました。 Copilot CLI で [続行] をクリックし、コマンドをコピーして、中断したところから再開します。始めるには リポジトリに移動します。新しい「エージェント」タブをクリックします。タスクを作成します。 CLI でセッションを開くには、Copilot CLI で [続行] をクリックします。コマンドをコピーしてターミナルに貼り付けて、Copilot CLI の使用を開始します。注: 「エージェント」タブを表示するには、リポジトリに対して Copilot コーディング エージェントが有効になっていることを確認してください。コミュニティのディスカッションに参加してください。リポジトリの [エージェント] タブの紹介という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve redesigned where you manage Copilot coding agent tasks. We’re bringing a new look and feel to your mission control style view directly into your repository with a new Agents tab. Instead of navigating to a separate page, your agent sessions now live alongside your code, pull requests, and issues. View all sessions for the repository in one place, create new ones, and switch between tasks without leaving your codebase. One-click links make it easy to jump straight to the associated pull request. You can also archive sessions to keep things organized and page through your session history. Redesigned session logs Session logs are now easier to read and follow. Similar tool calls are grouped together, reducing noise and making the flow more clear. Tool outputs render inline previews, and file changes appear with the familiar diff views that you can expand with one click. Every tool call has a distinctive icon, and bash commands are now visible for full transparency. Resume with the Copilot CLI If you prefer working in your terminal, you can now continue your Copilot session directly in the Copilot CLI. Click Continue in Copilot CLI, copy the command, and pick up right where you left off. To get started Navigate to a repository. Click on the new Agents tab. Create a task. To open your session in the CLI, click Continue in Copilot CLI. Copy the command and paste into your terminal to get started with the Copilot CLI. Note: To view the Agents tab, ensure that you have Copilot coding agent enabled for your repository. Join the community discussion. The post Introducing the Agents tab in your repository appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-26-introducing-the-agents-tab-in-your-repository",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-26-github-2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
+      "date": "2026-01-26",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中可用",
+        "ja": "GPT-5.2-Codex が Visual Studio、JetBrains IDE、Xcode、および Eclipse で利用可能になりました",
+        "en": "GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse"
+      },
+      "summary": {
+        "zh": "GPT-5.2-Codex 一般适用于 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）在 github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上的 GitHub Copilot Chat 中访问模型。如果您还没有访问权限，请稍后再检查。 GitHub Copilot 中的可用性 此新模型将在以下版本中向用户提供：Visual Studio 版本 17.14.19 及更高版本、18.0.0 及更高版本，所有模式：询问、代理。适用于 JetBrains 版本 1.5.61 及更高版本的 GitHub Copilot，具有所有模式：询问、编辑、代理。适用于 Xcode 0.45.0 及更高版本的 GitHub Copilot 所有模式：询问、代理。 GitHub Copilot for Eclipse 版本 0.13.0 及更高版本的所有模式：询问、代理。启用访问 Copilot Business 和 Enterprise 管理员必须通过在 Copilot 设置中启用 GPT-5.2-Codex 策略来选择加入。启用后，该组织中的用户将在模型选择器中看到 GPT-5.2-Codex。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中提供，首先出现在 GitHub 博客上。",
+        "ja": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+.チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot Chat のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。 GitHub Copilot での利用可能性 この新しいモデルは、Visual Studio バージョン 17.14.19 以降、18.0.0 以降のすべてのモード (ask、agent) で利用可能になります。 GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を使い始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog.",
+        "en": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Availability in GitHub Copilot This new model will be available to users in: Visual Studio versions 17.14.19 and later, 18.0.0 and later, in all modes: ask, agent. GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-01-23-openai-unrolling-the-codex-agent-loop",
@@ -7075,6 +7536,30 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-01-13-github-2026-01-13-upcoming-deprecation-of-select-github-copilot-models-from-claude-and-openai",
+      "date": "2026-01-13",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Anthropic 和 OpenAI 中的部分 GitHub Copilot 模型",
+        "ja": "Anthropic および OpenAI の一部の GitHub Copilot モデルの今後の非推奨化",
+        "en": "Upcoming deprecation of select GitHub Copilot models from Anthropic and OpenAI"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 2 月 19 日）：我们更新了这篇文章和标题，删除了对不再退役的 Google 模型的引用。此外，我们还更新了建议替代方案表，使其更加准确。作为我们对快速、高质量 Copilot 体验承诺的一部分，我们定期评估和淘汰旧型号，转而采用更新、功能更强大的型号。我们将于 2026 年 2 月 17 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。一旦模型被弃用，就不需要采取任何措施来删除它们。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。 Anthropic 和 OpenAI 的部分 GitHub Copilot 模型即将弃用的帖子首先出现在 GitHub 博客上。",
+        "ja": "編集者注 (2026 年 2 月 19 日): この投稿とタイトルを更新して、廃止されない Google モデルへの参照を削除しました。さらに、より正確になるように、推奨される代替案の表を更新しました。高速で高品質な Copilot エクスペリエンスへの取り組みの一環として、私たちは定期的に古いモデルを評価して廃止し、より新しい、より高機能なモデルを採用しています。 2026 年 2 月 17 日に、すべての GitHub Copilot エクスペリエンス (コパイロット チャット、インライン編集、質問モードおよびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex これらの日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨になったモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。 Anthropic および OpenAI の一部の GitHub Copilot モデルの今後の非推奨という投稿は、最初に GitHub ブログに掲載されました。",
+        "en": "Editor’s note (February 19, 2026): We updated this post and the title to remove a reference to a Google model that is no longer being retired. In addition, we updated the table of suggested alternatives to be more accurate. As part of our commitment to a fast, high‑quality Copilot experience, we regularly evaluate and retire older models in favor of newer, more capable ones. We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, as well as code completions) on February 17, 2026: Model Deprecation Date Suggested Alternative Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. The post Upcoming deprecation of select GitHub Copilot models from Anthropic and OpenAI appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-13-upcoming-deprecation-of-select-github-copilot-models-from-claude-and-openai",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-01-13-github-2026-01-13-organization-custom-properties-now-generally-available",
       "date": "2026-01-13",
       "category": "github",
@@ -7184,28 +7669,6 @@
         "anthropic"
       ],
       "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-09-openai-stargate-sb-energy-partnership",
-      "date": "2026-01-09",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 和软银集团与 SB Energy 合作",
-        "ja": "OpenAIとソフトバンクグループがSBエナジーと提携",
-        "en": "OpenAI and SoftBank Group partner with SB Energy"
-      },
-      "summary": {
-        "zh": "OpenAI 和软银集团与 SB Energy 合作开发数千兆瓦人工智能数据中心园区，其中包括支持 Stargate 计划的 1.2 GW 德克萨斯州设施。",
-        "ja": "OpenAIとソフトバンクグループはSBエナジーと提携して、スターゲイト構想をサポートする1​​.2ギガワットのテキサス施設を含む、マルチギガワットのAIデータセンターキャンパスを開発している。",
-        "en": "OpenAI and SoftBank Group partner with SB Energy to develop multi-gigawatt AI data center campuses, including a 1.2 GW Texas facility supporting the Stargate initiative."
-      },
-      "url": "https://openai.com/index/stargate-sb-energy-partnership",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
       "sourceType": "news"
     }
   ]
