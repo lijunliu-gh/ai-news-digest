@@ -28,11 +28,11 @@ on:
         required: false
         default: 'GitHub Product News'
   schedule:
-    - cron: '12 23 * * *'
-    - cron: '21 3 * * *'
-    - cron: '12 7 * * *'
-    - cron: '21 11 * * *'
-    - cron: '12 15 * * *'
+    - cron: '17 0 * * *'
+    - cron: '5 5 * * *'
+    - cron: '53 9 * * *'
+    - cron: '41 14 * * *'
+    - cron: '29 19 * * *'
 
 permissions:
   contents: write

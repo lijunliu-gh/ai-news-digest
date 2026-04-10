@@ -103,11 +103,11 @@ This repository uses a scheduled GitHub Actions workflow to keep the site curren
 
 Scheduled refreshes run at these China Standard Time slots by default:
 
-- 07:12
-- 11:21
-- 15:12
-- 19:21
-- 23:12
+- 08:17
+- 13:05
+- 17:53
+- 22:41
+- 03:29 (next day)
 
 GitHub Actions uses UTC internally, so the workflow cron is stored as UTC equivalents.
 
