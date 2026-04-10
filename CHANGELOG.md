@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-04-10
+
+### Fixed
+- "Today" stat always showed 0 because it compared against the current UTC date, which rarely matched any digest entry; now shows the count for the most recent date in the data and relabeled to "Latest" / "最新"
+
 ## [1.1.0] - 2026-04-09
 
 ### Added

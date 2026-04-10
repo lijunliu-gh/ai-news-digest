@@ -17,7 +17,7 @@
   const I18N = {
     zh: {
       heroSub: '聚合近三个月 GitHub、Anthropic、OpenAI、Google 四大 AI 平台的官方产品更新',
-      statTotal: '总数', statToday: '今日', statCategories: '分类',
+      statTotal: '总数', statToday: '最新', statCategories: '分类',
       filterAll: '全部',
       themeToggleAria: '切换明暗主题',
       sourceTypeNews: '新闻',
@@ -37,7 +37,7 @@
     },
     ja: {
       heroSub: '過去3か月分の GitHub、Anthropic、OpenAI、Google による公式プロダクト更新をまとめて確認できます',
-      statTotal: '合計', statToday: '今日', statCategories: 'カテゴリ',
+      statTotal: '合計', statToday: '最新', statCategories: 'カテゴリ',
       filterAll: 'すべて',
       themeToggleAria: 'ライト/ダークテーマを切り替え',
       sourceTypeNews: 'ニュース',
@@ -57,7 +57,7 @@
     },
     en: {
       heroSub: 'Track official product updates from the past three months across GitHub, Anthropic, OpenAI, and Google',
-      statTotal: 'Total', statToday: 'Today', statCategories: 'Categories',
+      statTotal: 'Total', statToday: 'Latest', statCategories: 'Categories',
       filterAll: 'All',
       themeToggleAria: 'Toggle light and dark theme',
       sourceTypeNews: 'News',
@@ -160,12 +160,12 @@
 
   /* ---------- Stats ---------- */
   function renderStats() {
-    const today = new Date().toISOString().slice(0, 10);
-    const todayCount = allItems.filter(i => i.date === today).length;
+    const latestDate = allItems.reduce((max, i) => i.date > max ? i.date : max, '');
+    const latestCount = allItems.filter(i => i.date === latestDate).length;
     const cats = new Set(allItems.map(i => i.category));
 
     setText('stat-total', allItems.length);
-    setText('stat-today', todayCount);
+    setText('stat-today', latestCount);
     setText('stat-sources', cats.size);
 
     // Items filtered by current source type (for category counts)
