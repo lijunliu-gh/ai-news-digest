@@ -77,7 +77,7 @@
     },
   };
 
-  let currentLang = 'zh';
+  let currentLang = 'en';
 
   function t(key) { return (I18N[currentLang] || I18N.zh)[key] || key; }
   function localized(field) { return (typeof field === 'object' && field !== null) ? (field[currentLang] || field.zh || field.en || '') : (field || ''); }
