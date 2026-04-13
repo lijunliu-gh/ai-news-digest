@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-13",
   "windowMonths": 3,
   "items": [
     {
@@ -6120,29 +6120,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
-      "date": "2026-02-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "输出格式",
-        "ja": "出力形式",
-        "en": "output_format"
-      },
-      "summary": {
-        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
-        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
-        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
-      "tags": [
-        "output-format",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-02-05-anthropic-effort",
       "date": "2026-02-05",
       "category": "anthropic",
@@ -7773,51 +7750,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-01-12-openai-openai-raising-concerns-policy",
-      "date": "2026-01-12",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 的提出关注政策",
-        "ja": "OpenAI の懸念表明ポリシー",
-        "en": "OpenAI’s Raising Concerns Policy"
-      },
-      "summary": {
-        "zh": "我们正在发布“提出疑虑政策”，该政策保护员工进行受保护披露的权利。",
-        "ja": "当社は、従業員が保護された開示を行う権利を保護する懸念提起ポリシーを公開しています。",
-        "en": "We’re publishing our Raising Concerns Policy, which protects employees’ rights to make protected disclosures."
-      },
-      "url": "https://openai.com/index/openai-raising-concerns-policy",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-12-anthropic-item",
-      "date": "2026-01-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "console.anthropic.com 控制台迁移",
-        "ja": "console.anthropic.com",
-        "en": "console.anthropic.com"
-      },
-      "summary": {
-        "zh": "console.anthropic.com 现在重定向到 platform.claude.com。作为 Claude 品牌整合的一部分，Claude Console 已搬迁至新家。现有的书签和链接将通过自动重定向继续工作。更多详情请参见2025年9月16日的公告。",
-        "ja": "console.anthropic.com は platform.claude.com にリダイレクトされるようになりました。クロード コンソールは、クロード ブランド統合の一環として新しい場所に移動しました。既存のブックマークとリンクは、自動リダイレクトによって引き続き機能します。詳細については、2025 年 9 月 16 日の発表をご覧ください。",
-        "en": "console.anthropic.com now redirects to platform.claude.com. The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement."
-      },
-      "url": "https://platform.claude.com/#september-16-2025",
-      "tags": [
-        "console-anthropic-com",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     }
   ]
 }
