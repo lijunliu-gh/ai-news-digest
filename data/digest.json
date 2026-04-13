@@ -49,6 +49,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-13-github-2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+      "date": "2026-04-13",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
+        "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正",
+        "en": "Fix merge conflicts in three clicks with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试地址代码审查评论：@copilot地址此评论进行任何其他更改：@copilot添加一个单元测试，涵盖模型参数丢失时的情况Copilot云代理适用于所有付费Copilot计划。如果您是 Copilot 商业版或 Copilot 企业版用户，管理员必须先启用 Copilot 云代理，然后您才能使用它。要了解更多信息，请参阅 GitHub 文档中的“要求 GitHub Copilot 对现有拉取请求进行更改”。使用 Copilot 云代理在三次点击中修复合并冲突一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。コメントを送信すると、Copilot は競合を修正し、ビルドとテストが引き続き合格することを確認して、プッシュします。そして、これらすべてを独自のクラウドベースの開発環境から実行します。プル リクエストで @copilot に言及することもできます。 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot クラウド エージェントは、すべての有料 Copilot プランで利用できます。 Copilot Business または Copilot Enterprise ユーザーの場合、管理者は Copilot クラウド エージェントを使用できるようにする必要があります。詳細については、GitHub ドキュメントの「GitHub Copilot に既存のプル リクエストの変更を依頼する」を参照してください。この投稿「Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正する」は、GitHub ブログに最初に掲載されました。",
+        "en": "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts. When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment. You can also mention @copilot in pull requests to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot cloud agent is available with all paid Copilot plans. If you’re a Copilot Business or Copilot Enterprise user, an administrator will have to enable Copilot cloud agent before you can use it. To learn more, see “Asking GitHub Copilot to make changes to an existing pull request” in the GitHub docs. The post Fix merge conflicts in three clicks with Copilot cloud agent appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-10-openai-axios-developer-tool-compromise",
       "date": "2026-04-10",
       "category": "openai",
@@ -965,6 +989,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-02-github-2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
+      "date": "2026-04-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在包括组织报告中的每用户 GitHub Copilot CLI 活动",
+        "ja": "Copilot の使用状況メトリクスに、組織レポートにユーザーごとの GitHub Copilot CLI アクティビティが含まれるようになりました",
+        "en": "Copilot usage metrics now includes per-user GitHub Copilot CLI activity in organization reports"
+      },
+      "summary": {
+        "zh": "在发布企业级、用户级和组织级 CLI 指标之后，我们将在组织报告中完成对每用户 CLI 细分的覆盖。组织管理员现在可以查看哪些个人用户在 CLI 上处于活动状态，并在 1 天和 28 天报告中查看其使用情况详细信息。这包括： 每个用户是否具有 CLI 活动 (used_cli )。每用户 CLI 会话和请求计数。令牌使用总量，包括每个请求的平均令牌。每个用户最后已知的 CLI 版本，以帮助规划升级部署。为什么这很重要 确定哪些开发人员正在从命令行积极使用 Copilot 以及可能需要启用的地方。了解每个用户的消费模式以支持成本分配和扩展部署规划。跟踪整个组织中的 CLI 版本分布，以确保团队使用受支持的版本。请访问我们的 API 文档以了解更多信息。加入 GitHub 社区内的讨论。 Copilot 使用指标现在包括组织报告中的每用户 GitHub Copilot CLI 活动，该报告首先出现在 GitHub 博客上。",
+        "ja": "エンタープライズレベル、ユーザーレベル、および組織レベルの CLI メトリクスのリリースに続き、組織レポートでのユーザーごとの CLI の内訳のカバレッジを完了しています。組織管理者は、CLI でアクティブな個々のユーザーを確認し、1 日と 28 日の両方のレポートで使用状況の詳細を確認できるようになりました。これには以下が含まれます: 各ユーザーが CLI アクティビティ ( used_cli ) を持っているかどうか。ユーザーごとの CLI セッションとリクエストの数。リクエストごとの平均トークンを含む、トークン使用量の合計。ユーザーごとの最新の既知の CLI バージョン。アップグレードのロールアウトの計画に役立ちます。これが重要な理由 コマンド ラインから Copilot を積極的に使用している開発者と、有効化が必要な場所を特定します。ユーザーごとの消費パターンを理解して、コスト配分と展開計画の拡張をサポートします。組織全体の CLI バージョンの配布を追跡して、チームがサポートされているバージョンを使用していることを確認します。詳細については、API ドキュメントをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。投稿の Copilot 使用状況メトリクスには、組織レポートにおけるユーザーごとの GitHub Copilot CLI アクティビティが含まれるようになりました。 最初に GitHub ブログに掲載されました。",
+        "en": "Following our enterprise-level, user-level, and organization-level CLI metrics releases, we’re completing coverage with per-user CLI breakdowns in organization reports. Organization admins can now see which individual users are active on the CLI and view their usage details in both 1-day and 28-day reports. This includes: Whether each user has CLI activity ( used_cli ). Per-user CLI session and request counts. Token usage totals, including average tokens per request. Last known CLI version per user, to help plan upgrade rollouts. Why this matters Identify which developers are actively using Copilot from the command line and where enablement may be needed. Understand per-user consumption patterns to support cost allocation and expanded rollout planning. Track CLI version distribution across your organization to ensure teams are on supported versions. Visit our API documentation to learn more. Join the discussion within GitHub Community. The post Copilot usage metrics now includes per-user GitHub Copilot CLI activity in organization reports appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-02-github-2026-04-02-copilot-sdk-in-public-preview",
       "date": "2026-04-02",
       "category": "github",
@@ -1485,6 +1535,30 @@
       "url": "https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated",
       "tags": [
         "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-26-github-2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
+      "date": "2026-03-26",
+      "category": "github",
+      "title": {
+        "zh": "请求 @copilot 解决拉取请求的合并冲突",
+        "ja": "@copilot にプル リクエストのマージ競合を解決するように依頼します",
+        "en": "Ask @copilot to resolve merge conflicts on pull requests"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理现在可以解决拉取请求的合并冲突。要要求 Copilot 解决合并冲突，请在评论中提及 @copilot 并告诉它要做什么：@copilot Merge in main 并解决冲突。该代理在自己的基于云的开发环境中工作，可以在其中进行更改，检查构建和测试是否仍然通过，然后推送。 Copilot 编码代理还可以： 修复失败的 GitHub Actions 工作流程：@copilot 修复失败的测试 解决代码审查评论：@copilot 处理此评论 进行任何其他更改：@copilot 添加单元测试，涵盖模型参数缺失时的情况 Copilot 编码代理适用于所有付费 Copilot 计划。如果您是 Copilot Business 或 Copilot Enterprise 用户，管理员必须先启用 Copilot 编码代理，然后您才能使用它。要了解更多信息，请参阅 GitHub 文档中的“要求 GitHub Copilot 对现有拉取请求进行更改”。要求 @copilot 解决拉取请求的合并冲突一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントは、プル リクエストのマージ競合を解決できるようになりました。 Copilot にマージの競合を解決するように依頼するには、コメントで @copilot に言及し、次のように対処方法を指示します。 @copilot Main でマージして競合を解決します。エージェントは独自のクラウドベースの開発環境で動作し、そこで変更を加え、ビルドとテストが引き続き合格することを確認してからプッシュできます。 Copilot コーディング エージェントは次のことも行うことができます。 失敗した GitHub Actions ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは、すべての有料 Copilot プランで利用できます。 Copilot Business または Copilot Enterprise ユーザーの場合、管理者は Copilot コーディング エージェントを使用できるようにする必要があります。詳細については、GitHub ドキュメントの「GitHub Copilot に既存のプル リクエストに変更を加えるように依頼する」を参照してください。 「@copilot にプル リクエストのマージ競合を解決するよう依頼する」という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push. Copilot coding agent can also: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent is available with all paid Copilot plans. If you’re a Copilot Business or Copilot Enterprise user, an administrator will have to enable Copilot coding agent before you can use it. To learn more, see “Asking GitHub Copilot to make changes to an existing pull request” in the GitHub docs. The post Ask @copilot to resolve merge conflicts on pull requests appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -6252,6 +6326,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-january-update",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 1 月更新",
+        "ja": "Visual Studio の GitHub Copilot — 1 月の更新",
+        "en": "GitHub Copilot in Visual Studio — January update"
+      },
+      "summary": {
+        "zh": "2026 年 1 月带来了彩色代码补全、部分接受代码补全、生产力提高等。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。查看 Insiders 频道​​了解最新动态： 彩色代码补全：代码补全现在具有语法突出显示功能，可帮助您快速区分变量、函数和其他元素。通过选择使用彩色文本完成代码来在设置中启用此功能。单击以部分接受代码完成：通过直接在建议内部单击来仅接受建议的一部分。将鼠标悬停在建议上可查看突出显示的每个段，并接受直至光标位置。生产力改进：一系列备受期待的改进让您可以通过更快的滚动、富含 HTML 的复制粘贴、语法行压缩等更好地控制和自定义编辑器。简化的 Markdown 预览控件：在分割预览、打开预览和编辑 Markdown 模式之间切换，以获得更大的灵活性。缩放控件有助于美人鱼图，Copilot Chat 现在包含一个预览按钮，可直接渲染和编辑生成的 Markdown 内容。现在可以在稳定频道中使用。立即下载 Visual Studio 2026 体验 Copilot 的所有新功能。要了解有关新功能的更多信息，请查看 Visual Studio 博客和发行说明。 Visual Studio 中 Copilot 的下一步发展 关注 Visual Studio 博客，了解最新的 Copilot 功能，您可以在其中找到路线图更新和分享反馈的机会。有关最新新闻、发行说明、视频和社区对话，请访问 Visual Studio 中心，这是有关 Visual Studio 的所有内容的中心资源。 Visual Studio 中的 GitHub Copilot — 一月更新一文首先出现在 GitHub 博客上。",
+        "ja": "2026 年 1 月には、色付きのコード補完、コード補完の部分的な受け入れ、生産性の向上などが実現しました。 Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。最新情報については Insiders チャネルをチェックしてください: 色分けされたコード補完: コード補完に構文の強調表示機能が追加され、変数、関数、その他の要素をすばやく区別できるようになりました。設定でこれを有効にするには、コード補完に色付きのテキストを使用するを選択します。クリックしてコード補完を部分的に受け入れる: 提案内を直接クリックして、提案の一部のみを受け入れます。提案の上にマウスを移動すると、各セグメントが強調表示され、カーソル位置まで受け入れられます。生産性の向上: 要望の多かった一連の改善により、スクロールの高速化、HTML リッチなコピー貼り付け、構文上の行圧縮などにより、エディターの制御とカスタマイズが向上します。合理化された Markdown プレビュー コントロール: 分割プレビュー、オープン プレビュー、編集 Markdown モードを切り替えて、より柔軟に対応できます。ズーム コントロールはマーメイド ダイアグラムに役立ち、Copilot Chat には、生成されたマークダウン コンテンツを直接レンダリングして編集するための [プレビュー] ボタンが追加されました。これは安定版チャンネルで利用できるようになりました。 Visual Studio 2026 をダウンロードして、Copilot のすべての新機能を今すぐ体験してください。新機能の詳細については、Visual Studio のブログとリリース ノートを確認してください。 Visual Studio の Copilot の次のステップ Visual Studio ブログをフォローして、最新の Copilot 機能の最新情報を入手してください。ロードマップの更新やフィードバックを共有する機会が見つかります。最新のニュース、リリース ノート、ビデオ、コミュニティでの会話については、Visual Studio に関するすべての中心となるリソースである Visual Studio Hub にアクセスしてください。 Visual Studio の GitHub Copilot — 1 月の更新という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest: Colorized code completions: Code completions now feature syntax highlighting to help you quickly distinguish variables, functions, and other elements. Enable this in settings by selecting Use colorized text for code completions. Click to partially accept code completions: Accept only part of a suggestion by clicking directly inside it. Hover over the suggestion to see each segment highlighted, and accept up to the cursor position. Productivity improvements: A series of highly requested improvements let you better control and customize your editor with faster scrolling, HTML-rich copy paste, syntactic line compression, and more. Streamlined Markdown preview controls: Switch between Split Preview, Open Preview, and Edit Markdown modes for more flexibility. Zoom controls help with Mermaid diagrams, and Copilot Chat now includes a Preview button to render and edit generated markdown content directly. This is now available in the Stable channel. Download Visual Studio 2026 to experience all the new Copilot features today. To learn more about what’s new, check out the Visual Studio blog and release notes. What’s next for Copilot in Visual Studio Stay up to date on the latest Copilot features by following the Visual Studio blog, where you’ll find roadmap updates and opportunities to share feedback. For the latest news, release notes, videos, and community conversations, visit the Visual Studio Hub, your central resource for all things Visual Studio. The post GitHub Copilot in Visual Studio — January update appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
       "date": "2026-02-04",
       "category": "github",
@@ -7410,6 +7508,30 @@
         "en": "Bring your own key (BYOK) for GitHub Copilot now supports additional APIs, new configuration options, and more provider integrations. With this update, enterprises can connect models that use the Responses API, configure a maximum context window for model interactions, enable streaming, and choose from an expanded list of supported LLM providers. What’s new New provider options You can now connect API keys from AWS Bedrock, Google AI Studio, and any OpenAI‑compatible provider. These options join Anthropic, Microsoft Foundry, OpenAI, and xAI as supported BYOK choices. Support for the Responses API BYOK now supports models that use the Responses API. This enables structured outputs and richer multimodal interactions. Ability to set a maximum context window Admins can define the maximum context window for BYOK models, helping balance cost, performance, and response quality. Streaming responses for faster interaction Streaming output from connected models lets Copilot display responses as they are generated, rather than waiting for completion. Start using the new BYOK features today These new capabilities are available now in public preview for GitHub Enterprise and Business customers. Connect your LLM provider’s API key in your enterprise or organization settings and start using your models in Copilot Chat and supported IDEs. Learn more by visiting our BYOK documentation. Help us shape the future We are just getting started and your feedback will guide what comes next. Join the discussion within the GitHub Community to share feedback and connect with other developers. The post GitHub Copilot bring your own key (BYOK) enhancements appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-01-15-github-copilot-bring-your-own-key-byok-enhancements",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-15-github-2026-01-15-agentic-memory-for-github-copilot-is-in-public-preview",
+      "date": "2026-01-15",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 的代理内存已推出公共预览版",
+        "ja": "GitHub Copilot のエージェント メモリはパブリック プレビュー段階にあります",
+        "en": "Agentic memory for GitHub Copilot is in public preview"
+      },
+      "summary": {
+        "zh": "Copilot 内存现已在所有付费 GitHub Copilot 计划中提供公共预览版。 Copilot 内存使 Copilot 能够学习并保留有关存储库的有用详细信息。当您使用 Copilot 编码代理、Copilot 代码审查或 Copilot CLI 时，它会构建特定于存储库的理解，从而随着时间的推移提高其帮助质量。工作原理 当 Copilot 在您的存储库中工作时，它会自动捕获范围狭窄的见解（称为“记忆”）。这些内存是： 特定于存储库的，并在使用前根据当前代码库进行验证。跨 Copilot 功能共享，因此编码代理学到的内容可以帮助代码审查。 28 天后自动过期，以防止信息过时。有关 Copilot 内存究竟如何工作的更多详细信息，请查看我们有关 Copilot 内存的工程博客文章。开始使用 个人用户（Copilot Pro 或 Pro+）：在您的个人 Copilot 设置中启用 Copilot 内存。组织和企业：通过组织或企业设置中的策略设置启用。存储库所有者可以在存储库设置 > Copilot > 内存中查看和删除存储的内存。要了解有关如何使用此功能的更多信息，请查看我们的 Copilot 内存文档。加入 GitHub 社区内的讨论。 GitHub Copilot 的 Agentic 内存已进入公开预览版的帖子首先出现在 GitHub 博客上。",
+        "ja": "Copilot メモリは、すべての有料 GitHub Copilot プランのパブリック プレビューで利用できるようになりました。 Copilot メモリを使用すると、Copilot はリポジトリに関する有用な詳細を学習して保持できます。 Copilot コーディング エージェント、Copilot コード レビュー、または Copilot CLI を使用すると、リポジトリ固有の理解が構築され、時間の経過とともに支援の質が向上します。仕組み Copilot は、リポジトリ内で動作する際に、「メモリ」と呼ばれる限定された範囲の洞察を自動的に取得します。これらのメモリは次のとおりです。 リポジトリ固有であり、使用前に現在のコードベースに対して検証されます。 Copilot の機能全体で共有されるため、コーディング エージェントが学習した内容はコード レビューに役立ちます。情報が古くならないように、28 日後に自動的に期限切れになります。 Copilot メモリがどのように正確に機能するかについて詳しくは、Copilot メモリに関するエンジニアリング ブログ投稿をご覧ください。はじめに 個人ユーザー (Copilot Pro または Pro+): 個人用 Copilot 設定で Copilot メモリを有効にします。組織と企業: 組織または企業の設定のポリシー設定を通じて有効にします。リポジトリ所有者は、[リポジトリ設定] > [コパイロット] > [メモリ] で保存されたメモリを確認および削除できます。この機能の使用方法の詳細については、Copilot メモリのドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。 「GitHub Copilot のエージェント メモリはパブリック プレビュー中です」という記事は、最初に GitHub ブログに掲載されました。",
+        "en": "Copilot memory is now available in public preview for all paid GitHub Copilot plans. Copilot memory enables Copilot to learn and retain useful details about your repositories. As you work with Copilot coding agent, Copilot code review, or Copilot CLI, it builds a repository-specific understanding that improves the quality of its assistance over time. How it works Copilot automatically captures tightly scoped insights called “memories” as it works in your repositories. These memories are: Repository-specific and validated against the current codebase before use. Shared across Copilot features, so what coding agent learns can help code review. Automatically expired after 28 days to prevent stale information. For more details on how exactly Copilot memory works, check out our engineering blog post on Copilot memory. Get started Individual users (Copilot Pro or Pro+): Enable Copilot memory in your personal Copilot settings. Organizations and enterprises: Enable through policy settings in your organization or enterprise settings. Repository owners can review and delete stored memories in Repository Settings > Copilot > Memory. To learn more about how to use this feature, check out our Copilot memory documentation. Join the discussion within GitHub Community. The post Agentic memory for GitHub Copilot is in public preview appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-15-agentic-memory-for-github-copilot-is-in-public-preview",
       "tags": [
         "release",
         "copilot",
