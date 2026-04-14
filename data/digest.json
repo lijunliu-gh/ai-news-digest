@@ -854,6 +854,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理签署承诺书",
+        "ja": "Copilot クラウド エージェントがコミットに署名する",
+        "en": "Copilot cloud agent signs its commits"
+      },
+      "summary": {
+        "zh": "Copilot 云代理现在签署其所做的每项提交。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交确实是由代理做出的并且没有被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解有关 Copilot 云代理的更多信息，请参阅文档中的“关于 Copilot 云代理”。 Copilot 云代理签署其提交后的内容首先出现在 GitHub 博客上。",
+        "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名されたコミットは GitHub 上で検証済みとして表示されるため、コミットがエージェントによって真正に作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になったリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。 Copilot クラウド エージェントの詳細については、ドキュメントの「Copilot クラウド エージェントについて」を参照してください。 Copilot クラウド エージェントがコミットに署名するという記事は、GitHub ブログに最初に掲載されました。",
+        "en": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about Copilot cloud agent, head to “About Copilot cloud agent” in the documentation. The post Copilot cloud agent signs its commits appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-02-openai-openai-acquires-tbpn",
       "date": "2026-04-02",
       "category": "openai",
@@ -1009,6 +1033,30 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-02-github-2026-04-02-copilot-sdk-in-public-preview",
+      "date": "2026-04-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot SDK 公开预览版",
+        "ja": "パブリック プレビュー中の Copilot SDK",
+        "en": "Copilot SDK in public preview"
+      },
+      "summary": {
+        "zh": "GitHub Copilot SDK 现已推出公共预览版。这为您提供了将 Copilot 的代理功能直接嵌入到您自己的应用程序、工作流程和平台服务中的构建块。 Copilot SDK 公开了为 GitHub Copilot 云代理和 Copilot CLI 提供支持的相同经过生产测试的代理运行时。您无需构建自己的 AI 编排层，而是可以开箱即用地获得工具调用、流式传输、文件操作和多轮会话。现在提供五种语言版本 使用您选择的语言构建 SDK： Node.js / TypeScript：npm install @github/copilot-sdk Python：pip install github-copilot-sdk Go：go get github.com/github/copilot-sdk/go.NET：dotnet add package GitHub.Copilot.SDK Java：新可通过 Maven 安装。关键功能 自定义工具和代理：使用处理程序定义特定于域的工具，并让代理决定何时调用它们。使用针对您的用例定制的说明构建自定义代理。细粒度系统提示自定义：使用替换、追加、前置或动态转换回调自定义 Copilot 系统提示的部分。无需重写整个提示。流式传输和实时响应：逐个流式传输响应，以获得响应式用户体验。 Blob 附件：内联发送图像、屏幕截图和二进制数据，无需写入磁盘。 OpenTelemetry 支持：内置分布式跟踪，具有跨所有 SDK 的 W3C 跟踪上下文传播。权限框架：使用审批处理程序控制敏感操作，或标记只读工具以完全跳过权限。自带密钥 (BYOK)：使用您自己的 OpenAI、Microsoft Foundry 或 Anthropic API 密钥。编者注（2026 年 4 月 6 日）：将 Azure AI Foundry 更新为 Microsoft Foundry 的当前名称。开始使用 Copilot SDK 可供所有 Copilot 和非 Copilot 订阅者使用，包括供个人使用的 Copilot Free 和供企业使用的 BYOK。每个提示都会计入 Copilot 订阅者的高级请求配额。查看入门指南以开始构建并加入 GitHub 社区中的讨论。公共预览版中的 Copilot SDK 首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot SDK はパブリック プレビューで利用できるようになりました。これにより、Copilot のエージェント機能を独自のアプリケーション、ワークフロー、プラットフォーム サービスに直接組み込むための構成要素が得られます。 Copilot SDK は、GitHub Copilot クラウド エージェントと Copilot CLI を強化する、本番環境でテスト済みの同じエージェント ランタイムを公開します。独自の AI オーケストレーション レイヤーを構築する代わりに、ツールの呼び出し、ストリーミング、ファイル操作、マルチターン セッションをすぐに利用できます。 5 つの言語で利用可能になりました 選択した言語で SDK を使用してビルドします: Node.js / TypeScript: npm install @github/copilot-sdk Python: pip install github-copilot-sdk Go: go get github.com/github/copilot-sdk/go.NET: dotnet add package GitHub.Copilot.SDK Java: Maven 経由でインストールできるようになりました。主な機能 カスタム ツールとエージェント: ハンドラーを使用してドメイン固有のツールを定義し、それらを呼び出すタイミングをエージェントに決定させます。ユースケースに合わせた手順でカスタム エージェントを構築します。詳細なシステム プロンプトのカスタマイズ: 置換、追加、先頭に追加、または動的変換コールバックを使用して、Copilot システム プロンプトのセクションをカスタマイズします。プロンプト全体を書き直す必要はありません。ストリーミング応答とリアルタイム応答: 応答をトークンごとにストリーミングして、応答性の高いユーザー エクスペリエンスを実現します。 BLOB 添付ファイル: ディスクに書き込まずに、画像、スクリーンショット、バイナリ データをインラインで送信します。 OpenTelemetry のサポート: すべての SDK にわたる W3C トレース コンテキストの伝播を備えた組み込みの分散トレーシング。権限フレームワーク: 承認ハンドラーを使用して機密性の高い操作を制限するか、読み取り専用ツールをマークして権限を完全にスキップします。 Bring Your Own Key (BYOK): OpenAI、Microsoft Foundry、または Anthropic に独自の API キーを使用します。編集者注 (2026 年 4 月 6 日): Azure AI Foundry を現在の名前 Microsoft Foundry に更新しました。はじめに Copilot SDK は、個人使用の Copilot Free や企業向けの BYOK など、すべての Copilot および非 Copilot サブスクライバーが利用できます。各プロンプトは、Copilot サブスクライバーのプレミアム リクエスト クォータにカウントされます。スタート ガイドを参照して構築を開始し、GitHub コミュニティのディスカッションに参加してください。パブリック プレビュー中の Copilot SDK の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "The GitHub Copilot SDK is now available in public preview. This gives you the building blocks to embed Copilot’s agentic capabilities directly into your own applications, workflows, and platform services. The Copilot SDK exposes the same production-tested agent runtime that powers GitHub Copilot cloud agent and Copilot CLI. Instead of building your own AI orchestration layer, you get tool invocation, streaming, file operations, and multi-turn sessions out of the box. Now available in five languages Build with the SDK in your language of choice: Node.js / TypeScript: npm install @github/copilot-sdk Python: pip install github-copilot-sdk Go: go get github.com/github/copilot-sdk/go.NET: dotnet add package GitHub.Copilot.SDK Java: Newly available to install via Maven. Key capabilities Custom tools and agents: Define domain-specific tools with handlers and let the agent decide when to invoke them. Build custom agents with tailored instructions for your use case. Fine-grained system prompt customization: Customize sections of the Copilot system prompt using replace, append, prepend, or dynamic transform callbacks. There’s no need to rewrite the entire prompt. Streaming and real-time responses: Stream responses token-by-token for responsive user experiences. Blob attachments: Send images, screenshots, and binary data inline without writing to disk. OpenTelemetry support: Built-in distributed tracing with W3C trace context propagation across all SDKs. Permission framework: Gate sensitive operations with approval handlers, or mark read-only tools to skip permissions entirely. Bring Your Own Key (BYOK): Use your own API keys for OpenAI, Microsoft Foundry, or Anthropic. Editor’s note (April 6, 2026): Updated Azure AI Foundry to the current name of Microsoft Foundry. Get started The Copilot SDK is available to all Copilot and non-Copilot subscribers, including Copilot Free for personal use and BYOK for enterprises. Each prompt counts toward your premium request quota for Copilot subscribers. Check out the getting started guide to start building and join the discussion in the GitHub Community. The post Copilot SDK in public preview appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -2080,6 +2128,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-19-github-2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "date": "2026-03-19",
+      "category": "github",
+      "title": {
+        "zh": "更清楚地了解 Copilot 编码代理会话",
+        "ja": "Copilot コーディング エージェント セッションの可視性の向上",
+        "en": "More visibility into Copilot coding agent sessions"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了多项改进，以便您更好地了解 Copilot 正在执行的操作： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙（如果启用）来做好准备。现在，当这些步骤开始和完成时，您将在日志中看到更新，以便您可以了解等待 Copilot 开始工作时发生的情况。更好地了解自定义设置步骤：您可以使用存储库中的 copilot-setup-steps.yml 文件自定义 Copilot 的开发环境。如果您已经定义了 Copilot 运行的设置步骤，这些步骤的输出现在会显示在会话日志中，因此您可以验证环境配置是否正确并调试任何问题，而无需跳转到 GitHub Actions 中的详细日志。当 Copilot 将工作委托给子代理时，可见性更高：Copilot 可以将任务委托给子代理。例如，它通常会启动一个子代理来在进行更改之前研究和了解代码的当前状态。当 Copilot 将工作委托给子代理时，子代理的活动现在默认折叠，平视显示器显示其当前正在处理的内容。随时展开详细信息以查看完整的输出。要了解更多信息，请参阅有关 Copilot 编码代理的文档。这篇文章“更多地了解 Copilot 编码代理会话”首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントにタスクを委任すると、Copilot コーディング エージェントはバックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot の動作をよりわかりやすく表示するために、Copilot コーディング エージェントのセッション ログに多くの改善を加えました。 組み込みのセットアップ手順の可視性が向上しました。 Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォール (有効な場合) を起動して準備を整える必要があります。これらのステップの開始時と終了時にログに更新が表示されるので、Copilot が動作を開始するのを待っている間に何が起こっているかを理解できるようになります。カスタム セットアップ ステップの可視性の向上: リポジトリ内の copilot-setup-steps.yml ファイルを使用して、Copilot の開発環境をカスタマイズできます。 Copilot を実行するためのセットアップ ステップを定義している場合、それらのステップの出力がセッション ログに表示されるため、GitHub Actions の詳細ログにジャンプすることなく、環境が正しく構成されていることを確認し、問題をデバッグできます。 Copilot がサブエージェントに作業を委任する場合の可視性の向上: Copilot はタスクをサブエージェントに委任できます。たとえば、変更を加える前に、コードの現在の状態を調査して理解するためにサブエージェントを起動することがよくあります。 Copilot がサブエージェントに作業を委任すると、サブエージェントのアクティビティはデフォルトで折りたたまれ、ヘッドアップ ディスプレイに現在作業中の内容が表示されます。いつでも詳細を展開して完全な出力を確認できます。詳細については、Copilot コーディング エージェントに関するドキュメントを参照してください。 Copilot コーディング エージェント セッションの可視性の向上に関する投稿 最初に GitHub ブログに掲載されました。",
+        "en": "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall (if enabled). You’ll now see updates in the logs when these steps start and finish, so you can understand what’s happening while you wait for Copilot to start work. Better visibility of your custom setup steps: You can customize Copilot’s development environment with a copilot-setup-steps.yml file in your repository. If you’ve defined setup steps for Copilot to run, the output from those steps now shows in the session logs, so you can verify the environment is configured correctly and debug any issues without jumping to the verbose logs in GitHub Actions. Better visibility when Copilot delegates work to subagents: Copilot can delegate tasks to subagents. For example, it will often spin up a subagent to research and understand the current state of your code before making changes. When Copilot delegates work to a subagent, the subagent’s activity is now collapsed by default, with a heads-up display showing what it’s working on right now. Expand the details at any time to see the full output. To learn more, head to our documentation about Copilot coding agent. The post More visibility into Copilot coding agent sessions appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-19-github-2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
       "date": "2026-03-19",
       "category": "github",
@@ -2785,6 +2857,30 @@
       "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "在 Web 上使用 Copilot 探索存储库",
+        "ja": "Web 上で Copilot を使用してリポジトリを探索する",
+        "en": "Explore a repository using Copilot on the web"
+      },
+      "summary": {
+        "zh": "当您在网络上与 Copilot 聊天时，我们可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并向 Copilot 询问上下文中的正确问题变得前所未有的容易。无缝添加对聊天的引用 当您导航文件资源管理器时，您选择的文件将作为临时引用自动添加到当前聊天中。您可以选择通过单击引用标记或双击文件预览选项卡将它们添加为永久引用。尝试一下 此功能现已提供公共预览版。加入 GitHub 社区内的讨论。使用 Copilot 在网络上浏览存储库一文首先出现在 GitHub 博客上。",
+        "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は、Copilot にファイルを表示するように指示し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動して、コンテキストに応じて Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーを操作すると、選択したファイルが一時的な参照として現在のチャットに自動的に追加されます。参照トークンをクリックするか、ファイル プレビュー タブをダブルクリックすることで、これらを永続参照として追加することを選択できます。試してみる この機能は現在パブリック プレビューで利用可能です。 GitHub コミュニティ内のディスカッションに参加してください。 Web 上で Copilot を使用してリポジトリを探索するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current chat as temporary references. You can choose to add these as permanent references by clicking the reference token or double clicking the file preview tab. Try it out This feature is now available in public preview. Join the discussion within GitHub Community. The post Explore a repository using Copilot on the web appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -4316,6 +4412,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-25-github-2026-02-25-github-copilot-cli-is-now-generally-available",
+      "date": "2026-02-25",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot CLI 现已全面可用",
+        "ja": "GitHub Copilot CLI が一般公開されました",
+        "en": "GitHub Copilot CLI is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic development environment—one that plans, builds, reviews, and remembers across sessions, all without leaving the terminal. Here are some highlights from our fast-paced updates that make Copilot CLI ready for general availability. Agentic development in your terminal Copilot CLI is more than a chat interface. It’s an autonomous coding agent that can plan complex tasks, execute multistep workflows, edit files, run tests, and iterate until the job is done. You choose how much control to keep, from approving every action to letting Copilot run fully autonomously. Plan mode: Press Shift + Tab to switch to plan mode. Copilot analyzes your request, asks clarifying questions, and builds a structured implementation plan before writing any code. Review and approve the plan, then watch Copilot execute it. Autopilot mode: For tasks you trust Copilot to handle end-to-end, autopilot mode lets Copilot work autonomously—executing tools, running commands, and iterating without stopping for approval. Built-in specialized agents: Copilot automatically delegates to specialized agents when appropriate (e.g., Explore for fast codebase analysis, Task for running builds and tests, Code Review for high-signal change review, and Plan for implementation planning). Multiple agents can run in parallel. Background delegation: Prefix any prompt with & to delegate work to the Copilot coding agent in the cloud, freeing your terminal for other tasks. Use /resume to switch between local and remote coding agent sessions seamlessly. To learn more about working effectively with Copilot CLI, head to our best practices guide. Your models, your choice Choose from the latest models from Anthropic, OpenAI, and Google, including Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.3-Codex, and Gemini 3 Pro. Faster models like Claude Haiku 4.5 are available for quick tasks. Switch models in the middle of a session with /model, configure reasoning effort for extended thinking models, and toggle reasoning visibility with Ctrl + T. GPT-5 mini and GPT-4.1 are included with your Copilot subscription at no additional premium request cost. Extensible with MCP, plugins, and skills Copilot CLI ships with GitHub’s MCP server built in and supports custom MCP servers for connecting to any tool or service. Plugins: Install community and custom plugins directly from GitHub repositories with /plugin install owner/repo. Plugins can bundle MCP servers, agents, skills, and hooks. To learn more about plugins, head to our documentation about installing plugins. Agent Skills: Teach Copilot specialized workflows with markdown-based skill files. Skills load automatically when relevant, work across Copilot coding agent, Copilot CLI, and VS Code. To learn more about customizing Copilot CLI with skills, check out our documentation on agent skills. Custom agents: Create specialized agents through an interactive wizard or by writing.agent.md files. Agents can specify their own tools, MCP servers, and instructions. To learn more about leveraging custom agents, see our documentation on custom CLI agents. Hooks: Extend behavior at key lifecycle points. preToolUse hooks can deny or modify tool calls, and postToolUse hooks enable custom post-processing. Learn more in our documentation about how to implement hooks. Review, diff, and undo /diff: Review all changes made during your session with syntax-highlighted, inline diffs. Add line-specific comments and submit them as structured feedback. Toggle between session changes and branch diffs. /review: Analyze staged or unstaged code changes directly in the CLI for a quick sanity check before committing. Undo/rewind: Press Esc – Esc to rewind file changes to any previous snapshot in the session. Infinite sessions and repository memory Auto-compaction: When your conversation approaches 95% of the context window, Copilot automatically compresses history in the background. Sessions can run as long as you need. Repository memory: Copilot remembers conventions, patterns, and preferences it learns about your codebase across sessions, making future work more productive. Cross-session memory: Ask about past work, files, and pull requests across sessions. Learn more in our documentation about agentic memory. Install everywhere Copilot CLI runs on macOS, Linux, and Windows, and is available through npm, Homebrew, WinGet, a shell install script, and standalone executables. Homebrew, WinGet, and install script installations automatically update. Copilot CLI is also included in the default GitHub Codespaces image and available as a Dev Container Feature. For detailed installation instructions, head to our getting started guide. Polished terminal experience Since public preview, we’ve invested heavily in making the terminal experience feel native and refined: Alt-screen mode: A full-screen terminal UI with mouse text selection, Page Up/Page Down scrolling, and a dedicated footer status bar. This is currently available as an /experimental feature. Theme picker: Use /theme to choose from built-in themes including GitHub Dark, GitHub Light, and colorblind variants. Shell integration: Copilot respects your $SHELL environment variable and supports the! prefix for direct shell execution. Keyboard-first navigation: Full UNIX keybinding support ( Ctrl + A/E/W/U/K, Alt + arrows ), suspend/resume with Ctrl + Z, and a quick help overlay with?. Ctrl + X, Ctrl + E: Open your preferred terminal editor for composing longer prompts. Accessibility: Screen reader mode, configurable reasoning visibility, and responsive layout for narrow terminals. Enterprise ready Organization policies: Administrators can control model availability through Copilot policy settings. Network access management: Per-subscription API endpoints in accordance with GitHub’s network access management guidelines. Proxy support: HTTPS proxy support. Authentication: OAuth device flow, GitHub CLI token reuse, and CI/CD-friendly GITHUB_ASKPASS support. Hooks for policy enforcement: Use preToolUse hooks to enforce file access policies, argument sanitization, and custom approval workflows. Getting started Install Copilot CLI using your preferred method. Run copilot and authenticate with your GitHub account. Run /init to generate Copilot instructions tailored to your project. Start building. Copilot CLI is available with Copilot Pro, Pro+, Business, and Enterprise plans. For Copilot Business and Enterprise subscribers, an administrator must enable Copilot CLI from the Policies page. For tips on getting the most out of Copilot CLI, check out our best practices guide. Looking for more information? Read the documentation Learn more about Copilot CLI Check out our product page Join the discussion in our public repository The post GitHub Copilot CLI is now generally available appeared first on The GitHub Blog.",
+        "ja": "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic development environment—one that plans, builds, reviews, and remembers across sessions, all without leaving the terminal. Here are some highlights from our fast-paced updates that make Copilot CLI ready for general availability. Agentic development in your terminal Copilot CLI is more than a chat interface. It’s an autonomous coding agent that can plan complex tasks, execute multistep workflows, edit files, run tests, and iterate until the job is done. You choose how much control to keep, from approving every action to letting Copilot run fully autonomously. Plan mode: Press Shift + Tab to switch to plan mode. Copilot analyzes your request, asks clarifying questions, and builds a structured implementation plan before writing any code. Review and approve the plan, then watch Copilot execute it. Autopilot mode: For tasks you trust Copilot to handle end-to-end, autopilot mode lets Copilot work autonomously—executing tools, running commands, and iterating without stopping for approval. Built-in specialized agents: Copilot automatically delegates to specialized agents when appropriate (e.g., Explore for fast codebase analysis, Task for running builds and tests, Code Review for high-signal change review, and Plan for implementation planning). Multiple agents can run in parallel. Background delegation: Prefix any prompt with & to delegate work to the Copilot coding agent in the cloud, freeing your terminal for other tasks. Use /resume to switch between local and remote coding agent sessions seamlessly. To learn more about working effectively with Copilot CLI, head to our best practices guide. Your models, your choice Choose from the latest models from Anthropic, OpenAI, and Google, including Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.3-Codex, and Gemini 3 Pro. Faster models like Claude Haiku 4.5 are available for quick tasks. Switch models in the middle of a session with /model, configure reasoning effort for extended thinking models, and toggle reasoning visibility with Ctrl + T. GPT-5 mini and GPT-4.1 are included with your Copilot subscription at no additional premium request cost. Extensible with MCP, plugins, and skills Copilot CLI ships with GitHub’s MCP server built in and supports custom MCP servers for connecting to any tool or service. Plugins: Install community and custom plugins directly from GitHub repositories with /plugin install owner/repo. Plugins can bundle MCP servers, agents, skills, and hooks. To learn more about plugins, head to our documentation about installing plugins. Agent Skills: Teach Copilot specialized workflows with markdown-based skill files. Skills load automatically when relevant, work across Copilot coding agent, Copilot CLI, and VS Code. To learn more about customizing Copilot CLI with skills, check out our documentation on agent skills. Custom agents: Create specialized agents through an interactive wizard or by writing.agent.md files. Agents can specify their own tools, MCP servers, and instructions. To learn more about leveraging custom agents, see our documentation on custom CLI agents. Hooks: Extend behavior at key lifecycle points. preToolUse hooks can deny or modify tool calls, and postToolUse hooks enable custom post-processing. Learn more in our documentation about how to implement hooks. Review, diff, and undo /diff: Review all changes made during your session with syntax-highlighted, inline diffs. Add line-specific comments and submit them as structured feedback. Toggle between session changes and branch diffs. /review: Analyze staged or unstaged code changes directly in the CLI for a quick sanity check before committing. Undo/rewind: Press Esc – Esc to rewind file changes to any previous snapshot in the session. Infinite sessions and repository memory Auto-compaction: When your conversation approaches 95% of the context window, Copilot automatically compresses history in the background. Sessions can run as long as you need. Repository memory: Copilot remembers conventions, patterns, and preferences it learns about your codebase across sessions, making future work more productive. Cross-session memory: Ask about past work, files, and pull requests across sessions. Learn more in our documentation about agentic memory. Install everywhere Copilot CLI runs on macOS, Linux, and Windows, and is available through npm, Homebrew, WinGet, a shell install script, and standalone executables. Homebrew, WinGet, and install script installations automatically update. Copilot CLI is also included in the default GitHub Codespaces image and available as a Dev Container Feature. For detailed installation instructions, head to our getting started guide. Polished terminal experience Since public preview, we’ve invested heavily in making the terminal experience feel native and refined: Alt-screen mode: A full-screen terminal UI with mouse text selection, Page Up/Page Down scrolling, and a dedicated footer status bar. This is currently available as an /experimental feature. Theme picker: Use /theme to choose from built-in themes including GitHub Dark, GitHub Light, and colorblind variants. Shell integration: Copilot respects your $SHELL environment variable and supports the! prefix for direct shell execution. Keyboard-first navigation: Full UNIX keybinding support ( Ctrl + A/E/W/U/K, Alt + arrows ), suspend/resume with Ctrl + Z, and a quick help overlay with?. Ctrl + X, Ctrl + E: Open your preferred terminal editor for composing longer prompts. Accessibility: Screen reader mode, configurable reasoning visibility, and responsive layout for narrow terminals. Enterprise ready Organization policies: Administrators can control model availability through Copilot policy settings. Network access management: Per-subscription API endpoints in accordance with GitHub’s network access management guidelines. Proxy support: HTTPS proxy support. Authentication: OAuth device flow, GitHub CLI token reuse, and CI/CD-friendly GITHUB_ASKPASS support. Hooks for policy enforcement: Use preToolUse hooks to enforce file access policies, argument sanitization, and custom approval workflows. Getting started Install Copilot CLI using your preferred method. Run copilot and authenticate with your GitHub account. Run /init to generate Copilot instructions tailored to your project. Start building. Copilot CLI is available with Copilot Pro, Pro+, Business, and Enterprise plans. For Copilot Business and Enterprise subscribers, an administrator must enable Copilot CLI from the Policies page. For tips on getting the most out of Copilot CLI, check out our best practices guide. Looking for more information? Read the documentation Learn more about Copilot CLI Check out our product page Join the discussion in our public repository The post GitHub Copilot CLI is now generally available appeared first on The GitHub Blog.",
+        "en": "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic development environment—one that plans, builds, reviews, and remembers across sessions, all without leaving the terminal. Here are some highlights from our fast-paced updates that make Copilot CLI ready for general availability. Agentic development in your terminal Copilot CLI is more than a chat interface. It’s an autonomous coding agent that can plan complex tasks, execute multistep workflows, edit files, run tests, and iterate until the job is done. You choose how much control to keep, from approving every action to letting Copilot run fully autonomously. Plan mode: Press Shift + Tab to switch to plan mode. Copilot analyzes your request, asks clarifying questions, and builds a structured implementation plan before writing any code. Review and approve the plan, then watch Copilot execute it. Autopilot mode: For tasks you trust Copilot to handle end-to-end, autopilot mode lets Copilot work autonomously—executing tools, running commands, and iterating without stopping for approval. Built-in specialized agents: Copilot automatically delegates to specialized agents when appropriate (e.g., Explore for fast codebase analysis, Task for running builds and tests, Code Review for high-signal change review, and Plan for implementation planning). Multiple agents can run in parallel. Background delegation: Prefix any prompt with & to delegate work to the Copilot coding agent in the cloud, freeing your terminal for other tasks. Use /resume to switch between local and remote coding agent sessions seamlessly. To learn more about working effectively with Copilot CLI, head to our best practices guide. Your models, your choice Choose from the latest models from Anthropic, OpenAI, and Google, including Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.3-Codex, and Gemini 3 Pro. Faster models like Claude Haiku 4.5 are available for quick tasks. Switch models in the middle of a session with /model, configure reasoning effort for extended thinking models, and toggle reasoning visibility with Ctrl + T. GPT-5 mini and GPT-4.1 are included with your Copilot subscription at no additional premium request cost. Extensible with MCP, plugins, and skills Copilot CLI ships with GitHub’s MCP server built in and supports custom MCP servers for connecting to any tool or service. Plugins: Install community and custom plugins directly from GitHub repositories with /plugin install owner/repo. Plugins can bundle MCP servers, agents, skills, and hooks. To learn more about plugins, head to our documentation about installing plugins. Agent Skills: Teach Copilot specialized workflows with markdown-based skill files. Skills load automatically when relevant, work across Copilot coding agent, Copilot CLI, and VS Code. To learn more about customizing Copilot CLI with skills, check out our documentation on agent skills. Custom agents: Create specialized agents through an interactive wizard or by writing.agent.md files. Agents can specify their own tools, MCP servers, and instructions. To learn more about leveraging custom agents, see our documentation on custom CLI agents. Hooks: Extend behavior at key lifecycle points. preToolUse hooks can deny or modify tool calls, and postToolUse hooks enable custom post-processing. Learn more in our documentation about how to implement hooks. Review, diff, and undo /diff: Review all changes made during your session with syntax-highlighted, inline diffs. Add line-specific comments and submit them as structured feedback. Toggle between session changes and branch diffs. /review: Analyze staged or unstaged code changes directly in the CLI for a quick sanity check before committing. Undo/rewind: Press Esc – Esc to rewind file changes to any previous snapshot in the session. Infinite sessions and repository memory Auto-compaction: When your conversation approaches 95% of the context window, Copilot automatically compresses history in the background. Sessions can run as long as you need. Repository memory: Copilot remembers conventions, patterns, and preferences it learns about your codebase across sessions, making future work more productive. Cross-session memory: Ask about past work, files, and pull requests across sessions. Learn more in our documentation about agentic memory. Install everywhere Copilot CLI runs on macOS, Linux, and Windows, and is available through npm, Homebrew, WinGet, a shell install script, and standalone executables. Homebrew, WinGet, and install script installations automatically update. Copilot CLI is also included in the default GitHub Codespaces image and available as a Dev Container Feature. For detailed installation instructions, head to our getting started guide. Polished terminal experience Since public preview, we’ve invested heavily in making the terminal experience feel native and refined: Alt-screen mode: A full-screen terminal UI with mouse text selection, Page Up/Page Down scrolling, and a dedicated footer status bar. This is currently available as an /experimental feature. Theme picker: Use /theme to choose from built-in themes including GitHub Dark, GitHub Light, and colorblind variants. Shell integration: Copilot respects your $SHELL environment variable and supports the! prefix for direct shell execution. Keyboard-first navigation: Full UNIX keybinding support ( Ctrl + A/E/W/U/K, Alt + arrows ), suspend/resume with Ctrl + Z, and a quick help overlay with?. Ctrl + X, Ctrl + E: Open your preferred terminal editor for composing longer prompts. Accessibility: Screen reader mode, configurable reasoning visibility, and responsive layout for narrow terminals. Enterprise ready Organization policies: Administrators can control model availability through Copilot policy settings. Network access management: Per-subscription API endpoints in accordance with GitHub’s network access management guidelines. Proxy support: HTTPS proxy support. Authentication: OAuth device flow, GitHub CLI token reuse, and CI/CD-friendly GITHUB_ASKPASS support. Hooks for policy enforcement: Use preToolUse hooks to enforce file access policies, argument sanitization, and custom approval workflows. Getting started Install Copilot CLI using your preferred method. Run copilot and authenticate with your GitHub account. Run /init to generate Copilot instructions tailored to your project. Start building. Copilot CLI is available with Copilot Pro, Pro+, Business, and Enterprise plans. For Copilot Business and Enterprise subscribers, an administrator must enable Copilot CLI from the Policies page. For tips on getting the most out of Copilot CLI, check out our best practices guide. Looking for more information? Read the documentation Learn more about Copilot CLI Check out our product page Join the discussion in our public repository The post GitHub Copilot CLI is now generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-25-github-2026-02-25-generate-pull-request-titles-with-copilot-on-the-web",
       "date": "2026-02-25",
       "category": "github",
@@ -5076,6 +5197,30 @@
       "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "将问题从 Raycast 分配给 Copilot 编码代理",
+        "ja": "Raycast から Copilot コーディング エージェントに問題を割り当てる",
+        "en": "Assign issues to Copilot coding agent from Raycast"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会在后台运行，然后请求您进行审核。现在，您可以通过 Raycast（适用于 Windows 和 macOS 的强大免费启动器）将问题分配给 Copilot。 Raycast 可以启动应用程序、搜索文件、控制系统并利用社区构建的扩展（例如 GitHub Copilot 扩展）。安装扩展程序后，您可以使用“将问题分配给 Copilot”命令将问题分配给 Copilot。选择您的存储库和问题，然后按 Ctrl + Enter (Windows) 或 Cmd + Enter 分配问题。 Copilot 打开拉取请求，在后台处理您的任务，然后在完成后请求您进行审核。借助 GitHub Copilot 扩展，您还可以使用“创建任务”命令毫无问题地启动新任务，并使用“查看任务”命令跟踪已启动的任务的进度。 Copilot 编码代理可供 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者使用。如果您是 Copilot Business 或 Copilot Enterprise 订阅者，管理员必须先从“策略”页面启用 Copilot 编码代理，然后您才能使用它。 Raycast 的将问题分配给 Copilot 编码代理一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。 Copilot にタスクを委任すると、Copilot はバックグラウンドで動作し、ユーザーにレビューを要求します。 Windows および macOS 用の強力な無料ランチャーである Raycast から Copilot に問題を割り当てることができるようになりました。 Raycast では、アプリの起動、ファイルの検索、システムの制御が可能で、GitHub Copilot 拡張機能などのコミュニティが構築した拡張機能を活用できます。拡張機能をインストールしたら、「Assign Issue to Copilot」コマンドを使用して問題を Copilot に割り当てることができます。リポジトリと問題を選択し、Ctrl + Enter (Windows) または Cmd + Enter を押して問題を割り当てます。 Copilot はプル リクエストを開き、バックグラウンドでタスクを実行し、完了したらレビューを要求します。 GitHub Copilot 拡張機能を使用すると、「タスクの作成」コマンドを使用して新しいタスクを問題なく開始したり、「タスクの表示」コマンドを使用してすでに開始したタスクの進行状況を追跡したりすることもできます。 Copilot コーディング エージェントは、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。 Copilot Business または Copilot Enterprise サブスクライバーの場合、管理者は、Copilot コーディング エージェントを使用する前に、[ポリシー] ページから Copilot コーディング エージェントを有効にする必要があります。 Raycast から Copilot コーディング エージェントに問題を割り当てるという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it works in the background, then requests a review from you. You can now assign issues to Copilot from Raycast, a powerful free launcher for Windows and macOS. Raycast can launch apps, search files, control your system, and leverage community-built extensions like the GitHub Copilot extension. Once you’ve installed the extension, you can assign an issue to Copilot using the “Assign Issue to Copilot” command. Select your repository and issue, then press Ctrl + Enter (Windows) or Cmd + Enter to assign the issue. Copilot opens a pull request, works in the background on your task, then requests review from you when done. With the GitHub Copilot extension, you can also start new tasks without an issue using the “Create Task” command, and track the progress of tasks you’ve already started with the “View Tasks” command. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. The post Assign issues to Copilot coding agent from Raycast appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -6070,29 +6215,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
-      "date": "2026-02-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "输出格式",
-        "ja": "出力形式",
-        "en": "output_format"
-      },
-      "summary": {
-        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
-        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
-        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
-      "tags": [
-        "output-format",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-02-05-anthropic-effort",
       "date": "2026-02-05",
       "category": "anthropic",
@@ -6543,6 +6665,31 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-01-29-github-2026-01-29-copilot-metrics-in-github-enterprise-cloud-with-data-residency-in-public-preview",
+      "date": "2026-01-29",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Enterprise Cloud 中的 Copilot 指标以及公共预览版中的数据驻留",
+        "ja": "パブリック プレビュー中のデータ常駐を使用した GitHub Enterprise Cloud のメトリクスのコパイロット",
+        "en": "Copilot metrics in GitHub Enterprise Cloud with data residency in public preview"
+      },
+      "summary": {
+        "zh": "我们知道数据驻留对于合规性和区域要求有多重要。至此，Copilot 的使用、代码生成仪表板和相应的 API 现已可供 GitHub Enterprise Cloud 上的客户使用并具有数据驻留。包括什么？ GitHub Enterprise Cloud 上具有数据驻留的客户现在可以看到以下信息： Copilot 使用情况仪表板：获取有关团队如何使用 GitHub Copilot 的清晰、可操作的见解。仪表板提供了代码完成活动、IDE 使用情况、生成的代码行等的可见性。代码生成仪表板：通过量化 Copilot 在完成、聊天和代理功能中建议、添加或删除的行来观察 Copilot 的输出。细粒度权限：如果您被分配了“查看企业 Copilot 指标”企业角色，则可以访问 API 和仪表板。这意味着分配此角色的所有用户（而不仅仅是企业管理员或计费经理）都有权查看企业的精细 Copilot 使用指标。组织使用情况：以编程方式访问组织自己的 Copilot 采用率和使用率指标，包括各种 Copilot 功能的使用统计数据、用户参与度数据和功能采用率指标。有关更多信息，请参阅我们的 API 文档。 API 访问：以编程方式访问整个组织中的 Copilot 使用数据，以进行自定义报告、监控、合规性和高级分析。可用性 对于通过数据驻留迁移到 GitHub Enterprise Cloud 的现有 GitHub Enterprise Cloud 客户，请注意，使用数据将跨企业拆分。历史使用情况将仍然与您现有的企业相关联，而迁移后的使用情况将由于帐户更改而归属于新的数据驻留企业。如果用户在 IDE 中登录多个 GitHub 帐户，则生成的使用量将全部归属于具有数据驻留帐户的 GitHub Enterprise Cloud，并且不会在其他帐户之间共享。要访问仪表板，请导航到您的企业帐户→“AI Controls”→“Copilot”→“指标”→“Copilot 使用指标”。然后，您应该在“见解”→“副驾驶使用”或“代码生成”下看到仪表板。另请确保您是企业管理员、计费经理，或者拥有授予您访问 Copilot 指标的适当细粒度权限。有关 API 访问，请访问我们的 Copilot 使用指标 API 文档。加入 GitHub 社区内的讨论。 GitHub Enterprise Cloud 中的 Copilot 后指标以及公共预览版中的数据驻留首先出现在 GitHub 博客上。",
+        "ja": "私たちは、データの保管場所がコンプライアンスと地域の要件にとっていかに重要であるかを理解しています。その時点で、顧客は Copilot の使用法、コード生成ダッシュボード、および対応する API を、データ常駐機能を備えた GitHub Enterprise Cloud 上で利用できるようになりました。何が含まれていますか?データ常駐を備えた GitHub Enterprise Cloud の顧客は、次の情報を確認できるようになりました。 Copilot 使用状況ダッシュボード: チームが GitHub Copilot をどのように使用しているかについて、明確で実用的な洞察を取得します。ダッシュボードでは、コード補完アクティビティ、IDE の使用状況、生成されたコード行などを可視化できます。コード生成ダッシュボード: 補完、チャット、およびエージェント機能全体で提案、追加、または削除された行を定量化することで、Copilot の出力を観察します。詳細な権限: エンタープライズ コパイロット メトリックの表示エンタープライズ ロールが割り当てられている場合は、API とダッシュボードにアクセスします。これは、エンタープライズ管理者や請求管理者だけでなく、このロールを割り当てられたすべてのユーザーが、企業の詳細な Copilot 使用状況メトリクスを表示できることを意味します。組織の使用状況: 組織独自の Copilot の導入と使用状況の指標 (さまざまな Copilot 機能の使用統計、ユーザー エンゲージメント データ、機能の導入指標など) にプログラムでアクセスします。詳細については、API ドキュメントを参照してください。 API アクセス: カスタム レポート、監視、コンプライアンス、高度な分析のために、組織全体の Copilot 使用状況データにプログラムでアクセスします。可用性 データ常駐を備えた GitHub Enterprise Cloud に移行する既存の GitHub Enterprise Cloud 顧客の場合、使用状況データが企業間で分割されることに注意してください。過去の使用量は既存の企業に関連付けられたままになりますが、移行後の使用量はアカウントの変更により新しいデータ常駐企業に関連付けられます。ユーザーが IDE 内の複数の GitHub アカウントにログインしている場合、生成された使用量はすべて、データ常駐アカウントを備えた GitHub Enterprise Cloud に帰属され、他のアカウント間で共有されることはありません。ダッシュボードにアクセスするには、エンタープライズ アカウント→「AI Controls」→「Copilot」→「Metrics」→「Copilot use metrics」に移動します。 「インサイト」→「Copilot の使用法」または「コード生成」の下にダッシュボードが表示されます。また、エンタープライズ管理者または請求管理者であるか、Copilot メトリクスへのアクセスを許可する適切で詳細な権限を持っていることも確認してください。 API アクセスについては、Copilot 使用状況メトリック API ドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。パブリック プレビューでのデータ常駐を伴う GitHub Enterprise Cloud の Copilot メトリクスの投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "We know how important data residency is for compliance and regional requirements. To that point, the Copilot usage, code generation dashboards, and corresponding API are now available to customers on GitHub Enterprise Cloud with data residency. What’s included? Customers on GitHub Enterprise Cloud with data residency can now see the following information: Copilot usage dashboard: Get clear, actionable insights into how your teams are using GitHub Copilot. The dashboard provides visibility into code completion activity, IDE usage, lines of code generated, and more. Code generation dashboard: Observe Copilot’s output by quantifying the lines it suggested, added, or deleted across completions, chat, and agent features. Fine-grain permissions: Access the APIs and dashboard if you are assigned the View enterprise Copilot metrics enterprise role. This means that all users assigned this role, not just enterprise admins or billing managers, are empowered to view granular Copilot usage metrics for the enterprise. Organization usage: Programmatically access your organization’s own Copilot adoption and usage metrics, including usage statistics for various Copilot features, user engagement data, and feature adoption metrics. For more information, see our API documentation. API access: Programmatically access Copilot usage data across your organization for custom reporting, monitoring, compliance, and advanced analytics. Availability For existing GitHub Enterprise Cloud customers migrating to GitHub Enterprise Cloud with data residency, note that usage data will be split across enterprises. Historical usage will remain associated with your existing enterprise, while usage after migration will be attributed to the new data residency enterprise due to account changes. If users are logged into multiple GitHub accounts within the IDE, usage generated will all be attributed to the GitHub Enterprise Cloud with data residency account and not shared across other accounts. To access the dashboard, navigate to your enterprise account → “AI Controls” → “Copilot” → “Metrics” → “Copilot usage metrics”. You should then see the dashboard under “Insights” → “Copilot usage” or “Code generation”. Please also ensure you are either an enterprise administrator, billing manager, or have the proper fine-grained permissions that grant you access to Copilot metrics. For API access, visit our Copilot usage metrics API documentation. Join the discussion within GitHub Community. The post Copilot metrics in GitHub Enterprise Cloud with data residency in public preview appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-29-copilot-metrics-in-github-enterprise-cloud-with-data-residency-in-public-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-01-29-github-2026-01-29-closing-down-notice-of-legacy-copilot-metrics-apis",
