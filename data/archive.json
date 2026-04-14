@@ -1,7 +1,146 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-14",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-01-13-openai-changelog",
+      "date": "2026-01-13",
+      "category": "openai",
+      "title": {
+        "zh": "为实时 API 添加了专用 SIP IP 范围。",
+        "ja": "リアルタイム API の専用 SIP IP 範囲を追加しました。",
+        "en": "Added dedicated SIP IP ranges for Realtime API."
+      },
+      "summary": {
+        "zh": "为实时 API 添加了专用 SIP IP 范围。 sip.api.openai.com 执行 GeoIP 路由，并将 SIP 流量定向到最近的区域。了解更多。",
+        "ja": "リアルタイム API の専用 SIP IP 範囲を追加しました。 sip.api.openai.com は GeoIP ルーティングを実行し、SIP トラフィックを最も近いリージョンに送信します。もっと詳しく知る。",
+        "en": "Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing, and will direct SIP traffic to the closest region. Learn more."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-01-13-feature-added-dedicated-sip-ip-ranges-for-realtime-api",
+      "tags": [
+        "v1-realtime",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-13-google-veo-3-1-ingredients-to-video-more-consistency-creativity-and-control",
+      "date": "2026-01-13",
+      "category": "google",
+      "title": {
+        "zh": "Veo 3.1 视频的组成部分：更具一致性、创造力和控制力",
+        "ja": "Veo 3.1 材料からビデオへ: 一貫性、創造性、制御性の向上",
+        "en": "Veo 3.1 Ingredients to Video: More consistency, creativity and control"
+      },
+      "summary": {
+        "zh": "我们最新的 Veo 更新可生成生动、动态的剪辑，让人感觉自然且引人入胜，并支持垂直视频生成。",
+        "ja": "最新の Veo アップデートは、自然で魅力的な、生き生きとしたダイナミックなクリップを生成し、垂直ビデオ生成をサポートします。",
+        "en": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
+      },
+      "url": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-01-13-google-release-notes",
+      "date": "2026-01-13",
+      "category": "google",
+      "title": {
+        "zh": "Veo 3.1 视频参考更新",
+        "ja": "Veo 3.1 リファレンスとビデオの更新",
+        "en": "Veo 3.1 reference-to-video update"
+      },
+      "summary": {
+        "zh": "功能 Veo 3.1 参考视频更新 Veo 3.1 预览版型号现在支持以下功能： 参考视频的宽高比为 9:16。对以 1080p 和 4k 分辨率生成的视频进行上采样。有关更多信息，请参阅以下内容：从参考图像生成 Veo 视频 Veo on Vertex AI 视频生成 API",
+        "ja": "機能 Veo 3.1 リファレンス対ビデオのアップデート Veo 3.1 プレビュー モデルは、次の機能をサポートするようになりました: リファレンス対ビデオのアスペクト比 9:16。 1080p および 4k 解像度で生成されたビデオのアップサンプリング。詳細については、以下を参照してください: 参照画像から Veo ビデオを生成する Vertex AI ビデオ生成 API 上の Veo",
+        "en": "Feature Veo 3.1 reference-to-video update Veo 3.1 Preview models now support the following features: 9:16 aspect ratio for reference-to-video. Upsampling for videos generated at 1080p and 4k resolutions. For more information, see the following: Generate Veo videos from reference images Veo on Vertex AI video generation API"
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#January_13_2026-veo-3-1-reference-to-video-update",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-01-13-github-2026-01-13-upcoming-deprecation-of-select-github-copilot-models-from-claude-and-openai",
+      "date": "2026-01-13",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Anthropic 和 OpenAI 中的部分 GitHub Copilot 模型",
+        "ja": "Anthropic および OpenAI の一部の GitHub Copilot モデルの今後の非推奨化",
+        "en": "Upcoming deprecation of select GitHub Copilot models from Anthropic and OpenAI"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 2 月 19 日）：我们更新了这篇文章和标题，删除了对不再退役的 Google 模型的引用。此外，我们还更新了建议替代方案表，使其更加准确。作为我们对快速、高质量 Copilot 体验承诺的一部分，我们定期评估和淘汰旧型号，转而采用更新、功能更强大的型号。我们将于 2026 年 2 月 17 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。一旦模型被弃用，就不需要采取任何措施来删除它们。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。 Anthropic 和 OpenAI 的部分 GitHub Copilot 模型即将弃用的帖子首先出现在 GitHub 博客上。",
+        "ja": "編集者注 (2026 年 2 月 19 日): この投稿とタイトルを更新して、廃止されない Google モデルへの参照を削除しました。さらに、より正確になるように、推奨される代替案の表を更新しました。高速で高品質な Copilot エクスペリエンスへの取り組みの一環として、私たちは定期的に古いモデルを評価して廃止し、より新しい、より高機能なモデルを採用しています。 2026 年 2 月 17 日に、すべての GitHub Copilot エクスペリエンス (コパイロット チャット、インライン編集、質問モードおよびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex これらの日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨になったモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。 Anthropic および OpenAI の一部の GitHub Copilot モデルの今後の非推奨という投稿は、最初に GitHub ブログに掲載されました。",
+        "en": "Editor’s note (February 19, 2026): We updated this post and the title to remove a reference to a Google model that is no longer being retired. In addition, we updated the table of suggested alternatives to be more accurate. As part of our commitment to a fast, high‑quality Copilot experience, we regularly evaluate and retire older models in favor of newer, more capable ones. We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, as well as code completions) on February 17, 2026: Model Deprecation Date Suggested Alternative Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. The post Upcoming deprecation of select GitHub Copilot models from Anthropic and OpenAI appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-13-upcoming-deprecation-of-select-github-copilot-models-from-claude-and-openai",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-13-github-2026-01-13-organization-custom-properties-now-generally-available",
+      "date": "2026-01-13",
+      "category": "github",
+      "title": {
+        "zh": "组织自定义属性现已普遍可用",
+        "ja": "組織のカスタム プロパティが一般利用可能になりました",
+        "en": "Organization custom properties now generally available"
+      },
+      "summary": {
+        "zh": "组织自定义属性现已普遍可用，为企业管理员提供了一种使用元数据标记组织并自动定位企业规则集的强大方法。为什么组织自定义属性 企业通常围绕业务部门、地理区域、合规框架或开发阶段来组织其 GitHub 展示。到目前为止，应用一致的规则集意味着手动一一选择组织或依赖不可扩展的命名约定。通过组织自定义属性，您可以： 定义一次，随处应用：使用区域：EMEA、合规性：SOC2 或业务部门：平台等属性标记组织，然后让您的规则集完成剩下的工作。消除配置偏差：规则集自动应用于符合您条件的任何组织，甚至是新创建的组织。适应您的企业结构：无论您是按部门、法规要求还是项目生命周期进行组织，自定义属性都能满足您的需求。想象一下，您需要对欧盟处理客户数据的所有组织实施更严格的代码审查要求。无需维护手动列表，而是创建一个针对区域：欧盟和数据分类：客户数据的规则集。当一个新的欧盟团队组建他们的组织时，这些政策会自动应用。工作原理 企业管理员在企业级别定义自定义属性并将值分配给各个组织。属性支持： 单选：从预定义列表中选择一个值 多选：从预定义列表中选择多个值 文本：输入自由格式文本 真/假：设置布尔值 URL：输入 URL 值 一旦标记了组织，企业规则集就可以根据任意属性组合来定位它们。开始使用 组织自定义属性可供所有 GitHub Enterprise Cloud 客户使用。企业管理员可以访问其企业设置的组织部分中的自定义属性。有关更多信息，请参阅 GitHub 文档中的“管理企业中组织的自定义属性”。现在普遍可用的组织自定义属性一文首先出现在 GitHub 博客上。",
+        "ja": "組織のカスタム プロパティが一般提供されるようになりました。これにより、エンタープライズ管理者は組織にメタデータをタグ付けし、エンタープライズ ルールセットを自動的にターゲットにする強力な方法が提供されます。カスタム プロパティを組織する理由 企業は、ビジネス ユニット、地理的地域、コンプライアンス フレームワーク、または開発段階に基づいて GitHub のプレゼンスを組織することがよくあります。これまで、一貫したルールセットを適用するには、組織を 1 つずつ手動で選択するか、拡張性のない命名規則に依存する必要がありました。組織のカスタム プロパティを使用すると、次のことが可能になります。 一度定義すれば、どこにでも適用できます。地域: EMEA、コンプライアンス: SOC2、ビジネス ユニット: プラットフォームなどのプロパティで組織をタグ付けし、残りはルールセットに任せます。構成のドリフトを排除する: ルールセットは、新しく作成された組織であっても、条件に一致する組織に自動的に適用されます。企業構造に適応: 部門別、規制要件別、またはプロジェクトのライフサイクル別に整理しても、カスタム プロパティはどこにいても対応します。 EU 内の顧客データを扱うすべての組織に対して、より厳格なコード レビュー要件を適用する必要があると想像してください。手動リストを管理する代わりに、地域: EU およびデータ分類: 顧客データをターゲットとするルールセットを作成します。 EU を拠点とする新しいチームが組織を立ち上げると、ポリシーが自動的に適用されます。仕組み エンタープライズ管理者は、エンタープライズ レベルでカスタム プロパティを定義し、値を個々の組織に割り当てます。プロパティのサポート: 単一選択: 事前定義されたリストから 1 つの値を選択します。 複数選択: 事前定義されたリストから複数の値を選択します。 テキスト: 自由形式のテキストを入力します。 True/false: ブール値を設定します。 URL: URL 値を入力します。 組織にタグを付けると、エンタープライズ ルールセットは、プロパティの任意の組み合わせに基づいて組織をターゲットにできます。組織のカスタム プロパティは、すべての GitHub Enterprise Cloud 顧客が利用できます。エンタープライズ管理者は、エンタープライズ設定の組織セクションでカスタム プロパティにアクセスできます。詳細については、GitHub ドキュメントの「企業内の組織のカスタム プロパティの管理」を参照してください。一般利用可能になった組織のカスタム プロパティの投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Organization custom properties are now generally available, giving enterprise administrators a powerful way to tag organizations with metadata and automatically target enterprise rulesets. Why organization custom properties Enterprises often organize their GitHub presence around business units, geographic regions, compliance frameworks, or development stages. Until now, applying consistent rulesets meant manually selecting organizations one-by-one or relying on naming conventions that don’t scale. With organization custom properties, you can: Define once, apply everywhere: Tag organizations with properties like region: EMEA, compliance: SOC2, or business-unit: Platform and let your rulesets do the rest. Eliminate configuration drift: Rulesets automatically apply to any organization matching your criteria, even newly created ones. Adapt to your enterprise structure: Whether you organize by department, regulatory requirements, or project lifecycle, custom properties meet you where you are. Imagine you need to enforce stricter code review requirements for all organizations handling customer data in the EU. Instead of maintaining a manual list, create a ruleset that targets region: EU and data-classification: customer-data. When a new EU-based team spins up their organization, the policies apply automatically. How it works Enterprise administrators define custom properties at the enterprise level and assign values to individual organizations. Properties support: Single-select: Choose one value from a predefined list Multi-select: Choose multiple values from a predefined list Text: Enter free-form text True/false: Set a boolean value URL: Enter URL value Once you’ve tagged your organizations, enterprise rulesets can target them based on any combination of properties. Get started Organization custom properties are available to all GitHub Enterprise Cloud customers. Enterprise administrators can access custom properties in the organization section of their enterprise settings. For more information, see “ Managing custom properties for organizations in your enterprise ” in GitHub Docs. The post Organization custom properties now generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-13-organization-custom-properties-now-generally-available",
+      "tags": [
+        "improvement",
+        "enterprise-management-tools",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-13-anthropic-introducing-anthropic-labs",
+      "date": "2026-01-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "实验室介绍",
+        "ja": "研究室の紹介",
+        "en": "Introducing Labs"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-01-12-openai-openai-raising-concerns-policy",
       "date": "2026-01-12",
