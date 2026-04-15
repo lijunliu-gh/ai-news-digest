@@ -354,6 +354,56 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-10-github-2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "强制执行新限制并从 Copilot Pro+ 中淘汰 Opus 4.6 Fast",
+        "ja": "新しい制限を適用し、Copilot Pro+ から Opus 4.6 Fast を廃止",
+        "en": "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+"
+      },
+      "summary": {
+        "zh": "随着 GitHub Copilot 继续快速增长，我们继续观察到高并发和密集使用模式的增加。虽然我们知道这可以由合法的工作流程驱动，但这种类型的使用给我们的共享基础设施和运营资源带来了巨大的压力。为了确保每个用户都能获得快速、可靠的 Copilot 体验，我们正在更新限制以更好地平衡容量。这些将在接下来的几周内推出。用户可能会看到两种类型的限制。两者都是为了平衡容量并保护每个人的系统。整体服务可靠性限制 特定型号或型号系列容量的限制 这对您意味着什么 当您达到服务可靠性限制时，您将需要等待当前会话重置。当您受到速率限制时，这将在错误体验中可见。当您达到特定型号或型号系列的使用限制时，您可以切换到替代型号或使用自动模式。我们建议尽可能在一段时间内更均匀地分配请求，而不是大而集中地发送请求。您还可以升级您的计划以获得更高的限额。我们知道限制可能会令人沮丧，因此正在积极探索新的方法来为所有用户提供更高的容量。当我们确定持久的解决方案时，我们将分享最新信息。在我们的文档中了解有关速率限制的更多信息。为了进一步提高服务可靠性，我们正在简化我们的模型产品，并将资源集中在用户最常使用的模型上。作为第一步，我们将从今天开始为 Copilot Pro+ 用户停用 Opus 4.6 Fast。我们建议使用 Opus 4.6 作为具有类似功能的替代模型。 Copilot Pro+ 发布的“实施新限制并快速淘汰 Opus 4.6”一文首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot が急速に成長し続けるにつれて、高い同時実行性と集中的な使用のパターンの増加が観察され続けています。これが正当なワークフローによって引き起こされる可能性があることは理解していますが、この種の使用法は共有インフラストラクチャと運用リソースに大きな負担を与えます。すべてのユーザーが高速で信頼性の高い Copilot エクスペリエンスを確実に得られるように、容量のバランスを改善するために制限を更新しています。これらは今後数週間以内に展開されます。ユーザーに表示される制限には 2 種類あります。どちらも容量のバランスをとり、全員のシステムを保護することを目的としています。全体的なサービスの信頼性の制限 特定のモデルまたはモデル ファミリの容量の制限 これが意味するもの サービスの信頼性の制限に達した場合は、現在のセッションがリセットされるまで待つ必要があります。これは、レートが制限されている場合のエラー エクスペリエンスに表示されます。特定のモデルまたはモデル ファミリの使用制限に達した場合は、代替モデルに切り替えるか、自動モードを使用できます。リクエストを大規模で集中した波で送信するのではなく、可能な限り時間をかけて均等に分散することをお勧めします。プランをアップグレードして制限を増やすこともできます。私たちは制限がストレスになる可能性があることを認識しており、すべてのユーザーに容量の増加を提供する新しい方法を積極的に模索しています。永続的なソリューションを特定したら、最新情報を共有します。レート制限について詳しくは、ドキュメントをご覧ください。サービスの信頼性をさらに向上させるために、当社ではモデルの提供を合理化し、ユーザーが最もよく使用するモデルにリソースを集中させています。最初のステップとして、今日から Copilot Pro+ ユーザー向けに Opus 4.6 Fast を廃止します。同様の機能を備えた代替モデルとして Opus 4.6 を使用することをお勧めします。新しい制限を強制し、Copilot Pro+ から Opus 4.6 Fast を廃止するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate workflows, this type of usage places significant strain on our shared infrastructure and operating resources. To ensure every user gets a fast, reliable Copilot experience, we’re updating limits to better balance capacity. These will roll out over the next few weeks. There will be two types of limits that users may see. Both are meant to balance capacity and protect the system for everyone. Limits for overall service reliability Limits for specific models or model family capacity What this means for you When you hit a service reliability limit, you will need to wait until your current session resets. This will be visible in the error experience when you are rate limited. When you hit a usage limit for specific models or model family, you can switch to an alternative model or use Auto mode. We recommend distributing requests more evenly over time when possible, rather than sending them in large, concentrated waves. You can also upgrade your plan for higher limits. We know limits can be frustrating and are actively exploring new ways to offer increased capacity for all users. We will share updates as we identify durable solutions. Learn more in our docs about rate limiting. To further improve service reliability, we are streamlining our model offerings and focusing resources on the models our users use the most. As a first step, we’ll be retiring Opus 4.6 Fast for Copilot Pro+ users, beginning today. We recommend using Opus 4.6 as an alternative model with similar capabilities. The post Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+ appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-10-github-2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
+        "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。",
+        "en": "Copilot usage metrics now aggregate Copilot cloud agent active user counts"
+      },
+      "summary": {
+        "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。企业和组织级别的 1 天和 28 天报告中提供了三个新字段： 字段 说明 daily_active_copilot_cloud_agent_users 当日使用 Copilot 云代理的唯一用户数 week_active_copilot_cloud_agent_users 在跟踪 7 天窗口中使用 Copilot 云代理的唯一用户数monthly_active_copilot_cloud_agent_users 使用的唯一用户数尾随 28 天窗口中的 Copilot 云代理 这些字段可为空 — 当数据可用时，它们返回计数（包括零）；当该时间段不存在 Copilot 云代理数据时，它们返回空。为什么这很重要 一目了然地跟踪采用情况。查看整个企业或组织中有多少用户正在积极使用 Copilot 云代理，而无需自行聚合用户级数据。比较不同时间窗口的参与度。每日、每周和每月的计数可让您发现采用趋势并衡量部署工作的影响。完成图片。这些计数与诸如monthly_active_agent_users（IDE代理模式）和用户级used_copilot_coding_agent标志等现有指标并存，让您可以全面了解Copilot跨表面的采用情况。请访问我们的 API 文档以了解更多信息。加入 GitHub 社区内的讨论。 Copilot 使用指标现在汇总了 Copilot 云代理活跃用户数，该帖子首先出现在 GitHub 博客上。",
+        "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。エンタープライズ レベルと組織レベルの 1 日レポートと 28 日レポートの両方で 3 つの新しいフィールドが使用可能です。 フィールド 説明 daily_active_copilot_cloud_agent_users その日に Copilot クラウド エージェントを使用したユニーク ユーザーの数 Weekly_active_copilot_cloud_agent_users 後続の 7 日間のウィンドウで Copilot クラウド エージェントを使用したユニーク ユーザーの数monthly_active_copilot_cloud_agent_users過去 28 日間のウィンドウで Copilot クラウド エージェントを使用したユニーク ユーザーの数 これらのフィールドは null 可能です。データが利用可能な場合はカウント (0 を含む) を返し、その期間の Copilot クラウド エージェント データが存在しない場合は null を返します。これが重要な理由 導入状況を一目で追跡します。ユーザーレベルのデータを自分で集計することなく、企業または組織全体で Copilot クラウド エージェントをアクティブに使用しているユーザーの数を確認します。時間枠全体でエンゲージメントを比較します。日次、週次、月次のカウントにより、導入傾向を特定し、展開作業の影響を測定できます。画像を完成させます。これらの数は、monthly_active_agent_users (IDE エージェント モード) やユーザーレベルの used_copilot_coding_agent フラグなどの既存のメトリクスと並行して表示され、サーフェス全体での Copilot の導入状況を完全に把握できます。詳細については、API ドキュメントをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。投稿の Copilot 使用状況メトリックでは、Copilot クラウド エージェントのアクティブ ユーザー数が集計されるようになりました。最初に GitHub ブログに掲載されました。",
+        "en": "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in both 1-day and 28-day reports at the enterprise and organization levels: Field Description daily_active_copilot_cloud_agent_users Number of unique users who used Copilot cloud agent on that day weekly_active_copilot_cloud_agent_users Number of unique users who used Copilot cloud agent in the trailing 7-day window monthly_active_copilot_cloud_agent_users Number of unique users who used Copilot cloud agent in the trailing 28-day window These fields are nullable — they return a count (including zero) when data is available, or null when no Copilot cloud agent data exists for that period. Why this matters Track adoption at a glance. See how many users are actively using Copilot cloud agent across your enterprise or organization without aggregating user-level data yourself. Compare engagement across time windows. Daily, weekly, and monthly counts let you spot adoption trends and measure the impact of rollout efforts. Complete the picture. These counts sit alongside existing metrics like monthly_active_agent_users (IDE agent mode) and the user-level used_copilot_coding_agent flag, giving you a full view of Copilot adoption across surfaces. Visit our API documentation to learn more. Join the discussion within GitHub Community. The post Copilot usage metrics now aggregate Copilot cloud agent active user counts appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-10-github-2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
       "date": "2026-04-10",
       "category": "github",
@@ -1379,6 +1429,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 即将弃用 Claude Sonnet 4",
+        "ja": "GitHub Copilot における Claude Sonnet 4 の今後の非推奨予定",
+        "en": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 5 月 1 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。一旦模型被弃用，就不需要采取任何措施来删除它们。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。分享您的反馈 要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。加入 GitHub 社区分享您的反馈。 GitHub Copilot 中即将弃用 Claude Sonnet 4 的帖子首先出现在 GitHub 博客上。",
+        "ja": "2026 年 5 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 この日付より前にサポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨になったモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。フィードバックを共有してください。Copilot で利用可能なモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。 GitHub コミュニティに参加してフィードバックを共有してください。 GitHub Copilot における Claude Sonnet 4 の今後の非推奨に関する投稿 最初に GitHub ブログに登場しました。",
+        "en": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/1/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-01 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the models once they have been deprecated. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Join the GitHub Community to share your feedback. The post Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
       "date": "2026-03-31",
       "category": "openai",
@@ -2030,6 +2104,31 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-03-24-github-2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
+      "date": "2026-03-24",
+      "category": "github",
+      "title": {
+        "zh": "通过 API 管理 Copilot 编码代理存储库访问",
+        "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する",
+        "en": "Manage Copilot coding agent repository access via the API"
+      },
+      "summary": {
+        "zh": "想要大规模管理 Copilot 编码代理访问的组织所有者现在可以使用新的 Copilot 编码代理管理 REST API（在公共预览版中提供）以编程方式实现此目的。通过这些 API，您可以： 决定 Copilot 编码代理是否可用于您的组织拥有的无存储库、所有存储库或选定的存储库。当您的组织设置为仅允许选定的存储库时，添加或删除允许的存储库。您还可以通过 UI 管理这些设置，方法是导航到组织的设置并单击 Copilot，然后单击编码代理。要了解更多信息，请参阅 GitHub 文档中的“管理对 GitHub Copilot 编码代理的访问”。通过 API 管理 Copilot 编码代理存储库访问一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントへのアクセスを大規模に管理したい組織所有者は、パブリック プレビューで利用可能な新しい Copilot コーディング エージェント管理 REST API を使用してプログラムで管理できるようになりました。これらの API を使用すると、次のことが可能になります。 Copilot コーディング エージェントをリポジトリなし、すべてのリポジトリ、または組織が所有する選択したリポジトリで使用できるかどうかを決定します。組織が選択されたリポジトリのみを許可するように設定されている場合は、許可されたリポジトリを追加または削除します。組織の設定に移動し、[コパイロット]、[コーディング エージェント] の順にクリックすることで、UI を通じてこれらの設定を管理することもできます。詳細については、GitHub ドキュメントの「GitHub Copilot コーディング エージェントへのアクセスの管理」を参照してください。 API を介した Copilot コーディング エージェント リポジトリ アクセスの管理という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Organization owners who want to manage Copilot coding agent access at scale can now do so programmatically with the new Copilot coding agent management REST APIs, available in public preview. With these APIs, you can: Decide whether Copilot coding agent is available for no repositories, all repositories, or selected repositories owned by your organization. Add or remove allowed repositories when your organization is set to allow Only selected repositories. You can also manage these settings through the UI by navigating to your organization’s settings and clicking Copilot then Coding agent. To learn more, see “Managing access to GitHub Copilot coding agent” in the GitHub Docs. The post Manage Copilot coding agent repository access via the API appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
       "date": "2026-03-24",
       "category": "github",
@@ -2493,6 +2592,30 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-17-github-2026-03-17-gpt-5-4-mini-is-now-generally-available-for-github-copilot",
+      "date": "2026-03-17",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.4 mini 现已普遍适用于 GitHub Copilot",
+        "ja": "GPT-5.4 mini が GitHub Copilot で一般提供されるようになりました",
+        "en": "GPT-5.4 mini is now generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-5.4 mini 是 OpenAI 代理编码模型 GPT-5.4 的最新快速版本，现已在 GitHub Copilot 中推出。在早期测试中，GPT-5.4 mini 似乎是 OpenAI 迄今为止性能最高的迷你模型。它提供最快的第一个令牌时间，在代码库探索方面更强大，并且在使用 grep 风格的工具时特别有效。请注意，虽然此模型以.33x 高级请求乘数启动，但定价是暂定的，可能会发生变化 GitHub Copilot GPT-5.4 中的可用性将可供 Copilot Pro、Pro+、Business 和 Enterprise 用户使用。您可以在以下模型选择器中选择模型： Visual Studio Code 及更高版本 在所有模式中：聊天、询问、编辑、代理 Visual Studio 版本及更高版本 在所有模式中：代理、询问 JetBrains 版本及更高版本在所有模式中：询问、编辑、代理 Xcode 版本及更高版本 在所有模式中：询问、代理 Eclipse 版本及更高版本 在所有模式中：询问、代理 github.com GitHub Mobile iOS 和 Android GitHub CLI 虽然模型出现在上述所有版本中，但提示和模型参数在每个产品的最新版本，因此我们强烈建议您升级到最新版本。启用访问企业和商业计划：管理员必须在 Copilot 设置中启用 GPT-5.4 迷你策略。启用后，该组织中的用户将在 Visual Studio Code 的模型选择器中看到 GPT-5.4 mini。自带密钥：从选择器中选择“管理模型”，选择“GPT-5.4 mini”，然后在出现提示时输入您的 API 密钥。了解更多 要探索 GitHub Copilot 中提供的所有模型，请参阅我们的模型文档并开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.4 mini 现已普遍可用于 GitHub Copilot，首先出现在 GitHub 博客上。",
+        "ja": "OpenAI のエージェント コーディング モデル GPT-5.4 の最新高速バージョンである GPT-5.4 mini が、現在 GitHub Copilot で展開されています。初期のテストでは、GPT‑5.4 mini は OpenAI のこれまでで最もパフォーマンスの高いミニ モデルであるようです。最初のトークンまでの時間が最速で、コードベースの探索がより強力で、grep スタイルのツールを使用する場合に特に効果的です。このモデルは.33 倍のプレミアム リクエスト乗数で発売されますが、価格は暫定的なものであり、変更される可能性があることに注意してください。 GitHub での入手可能性 Copilot GPT-5.4 は、Copilot Pro、Pro+、Business、および Enterprise ユーザーが利用できます。次のモデル ピッカーでモデルを選択できるようになります。 Visual Studio Code 以降のすべてのモード: チャット、質問、編集、エージェント Visual Studio バージョン以降のすべてのモード: エージェント、ask JetBrains バージョン以降のすべてのモード: ask、編集、エージェント Xcode バージョン以降のすべてのモード: ask、エージェント Eclipse バージョン以降のすべてのモード: ask、エージェント github.com GitHub Mobile iOS および Android GitHub CLI モデルはすべてのモードで表示されます上記のバージョンでは、プロンプトおよびモデル パラメーターは各製品の最新バージョンで最適に動作するため、最新バージョンにアップグレードすることを強くお勧めします。 Enterprise および Business プランへのアクセスの有効化: 管理者は、Copilot 設定で GPT-5.4 ミニ ポリシーを有効にする必要があります。有効にすると、その組織内のユーザーには、Visual Studio Code のモデル ピッカーに GPT-5.4 mini が表示されるようになります。 Bring Your Own Key: ピッカーから [モデルの管理] を選択し、GPT-5.4 mini を選択し、プロンプトが表示されたら API キーを入力します。詳細 GitHub Copilot で利用可能なすべてのモデルを調べるには、モデルに関するドキュメントを参照し、Copilot を開始してください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 GPT-5.4 mini が GitHub Copilot で一般利用可能になったという記事は、最初に GitHub ブログに掲載されました。",
+        "en": "GPT-5.4 mini, OpenAI’s latest fast version of their agentic coding model GPT-5.4, is now rolling out in GitHub Copilot. In early tests, GPT‑5.4 mini appears to be OpenAI’s highest-performing mini model yet. It delivers the fastest time to first token, is stronger at codebase exploration, and is especially effective when using grep-style tools. Note, while this model is launching with a.33x premium request multiplier, pricing is tentative and subject to change Availability in GitHub Copilot GPT-5.4 will be available to Copilot Pro, Pro+, Business, and Enterprise users. You’ll be able to select the model in the model picker in: Visual Studio Code and later in all modes: chat, ask, edit, agent Visual Studio version and later in all modes: agent, ask JetBrains versions and later, in all modes: ask, edit, agent Xcode versions and later in all modes: ask, agent Eclipse versions and later in all modes: ask, agent github.com GitHub Mobile iOS and Android GitHub CLI While the model appears in all versions above, prompting and model parameters work best in the most recent versions of each product, so we highly encourage you to upgrade to the latest version. Enabling access Enterprise & Business plans: Administrators must enable the GPT-5.4 mini policy in Copilot settings. Once enabled, users in that organization will see GPT-5.4 mini in the model picker in Visual Studio Code. Bring Your Own Key: Select Manage Models from the picker, choose GPT-5.4 mini, and enter your API key when prompted. Learn more To explore all models available in GitHub Copilot, see our documentation on models and get started with Copilot. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now generally available for GitHub Copilot appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-17-gpt-5-4-mini-is-now-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -3495,6 +3618,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-05-github-2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在包括用户级 GitHub Copilot CLI 活动",
+        "ja": "Copilot の使用状況メトリクスに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました",
+        "en": "Copilot usage metrics now includes user-level GitHub Copilot CLI activity"
+      },
+      "summary": {
+        "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员日常使用 Copilot 的情况。深入了解代币使用总量，以了解消费趋势并计划扩大推广。请访问我们的 API 文档以了解有关用户级端点的更多信息。加入 GitHub 社区内的讨论。 Copilot 使用指标现在包括首先出现在 GitHub 博客上的用户级 GitHub Copilot CLI 活动。",
+        "ja": "先週リリースされたエンタープライズ レベルの CLI テレメトリのフォローアップとして、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。 CLI リクエストの数とセッション数を表示して、開発者が日常的に Copilot をどのように使用しているかを把握します。トークンの使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します。ユーザーレベルのエンドポイントの詳細については、API ドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。投稿後の Copilot 使用状況メトリクスには、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました。 最初に GitHub ブログに掲載されました。",
+        "en": "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout. Visit our API documentation to learn more about the user-level endpoint. Join the discussion within GitHub Community. The post Copilot usage metrics now includes user-level GitHub Copilot CLI activity appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-05-github-2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
       "date": "2026-03-05",
       "category": "github",
@@ -3511,6 +3660,29 @@
       "url": "https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-05-github-2026-03-05-add-images-to-agent-sessions",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "将图像添加到代理会话",
+        "ja": "エージェントセッションに画像を追加する",
+        "en": "Add images to agent sessions"
+      },
+      "summary": {
+        "zh": "从图像开始快速启动代理会话。只需将图像图标粘贴、拖动或单击到您在 github.com 上使用代理的任何位置（例如，从存储库中最近发布的代理选项卡）。通过分享您的反馈让我们知道您构建了什么。单击任何代理会话右上角的“提供反馈”按钮。将图像添加到代理会话一文首先出现在 GitHub 博客上。",
+        "ja": "イメージから開始して、エージェント セッションをすばやく開始します。 github.com 上のエージェントを操作する場所 (リポジトリの最近リリースされた [エージェント] タブなど) に画像アイコンを貼り付ける、ドラッグする、またはクリックするだけです。フィードバックを共有して、あなたが構築したものをお知らせください。エージェント セッションの右上隅にある [フィードバックを送信] ボタンをクリックします。 「エージェント セッションに画像を追加する」という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Quick start your agent session by starting from an image. Simply paste, drag, or click the image icon to wherever you work with agents on github.com (e.g., from the recently released Agents tab in a repository). Let us know what you build by sharing your feedback. Click the Give feedback button on the top-right corner of any agent session. The post Add images to agent sessions appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-add-images-to-agent-sessions",
+      "tags": [
         "copilot",
         "github",
         "changelog"
@@ -4818,6 +4990,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-02-19-github-2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
+      "date": "2026-02-19",
+      "category": "github",
+      "title": {
+        "zh": "选定的 Anthropic 和 OpenAI 模型现已弃用",
+        "ja": "選択された Anthropic モデルと OpenAI モデルは非推奨になりました",
+        "en": "Selected Anthropic and OpenAI models are now deprecated"
+      },
+      "summary": {
+        "zh": "我们已于 2026 年 2 月 17 日在所有 GitHub Copilot 体验（包括 Copilot Chat、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型： 模型弃用日期 建议替代方案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex 请更新您的工作流程和集成以使用支持的模型。 Copilot Enterprise 管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用了该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。无需执行任何操作即可删除已弃用的模型。我们鼓励有疑问或疑虑的 GitHub Enterprise 客户联系其客户经理以获得进一步帮助。分享您的反馈 要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。加入 GitHub 社区分享您的反馈。这篇文章“Selected Anthropic and OpenAI models now be deprecated”首先出现在 GitHub 博客上。",
+        "ja": "2026 年 2 月 17 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot Enterprise 管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot Chat モデル セレクターにモデルが表示されます。非推奨のモデルを削除するためのアクションは必要ありません。 GitHub Enterprise のお客様で質問や懸念がある場合は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。フィードバックを共有してください。Copilot で利用可能なモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。 GitHub コミュニティに参加してフィードバックを共有してください。この投稿「選択された Anthropic モデルと OpenAI モデルは非推奨になりました」 first appeared on The GitHub Blog.",
+        "en": "We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on February 17, 2026: Model Deprecation Date Suggested Alternative Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Join the GitHub Community to share your feedback. The post Selected Anthropic and OpenAI models are now deprecated appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-19-github-2026-02-19-pull-request-throughput-and-time-to-merge-available-in-copilot-usage-metrics-api",
       "date": "2026-02-19",
       "category": "github",
@@ -4837,6 +5033,30 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-19-github-2026-02-19-model-picker-for-copilot-coding-agent-for-copilot-business-and-enterprise-users",
+      "date": "2026-02-19",
+      "category": "github",
+      "title": {
+        "zh": "适用于 Copilot Business 和 Enterprise 的 Copilot 编码代理模型选择器",
+        "ja": "Copilot Business および Enterprise 用の Copilot コーディング エージェント モデル ピッカー",
+        "en": "Copilot coding agent model picker for Copilot Business and Enterprise"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，Copilot 在云中自己的开发环境中在后台工作。一旦 Copilot 完成工作，它会打开一个拉取请求并请求您进行审查。 12 月，我们为 Copilot Pro 和 Pro+ 用户推出了型号选择。今天，我们向 Copilot Business 和 Copilot Enterprise 用户开放了型号选择器，以便您可以选择适合您任务的型号。在 github.com 上将问题分配给 Copilot 时，或者从代理选项卡、代理面板、GitHub Mobile 或 Raycast 启动器启动任务时，您可以使用下拉列表从以下模型中进行选择： Auto Claude Opus 4.5 Claude Opus 4.6 Claude Sonnet 4.5 Claude Sonnet 4.6 GPT-5.1-Codex-Max GPT-5.2-Codex GPT-5.3-Codex 如果您将设置保留为“自动”，Copilot 会根据可用性自动选择型号来优化速度和性能。如果您的管理员未启用上面列出的任何模型，则不会显示模型选择器，并且将自动使用 Claude Sonnet 4.6。要了解更多信息，请参阅有关 Copilot 编码代理中的模型选择的文档。适用于 Copilot Business 和 Enterprise 的 Copilot 后编码代理模型选择器首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot はクラウド内の独自の開発環境でバックグラウンドで動作します。 Copilot は作業を終了すると、プル リクエストを開き、レビューを要求します。 12 月に、Copilot Pro および Pro+ ユーザー向けのモデル選択を開始しました。本日、モデル ピッカーを Copilot Business および Copilot Enterprise ユーザーに公開しました。これにより、タスクに適したモデルを選択できるようになります。 github.com で Copilot に問題を割り当てる場合、またはエージェント タブ、エージェント パネル、GitHub モバイル、または Raycast ランチャーからタスクを開始する場合、ドロップダウンを使用して次のモデルから選択できます。 Auto Claude Opus 4.5 Claude Opus 4.6 Claude Sonnet 4.5 Claude Sonnet 4.6 GPT-5.1-Codex-Max GPT-5.2-Codex GPT-5.3-Codex設定を [自動] のままにすると、Copilot は可用性に基づいてモデルを自動的に選択することにより、速度とパフォーマンスを最適化します。管理者が上記のいずれのモデルも有効にしていない場合、モデル ピッカーは表示されず、Claude Sonnet 4.6 が自動的に使用されます。詳細については、Copilot コーディング エージェントでのモデル選択に関するドキュメントを参照してください。 Copilot Business および Enterprise 用のポスト Copilot コーディング エージェント モデル ピッカーは、GitHub ブログに最初に登場しました。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment in the cloud. Once Copilot finishes work, it opens a pull request and requests your review. In December, we launched model selection for Copilot Pro and Pro+ users. Today, we’ve opened up the model picker to Copilot Business and Copilot Enterprise users, so you can choose the model that’s right for your task. When assigning an issue to Copilot on github.com, or when starting a task from the agents tab, agents panel, GitHub Mobile, or the Raycast launcher, you can use the dropdown to pick from the following models: Auto Claude Opus 4.5 Claude Opus 4.6 Claude Sonnet 4.5 Claude Sonnet 4.6 GPT-5.1-Codex-Max GPT-5.2-Codex GPT-5.3-Codex If you leave the setting on Auto, Copilot optimizes speed and performance by automatically choosing a model based on availability. If your administrator has not enabled any of the models listed above, the model picker will not be shown, and Claude Sonnet 4.6 will be used automatically. To learn more, head to our documentation about model selection in Copilot coding agent. The post Copilot coding agent model picker for Copilot Business and Enterprise appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-19-model-picker-for-copilot-coding-agent-for-copilot-business-and-enterprise-users",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -6159,29 +6379,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
-      "date": "2026-02-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "输出格式",
-        "ja": "出力形式",
-        "en": "output_format"
-      },
-      "summary": {
-        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
-        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
-        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
-      "tags": [
-        "output-format",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-02-05-anthropic-effort",
       "date": "2026-02-05",
       "category": "anthropic",
@@ -6358,6 +6555,54 @@
       "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Claude 和 Codex 现已在 GitHub 上提供公共预览版",
+        "ja": "Claude と Codex が GitHub でパブリック プレビューで利用可能になりました",
+        "en": "Claude and Codex are now available in public preview on GitHub"
+      },
+      "summary": {
+        "zh": "Claude 和 Codex 编码代理现已推出公共预览版 Claude by Anthropic 和 OpenAI Codex 现已作为 Copilot Pro+ 和 Copilot Enterprise 客户的编码代理提供。您可以从 github.com、GitHub Mobile 和 VS Code 启动代理会话并将工作分配给这些代理。您可以直接从问题、拉取请求、启用的存储库中的“代理”选项卡以及 VS Code 中的代理会话视图中执行此操作，以获得无缝的跨客户端体验。无需额外订阅。您现有的 Copilot 订阅中包含对 Claude 和 Codex 的访问权限。每个编码代理会话在公共预览期间都会消耗一个高级请求。如何为 Copilot Pro+ 订阅者启用 Claude 和 Codex 转至您的 Copilot 编码代理设置。选择允许代理访问哪些存储库。将“Claude”、“Codex”或两者切换为“开”即可启用它们。对于 Copilot Enterprise 订阅者 您的企业管理员必须启用以下设置： 在企业级别启用代理：导航到“企业 AI 控件”。打开代理选项卡。在“合作伙伴代理”中，启用“Claude”、“Codex”或两者。在组织级别启用代理：转至组织的设置。选择副驾驶选项卡。打开编码代理。在“合作伙伴代理”中，启用“Claude”、“Codex”或两者。如何使用代理 从 GitHub 上的“代理”选项卡（Web 和移动应用程序）创建和查看会话 您可以通过几种不同的方式在 GitHub.com 和 GitHub 移动应用程序上创建新的代理会话： 在 GitHub.com 上，转到启用了代理的任何存储库中的“代理”选项卡，或使用主标题中的代理下拉列表启动任务。在 GitHub Mobile 应用程序上，从主页或存储库打开代理视图，或者点击主页、存储库或其他视图中的 + 按钮。无论您使用哪个入口点，输入您的请求，通过单击输入字段中的 Copilot 图标选择您想要合作的代理，然后提交。代理很快就会开始工作。您可以实时跟踪进度或从网络和移动设备上的会话列表中查看已完成的会话。将代理分配给问题 将问题分配给 Claude、Codex、Copilot 或使用“受让人”下拉菜单的所有三个。选定的代理将自动开始工作并提交拉取请求草稿供您审核。在拉取请求中与代理一起工作 代理可以为分配的任务生成草稿拉取请求（除非您选择不这样做）、跟进反馈并继续迭代直至工作完成。您还可以使用“受让人”下拉列表将开放的拉取请求分配给任何代理。使用 @copilot、@claude 或 @codex 留下审阅意见或请求更改。使用“查看会话”按钮查看完整概述和详细活动日志。在 VS Code 中启动代理会话 确保您运行的是 VS Code 1.109 或更高版本。通过单击标题栏中的聊天图标或打开命令面板 ( Ctrl+Shift+P / Cmd+Shift+P ) 并搜索代理会话来打开代理会话视图。选择会话类型和代理： 本地：快速、交互式帮助 云：在 GitHub 上运行的自主任务 背景：本地运行的异步任务（仅限 Copilot） 观看此演示视频，了解这些代理的运行情况。立即尝试 立即启用 Claude 和 Codex 了解更多信息 请阅读我们完整的博客文章，了解更多信息。探索我们的第三方代理文档，以充分利用 Claude 和 Codex。在讨论帖中分享反馈。在我们有关创建代理会话新方法的变更日志中查看有关在移动设备上使用代理的更多详细信息。 Claude 和 Codex 现已在 GitHub 上提供公共预览版的帖子首先出现在 GitHub 博客上。",
+        "ja": "Claude および Codex コーディング エージェントがパブリック プレビューになりました。 Anthropic および OpenAI による Claude が、Copilot Pro+ および Copilot Enterprise の顧客向けのコーディング エージェントとして利用できるようになりました。エージェント セッションを開始し、github.com、GitHub Mobile、VS Code からこれらのエージェントに作業を割り当てることができます。これは、問題、プル リクエスト、有効なリポジトリの [エージェント] タブ、および VS Code のエージェント セッション ビューから直接行うことができ、シームレスなクロスクライアント エクスペリエンスを実現します。追加のサブスクリプションは必要ありません。 Claude および Codex へのアクセスは、既存の Copilot サブスクリプションに含まれています。各コーディング エージェント セッションは、パブリック プレビュー中に 1 つのプレミアム リクエストを消費します。 Claude および Codex を有効にする方法 Copilot Pro+ サブスクライバーの場合 Copilot コーディング エージェント設定に移動します。エージェントにアクセスを許可するリポジトリを選択します。 「Claude」、「Codex」、またはその両方をオンに切り替えて有効にします。 Copilot Enterprise サブスクライバーの場合、エンタープライズ管理者は次の設定を有効にする必要があります。 エンタープライズ レベルでエージェントを有効にする: 「Enterprise AI Controls」に移動します。 「エージェント」タブを開きます。 「パートナー エージェント」で、「Claude」、「Codex」、またはその両方を有効にします。組織レベルでエージェントを有効にする: 組織の設定に移動します。 [Copilot] タブを選択します。コーディングエージェントを開きます。 「パートナー エージェント」で、「Claude」、「Codex」、またはその両方を有効にします。エージェントの使用方法 GitHub (Web およびモバイル アプリ) の [エージェント] タブからセッションを作成および表示する GitHub.com および GitHub モバイル アプリでは、いくつかの異なる方法で新しいエージェント セッションを作成できます。 GitHub.com で、エージェントが有効になっているリポジトリの [エージェント] タブに移動するか、メイン ヘッダーのエージェント ドロップダウンを使用してタスクを開始します。 GitHub モバイル アプリで、ホームまたはリポジトリから [エージェント] ビューを開くか、ホーム、リポジトリ、またはその他のビューから [+] ボタンをタップします。どちらのエントリ ポイントを使用する場合でも、リクエストを入力し、入力フィールドの Copilot アイコンをクリックして連携するエージェントを選択し、送信します。エージェントは間もなく作業を開始します。 Web とモバイルの両方で、リアルタイムで進行状況を追跡したり、セッション リストから完了したセッションを確認したりできます。エージェントを問題に割り当てる [担当者] ドロップダウンを使用して、問題を Claude、Codex、Copilot、または 3 つすべてに割り当てます。選択したエージェントは自動的に作業を開始し、ドラフト プル リクエストを送信して確認します。プル リクエストでエージェントと連携する エージェントは、割り当てられたタスクのドラフト プル リクエストを生成し (選択しない場合を除き)、フィードバックをフォローアップし、作業が完了するまで反復を続けることができます。 [担当者] ドロップダウンを使用して、オープンなプル リクエストを任意のエージェントに割り当てることもできます。 @copilot、@claude、または @codex を使用して、レビュー コメントを残すか、変更をリクエストしてください。 [セッションの表示] ボタンを使用すると、完全な概要と詳細なアクティビティ ログが表示されます。 VS Code でエージェント セッションを開始する VS Code 1.109 以降を実行していることを確認します。タイトル バーのチャット アイコンをクリックするか、コマンド パレット ( Ctrl+Shift+P / Cmd+Shift+P ) を開いてエージェント セッションを検索して、エージェント セッション ビューを開きます。セッション タイプとエージェントを選択します。 ローカル: 高速な対話型ヘルプ クラウド: GitHub で実行される自律タスク バックグラウンド: ローカルで実行される非同期タスク ( Copilot のみ) これらのエージェントの動作を確認するには、このデモ ビデオをご覧ください。今すぐお試しください 今すぐ Claude と Codex を有効にしてください 詳細については、こちらのブログ投稿全文をお読みください。 Claude と Codex を最大限に活用するには、サードパーティ エージェントのドキュメントを参照してください。ディスカッション投稿でフィードバックを共有してください。モバイルでのエージェントの操作に関する詳細については、エージェント セッションを作成する新しい方法に関する変更ログをご覧ください。投稿 Claude と Codex が GitHub でパブリック プレビューで利用できるようになりました appeared first on The GitHub Blog.",
+        "en": "Claude and Codex coding agents are now in public preview Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You can start agent sessions and assign work to these agents from github.com, GitHub Mobile, and VS Code. You can do this directly from issues, pull requests, the Agents tab in enabled repositories, and the agent sessions view in VS Code for a seamless cross-client experience. No additional subscriptions are required. Access to Claude and Codex is included with your existing Copilot subscription. Each coding agent session consumes one premium request during public preview. How to enable Claude and Codex For Copilot Pro+ subscribers Go to your Copilot coding agent settings. Choose which repositories agents are allowed to access. Enable “Claude”, “Codex”, or both by toggling them On. For Copilot Enterprise subscribers The following settings must be enabled by your enterprise admin: Enable agents at the enterprise level: Navigate to “Enterprise AI Controls”. Open the Agents tab. In “Partner Agents”, enable “Claude”, “Codex”, or both. Enable agents at the organization level: Go to the organization’s Settings. Select the Copilot tab. Open Coding agent. In “Partner Agents”, enable “Claude”, “Codex”, or both. How to use agents Create and view sessions from the Agents tab on GitHub (web and mobile app) You can create new agent sessions on GitHub.com and the GitHub Mobile app in a few different ways: On GitHub.com, go to the Agents tab in any repository where agents are enabled, or initiate a task using the agents dropdown in the main header. On the GitHub Mobile app, open the Agents view from Home or a repository, or tap the + button from Home, Repository, or other views. Whichever entry point you use, type your request, select the agent you want to work with by clicking the Copilot icon in the input field, and submit. The agent will begin work shortly. You can follow progress in real time or review completed sessions from the session list on both web and mobile. Assign agents to issues Assign an issue to Claude, Codex, Copilot, or all three using the Assignees dropdown. The selected agent or agents will automatically begin work and submit a draft pull request for you to review. Work with agents in pull requests Agents can generate draft pull requests for assigned tasks (unless you choose not to), follow up on feedback, and continue iterating until the work is complete. You can also assign an open pull request to any agent using the Assignees dropdown. Leave review comments or request changes by using @copilot, @claude, or @codex. Use the View session button to see a full overview and detailed activity logs. Start agent sessions in VS Code Ensure you are running VS Code 1.109 or later. Open the Agent sessions view by clicking the chat icon in the title bar or opening the Command Palette ( Ctrl+Shift+P / Cmd+Shift+P ) and searching for Agent sessions. Choose a session type and agent: Local: Fast, interactive help Cloud: Autonomous tasks that run on GitHub Background: Asynchronous tasks that run locally ( Copilot only ) Watch this demo video to see these agents in action. Try it now Enable Claude and Codex today Learn more Read more in our full blog post here. Explore our third-party agents documentation to get the most out of Claude and Codex. Share feedback in the discussion post. View more details about working with agents on mobile in our changelog about new ways to create agent sessions. The post Claude and Codex are now available in public preview on GitHub appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "为个人用户提供简化的 Copilot 模型支持体验",
+        "ja": "個々のユーザー向けの簡素化された Copilot モデル有効化エクスペリエンス",
+        "en": "Simplified Copilot model enablement experience for individual users"
+      },
+      "summary": {
+        "zh": "我们让您更轻松地发现和使用所有 Copilot 功能的最新型号。如果您是 Copilot Pro+、Pro 或 Free 用户，现在可以直接在 Copilot 中使用新发布的模型，无需管理策略或访问设置页面即可访问它们。通过此更改：可以在 Copilot 功能中立即访问新模型 - 无需额外点击或访问设置。您可以通过自己选择模型来使用模型，也可以在自动模式打开时让 GitHub 为您选择一个模型。模型一旦选定就会立即发挥作用。此更新减少了摩擦并消除了模型可用性的模糊性，同时保留了您决定使用哪些模型以及何时使用的能力。所有现有的数据使用政策保持不变并继续适用。请注意，这将在第二天推出。如果您还没有看到，请尽快回来查看。请访问我们的信任中心了解更多信息。加入 GitHub 社区内的讨论。针对个人用户的简化 Copilot 模型启用体验首先出现在 GitHub 博客上。",
+        "ja": "すべての Copilot 機能にわたって、最新モデルを見つけて使用することが簡単になりました。 Copilot Pro+、Pro、または Free ユーザーの場合は、新しくリリースされたモデルを Copilot 内で直接利用できるようになりました。ポリシーを管理したり、設定ページにアクセスしてアクセスしたりする必要はありません。この変更により、Copilot 機能内で新しいモデルにすぐにアクセスできるようになり、追加のクリックや設定へのアクセスは必要なくなりました。モデルを使用するには、自分でモデルを選択するか、自動モードがオンの場合に GitHub にモデルを選択してもらいます。モデルは選択するとすぐに機能します。このアップデートにより、摩擦が軽減され、モデルの可用性に関する曖昧さが解消され、同時にどのモデルをいつ使用するかを決定する能力が維持されます。既存のデータ使用ポリシーはすべて変更されず、引き続き適用されます。これは翌日にかけて展開されることに注意してください。まだ表示されていない場合は、すぐにもう一度確認してください。詳細については、トラスト センターをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。個人ユーザー向けの簡素化された Copilot モデルの有効化エクスペリエンスは、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve made it easier to discover and use the latest models across all Copilot features. If you’re a Copilot Pro+, Pro, or Free user, newly released models are now available directly within Copilot—no need to manage policies or visit your settings pages to access them. With this change: New models are immediately accessible within Copilot features—no extra clicks or visits to settings required. You can use a model by choosing it yourself or by letting GitHub pick one for you when Auto mode is on. Models work immediately once selected. This update reduces friction and removes ambiguity around model availability, all while preserving your ability to decide which models you use and when. All existing data-usage policies remain unchanged and continue to apply. Note, this is rolling out over the next day. If you don’t see it yet, please check back soon. Learn more by visiting our Trust Center. Join the discussion within GitHub Community. The post Simplified Copilot model enablement experience for individual users appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
