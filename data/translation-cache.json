@@ -2534,5 +2534,41 @@
   "April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you can change your plan to Copilot Free or upgrade to either a Copilot Pro or Pro+ subscription. As GitHub Copilot continues to grow, we’ve seen a significant rise in abuse of our free trial system. To protect the experience and integrity of the platform for legitimate developers, we are pausing new GitHub Copilot Pro trials while we investigate and strengthen our protection mechanisms. What this means New users cannot start a free Copilot Pro trial at this time. Copilot Free and paid Copilot Pro subscriptions remain fully available. What’s next This is a temporary pause. We are actively working on improved safeguards to prevent misuse of the trial system, and we will reopen trials once those protections are in place. We’ll share an update as soon as new trials are available again. Developers who want access to Copilot now can subscribe to Copilot Free or any of our paid Copilot subscriptions directly. The post Pausing new GitHub Copilot Pro trials appeared first on The GitHub Blog.": {
     "zh": "2026 年 4 月 13 日更新：在我们继续调查期间，所有 GitHub Copilot Pro 试验（包括现有试验）均已暂停。同时，如果您正在使用 Copilot 试用版，则可以将计划更改为 Copilot 免费版或升级到 Copilot Pro 或 Pro+ 订阅。随着 GitHub Copilot 的不断发展，我们发现滥用免费试用系统的情况显着增加。为了保护合法开发者的平台体验和完整性，我们暂停新的 GitHub Copilot Pro 试用，同时调查和加强我们的保护机制。这意味着新用户目前无法开始免费 Copilot Pro 试用。 Copilot 免费和付费 Copilot Pro 订阅仍然完全可用。接下来是什么 这是暂时的暂停。我们正在积极致力于改进保障措施，以防止滥用审判系统，一旦这些保护措施到位，我们将重新开放审判。一旦新的试用版再次可用，我们将立即分享更新。现在想要访问 Copilot 的开发者可以直接订阅 Copilot 免费或我们的任何付费 Copilot 订阅。暂停新的 GitHub Copilot Pro 试用的帖子首先出现在 GitHub 博客上。",
     "ja": "2026 年 4 月 13 日更新: 調査が継続している間、既存のトライアルを含むすべての GitHub Copilot Pro トライアルが一時停止されました。それまでの間、Copilot トライアル版を利用していた場合は、プランを Copilot Free に変更するか、Copilot Pro または Pro+ サブスクリプションにアップグレードすることができます。 GitHub Copilot が成長を続ける中、無料トライアル システムの悪用が大幅に増加しています。正規の開発者のプラットフォームのエクスペリエンスと完全性を保護するため、保護メカニズムを調査して強化する間、新しい GitHub Copilot Pro トライアルを一時停止します。これが意味すること 現時点では、新規ユーザーは無料の Copilot Pro トライアルを開始できません。 Copilot 無料および有料の Copilot Pro サブスクリプションは引き続き完全に利用可能です。次に進むこと ここは一時停止です。当社は治験システムの悪用を防ぐための安全策の改善に積極的に取り組んでおり、これらの保護が整い次第治験を再開します。新しいトライアル版が再び利用可能になり次第、最新情報を共有します。 Copilot にアクセスしたい開発者は、無料の Copilot または有料の Copilot サブスクリプションを直接購読できるようになりました。新しい GitHub Copilot Pro トライアルの一時停止という投稿は、GitHub ブログに最初に登場しました。"
+  },
+  "The next evolution of the Agents SDK": {
+    "zh": "Agents SDK 的下一步发展",
+    "ja": "エージェント SDK の次の進化"
+  },
+  "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.": {
+    "zh": "OpenAI 通过本机沙箱执行和模型本机工具更新了 Agents SDK，帮助开发人员跨文件和工具构建安全、长期运行的代理。",
+    "ja": "OpenAI は、ネイティブ サンドボックス実行とモデル ネイティブ ハーネスを備えたエージェント SDK を更新し、開発者がファイルやツール全体で安全で長時間実行されるエージェントを構築できるようにします。"
+  },
+  "Enable Copilot cloud agent via custom properties": {
+    "zh": "通过自定义属性启用 Copilot 云代理",
+    "ja": "カスタム プロパティ経由で Copilot クラウド エージェントを有効にする"
+  },
+  "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page. Please note that using custom properties to enable CCA is evaluated once at the time of configuration. Organizations will not be automatically enabled or disabled for CCA if the custom property is added, removed, or modified later. This new capability provides the flexibility to pilot CCA with select teams, progressively expand access, and manage adoption at your own pace. New API endpoints to manage CCA You can use three new API endpoints to manage CCA: PUT: Set the policy state: decided by organization, enabled everywhere, disabled everywhere, or enabled for selected organizations. POST: Add organizations to the CCA enabled list. DELETE: Disable CCA for organizations. To learn more, visit our REST API documentation. Manage CCA for organizations from the AI controls page In the AI Controls settings page, you can now create policies that selectively enable CCA for a subset of your organizations. No action is required to preserve your current policy. You’ll find the new policy management on the AI Controls page under “Agent” → “Copilot Cloud Agent” → “Enabled for selected organizations”. To learn more, visit our documentation about managing CCA in an enterprise. Join the discussion within GitHub Community. The post Enable Copilot cloud agent via custom properties appeared first on The GitHub Blog.": {
+    "zh": "您现在可以针对每个组织有选择地启用 GitHub Copilot 云代理 (CCA) 访问权限。以前，企业管理员和人工智能经理只能在各处启用代理、在各处禁用代理，或者让每个组织自行决定。在此版本中，您可以单独或使用组织自定义属性有选择地为特定组织启用 CCA。您可以使用新的 API 端点或直接在 AI 控制页面中管理此策略设置。请注意，使用自定义属性启用 CCA 会在配置时评估一次。如果稍后添加、删除或修改自定义属性，则不会自动启用或禁用组织的 CCA。这项新功能提供了与选定团队一起试点 CCA、逐步扩大访问范围并按照您自己的节奏管理采用的灵活性。用于管理 CCA 的新 API 端点 您可以使用三个新 API 端点来管理 CCA： PUT：设置策略状态：由组织决定、随处启用、随处禁用或为选定组织启用。 POST：将组织添加到 CCA 启用列表。删除：禁用组织的 CCA。要了解更多信息，请访问我们的 REST API 文档。从 AI 控制页面管理组织的 CCA 在 AI 控制设置页面中，您现在可以创建策略，有选择地为组织的子集启用 CCA。无需采取任何措施来保留您当前的政策。您可以在 AI 控制页面的“代理”→“Copilot 云代理”→“为选定组织启用”下找到新的策略管理。要了解更多信息，请访问我们有关在企业中管理 CCA 的文档。加入 GitHub 社区内的讨论。通过自定义属性启用 Copilot 云代理一文首先出现在 GitHub 博客上。",
+    "ja": "GitHub Copilot クラウド エージェント (CCA) アクセスを組織ごとに選択的に有効にできるようになりました。以前は、企業管理者と AI マネージャーは、どこでもエージェントを有効にするか、どこでも無効にするか、各組織に決定させることしかできませんでした。このリリースでは、個別に、または組織のカスタム プロパティを使用して、特定の組織に対して CCA を選択的に有効にすることができます。このポリシー設定は、新しい API エンドポイントを使用するか、[AI コントロール] ページで直接管理できます。カスタム プロパティを使用して CCA を有効にすることは、構成時に 1 回評価されることに注意してください。カスタム プロパティが後で追加、削除、または変更された場合、組織は CCA に対して自動的に有効または無効になりません。この新しい機能により、選択したチームで CCA を試験的に導入し、段階的にアクセスを拡大し、自分のペースで導入を管理できる柔軟性が得られます。 CCA を管理するための新しい API エンドポイント CCA を管理するために 3 つの新しい API エンドポイントを使用できます。 PUT: ポリシーの状態を設定します: 組織によって決定、どこでも有効、どこでも無効、または選択した組織に対して有効。 POST: CCA 有効リストに組織を追加します。削除: 組織の CCA を無効にします。詳細については、REST API ドキュメントを参照してください。 AI コントロール ページから組織の CCA を管理する AI コントロール設定ページで、組織のサブセットに対して CCA を選択的に有効にするポリシーを作成できるようになりました。現在のポリシーを保持するために何もする必要はありません。新しいポリシー管理は、[AI コントロール] ページの [エージェント] → [Copilot Cloud Agent] → [選択した組織に対して有効] にあります。詳細については、企業における CCA の管理に関するドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。 「カスタム プロパティ経由で Copilot クラウド エージェントを有効にする」という投稿は、GitHub ブログに最初に掲載されました。"
+  },
+  "Agents SDK": {
+    "zh": "代理SDK",
+    "ja": "エージェントSDK"
+  },
+  "Updated the Agents SDK with new capabilities, including: running agents in controlled sandboxes; inspecting and customizing the open-source harness; and controlling when memories are created and where they're stored.": {
+    "zh": "使用新功能更新了 Agents SDK，包括： 在受控沙箱中运行代理；检查和定制开源工具；并控制记忆的创建时间和存储位置。",
+    "ja": "エージェント SDK を更新して、次のような新機能を追加しました。制御されたサンドボックスでのエージェントの実行。オープンソース ハーネスの検査とカスタマイズ。そして、記憶がいつ作成され、どこに保存されるかを制御します。"
+  },
+  "Gemini 3.1 Flash TTS: the next generation of expressive AI speech": {
+    "zh": "Gemini 3.1 Flash TTS：下一代富有表现力的人工智能语音",
+    "ja": "Gemini 3.1 Flash TTS: 次世代の表現力豊かな AI 音声"
+  },
+  "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.": {
+    "zh": "我们最新的音频模型引入了精细的音频标签，让您可以精确控制直接 AI 语音，从而生成富有表现力的音频。",
+    "ja": "最新のオーディオ モデルには、表現力豊かなオーディオ生成のための AI 音声の指示を正確に制御できる粒度の高いオーディオ タグが導入されています。"
+  },
+  "Gemini 3.1 Flash TTS is now available across Google products.": {
+    "zh": "Gemini 3.1 Flash TTS 现已在所有 Google 产品中提供。",
+    "ja": "Gemini 3.1 Flash TTS が Google サービス全体で利用できるようになりました。"
   }
 }

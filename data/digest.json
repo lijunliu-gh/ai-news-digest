@@ -3,6 +3,121 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-15-openai-the-next-evolution-of-the-agents-sdk",
+      "date": "2026-04-15",
+      "category": "openai",
+      "title": {
+        "zh": "Agents SDK 的下一步发展",
+        "ja": "エージェント SDK の次の進化",
+        "en": "The next evolution of the Agents SDK"
+      },
+      "summary": {
+        "zh": "OpenAI 通过本机沙箱执行和模型本机工具更新了 Agents SDK，帮助开发人员跨文件和工具构建安全、长期运行的代理。",
+        "ja": "OpenAI は、ネイティブ サンドボックス実行とモデル ネイティブ ハーネスを備えたエージェント SDK を更新し、開発者がファイルやツール全体で安全で長時間実行されるエージェントを構築できるようにします。",
+        "en": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools."
+      },
+      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-15-openai-changelog",
+      "date": "2026-04-15",
+      "category": "openai",
+      "title": {
+        "zh": "代理SDK",
+        "ja": "エージェントSDK",
+        "en": "Agents SDK"
+      },
+      "summary": {
+        "zh": "使用新功能更新了 Agents SDK，包括： 在受控沙箱中运行代理；检查和定制开源工具；并控制记忆的创建时间和存储位置。",
+        "ja": "エージェント SDK を更新して、次のような新機能を追加しました。制御されたサンドボックスでのエージェントの実行。オープンソース ハーネスの検査とカスタマイズ。そして、記憶がいつ作成され、どこに保存されるかを制御します。",
+        "en": "Updated the Agents SDK with new capabilities, including: running agents in controlled sandboxes; inspecting and customizing the open-source harness; and controlling when memories are created and where they're stored."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-04-15-update-agents-sdk",
+      "tags": [
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-15-google-gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
+      "date": "2026-04-15",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 3.1 Flash TTS：下一代富有表现力的人工智能语音",
+        "ja": "Gemini 3.1 Flash TTS: 次世代の表現力豊かな AI 音声",
+        "en": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech"
+      },
+      "summary": {
+        "zh": "我们最新的音频模型引入了精细的音频标签，让您可以精确控制直接 AI 语音，从而生成富有表现力的音频。",
+        "ja": "最新のオーディオ モデルには、表現力豊かなオーディオ生成のための AI 音声の指示を正確に制御できる粒度の高いオーディオ タグが導入されています。",
+        "en": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
+      },
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-15-google-gemini-3-1-flash-tts",
+      "date": "2026-04-15",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 3.1 Flash TTS：下一代富有表现力的人工智能语音",
+        "ja": "Gemini 3.1 Flash TTS: 次世代の表現力豊かな AI 音声",
+        "en": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech"
+      },
+      "summary": {
+        "zh": "Gemini 3.1 Flash TTS 现已在所有 Google 产品中提供。",
+        "ja": "Gemini 3.1 Flash TTS が Google サービス全体で利用できるようになりました。",
+        "en": "Gemini 3.1 Flash TTS is now available across Google products."
+      },
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts",
+      "tags": [
+        "gemini-models",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-15-github-2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+      "date": "2026-04-15",
+      "category": "github",
+      "title": {
+        "zh": "通过自定义属性启用 Copilot 云代理",
+        "ja": "カスタム プロパティ経由で Copilot クラウド エージェントを有効にする",
+        "en": "Enable Copilot cloud agent via custom properties"
+      },
+      "summary": {
+        "zh": "您现在可以针对每个组织有选择地启用 GitHub Copilot 云代理 (CCA) 访问权限。以前，企业管理员和人工智能经理只能在各处启用代理、在各处禁用代理，或者让每个组织自行决定。在此版本中，您可以单独或使用组织自定义属性有选择地为特定组织启用 CCA。您可以使用新的 API 端点或直接在 AI 控制页面中管理此策略设置。请注意，使用自定义属性启用 CCA 会在配置时评估一次。如果稍后添加、删除或修改自定义属性，则不会自动启用或禁用组织的 CCA。这项新功能提供了与选定团队一起试点 CCA、逐步扩大访问范围并按照您自己的节奏管理采用的灵活性。用于管理 CCA 的新 API 端点 您可以使用三个新 API 端点来管理 CCA： PUT：设置策略状态：由组织决定、随处启用、随处禁用或为选定组织启用。 POST：将组织添加到 CCA 启用列表。删除：禁用组织的 CCA。要了解更多信息，请访问我们的 REST API 文档。从 AI 控制页面管理组织的 CCA 在 AI 控制设置页面中，您现在可以创建策略，有选择地为组织的子集启用 CCA。无需采取任何措施来保留您当前的政策。您可以在 AI 控制页面的“代理”→“Copilot 云代理”→“为选定组织启用”下找到新的策略管理。要了解更多信息，请访问我们有关在企业中管理 CCA 的文档。加入 GitHub 社区内的讨论。通过自定义属性启用 Copilot 云代理一文首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot クラウド エージェント (CCA) アクセスを組織ごとに選択的に有効にできるようになりました。以前は、企業管理者と AI マネージャーは、どこでもエージェントを有効にするか、どこでも無効にするか、各組織に決定させることしかできませんでした。このリリースでは、個別に、または組織のカスタム プロパティを使用して、特定の組織に対して CCA を選択的に有効にすることができます。このポリシー設定は、新しい API エンドポイントを使用するか、[AI コントロール] ページで直接管理できます。カスタム プロパティを使用して CCA を有効にすることは、構成時に 1 回評価されることに注意してください。カスタム プロパティが後で追加、削除、または変更された場合、組織は CCA に対して自動的に有効または無効になりません。この新しい機能により、選択したチームで CCA を試験的に導入し、段階的にアクセスを拡大し、自分のペースで導入を管理できる柔軟性が得られます。 CCA を管理するための新しい API エンドポイント CCA を管理するために 3 つの新しい API エンドポイントを使用できます。 PUT: ポリシーの状態を設定します: 組織によって決定、どこでも有効、どこでも無効、または選択した組織に対して有効。 POST: CCA 有効リストに組織を追加します。削除: 組織の CCA を無効にします。詳細については、REST API ドキュメントを参照してください。 AI コントロール ページから組織の CCA を管理する AI コントロール設定ページで、組織のサブセットに対して CCA を選択的に有効にするポリシーを作成できるようになりました。現在のポリシーを保持するために何もする必要はありません。新しいポリシー管理は、[AI コントロール] ページの [エージェント] → [Copilot Cloud Agent] → [選択した組織に対して有効] にあります。詳細については、企業における CCA の管理に関するドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。 「カスタム プロパティ経由で Copilot クラウド エージェントを有効にする」という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page. Please note that using custom properties to enable CCA is evaluated once at the time of configuration. Organizations will not be automatically enabled or disabled for CCA if the custom property is added, removed, or modified later. This new capability provides the flexibility to pilot CCA with select teams, progressively expand access, and manage adoption at your own pace. New API endpoints to manage CCA You can use three new API endpoints to manage CCA: PUT: Set the policy state: decided by organization, enabled everywhere, disabled everywhere, or enabled for selected organizations. POST: Add organizations to the CCA enabled list. DELETE: Disable CCA for organizations. To learn more, visit our REST API documentation. Manage CCA for organizations from the AI controls page In the AI Controls settings page, you can now create policies that selectively enable CCA for a subset of your organizations. No action is required to preserve your current policy. You’ll find the new policy management on the AI Controls page under “Agent” → “Copilot Cloud Agent” → “Enabled for selected organizations”. To learn more, visit our documentation about managing CCA in an enterprise. Join the discussion within GitHub Community. The post Enable Copilot cloud agent via custom properties appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-14-openai-scaling-trusted-access-for-cyber-defense",
       "date": "2026-04-14",
       "category": "openai",
@@ -3479,41 +3594,6 @@
         "shopping",
         "ask-a-techspert",
         "ai",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-05-google-google-ai-updates-february-2026",
-      "date": "2026-03-05",
-      "category": "google",
-      "title": {
-        "zh": "Google 汇总 2026 年 2 月 AI 更新",
-        "ja": "Google が 2026年2月の AI 更新を総まとめ",
-        "en": "The Latest AI News We Announced in February"
-      },
-      "summary": {
-        "zh": "Google 发布二月 AI 更新汇总，涵盖 Gemini 3.1 Pro、开发者工具、Cloud、Research、Gemini App 等进展。",
-        "ja": "Google が 2 月の AI 更新を総括し、Gemini 3.1 Pro、開発者向けツール、Cloud、Research、Gemini App などの発表をまとめた。",
-        "en": "Google recaps its February AI announcements, including Gemini 3.1 Pro, developer tooling, Cloud, research, and Gemini App updates."
-      },
-      "url": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026",
-      "tags": [
-        "a-message-from-our-ceo",
-        "google-deepmind",
-        "developer-tools",
-        "google-labs",
-        "google-org",
-        "google-cloud",
-        "gemini",
-        "ai",
-        "pixel",
-        "gemini-app",
-        "gemini-models",
-        "google-research",
-        "safety-security",
-        "grow-with-google",
         "google"
       ],
       "source": "Google Blog",
