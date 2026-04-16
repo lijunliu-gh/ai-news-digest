@@ -3,6 +3,50 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-16-openai-introducing-gpt-rosalind",
+      "date": "2026-04-16",
+      "category": "openai",
+      "title": {
+        "zh": "引入 GPT-Rosalind 用于生命科学研究",
+        "ja": "ライフサイエンス研究向けの GPT-Rosalind の紹介",
+        "en": "Introducing GPT-Rosalind for life sciences research"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了 GPT-Rosalind，这是一种前沿推理模型，旨在加速药物发现、基因组分析、蛋白质推理和科学研究工作流程。",
+        "ja": "OpenAI は、創薬、ゲノム解析、タンパク質推論、科学研究のワークフローを加速するために構築されたフロンティア推論モデルである GPT-Rosalind を紹介します。",
+        "en": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows."
+      },
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-openai-codex-for-almost-everything",
+      "date": "2026-04-16",
+      "category": "openai",
+      "title": {
+        "zh": "Codex 用于（几乎）所有内容",
+        "ja": "(ほぼ)すべてにCodex",
+        "en": "Codex for (almost) everything"
+      },
+      "summary": {
+        "zh": "适用于 macOS 和 Windows 的更新后的 Codex 应用程序增加了计算机使用、应用程序内浏览、图像生成、内存和插件，以加速开发人员工作流程。",
+        "ja": "macOS および Windows 用の更新された Codex アプリでは、コンピューターの使用、アプリ内ブラウジング、画像生成、メモリ、プラグインが追加され、開発者のワークフローが高速化されます。",
+        "en": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows."
+      },
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-04-16-openai-accelerating-cyber-defense-ecosystem",
       "date": "2026-04-16",
       "category": "openai",
@@ -48,6 +92,54 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-google-ai-mode-chrome",
+      "date": "2026-04-16",
+      "category": "google",
+      "title": {
+        "zh": "通过 Chrome 中的 AI 模式探索网络的新方式",
+        "ja": "Chrome の AI モードを使用してウェブを探索する新しい方法",
+        "en": "A new way to explore the web with AI Mode in Chrome"
+      },
+      "summary": {
+        "zh": "今天 Chrome 中 AI 模式的升级改变了您与网络交互的方式",
+        "ja": "Chrome の AI モードの本日のアップグレードにより、ウェブとの対話方法が変わります",
+        "en": "Today’s upgrades for AI Mode in Chrome transform how you interact with the web"
+      },
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome",
+      "tags": [
+        "search",
+        "ai",
+        "chrome",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-github-2026-04-16-manage-agent-skills-with-github-cli",
+      "date": "2026-04-16",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub CLI 管理代理技能",
+        "ja": "GitHub CLI を使用してエージェントのスキルを管理する",
+        "en": "Manage agent skills with GitHub CLI"
+      },
+      "summary": {
+        "zh": "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. What are agent skills? Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks. They follow the open Agent Skills specification, and work across multiple agent hosts including GitHub Copilot, Claude Code, Cursor, Codex, and Gemini CLI among others. With the new gh skill command, you can now install agent skills in a single command, right from the GitHub CLI. Get started Update the GitHub CLI to version v2.90.0 or later. Then discover and install skills interactively: # Browse skills in a repository and install them interactively gh skill install github/awesome-copilot # Or install a specific skill directly gh skill install github/awesome-copilot documentation-writer # Install a specific version using @tag gh skill install github/awesome-copilot documentation-writer@v1.2.0 # Install at a specific commit SHA gh skill install github/awesome-copilot documentation-writer@abc123def # Discover skills gh skill search mcp-apps Skills are automatically installed to the correct directory for your agent host. You can target a specific agent and scope with flags: gh skill install github/awesome-copilot documentation-writer --agent claude-code --scope user Version pinning and supply chain integrity Agent skills are executable instructions that shape how AI agents behave. A skill that changes silently between installs is a supply chain risk. gh skill brings the same guarantees you expect from package managers to the skills ecosystem, using primitives GitHub already provides. Tags and releases: Every published release is tied to a git tag. gh skill publish offers to enable immutable releases, so release content cannot be altered after publication, even by admins. Content-addressed change detection: Each installed skill records the git tree SHA of its source directory. gh skill update compares local SHAs against the remote to detect real content changes, not just version bumps. By storing this information in skills front-matter, versioning and pinning are portable too, so you (or your agent) can copy and paste the skill to different projects without losing the ability to track changes and update it. Version pinning: Lock a skill to a specific tag or commit SHA with --pin. Pinned skills are skipped during updates, so you upgrade deliberately, not accidentally. Portable provenance via frontmatter: When gh skill installs a skill, it writes tracking metadata (repository, ref, tree SHA) directly into the SKILL.md frontmatter. Because provenance data lives inside the skill file itself, it travels with the skill no matter where it ends up. Skills get moved, copied, and reorganized by users, agents, and scripts. # Pin to a release tag gh skill install github/awesome-copilot documentation-writer --pin v1.2.0 # Pin to a commit for maximum reproducibility gh skill install github/awesome-copilot documentation-writer --pin abc123def Publish your own skills If you maintain a skills repository, gh skill publish validates your skills against the agentskills.io spec and checks remote settings like tag protection, secret scanning, and code scanning. These settings are not required, but strongly recommended to improve the supply chain security of your repo. Enabling immutable releases, for example, means even if someone gets control of your repository they cannot change existing releases, so users installing via tag pinning are fully protected. The publish command makes it trivial to enable these features. # Validate all skills gh skill publish # Auto-fix metadata issues gh skill publish --fix Keep skills up to date gh skill update scans all known agent host directories, reads provenance metadata from each installed skill, and checks for upstream changes: # Check for updates interactively gh skill update # Update a specific skill gh skill update git-commit # Update everything without prompting gh skill update --all Supported agent hosts Host Install command example GitHub Copilot gh skill install OWNER/REPOSITORY SKILL Claude Code gh skill install OWNER/REPOSITORY SKILL --agent claude-code Cursor gh skill install OWNER/REPOSITORY SKILL --agent cursor Codex gh skill install OWNER/REPOSITORY SKILL --agent codex Gemini CLI gh skill install OWNER/REPOSITORY SKILL --agent gemini Antigravity gh skill install OWNER/REPOSITORY SKILL --agent antigravity Learn more Check out the Agent Skills specification. Join the discussion in GitHub Community. gh skill is launching in public preview and it’s subject to change without notice. Skills are installed at your own discretion. They are not verified by GitHub and may contain prompt injections, hidden instructions, or malicious scripts. We strongly recommend inspecting the content of skills before installation, which can be done via the gh skill preview command. Join the GitHub Community. The post Manage agent skills with GitHub CLI appeared first on The GitHub Blog.",
+        "ja": "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. What are agent skills? Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks. They follow the open Agent Skills specification, and work across multiple agent hosts including GitHub Copilot, Claude Code, Cursor, Codex, and Gemini CLI among others. With the new gh skill command, you can now install agent skills in a single command, right from the GitHub CLI. Get started Update the GitHub CLI to version v2.90.0 or later. Then discover and install skills interactively: # Browse skills in a repository and install them interactively gh skill install github/awesome-copilot # Or install a specific skill directly gh skill install github/awesome-copilot documentation-writer # Install a specific version using @tag gh skill install github/awesome-copilot documentation-writer@v1.2.0 # Install at a specific commit SHA gh skill install github/awesome-copilot documentation-writer@abc123def # Discover skills gh skill search mcp-apps Skills are automatically installed to the correct directory for your agent host. You can target a specific agent and scope with flags: gh skill install github/awesome-copilot documentation-writer --agent claude-code --scope user Version pinning and supply chain integrity Agent skills are executable instructions that shape how AI agents behave. A skill that changes silently between installs is a supply chain risk. gh skill brings the same guarantees you expect from package managers to the skills ecosystem, using primitives GitHub already provides. Tags and releases: Every published release is tied to a git tag. gh skill publish offers to enable immutable releases, so release content cannot be altered after publication, even by admins. Content-addressed change detection: Each installed skill records the git tree SHA of its source directory. gh skill update compares local SHAs against the remote to detect real content changes, not just version bumps. By storing this information in skills front-matter, versioning and pinning are portable too, so you (or your agent) can copy and paste the skill to different projects without losing the ability to track changes and update it. Version pinning: Lock a skill to a specific tag or commit SHA with --pin. Pinned skills are skipped during updates, so you upgrade deliberately, not accidentally. Portable provenance via frontmatter: When gh skill installs a skill, it writes tracking metadata (repository, ref, tree SHA) directly into the SKILL.md frontmatter. Because provenance data lives inside the skill file itself, it travels with the skill no matter where it ends up. Skills get moved, copied, and reorganized by users, agents, and scripts. # Pin to a release tag gh skill install github/awesome-copilot documentation-writer --pin v1.2.0 # Pin to a commit for maximum reproducibility gh skill install github/awesome-copilot documentation-writer --pin abc123def Publish your own skills If you maintain a skills repository, gh skill publish validates your skills against the agentskills.io spec and checks remote settings like tag protection, secret scanning, and code scanning. These settings are not required, but strongly recommended to improve the supply chain security of your repo. Enabling immutable releases, for example, means even if someone gets control of your repository they cannot change existing releases, so users installing via tag pinning are fully protected. The publish command makes it trivial to enable these features. # Validate all skills gh skill publish # Auto-fix metadata issues gh skill publish --fix Keep skills up to date gh skill update scans all known agent host directories, reads provenance metadata from each installed skill, and checks for upstream changes: # Check for updates interactively gh skill update # Update a specific skill gh skill update git-commit # Update everything without prompting gh skill update --all Supported agent hosts Host Install command example GitHub Copilot gh skill install OWNER/REPOSITORY SKILL Claude Code gh skill install OWNER/REPOSITORY SKILL --agent claude-code Cursor gh skill install OWNER/REPOSITORY SKILL --agent cursor Codex gh skill install OWNER/REPOSITORY SKILL --agent codex Gemini CLI gh skill install OWNER/REPOSITORY SKILL --agent gemini Antigravity gh skill install OWNER/REPOSITORY SKILL --agent antigravity Learn more Check out the Agent Skills specification. Join the discussion in GitHub Community. gh skill is launching in public preview and it’s subject to change without notice. Skills are installed at your own discretion. They are not verified by GitHub and may contain prompt injections, hidden instructions, or malicious scripts. We strongly recommend inspecting the content of skills before installation, which can be done via the gh skill preview command. Join the GitHub Community. The post Manage agent skills with GitHub CLI appeared first on The GitHub Blog.",
+        "en": "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. What are agent skills? Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks. They follow the open Agent Skills specification, and work across multiple agent hosts including GitHub Copilot, Claude Code, Cursor, Codex, and Gemini CLI among others. With the new gh skill command, you can now install agent skills in a single command, right from the GitHub CLI. Get started Update the GitHub CLI to version v2.90.0 or later. Then discover and install skills interactively: # Browse skills in a repository and install them interactively gh skill install github/awesome-copilot # Or install a specific skill directly gh skill install github/awesome-copilot documentation-writer # Install a specific version using @tag gh skill install github/awesome-copilot documentation-writer@v1.2.0 # Install at a specific commit SHA gh skill install github/awesome-copilot documentation-writer@abc123def # Discover skills gh skill search mcp-apps Skills are automatically installed to the correct directory for your agent host. You can target a specific agent and scope with flags: gh skill install github/awesome-copilot documentation-writer --agent claude-code --scope user Version pinning and supply chain integrity Agent skills are executable instructions that shape how AI agents behave. A skill that changes silently between installs is a supply chain risk. gh skill brings the same guarantees you expect from package managers to the skills ecosystem, using primitives GitHub already provides. Tags and releases: Every published release is tied to a git tag. gh skill publish offers to enable immutable releases, so release content cannot be altered after publication, even by admins. Content-addressed change detection: Each installed skill records the git tree SHA of its source directory. gh skill update compares local SHAs against the remote to detect real content changes, not just version bumps. By storing this information in skills front-matter, versioning and pinning are portable too, so you (or your agent) can copy and paste the skill to different projects without losing the ability to track changes and update it. Version pinning: Lock a skill to a specific tag or commit SHA with --pin. Pinned skills are skipped during updates, so you upgrade deliberately, not accidentally. Portable provenance via frontmatter: When gh skill installs a skill, it writes tracking metadata (repository, ref, tree SHA) directly into the SKILL.md frontmatter. Because provenance data lives inside the skill file itself, it travels with the skill no matter where it ends up. Skills get moved, copied, and reorganized by users, agents, and scripts. # Pin to a release tag gh skill install github/awesome-copilot documentation-writer --pin v1.2.0 # Pin to a commit for maximum reproducibility gh skill install github/awesome-copilot documentation-writer --pin abc123def Publish your own skills If you maintain a skills repository, gh skill publish validates your skills against the agentskills.io spec and checks remote settings like tag protection, secret scanning, and code scanning. These settings are not required, but strongly recommended to improve the supply chain security of your repo. Enabling immutable releases, for example, means even if someone gets control of your repository they cannot change existing releases, so users installing via tag pinning are fully protected. The publish command makes it trivial to enable these features. # Validate all skills gh skill publish # Auto-fix metadata issues gh skill publish --fix Keep skills up to date gh skill update scans all known agent host directories, reads provenance metadata from each installed skill, and checks for upstream changes: # Check for updates interactively gh skill update # Update a specific skill gh skill update git-commit # Update everything without prompting gh skill update --all Supported agent hosts Host Install command example GitHub Copilot gh skill install OWNER/REPOSITORY SKILL Claude Code gh skill install OWNER/REPOSITORY SKILL --agent claude-code Cursor gh skill install OWNER/REPOSITORY SKILL --agent cursor Codex gh skill install OWNER/REPOSITORY SKILL --agent codex Gemini CLI gh skill install OWNER/REPOSITORY SKILL --agent gemini Antigravity gh skill install OWNER/REPOSITORY SKILL --agent antigravity Learn more Check out the Agent Skills specification. Join the discussion in GitHub Community. gh skill is launching in public preview and it’s subject to change without notice. Skills are installed at your own discretion. They are not verified by GitHub and may contain prompt injections, hidden instructions, or malicious scripts. We strongly recommend inspecting the content of skills before installation, which can be done via the gh skill preview command. Join the GitHub Community. The post Manage agent skills with GitHub CLI appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-16-github-2026-04-16-claude-opus-4-7-is-generally-available",
@@ -274,6 +366,31 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-14-github-2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量：公共预览版中标准结果的改进",
+        "ja": "GitHub コード品質: パブリック プレビューでの標準的な結果の改善",
+        "en": "GitHub Code Quality: Improvements to standard findings in public preview"
+      },
+      "summary": {
+        "zh": "我们更新了 GitHub 代码质量体验，以便更轻松地在存储库中导航和分类结果。 GitHub 代码质量标准调查结果可帮助您检测存储库默认分支上潜在的可靠性和可维护性问题。每个发现都附带由 GitHub Copilot Autofix 生成的修复建议，以帮助您快速有效地解决问题。通过今天的更新，您现在可以： 按文件路径搜索结果：使用搜索框过滤文件列表快速找到特定文件。批量忽略结果：选择多个结果并直接从规则页面批量忽略或重新打开它们。查看每个发现的消息和相关位置：查看每个发现的完整上下文，包括其诊断消息和相关代码位置。 GitHub 代码质量标准调查结果页面可供参与 github.com 以及具有数据驻留的 GitHub 企业云上的 GitHub 代码质量公共预览版的用户使用。请参阅 GitHub 代码质量文档了解更多信息。加入讨论并在 GitHub 代码质量公告中分享反馈。 GitHub 代码质量：公共预览中标准调查结果的改进首先出现在 GitHub 博客上。",
+        "ja": "GitHub コード品質エクスペリエンスを更新し、リポジトリ全体でのナビゲーションと検出結果の優先順位付けを容易にしました。 GitHub コード品質標準の調査結果は、リポジトリのデフォルト ブランチにおける潜在的な信頼性と保守性の問題を検出するのに役立ちます。各検出結果には、GitHub Copilot Autofix によって生成された修正提案が付属しており、問題を迅速かつ効果的に解決するのに役立ちます。本日の更新により、次のことができるようになりました。 ファイル パスによる検出結果の検索: ファイル リストをフィルターする検索ボックスを使用して、特定のファイルをすばやく見つけます。検出結果を一括で閉じる: 複数の検出結果を選択し、ルール ページから直接一括で検出を閉じるか再度開きます。各検出結果のメッセージと関連する場所を表示する: 診断メッセージや関連コードの場所を含む、各検出結果の完全なコンテキストを表示します。 GitHub コード品質の標準調査結果ページは、github.com の GitHub コード品質パブリック プレビューに参加しているユーザーと、データ常駐の GitHub Enterprise Cloud で利用できます。詳細については、GitHub コード品質ドキュメントをご覧ください。ディスカッションに参加し、GitHub コード品質に関する発表でフィードバックを共有してください。投稿 GitHub コードの品質: パブリック プレビューにおける標準の結果の改善は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve updated the GitHub Code Quality experience to make it easier to navigate and triage findings across your repository. GitHub Code Quality standard findings help you detect potential reliability and maintainability issues on your repository’s default branch. Each finding comes with a fix suggestion, generated by GitHub Copilot Autofix, to help you resolve the issues quickly and effectively. With today’s updates, you can now: Search for findings by file path: Quickly locate specific files using the search box to filter the file list. Dismiss findings in bulk: Select multiple findings and dismiss or reopen them in bulk directly from the rule page. View messages and related locations for each finding: See the full context of each finding, including its diagnostic message and related code locations. The GitHub Code Quality standard findings page is available to users participating in the GitHub Code Quality public preview on github.com, as well as on GitHub Enterprise Cloud with data residency. Learn more in the GitHub Code Quality documentation. Join the discussion and share feedback in the GitHub Code Quality announcement. The post GitHub Code Quality: Improvements to standard findings in public preview appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "platform-governance",
         "github",
         "changelog"
       ],
@@ -800,30 +917,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-08-github-2026-04-08-code-security-risk-assessment-available-for-organizations",
-      "date": "2026-04-08",
-      "category": "github",
-      "title": {
-        "zh": "可供组织使用的代码安全风险评估",
-        "ja": "組織が利用できるコードセキュリティリスク評価",
-        "en": "Code Security risk assessment available for organizations"
-      },
-      "summary": {
-        "zh": "组织管理员和安全经理现在可以运行免费的代码安全风险评估来审查整个组织的安全漏洞。该评估按严重性、规则类型和编程语言总结漏洞。它包括修复指南，突出显示 Copilot Autofix 可以自动建议修复的地方。该报告使您能够确定高影响力的存储库的优先级，并帮助您了解如何更快地修复安全问题。要启动评估，请导航至组织“安全”选项卡下的“评估”部分。此功能在 GitHub Enterprise Cloud 和 GitHub Team 中可用，并将在 GitHub Enterprise Server 3.22 中提供。请阅读代码安全风险评估文档了解更多信息。加入 GitHub 社区的讨论。可供组织使用的后代码安全风险评估首先出现在 GitHub 博客上。",
-        "ja": "組織管理者とセキュリティ マネージャーは、無料のコード セキュリティ リスク評価を実行して、組織全体のセキュリティの脆弱性を確認できるようになりました。この評価では、重大度、ルールの種類、プログラミング言語ごとに脆弱性が要約されます。これには、Copilot Autofix が自動的に修正を提案できる箇所を強調する修復ガイダンスが含まれています。このレポートを使用すると、影響の大きいリポジトリを優先的に特定できるようになり、セキュリティの問題をより迅速に修復する方法を理解するのに役立ちます。評価を開始するには、組織の [セキュリティ] タブの [評価] セクションに移動します。この機能は GitHub Enterprise Cloud および GitHub Team で利用でき、GitHub Enterprise Server 3.22 で出荷される予定です。詳細については、コード セキュリティ リスク評価ドキュメントを参照してください。 GitHub コミュニティのディスカッションに参加してください。組織が利用できるポスト コード セキュリティ リスク評価は、GitHub ブログに最初に掲載されました。",
-        "en": "Organization admins and security managers can now run a free Code Security risk assessment to review security vulnerabilities across their organization. The assessment summarizes vulnerabilities by severity, rule type, and programming language. It includes remediation guidance, highlighting where Copilot Autofix can automatically suggest fixes. The report enables you to identify high-impact repositories to prioritize, and helps understand how to remediate security issues faster. To initiate an assessment, navigate to the “Assessments” section under your organization’s Security tab. This feature is available in GitHub Enterprise Cloud and GitHub Team, and will ship in GitHub Enterprise Server 3.22. Read more in the Code Security risk assessment documentation. Join the discussion in GitHub Community. The post Code Security risk assessment available for organizations appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations",
-      "tags": [
-        "release",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-08-anthropic-overview",
       "date": "2026-04-08",
       "category": "anthropic",
@@ -1175,6 +1268,54 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-03-github-2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的组织防火墙设置",
+        "ja": "Copilot クラウド エージェントの組織ファイアウォール設定",
+        "en": "Organization firewall settings for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "Copilot 云代理包括内置代理防火墙，用于控制 Copilot 的互联网访问并帮助防止提示注入和数据泄露。到目前为止，防火墙是由存储库管理员在存储库级别配置的。组织管理员现在可以管理组织中所有存储库的代理防火墙。这样可以更轻松地大规模部署 Copilot 云代理，并根据您的需求提供正确的默认设置和护栏。组织管理员可以： 打开或关闭所有存储库的防火墙，或允许每个存储库自行决定。在所有存储库中打开或关闭建议的允许列表，或允许每个存储库自行决定。将条目添加到组织范围内的自定义白名单，涵盖所有存储库（例如，允许访问内部包注册表）。控制是否允许存储库管理员添加自己的自定义白名单条目。默认情况下，所有设置都允许每个存储库自行决定，保留现有行为。要了解更多信息，请参阅 GitHub 文档中的“自定义 Copilot 云代理的代理防火墙”。 Copilot 云代理的后组织防火墙设置首先出现在 GitHub 博客上。",
+        "ja": "Copilot クラウド エージェントには、Copilot のインターネット アクセスを制御し、プロンプト インジェクションやデータ漏洩から保護するためのエージェント ファイアウォールが組み込まれています。これまで、ファイアウォールはリポジトリ管理者によってリポジトリ レベルで設定されていました。組織管理者は、組織内のすべてのリポジトリにわたってエージェント ファイアウォールを管理できるようになりました。これにより、ニーズに合わせた適切なデフォルトとガードレールを備えた Copilot クラウド エージェントを大規模に展開することが容易になります。組織管理者は次のことを行うことができます。 すべてのリポジトリにわたってファイアウォールをオンまたはオフにするか、各リポジトリに決定を許可します。すべてのリポジトリで推奨ホワイトリストをオンまたはオフにするか、各リポジトリに決定させます。すべてのリポジトリをカバーする、組織全体のカスタム許可リス​​トにエントリを追加します (内部パッケージ レジストリへのアクセスを許可するなど)。リポジトリ管理者が独自のカスタム許可リス​​ト エントリを追加できるかどうかを制御します。デフォルトでは、すべての設定で各リポジトリが決定し、既存の動作が維持されます。詳細については、GitHub ドキュメントの「Copilot クラウド エージェントのエージェント ファイアウォールのカスタマイズ」を参照してください。 Copilot クラウド エージェントの組織ファイアウォール設定の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the repository level by repository admins. Organization admins can now manage the agent firewall across all repositories in their organization. This makes it easier to roll out Copilot cloud agent at scale with the right defaults and guardrails for your needs. Organization admins can: Turn the firewall on or off across all repositories, or allow each repository to decide. Turn the recommended allowlist on or off across all repositories, or allow each repository to decide. Add entries to an organization-wide custom allowlist, covering all repositories (e.g., allowing access to an internal package registry). Control whether repository admins are allowed to add their own custom allowlist entries. By default, all settings allow each repository to decide, preserving existing behavior. To learn more, see “Customizing the agent firewall for Copilot cloud agent” in the GitHub Docs. The post Organization firewall settings for Copilot cloud agent appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 已弃用",
+        "ja": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini は非推奨になりました",
+        "en": "GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 4 月 15 日）：我们更新了这篇文章以包含有关弃用 GPT-5.1 的信息。我们已于 2026 年 4 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以通过检查您的个人 Copilot 设置并确认是否为特定型号启用该策略来验证可用性。启用后，您将在 VS Code 和 github.com 的 Copilot Chat 模型选择器中看到该模型。无需执行任何操作即可删除已弃用的模型。 GitHub 我们鼓励有疑问或疑虑的企业客户联系其客户经理以获得进一步帮助。分享您的反馈 要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。加入 GitHub 社区分享您的反馈。已弃用的 GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 帖子首先出现在 GitHub 博客上。",
+        "ja": "編集者注 (2026 年 4 月 15 日): この投稿を更新して、GPT-5.1 の非推奨に関する情報を追加しました。 2026 年 4 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替品 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codexサポートされているモデルを使用するためのワークフローと統合。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は、個々の Copilot 設定をチェックし、特定のモデルに対してポリシーが有効になっていることを確認することで、可用性を確認できます。有効にすると、VS Code および github.com の Copilot チャット モデル セレクターにモデルが表示されます。非推奨のモデルを削除するためのアクションは必要ありません。 GitHub 質問や懸念がある企業のお客様は、アカウント マネージャーに問い合わせてサポートを受けることをお勧めします。フィードバックを共有してください Copilot で利用可能なモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。 GitHub コミュニティに参加してフィードバックを共有してください。 GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini の非推奨の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Editor’s note (April 15, 2026): We updated this post to include information about the deprecation of GPT-5.1. We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date Suggested alternative GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify availability by checking your individual Copilot settings and confirming that the policy is enabled for the specific model. Once enabled, you’ll see the model in the Copilot Chat model selector in VS Code and on github.com. No action is required to remove the deprecated models. GitHub Enterprise customers with questions or concerns are encouraged to reach out to their account manager for further assistance. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Join the GitHub Community to share your feedback. The post GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
       "date": "2026-04-03",
       "category": "github",
@@ -1377,30 +1518,6 @@
       "url": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-02-github-2026-04-02-copilot-organization-custom-instructions-are-generally-available",
-      "date": "2026-04-02",
-      "category": "github",
-      "title": {
-        "zh": "副驾驶组织自定义指令普遍可用",
-        "ja": "副操縦士組織のカスタム手順の一般提供が開始されました",
-        "en": "Copilot organization custom instructions are generally available"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 的组织自定义指令于 2025 年 4 月首次推出，现已全面发布。通过组织自定义指令，Copilot Business 和 Copilot Enterprise 组织管理员可以设置默认指令，指导 Copilot 在其组织中的所有存储库中的行为。组织自定义指令应用于： Copilot github.com 上的聊天 Copilot 代码审查 Copilot 云代理 要添加自定义指令，请导航到组织的设置，选择 Copilot，然后单击自定义指令。要了解更多信息，请参阅文档中的“为 GitHub Copilot 添加组织自定义指令”。 Copilot 组织自定义指令通常可用，首先出现在 GitHub 博客上。",
-        "ja": "2025 年 4 月に初めて導入された GitHub Copilot の組織カスタム手順が一般公開されました。組織のカスタム命令を使用すると、Copilot Business および Copilot Enterprise の組織管理者は、組織内のすべてのリポジトリにわたる Copilot の動作をガイドするデフォルトの命令を設定できます。組織のカスタム命令は以下に適用されます。 Copilot github.com のチャット Copilot コード レビュー Copilot クラウド エージェント カスタム命令を追加するには、組織の設定に移動し、Copilot を選択して、カスタム命令をクリックします。詳細については、ドキュメントの「GitHub Copilot の組織カスタム手順の追加」を参照してください。 Copilot 組織後のカスタム手順が一般公開され、最初に GitHub ブログに掲載されました。",
-        "en": "Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available. With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions that guide Copilot’s behavior across all repositories in their organization. Organization custom instructions are applied across: Copilot Chat on github.com Copilot code review Copilot cloud agent To add custom instructions, navigate to your organization’s settings, select Copilot, then click Custom instructions. To learn more, see “Adding organization custom instructions for GitHub Copilot” in the documentation. The post Copilot organization custom instructions are generally available appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -2028,23 +2145,48 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-03-25-github-2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "id": "2026-03-25-github-2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
       "date": "2026-03-25",
       "category": "github",
       "title": {
-        "zh": "GitHub Copilot for Jira — 公共预览增强功能",
-        "ja": "GitHub Copilot for Jira — パブリック プレビューの機能強化",
-        "en": "GitHub Copilot for Jira — Public preview enhancements"
+        "zh": "我们的隐私声明和服务条款的更新：我们如何使用您的数据",
+        "ja": "プライバシーに関する声明と利用規約の更新: データの使用方法",
+        "en": "Updates to our Privacy Statement and Terms of Service: How we use your data"
       },
       "summary": {
-        "zh": "自从推出 Jira 的 GitHub Copilot 编码代理的公共预览版以来，我们一直在密切倾听客户的反馈。感谢所有花时间尝试集成、报告问题和分享建议的人——你们的意见直接影响了我们所发布的改进。新功能 改进的入门和设置指南 根据早期采用者的反馈，集成现在提供更好的指导，包括更清晰的错误消息和解决常见配置问题的步骤。我们还扩展了我们的文档，以更全面地涵盖集成先决条件。模型选择 您现在可以直接从 Jira 选择 Copilot 编码代理用于您的任务的 AI 模型。在提及 @GitHub Copilot 时，只需在评论中指出您希望使用的模型即可。有关可用模型的更多信息，请参阅 Copilot 中支持的 AI 模型。拉取请求中的 Jira 票证引用 现在，我们指示 Copilot 编码代理将您的 Jira 票证编号包含在拉取请求标题和分支名称中。拉取请求还将包含返回原始 Jira 票证的链接以及提供给代理的 Jira 上下文。这样可以更轻松地跟踪从 Jira 到代码库的工作。通过 MCP 的 Confluence 上下文 通过使用个人访问令牌 (PAT) 配置 Atlassian MCP 服务器，为 Copilot 编码代理提供对 Confluence 页面的访问权限。这允许代理在处理 Jira 问题时参考 Confluence 中存储的设计文档、规范和其他上下文。有关设置说明，请参阅使用 MCP 扩展 Copilot 编码代理。入门 要获取所有这些更新，请确保您从 Atlassian 实例中拥有最新版本的 GitHub Copilot for Jira 应用程序。 Atlassian Marketplace 列表 有关将 Copilot 编码代理与 Jira 集成的文档 分享反馈或访问集成支持 GitHub Copilot for Jira — 公共预览版增强功能首先出现在 GitHub 博客上。",
-        "ja": "Jira 用 GitHub Copilot コーディング エージェントのパブリック プレビューを開始して以来、私たちはお客様のフィードバックに注意深く耳を傾けてきました。統合を試したり、問題を報告したり、提案を共有したりするために時間を割いてくださった皆様に感謝します。皆様のご意見が、私たちが出荷した改善点に直接反映されました。新機能 オンボーディングとセットアップ ガイダンスの改善 早期導入者からのフィードバックに基づいて、統合により、より明確なエラー メッセージや一般的な構成問題を解決する手順など、より適切なガイダンスが提供されるようになりました。また、統合の前提条件をより包括的にカバーするためにドキュメントを拡張しました。モデルの選択 Copilot コーディング エージェントがタスクに使用する AI モデルを Jira から直接選択できるようになりました。 @GitHub Copilot について言及する場合は、コメントで使用したいモデルを指定するだけです。利用可能なモデルの詳細については、「Copilot でサポートされる AI モデル」を参照してください。プル リクエスト内の Jira チケット参照 ここで、Copilot コーディング エージェントに、プル リクエストのタイトルとブランチ名に Jira チケット番号を含めるよう指示します。プル リクエストには、元の Jira チケットへのリンクと、エージェントに提供される Jira コンテキストも含まれます。これにより、Jira からコードベースまでの作業を簡単に追跡できるようになります。 MCP 経由の Confluence コンテキスト パーソナル アクセス トークン (PAT) を使用して Atlassian MCP サーバーを構成することにより、Copilot コーディング エージェントに Confluence ページへのアクセスを提供します。これにより、エージェントは Jira 課題に取り組むときに、Confluence に保存されている設計ドキュメント、仕様、その他のコンテキストを参照できるようになります。セットアップ手順については、「MCP を使用した Copilot コーディング エージェントの拡張」を参照してください。はじめに これらの更新をすべて入手するには、Atlassian インスタンスから最新バージョンの GitHub Copilot for Jira アプリを入手していることを確認してください。 Atlassian Marketplace のリスト Copilot コーディング エージェントと Jira の統合に関するドキュメント フィードバックを共有するか、統合サポートにアクセスしてください。 投稿 GitHub Copilot for Jira — パブリック プレビューの機能強化は、GitHub ブログに最初に掲載されました。",
-        "en": "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try the integration, report issues, and share suggestions—your input has directly shaped the improvements we have shipped. What’s new Improved onboarding and setup guidance Based on feedback from early adopters, the integration now provides better guidance, including clearer error messages and steps to resolve common configuration issues. We’ve also extended our documentation to more comprehensively cover integration prerequisites. Model selection You can now choose which AI model Copilot coding agent uses for your task, directly from Jira. Simply indicate the model you wish to use in your comment when mentioning @GitHub Copilot. For more information on available models, see Supported AI models in Copilot. Jira ticket references in pull requests We now instruct Copilot coding agent to include your Jira ticket number in the pull request title and branch name. The pull request will also include a link back to the originating Jira ticket and the Jira context provided to the agent. This makes it easier to trace work from Jira through to your codebase. Confluence context via MCP Provide Copilot coding agent with access to your Confluence pages by configuring the Atlassian MCP server with a personal access token (PAT). This allows the agent to reference design documents, specifications, and other context stored in Confluence when working on your Jira issues. For setup instructions, see Extending Copilot coding agent with MCP. Getting started To get all these updates, ensure you have the latest version of the GitHub Copilot for Jira app from your Atlassian instance. Atlassian Marketplace listing Documentation about integrating Copilot coding agent with Jira Share feedback or access integration support The post GitHub Copilot for Jira — Public preview enhancements appeared first on The GitHub Blog."
+        "zh": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24 onward we will begin using interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users to train and improve our AI models unless you opt out. Copilot Business and Copilot Enterprise users are not affected by this update. Here’s a quick overview of the changes and how they affect your GitHub experience. What’s new in the Privacy Statement? You’ll notice the following changes, and clarifications in this Privacy Statement update: Sharing with affiliates: We’ve updated the Affiliates section to expand the purposes for which we share personal data with GitHub affiliates, including Microsoft. GitHub affiliates are companies within our corporate family—they do not include third-party AI model providers or other independent service providers. Affiliates may now use shared data for additional purposes, including developing and improving artificial intelligence and machine learning technologies, subject to applicable law and their own privacy commitments. If GitHub shares your data with affiliates for AI model training, your opt-out preferences and enterprise data protections travel with the data. You can review Microsoft’s privacy practices in the Microsoft Privacy Statement. Product development and improvement:: We’ve added a new processing purpose to explain how we use personal data to develop, improve, and train our products, services, and technologies, including AI and machine learning models. This includes improving features, developing new offerings, enhancing safety and security, and training models that power GitHub’s AI-assisted features like GitHub Copilot. We apply appropriate technical safeguards, including filters designed to detect and remove sensitive data, and de-identification techniques. Lawful basis for AI development: For users in the European Economic Area (EEA) and UK, we’ve updated our lawful bases section to specify developing artificial intelligence and machine learning technologies as a legitimate interest. This processing is done only when our interests are not overridden by your data protection rights or fundamental rights and freedoms. Private repository access consolidated in Terms of Service: We moved the description of when GitHub personnel may access private repository content from the Privacy Statement to Section E (Private Repositories) of the Terms of Service. This is a consolidation, not a change—the same access limitations apply. We made this move because private repository access rights are contractual commitments about how we treat your content, and they belong alongside our confidentiality obligations in the Terms of Service rather than in a document focused on personal data processing. The Privacy Statement continues to reference Section E for details. What’s new in the Terms of Service? Alongside the Privacy Statement changes, we’ve updated the Terms of Service to clearly describe how AI features work, how your data may be used for training if you do not opt out, and what controls you have. Here’s a rundown: Updated definitions: We’ve added new defined terms (“AI Feature,” “Affiliate,” “Input,” “Output,” and “Your Content”) so the agreement is clearer and easier to follow. Refreshed user-generated content section (Section D): We’ve rewritten Section D in plainer language to make your rights and responsibilities more clear. The ownership and license structure is easier to follow, the license grant to GitHub now explicitly extends to our affiliates and clarifies that it includes using your content for providing and improving AI models and AI. You still own your content. That hasn’t changed. Private repositories and AI (Section E): We’ve added a new provision that spells out that if you provide private repository content as input to an AI Feature, we may use that input to improve AI features (subject to your opt out right). But we still will not otherwise use or access your private repository contents. New Section J — AI features, training, and your data: We’ve added a dedicated section that brings all AI-related terms together in one place. Unless you opt out, you grant GitHub and our affiliates a license to collect and use your inputs (e.g., prompts and code context) and outputs (e.g., suggestions) to develop, train, and improve AI models. Once you opt out, we stop collecting from that point forward. We will not share your inputs or outputs with third-party AI model providers for their own independent training. GitHub does not claim ownership of your inputs or outputs. They’re yours. AI model training: What you need to know Here’s what this means in practice: Applicable products: This applies to GitHub Copilot Free, Pro, and Pro+. As our AI features evolve, the list of applicable products may expand, and these commitments will apply to those products too. Your control: You control your data, including inputs, outputs, code snippets, and associated context. You can disable the use of it for AI training through your settings. This opt-out applies to GitHub and its affiliates. Data minimization: We’re committed to using the minimum amount of personal data necessary. When possible, we de-identify or aggregate your data during the training process to protect your privacy. Enterprise customers: These changes apply only to individual consumer accounts. Enterprise and organization-provided accounts remain governed by your Data Protection Agreement. Your data will not be used for AI training. Private repositories: This update does not change our treatment of private repository source code stored on GitHub. We do not use private repository content at rest to train AI models. The interaction data covered by this update (e.g., prompts, suggestions, and code snippets generated during your use of Copilot) may be generated while you are working in a private repository, but we are not accessing or training on the stored contents of that repository at rest. When will these changes take effect? These changes take effect on April 24. Not interested? Opt out in settings under “Privacy”. If you previously opted out of the setting allowing GitHub to collect this data for product improvements, your preference has been retained. Your choice is preserved, and your data will not be used for training unless you opt in. Who is affected? These changes affect Copilot Free, Pro, and Pro+ users. Copilot Business and Copilot Enterprise users are not affected by this update. Your privacy rights You continue to have the rights described in our Privacy Statement, including: The right to access your data The right to correct inaccurate data The right to request deletion of your data The right to object to processing based on legitimate interests To exercise these rights, contact us at privacy@github.com. Got questions? If you have questions, visit our FAQ and related discussion. Thank you for being a part of GitHub. We’re dedicated to continuously improving our services while respecting your privacy. The GitHub Team The post Updates to our Privacy Statement and Terms of Service: How we use your data appeared first on The GitHub Blog.",
+        "ja": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24 onward we will begin using interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users to train and improve our AI models unless you opt out. Copilot Business and Copilot Enterprise users are not affected by this update. Here’s a quick overview of the changes and how they affect your GitHub experience. What’s new in the Privacy Statement? You’ll notice the following changes, and clarifications in this Privacy Statement update: Sharing with affiliates: We’ve updated the Affiliates section to expand the purposes for which we share personal data with GitHub affiliates, including Microsoft. GitHub affiliates are companies within our corporate family—they do not include third-party AI model providers or other independent service providers. Affiliates may now use shared data for additional purposes, including developing and improving artificial intelligence and machine learning technologies, subject to applicable law and their own privacy commitments. If GitHub shares your data with affiliates for AI model training, your opt-out preferences and enterprise data protections travel with the data. You can review Microsoft’s privacy practices in the Microsoft Privacy Statement. Product development and improvement:: We’ve added a new processing purpose to explain how we use personal data to develop, improve, and train our products, services, and technologies, including AI and machine learning models. This includes improving features, developing new offerings, enhancing safety and security, and training models that power GitHub’s AI-assisted features like GitHub Copilot. We apply appropriate technical safeguards, including filters designed to detect and remove sensitive data, and de-identification techniques. Lawful basis for AI development: For users in the European Economic Area (EEA) and UK, we’ve updated our lawful bases section to specify developing artificial intelligence and machine learning technologies as a legitimate interest. This processing is done only when our interests are not overridden by your data protection rights or fundamental rights and freedoms. Private repository access consolidated in Terms of Service: We moved the description of when GitHub personnel may access private repository content from the Privacy Statement to Section E (Private Repositories) of the Terms of Service. This is a consolidation, not a change—the same access limitations apply. We made this move because private repository access rights are contractual commitments about how we treat your content, and they belong alongside our confidentiality obligations in the Terms of Service rather than in a document focused on personal data processing. The Privacy Statement continues to reference Section E for details. What’s new in the Terms of Service? Alongside the Privacy Statement changes, we’ve updated the Terms of Service to clearly describe how AI features work, how your data may be used for training if you do not opt out, and what controls you have. Here’s a rundown: Updated definitions: We’ve added new defined terms (“AI Feature,” “Affiliate,” “Input,” “Output,” and “Your Content”) so the agreement is clearer and easier to follow. Refreshed user-generated content section (Section D): We’ve rewritten Section D in plainer language to make your rights and responsibilities more clear. The ownership and license structure is easier to follow, the license grant to GitHub now explicitly extends to our affiliates and clarifies that it includes using your content for providing and improving AI models and AI. You still own your content. That hasn’t changed. Private repositories and AI (Section E): We’ve added a new provision that spells out that if you provide private repository content as input to an AI Feature, we may use that input to improve AI features (subject to your opt out right). But we still will not otherwise use or access your private repository contents. New Section J — AI features, training, and your data: We’ve added a dedicated section that brings all AI-related terms together in one place. Unless you opt out, you grant GitHub and our affiliates a license to collect and use your inputs (e.g., prompts and code context) and outputs (e.g., suggestions) to develop, train, and improve AI models. Once you opt out, we stop collecting from that point forward. We will not share your inputs or outputs with third-party AI model providers for their own independent training. GitHub does not claim ownership of your inputs or outputs. They’re yours. AI model training: What you need to know Here’s what this means in practice: Applicable products: This applies to GitHub Copilot Free, Pro, and Pro+. As our AI features evolve, the list of applicable products may expand, and these commitments will apply to those products too. Your control: You control your data, including inputs, outputs, code snippets, and associated context. You can disable the use of it for AI training through your settings. This opt-out applies to GitHub and its affiliates. Data minimization: We’re committed to using the minimum amount of personal data necessary. When possible, we de-identify or aggregate your data during the training process to protect your privacy. Enterprise customers: These changes apply only to individual consumer accounts. Enterprise and organization-provided accounts remain governed by your Data Protection Agreement. Your data will not be used for AI training. Private repositories: This update does not change our treatment of private repository source code stored on GitHub. We do not use private repository content at rest to train AI models. The interaction data covered by this update (e.g., prompts, suggestions, and code snippets generated during your use of Copilot) may be generated while you are working in a private repository, but we are not accessing or training on the stored contents of that repository at rest. When will these changes take effect? These changes take effect on April 24. Not interested? Opt out in settings under “Privacy”. If you previously opted out of the setting allowing GitHub to collect this data for product improvements, your preference has been retained. Your choice is preserved, and your data will not be used for training unless you opt in. Who is affected? These changes affect Copilot Free, Pro, and Pro+ users. Copilot Business and Copilot Enterprise users are not affected by this update. Your privacy rights You continue to have the rights described in our Privacy Statement, including: The right to access your data The right to correct inaccurate data The right to request deletion of your data The right to object to processing based on legitimate interests To exercise these rights, contact us at privacy@github.com. Got questions? If you have questions, visit our FAQ and related discussion. Thank you for being a part of GitHub. We’re dedicated to continuously improving our services while respecting your privacy. The GitHub Team The post Updates to our Privacy Statement and Terms of Service: How we use your data appeared first on The GitHub Blog.",
+        "en": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24 onward we will begin using interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users to train and improve our AI models unless you opt out. Copilot Business and Copilot Enterprise users are not affected by this update. Here’s a quick overview of the changes and how they affect your GitHub experience. What’s new in the Privacy Statement? You’ll notice the following changes, and clarifications in this Privacy Statement update: Sharing with affiliates: We’ve updated the Affiliates section to expand the purposes for which we share personal data with GitHub affiliates, including Microsoft. GitHub affiliates are companies within our corporate family—they do not include third-party AI model providers or other independent service providers. Affiliates may now use shared data for additional purposes, including developing and improving artificial intelligence and machine learning technologies, subject to applicable law and their own privacy commitments. If GitHub shares your data with affiliates for AI model training, your opt-out preferences and enterprise data protections travel with the data. You can review Microsoft’s privacy practices in the Microsoft Privacy Statement. Product development and improvement:: We’ve added a new processing purpose to explain how we use personal data to develop, improve, and train our products, services, and technologies, including AI and machine learning models. This includes improving features, developing new offerings, enhancing safety and security, and training models that power GitHub’s AI-assisted features like GitHub Copilot. We apply appropriate technical safeguards, including filters designed to detect and remove sensitive data, and de-identification techniques. Lawful basis for AI development: For users in the European Economic Area (EEA) and UK, we’ve updated our lawful bases section to specify developing artificial intelligence and machine learning technologies as a legitimate interest. This processing is done only when our interests are not overridden by your data protection rights or fundamental rights and freedoms. Private repository access consolidated in Terms of Service: We moved the description of when GitHub personnel may access private repository content from the Privacy Statement to Section E (Private Repositories) of the Terms of Service. This is a consolidation, not a change—the same access limitations apply. We made this move because private repository access rights are contractual commitments about how we treat your content, and they belong alongside our confidentiality obligations in the Terms of Service rather than in a document focused on personal data processing. The Privacy Statement continues to reference Section E for details. What’s new in the Terms of Service? Alongside the Privacy Statement changes, we’ve updated the Terms of Service to clearly describe how AI features work, how your data may be used for training if you do not opt out, and what controls you have. Here’s a rundown: Updated definitions: We’ve added new defined terms (“AI Feature,” “Affiliate,” “Input,” “Output,” and “Your Content”) so the agreement is clearer and easier to follow. Refreshed user-generated content section (Section D): We’ve rewritten Section D in plainer language to make your rights and responsibilities more clear. The ownership and license structure is easier to follow, the license grant to GitHub now explicitly extends to our affiliates and clarifies that it includes using your content for providing and improving AI models and AI. You still own your content. That hasn’t changed. Private repositories and AI (Section E): We’ve added a new provision that spells out that if you provide private repository content as input to an AI Feature, we may use that input to improve AI features (subject to your opt out right). But we still will not otherwise use or access your private repository contents. New Section J — AI features, training, and your data: We’ve added a dedicated section that brings all AI-related terms together in one place. Unless you opt out, you grant GitHub and our affiliates a license to collect and use your inputs (e.g., prompts and code context) and outputs (e.g., suggestions) to develop, train, and improve AI models. Once you opt out, we stop collecting from that point forward. We will not share your inputs or outputs with third-party AI model providers for their own independent training. GitHub does not claim ownership of your inputs or outputs. They’re yours. AI model training: What you need to know Here’s what this means in practice: Applicable products: This applies to GitHub Copilot Free, Pro, and Pro+. As our AI features evolve, the list of applicable products may expand, and these commitments will apply to those products too. Your control: You control your data, including inputs, outputs, code snippets, and associated context. You can disable the use of it for AI training through your settings. This opt-out applies to GitHub and its affiliates. Data minimization: We’re committed to using the minimum amount of personal data necessary. When possible, we de-identify or aggregate your data during the training process to protect your privacy. Enterprise customers: These changes apply only to individual consumer accounts. Enterprise and organization-provided accounts remain governed by your Data Protection Agreement. Your data will not be used for AI training. Private repositories: This update does not change our treatment of private repository source code stored on GitHub. We do not use private repository content at rest to train AI models. The interaction data covered by this update (e.g., prompts, suggestions, and code snippets generated during your use of Copilot) may be generated while you are working in a private repository, but we are not accessing or training on the stored contents of that repository at rest. When will these changes take effect? These changes take effect on April 24. Not interested? Opt out in settings under “Privacy”. If you previously opted out of the setting allowing GitHub to collect this data for product improvements, your preference has been retained. Your choice is preserved, and your data will not be used for training unless you opt in. Who is affected? These changes affect Copilot Free, Pro, and Pro+ users. Copilot Business and Copilot Enterprise users are not affected by this update. Your privacy rights You continue to have the rights described in our Privacy Statement, including: The right to access your data The right to correct inaccurate data The right to request deletion of your data The right to object to processing based on legitimate interests To exercise these rights, contact us at privacy@github.com. Got questions? If you have questions, visit our FAQ and related discussion. Thank you for being a part of GitHub. We’re dedicated to continuously improving our services while respecting your privacy. The GitHub Team The post Updates to our Privacy Statement and Terms of Service: How we use your data appeared first on The GitHub Blog."
       },
-      "url": "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "url": "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-25-github-2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
+      "date": "2026-03-25",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在可以识别活跃的 Copilot 编码代理用户",
+        "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コーディング エージェント ユーザーが識別されるようになりました",
+        "en": "Copilot usage metrics now identify active Copilot coding agent users"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 编码代理 (CCA) 活动。企业和组织管理员可以在每日报告和 28 天报告中识别哪些用户正在积极使用 Copilot 编码代理，从而更全面地了解 IDE 之外的跨界面的 Copilot 采用情况。在 API 响应中，CCA 使用情况由用户级别的used_copilot_coding_agent 字段表示。您可以在我们的文档中了解有关 Copilot 使用指标的更多信息。这包括用户是否通过将 Copilot 分配给问题或通过在拉取请求注释中标记 @copilot 来触发 Copilot 编码代理会话。为什么这很重要 通过此更新，您可以： 跟踪 Copilot 编码代理在整个企业和组织中的采用情况以及现有 IDE 指标。区分 IDE 代理模式使用 (used_agent ) 和 Copilot 编码代理使用 (used_copilot_coding_agent )，以获得更清晰的采用见解。了解团队如何利用 IDE 之外的 Copilot 来自主规划和编码。请访问我们的 API 文档以了解更多信息。加入 GitHub 社区内的讨论。 Copilot 使用指标现在可识别活跃的 Copilot 编码代理用户，该指标首先出现在 GitHub 博客上。",
+        "ja": "Copilot 使用状況メトリクスは、どのユーザーが Copilot コーディング エージェント (CCA) アクティビティを行っているかを示すようになりました。企業および組織の管理者は、どのユーザーが Copilot コーディング エージェントをアクティブに使用しているかを日次および 28 日レポートで特定できるため、IDE を超えたサーフェス全体での Copilot 導入のより完全な全体像を把握できるようになります。 API 応答内では、CCA の使用状況はユーザー レベルの used_copilot_coding_agent フィールドによって示されます。 Copilot の使用状況メトリクスに関するドキュメントで詳細を確認できます。これには、ユーザーが Copilot を問題に割り当てることによって、またはプル リクエストのコメントで @copilot をタグ付けすることによって、Copilot コーディング エージェント セッションをトリガーしたかどうかが含まれます。これが重要な理由 この更新により、次のことが可能になります。 企業および組織全体での Copilot コーディング エージェントの導入を、既存の IDE メトリクスとともに追跡できます。導入状況をより明確に把握するために、IDE エージェント モードの使用法 ( used_agent ) と Copilot コーディング エージェントの使用法 ( used_copilot_coding_agent ) を区別します。チームが IDE を超えて Copilot を活用して自律的に計画とコーディングを行う方法を理解します。詳細については、API ドキュメントをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。 「Copilot 使用状況メトリクスでアクティブな Copilot コーディング エージェント ユーザーが特定されるようになった」という記事が最初に GitHub ブログに掲載されました。",
+        "en": "Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and 28-day reports, enabling a more complete picture of Copilot adoption across surfaces beyond the IDE. Within the API response, CCA usage is denoted by the used_copilot_coding_agent field at the user level. You can learn more in our documentation about Copilot usage metrics. This includes whether a user triggered a Copilot coding agent session by assigning Copilot to an issue or by tagging @copilot in a pull request comment. Why this matters With this update, you can: Track Copilot coding agent adoption across your enterprise and organization alongside existing IDE metrics. Distinguish between IDE agent mode usage ( used_agent ) and Copilot coding agent usage ( used_copilot_coding_agent ) for clearer adoption insights. Understand how teams are leveraging Copilot beyond the IDE to plan and code autonomously. Visit our API documentation to learn more. Join the discussion within GitHub Community. The post Copilot usage metrics now identify active Copilot coding agent users appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
       "tags": [
         "improvement",
-        "collaboration-tools",
         "copilot",
         "github",
         "changelog"
@@ -2370,30 +2512,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-19-github-2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
-      "date": "2026-03-19",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 项目中的层次结构视图现已全面可用",
-        "ja": "GitHub プロジェクトの階層ビューが一般提供になりました",
-        "en": "Hierarchy view in GitHub Projects is now generally available"
-      },
-      "summary": {
-        "zh": "GitHub 项目中的层次结构视图现已普遍可用。从今天开始，所有新项目视图默认启用层次结构视图。如果您有现有视图，则可以通过切换“显示层次结构”从“视图”菜单将其打开。自上一版本以来，我们还进行了多项改进和错误修复： 改进了子问题过滤器的可发现性：现在可以更轻松地在过滤器建议栏中找到子问题特定过滤器。自动将过滤器应用于子问题：当子问题添加到过滤视图时，我们现在尝试自动应用匹配的过滤器。我们还进行了多项辅助功能改进，以提供更好的整体体验。如需反馈或问题，请加入 GitHub 社区中的讨论。对问题和项目的其他改进 通过问题模板分配 Copilot 您现在可以将 Copilot 自动分配给问题模板。首先，将 @copilot 添加到问题模板中的受让人字段。这适用于对存储库具有写入权限并允许分配 Copilot 的用户。维护者的空白问题即使在存储库的问题模板设置中配置了blank_issues_enabled: false，具有分类、写入或管理访问权限的用户现在也可以创建空白问题。空白问题选项将自动出现在这些用户的模板选择器中，而没有写入权限的贡献者将继续受模板指导。 GitHub 项目中的帖子层次结构视图现已普遍可用，首先出现在 GitHub 博客上。",
-        "ja": "GitHub プロジェクトの階層ビューが一般提供されるようになりました。本日より、すべての新しいプロジェクト ビューで階層ビューがデフォルトで有効になります。既存のビューがある場合は、[表示] メニューから [階層の表示] を切り替えてオンにできます。前回のリリース以来、いくつかの改善とバグ修正も提供しました。 サブ課題フィルターの発見可能性の向上: サブ課題固有のフィルターがフィルター提案バーで見つけやすくなりました。サブ課題へのフィルターの自動適用: フィルターされたビューにサブ課題が追加されると、一致するフィルターが自動的に適用されるようになりました。また、全体的なエクスペリエンスを向上させるために、複数のアクセシビリティの改善も行いました。フィードバックや質問がある場合は、GitHub コミュニティのディスカッションに参加してください。課題とプロジェクトの追加の改善 課題テンプレートによる Copilot の割り当て Copilot を課題テンプレートに自動割り当てできるようになりました。まず、課題テンプレートの担当者フィールドに @copilot を追加します。これは、リポジトリへの書き込みアクセス権があり、Copilot の割り当てが許可されているユーザーに対して機能します。メンテナー向けの空白の課題 トリアージ、書き込み、または管理者アクセス権を持つユーザーは、リポジトリの課題テンプレート設定でblank_issues_enabled: false が構成されている場合でも、空白の課題を作成できるようになりました。これらのユーザーのテンプレート ピッカーには [空白の課題] オプションが自動的に表示されますが、書き込みアクセス権を持たない投稿者は引き続きテンプレートによってガイドされます。 GitHub プロジェクトの投稿階層ビューが一般利用可能になりました appeared first on The GitHub Blog.",
-        "en": "Hierarchy view in GitHub Projects is now generally available. Starting today, hierarchy view is enabled by default for all new project views. If you have existing views, you can turn it on from the View menu by toggling Show hierarchy. Since our last release, we’ve also shipped several improvements and bug fixes: Improved discoverability of sub-issue filters: Sub-issue specific filters are now easier to find in the filter suggestion bar. Auto-apply filters to sub-issues: When sub-issues are added to a filtered view, we now attempt to automatically apply matching filters. We’ve also made multiple accessibility improvements for a better overall experience. For feedback or questions, join the discussion in GitHub Community. Additional improvements to issues and projects Assign Copilot via issue templates You can now auto-assign Copilot to issue templates. To get started, add @copilot to the assignees field in your issue template. This works for users with write access to the repository who are allowed to assign Copilot. Blank issues for maintainers Users with triage, write, or admin access can now create blank issues even when blank_issues_enabled: false is configured in the repository’s issue template settings. The Blank issue option will appear in the template picker for these users automatically, while contributors without write access continue to be guided by templates. The post Hierarchy view in GitHub Projects is now generally available appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
-      "tags": [
-        "improvement",
-        "projects-issues",
         "github",
         "changelog"
       ],
@@ -3041,6 +3159,55 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-11-github-2026-03-11-request-copilot-code-review-from-github-cli",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "从 GitHub CLI 请求 Copilot 代码审查",
+        "ja": "GitHub CLI から Copilot コード レビューをリクエストする",
+        "en": "Request Copilot code review from GitHub CLI"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 GitHub CLI 直接从终端向 GitHub Copilot 请求审核。无论您是编辑现有拉取请求还是创建新拉取请求，Copilot 都可以作为 gh pr edit 和 gh pr create 中的审阅者选项使用。无需切换到浏览器。工作原理 非交互式：使用 gh pr edit --add-reviewer @copilot 将 Copilot 添加为审阅者。交互式：当您通过交互式提示选择审阅者时，Copilot 会出现在您的队友旁边。更快地选择审阅者和受托人 此版本还引入了基于搜索的体验来选择审阅者和受托人。现在，不再预先加载所有协作者和团队，而是在您键入时获取结果。这极大地提高了大型组织的性能，并解决了屏幕阅读器大声朗读数千个选项的可访问性问题。谁可以使用此功能 所有包含 Copilot 代码审查的计划均提供此功能。安装或升级到 GitHub CLI v2.88.0 或更高版本以开始使用。有关更多详细信息，请查看 GitHub CLI 发行说明。要了解有关 Copilot 代码审查的更多信息，请访问 Copilot 代码审查文档。有反馈或遇到问题吗？在 cli/cli 存储库中打开一个问题。来自 GitHub CLI 的 Request Copilot 代码审查帖子首先出现在 GitHub 博客上。",
+        "ja": "GitHub CLI を使用して、端末から直接 GitHub Copilot にレビューをリクエストできるようになりました。既存のプル リクエストを編集している場合でも、新しいプル リクエストを作成している場合でも、gh pr edit および gh pr create のレビュー担当者オプションとして Copilot を利用できます。ブラウザに切り替える必要はありません。仕組み 非対話型: gh pr edit --add-reviewer @copilot を使用して Copilot をレビュー担当者として追加します。インタラクティブ: インタラクティブなプロンプトを通じてレビュー担当者を選択すると、チームメイトの横に Copilot が表示されます。レビュー担当者と担当者の選択の高速化 このリリースでは、レビュー担当者と担当者を選択するための検索ベースのエクスペリエンスも導入されています。すべての共同作業者とチームを事前にロードするのではなく、入力時に結果が取得されるようになりました。これにより、大規模組織のパフォーマンスが劇的に向上し、スクリーン リーダーが何千ものオプションを読み上げるというアクセシビリティの問題が解決されました。この機能を使用できる人 この機能は、Copilot コード レビューを含むすべてのプランで利用できます。まずは、GitHub CLI v2.88.0 以降をインストールするか、GitHub CLI v2.88.0 以降にアップグレードしてください。詳細については、GitHub CLI リリース ノートを確認してください。 Copilot コード レビューの詳細については、Copilot コード レビューのドキュメントを参照してください。フィードバックがありますか、または問題が発生していますか? cli/cli リポジトリで問題を開きます。 GitHub CLI からの Request Copilot コード レビューの投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you’re editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There’s no need to switch to the browser. How it works Non-interactive: Add Copilot as a reviewer with gh pr edit --add-reviewer @copilot. Interactive: When you select reviewers through the interactive prompts, Copilot appears alongside your teammates. Faster reviewer and assignee selection This release also introduces a search-based experience for selecting reviewers and assignees. Instead of loading all collaborators and teams upfront, results are now fetched as you type. This dramatically improves performance for large organizations and resolves accessibility issues where screen readers were reading thousands of options aloud. Who can use this This feature is available on all plans that include Copilot code review. Install or upgrade to GitHub CLI v2.88.0 or later to get started. For more details, check out the GitHub CLI release notes. To learn more about Copilot code review, visit the Copilot code review documentation. Have feedback or run into an issue? Open an issue in the cli/cli repository. The post Request Copilot code review from GitHub CLI appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "JetBrains IDE 的 GitHub Copilot 中的主要代理功能改进",
+        "ja": "JetBrains IDE 用の GitHub Copilot におけるエージェント機能の大幅な改善",
+        "en": "Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs"
+      },
+      "summary": {
+        "zh": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements. New features Agentic capabilities Custom agents, sub-agents, and plan agent now generally available Custom agents, sub-agents, and plan agent are now generally available in GitHub Copilot for JetBrains IDEs. These capabilities make it easier to tailor Copilot to your workflows and collaborate with specialized agents directly within your IDE. Learn more about creating a custom agent in JetBrains IDEs. Agent hooks support in public preview Agent hooks are available in public preview. Agent hooks let you run custom commands at key points during agent sessions, making it easier to automate workflows, enforce policies, and integrate with external tools while maintaining control over agent behavior. You can define your hooks.json file with the name of your choice in the.github/hooks/ folder of your repository. Supported events include userPromptSubmitted, preToolUse, postToolUse, and errorOccurred hooks. Check out our documentation on agent hooks for more details. If you are a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable the Editor preview features policy before you can use it. Auto-approve support for MCP You can configure auto-approve for MCP at both the server and tool level, reducing manual approvals in chat and keeping your workflow uninterrupted during agent sessions. To configure this, go to Settings > GitHub Copilot > Chat > MCP Server and Tool Auto-approve Configuration in your JetBrains IDE. Customization and instructions Agent instruction file support We have added support for AGENTS.md and CLAUDE.md instruction files, including the ability to generate an initial AGENTS.md file. This makes it easier to tailor Copilot’s behavior to your project’s conventions and workflows. Copilot automatically discovers and loads agent instruction files that you’ve defined into context during agent workflows, from the current workspace or globally across all workspaces. This includes Copilot custom instruction files, file-based instructions, AGENTS.md, and CLAUDE.md. Go to Settings > GitHub Copilot > Customizations to view and manage your instruction files, where you can also enable support for nested AGENTS.md and CLAUDE.md files. You can also create an initial AGENTS.md using the Generate Agent Instructions action in a new chat session. /memory slash command You can use the /memory slash command to quickly open settings for agent instruction files, giving you faster access to manage your preferences. Model selection and reasoning visibility Auto model selection now generally available GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot can choose a model on your behalf based on real-time model availability and performance without manual switching. Thinking panel for extended-reasoning models A dedicated thinking panel is now available for extended-reasoning models, such as Codex, with configurable Anthropic thinking budgets. This gives you visibility into the model’s reasoning process. Context window usage indicator A new context window usage indicator in the chat panel lets you see how much context is being used during a conversation. User experience We have improved the sign-in experience to reduce friction and make Copilot more immediately accessible. The chat panel opens automatically after signing in for faster access to Copilot. And GitHub Enterprise users can benefit from a smoother login flow with device code prioritization. Additional UX and workflow improvements include: More responsive chat panel layout and cleaner context/file attachment handling. Cleaner auto-approve UI for a more intuitive approval workflow. Refined NES trigger timing and dismissal behavior. Improved support for Windows ARM platforms. Quality improvements We’ve made a set of quality improvements to enhance stability and reduce interruptions during day-to-day development: Improved stability when reading terminal output. Resolved issues where file updates were not applied correctly by the replace_string_in_file tool. Addressed UI inconsistencies, including lingering action buttons, blank chat panels, and MCP code vision appearing when signed out. Reduced visual glitches such as file icon flicker when changing the selected code range. Deprecation Edit mode has been marked as deprecated in the chat mode dropdown. Try it out We encourage you to try out the latest version of the GitHub Copilot plugin and share your feedback. Your input is invaluable in helping us refine and improve the product. Share your feedback Your feedback drives improvements. We’d love to hear about your experience in the following channels: In-product feedback: Use the feedback options within your IDE. Feedback repository: Share your thoughts in the GitHub Copilot for JetBrains IDEs issues. The post Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs appeared first on The GitHub Blog.",
+        "ja": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements. New features Agentic capabilities Custom agents, sub-agents, and plan agent now generally available Custom agents, sub-agents, and plan agent are now generally available in GitHub Copilot for JetBrains IDEs. These capabilities make it easier to tailor Copilot to your workflows and collaborate with specialized agents directly within your IDE. Learn more about creating a custom agent in JetBrains IDEs. Agent hooks support in public preview Agent hooks are available in public preview. Agent hooks let you run custom commands at key points during agent sessions, making it easier to automate workflows, enforce policies, and integrate with external tools while maintaining control over agent behavior. You can define your hooks.json file with the name of your choice in the.github/hooks/ folder of your repository. Supported events include userPromptSubmitted, preToolUse, postToolUse, and errorOccurred hooks. Check out our documentation on agent hooks for more details. If you are a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable the Editor preview features policy before you can use it. Auto-approve support for MCP You can configure auto-approve for MCP at both the server and tool level, reducing manual approvals in chat and keeping your workflow uninterrupted during agent sessions. To configure this, go to Settings > GitHub Copilot > Chat > MCP Server and Tool Auto-approve Configuration in your JetBrains IDE. Customization and instructions Agent instruction file support We have added support for AGENTS.md and CLAUDE.md instruction files, including the ability to generate an initial AGENTS.md file. This makes it easier to tailor Copilot’s behavior to your project’s conventions and workflows. Copilot automatically discovers and loads agent instruction files that you’ve defined into context during agent workflows, from the current workspace or globally across all workspaces. This includes Copilot custom instruction files, file-based instructions, AGENTS.md, and CLAUDE.md. Go to Settings > GitHub Copilot > Customizations to view and manage your instruction files, where you can also enable support for nested AGENTS.md and CLAUDE.md files. You can also create an initial AGENTS.md using the Generate Agent Instructions action in a new chat session. /memory slash command You can use the /memory slash command to quickly open settings for agent instruction files, giving you faster access to manage your preferences. Model selection and reasoning visibility Auto model selection now generally available GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot can choose a model on your behalf based on real-time model availability and performance without manual switching. Thinking panel for extended-reasoning models A dedicated thinking panel is now available for extended-reasoning models, such as Codex, with configurable Anthropic thinking budgets. This gives you visibility into the model’s reasoning process. Context window usage indicator A new context window usage indicator in the chat panel lets you see how much context is being used during a conversation. User experience We have improved the sign-in experience to reduce friction and make Copilot more immediately accessible. The chat panel opens automatically after signing in for faster access to Copilot. And GitHub Enterprise users can benefit from a smoother login flow with device code prioritization. Additional UX and workflow improvements include: More responsive chat panel layout and cleaner context/file attachment handling. Cleaner auto-approve UI for a more intuitive approval workflow. Refined NES trigger timing and dismissal behavior. Improved support for Windows ARM platforms. Quality improvements We’ve made a set of quality improvements to enhance stability and reduce interruptions during day-to-day development: Improved stability when reading terminal output. Resolved issues where file updates were not applied correctly by the replace_string_in_file tool. Addressed UI inconsistencies, including lingering action buttons, blank chat panels, and MCP code vision appearing when signed out. Reduced visual glitches such as file icon flicker when changing the selected code range. Deprecation Edit mode has been marked as deprecated in the chat mode dropdown. Try it out We encourage you to try out the latest version of the GitHub Copilot plugin and share your feedback. Your input is invaluable in helping us refine and improve the product. Share your feedback Your feedback drives improvements. We’d love to hear about your experience in the following channels: In-product feedback: Use the feedback options within your IDE. Feedback repository: Share your thoughts in the GitHub Copilot for JetBrains IDEs issues. The post Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs appeared first on The GitHub Blog.",
+        "en": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements. New features Agentic capabilities Custom agents, sub-agents, and plan agent now generally available Custom agents, sub-agents, and plan agent are now generally available in GitHub Copilot for JetBrains IDEs. These capabilities make it easier to tailor Copilot to your workflows and collaborate with specialized agents directly within your IDE. Learn more about creating a custom agent in JetBrains IDEs. Agent hooks support in public preview Agent hooks are available in public preview. Agent hooks let you run custom commands at key points during agent sessions, making it easier to automate workflows, enforce policies, and integrate with external tools while maintaining control over agent behavior. You can define your hooks.json file with the name of your choice in the.github/hooks/ folder of your repository. Supported events include userPromptSubmitted, preToolUse, postToolUse, and errorOccurred hooks. Check out our documentation on agent hooks for more details. If you are a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable the Editor preview features policy before you can use it. Auto-approve support for MCP You can configure auto-approve for MCP at both the server and tool level, reducing manual approvals in chat and keeping your workflow uninterrupted during agent sessions. To configure this, go to Settings > GitHub Copilot > Chat > MCP Server and Tool Auto-approve Configuration in your JetBrains IDE. Customization and instructions Agent instruction file support We have added support for AGENTS.md and CLAUDE.md instruction files, including the ability to generate an initial AGENTS.md file. This makes it easier to tailor Copilot’s behavior to your project’s conventions and workflows. Copilot automatically discovers and loads agent instruction files that you’ve defined into context during agent workflows, from the current workspace or globally across all workspaces. This includes Copilot custom instruction files, file-based instructions, AGENTS.md, and CLAUDE.md. Go to Settings > GitHub Copilot > Customizations to view and manage your instruction files, where you can also enable support for nested AGENTS.md and CLAUDE.md files. You can also create an initial AGENTS.md using the Generate Agent Instructions action in a new chat session. /memory slash command You can use the /memory slash command to quickly open settings for agent instruction files, giving you faster access to manage your preferences. Model selection and reasoning visibility Auto model selection now generally available GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot can choose a model on your behalf based on real-time model availability and performance without manual switching. Thinking panel for extended-reasoning models A dedicated thinking panel is now available for extended-reasoning models, such as Codex, with configurable Anthropic thinking budgets. This gives you visibility into the model’s reasoning process. Context window usage indicator A new context window usage indicator in the chat panel lets you see how much context is being used during a conversation. User experience We have improved the sign-in experience to reduce friction and make Copilot more immediately accessible. The chat panel opens automatically after signing in for faster access to Copilot. And GitHub Enterprise users can benefit from a smoother login flow with device code prioritization. Additional UX and workflow improvements include: More responsive chat panel layout and cleaner context/file attachment handling. Cleaner auto-approve UI for a more intuitive approval workflow. Refined NES trigger timing and dismissal behavior. Improved support for Windows ARM platforms. Quality improvements We’ve made a set of quality improvements to enhance stability and reduce interruptions during day-to-day development: Improved stability when reading terminal output. Resolved issues where file updates were not applied correctly by the replace_string_in_file tool. Addressed UI inconsistencies, including lingering action buttons, blank chat panels, and MCP code vision appearing when signed out. Reduced visual glitches such as file icon flicker when changing the selected code range. Deprecation Edit mode has been marked as deprecated in the chat mode dropdown. Try it out We encourage you to try out the latest version of the GitHub Copilot plugin and share your feedback. Your input is invaluable in helping us refine and improve the product. Share your feedback Your feedback drives improvements. We’d love to hear about your experience in the following channels: In-product feedback: Use the feedback options within your IDE. Feedback repository: Share your thoughts in the GitHub Copilot for JetBrains IDEs issues. The post Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
       "date": "2026-03-11",
       "category": "github",
@@ -3216,30 +3383,6 @@
         "openai"
       ],
       "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-06-google-speciesnet-open-source-ai-wildlife",
-      "date": "2026-03-06",
-      "category": "google",
-      "title": {
-        "zh": "我们的开源人工智能模型 SpeciesNet 如何帮助促进野生动物保护",
-        "ja": "当社のオープンソース AI モデル SpeciesNet が野生動物の保護促進にどのように貢献しているか",
-        "en": "How our open-source AI model SpeciesNet is helping to promote wildlife conservation"
-      },
-      "summary": {
-        "zh": "SpeciesNet 概述，我们的开源人工智能模型正在帮助世界各地的人们保护野生动物。",
-        "ja": "世界中の人々が野生生物を保護し、保護できるよう支援するオープンソース AI モデルである SpeciesNet の概要。",
-        "en": "An overview of SpeciesNet, our open-source AI model that is helping people around the world protect and conserve wildlife."
-      },
-      "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife",
-      "tags": [
-        "google-research",
-        "sustainability",
-        "ai",
-        "google"
-      ],
-      "source": "Google Blog",
       "sourceType": "news"
     },
     {
@@ -3515,31 +3658,6 @@
         "release",
         "collaboration-tools",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-05-github-2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
-      "date": "2026-03-05",
-      "category": "github",
-      "title": {
-        "zh": "使用新的会话过滤器发现和管理代理活动",
-        "ja": "新しいセッションフィルターを使用してエージェントアクティビティを検出および管理",
-        "en": "Discover and manage agent activity with new session filters"
-      },
-      "summary": {
-        "zh": "GitHub Enterprise AI Controls 和代理控制平面现在包含额外的会话过滤器，使您可以更轻松地发现和管理整个企业的代理活动。新功能 除了按代理和企业内的组织搜索代理会话活动外，我们现在还推出了以下筛选器： 状态：按状态搜索会话，例如已排队、进行中、已完成、失败、空闲等待用户、超时和取消。存储库：按发生代理会话的存储库搜索会话。用户：按发起代理会话的用户搜索会话。要了解更多信息，请参阅有关 AI 控制和代理控制平面的文档。加入 GitHub 社区内的讨论。使用新会话过滤器发现和管理代理活动一文首先出现在 GitHub 博客上。",
-        "ja": "GitHub Enterprise AI Controls とエージェント コントロール プレーンに追加のセッション フィルターが含まれるようになり、企業全体のエージェント アクティビティの検出と管理が容易になります。新機能 エージェント別および企業内の組織別のエージェント セッション アクティビティの検索に加えて、次のフィルターが展開されました。 ステータス: キューに入れられている、進行中、完了、失敗、ユーザーを待っているアイドル状態、タイムアウト、キャンセルなどのステータス別にセッションを検索します。リポジトリ: エージェント セッションが発生したリポジトリによってセッションを検索します。ユーザー: エージェント セッションを開始したユーザーによるセッションを検索します。詳細については、AI コントロールとエージェント コントロール プレーンに関するドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。新しいセッション フィルターを使用したエージェント アクティビティの検出と管理の投稿は、GitHub ブログに最初に掲載されました。",
-        "en": "GitHub Enterprise AI Controls and agent control plane now includes additional session filters, making it easier to discover and manage agent activity across your enterprise. What’s new In addition to searching for agentic session activity by agents and by organizations within your enterprise, we’ve now rolled out the following filters: Status: Search for session by status, such as queued, in progress, completed, failed, idle waiting for user, timed out, and cancelled. Repository: Search for sessions by the repository where the agent session occurred. User: Search for sessions by the user who initiated the agent session. To learn more, see our documentation on AI controls and the agent control plane. Join the discussion within GitHub Community. The post Discover and manage agent activity with new session filters appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -4092,32 +4210,6 @@
         "en": "Copilot enterprise usage metrics coverage has expanded to now include Copilot CLI telemetry. With this update, your enterprise metrics can include CLI-specific activity and usage totals, such as: Daily active CLI users CLI request and session counts Token usage totals, including average tokens per request Why this matters Track CLI adoption across your enterprise and spot where enablement or support is needed. Compare usage patterns across environments so you can understand how developers use GitHub Copilot day to day. Use token usage totals to better understand consumption trends and plan for rollout over time. Join the discussion within GitHub Community. The post Copilot usage metrics now includes enterprise-level GitHub Copilot CLI activity appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-02-27-copilot-usage-metrics-now-includes-enterprise-level-github-copilot-cli-activity",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-27-github-2026-02-27-copilot-metrics-is-now-generally-available",
-      "date": "2026-02-27",
-      "category": "github",
-      "title": {
-        "zh": "副驾驶指标现已普遍可用",
-        "ja": "Copilot メトリクスの一般提供が開始されました",
-        "en": "Copilot metrics is now generally available"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 使用指标现已全面发布，让您可以在一个地方查看您的团队如何采用和使用 Copilot。通过这种方式，您可以跟踪趋势，就部署做出明智的决策，并构建适合您的组织的报告。自 Universe 2025 公开预览以来，Copilot 使用指标已通过组织级可见性、细粒度访问控制、数据驻留支持等进行了扩展。现在它已经普遍可用，这是您可以期待的。仪表板内容 Copilot 使用情况仪表板提供了关于您的团队如何使用 GitHub Copilot 的清晰、可操作的见解。仪表板提供了代码完成活动、IDE 使用情况、模型和语言细分等的可见性。代码生成仪表板通过量化 Copilot 在完成、聊天和代理功能中建议、添加或删除的行，对 Copilot 的输出进行定向测量。企业和组织级粒度允许企业和组织所有者跟踪其团队的采用和使用趋势，而无需仅依赖企业范围的聚合。 API 企业级：全面了解整个企业的所有 Copilot 使用情况，以便对用户参与度、Copilot 使用情况、拉取请求吞吐量等进行聚合分析。组织级别：组织可以以编程方式访问自己的 Copilot 使用情况，以了解团队如何与 Copilot 互动、发现趋势并评估支持工作。用户级别：分析特定日期的个人 Copilot 使用情况以支持支持并确定团队在哪些方面可能需要培训或更好的文档。查看我们的 API 文档以了解更多信息。访问和可用性 如需访问，请导航至您的企业帐户 → AI 控制 → Copilot → 指标 → Copilot 使用指标。然后，您应该会在“见解”→“副驾驶使用情况”或“代码生成”下看到仪表板。另请确保您是企业管理员、计费经理，或者拥有适当的细粒度权限来访问 Copilot 指标。细粒度的访问控制让您可以使用自定义企业角色（例如查看企业 Copilot 指标）与合适的人员共享可见性，而无需完全的管理员访问权限。添加了对具有数据驻留功能的 GitHub Enterprise Cloud 的支持，因此有驻留要求的企业可以访问 Copilot 使用情况仪表板和 API 报告。接下来的内容 今天的发布为了解 Copilot 在整个组织中的采用情况提供了数据基础。许多领导者问的下一个问题是“它有效吗？”我们正在朝着这个答案努力——将使用模式与工程成果联系起来，以便您可以从跟踪采用转向衡量影响。当这些功能可用时，我们将分享更多信息。要开始使用，请访问 Copilot 使用指标文档。加入 GitHub 社区内的讨论。 Copilot 后的指标现在普遍可用，首先出现在 GitHub 博客上。",
-        "ja": "GitHub Copilot の使用状況メトリクスが一般提供されるようになり、チームが Copilot をどのように導入して使用しているかを 1 か所で確認できるようになりました。これにより、傾向を追跡し、情報に基づいて展開に関する決定を下し、組織に適したレポートを作成できます。 Universe 2025 でのパブリック プレビュー以来、Copilot の使用状況メトリクスは、組織レベルの可視性、きめ細かいアクセス制御、データ常駐サポートなどによって拡張されました。一般公開された時点で期待できることは次のとおりです。ダッシュボードの内容 Copilot 使用状況ダッシュボードは、チームが GitHub Copilot をどのように使用しているかについて明確で実用的な洞察を提供します。ダッシュボードでは、コード補完アクティビティ、IDE の使用状況、モデルと言語の内訳などを可視化できます。コード生成ダッシュボードは、補完、チャット、およびエージェント機能にわたって提案、追加、または削除された行を定量化することにより、Copilot の出力の方向性を測定します。エンタープライズおよび組織レベルの粒度により、エンタープライズおよび組織の所有者は、エンタープライズ全体の集計だけに依存することなく、チームの導入と使用の傾向を追跡できます。 API エンタープライズ レベル: ユーザー エンゲージメント、Copilot の使用状況、プル リクエストのスループットなどを集計分析するために、企業全体のすべての Copilot の使用状況を鳥瞰図で把握します。組織レベル: 組織はプログラムで独自の Copilot の使用状況にアクセスし、チームがどのように Copilot に取り組んでいるかを理解し、傾向を特定し、有効化の取り組みを評価できます。ユーザーレベル: 特定の日の個々の Copilot の使用状況を分析して、有効化をサポートし、チームがトレーニングやより適切な文書化を必要とする場所を特定します。詳細については、API ドキュメントをご覧ください。アクセスと可用性 アクセスするには、エンタープライズ アカウント → AI Controls → Copilot → メトリック → Copilot 使用状況メトリックに移動します。 [インサイト] → [コパイロットの使用法] または [コード生成] の下にダッシュボードが表示されます。また、エンタープライズ管理者または請求マネージャーであるか、Copilot メトリクスにアクセスするための適切な詳細権限を持っていることも確認してください。詳細なアクセス制御により、完全な管理者アクセスを必要とせずに、カスタム エンタープライズ ロール (エンタープライズ コパイロット メトリクスの表示など) を使用して適切なユーザーと可視性を共有できます。データ常駐機能を備えた GitHub Enterprise Cloud のサポートが追加されたため、常駐要件を持つ企業は Copilot 使用状況ダッシュボードと API レポートにアクセスできます。次の予定 本日のリリースでは、組織全体での Copilot の導入を理解するためのデータ基盤が提供されます。多くのリーダーが次に尋ねる質問は、「それはうまくいっているのか?」ということです。私たちはその答えに向けて構築を進めており、使用パターンをエンジニアリングの成果に結びつけ、導入の追跡から影響の測定に移行できるようにしています。これらの機能が利用可能になり次第、さらに共有していきます。開始するには、Copilot の使用状況メトリクスのドキュメントにアクセスしてください。 GitHub コミュニティ内のディスカッションに参加してください。 「Copilot メトリクスが一般利用可能になりました」という投稿は、GitHub ブログに最初に掲載されました。",
-        "en": "GitHub Copilot usage metrics is now generally available, giving you a single place to see how your teams adopt and use Copilot. This way you can track trends, make informed decisions about rollout, and build reports that fit your organization. Since the public preview at Universe 2025, Copilot usage metrics has expanded with organization-level visibility, fine-grained access controls, data residency support, and more. Here’s what you can expect now that it’s generally available. What’s included Dashboards Copilot usage dashboard provides clear, actionable insights into how your teams are using GitHub Copilot. The dashboard provides visibility into code completion activity, IDE usage, model and language breakdown, and more. Code generation dashboard gives a directional measure of Copilot’s output by quantifying the lines it suggested, added, or deleted across completions, chat, and agent features. Enterprise and organization-level granularity allows enterprise and organization owners to track adoption and usage trends for their teams without relying solely on enterprise-wide aggregates. APIs Enterprise-level: Get a bird’s eye view of all Copilot usage across your entire enterprise for aggregate analysis on user engagement, Copilot usage, pull request throughput, and more. Organization-level: Organizations can programmatically access their own Copilot usage to understand how teams are engaging with Copilot, spot trends, and assess enablement efforts. User-level: Analyze individual Copilot usage for a specific day to support enablement and identify where teams may need training or better documentation. Check out our API documentation to learn more. Access and availability For access, navigate to your enterprise account → AI Controls → Copilot → Metrics → Copilot usage metrics. You should then see the dashboard under Insights → Copilot usage or Code generation. Please also ensure you are either an Enterprise Administrator, Billing Manager, or have the proper fine-grained permissions to have access to Copilot metrics. Fine-grained access controls let you share visibility with the right people using custom enterprise roles, such as View enterprise Copilot metrics, without requiring full admin access. Added support for GitHub Enterprise Cloud with data residency so enterprises with residency requirements can access Copilot usage dashboards and API reporting. What’s next Today’s release delivers the data foundation for understanding Copilot adoption across your organization. The next question many leaders are asking is “is it working?” We’re building toward that answer—connecting usage patterns to engineering outcomes so you can move from tracking adoption to measuring impact. We’ll share more as these capabilities become available. To get started, visit Copilot usage metrics documentation. Join the discussion within GitHub Community. The post Copilot metrics is now generally available appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-02-27-copilot-metrics-is-now-generally-available",
       "tags": [
         "release",
         "account-management",
@@ -5226,20 +5318,44 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-17-github-2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "id": "2026-02-17-github-2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
       "date": "2026-02-17",
       "category": "github",
       "title": {
-        "zh": "Claude Sonnet 4.6 现已在 GitHub Copilot 中全面发布",
-        "ja": "Claude Sonnet 4.6 が GitHub Copilot で一般公開されました",
-        "en": "Claude Sonnet 4.6 is now generally available in GitHub Copilot"
+        "zh": "MCP 注册表以及 Eclipse 中 Copilot 的更多改进",
+        "ja": "MCP レジストリと Eclipse の Copilot のさらなる改善",
+        "en": "MCP Registry and more improvements in Copilot in Eclipse"
       },
       "summary": {
-        "zh": "Anthropic 最新的代理编码模型 Claude Sonnet 4.6 现已在 GitHub Copilot 中推出。在早期测试中，该模型在代理编码方面表现出色，并且在搜索操作方面尤其成功。请注意，虽然此型号以 1 倍保费请求乘数推出，但定价是暂定的，可能会发生变化。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub Copilot 中的可用性 Claude Sonnet 4.6 将向 Copilot Pro、Pro+、Business 和 Enterprise 用户提供。您可以在模型选择器中选择模型： 所有模式下的 Visual Studio Code：聊天、询问、编辑、代理 所有模式下的 Visual Studio：代理、询问 github.com GitHub Mobile iOS 和 Android GitHub Copilot CLI GitHub Copilot Coding Agent 推出将是渐进的。如果您还没有看到，请尽快回来查看。启用访问 Copilot Enterprise 和 Copilot Business 计划管理员必须在 Copilot 设置中启用 Claude Sonnet 4.6 策略。了解更多 要探索 GitHub Copilot 中提供的所有模型，请参阅有关可用模型的文档并开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 Claude Sonnet 4.6 现已在 GitHub Copilot 中发布，该帖子首先出现在 GitHub 博客上。",
-        "ja": "Anthropic の最新のエージェント コーディング モデルである Claude Sonnet 4.6 が、GitHub Copilot で展開されています。初期のテストでは、このモデルはエージェント コーディングに優れており、特に検索操作で成功しています。このモデルは 1 倍のプレミアム リクエスト乗数で発売されますが、価格は暫定的なものであり、変更される可能性があることに注意してください。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub での提供 Copilot Claude Sonnet 4.6 は、Copilot Pro、Pro+、Business、および Enterprise ユーザーが利用できます。次のモデル ピッカーでモデルを選択できるようになります。 すべてのモードの Visual Studio Code: チャット、質問、編集、エージェント すべてのモードの Visual Studio: エージェント、質問 github.com GitHub モバイル iOS および Android GitHub Copilot CLI GitHub Copilot コーディング エージェントのロールアウトは段階的に行われます。まだ表示されていない場合は、すぐにもう一度確認してください。アクセスの有効化 Copilot Enterprise および Copilot Business プランの管理者は、Copilot 設定で Claude Sonnet 4.6 ポリシーを有効にする必要があります。詳細 GitHub Copilot で利用可能なすべてのモデルを調べるには、利用可能なモデルに関するドキュメントを参照して、Copilot を開始してください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 「Claude Sonnet 4.6 は GitHub Copilot で一般利用可能になりました」という記事は、最初に GitHub ブログに掲載されました。",
-        "en": "Claude Sonnet 4.6, Anthropic’s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, this model excels on agentic coding, and is particularly successful in search operations. Note, while this model is launching with a 1x premium request multiplier, pricing is tentative and subject to change. https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 Availability in GitHub Copilot Claude Sonnet 4.6 will be available to Copilot Pro, Pro+, Business, and Enterprise users. You’ll be able to select the model in the model picker in: Visual Studio Code in all modes: chat, ask, edit, agent Visual Studio in all modes: agent, ask github.com GitHub Mobile iOS and Android GitHub Copilot CLI GitHub Copilot Coding Agent Rollout will be gradual. Check back soon if you don’t see it yet. Enabling access Copilot Enterprise and Copilot Business plan administrators must enable the Claude Sonnet 4.6 policy in Copilot settings. Learn more To explore all models available in GitHub Copilot, see our documentation on available models and get started with Copilot. Share your feedback Join the GitHub Community to share your feedback. The post Claude Sonnet 4.6 is now generally available in GitHub Copilot appeared first on The GitHub Blog."
+        "zh": "我们刚刚发布了一组新的改进，使 Eclipse 中的 GitHub Copilot 更智能、更易于使用。这些更新带来了更多上下文选项、更流畅的工作流程以及更好的开发体验定制。 ✨ 新功能 MCP 注册表 只需点击几下即可从集中式注册表发现并安装 MCP 服务器。浏览可用服务器、查看其功能并立即将它们添加到您的工作区，所有这些都不需要任何手动配置。管理待办事项列表工具 使用新的待办事项列表功能保持井井有条。在处理复杂任务时，Copilot 现在可以创建和管理结构化待办事项列表来跟踪进度和计划步骤。当客服人员处理您的请求时，您可以实时查看待办事项的核对情况，从而让您清楚地了解已完成的工作和下一步的工作。聊天视图用户体验增强功能 我们通过多项改进刷新了聊天体验： 字体大小控制：使用键盘快捷键或视图菜单根据您的喜好调整聊天视图字体大小。在 macOS 上使用 ⌘ + = / ⌘ + - 或在 Windows/Linux 上使用 Ctrl + = / Ctrl + -。让您的眼睛更轻松！深色主题刷新：经过改进的深色主题，提高了深夜编码会话的对比度和可读性。撤消/重做支持：聊天输入中出现拼写错误？现在您可以无缝地撤消和重做您的编辑。本机工具栏集成：过去位于聊天视图顶部栏上的按钮现在在 Eclipse 视图的工具栏中找到了新家。此更改使界面感觉更加自然并与您的工作流程集成。注意：如果您看不到新按钮，请删除位于/.metadata/.plugins/org.eclipse.e4.workbench/ 的workbench.xmi 文件。编辑器选择上下文 Copilot 现在会自动将您当前的编辑器选择包含在聊天上下文中。只需选择一些代码，打开聊天，Copilot 就已经知道您正在处理什么。这使您的对话更加相关和集中。新首选项 使用新首选项选项微调您的 Copilot 体验： 座席最大请求数：控制座席在要求回复“继续”之前可以发出多少请求，让您更好地控制大型、复杂的任务。提交说明：自定义 Copilot 生成提交消息的方式，以符合您团队的惯例和风格。 🛠 尝试一下 从查看我们的官方文档开始。 💬 分享您的反馈 您的反馈推动改进。请使用产品内反馈选项告诉我们您的想法，或者通过以下渠道分享您的想法： GitHub Copilot for Eclipse 讨论 GitHub Copilot for Eclipse 问题 MCP 注册表和 Eclipse 中 Copilot 的更多改进首先出现在 GitHub 博客上。",
+        "ja": "Eclipse の GitHub Copilot をよりスマートで使いやすくするための新しい一連の改善をリリースしました。これらのアップデートにより、より多くのコンテキスト オプション、スムーズなワークフロー、開発エクスペリエンスのカスタマイズ性の向上が実現します。 ✨ 新機能 MCP レジストリ 数回クリックするだけで、一元化されたレジストリから MCP サーバーを検出してインストールします。手動構成を必要とせずに、利用可能なサーバーを参照してその機能を表示し、ワークスペースに即座に追加します。 Todo リストの管理ツール 新しい Todo リスト機能を使用して整理整頓を維持します。複雑なタスクに取り組む場合、Copilot は構造化された ToDo リストを作成および管理して、進捗状況を追跡し、ステップを計画できるようになりました。エージェントがリクエストを処理している間、Todo がリアルタイムでチェックされる様子を観察することで、何が完了し、次に何が行われるかを明確に把握できます。チャット ビューの UX の強化 チャット エクスペリエンスを更新し、いくつかの改善を加えました。 フォント サイズの制御: キーボード ショートカットまたはビュー メニューを使用して、好みに合わせてチャット ビューのフォント サイズを調整します。 macOS では ⌘ + = / ⌘ + - を使用するか、Windows/Linux では Ctrl + = / Ctrl + - を使用します。目に優しくしましょう！ダーク テーマの更新: 深夜のコーディング セッション向けに、コントラストと読みやすさが向上した洗練されたダーク テーマ。元に戻す/やり直しのサポート: チャット入力にタイプミスがありましたか?編集をシームレスに元に戻したりやり直したりできるようになりました。ネイティブ ツールバーの統合: チャット ビューのトップ バーにあったボタンが、Eclipse ビューのツールバーに新しい場所を見つけました。この変更により、インターフェイスがより自然になり、ワークフローに統合されるようになりました。注: 新しいボタンが表示されない場合は、/.metadata/.plugins/org.eclipse.e4.workbench/ にある workbench.xmi ファイルを削除してください。エディター選択コンテ​​キスト Copilot は、現在のエディター選択をチャット コンテキストに自動的に含めるようになりました。コードを選択してチャットを開くだけで、Copilot はあなたが何を扱っているかをすでに認識しています。これにより、会話がより関連性が高く、焦点が絞られたものになります。新しい設定 新しい設定オプションを使用して Copilot エクスペリエンスを微調整します。 エージェントの最大リクエスト数: エージェントが「続行」の応答を求めるまでに実行できるリクエストの数を制御し、大規模で複雑なタスクをより詳細に制御できるようにします。コミット手順: チームの規則やスタイルに合わせて、Copilot がコミット メッセージを生成する方法をカスタマイズします。 🛠 試してみる まずは公式ドキュメントをチェックしてください。 💬 フィードバックを共有してください。フィードバックは改善の原動力となります。製品内のフィードバック オプションを使用してご意見をお聞かせいただくか、次のチャネルでご意見を共有してください。 GitHub Copilot for Eclipse のディスカッション GitHub Copilot for Eclipse の問題 MCP レジストリ以降と Eclipse の Copilot のその他の改善点は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve just shipped a new set of improvements to make GitHub Copilot in Eclipse smarter and easier to use. These updates bring more context options, smoother workflows, and better customization for your development experience. ✨ What’s new MCP Registry Discover and install MCP servers from a centralized registry with just a few clicks. Browse available servers, view their capabilities, and add them to your workspace instantly, all without requiring any manual configuration required. Manage Todo List tool Stay organized with the new Todo List feature. When working on complex tasks, Copilot can now create and manage a structured todo list to track progress and plan steps. Watch as todos are checked off in real-time while the agent works through your request, giving you clear visibility into what’s done and what’s next. Chat view UX enhancements We’ve refreshed the chat experience with several improvements: Font size control: Adjust the chat view font size to your preference using keyboard shortcuts or the view menu. Use ⌘ + = / ⌘ + - on macOS or Ctrl + = / Ctrl + - on Windows/Linux. Make it easier on your eyes! Dark theme refresh: A polished dark theme with improved contrast and readability for those late-night coding sessions. Undo/Redo support: Made a typo in your chat input? Now you can undo and redo your edits seamlessly. Native toolbar integration: The buttons that used to sit on the chat view’s top bar have now found a new home in the Eclipse view’s toolbar. This change makes the interface feel more natural and integrated with your workflow. Note: If you cannot see the new buttons, please delete the workbench.xmi file located at: /.metadata/.plugins/org.eclipse.e4.workbench/. Editor Selection Context Copilot now automatically includes your current editor selection in the chat context. Simply select some code, open the chat, and Copilot already knows what you’re working with. This makes your conversations more relevant and focused. New preferences Fine-tune your Copilot experience with new preference options: Agent max requests: Control how many requests the agent can make before asking to reply ‘continue’, giving you more control over large, complex tasks. Commit instructions: Customize how Copilot generates commit messages to match your team’s conventions and style. 🛠 Try it out Get started by checking out our official documentation. 💬 Share your feedback Your feedback drives improvements. Let us know what you think using the in-product feedback option, or share your thoughts in the following channels: GitHub Copilot for Eclipse discussions GitHub Copilot for Eclipse issues The post MCP Registry and more improvements in Copilot in Eclipse appeared first on The GitHub Blog."
       },
-      "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "url": "https://github.blog/changelog/2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-delegate-tasks-to-copilot-coding-agent-from-visual-studio",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "从 Visual Studio 将任务委派给 Copilot 编码代理",
+        "ja": "Visual Studio から Copilot コーディング エージェントにタスクを委任する",
+        "en": "Delegate tasks to Copilot coding agent from Visual Studio"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会打开草稿拉取请求，在云端后台工作，然后请求您进行审阅。现在，您可以从 Visual Studio 将任务委派给 Copilot。要启动后台任务，请在 Copilot Chat 中输入提示，然后单击“发送”按钮旁边的新“发送到 Copilot Coding Agent”按钮。 Copilot 会要求您确认，然后打开拉取请求并开始在后台工作。 Copilot 编码代理可供 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者使用。如果您是 Copilot Business 或 Copilot Enterprise 订阅者，管理员必须先从“策略”页面启用 Copilot 编码代理，然后您才能使用它。要从 Visual Studio 启动任务，您需要更新到最新版本的 Visual Studio 2026（至少 12 月更新 18.1.0 ），并且需要打开启用 Copilot 编码代理（预览版）设置。要了解更多信息，请参阅 GitHub 文档中的“要求 Copilot 在 Visual Studio 2026 中从 Copilot Chat 创建拉取请求”。将任务从 Visual Studio 委派给 Copilot 编码代理一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot はドラフト プル リクエストを開き、クラウドのバックグラウンドで動作して、ユーザーからのレビューを要求します。 Visual Studio から Copilot にタスクを委任できるようになりました。バックグラウンド タスクを開始するには、Copilot チャットにプロンプ​​トを入力し、[送信] ボタンの隣にある新しい [Copilot コーディング エージェントに送信] ボタンをクリックします。 Copilot は確認を求め、プル リクエストを開いてバックグラウンドでの作業を開始します。 Copilot コーディング エージェントは、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。 Copilot Business または Copilot Enterprise サブスクライバーの場合、管理者は、Copilot コーディング エージェントを使用する前に、[ポリシー] ページから Copilot コーディング エージェントを有効にする必要があります。 Visual Studio からタスクを開始するには、Visual Studio 2026 の最新バージョン (少なくとも December Update 18.1.0 ) に更新し、[Copilotcoding エージェントを有効にする (プレビュー)] 設定をオンにする必要があります。詳細については、GitHub ドキュメントの「Visual Studio 2026 の Copilot チャットからのプル リクエストの作成を Copilot に依頼する」を参照してください。 「Visual Studio から Copilot コーディング エージェントにタスクを委任する」という記事は、最初に GitHub ブログに掲載されました。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it opens a draft pull request, works in the background in the cloud, and then requests a review from you. You can now delegate tasks to Copilot from Visual Studio. To start a background task, enter your prompt in Copilot Chat then click the new Send to Copilot Coding Agent button next to the Send button. Copilot will ask you to confirm, and then will open a pull request and start working in the background. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. To start tasks from Visual Studio, you’ll need to update to the latest version of Visual Studio 2026 (at least December Update 18.1.0 ), and you’ll need to turn on the Enable Copilot Coding agent (preview) setting. To learn more, see “Asking Copilot to create a pull request from Copilot Chat in Visual Studio 2026” in the GitHub Docs. The post Delegate tasks to Copilot coding agent from Visual Studio appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-delegate-tasks-to-copilot-coding-agent-from-visual-studio",
       "tags": [
         "release",
         "copilot",
@@ -6258,6 +6374,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "输出格式",
+        "ja": "出力形式",
+        "en": "output_format"
+      },
+      "summary": {
+        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
+        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
+        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "tags": [
+        "output-format",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-02-05-anthropic-effort",
@@ -7450,6 +7589,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-01-16-github-2026-01-16-github-copilot-now-supports-opencode",
+      "date": "2026-01-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 现在支持 OpenCode",
+        "ja": "GitHub Copilot が OpenCode をサポートするようになりました",
+        "en": "GitHub Copilot now supports OpenCode"
+      },
+      "summary": {
+        "zh": "GitHub 正式支持将 Copilot Pro、Pro+、Business 或 Enterprise 订阅与 OpenCode 结合使用。 GitHub Copilot 现在通过正式合作伙伴关系完全支持 OpenCode 身份验证，允许您在更多的开发工作流程中使用现有的 Copilot 订阅。什么是开放代码？ OpenCode 是一个开源代理，可帮助您在终端、IDE 或桌面中编写代码。您可以在 OpenCode 网站上了解更多信息。工作原理 OpenCode 和 GitHub Copilot 入门很简单：在 OpenCode 中，运行 /connect 并选择 GitHub Copilot。完成 GitHub 设备登录流程。开始使用由 Copilot 提供支持的 OpenCode。谁可以使用此功能 所有拥有付费 GitHub Copilot 订阅（Pro、Pro+、Business 或 Enterprise）的开发人员现在都可以使用其 Copilot 凭据进行 OpenCode 身份验证，无需额外的 AI 许可证。了解有关 OpenCode 的 Copilot 提供程序设置的更多信息。加入 GitHub 社区内的讨论。 GitHub Copilot 现在支持 OpenCode 的帖子首先出现在 GitHub 博客上。",
+        "ja": "GitHub は、OpenCode での Copilot Pro、Pro+、Business、または Enterprise サブスクリプションの使用を正式にサポートしています。 GitHub Copilot は、正式なパートナーシップを通じて OpenCode による認証を完全にサポートするようになり、より多くの開発ワークフローで既存の Copilot サブスクリプションを使用できるようになりました。オープンコードとは何ですか? OpenCode は、ターミナル、IDE、またはデスクトップでのコードの作成を支援するオープン ソース エージェントです。詳細については、OpenCode のサイトをご覧ください。仕組み OpenCode と GitHub Copilot を始めるのは簡単です。OpenCode で /connect を実行し、GitHub Copilot を選択します。 GitHub デバイスのログイン フローを完了します。 Copilot を利用した OpenCode の使用を開始します。この機能を使用できるユーザー 有料の GitHub Copilot サブスクリプション (Pro、Pro+、Business、または Enterprise) を持つすべての開発者は、Copilot 認証情報を使用して OpenCode で認証できるようになりました。追加の AI ライセンスは必要ありません。 OpenCode の Copilot プロバイダーのセットアップについて詳しくは、こちらをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。 GitHub Copilot が OpenCode をサポートするようになったという投稿は、最初に GitHub ブログに掲載されました。",
+        "en": "GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with OpenCode. GitHub Copilot now fully supports authentication with OpenCode through a formal partnership, allowing you to use your existing Copilot subscription across more of your development workflow. What is OpenCode? OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop. You can learn more at OpenCode’s site. How it works Getting started with OpenCode and GitHub Copilot is simple: In OpenCode, run /connect and select GitHub Copilot. Complete the GitHub device login flow. Start using OpenCode powered by Copilot. Who can use this feature All developers with paid GitHub Copilot subscriptions (Pro, Pro+, Business, or Enterprise) can now authenticate into OpenCode using their Copilot credentials—no additional AI license needed. Learn more about OpenCode’s Copilot provider setup. Join the discussion within GitHub Community. The post GitHub Copilot now supports OpenCode appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-16-github-copilot-now-supports-opencode",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-01-16-anthropic-anthropic-appoints-irina-ghose-as-managing-director-of-india",
