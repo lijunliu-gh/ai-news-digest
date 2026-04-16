@@ -640,12 +640,17 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], tran
     items: list[dict] = []
     used_ids: set[str] = set()
     seen_urls: set[str] = set()
+    seen_titles: set[str] = set()
 
     for entry in sorted(entries, key=lambda item: (item.date, item.url), reverse=True):
         normalized_url = normalize_url(entry.url)
         if normalized_url in seen_urls:
             continue
         seen_urls.add(normalized_url)
+        title_key = f"{entry.date}|{entry.category}|{entry.title_en.lower().strip()}"
+        if title_key in seen_titles:
+            continue
+        seen_titles.add(title_key)
         existing = existing_by_url.get(normalized_url)
         item_id = f"{entry.date}-{entry.category}-{slug_from_url(normalized_url)}"
         suffix = 2
