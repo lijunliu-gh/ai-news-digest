@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-04-16",
   "windowMonths": 3,
   "items": [
     {
@@ -3167,30 +3167,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
-      "date": "2026-03-11",
-      "category": "github",
-      "title": {
-        "zh": "在 Web 上使用 Copilot 探索存储库",
-        "ja": "Web 上で Copilot を使用してリポジトリを探索する",
-        "en": "Explore a repository using Copilot on the web"
-      },
-      "summary": {
-        "zh": "当您在网络上与 Copilot 聊天时，我们可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并向 Copilot 询问上下文中的正确问题变得前所未有的容易。无缝添加对聊天的引用 当您导航文件资源管理器时，您选择的文件将作为临时引用自动添加到当前聊天中。您可以选择通过单击引用标记或双击文件预览选项卡将它们添加为永久引用。尝试一下 此功能现已提供公共预览版。加入 GitHub 社区内的讨论。使用 Copilot 在网络上浏览存储库一文首先出现在 GitHub 博客上。",
-        "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は、Copilot にファイルを表示するように指示し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動して、コンテキストに応じて Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーを操作すると、選択したファイルが一時的な参照として現在のチャットに自動的に追加されます。参照トークンをクリックするか、ファイル プレビュー タブをダブルクリックすることで、これらを永続参照として追加することを選択できます。試してみる この機能は現在パブリック プレビューで利用可能です。 GitHub コミュニティ内のディスカッションに参加してください。 Web 上で Copilot を使用してリポジトリを探索するという投稿は、GitHub ブログに最初に掲載されました。",
-        "en": "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current chat as temporary references. You can choose to add these as permanent references by clicking the reference token or double clicking the file preview tab. Try it out This feature is now available in public preview. Join the discussion within GitHub Community. The post Explore a repository using Copilot on the web appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-11-anthropic-the-anthropic-institute",
       "date": "2026-03-11",
       "category": "anthropic",
@@ -5449,30 +5425,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-17-github-2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
-      "date": "2026-02-17",
-      "category": "github",
-      "title": {
-        "zh": "将问题从 Raycast 分配给 Copilot 编码代理",
-        "ja": "Raycast から Copilot コーディング エージェントに問題を割り当てる",
-        "en": "Assign issues to Copilot coding agent from Raycast"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会在后台运行，然后请求您进行审核。现在，您可以通过 Raycast（适用于 Windows 和 macOS 的强大免费启动器）将问题分配给 Copilot。 Raycast 可以启动应用程序、搜索文件、控制系统并利用社区构建的扩展（例如 GitHub Copilot 扩展）。安装扩展程序后，您可以使用“将问题分配给 Copilot”命令将问题分配给 Copilot。选择您的存储库和问题，然后按 Ctrl + Enter (Windows) 或 Cmd + Enter 分配问题。 Copilot 打开拉取请求，在后台处理您的任务，然后在完成后请求您进行审核。借助 GitHub Copilot 扩展，您还可以使用“创建任务”命令毫无问题地启动新任务，并使用“查看任务”命令跟踪已启动的任务的进度。 Copilot 编码代理可供 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者使用。如果您是 Copilot Business 或 Copilot Enterprise 订阅者，管理员必须先从“策略”页面启用 Copilot 编码代理，然后您才能使用它。 Raycast 的将问题分配给 Copilot 编码代理一文首先出现在 GitHub 博客上。",
-        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。 Copilot にタスクを委任すると、Copilot はバックグラウンドで動作し、ユーザーにレビューを要求します。 Windows および macOS 用の強力な無料ランチャーである Raycast から Copilot に問題を割り当てることができるようになりました。 Raycast では、アプリの起動、ファイルの検索、システムの制御が可能で、GitHub Copilot 拡張機能などのコミュニティが構築した拡張機能を活用できます。拡張機能をインストールしたら、「Assign Issue to Copilot」コマンドを使用して問題を Copilot に割り当てることができます。リポジトリと問題を選択し、Ctrl + Enter (Windows) または Cmd + Enter を押して問題を割り当てます。 Copilot はプル リクエストを開き、バックグラウンドでタスクを実行し、完了したらレビューを要求します。 GitHub Copilot 拡張機能を使用すると、「タスクの作成」コマンドを使用して新しいタスクを問題なく開始したり、「タスクの表示」コマンドを使用してすでに開始したタスクの進行状況を追跡したりすることもできます。 Copilot コーディング エージェントは、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。 Copilot Business または Copilot Enterprise サブスクライバーの場合、管理者は、Copilot コーディング エージェントを使用する前に、[ポリシー] ページから Copilot コーディング エージェントを有効にする必要があります。 Raycast から Copilot コーディング エージェントに問題を割り当てるという投稿は、GitHub ブログに最初に掲載されました。",
-        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it works in the background, then requests a review from you. You can now assign issues to Copilot from Raycast, a powerful free launcher for Windows and macOS. Raycast can launch apps, search files, control your system, and leverage community-built extensions like the GitHub Copilot extension. Once you’ve installed the extension, you can assign an issue to Copilot using the “Assign Issue to Copilot” command. Select your repository and issue, then press Ctrl + Enter (Windows) or Cmd + Enter to assign the issue. Copilot opens a pull request, works in the background on your task, then requests review from you when done. With the GitHub Copilot extension, you can also start new tasks without an issue using the “Create Task” command, and track the progress of tasks you’ve already started with the “View Tasks” command. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. The post Assign issues to Copilot coding agent from Raycast appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-02-17-anthropic-web-search-tool",
       "date": "2026-02-17",
       "category": "anthropic",
@@ -6459,6 +6411,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "输出格式",
+        "ja": "出力形式",
+        "en": "output_format"
+      },
+      "summary": {
+        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
+        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
+        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "tags": [
+        "output-format",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-02-05-anthropic-effort",
       "date": "2026-02-05",
       "category": "anthropic",
@@ -7209,30 +7184,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-01-26-github-2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "date": "2026-01-26",
-      "category": "github",
-      "title": {
-        "zh": "GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中可用",
-        "ja": "GPT-5.2-Codex が Visual Studio、JetBrains IDE、Xcode、および Eclipse で利用可能になりました",
-        "en": "GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse"
-      },
-      "summary": {
-        "zh": "GPT-5.2-Codex 一般适用于 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）在 github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上的 GitHub Copilot Chat 中访问模型。如果您还没有访问权限，请稍后再检查。 GitHub Copilot 中的可用性 此新模型将在以下版本中向用户提供：Visual Studio 版本 17.14.19 及更高版本、18.0.0 及更高版本，所有模式：询问、代理。适用于 JetBrains 版本 1.5.61 及更高版本的 GitHub Copilot，具有所有模式：询问、编辑、代理。适用于 Xcode 0.45.0 及更高版本的 GitHub Copilot 所有模式：询问、代理。 GitHub Copilot for Eclipse 版本 0.13.0 及更高版本的所有模式：询问、代理。启用访问 Copilot Business 和 Enterprise 管理员必须通过在 Copilot 设置中启用 GPT-5.2-Codex 策略来选择加入。启用后，该组织中的用户将在模型选择器中看到 GPT-5.2-Codex。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中提供，首先出现在 GitHub 博客上。",
-        "ja": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+.チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot Chat のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。 GitHub Copilot での利用可能性 この新しいモデルは、Visual Studio バージョン 17.14.19 以降、18.0.0 以降のすべてのモード (ask、agent) で利用可能になります。 GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を使い始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog.",
-        "en": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Availability in GitHub Copilot This new model will be available to users in: Visual Studio versions 17.14.19 and later, 18.0.0 and later, in all modes: ask, agent. GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-01-23-openai-unrolling-the-codex-agent-loop",
       "date": "2026-01-23",
       "category": "openai",
@@ -7689,142 +7640,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-15-openai-strengthening-the-us-ai-supply-chain",
-      "date": "2026-01-15",
-      "category": "openai",
-      "title": {
-        "zh": "通过国内制造加强美国人工智能供应链",
-        "ja": "国内製造による米国AIサプライチェーンの強化",
-        "en": "Strengthening the U.S. AI supply chain through domestic manufacturing"
-      },
-      "summary": {
-        "zh": "OpenAI 推出了新的 RFP，旨在通过加速国内制造业、创造就业机会和扩展人工智能基础设施来加强美国人工智能供应链。",
-        "ja": "OpenAI は、国内製造の加速、雇用の創出、AI インフラストラクチャの拡張によって米国の AI サプライ チェーンを強化するための新しい RFP を発表します。",
-        "en": "OpenAI launches a new RFP to strengthen the U.S. AI supply chain by accelerating domestic manufacturing, creating jobs, and scaling AI infrastructure."
-      },
-      "url": "https://openai.com/index/strengthening-the-us-ai-supply-chain",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-15-openai-investing-in-merge-labs",
-      "date": "2026-01-15",
-      "category": "openai",
-      "title": {
-        "zh": "投资合并实验室",
-        "ja": "Merge Labs への投資",
-        "en": "Investing in Merge Labs"
-      },
-      "summary": {
-        "zh": "OpenAI 正在投资 Merge Labs，以支持新的脑机接口，将生物智能和人工智能连接起来，从而最大限度地提高人类的能力、能动性和经验。",
-        "ja": "OpenAI は、生物学的知能と人工知能を橋渡しして人間の能力、主体性、経験を最大化する新しいブレイン コンピューター インターフェイスをサポートするために Merge Labs に投資しています。",
-        "en": "OpenAI is investing in Merge Labs to support new brain computer interfaces that bridge biological and artificial intelligence to maximize human ability, agency, and experience."
-      },
-      "url": "https://openai.com/index/investing-in-merge-labs",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-15-openai-changelog",
-      "date": "2026-01-15",
-      "category": "openai",
-      "title": {
-        "zh": "公开回应",
-        "ja": "自由回答",
-        "en": "Open Responses"
-      },
-      "summary": {
-        "zh": "发布了 Open Responses：一个开源规范，用于构建在原始 OpenAI Responses API 之上构建的多提供商、可互操作的 LLM 接口。",
-        "ja": "発表された Open Responses: オリジナルの OpenAI Responses API 上に構築された、マルチプロバイダーの相互運用可能な LLM インターフェイスを構築するためのオープンソース仕様。",
-        "en": "Announced Open Responses: an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-01-15-announcement-open-responses",
-      "tags": [
-        "announcement",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-15-github-2026-01-15-github-copilot-bring-your-own-key-byok-enhancements",
-      "date": "2026-01-15",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 自带密钥 (BYOK) 增强功能",
-        "ja": "GitHub Copilot Bring Your Own Key (BYOK) の機能強化",
-        "en": "GitHub Copilot bring your own key (BYOK) enhancements"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 自带密钥 (BYOK) 现在支持其他 API、新配置选项和更多提供商集成。通过此更新，企业可以连接使用 Responses API 的模型、为模型交互配置最大上下文窗口、启用流式传输以及从支持的 LLM 提供商的扩展列表中进行选择。新功能 新提供商选项 您现在可以连接来自 AWS Bedrock、Google AI Studio 和任何 OpenAI 兼容提供商的 API 密钥。这些选项与 Anthropic、Microsoft Foundry、OpenAI 和 xAI 一起成为受支持的 BYOK 选择。支持响应 API BYOK 现在支持使用响应 API 的模型。这可以实现结构化输出和更丰富的多模式交互。能够设置最大上下文窗口 管理员可以定义 BYOK 模型的最大上下文窗口，帮助平衡成本、性能和响应质量。流式响应以实现更快的交互 连接模型的流式输出让 Copilot 在生成响应时显示响应，而不是等待完成。立即开始使用新的 BYOK 功能 这些新功能现已面向 GitHub Enterprise 和 Business 客户提供公共预览版。在您的企业或组织设置中连接您的 LLM 提供商的 API 密钥，并开始在 Copilot Chat 和支持的 IDE 中使用您的模型。请访问我们的 BYOK 文档了解更多信息。帮助我们塑造未来我们才刚刚开始，您的反馈将指导接下来的工作。加入 GitHub 社区内的讨论，分享反馈并与其他开发人员联系。 GitHub Copilot 自带密钥 (BYOK) 增强功能一文首先出现在 GitHub 博客上。",
-        "ja": "GitHub Copilot の Bring Your Own Key (BYOK) は、追加の API、新しい構成オプション、およびその他のプロバイダー統合をサポートするようになりました。この更新により、企業は、Responses API を使用するモデルに接続し、モデル対話用の最大コンテキスト ウィンドウを構成し、ストリーミングを有効にし、サポートされる LLM プロバイダーの拡張リストから選択できるようになります。新機能 新しいプロバイダー オプション AWS Bedrock、Google AI Studio、および OpenAI 互換プロバイダーの API キーに接続できるようになりました。これらのオプションは、サポートされる BYOK の選択肢として、Anthropic、Microsoft Foundry、OpenAI、および xAI に加わります。 Responses API のサポート BYOK は、Responses API を使用するモデルをサポートするようになりました。これにより、構造化された出力とより豊富なマルチモーダルなインタラクションが可能になります。最大コンテキスト ウィンドウを設定する機能 管理者は BYOK モデルの最大コンテキスト ウィンドウを定義できるため、コスト、パフォーマンス、応答品質のバランスをとることができます。高速な対話のためのストリーミング応答 接続されたモデルからのストリーミング出力により、Copilot は完了を待つのではなく、生成された応答を表示できます。新しい BYOK 機能を今すぐ使い始めましょう。これらの新機能は、GitHub Enterprise および Business の顧客向けにパブリック プレビューで利用できるようになりました。企業または組織の設定で LLM プロバイダーの API キーを接続し、Copilot Chat およびサポートされている IDE でモデルの使用を開始します。詳細については、BYOK ドキュメントを参照してください。未来の形成にご協力ください。私たちはまだ始まったばかりであり、皆様のフィードバックが今後の指針となります。 GitHub コミュニティ内のディスカッションに参加してフィードバックを共有し、他の開発者とつながりましょう。 GitHub Copilot Bring Your Own Key (BYOK) の機能強化に関する記事は、GitHub ブログに最初に掲載されました。",
-        "en": "Bring your own key (BYOK) for GitHub Copilot now supports additional APIs, new configuration options, and more provider integrations. With this update, enterprises can connect models that use the Responses API, configure a maximum context window for model interactions, enable streaming, and choose from an expanded list of supported LLM providers. What’s new New provider options You can now connect API keys from AWS Bedrock, Google AI Studio, and any OpenAI‑compatible provider. These options join Anthropic, Microsoft Foundry, OpenAI, and xAI as supported BYOK choices. Support for the Responses API BYOK now supports models that use the Responses API. This enables structured outputs and richer multimodal interactions. Ability to set a maximum context window Admins can define the maximum context window for BYOK models, helping balance cost, performance, and response quality. Streaming responses for faster interaction Streaming output from connected models lets Copilot display responses as they are generated, rather than waiting for completion. Start using the new BYOK features today These new capabilities are available now in public preview for GitHub Enterprise and Business customers. Connect your LLM provider’s API key in your enterprise or organization settings and start using your models in Copilot Chat and supported IDEs. Learn more by visiting our BYOK documentation. Help us shape the future We are just getting started and your feedback will guide what comes next. Join the discussion within the GitHub Community to share feedback and connect with other developers. The post GitHub Copilot bring your own key (BYOK) enhancements appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-01-15-github-copilot-bring-your-own-key-byok-enhancements",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-15-github-2026-01-15-agentic-memory-for-github-copilot-is-in-public-preview",
-      "date": "2026-01-15",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 的代理内存已推出公共预览版",
-        "ja": "GitHub Copilot のエージェント メモリはパブリック プレビュー段階にあります",
-        "en": "Agentic memory for GitHub Copilot is in public preview"
-      },
-      "summary": {
-        "zh": "Copilot 内存现已在所有付费 GitHub Copilot 计划中提供公共预览版。 Copilot 内存使 Copilot 能够学习并保留有关存储库的有用详细信息。当您使用 Copilot 编码代理、Copilot 代码审查或 Copilot CLI 时，它会构建特定于存储库的理解，从而随着时间的推移提高其帮助质量。工作原理 当 Copilot 在您的存储库中工作时，它会自动捕获范围狭窄的见解（称为“记忆”）。这些内存是： 特定于存储库的，并在使用前根据当前代码库进行验证。跨 Copilot 功能共享，因此编码代理学到的内容可以帮助代码审查。 28 天后自动过期，以防止信息过时。有关 Copilot 内存究竟如何工作的更多详细信息，请查看我们有关 Copilot 内存的工程博客文章。开始使用 个人用户（Copilot Pro 或 Pro+）：在您的个人 Copilot 设置中启用 Copilot 内存。组织和企业：通过组织或企业设置中的策略设置启用。存储库所有者可以在存储库设置 > Copilot > 内存中查看和删除存储的内存。要了解有关如何使用此功能的更多信息，请查看我们的 Copilot 内存文档。加入 GitHub 社区内的讨论。 GitHub Copilot 的 Agentic 内存已进入公开预览版的帖子首先出现在 GitHub 博客上。",
-        "ja": "Copilot メモリは、すべての有料 GitHub Copilot プランのパブリック プレビューで利用できるようになりました。 Copilot メモリを使用すると、Copilot はリポジトリに関する有用な詳細を学習して保持できます。 Copilot コーディング エージェント、Copilot コード レビュー、または Copilot CLI を使用すると、リポジトリ固有の理解が構築され、時間の経過とともに支援の質が向上します。仕組み Copilot は、リポジトリ内で動作する際に、「メモリ」と呼ばれる限定された範囲の洞察を自動的に取得します。これらのメモリは次のとおりです。 リポジトリ固有であり、使用前に現在のコードベースに対して検証されます。 Copilot の機能全体で共有されるため、コーディング エージェントが学習した内容はコード レビューに役立ちます。情報が古くならないように、28 日後に自動的に期限切れになります。 Copilot メモリがどのように正確に機能するかについて詳しくは、Copilot メモリに関するエンジニアリング ブログ投稿をご覧ください。はじめに 個人ユーザー (Copilot Pro または Pro+): 個人用 Copilot 設定で Copilot メモリを有効にします。組織と企業: 組織または企業の設定のポリシー設定を通じて有効にします。リポジトリ所有者は、[リポジトリ設定] > [コパイロット] > [メモリ] で保存されたメモリを確認および削除できます。この機能の使用方法の詳細については、Copilot メモリのドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。 「GitHub Copilot のエージェント メモリはパブリック プレビュー中です」という記事は、最初に GitHub ブログに掲載されました。",
-        "en": "Copilot memory is now available in public preview for all paid GitHub Copilot plans. Copilot memory enables Copilot to learn and retain useful details about your repositories. As you work with Copilot coding agent, Copilot code review, or Copilot CLI, it builds a repository-specific understanding that improves the quality of its assistance over time. How it works Copilot automatically captures tightly scoped insights called “memories” as it works in your repositories. These memories are: Repository-specific and validated against the current codebase before use. Shared across Copilot features, so what coding agent learns can help code review. Automatically expired after 28 days to prevent stale information. For more details on how exactly Copilot memory works, check out our engineering blog post on Copilot memory. Get started Individual users (Copilot Pro or Pro+): Enable Copilot memory in your personal Copilot settings. Organizations and enterprises: Enable through policy settings in your organization or enterprise settings. Repository owners can review and delete stored memories in Repository Settings > Copilot > Memory. To learn more about how to use this feature, check out our Copilot memory documentation. Join the discussion within GitHub Community. The post Agentic memory for GitHub Copilot is in public preview appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-01-15-agentic-memory-for-github-copilot-is-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-15-anthropic-accelerating-scientific-research",
-      "date": "2026-01-15",
-      "category": "anthropic",
-      "title": {
-        "zh": "科学家如何利用克劳德加速研究和发现",
-        "ja": "科学者が研究と発見を加速するためにクロードをどのように利用しているか",
-        "en": "How scientists are using Claude to accelerate research and discovery"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/accelerating-scientific-research",
       "tags": [
         "anthropic"
       ],
