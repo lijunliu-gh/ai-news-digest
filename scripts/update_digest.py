@@ -1213,17 +1213,26 @@ def main() -> int:
     if DIGEST_PATH.exists():
         previous_digest = json.loads(DIGEST_PATH.read_text(encoding='utf-8')).get('items', [])
 
-    fresh_entries = (
-        parse_anthropic_entries(cutoff)
-        + parse_anthropic_release_entries(cutoff)
-        + parse_openai_entries(cutoff)
-        + parse_openai_changelog_entries(cutoff)
-        + parse_google_entries(cutoff)
-        + parse_google_deepmind_entries(cutoff)
-        + parse_google_release_entries(cutoff)
-        + parse_github_entries(cutoff)
-        + parse_github_changelog_entries(cutoff)
-    )
+    parsers = [
+        ('Anthropic News', parse_anthropic_entries),
+        ('Anthropic Release Notes', parse_anthropic_release_entries),
+        ('OpenAI News', parse_openai_entries),
+        ('OpenAI API Changelog', parse_openai_changelog_entries),
+        ('Google Blog', parse_google_entries),
+        ('Google DeepMind News', parse_google_deepmind_entries),
+        ('Google Cloud Release Notes', parse_google_release_entries),
+        ('GitHub Product News', parse_github_entries),
+        ('GitHub Changelog', parse_github_changelog_entries),
+    ]
+    fresh_entries: list[FeedEntry] = []
+    feed_errors: list[str] = []
+    for source_name, parser_fn in parsers:
+        try:
+            fresh_entries.extend(parser_fn(cutoff))
+        except Exception as exc:
+            msg = f'Feed fetch failed for {source_name}: {exc}'
+            print(f'WARNING: {msg}', file=sys.stderr)
+            feed_errors.append(msg)
     fresh_digest = materialize(fresh_entries, existing_by_url, translator)
     fresh_digest = [item for item in fresh_digest if date.fromisoformat(item['date']) >= cutoff]
     fresh_digest.sort(key=lambda item: (item['date'], item['id']), reverse=True)
@@ -1254,6 +1263,7 @@ def main() -> int:
             },
         },
         'translation': translator.stats(),
+        'feedErrors': feed_errors,
     }
     emit_report(report)
 

@@ -115,6 +115,12 @@ jobs:
                   lines.append(f"- New translations: {translation.get('generated')}")
                   for error in translation.get('errors', []):
                       lines.append(f'- Translation note: {error}')
+              feed_errors = report.get('feedErrors', [])
+              if feed_errors:
+                  lines.append('')
+                  lines.append('### Feed errors')
+                  for error in feed_errors:
+                      lines.append(f'- {error}')
               if active.get('sources'):
                   lines.append('')
                   lines.append('### Source counts')
