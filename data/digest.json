@@ -3167,6 +3167,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "在 Web 上使用 Copilot 探索存储库",
+        "ja": "Web 上で Copilot を使用してリポジトリを探索する",
+        "en": "Explore a repository using Copilot on the web"
+      },
+      "summary": {
+        "zh": "当您在网络上与 Copilot 聊天时，我们可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并向 Copilot 询问上下文中的正确问题变得前所未有的容易。无缝添加对聊天的引用 当您导航文件资源管理器时，您选择的文件将作为临时引用自动添加到当前聊天中。您可以选择通过单击引用标记或双击文件预览选项卡将它们添加为永久引用。尝试一下 此功能现已提供公共预览版。加入 GitHub 社区内的讨论。使用 Copilot 在网络上浏览存储库一文首先出现在 GitHub 博客上。",
+        "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は、Copilot にファイルを表示するように指示し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動して、コンテキストに応じて Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーを操作すると、選択したファイルが一時的な参照として現在のチャットに自動的に追加されます。参照トークンをクリックするか、ファイル プレビュー タブをダブルクリックすることで、これらを永続参照として追加することを選択できます。試してみる この機能は現在パブリック プレビューで利用可能です。 GitHub コミュニティ内のディスカッションに参加してください。 Web 上で Copilot を使用してリポジトリを探索するという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current chat as temporary references. You can choose to add these as permanent references by clicking the reference token or double clicking the file preview tab. Try it out This feature is now available in public preview. Join the discussion within GitHub Community. The post Explore a repository using Copilot on the web appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-11-anthropic-the-anthropic-institute",
       "date": "2026-03-11",
       "category": "anthropic",
@@ -5425,6 +5449,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-17-github-2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "将问题从 Raycast 分配给 Copilot 编码代理",
+        "ja": "Raycast から Copilot コーディング エージェントに問題を割り当てる",
+        "en": "Assign issues to Copilot coding agent from Raycast"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会在后台运行，然后请求您进行审核。现在，您可以通过 Raycast（适用于 Windows 和 macOS 的强大免费启动器）将问题分配给 Copilot。 Raycast 可以启动应用程序、搜索文件、控制系统并利用社区构建的扩展（例如 GitHub Copilot 扩展）。安装扩展程序后，您可以使用“将问题分配给 Copilot”命令将问题分配给 Copilot。选择您的存储库和问题，然后按 Ctrl + Enter (Windows) 或 Cmd + Enter 分配问题。 Copilot 打开拉取请求，在后台处理您的任务，然后在完成后请求您进行审核。借助 GitHub Copilot 扩展，您还可以使用“创建任务”命令毫无问题地启动新任务，并使用“查看任务”命令跟踪已启动的任务的进度。 Copilot 编码代理可供 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者使用。如果您是 Copilot Business 或 Copilot Enterprise 订阅者，管理员必须先从“策略”页面启用 Copilot 编码代理，然后您才能使用它。 Raycast 的将问题分配给 Copilot 编码代理一文首先出现在 GitHub 博客上。",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。 Copilot にタスクを委任すると、Copilot はバックグラウンドで動作し、ユーザーにレビューを要求します。 Windows および macOS 用の強力な無料ランチャーである Raycast から Copilot に問題を割り当てることができるようになりました。 Raycast では、アプリの起動、ファイルの検索、システムの制御が可能で、GitHub Copilot 拡張機能などのコミュニティが構築した拡張機能を活用できます。拡張機能をインストールしたら、「Assign Issue to Copilot」コマンドを使用して問題を Copilot に割り当てることができます。リポジトリと問題を選択し、Ctrl + Enter (Windows) または Cmd + Enter を押して問題を割り当てます。 Copilot はプル リクエストを開き、バックグラウンドでタスクを実行し、完了したらレビューを要求します。 GitHub Copilot 拡張機能を使用すると、「タスクの作成」コマンドを使用して新しいタスクを問題なく開始したり、「タスクの表示」コマンドを使用してすでに開始したタスクの進行状況を追跡したりすることもできます。 Copilot コーディング エージェントは、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。 Copilot Business または Copilot Enterprise サブスクライバーの場合、管理者は、Copilot コーディング エージェントを使用する前に、[ポリシー] ページから Copilot コーディング エージェントを有効にする必要があります。 Raycast から Copilot コーディング エージェントに問題を割り当てるという投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it works in the background, then requests a review from you. You can now assign issues to Copilot from Raycast, a powerful free launcher for Windows and macOS. Raycast can launch apps, search files, control your system, and leverage community-built extensions like the GitHub Copilot extension. Once you’ve installed the extension, you can assign an issue to Copilot using the “Assign Issue to Copilot” command. Select your repository and issue, then press Ctrl + Enter (Windows) or Cmd + Enter to assign the issue. Copilot opens a pull request, works in the background on your task, then requests review from you when done. With the GitHub Copilot extension, you can also start new tasks without an issue using the “Create Task” command, and track the progress of tasks you’ve already started with the “View Tasks” command. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. The post Assign issues to Copilot coding agent from Raycast appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-17-anthropic-web-search-tool",
       "date": "2026-02-17",
       "category": "anthropic",
@@ -7174,6 +7222,30 @@
         "en": "We’ve redesigned where you manage Copilot coding agent tasks. We’re bringing a new look and feel to your mission control style view directly into your repository with a new Agents tab. Instead of navigating to a separate page, your agent sessions now live alongside your code, pull requests, and issues. View all sessions for the repository in one place, create new ones, and switch between tasks without leaving your codebase. One-click links make it easy to jump straight to the associated pull request. You can also archive sessions to keep things organized and page through your session history. Redesigned session logs Session logs are now easier to read and follow. Similar tool calls are grouped together, reducing noise and making the flow more clear. Tool outputs render inline previews, and file changes appear with the familiar diff views that you can expand with one click. Every tool call has a distinctive icon, and bash commands are now visible for full transparency. Resume with the Copilot CLI If you prefer working in your terminal, you can now continue your Copilot session directly in the Copilot CLI. Click Continue in Copilot CLI, copy the command, and pick up right where you left off. To get started Navigate to a repository. Click on the new Agents tab. Create a task. To open your session in the CLI, click Continue in Copilot CLI. Copy the command and paste into your terminal to get started with the Copilot CLI. Note: To view the Agents tab, ensure that you have Copilot coding agent enabled for your repository. Join the community discussion. The post Introducing the Agents tab in your repository appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-01-26-introducing-the-agents-tab-in-your-repository",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-01-26-github-2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
+      "date": "2026-01-26",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中可用",
+        "ja": "GPT-5.2-Codex が Visual Studio、JetBrains IDE、Xcode、および Eclipse で利用可能になりました",
+        "en": "GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse"
+      },
+      "summary": {
+        "zh": "GPT-5.2-Codex 一般适用于 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）在 github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上的 GitHub Copilot Chat 中访问模型。如果您还没有访问权限，请稍后再检查。 GitHub Copilot 中的可用性 此新模型将在以下版本中向用户提供：Visual Studio 版本 17.14.19 及更高版本、18.0.0 及更高版本，所有模式：询问、代理。适用于 JetBrains 版本 1.5.61 及更高版本的 GitHub Copilot，具有所有模式：询问、编辑、代理。适用于 Xcode 0.45.0 及更高版本的 GitHub Copilot 所有模式：询问、代理。 GitHub Copilot for Eclipse 版本 0.13.0 及更高版本的所有模式：询问、代理。启用访问 Copilot Business 和 Enterprise 管理员必须通过在 Copilot 设置中启用 GPT-5.2-Codex 策略来选择加入。启用后，该组织中的用户将在模型选择器中看到 GPT-5.2-Codex。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.2-Codex 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中提供，首先出现在 GitHub 博客上。",
+        "ja": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+.チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot Chat のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。 GitHub Copilot での利用可能性 この新しいモデルは、Visual Studio バージョン 17.14.19 以降、18.0.0 以降のすべてのモード (ask、agent) で利用可能になります。 GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を使い始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog.",
+        "en": "GPT-5.2-Codex is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Availability in GitHub Copilot This new model will be available to users in: Visual Studio versions 17.14.19 and later, 18.0.0 and later, in all modes: ask, agent. GitHub Copilot for JetBrains versions 1.5.61 and later, in all modes: ask, edit, agent. GitHub Copilot for Xcode versions 0.45.0 and later in all modes: ask, agent. GitHub Copilot for Eclipse versions 0.13.0 and later in all modes: ask, agent. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the GPT-5.2-Codex policy in Copilot settings. Once enabled, users in that organization will see GPT-5.2-Codex in the model picker. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.2-Codex is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-01-26-gpt-5-2-codex-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
       "tags": [
         "release",
         "copilot",
