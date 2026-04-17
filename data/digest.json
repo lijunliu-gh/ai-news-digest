@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-17",
   "windowMonths": 3,
   "items": [
     {
@@ -917,6 +917,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-08-github-2026-04-08-code-security-risk-assessment-available-for-organizations",
+      "date": "2026-04-08",
+      "category": "github",
+      "title": {
+        "zh": "可供组织使用的代码安全风险评估",
+        "ja": "組織が利用できるコードセキュリティリスク評価",
+        "en": "Code Security risk assessment available for organizations"
+      },
+      "summary": {
+        "zh": "组织管理员和安全经理现在可以运行免费的代码安全风险评估来审查整个组织的安全漏洞。该评估按严重性、规则类型和编程语言总结漏洞。它包括修复指南，突出显示 Copilot Autofix 可以自动建议修复的地方。该报告使您能够确定高影响力的存储库的优先级，并帮助您了解如何更快地修复安全问题。要启动评估，请导航至组织“安全”选项卡下的“评估”部分。此功能在 GitHub Enterprise Cloud 和 GitHub Team 中可用，并将在 GitHub Enterprise Server 3.22 中提供。请阅读代码安全风险评估文档了解更多信息。加入 GitHub 社区的讨论。可供组织使用的后代码安全风险评估首先出现在 GitHub 博客上。",
+        "ja": "組織管理者とセキュリティ マネージャーは、無料のコード セキュリティ リスク評価を実行して、組織全体のセキュリティの脆弱性を確認できるようになりました。この評価では、重大度、ルールの種類、プログラミング言語ごとに脆弱性が要約されます。これには、Copilot Autofix が自動的に修正を提案できる箇所を強調する修復ガイダンスが含まれています。このレポートを使用すると、影響の大きいリポジトリを優先的に特定できるようになり、セキュリティの問題をより迅速に修復する方法を理解するのに役立ちます。評価を開始するには、組織の [セキュリティ] タブの [評価] セクションに移動します。この機能は GitHub Enterprise Cloud および GitHub Team で利用でき、GitHub Enterprise Server 3.22 で出荷される予定です。詳細については、コード セキュリティ リスク評価ドキュメントを参照してください。 GitHub コミュニティのディスカッションに参加してください。組織が利用できるポスト コード セキュリティ リスク評価は、GitHub ブログに最初に掲載されました。",
+        "en": "Organization admins and security managers can now run a free Code Security risk assessment to review security vulnerabilities across their organization. The assessment summarizes vulnerabilities by severity, rule type, and programming language. It includes remediation guidance, highlighting where Copilot Autofix can automatically suggest fixes. The report enables you to identify high-impact repositories to prioritize, and helps understand how to remediate security issues faster. To initiate an assessment, navigate to the “Assessments” section under your organization’s Security tab. This feature is available in GitHub Enterprise Cloud and GitHub Team, and will ship in GitHub Enterprise Server 3.22. Read more in the Code Security risk assessment documentation. Join the discussion in GitHub Community. The post Code Security risk assessment available for organizations appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-08-code-security-risk-assessment-available-for-organizations",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-08-anthropic-overview",
       "date": "2026-04-08",
       "category": "anthropic",
@@ -1518,6 +1542,30 @@
       "url": "https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-02-github-2026-04-02-copilot-organization-custom-instructions-are-generally-available",
+      "date": "2026-04-02",
+      "category": "github",
+      "title": {
+        "zh": "副驾驶组织自定义指令普遍可用",
+        "ja": "副操縦士組織のカスタム手順の一般提供が開始されました",
+        "en": "Copilot organization custom instructions are generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 的组织自定义指令于 2025 年 4 月首次推出，现已全面发布。通过组织自定义指令，Copilot Business 和 Copilot Enterprise 组织管理员可以设置默认指令，指导 Copilot 在其组织中的所有存储库中的行为。组织自定义指令应用于： Copilot github.com 上的聊天 Copilot 代码审查 Copilot 云代理 要添加自定义指令，请导航到组织的设置，选择 Copilot，然后单击自定义指令。要了解更多信息，请参阅文档中的“为 GitHub Copilot 添加组织自定义指令”。 Copilot 组织自定义指令通常可用，首先出现在 GitHub 博客上。",
+        "ja": "2025 年 4 月に初めて導入された GitHub Copilot の組織カスタム手順が一般公開されました。組織のカスタム命令を使用すると、Copilot Business および Copilot Enterprise の組織管理者は、組織内のすべてのリポジトリにわたる Copilot の動作をガイドするデフォルトの命令を設定できます。組織のカスタム命令は以下に適用されます。 Copilot github.com のチャット Copilot コード レビュー Copilot クラウド エージェント カスタム命令を追加するには、組織の設定に移動し、Copilot を選択して、カスタム命令をクリックします。詳細については、ドキュメントの「GitHub Copilot の組織カスタム手順の追加」を参照してください。 Copilot 組織後のカスタム手順が一般公開され、最初に GitHub ブログに掲載されました。",
+        "en": "Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available. With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions that guide Copilot’s behavior across all repositories in their organization. Organization custom instructions are applied across: Copilot Chat on github.com Copilot code review Copilot cloud agent To add custom instructions, navigate to your organization’s settings, select Copilot, then click Custom instructions. To learn more, see “Adding organization custom instructions for GitHub Copilot” in the documentation. The post Copilot organization custom instructions are generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-02-copilot-organization-custom-instructions-are-generally-available",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -2171,6 +2219,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-25-github-2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "date": "2026-03-25",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot for Jira — 公共预览增强功能",
+        "ja": "GitHub Copilot for Jira — パブリック プレビューの機能強化",
+        "en": "GitHub Copilot for Jira — Public preview enhancements"
+      },
+      "summary": {
+        "zh": "自从推出 Jira 的 GitHub Copilot 编码代理的公共预览版以来，我们一直在密切倾听客户的反馈。感谢所有花时间尝试集成、报告问题和分享建议的人——你们的意见直接影响了我们所发布的改进。新功能 改进的入门和设置指南 根据早期采用者的反馈，集成现在提供更好的指导，包括更清晰的错误消息和解决常见配置问题的步骤。我们还扩展了我们的文档，以更全面地涵盖集成先决条件。模型选择 您现在可以直接从 Jira 选择 Copilot 编码代理用于您的任务的 AI 模型。在提及 @GitHub Copilot 时，只需在评论中指出您希望使用的模型即可。有关可用模型的更多信息，请参阅 Copilot 中支持的 AI 模型。拉取请求中的 Jira 票证引用 现在，我们指示 Copilot 编码代理将您的 Jira 票证编号包含在拉取请求标题和分支名称中。拉取请求还将包含返回原始 Jira 票证的链接以及提供给代理的 Jira 上下文。这样可以更轻松地跟踪从 Jira 到代码库的工作。通过 MCP 的 Confluence 上下文 通过使用个人访问令牌 (PAT) 配置 Atlassian MCP 服务器，为 Copilot 编码代理提供对 Confluence 页面的访问权限。这允许代理在处理 Jira 问题时参考 Confluence 中存储的设计文档、规范和其他上下文。有关设置说明，请参阅使用 MCP 扩展 Copilot 编码代理。入门 要获取所有这些更新，请确保您从 Atlassian 实例中拥有最新版本的 GitHub Copilot for Jira 应用程序。 Atlassian Marketplace 列表 有关将 Copilot 编码代理与 Jira 集成的文档 分享反馈或访问集成支持 GitHub Copilot for Jira — 公共预览版增强功能首先出现在 GitHub 博客上。",
+        "ja": "Jira 用 GitHub Copilot コーディング エージェントのパブリック プレビューを開始して以来、私たちはお客様のフィードバックに注意深く耳を傾けてきました。統合を試したり、問題を報告したり、提案を共有したりするために時間を割いてくださった皆様に感謝します。皆様のご意見が、私たちが出荷した改善点に直接反映されました。新機能 オンボーディングとセットアップ ガイダンスの改善 早期導入者からのフィードバックに基づいて、統合により、より明確なエラー メッセージや一般的な構成問題を解決する手順など、より適切なガイダンスが提供されるようになりました。また、統合の前提条件をより包括的にカバーするためにドキュメントを拡張しました。モデルの選択 Copilot コーディング エージェントがタスクに使用する AI モデルを Jira から直接選択できるようになりました。 @GitHub Copilot について言及する場合は、コメントで使用したいモデルを指定するだけです。利用可能なモデルの詳細については、「Copilot でサポートされる AI モデル」を参照してください。プル リクエスト内の Jira チケット参照 ここで、Copilot コーディング エージェントに、プル リクエストのタイトルとブランチ名に Jira チケット番号を含めるよう指示します。プル リクエストには、元の Jira チケットへのリンクと、エージェントに提供される Jira コンテキストも含まれます。これにより、Jira からコードベースまでの作業を簡単に追跡できるようになります。 MCP 経由の Confluence コンテキスト パーソナル アクセス トークン (PAT) を使用して Atlassian MCP サーバーを構成することにより、Copilot コーディング エージェントに Confluence ページへのアクセスを提供します。これにより、エージェントは Jira 課題に取り組むときに、Confluence に保存されている設計ドキュメント、仕様、その他のコンテキストを参照できるようになります。セットアップ手順については、「MCP を使用した Copilot コーディング エージェントの拡張」を参照してください。はじめに これらの更新をすべて入手するには、Atlassian インスタンスから最新バージョンの GitHub Copilot for Jira アプリを入手していることを確認してください。 Atlassian Marketplace のリスト Copilot コーディング エージェントと Jira の統合に関するドキュメント フィードバックを共有するか、統合サポートにアクセスしてください。 投稿 GitHub Copilot for Jira — パブリック プレビューの機能強化は、GitHub ブログに最初に掲載されました。",
+        "en": "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try the integration, report issues, and share suggestions—your input has directly shaped the improvements we have shipped. What’s new Improved onboarding and setup guidance Based on feedback from early adopters, the integration now provides better guidance, including clearer error messages and steps to resolve common configuration issues. We’ve also extended our documentation to more comprehensively cover integration prerequisites. Model selection You can now choose which AI model Copilot coding agent uses for your task, directly from Jira. Simply indicate the model you wish to use in your comment when mentioning @GitHub Copilot. For more information on available models, see Supported AI models in Copilot. Jira ticket references in pull requests We now instruct Copilot coding agent to include your Jira ticket number in the pull request title and branch name. The pull request will also include a link back to the originating Jira ticket and the Jira context provided to the agent. This makes it easier to trace work from Jira through to your codebase. Confluence context via MCP Provide Copilot coding agent with access to your Confluence pages by configuring the Atlassian MCP server with a personal access token (PAT). This allows the agent to reference design documents, specifications, and other context stored in Confluence when working on your Jira issues. For setup instructions, see Extending Copilot coding agent with MCP. Getting started To get all these updates, ensure you have the latest version of the GitHub Copilot for Jira app from your Atlassian instance. Atlassian Marketplace listing Documentation about integrating Copilot coding agent with Jira Share feedback or access integration support The post GitHub Copilot for Jira — Public preview enhancements appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-25-github-copilot-for-jira-public-preview-enhancements",
+      "tags": [
+        "improvement",
+        "collaboration-tools",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-25-github-2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
       "date": "2026-03-25",
       "category": "github",
@@ -2512,6 +2585,30 @@
       "tags": [
         "improvement",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-19-github-2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
+      "date": "2026-03-19",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 项目中的层次结构视图现已全面可用",
+        "ja": "GitHub プロジェクトの階層ビューが一般提供になりました",
+        "en": "Hierarchy view in GitHub Projects is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub 项目中的层次结构视图现已普遍可用。从今天开始，所有新项目视图默认启用层次结构视图。如果您有现有视图，则可以通过切换“显示层次结构”从“视图”菜单将其打开。自上一版本以来，我们还进行了多项改进和错误修复： 改进了子问题过滤器的可发现性：现在可以更轻松地在过滤器建议栏中找到子问题特定过滤器。自动将过滤器应用于子问题：当子问题添加到过滤视图时，我们现在尝试自动应用匹配的过滤器。我们还进行了多项辅助功能改进，以提供更好的整体体验。如需反馈或问题，请加入 GitHub 社区中的讨论。对问题和项目的其他改进 通过问题模板分配 Copilot 您现在可以将 Copilot 自动分配给问题模板。首先，将 @copilot 添加到问题模板中的受让人字段。这适用于对存储库具有写入权限并允许分配 Copilot 的用户。维护者的空白问题即使在存储库的问题模板设置中配置了blank_issues_enabled: false，具有分类、写入或管理访问权限的用户现在也可以创建空白问题。空白问题选项将自动出现在这些用户的模板选择器中，而没有写入权限的贡献者将继续受模板指导。 GitHub 项目中的帖子层次结构视图现已普遍可用，首先出现在 GitHub 博客上。",
+        "ja": "GitHub プロジェクトの階層ビューが一般提供されるようになりました。本日より、すべての新しいプロジェクト ビューで階層ビューがデフォルトで有効になります。既存のビューがある場合は、[表示] メニューから [階層の表示] を切り替えてオンにできます。前回のリリース以来、いくつかの改善とバグ修正も提供しました。 サブ課題フィルターの発見可能性の向上: サブ課題固有のフィルターがフィルター提案バーで見つけやすくなりました。サブ課題へのフィルターの自動適用: フィルターされたビューにサブ課題が追加されると、一致するフィルターが自動的に適用されるようになりました。また、全体的なエクスペリエンスを向上させるために、複数のアクセシビリティの改善も行いました。フィードバックや質問がある場合は、GitHub コミュニティのディスカッションに参加してください。課題とプロジェクトの追加の改善 課題テンプレートによる Copilot の割り当て Copilot を課題テンプレートに自動割り当てできるようになりました。まず、課題テンプレートの担当者フィールドに @copilot を追加します。これは、リポジトリへの書き込みアクセス権があり、Copilot の割り当てが許可されているユーザーに対して機能します。メンテナー向けの空白の課題 トリアージ、書き込み、または管理者アクセス権を持つユーザーは、リポジトリの課題テンプレート設定でblank_issues_enabled: false が構成されている場合でも、空白の課題を作成できるようになりました。これらのユーザーのテンプレート ピッカーには [空白の課題] オプションが自動的に表示されますが、書き込みアクセス権を持たない投稿者は引き続きテンプレートによってガイドされます。 GitHub プロジェクトの投稿階層ビューが一般利用可能になりました appeared first on The GitHub Blog.",
+        "en": "Hierarchy view in GitHub Projects is now generally available. Starting today, hierarchy view is enabled by default for all new project views. If you have existing views, you can turn it on from the View menu by toggling Show hierarchy. Since our last release, we’ve also shipped several improvements and bug fixes: Improved discoverability of sub-issue filters: Sub-issue specific filters are now easier to find in the filter suggestion bar. Auto-apply filters to sub-issues: When sub-issues are added to a filtered view, we now attempt to automatically apply matching filters. We’ve also made multiple accessibility improvements for a better overall experience. For feedback or questions, join the discussion in GitHub Community. Additional improvements to issues and projects Assign Copilot via issue templates You can now auto-assign Copilot to issue templates. To get started, add @copilot to the assignees field in your issue template. This works for users with write access to the repository who are allowed to assign Copilot. Blank issues for maintainers Users with triage, write, or admin access can now create blank issues even when blank_issues_enabled: false is configured in the repository’s issue template settings. The Blank issue option will appear in the template picker for these users automatically, while contributors without write access continue to be guided by templates. The post Hierarchy view in GitHub Projects is now generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
+      "tags": [
+        "improvement",
+        "projects-issues",
         "github",
         "changelog"
       ],
@@ -3665,6 +3762,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-05-github-2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "使用新的会话过滤器发现和管理代理活动",
+        "ja": "新しいセッションフィルターを使用してエージェントアクティビティを検出および管理",
+        "en": "Discover and manage agent activity with new session filters"
+      },
+      "summary": {
+        "zh": "GitHub Enterprise AI Controls 和代理控制平面现在包含额外的会话过滤器，使您可以更轻松地发现和管理整个企业的代理活动。新功能 除了按代理和企业内的组织搜索代理会话活动外，我们现在还推出了以下筛选器： 状态：按状态搜索会话，例如已排队、进行中、已完成、失败、空闲等待用户、超时和取消。存储库：按发生代理会话的存储库搜索会话。用户：按发起代理会话的用户搜索会话。要了解更多信息，请参阅有关 AI 控制和代理控制平面的文档。加入 GitHub 社区内的讨论。使用新会话过滤器发现和管理代理活动一文首先出现在 GitHub 博客上。",
+        "ja": "GitHub Enterprise AI Controls とエージェント コントロール プレーンに追加のセッション フィルターが含まれるようになり、企業全体のエージェント アクティビティの検出と管理が容易になります。新機能 エージェント別および企業内の組織別のエージェント セッション アクティビティの検索に加えて、次のフィルターが展開されました。 ステータス: キューに入れられている、進行中、完了、失敗、ユーザーを待っているアイドル状態、タイムアウト、キャンセルなどのステータス別にセッションを検索します。リポジトリ: エージェント セッションが発生したリポジトリによってセッションを検索します。ユーザー: エージェント セッションを開始したユーザーによるセッションを検索します。詳細については、AI コントロールとエージェント コントロール プレーンに関するドキュメントを参照してください。 GitHub コミュニティ内のディスカッションに参加してください。新しいセッション フィルターを使用したエージェント アクティビティの検出と管理の投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "GitHub Enterprise AI Controls and agent control plane now includes additional session filters, making it easier to discover and manage agent activity across your enterprise. What’s new In addition to searching for agentic session activity by agents and by organizations within your enterprise, we’ve now rolled out the following filters: Status: Search for session by status, such as queued, in progress, completed, failed, idle waiting for user, timed out, and cancelled. Repository: Search for sessions by the repository where the agent session occurred. User: Search for sessions by the user who initiated the agent session. To learn more, see our documentation on AI controls and the agent control plane. Join the discussion within GitHub Community. The post Discover and manage agent activity with new session filters appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-05-github-2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
       "date": "2026-03-05",
       "category": "github",
@@ -4210,6 +4332,32 @@
         "en": "Copilot enterprise usage metrics coverage has expanded to now include Copilot CLI telemetry. With this update, your enterprise metrics can include CLI-specific activity and usage totals, such as: Daily active CLI users CLI request and session counts Token usage totals, including average tokens per request Why this matters Track CLI adoption across your enterprise and spot where enablement or support is needed. Compare usage patterns across environments so you can understand how developers use GitHub Copilot day to day. Use token usage totals to better understand consumption trends and plan for rollout over time. Join the discussion within GitHub Community. The post Copilot usage metrics now includes enterprise-level GitHub Copilot CLI activity appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-02-27-copilot-usage-metrics-now-includes-enterprise-level-github-copilot-cli-activity",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-27-github-2026-02-27-copilot-metrics-is-now-generally-available",
+      "date": "2026-02-27",
+      "category": "github",
+      "title": {
+        "zh": "副驾驶指标现已普遍可用",
+        "ja": "Copilot メトリクスの一般提供が開始されました",
+        "en": "Copilot metrics is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 使用指标现已全面发布，让您可以在一个地方查看您的团队如何采用和使用 Copilot。通过这种方式，您可以跟踪趋势，就部署做出明智的决策，并构建适合您的组织的报告。自 Universe 2025 公开预览以来，Copilot 使用指标已通过组织级可见性、细粒度访问控制、数据驻留支持等进行了扩展。现在它已经普遍可用，这是您可以期待的。仪表板内容 Copilot 使用情况仪表板提供了关于您的团队如何使用 GitHub Copilot 的清晰、可操作的见解。仪表板提供了代码完成活动、IDE 使用情况、模型和语言细分等的可见性。代码生成仪表板通过量化 Copilot 在完成、聊天和代理功能中建议、添加或删除的行，对 Copilot 的输出进行定向测量。企业和组织级粒度允许企业和组织所有者跟踪其团队的采用和使用趋势，而无需仅依赖企业范围的聚合。 API 企业级：全面了解整个企业的所有 Copilot 使用情况，以便对用户参与度、Copilot 使用情况、拉取请求吞吐量等进行聚合分析。组织级别：组织可以以编程方式访问自己的 Copilot 使用情况，以了解团队如何与 Copilot 互动、发现趋势并评估支持工作。用户级别：分析特定日期的个人 Copilot 使用情况以支持支持并确定团队在哪些方面可能需要培训或更好的文档。查看我们的 API 文档以了解更多信息。访问和可用性 如需访问，请导航至您的企业帐户 → AI 控制 → Copilot → 指标 → Copilot 使用指标。然后，您应该会在“见解”→“副驾驶使用情况”或“代码生成”下看到仪表板。另请确保您是企业管理员、计费经理，或者拥有适当的细粒度权限来访问 Copilot 指标。细粒度的访问控制让您可以使用自定义企业角色（例如查看企业 Copilot 指标）与合适的人员共享可见性，而无需完全的管理员访问权限。添加了对具有数据驻留功能的 GitHub Enterprise Cloud 的支持，因此有驻留要求的企业可以访问 Copilot 使用情况仪表板和 API 报告。接下来的内容 今天的发布为了解 Copilot 在整个组织中的采用情况提供了数据基础。许多领导者问的下一个问题是“它有效吗？”我们正在朝着这个答案努力——将使用模式与工程成果联系起来，以便您可以从跟踪采用转向衡量影响。当这些功能可用时，我们将分享更多信息。要开始使用，请访问 Copilot 使用指标文档。加入 GitHub 社区内的讨论。 Copilot 后的指标现在普遍可用，首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot の使用状況メトリクスが一般提供されるようになり、チームが Copilot をどのように導入して使用しているかを 1 か所で確認できるようになりました。これにより、傾向を追跡し、情報に基づいて展開に関する決定を下し、組織に適したレポートを作成できます。 Universe 2025 でのパブリック プレビュー以来、Copilot の使用状況メトリクスは、組織レベルの可視性、きめ細かいアクセス制御、データ常駐サポートなどによって拡張されました。一般公開された時点で期待できることは次のとおりです。ダッシュボードの内容 Copilot 使用状況ダッシュボードは、チームが GitHub Copilot をどのように使用しているかについて明確で実用的な洞察を提供します。ダッシュボードでは、コード補完アクティビティ、IDE の使用状況、モデルと言語の内訳などを可視化できます。コード生成ダッシュボードは、補完、チャット、およびエージェント機能にわたって提案、追加、または削除された行を定量化することにより、Copilot の出力の方向性を測定します。エンタープライズおよび組織レベルの粒度により、エンタープライズおよび組織の所有者は、エンタープライズ全体の集計だけに依存することなく、チームの導入と使用の傾向を追跡できます。 API エンタープライズ レベル: ユーザー エンゲージメント、Copilot の使用状況、プル リクエストのスループットなどを集計分析するために、企業全体のすべての Copilot の使用状況を鳥瞰図で把握します。組織レベル: 組織はプログラムで独自の Copilot の使用状況にアクセスし、チームがどのように Copilot に取り組んでいるかを理解し、傾向を特定し、有効化の取り組みを評価できます。ユーザーレベル: 特定の日の個々の Copilot の使用状況を分析して、有効化をサポートし、チームがトレーニングやより適切な文書化を必要とする場所を特定します。詳細については、API ドキュメントをご覧ください。アクセスと可用性 アクセスするには、エンタープライズ アカウント → AI Controls → Copilot → メトリック → Copilot 使用状況メトリックに移動します。 [インサイト] → [コパイロットの使用法] または [コード生成] の下にダッシュボードが表示されます。また、エンタープライズ管理者または請求マネージャーであるか、Copilot メトリクスにアクセスするための適切な詳細権限を持っていることも確認してください。詳細なアクセス制御により、完全な管理者アクセスを必要とせずに、カスタム エンタープライズ ロール (エンタープライズ コパイロット メトリクスの表示など) を使用して適切なユーザーと可視性を共有できます。データ常駐機能を備えた GitHub Enterprise Cloud のサポートが追加されたため、常駐要件を持つ企業は Copilot 使用状況ダッシュボードと API レポートにアクセスできます。次の予定 本日のリリースでは、組織全体での Copilot の導入を理解するためのデータ基盤が提供されます。多くのリーダーが次に尋ねる質問は、「それはうまくいっているのか?」ということです。私たちはその答えに向けて構築を進めており、使用パターンをエンジニアリングの成果に結びつけ、導入の追跡から影響の測定に移行できるようにしています。これらの機能が利用可能になり次第、さらに共有していきます。開始するには、Copilot の使用状況メトリクスのドキュメントにアクセスしてください。 GitHub コミュニティ内のディスカッションに参加してください。 「Copilot メトリクスが一般利用可能になりました」という投稿は、GitHub ブログに最初に掲載されました。",
+        "en": "GitHub Copilot usage metrics is now generally available, giving you a single place to see how your teams adopt and use Copilot. This way you can track trends, make informed decisions about rollout, and build reports that fit your organization. Since the public preview at Universe 2025, Copilot usage metrics has expanded with organization-level visibility, fine-grained access controls, data residency support, and more. Here’s what you can expect now that it’s generally available. What’s included Dashboards Copilot usage dashboard provides clear, actionable insights into how your teams are using GitHub Copilot. The dashboard provides visibility into code completion activity, IDE usage, model and language breakdown, and more. Code generation dashboard gives a directional measure of Copilot’s output by quantifying the lines it suggested, added, or deleted across completions, chat, and agent features. Enterprise and organization-level granularity allows enterprise and organization owners to track adoption and usage trends for their teams without relying solely on enterprise-wide aggregates. APIs Enterprise-level: Get a bird’s eye view of all Copilot usage across your entire enterprise for aggregate analysis on user engagement, Copilot usage, pull request throughput, and more. Organization-level: Organizations can programmatically access their own Copilot usage to understand how teams are engaging with Copilot, spot trends, and assess enablement efforts. User-level: Analyze individual Copilot usage for a specific day to support enablement and identify where teams may need training or better documentation. Check out our API documentation to learn more. Access and availability For access, navigate to your enterprise account → AI Controls → Copilot → Metrics → Copilot usage metrics. You should then see the dashboard under Insights → Copilot usage or Code generation. Please also ensure you are either an Enterprise Administrator, Billing Manager, or have the proper fine-grained permissions to have access to Copilot metrics. Fine-grained access controls let you share visibility with the right people using custom enterprise roles, such as View enterprise Copilot metrics, without requiring full admin access. Added support for GitHub Enterprise Cloud with data residency so enterprises with residency requirements can access Copilot usage dashboards and API reporting. What’s next Today’s release delivers the data foundation for understanding Copilot adoption across your organization. The next question many leaders are asking is “is it working?” We’re building toward that answer—connecting usage patterns to engineering outcomes so you can move from tracking adoption to measuring impact. We’ll share more as these capabilities become available. To get started, visit Copilot usage metrics documentation. Join the discussion within GitHub Community. The post Copilot metrics is now generally available appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-27-copilot-metrics-is-now-generally-available",
       "tags": [
         "release",
         "account-management",
@@ -5356,6 +5504,30 @@
         "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it opens a draft pull request, works in the background in the cloud, and then requests a review from you. You can now delegate tasks to Copilot from Visual Studio. To start a background task, enter your prompt in Copilot Chat then click the new Send to Copilot Coding Agent button next to the Send button. Copilot will ask you to confirm, and then will open a pull request and start working in the background. Copilot coding agent is available to Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. If you’re a Copilot Business or Copilot Enterprise subscriber, an administrator will have to enable Copilot coding agent from the “Policies” page before you can use it. To start tasks from Visual Studio, you’ll need to update to the latest version of Visual Studio 2026 (at least December Update 18.1.0 ), and you’ll need to turn on the Enable Copilot Coding agent (preview) setting. To learn more, see “Asking Copilot to create a pull request from Copilot Chat in Visual Studio 2026” in the GitHub Docs. The post Delegate tasks to Copilot coding agent from Visual Studio appeared first on The GitHub Blog."
       },
       "url": "https://github.blog/changelog/2026-02-17-delegate-tasks-to-copilot-coding-agent-from-visual-studio",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 4.6 现已在 GitHub Copilot 中全面发布",
+        "ja": "Claude Sonnet 4.6 が GitHub Copilot で一般公開されました",
+        "en": "Claude Sonnet 4.6 is now generally available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Anthropic 最新的代理编码模型 Claude Sonnet 4.6 现已在 GitHub Copilot 中推出。在早期测试中，该模型在代理编码方面表现出色，并且在搜索操作方面尤其成功。请注意，虽然此型号以 1 倍保费请求乘数推出，但定价是暂定的，可能会发生变化。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub Copilot 中的可用性 Claude Sonnet 4.6 将向 Copilot Pro、Pro+、Business 和 Enterprise 用户提供。您可以在模型选择器中选择模型： 所有模式下的 Visual Studio Code：聊天、询问、编辑、代理 所有模式下的 Visual Studio：代理、询问 github.com GitHub Mobile iOS 和 Android GitHub Copilot CLI GitHub Copilot Coding Agent 推出将是渐进的。如果您还没有看到，请尽快回来查看。启用访问 Copilot Enterprise 和 Copilot Business 计划管理员必须在 Copilot 设置中启用 Claude Sonnet 4.6 策略。了解更多 要探索 GitHub Copilot 中提供的所有模型，请参阅有关可用模型的文档并开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 Claude Sonnet 4.6 现已在 GitHub Copilot 中发布，该帖子首先出现在 GitHub 博客上。",
+        "ja": "Anthropic の最新のエージェント コーディング モデルである Claude Sonnet 4.6 が、GitHub Copilot で展開されています。初期のテストでは、このモデルはエージェント コーディングに優れており、特に検索操作で成功しています。このモデルは 1 倍のプレミアム リクエスト乗数で発売されますが、価格は暫定的なものであり、変更される可能性があることに注意してください。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub での提供 Copilot Claude Sonnet 4.6 は、Copilot Pro、Pro+、Business、および Enterprise ユーザーが利用できます。次のモデル ピッカーでモデルを選択できるようになります。 すべてのモードの Visual Studio Code: チャット、質問、編集、エージェント すべてのモードの Visual Studio: エージェント、質問 github.com GitHub モバイル iOS および Android GitHub Copilot CLI GitHub Copilot コーディング エージェントのロールアウトは段階的に行われます。まだ表示されていない場合は、すぐにもう一度確認してください。アクセスの有効化 Copilot Enterprise および Copilot Business プランの管理者は、Copilot 設定で Claude Sonnet 4.6 ポリシーを有効にする必要があります。詳細 GitHub Copilot で利用可能なすべてのモデルを調べるには、利用可能なモデルに関するドキュメントを参照して、Copilot を開始してください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 「Claude Sonnet 4.6 は GitHub Copilot で一般利用可能になりました」という記事は、最初に GitHub ブログに掲載されました。",
+        "en": "Claude Sonnet 4.6, Anthropic’s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, this model excels on agentic coding, and is particularly successful in search operations. Note, while this model is launching with a 1x premium request multiplier, pricing is tentative and subject to change. https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 Availability in GitHub Copilot Claude Sonnet 4.6 will be available to Copilot Pro, Pro+, Business, and Enterprise users. You’ll be able to select the model in the model picker in: Visual Studio Code in all modes: chat, ask, edit, agent Visual Studio in all modes: agent, ask github.com GitHub Mobile iOS and Android GitHub Copilot CLI GitHub Copilot Coding Agent Rollout will be gradual. Check back soon if you don’t see it yet. Enabling access Copilot Enterprise and Copilot Business plan administrators must enable the Claude Sonnet 4.6 policy in Copilot settings. Learn more To explore all models available in GitHub Copilot, see our documentation on available models and get started with Copilot. Share your feedback Join the GitHub Community to share your feedback. The post Claude Sonnet 4.6 is now generally available in GitHub Copilot appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
       "tags": [
         "release",
         "copilot",
@@ -7523,116 +7695,6 @@
         "openai"
       ],
       "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-16-openai-the-truth-elon-left-out",
-      "date": "2026-01-16",
-      "category": "openai",
-      "title": {
-        "zh": "埃隆·马斯克最近的法庭文件中遗漏了真相",
-        "ja": "イーロン・マスクの最近の裁判所への提出から抜け落ちた真実",
-        "en": "The truth left out from Elon Musk’s recent court filing"
-      },
-      "summary": {
-        "zh": "埃隆·马斯克最近的法庭文件遗漏了真相。",
-        "ja": "イーロン・マスクの最近の裁判所への提出からは抜け落ちた真実。",
-        "en": "The truth left out from Elon Musk’s recent court filing."
-      },
-      "url": "https://openai.com/index/the-truth-elon-left-out",
-      "tags": [
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-16-openai-our-approach-to-advertising-and-expanding-access",
-      "date": "2026-01-16",
-      "category": "openai",
-      "title": {
-        "zh": "我们的广告和扩大 ChatGPT 访问权限的方法",
-        "ja": "ChatGPT へのアクセスを宣伝し拡大するための当社のアプローチ",
-        "en": "Our approach to advertising and expanding access to ChatGPT"
-      },
-      "summary": {
-        "zh": "OpenAI 计划在美国测试 ChatGPT 的免费和 Go 级别的广告，以在全球范围内扩大对 AI 的负担得起的访问，同时保护隐私、信任和答案质量。",
-        "ja": "OpenAI は、プライバシー、信頼、回答の品質を保護しながら、世界中で AI への手頃な価格のアクセスを拡大するために、米国で ChatGPT の無料層と Go 層の広告をテストする予定です。",
-        "en": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality."
-      },
-      "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
-      "tags": [
-        "company",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-16-openai-introducing-chatgpt-go",
-      "date": "2026-01-16",
-      "category": "openai",
-      "title": {
-        "zh": "ChatGPT Go 现已在全球推出",
-        "ja": "ChatGPT Go の紹介、世界中で利用可能になりました",
-        "en": "Introducing ChatGPT Go, now available worldwide"
-      },
-      "summary": {
-        "zh": "ChatGPT Go 现已在全球范围内推出，提供对 GPT-5.2 Instant 的扩展访问、更高的使用限制和更长的内存，使先进的人工智能在全球范围内变得更加经济实惠。",
-        "ja": "ChatGPT Go は現在世界中で利用可能であり、GPT-5.2 Instant への拡張アクセス、より高い使用制限、より長いメモリを提供し、高度な AI を世界中でより手頃な価格にしています。",
-        "en": "ChatGPT Go is now available worldwide, offering expanded access to GPT-5.2 Instant, higher usage limits, and longer memory—making advanced AI more affordable globally."
-      },
-      "url": "https://openai.com/index/introducing-chatgpt-go",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-16-github-2026-01-16-github-copilot-now-supports-opencode",
-      "date": "2026-01-16",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 现在支持 OpenCode",
-        "ja": "GitHub Copilot が OpenCode をサポートするようになりました",
-        "en": "GitHub Copilot now supports OpenCode"
-      },
-      "summary": {
-        "zh": "GitHub 正式支持将 Copilot Pro、Pro+、Business 或 Enterprise 订阅与 OpenCode 结合使用。 GitHub Copilot 现在通过正式合作伙伴关系完全支持 OpenCode 身份验证，允许您在更多的开发工作流程中使用现有的 Copilot 订阅。什么是开放代码？ OpenCode 是一个开源代理，可帮助您在终端、IDE 或桌面中编写代码。您可以在 OpenCode 网站上了解更多信息。工作原理 OpenCode 和 GitHub Copilot 入门很简单：在 OpenCode 中，运行 /connect 并选择 GitHub Copilot。完成 GitHub 设备登录流程。开始使用由 Copilot 提供支持的 OpenCode。谁可以使用此功能 所有拥有付费 GitHub Copilot 订阅（Pro、Pro+、Business 或 Enterprise）的开发人员现在都可以使用其 Copilot 凭据进行 OpenCode 身份验证，无需额外的 AI 许可证。了解有关 OpenCode 的 Copilot 提供程序设置的更多信息。加入 GitHub 社区内的讨论。 GitHub Copilot 现在支持 OpenCode 的帖子首先出现在 GitHub 博客上。",
-        "ja": "GitHub は、OpenCode での Copilot Pro、Pro+、Business、または Enterprise サブスクリプションの使用を正式にサポートしています。 GitHub Copilot は、正式なパートナーシップを通じて OpenCode による認証を完全にサポートするようになり、より多くの開発ワークフローで既存の Copilot サブスクリプションを使用できるようになりました。オープンコードとは何ですか? OpenCode は、ターミナル、IDE、またはデスクトップでのコードの作成を支援するオープン ソース エージェントです。詳細については、OpenCode のサイトをご覧ください。仕組み OpenCode と GitHub Copilot を始めるのは簡単です。OpenCode で /connect を実行し、GitHub Copilot を選択します。 GitHub デバイスのログイン フローを完了します。 Copilot を利用した OpenCode の使用を開始します。この機能を使用できるユーザー 有料の GitHub Copilot サブスクリプション (Pro、Pro+、Business、または Enterprise) を持つすべての開発者は、Copilot 認証情報を使用して OpenCode で認証できるようになりました。追加の AI ライセンスは必要ありません。 OpenCode の Copilot プロバイダーのセットアップについて詳しくは、こちらをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。 GitHub Copilot が OpenCode をサポートするようになったという投稿は、最初に GitHub ブログに掲載されました。",
-        "en": "GitHub is officially supporting using your Copilot Pro, Pro+, Business, or Enterprise subscription with OpenCode. GitHub Copilot now fully supports authentication with OpenCode through a formal partnership, allowing you to use your existing Copilot subscription across more of your development workflow. What is OpenCode? OpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop. You can learn more at OpenCode’s site. How it works Getting started with OpenCode and GitHub Copilot is simple: In OpenCode, run /connect and select GitHub Copilot. Complete the GitHub device login flow. Start using OpenCode powered by Copilot. Who can use this feature All developers with paid GitHub Copilot subscriptions (Pro, Pro+, Business, or Enterprise) can now authenticate into OpenCode using their Copilot credentials—no additional AI license needed. Learn more about OpenCode’s Copilot provider setup. Join the discussion within GitHub Community. The post GitHub Copilot now supports OpenCode appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-01-16-github-copilot-now-supports-opencode",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-16-anthropic-anthropic-appoints-irina-ghose-as-managing-director-of-india",
-      "date": "2026-01-16",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在班加罗尔办事处开业前任命 Irina Ghose 为印度董事总经理",
-        "ja": "Anthropic、ベンガルール事務所開設に先立ち、インド担当マネジングディレクターにイリーナ・ゴースを任命",
-        "en": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
       "sourceType": "news"
     }
   ]
