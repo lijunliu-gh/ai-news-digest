@@ -1266,6 +1266,32 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-04-06-github-2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
+      "date": "2026-04-06",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在可识别主动和被动 Copilot 代码审查用户",
+        "ja": "Copilot の使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました",
+        "en": "Copilot usage metrics now identify active and passive Copilot code review users"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标现在指示哪些用户有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级别报告中了解用户如何参与 Copilot 代码审查，从而更清晰地了解 CCR 采用和参与情况。在 API 响应中，CCR 使用情况由用户级别的两个字段表示：used_copilot_code_review_active：当用户有意通过以下方式参与 Copilot 代码审查时设置为 true：将 Copilot 分配为拉取请求的审查者。再次请求副驾驶评论。应用 CCR 建议。 used_copilot_code_review_passive：当 Copilot 代码审查自动对用户的拉取请求运行（通过存储库级策略）但用户未与审查交互时，设置为 true。如果用户在同一天同时发生主动和被动 CCR 事件，则主动信号优先。您可以在我们的文档中了解有关 Copilot 使用指标的更多信息。为什么这很重要 通过此更新，您可以： 衡量真正的参与度，而不仅仅是覆盖范围。区分主动与 Copilot 代码审查交互的用户和拉取请求被自动审查但没有参与的用户。跟踪采用成熟度。管理员现在可以说“我的存储库 100% 被 CCR 覆盖，并且我的 60% 的用户积极参与这些评论”，而不是单一的、无差别的活跃用户计数。区分 Copilot 表面。 used_copilot_code_review_active /used_copilot_code_review_passive 与used_agent（IDE 代理模式）和used_copilot_coding_agent（CCA）并列，以获取完整的采用情况。请访问我们的 API 文档以了解更多信息。加入 GitHub 社区内的讨论。 Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户，该指标首先出现在 GitHub 博客上。",
+        "ja": "Copilot の使用状況メトリクスは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザー レベル レポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。 API 応答内では、CCR の使用状況はユーザー レベルの 2 つのフィールドで表されます。 used_copilot_code_review_active: ユーザーが意図的に次の方法で Copilot コード レビューに関与した場合、true に設定されます。 プル リクエストのレビュー担当者として Copilot を割り当てる。 Copilot のレビューを再度リクエストします。 CCR 提案を適用します。 used_copilot_code_review_passive: Copilot コード レビューがユーザーのプル リクエストに対して (リポレベル ポリシー経由で) 自動的に実行されたが、ユーザーがレビューを操作しなかった場合に true に設定されます。ユーザーが同じ日にアクティブ CCR イベントとパッシブ CCR イベントの両方を発生した場合、アクティブな信号が優先されます。 Copilot の使用状況メトリクスに関するドキュメントで詳細を確認できます。これが重要な理由 このアップデートにより、次のことが可能になります。 カバレッジだけでなく、実際のエンゲージメントを測定します。 Copilot のコード レビューと積極的に対話するユーザーと、プル リクエストが自動的にレビューされるがエンゲージメントは行われないユーザーを区別します。導入の成熟度を追跡します。管理者は、単一の未区別のアクティブ ユーザー数ではなく、「私のリポジトリの 100% が CCR の対象であり、ユーザーの 60% がそれらのレビューに積極的に関与している」と言えるようになりました。コパイロットのサーフェス全体で区別します。 used_copilot_code_review_active / used_copilot_code_review_passive は、used_agent (IDE エージェント モード) および used_copilot_coding_agent (CCA) と並んで、導入の全体像を把握します。詳細については、API ドキュメントをご覧ください。 GitHub コミュニティ内のディスカッションに参加してください。 「Copilot 使用状況メトリクスでアクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになった」という記事が最初に GitHub ブログに掲載されました。",
+        "en": "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement. Within the API response, CCR usage is represented by two fields at the user level: used_copilot_code_review_active: Set to true when a user intentionally engaged with Copilot code review by: Assigning Copilot as a reviewer on a pull request. Requesting Copilot reviews again. Applying a CCR suggestion. used_copilot_code_review_passive: Set to true when Copilot code review automatically ran on a user’s pull request (via a repo-level policy), but the user did not interact with the review. If a user has both active and passive CCR events on the same day, the active signal takes precedence. You can learn more in our documentation about Copilot usage metrics. Why this matters With this update, you can: Measure real engagement, not just coverage. Distinguish between users who actively interact with Copilot code review and those whose pull requests are reviewed automatically but without engagement. Track adoption maturity. An admin can now say “100% of my repositories are covered by CCR, and 60% of my users engage with those reviews actively” instead of a single, undifferentiated active-user count. Distinguish across Copilot surfaces. used_copilot_code_review_active / used_copilot_code_review_passive sit alongside used_agent (IDE agent mode) and used_copilot_coding_agent (CCA) for a complete view of adoption. Visit our API documentation to learn more. Join the discussion within GitHub Community. The post Copilot usage metrics now identify active and passive Copilot code review users appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-06-anthropic-google-broadcom-partnership-compute",
       "date": "2026-04-06",
       "category": "anthropic",
@@ -3723,6 +3749,30 @@
       "url": "https://github.blog/changelog/2026-03-05-pick-a-model-for-copilot-in-pull-request-comments",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-05-github-2026-03-05-gpt-5-4-is-generally-available-in-github-copilot",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.4 在 GitHub Copilot 中全面可用",
+        "ja": "GPT-5.4 は GitHub Copilot で一般提供されています",
+        "en": "GPT-5.4 is generally available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "OpenAI 最新的代理编码模型 GPT-5.4 现已在 GitHub Copilot 中推出。在我们对现实世界、代理和软件开发能力的早期测试中，GPT-5.4 不断取得新的成功率。它还展示了复杂、多步骤、依赖工具的流程的增强逻辑推理和任务执行。 https://github.blog/wp-content/uploads/2026/03/5.4-recording-with-end-card.mp4#t=0.001 GitHub 中的可用性 Copilot GPT-5.4 将可供 Copilot Pro、Pro+、Business 和 Enterprise 用户使用。您可以在以下模型选择器中选择模型： Visual Studio Code 版本 v1.104.1 及更高版本，所有模式：聊天、询问、编辑、代理 Visual Studio 版本 17.14.19 及更高版本，所有模式：代理、询问 JetBrains 版本 1.5.66 及更高版本，所有模式：询问、编辑、代理 Xcode 版本 0.48.0 及更高版本，所有模式：询问、代理 Eclipse 版本 0.15.1 和稍后在所有模式中：询问、代理 github.com GitHub Mobile iOS 和 Android GitHub CLI GitHub Copilot Coding Agent 虽然模型出现在上述所有版本中，但提示和模型参数在每个产品的最新版本中效果最佳，因此我们强烈建议您升级到最新版本。启用访问 Copilot Enterprise 和 Copilot Business 计划管理员必须在 Copilot 设置中启用 GPT-5.4 策略。了解更多 要探索 GitHub Copilot 中提供的所有模型，请参阅有关可用模型的文档并开始使用 Copilot。分享您的反馈 加入 GitHub 社区来分享您的反馈。 GPT-5.4 发布于 GitHub Copilot 中，首先出现在 GitHub 博客上。",
+        "ja": "OpenAI の最新のエージェント コーディング モデルである GPT-5.4 は、現在 GitHub Copilot で展開されています。実世界、エージェント、およびソフトウェア開発機能の初期テストでは、GPT-5.4 は常に新しい成功率を達成しました。また、ツールに依存した複雑な複数ステップのプロセスに対する、強化された論理的推論とタスク実行も示します。 https://github.blog/wp-content/uploads/2026/03/5.4-recording-with-end-card.mp4#t=0.001 GitHub での提供 Copilot GPT-5.4 は、Copilot Pro、Pro+、Business、および Enterprise ユーザーが利用できます。モデル ピッカーでモデルを選択できるようになります。 Visual Studio Code バージョン v1.104.1 以降のすべてのモード: チャット、質問、編集、エージェント Visual Studio バージョン 17.14.19 以降のすべてのモード: エージェント、質問 JetBrains バージョン 1.5.66 以降のすべてのモード: 質問、編集、エージェント Xcode バージョン 0.48.0 以降のすべてのモード: 質問、エージェント Eclipse バージョンすべてのモードの 0.15.1 以降: ask、agent github.com GitHub Mobile iOS および Android GitHub CLI GitHub Copilotcoding Agent モデルは上記のすべてのバージョンに表示されますが、プロンプトとモデルのパラメーターは各製品の最新バージョンで最適に機能するため、最新バージョンにアップグレードすることを強くお勧めします。アクセスの有効化 Copilot Enterprise および Copilot Business プランの管理者は、Copilot 設定で GPT-5.4 ポリシーを有効にする必要があります。詳細 GitHub Copilot で利用可能なすべてのモデルを調べるには、利用可能なモデルに関するドキュメントを参照して、Copilot を開始してください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。 GPT-5.4 の投稿が GitHub で一般公開されました Copilot は、GitHub ブログに最初に掲載されました。",
+        "en": "GPT-5.4, OpenAI’s latest agentic coding model, is now rolling out in GitHub Copilot. In our early testing of real-world, agentic, and software development capabilities, GPT-5.4 consistently hits new rates of success. It also shows enhanced logical reasoning and task execution for intricate, multi-step, tool-dependent processes. https://github.blog/wp-content/uploads/2026/03/5.4-recording-with-end-card.mp4#t=0.001 Availability in GitHub Copilot GPT-5.4 will be available to Copilot Pro, Pro+, Business, and Enterprise users. You’ll be able to select the model in the model picker in: Visual Studio Code version v1.104.1 and later in all modes: chat, ask, edit, agent Visual Studio version 17.14.19 and later in all modes: agent, ask JetBrains versions 1.5.66 and later, in all modes: ask, edit, agent Xcode versions 0.48.0 and later in all modes: ask, agent Eclipse versions 0.15.1 and later in all modes: ask, agent github.com GitHub Mobile iOS and Android GitHub CLI GitHub Copilot Coding Agent While the model appears in all versions above, prompting and model parameters work best in the most recent versions of each product, so we highly encourage you to upgrade to the latest version. Enabling access Copilot Enterprise and Copilot Business plan administrators must enable the GPT-5.4 policy in Copilot settings. Learn more To explore all models available in GitHub Copilot, see our documentation on available models and get started with Copilot. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 is generally available in GitHub Copilot appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-gpt-5-4-is-generally-available-in-github-copilot",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
