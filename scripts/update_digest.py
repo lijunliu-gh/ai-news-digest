@@ -30,7 +30,9 @@ ARCHIVE_PATH = DATA_DIR / 'archive.json'
 TRANSLATION_CACHE_PATH = DATA_DIR / 'translation-cache.json'
 REPORT_PATH = ROOT / '.digest-report.json'
 WINDOW_MONTHS = 3
-REQUEST_TIMEOUT = 30
+REQUEST_TIMEOUT = 45
+TRANSLATION_MAX_CHARS = 4800
+SUMMARY_MAX_CHARS = 500
 USER_AGENT = 'ai-news-digest-bot/0.5'
 ATOM_NS = {'atom': 'http://www.w3.org/2005/Atom'}
 TRANSLATION_TARGETS = ('zh', 'ja')
@@ -533,6 +535,8 @@ class TranslationService:
                 client = GoogleTranslator(source='en', target=TRANSLATION_LANGUAGE_CODES.get(target, target))
                 self.clients[target] = client
             protected, replacements = self._protect(normalized)
+            if len(protected) > TRANSLATION_MAX_CHARS:
+                protected = protected[:TRANSLATION_MAX_CHARS].rsplit(' ', 1)[0]
             raw_translated = normalize_whitespace(client.translate(protected))
             if not raw_translated or raw_translated == protected:
                 translated = normalized
@@ -605,10 +609,11 @@ def localize(
             }
         zh_value = value.get('zh')
         ja_value = value.get('ja')
+        en_changed = normalize_whitespace(english_value) != normalize_whitespace(english_text)
         return {
-            'zh': translator.translate(english_value, 'zh') if needs_retranslation(zh_value, english_value) else zh_value,
-            'ja': translator.translate(english_value, 'ja') if needs_retranslation(ja_value, english_value) else ja_value,
-            'en': english_value,
+            'zh': translator.translate(english_text, 'zh') if en_changed or needs_retranslation(zh_value, english_value) else zh_value,
+            'ja': translator.translate(english_text, 'ja') if en_changed or needs_retranslation(ja_value, english_value) else ja_value,
+            'en': english_text,
         }
     if isinstance(value, str) and value:
         if refresh_generated:
@@ -660,12 +665,18 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], tran
         used_ids.add(item_id)
         force_retranslate = entry.source == 'Google DeepMind News'
 
+        summary_en = entry.summary_en
+        if len(summary_en) > SUMMARY_MAX_CHARS:
+            summary_en = summary_en[:SUMMARY_MAX_CHARS].rsplit(' ', 1)[0].rstrip('.,;:') + '...'
+        if normalize_whitespace(summary_en.lower()) == normalize_whitespace(entry.title_en.lower()):
+            summary_en = entry.title_en
+
         items.append({
             'id': item_id,
             'date': entry.date,
             'category': entry.category,
             'title': localize(existing, 'title', entry.title_en, translator, refresh_generated=True, force_retranslate=force_retranslate),
-            'summary': localize(existing, 'summary', entry.summary_en, translator, refresh_generated=True, force_retranslate=force_retranslate),
+            'summary': localize(existing, 'summary', summary_en, translator, refresh_generated=True, force_retranslate=force_retranslate),
             'url': normalized_url,
             'tags': entry.tags,
             'source': entry.source,
@@ -1278,6 +1289,20 @@ def main() -> int:
         return 1
 
     save_translation_cache(translation_cache)
+
+    # Prune translation cache: keep only keys referenced by current digest or archive
+    referenced_texts: set[str] = set()
+    for item in fresh_digest + archive_items:
+        for field in ('title', 'summary'):
+            val = item.get(field)
+            if isinstance(val, dict):
+                en = normalize_whitespace(val.get('en', ''))
+                if en:
+                    referenced_texts.add(en)
+    pruned_cache = {k: v for k, v in translation_cache.items() if k in referenced_texts}
+    if len(pruned_cache) < len(translation_cache):
+        print(f'Pruned translation cache from {len(translation_cache)} to {len(pruned_cache)} entries.')
+        save_translation_cache(pruned_cache)
 
     write_json(DIGEST_PATH, {
         'lastUpdated': today.isoformat(),

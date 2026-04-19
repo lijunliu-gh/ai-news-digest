@@ -56,19 +56,24 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Install Python dependencies
         run: python -m pip install -r requirements.txt
 
       - name: Refresh digest data
+        id: refresh
         env:
           DIGEST_REPORT_PATH: .digest-report.json
-        run: python scripts/update_digest.py
+        run: python scripts/update_digest.py || python scripts/update_digest.py
 
       - name: Publish digest summary
         if: always()
@@ -136,10 +141,22 @@ jobs:
               handle.write('\n'.join(lines) + '\n')
           PY
 
+      - name: Upload digest report
+        if: always() && hashFiles('.digest-report.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-report
+          path: .digest-report.json
+          retention-days: 7
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
       - name: Commit changes
         run: |
           if git diff --quiet -- data/digest.json data/archive.json data/translation-cache.json; then
             echo "No digest changes detected."
+            echo '### No data changes' >> "$GITHUB_STEP_SUMMARY"
+            echo 'The refresh completed successfully but produced no file changes.' >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git config user.name "github-actions[bot]"

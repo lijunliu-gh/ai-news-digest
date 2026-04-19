@@ -6,6 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-04-19
+
+### Added
+- Failed workflow runs now upload `.digest-report.json` as a downloadable artifact for easier debugging
+- Refresh step automatically retries once on failure to tolerate transient upstream timeouts
+- "No data changes" message now appears in the GitHub Actions job summary when a successful run produces no file diff
+- Translation cache is pruned after each refresh to remove entries no longer referenced by digest or archive data
+
+### Changed
+- Opted into Node.js 24 for GitHub Actions runners via `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24` ahead of the June 2 enforcement deadline
+- Increased feed request timeout from 30 s to 45 s to reduce failures on slow upstream sources
+- Long summaries are now truncated to 500 characters before translation and storage
+- Translation text is capped at 4 800 characters before calling Google Translate to avoid the 5 000-character API limit
+- Existing translations are preserved when the English source text has not changed, reducing unnecessary diff churn
+- Summaries that duplicate the title verbatim are no longer stored as separate text
+- Added cache-busting version parameter to CSS and JS references in `index.html`
+
 ## [1.1.3] - 2026-04-16
 
 ### Fixed
