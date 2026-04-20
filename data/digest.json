@@ -25,6 +25,53 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-04-20-github-2026-04-20-changes-to-github-copilot-plans-for-individuals",
+      "date": "2026-04-20",
+      "category": "github",
+      "title": {
+        "zh": "个人 GitHub Copilot 计划的变更",
+        "ja": "個人向けの GitHub Copilot プランの変更",
+        "en": "Changes to GitHub Copilot plans for individuals"
+      },
+      "summary": {
+        "zh": "正如我们在最近的博客文章中所分享的，我们正在对个人 Copilot 计划进行以下更改，作为我们持续努力的一部分，以确保所有用户的服务可靠性和可持续的 Copilot 体验。暂停 Pro、Pro+ 和 Student 的新注册为了优先考虑现有付费客户的服务质量，我们将暂停 Student、Pro 和 Pro+ 计划的新注册。 Copilot 免费仍然对新注册开放，现有用户仍然可以在计划之间升级。更紧...",
+        "ja": "最近のブログ投稿で共有したように、すべてのユーザーにサービスの信頼性と持続可能な Copilot エクスペリエンスを確保するための継続的な取り組みの一環として、個人向けの Copilot プランに次の変更を加えます。 Pro、Pro+、Student の新規サインアップの一時停止 既存の有料顧客へのサービス品質を優先するため、Student、Pro、Pro+ プランの新規サインアップを一時停止します。 Copilot Free は引き続き新規サインアップを受け付けており、既存のユーザーは引き続きプラン間でアップグレードできます。もっときつく...",
+        "en": "As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable Copilot experience for all users. New signups paused for Pro, Pro+, and Student To prioritize service quality for existing paying customers, we will be pausing new signups for our Student, Pro, and Pro+ plans. Copilot Free remains open for new signups, and existing users can still upgrade between plans. Tighter..."
+      },
+      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-20-anthropic-overview",
+      "date": "2026-04-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德-3-俳句-20240307",
+        "ja": "クロード-3-俳句-20240307",
+        "en": "claude-3-haiku-20240307"
+      },
+      "summary": {
+        "zh": "我们已经淘汰了 Claude Haiku 3 模型 (claude-3-haiku-20240307)。对此模型的所有请求现在都将返回错误。我们建议升级到 Claude Haiku 4.5。",
+        "ja": "Claude Haiku 3 モデル (claude-3-haiku-20240307) を廃止しました。このモデルに対するすべてのリクエストはエラーを返すようになります。 Claude Haiku 4.5 にアップグレードすることをお勧めします。",
+        "en": "We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests to this model will now return an error. We recommend upgrading to Claude Haiku 4.5."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "tags": [
+        "claude-3-haiku-20240307",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-04-17-github-2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
       "date": "2026-04-17",
       "category": "github",
@@ -511,29 +558,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-14-anthropic-overview",
-      "date": "2026-04-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "克劳德十四行诗-4-20250514",
-        "ja": "クロード・ソネット-4-20250514",
-        "en": "claude-sonnet-4-20250514"
-      },
-      "summary": {
-        "zh": "我们宣布弃用 Claude Sonnet 4 模型 ( claude-sonnet-4-20250514 ) 和 Claude Opus 4 模型 ( claude-opus-4-20250514 )，并计划于 2026 年 6 月 15 日停用 Claude API。我们建议迁移到 Claude Sonnet 4.6 和Claude Opus 分别为 4.7。阅读模型弃用的更多内容。",
-        "ja": "Claude Sonnet 4 モデル ( claude-sonnet-4-20250514 ) と Claude Opus 4 モデル ( claude-opus-4-20250514 ) の非推奨を発表し、 Claude API は 2026 年 6 月 15 日に廃止される予定です。 Claude Sonnet 4.6 に移行することをお勧めします。それぞれ Claude Opus 4.7。詳細については、モデルの非推奨を参照してください。",
-        "en": "We announced the deprecation of the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively. Read more in model deprecations."
-      },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
-      "tags": [
-        "claude-sonnet-4-20250514",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-14-anthropic-narasimhan-board",
@@ -1566,30 +1590,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-04-02-github-2026-04-02-github-copilot-in-visual-studio-march-update",
-      "date": "2026-04-02",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio 中的 GitHub Copilot — 三月更新",
-        "ja": "Visual Studio の GitHub Copilot — 3 月の更新",
-        "en": "GitHub Copilot in Visual Studio — March update"
-      },
-      "summary": {
-        "zh": "2026 年 3 月，Visual Studio 中的 GitHub Copilot 可扩展性向前迈出了一大步，提供了自定义代理、代理技能以及使代理更智能、更强大的新工具。亮点 以下是 Visual Studio 2026 3 月更新中 GitHub Copilot 的新增功能： 构建您自己的自定义代理：在存储库中将专门的 Copilot 代理定义为.agent.md 文件。自定义代理可以完全访问工作区意识、代码理解、工具、您的首选模型和 MCP...",
-        "ja": "2026 年 3 月には、カスタム エージェント、エージェント スキル、エージェントをより賢く、より有能にする新しいツールにより、Visual Studio の GitHub Copilot 拡張性が大きく前進しました。ハイライト Visual Studio 2026 の 3 月更新プログラムの GitHub Copilot の新機能は次のとおりです。 独自のカスタム エージェントを構築する: 特殊な Copilot エージェントをリポジトリ内の.agent.md ファイルとして定義します。カスタム エージェントは、ワークスペースの認識、コードの理解、ツール、好みのモデル、MCP に完全にアクセスできます。",
-        "en": "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable. Highlights Here’s what’s new with GitHub Copilot in the March update of Visual Studio 2026: Build your own custom agents: Define specialized Copilot agents as.agent.md files in your repository. Custom agents get full access to workspace awareness, code understanding, tools, your preferred model, and MCP..."
-      },
-      "url": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-02-github-2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
       "date": "2026-04-02",
       "category": "github",
@@ -2115,30 +2115,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-26-github-2026-03-26-agent-activity-in-github-issues-and-projects",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 问题和项目中的代理活动",
-        "ja": "GitHub の問題とプロジェクトにおけるエージェントのアクティビティ",
-        "en": "Agent activity in GitHub Issues and Projects"
-      },
-      "summary": {
-        "zh": "今天，我们推出了两项新功能，可将座席活动直接带入您的规划工作流程中。 GitHub 问题中受让人下的代理会话 当编码代理（例如 Copilot、Claude 或 Codex）被分配给某个问题时，其会话现在直接显示在侧栏中的受让人下方。每个会话都会显示实时状态：“已排队”、“正在工作”、“等待审核”或“已完成”。单击任意会话可直接跳至会话日志。现在，这通常适用于所有人...",
-        "ja": "本日、エージェントのアクティビティを計画ワークフローに直接組み込む 2 つの新機能をリリースします。 GitHub 問題の担当者の下にあるエージェント セッション コーディング エージェント (Copilot、Claude、Codex など) が問題に割り当てられると、そのセッションがサイドバーの担当者の直下に表示されるようになりました。各セッションには、「キューに入っている」、「作業中」、「レビュー待ち」、「完了」などのライブ ステータスが表示されます。任意のセッションをクリックすると、セッション ログに直接ジャンプします。これは現在、すべてのユーザーに一般提供されています...",
-        "en": "Today, we’re shipping two new features that bring agent activity directly into your planning workflows. Agent sessions under assignees in GitHub Issues When a coding agent (e.g., Copilot, Claude, or Codex) is assigned to an issue, its session now appears directly under the assignee in the sidebar. Each session shows a live status: “queued”, “working”, “waiting for review”, or “completed”. Click any session to jump straight into the session logs. This is now generally available for all..."
-      },
-      "url": "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
-      "tags": [
-        "release",
-        "projects-issues",
         "github",
         "changelog"
       ],
@@ -3547,54 +3523,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-03-06-github-2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
-      "date": "2026-03-06",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio Code 中的 GitHub Copilot v1.110 – 2 月版本",
-        "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース",
-        "en": "GitHub Copilot in Visual Studio Code v1.110 – February release"
-      },
-      "summary": {
-        "zh": "Visual Studio Code 2026 年 2 月版使代理适用于运行时间较长且更复杂的任务。这使您可以更好地控制它们的运行方式、扩展它们功能的新方法以及保持上下文完整的更智能的会话管理。使用挂钩对代理进行自动化编程：在关键代理生命周期事件中运行代码，以在命令执行之前强制执行策略、自动检查或阻止命令。分叉对话：从任何检查点分支以探索替代路径，而无需......",
-        "ja": "Visual Studio Code 2026 年 2 月リリースでは、エージェントは実行時間が長く、より複雑なタスクに実用的になります。これにより、セッションの実行方法をより詳細に制御できるようになり、実行できることを拡張する新しい方法が提供され、コンテキストをそのまま維持するよりスマートなセッション管理が可能になります。エージェントをプログラムする フックを使用して自動化する: 主要なエージェントのライフサイクル イベントでコードを実行し、ポリシーを適用したり、自動 lint を実行したり、実行前にコマンドをブロックしたりできます。会話をフォークする: チェックポイントから分岐して、別のパスを探索します...",
-        "en": "The Visual Studio Code February 2026 release makes agents practical for longer-running and more complex tasks. This gives you more control over how they run, new ways to extend what they can do, and smarter session management that keeps context intact. Program your agents Automate with hooks: Run your code at key agent lifecycle events to enforce policies, auto-lint, or block commands before they execute. Fork a conversation: Branch from any checkpoint to explore an alternative path without..."
-      },
-      "url": "https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-06-github-2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
-      "date": "2026-03-06",
-      "category": "github",
-      "title": {
-        "zh": "Figma MCP 服务器现在可以从 VS Code 生成设计层",
-        "ja": "Figma MCP サーバーは VS Code からデザイン レイヤーを生成できるようになりました",
-        "en": "Figma MCP server can now generate design layers from VS Code"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 用户现在可以连接到 Figma MCP 服务器，将设计上下文拉入代码并将渲染的 UI 作为可编辑框架发送到 Figma。这些功能共同支持互联工作流程：根据设计生成代码、将 UI 发送回 Figma 进行迭代，以及将更新拉回到代码库中。此功能现已在 VS Code 中提供，并且很快将在 Copilot CLI 中提供。它是如何工作的 Figma MCP 服务器和 GitHub Copilot 入门很简单：安装 Figma...",
-        "ja": "GitHub Copilot ユーザーは、Figma MCP サーバーに接続して、デザイン コンテキストをコードに取り込み、レンダリングされた UI を編集可能なフレームとして Figma に送信できるようになりました。これらの機能を組み合わせることで、接続されたワークフローがサポートされます。つまり、デザインからコードを生成し、反復のために UI を Figma に送り返し、更新をコードベースに取り込みます。この機能は現在 VS Code で利用可能であり、近日中に Copilot CLI にも追加される予定です。仕組み Figma MCP サーバーと GitHub Copilot の使用を開始するのは簡単です。Figma をインストールします...",
-        "en": "GitHub Copilot users can now connect to the Figma MCP server to both pull design context into code and send rendered UI to Figma as editable frames. Together, these capabilities support a connected workflow: generate code from a design, send your UI back to Figma for iteration, and pull updates back into your codebase. This feature is available today in VS Code and coming soon to Copilot CLI. How it works Getting started with the Figma MCP server and GitHub Copilot is simple: Install the Figma..."
-      },
-      "url": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-03-06-anthropic-mozilla-firefox-security",
@@ -5223,30 +5151,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-02-19-github-2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
-      "date": "2026-02-19",
-      "category": "github",
-      "title": {
-        "zh": "选定的 Anthropic 和 OpenAI 模型现已弃用",
-        "ja": "選択された Anthropic モデルと OpenAI モデルは非推奨になりました",
-        "en": "Selected Anthropic and OpenAI models are now deprecated"
-      },
-      "summary": {
-        "zh": "我们已于 2026 年 2 月 17 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型： 模型弃用日期 建议替代方案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过他们的...启用对替代模型的访问",
-        "ja": "2026 年 2 月 17 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot 企業管理者は、場合によっては、自分の...",
-        "en": "We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on February 17, 2026: Model Deprecation Date Suggested Alternative Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their..."
-      },
-      "url": "https://github.blog/changelog/2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-02-19-github-2026-02-19-pull-request-throughput-and-time-to-merge-available-in-copilot-usage-metrics-api",
@@ -7540,56 +7444,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-01-21-github-2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
-      "date": "2026-01-21",
-      "category": "github",
-      "title": {
-        "zh": "直接从 GitHub CLI 安装和使用 GitHub Copilot CLI",
-        "ja": "GitHub CLI から直接 GitHub Copilot CLI をインストールして使用する",
-        "en": "Install and Use GitHub Copilot CLI directly from the GitHub CLI"
-      },
-      "summary": {
-        "zh": "GitHub CLI 用户现在可以运行 gh copilot 来安装和运行 GitHub Copilot CLI。由于我们在 CLI 扩展中弃用了 GitHub Copilot，转而使用新的代理 GitHub Copilot CLI，因此我们希望为使用 gh 的开发人员提供一种简单的方法来开始使用我们最强大的终端助手。第一次运行时 gh copilot 将提示安装 Copilot CLI gh copilot 将执行 Copilot CLI，转发 gh 命令不支持的任何参数和标志。更多详情...",
-        "ja": "GitHub CLI ユーザーは、gh copilot を実行して、GitHub Copilot CLI をインストールして実行できるようになりました。新しいエージェント GitHub Copilot CLI を優先して CLI 拡張機能の GitHub Copilot を非推奨にしたため、gh を使用する開発者が最も強力なターミナル アシスタントを使い始めるための簡単な方法を提供したいと考えています。 gh copilot は、初めて実行するときに Copilot CLI のインストールを求めるプロンプトを表示します。 gh copilot は Copilot CLI を実行し、gh コマンドがサポートしていない引数とフラグを転送します。さらに詳細...",
-        "en": "GitHub CLI users can now run gh copilot to install and run the GitHub Copilot CLI. Since we deprecated the GitHub Copilot in the CLI extension in favor of the new agentic GitHub Copilot CLI, we want to give developers using gh a simple way to get started using our most powerful terminal assistant. gh copilot will prompt to install Copilot CLI when run for the first time gh copilot will execute the Copilot CLI, forwarding any args and flags that the gh command does not support. Further details..."
-      },
-      "url": "https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-21-github-2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go",
-      "date": "2026-01-21",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot CLI：构建前规划，边走边引导",
-        "ja": "GitHub Copilot CLI: 構築する前に計画し、進みながら操縦する",
-        "en": "GitHub Copilot CLI: Plan before you build, steer as you go"
-      },
-      "summary": {
-        "zh": "GitHub Copilot CLI 继续突破终端中代理 AI 协助的界限。本周带来了强大的新推理模型、可让您实时引导对话的智能工作流程功能，以及与 GitHub CLI 的更紧密集成。这是新内容。计划模式 您最需要的功能之一在这里：计划模式在 Copilot 开始实施之前为您提供协作计划体验。按 Shift + Tab 可循环进出计划模式。在计划模式下...",
-        "ja": "GitHub Copilot CLI は、端末におけるエージェント AI 支援の限界を押し広げ続けます。今週は、強力な新しい推論モデル、リアルタイムで会話を制御できるインテリジェントなワークフロー機能、GitHub CLI とのより緊密な統合が提供されます。ここに新機能があります。プラン モード 最もリクエストの多かった機能の 1 つがここにあります。プラン モードでは、Copilot の実装を開始する前に、共同で計画を立てることができます。 Shift + Tab を押して、プラン モードのオンとオフを切り替えます。プランモードでは…",
-        "en": "GitHub Copilot CLI continues to push the boundaries of agentic AI assistance in your terminal. This week brings powerful new reasoning models, intelligent workflow features that let you steer conversations in real-time, and tighter integration with the GitHub CLI. Here’s what’s new. Plan mode One of your most requested features is here: plan mode gives you a collaborative planning experience before Copilot starts implementing. Press Shift + Tab to cycle in and out of plan mode. In plan mode..."
-      },
-      "url": "https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-01-21-anthropic-mariano-florentino-long-term-benefit-trust",
