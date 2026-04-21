@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-21",
   "windowMonths": 3,
   "items": [
     {
@@ -70,6 +70,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-20-anthropic-anthropic-amazon-compute",
+      "date": "2026-04-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 和 Amazon 扩大合作以实现高达 5 吉瓦的新计算",
+        "ja": "Anthropic と Amazon がコラボレーションを拡大し、最大 5 ギガワットの新しいコンピューティングを実現",
+        "en": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-17-github-2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
@@ -479,30 +500,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-14-github-2026-04-14-link-code-scanning-alerts-to-github-issues",
-      "date": "2026-04-14",
-      "category": "github",
-      "title": {
-        "zh": "将代码扫描警报链接到 GitHub 问题",
-        "ja": "コード スキャン アラートを GitHub 問題にリンクする",
-        "en": "Link code scanning alerts to GitHub Issues"
-      },
-      "summary": {
-        "zh": "您现在可以将代码扫描警报链接到 GitHub 问题，将安全补救措施纳入您现有的规划和跟踪工作流程中。此功能处于公共预览版。通过此更新，您可以： 将警报链接到问题：使用新的“跟踪”部分从警报页面将代码扫描警报连接到 GitHub 问题，或者使用“关系”面板中的新“安全警报”部分从问题页面连接到 GitHub 问题。一目了然地查看跟踪状态：存储库和组织警报上的图标...",
-        "ja": "コード スキャン アラートを GitHub 問題にリンクできるようになり、既存の計画および追跡ワークフローにセキュリティ修復を組み込むことができます。この機能はパブリック プレビュー段階にあります。この更新により、次のことが可能になります。 アラートを問題にリンクする: 新しい [追跡] セクションを使用してアラート ページから、または [関係] パネルの新しい [セキュリティ アラート] セクションを使用して問題ページから、コード スキャン アラートを GitHub 問題に接続します。追跡ステータスを一目で確認: リポジトリと組織のアラート上のアイコン...",
-        "en": "You can now link code scanning alerts to GitHub Issues, bringing security remediation into your existing planning and tracking workflows. This functionality is in public preview. With this update, you can: Link alerts to issues: Connect code scanning alerts to GitHub Issues from the alert page using the new “Tracking” section or from the issue page using the new “Security alerts” section in the “Relationships” panel. See tracking status at a glance: Icons on repository and organization alert..."
-      },
-      "url": "https://github.blog/changelog/2026-04-14-link-code-scanning-alerts-to-github-issues",
-      "tags": [
-        "release",
-        "application-security",
         "github",
         "changelog"
       ],
@@ -1590,6 +1587,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-04-02-github-2026-04-02-github-copilot-in-visual-studio-march-update",
+      "date": "2026-04-02",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 三月更新",
+        "ja": "Visual Studio の GitHub Copilot — 3 月の更新",
+        "en": "GitHub Copilot in Visual Studio — March update"
+      },
+      "summary": {
+        "zh": "2026 年 3 月，Visual Studio 中的 GitHub Copilot 可扩展性向前迈出了一大步，提供了自定义代理、代理技能以及使代理更智能、更强大的新工具。亮点 以下是 Visual Studio 2026 3 月更新中 GitHub Copilot 的新增功能： 构建您自己的自定义代理：在存储库中将专门的 Copilot 代理定义为.agent.md 文件。自定义代理可以完全访问工作区意识、代码理解、工具、您的首选模型和 MCP...",
+        "ja": "2026 年 3 月には、カスタム エージェント、エージェント スキル、エージェントをより賢く、より有能にする新しいツールにより、Visual Studio の GitHub Copilot 拡張性が大きく前進しました。ハイライト Visual Studio 2026 の 3 月更新プログラムの GitHub Copilot の新機能は次のとおりです。 独自のカスタム エージェントを構築する: 特殊な Copilot エージェントをリポジトリ内の.agent.md ファイルとして定義します。カスタム エージェントは、ワークスペースの認識、コードの理解、ツール、好みのモデル、MCP に完全にアクセスできます。",
+        "en": "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable. Highlights Here’s what’s new with GitHub Copilot in the March update of Visual Studio 2026: Build your own custom agents: Define specialized Copilot agents as.agent.md files in your repository. Custom agents get full access to workspace awareness, code understanding, tools, your preferred model, and MCP..."
+      },
+      "url": "https://github.blog/changelog/2026-04-02-github-copilot-in-visual-studio-march-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-02-github-2026-04-02-copilot-usage-metrics-now-includes-per-user-github-copilot-cli-activity-in-organization-reports",
       "date": "2026-04-02",
       "category": "github",
@@ -2115,6 +2136,30 @@
       "tags": [
         "improvement",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-26-github-2026-03-26-agent-activity-in-github-issues-and-projects",
+      "date": "2026-03-26",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 问题和项目中的代理活动",
+        "ja": "GitHub 問題とプロジェクトのエージェント アクティビティ",
+        "en": "Agent activity in GitHub Issues and Projects"
+      },
+      "summary": {
+        "zh": "今天，我们推出了两项新功能，可将座席活动直接带入您的规划工作流程中。 GitHub 问题中受让人下的代理会话 当编码代理（例如 Copilot、Claude 或 Codex）被分配给某个问题时，其会话现在直接显示在侧栏中的受让人下方。每个会话都会显示实时状态：“已排队”、“正在工作”、“等待审核”或“已完成”。单击任意会话可直接跳至会话日志。现在，这通常适用于所有人...",
+        "ja": "本日、エージェントのアクティビティを計画ワークフローに直接組み込む 2 つの新機能をリリースします。 GitHub 問題の担当者の下にあるエージェント セッション コーディング エージェント (Copilot、Claude、Codex など) が問題に割り当てられると、そのセッションがサイドバーの担当者の直下に表示されるようになりました。各セッションには、「キューに入っている」、「作業中」、「レビュー待ち」、「完了」などのライブ ステータスが表示されます。任意のセッションをクリックすると、セッション ログに直接ジャンプします。これは現在、すべてのユーザーに一般提供されています...",
+        "en": "Today, we’re shipping two new features that bring agent activity directly into your planning workflows. Agent sessions under assignees in GitHub Issues When a coding agent (e.g., Copilot, Claude, or Codex) is assigned to an issue, its session now appears directly under the assignee in the sidebar. Each session shows a live status: “queued”, “working”, “waiting for review”, or “completed”. Click any session to jump straight into the session logs. This is now generally available for all..."
+      },
+      "url": "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
+      "tags": [
+        "release",
+        "projects-issues",
         "github",
         "changelog"
       ],
@@ -3525,6 +3570,54 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-06-github-2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
+      "date": "2026-03-06",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
+        "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code v1.110 – February release"
+      },
+      "summary": {
+        "zh": "Visual Studio Code 2026 年 2 月版使代理适用于运行时间较长且更复杂的任务。这使您可以更好地控制它们的运行方式、扩展它们功能的新方法以及保持上下文完整的更智能的会话管理。使用挂钩对代理进行自动化编程：在关键代理生命周期事件中运行代码，以在命令执行之前强制执行策略、自动检查或阻止命令。分叉对话：从任何检查点分支以探索替代路径，而无需......",
+        "ja": "Visual Studio Code 2026 年 2 月リリースでは、エージェントは実行時間が長く、より複雑なタスクに実用的になります。これにより、セッションの実行方法をより詳細に制御できるようになり、実行できることを拡張する新しい方法が提供され、コンテキストをそのまま維持するよりスマートなセッション管理が可能になります。エージェントをプログラムする フックを使用して自動化する: 主要なエージェントのライフサイクル イベントでコードを実行し、ポリシーを適用したり、自動 lint を実行したり、実行前にコマンドをブロックしたりできます。会話をフォークする: チェックポイントから分岐して、別のパスを探索します...",
+        "en": "The Visual Studio Code February 2026 release makes agents practical for longer-running and more complex tasks. This gives you more control over how they run, new ways to extend what they can do, and smarter session management that keeps context intact. Program your agents Automate with hooks: Run your code at key agent lifecycle events to enforce policies, auto-lint, or block commands before they execute. Fork a conversation: Branch from any checkpoint to explore an alternative path without..."
+      },
+      "url": "https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-06-github-2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
+      "date": "2026-03-06",
+      "category": "github",
+      "title": {
+        "zh": "Figma MCP 服务器现在可以从 VS Code 生成设计层",
+        "ja": "Figma MCP サーバーは VS Code からデザイン レイヤーを生成できるようになりました",
+        "en": "Figma MCP server can now generate design layers from VS Code"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 用户现在可以连接到 Figma MCP 服务器，将设计上下文拉入代码并将渲染的 UI 作为可编辑框架发送到 Figma。这些功能共同支持互联工作流程：根据设计生成代码、将 UI 发送回 Figma 进行迭代，以及将更新拉回到代码库中。此功能现已在 VS Code 中提供，并且很快将在 Copilot CLI 中提供。它是如何工作的 Figma MCP 服务器和 GitHub Copilot 入门很简单：安装 Figma...",
+        "ja": "GitHub Copilot ユーザーは、Figma MCP サーバーに接続して、デザイン コンテキストをコードに取り込み、レンダリングされた UI を編集可能なフレームとして Figma に送信できるようになりました。これらの機能を組み合わせることで、接続されたワークフローがサポートされます。つまり、デザインからコードを生成し、反復のために UI を Figma に送り返し、更新をコードベースに取り込みます。この機能は現在 VS Code で利用可能であり、近日中に Copilot CLI にも追加される予定です。仕組み Figma MCP サーバーと GitHub Copilot の使用を開始するのは簡単です。Figma をインストールします...",
+        "en": "GitHub Copilot users can now connect to the Figma MCP server to both pull design context into code and send rendered UI to Figma as editable frames. Together, these capabilities support a connected workflow: generate code from a design, send your UI back to Figma for iteration, and pull updates back into your codebase. This feature is available today in VS Code and coming soon to Copilot CLI. How it works Getting started with the Figma MCP server and GitHub Copilot is simple: Install the Figma..."
+      },
+      "url": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-06-anthropic-mozilla-firefox-security",
       "date": "2026-03-06",
       "category": "anthropic",
@@ -3772,32 +3865,6 @@
       "url": "https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
       "tags": [
         "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-05-github-2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
-      "date": "2026-03-05",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 使用指标现在包括用户级 GitHub Copilot CLI 活动",
-        "ja": "Copilot の使用状況メトリクスに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました",
-        "en": "Copilot usage metrics now includes user-level GitHub Copilot CLI activity"
-      },
-      "summary": {
-        "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
-        "ja": "先週リリースされたエンタープライズ レベルの CLI テレメトリのフォローアップとして、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します...",
-        "en": "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout..."
-      },
-      "url": "https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
-      "tags": [
-        "release",
-        "account-management",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -5153,6 +5220,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-02-19-github-2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
+      "date": "2026-02-19",
+      "category": "github",
+      "title": {
+        "zh": "选定的 Anthropic 和 OpenAI 型号现已弃用",
+        "ja": "選択された Anthropic および OpenAI モデルは非推奨になりました",
+        "en": "Selected Anthropic and OpenAI models are now deprecated"
+      },
+      "summary": {
+        "zh": "我们已于 2026 年 2 月 17 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型： 模型弃用日期 建议替代方案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过他们的...启用对替代模型的访问",
+        "ja": "2026 年 2 月 17 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot 企業管理者は、場合によっては、自分の...",
+        "en": "We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on February 17, 2026: Model Deprecation Date Suggested Alternative Claude Opus 4.1 2026-02-17 Claude Opus 4.6 GPT-5 2026-02-17 GPT-5.2 GPT-5-Codex 2026-02-17 GPT-5.2-Codex Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their..."
+      },
+      "url": "https://github.blog/changelog/2026-02-19-selected-anthropic-and-openai-models-are-now-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-19-github-2026-02-19-pull-request-throughput-and-time-to-merge-available-in-copilot-usage-metrics-api",
       "date": "2026-02-19",
       "category": "github",
@@ -6291,30 +6382,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-07-github-2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy",
-      "date": "2026-02-07",
-      "category": "github",
-      "title": {
-        "zh": "CodeQL 2.24.1 改进了 Maven 私有注册表支持并提高了查询准确性",
-        "ja": "CodeQL 2.24.1 は Maven プライベート レジストリのサポートを改善し、クエリの精度を向上させます。",
-        "en": "CodeQL 2.24.1 improves Maven private registry support and improves query accuracy"
-      },
-      "summary": {
-        "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.24.1，改进了对 Maven 私有包注册表的支持、对最新版本 Kotlin 的支持，以及提高代码扫描结果准确性的各种其他改进。语言和框架支持 Java/Kotlin 现在支持 Kotlin 版本高达 2.3.0 的分析。我们添加了对 Struts 7.x 包名称的支持...",
-        "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近 CodeQL 2.24.1 をリリースしました。これにより、Maven プライベート パッケージ レジストリのサポート、Kotlin の最新バージョンのサポート、およびコード スキャン結果の精度を高めるその他のさまざまな改善が行われました。言語とフレームワークのサポート Java/Kotlin Kotlin バージョン 2.3.0 までが分析用にサポートされるようになりました。 Struts 7.x パッケージ名のサポートを追加しました...",
-        "en": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.24.1, improving support for Maven private package registries, support for the latest version of Kotlin, and various other improvements that enhance the accuracy of your code scanning results. Language and framework support Java/Kotlin Kotlin versions up to 2.3.0 are now supported for analysis. We’ve added support for Struts 7.x package names..."
-      },
-      "url": "https://github.blog/changelog/2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-02-07-anthropic-fast-mode",
       "date": "2026-02-07",
       "category": "anthropic",
@@ -7446,25 +7513,29 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-01-21-anthropic-mariano-florentino-long-term-benefit-trust",
+      "id": "2026-01-21-github-2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
       "date": "2026-01-21",
-      "category": "anthropic",
+      "category": "github",
       "title": {
-        "zh": "Mariano-Florentino Cuéllar 被任命为 Anthropic 长期利益信托基金成员",
-        "ja": "マリアノ＝フロレンティーノ・クエヤル氏がアンスロピックの長期給付信託に任命",
-        "en": "Mariano-Florentino Cuéllar appointed to Anthropic’s Long-Term Benefit Trust"
+        "zh": "直接从 GitHub CLI 安装和使用 GitHub Copilot CLI",
+        "ja": "GitHub CLI から直接 GitHub Copilot CLI をインストールして使用する",
+        "en": "Install and Use GitHub Copilot CLI directly from the GitHub CLI"
       },
       "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+        "zh": "GitHub CLI 用户现在可以运行 gh copilot 来安装和运行 GitHub Copilot CLI。由于我们在 CLI 扩展中弃用了 GitHub Copilot，转而使用新的代理 GitHub Copilot CLI，因此我们希望为使用 gh 的开发人员提供一种简单的方法来开始使用我们最强大的终端助手。第一次运行时 gh copilot 将提示安装 Copilot CLI gh copilot 将执行 Copilot CLI，转发 gh 命令不支持的任何参数和标志。更多详情...",
+        "ja": "GitHub CLI ユーザーは、gh copilot を実行して、GitHub Copilot CLI をインストールして実行できるようになりました。新しいエージェント GitHub Copilot CLI を優先して CLI 拡張機能の GitHub Copilot を非推奨にしたため、gh を使用する開発者が最も強力なターミナル アシスタントを使い始めるための簡単な方法を提供したいと考えています。 gh copilot は、初めて実行するときに Copilot CLI のインストールを求めるプロンプトを表示します。 gh copilot は Copilot CLI を実行し、gh コマンドがサポートしていない引数とフラグを転送します。さらに詳細...",
+        "en": "GitHub CLI users can now run gh copilot to install and run the GitHub Copilot CLI. Since we deprecated the GitHub Copilot in the CLI extension in favor of the new agentic GitHub Copilot CLI, we want to give developers using gh a simple way to get started using our most powerful terminal assistant. gh copilot will prompt to install Copilot CLI when run for the first time gh copilot will execute the Copilot CLI, forwarding any args and flags that the gh command does not support. Further details..."
       },
-      "url": "https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust",
+      "url": "https://github.blog/changelog/2026-01-21-install-and-use-github-copilot-cli-directly-from-the-github-cli",
       "tags": [
-        "anthropic"
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
       ],
-      "source": "Anthropic News",
-      "sourceType": "news"
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-01-21-anthropic-anthropic-teach-for-all",
@@ -7485,93 +7556,6 @@
         "anthropic"
       ],
       "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-20-openai-stargate-community",
-      "date": "2026-01-20",
-      "category": "openai",
-      "title": {
-        "zh": "星际之门社区",
-        "ja": "スターゲイト コミュニティ",
-        "en": "Stargate Community"
-      },
-      "summary": {
-        "zh": "Stargate 社区计划详细介绍了人工智能基础设施的社区优先方法，使用根据社区投入、能源需求和劳动力优先事项制定的本地定制计划。",
-        "ja": "Stargate Community 計画では、コミュニティからの意見、エネルギー需要、労働力の優先順位に基づいて形成された地域に合わせた計画を使用して、AI インフラストラクチャに対するコミュニティファーストのアプローチを詳しく説明します。",
-        "en": "Stargate Community plans detail a community-first approach to AI infrastructure, using locally tailored plans shaped by community input, energy needs, and workforce priorities."
-      },
-      "url": "https://openai.com/index/stargate-community",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-20-openai-servicenow-powers-actionable-enterprise-ai-with-openai",
-      "date": "2026-01-20",
-      "category": "openai",
-      "title": {
-        "zh": "ServiceNow 通过 OpenAI 为可操作的企业 AI 提供支持",
-        "ja": "ServiceNow は OpenAI を使用して実用的なエンタープライズ AI を強化します",
-        "en": "ServiceNow powers actionable enterprise AI with OpenAI"
-      },
-      "summary": {
-        "zh": "ServiceNow 扩展了对 OpenAI 前沿模型的访问，以在 ServiceNow 平台上为 AI 驱动的企业工作流程、摘要、搜索和语音提供支持。",
-        "ja": "ServiceNow は、OpenAI フロンティア モデルへのアクセスを拡張し、ServiceNow プラットフォーム全体で AI 主導のエンタープライズ ワークフロー、要約、検索、音声を強化します。",
-        "en": "ServiceNow expands access to OpenAI frontier models to power AI-driven enterprise workflows, summarization, search, and voice across the ServiceNow Platform."
-      },
-      "url": "https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai",
-      "tags": [
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-20-openai-our-approach-to-age-prediction",
-      "date": "2026-01-20",
-      "category": "openai",
-      "title": {
-        "zh": "我们的年龄预测方法",
-        "ja": "年齢予測に対する当社のアプローチ",
-        "en": "Our approach to age prediction"
-      },
-      "summary": {
-        "zh": "ChatGPT 正在推出年龄预测来估计帐户是否低于或超过 18 岁，为青少年提供保护措施并随着时间的推移提高准确性。",
-        "ja": "ChatGPT は、アカウントが 18 歳未満か 18 歳以上かを推定する年齢予測を展開​​し、10 代の若者に保護措置を適用し、時間の経過とともに精度を向上させています。",
-        "en": "ChatGPT is rolling out age prediction to estimate if accounts are under or over 18, applying safeguards for teens and refining accuracy over time."
-      },
-      "url": "https://openai.com/index/our-approach-to-age-prediction",
-      "tags": [
-        "safety",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-20-openai-horizon-1000",
-      "date": "2026-01-20",
-      "category": "openai",
-      "title": {
-        "zh": "Horizo​​n 1000：推进初级医疗保健的人工智能",
-        "ja": "Horizo​​n 1000: プライマリヘルスケアのための AI の進歩",
-        "en": "Horizon 1000: Advancing AI for primary healthcare"
-      },
-      "summary": {
-        "zh": "OpenAI 和盖茨基金会推出了 Horizo​​n 1000，这是一项耗资 5000 万美元的试点项目，旨在推进非洲医疗保健领域的人工智能功能。该计划的目标是到 2028 年覆盖 1,000 家诊所。",
-        "ja": "OpenAI とゲイツ財団は、アフリカの医療向け AI 機能を推進する 5,000 万ドルのパイロット事業である Horizo​​n 1000 を立ち上げました。この取り組みでは、2028 年までに 1,000 の診療所を設立することを目指しています。",
-        "en": "OpenAI and the Gates Foundation launch Horizon 1000, a $50M pilot advancing AI capabilities for healthcare in Africa. The initiative aims to reach 1,000 clinics by 2028."
-      },
-      "url": "https://openai.com/index/horizon-1000",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
       "sourceType": "news"
     }
   ]
