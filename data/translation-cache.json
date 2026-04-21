@@ -2704,5 +2704,37 @@
   "GitHub CLI users can now run gh copilot to install and run the GitHub Copilot CLI. Since we deprecated the GitHub Copilot in the CLI extension in favor of the new agentic GitHub Copilot CLI, we want to give developers using gh a simple way to get started using our most powerful terminal assistant. gh copilot will prompt to install Copilot CLI when run for the first time gh copilot will execute the Copilot CLI, forwarding any args and flags that the gh command does not support. Further details...": {
     "zh": "GitHub CLI 用户现在可以运行 gh copilot 来安装和运行 GitHub Copilot CLI。由于我们在 CLI 扩展中弃用了 GitHub Copilot，转而使用新的代理 GitHub Copilot CLI，因此我们希望为使用 gh 的开发人员提供一种简单的方法来开始使用我们最强大的终端助手。第一次运行时 gh copilot 将提示安装 Copilot CLI gh copilot 将执行 Copilot CLI，转发 gh 命令不支持的任何参数和标志。更多详情...",
     "ja": "GitHub CLI ユーザーは、gh copilot を実行して、GitHub Copilot CLI をインストールして実行できるようになりました。新しいエージェント GitHub Copilot CLI を優先して CLI 拡張機能の GitHub Copilot を非推奨にしたため、gh を使用する開発者が最も強力なターミナル アシスタントを使い始めるための簡単な方法を提供したいと考えています。 gh copilot は、初めて実行するときに Copilot CLI のインストールを求めるプロンプトを表示します。 gh copilot は Copilot CLI を実行し、gh コマンドがサポートしていない引数とフラグを転送します。さらに詳細..."
+  },
+  "Link code scanning alerts to GitHub Issues": {
+    "zh": "将代码扫描警报链接到 GitHub 问题",
+    "ja": "コード スキャン アラートを GitHub 問題にリンクする"
+  },
+  "You can now link code scanning alerts to GitHub Issues, bringing security remediation into your existing planning and tracking workflows. This functionality is in public preview. With this update, you can: Link alerts to issues: Connect code scanning alerts to GitHub Issues from the alert page using the new “Tracking” section or from the issue page using the new “Security alerts” section in the “Relationships” panel. See tracking status at a glance: Icons on repository and organization alert...": {
+    "zh": "您现在可以将代码扫描警报链接到 GitHub 问题，将安全补救措施纳入您现有的规划和跟踪工作流程中。此功能处于公共预览版。通过此更新，您可以： 将警报链接到问题：使用新的“跟踪”部分从警报页面将代码扫描警报连接到 GitHub 问题，或者使用“关系”面板中的新“安全警报”部分从问题页面连接到 GitHub 问题。一目了然地查看跟踪状态：存储库和组织警报上的图标...",
+    "ja": "コード スキャン アラートを GitHub 問題にリンクできるようになり、既存の計画および追跡ワークフローにセキュリティ修復を組み込むことができます。この機能はパブリック プレビュー段階にあります。この更新により、次のことが可能になります。 アラートを問題にリンクする: 新しい [追跡] セクションを使用してアラート ページから、または [関係] パネルの新しい [セキュリティ アラート] セクションを使用して問題ページから、コード スキャン アラートを GitHub 問題に接続します。追跡ステータスを一目で確認: リポジトリと組織のアラート上のアイコン..."
+  },
+  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
+    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
+    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました"
+  },
+  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
+    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
+    "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
+  },
+  "CodeQL 2.24.1 improves Maven private registry support and improves query accuracy": {
+    "zh": "CodeQL 2.24.1 改进了 Maven 私有注册表支持并提高了查询准确性",
+    "ja": "CodeQL 2.24.1 は Maven プライベート レジストリのサポートを改善し、クエリの精度を向上させます。"
+  },
+  "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.24.1, improving support for Maven private package registries, support for the latest version of Kotlin, and various other improvements that enhance the accuracy of your code scanning results. Language and framework support Java/Kotlin Kotlin versions up to 2.3.0 are now supported for analysis. We’ve added support for Struts 7.x package names...": {
+    "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.24.1，改进了对 Maven 私有包注册表的支持、对最新版本 Kotlin 的支持，以及提高代码扫描结果准确性的各种其他改进。语言和框架支持 Java/Kotlin 现在支持 Kotlin 版本高达 2.3.0 的分析。我们添加了对 Struts 7.x 包名称的支持...",
+    "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近 CodeQL 2.24.1 をリリースしました。これにより、Maven プライベート パッケージ レジストリのサポート、Kotlin の最新バージョンのサポート、およびコード スキャン結果の精度を高めるその他のさまざまな改善が行われました。言語とフレームワークのサポート Java/Kotlin Kotlin バージョン 2.3.0 までが分析用にサポートされるようになりました。 Struts 7.x パッケージ名のサポートを追加しました..."
+  },
+  "GitHub Copilot CLI: Plan before you build, steer as you go": {
+    "zh": "GitHub Copilot CLI：构建前规划，边走边引导",
+    "ja": "GitHub Copilot CLI: 構築する前に計画し、進みながら方向転換する"
+  },
+  "GitHub Copilot CLI continues to push the boundaries of agentic AI assistance in your terminal. This week brings powerful new reasoning models, intelligent workflow features that let you steer conversations in real-time, and tighter integration with the GitHub CLI. Here’s what’s new. Plan mode One of your most requested features is here: plan mode gives you a collaborative planning experience before Copilot starts implementing. Press Shift + Tab to cycle in and out of plan mode. In plan mode...": {
+    "zh": "GitHub Copilot CLI 继续突破终端中代理 AI 协助的界限。本周带来了强大的新推理模型、可让您实时引导对话的智能工作流程功能，以及与 GitHub CLI 的更紧密集成。这是新内容。计划模式 您最需要的功能之一在这里：计划模式在 Copilot 开始实施之前为您提供协作计划体验。按 Shift + Tab 可循环进出计划模式。在计划模式下...",
+    "ja": "GitHub Copilot CLI は、端末におけるエージェント AI 支援の限界を押し広げ続けます。今週は、強力な新しい推論モデル、リアルタイムで会話を制御できるインテリジェントなワークフロー機能、GitHub CLI とのより緊密な統合が提供されます。ここに新機能があります。プラン モード 最もリクエストの多かった機能の 1 つがここにあります。プラン モードでは、Copilot の実装を開始する前に、共同で計画を立てることができます。 Shift + Tab を押して、プラン モードのオンとオフを切り替えます。プランモードでは…"
   }
 }
