@@ -1294,10 +1294,6 @@
     "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
     "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の廃止予定"
   },
-  "Network configuration changes for Copilot coding agent now in effect": {
-    "zh": "Copilot 编码代理的网络配置更改现已生效",
-    "ja": "Copilot コーディング エージェントのネットワーク構成の変更が有効になりました"
-  },
   "Copilot metrics reports now return consistent usernames for Enterprise Managed Users": {
     "zh": "Copilot 指标报告现在为企业托管用户返回一致的用户名",
     "ja": "Copilot メトリクス レポートは、エンタープライズ管理対象ユーザーに対して一貫したユーザー名を返すようになりました。"
@@ -1385,10 +1381,6 @@
   "Use Copilot coding agent with Windows projects": {
     "zh": "将 Copilot 编码代理与 Windows 项目结合使用",
     "ja": "Windows プロジェクトで Copilot コーディング エージェントを使用する"
-  },
-  "GitHub Desktop 3.5.5 adds Git hooks support": {
-    "zh": "GitHub Desktop 3.5.5 添加了 Git hooks 支持",
-    "ja": "GitHub Desktop 3.5.5 では Git フックのサポートが追加されています"
   },
   "Copilot coding agent supports code referencing": {
     "zh": "副驾驶编码代理支持代码引用",
@@ -1689,14 +1681,6 @@
   "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services": {
     "zh": "Anthropic 与英国政府合作，为 GOV.UK 服务提供人工智能援助",
     "ja": "Anthropic は英国政府と提携し、GOV.UK のサービスに AI 支援を提供します"
-  },
-  "Claude's new constitution": {
-    "zh": "克劳德的新宪法",
-    "ja": "クロードの新憲法"
-  },
-  "A new approach to a foundational document that expresses and shapes who Claude is": {
-    "zh": "表达和塑造克劳德是谁的基础文件的新方法",
-    "ja": "クロードという人物を表現し形作る基礎文書への新しいアプローチ"
   },
   "Anthropic and Teach For All launch global AI training initiative for educators": {
     "zh": "Anthropic 和 Teach For All 为教育工作者推出全球人工智能培训计划",
@@ -2366,10 +2350,6 @@
     "zh": "我们将在所有 GitHub Copilot 体验中弃用以下模型（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.4 迷你 GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex Gemini 3 Pro 弃用日期因提供商弃用而提前。请更新您的...",
     "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Gemini 3 プロバイダーの非推奨により、Pro の非推奨日が早まります。更新してください..."
   },
-  "On February 13, 2026 we announced changes to the required network configuration for Copilot coding agent, taking effect on February 27. These changes only affect teams running Copilot coding agent on self-hosted runners or larger runners with Azure private networking. These changes have now taken effect. Copilot will apply subscription-based network routing, connecting to a different host depending on the Copilot plan of the user who initiated the agent task: Copilot Business...": {
-    "zh": "2026 年 2 月 13 日，我们宣布对 Copilot 编码代理所需的网络配置进行更改，并于 2 月 27 日生效。这些更改仅影响在自托管运行器或具有 Azure 专用网络的大型运行器上运行 Copilot 编码代理的团队。这些变化现已生效。 Copilot 将应用基于订阅的网络路由，根据启动代理任务的用户的 Copilot 计划连接到不同的主机： Copilot Business...",
-    "ja": "2026 年 2 月 13 日に、Copilot コーディング エージェントに必要なネットワーク構成の変更が 2 月 27 日に発効することを発表しました。 これらの変更は、自己ホスト型ランナーまたは Azure プライベート ネットワークを備えた大規模ランナーで Copilot コーディング エージェントを実行しているチームにのみ影響します。これらの変更は現在有効になっています。 Copilot はサブスクリプション ベースのネットワーク ルーティングを適用し、エージェント タスクを開始したユーザーの Copilot プランに応じて別のホストに接続します: Copilot Business..."
-  },
   "Copilot usage metrics now includes plan mode telemetry. Enterprises can track adoption and engagement trends for plan mode alongside existing Copilot metrics, enabling a more complete view of how teams are implementing plans directly in their IDE. Availability Plan mode telemetry is included as part of the broader Copilot usage metrics experience. Please ensure Copilot usage metrics is enabled for the enterprise or organization. Telemetry is supported for JetBrains, Eclipse, Xcode, and VS Code...": {
     "zh": "Copilot 使用指标现在包括计划模式遥测。企业可以跟踪计划模式的采用和参与趋势以及现有的 Copilot 指标，从而更全面地了解团队如何直接在其 IDE 中实施计划。可用性计划模式遥测包含在更广泛的 Copilot 使用指标体验中。请确保为企业或组织启用 Copilot 使用指标。 JetBrains、Eclipse、Xcode 和 VS Code 支持遥测...",
     "ja": "Copilot 使用状況メトリクスに、プラン モード テレメトリが含まれるようになりました。企業は、既存の Copilot メトリックとともに計画モードの導入とエンゲージメントの傾向を追跡できるため、チームがどのように計画を実装しているかを IDE で直接、より完全に把握できるようになります。可用性プラン モードのテレメトリは、広範な Copilot 使用状況メトリクス エクスペリエンスの一部として含まれています。 Copilot 使用状況メトリクスが企業または組織に対して有効になっていることを確認してください。テレメトリは、JetBrains、Eclipse、Xcode、VS Code でサポートされています..."
@@ -2457,10 +2437,6 @@
   "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions. By default, the agent use a Linux development environment. If your project targets Windows, you can now configure Copilot coding agent to use a Windows environment, still powered by GitHub Actions. With a working development environment, Copilot can ensure your project builds and your automated tests...": {
     "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，Copilot 在其自己的开发环境中在后台运行，由 GitHub 操作提供支持。默认情况下，代理使用 Linux 开发环境。如果您的项目面向 Windows，您现在可以配置 Copilot 编码代理以使用 Windows 环境，仍由 GitHub 操作提供支持。借助有效的开发环境，Copilot 可以确保您的项目构建和自动化测试......",
     "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot は GitHub アクションを利用して、独自の開発環境のバックグラウンドで動作します。デフォルトでは、エージェントは Linux 開発環境を使用します。プロジェクトが Windows を対象とする場合、GitHub アクションを利用しながら、Windows 環境を使用するように Copilot コーディング エージェントを構成できるようになりました。実用的な開発環境があれば、Copilot はプロジェクトのビルドと自動テストを確実に行うことができます..."
-  },
-  "GitHub Desktop now supports Git hooks, solving compatibility issues with version managers and environment-dependent scripts. The problem Historically, Git hooks have been problematic in GitHub Desktop. Because Desktop ships with its own embedded Git installation (especially on Windows), your hooks often failed when they relied on your shell environment, version managers like nvm, or tools not present in Desktop’s stripped-down Git. Additionally, you couldn’t distinguish between a hook rejection...": {
-    "zh": "GitHub Desktop 现在支持 Git 挂钩，解决了版本管理器和环境相关脚本的兼容性问题。问题 从历史上看，Git 挂钩在 GitHub 桌面中一直存在问题。由于 Desktop 附带了自己的嵌入式 Git 安装（尤其是在 Windows 上），因此当您的挂钩依赖于 shell 环境、nvm 等版本管理器或 Desktop 的精简版 Git 中不存在的工具时，它们经常会失败。此外，你无法区分钩子拒绝......",
-    "ja": "GitHub Desktop は Git フックをサポートするようになり、バージョン マネージャーや環境依存のスクリプトとの互換性の問題が解決されました。問題 これまで、GitHub Desktop では Git フックに問題がありました。 Desktop には独自の組み込み Git インストールが同梱されているため (特に Windows では)、フックがシェル環境、nvm などのバージョン マネージャー、または Desktop の機能を省略した Git に存在しないツールに依存している場合、フックが失敗することがよくありました。さらに、フック拒否を区別できませんでした..."
   },
   "Copilot coding agent, our asynchronous, autonomous background agent, now works with Copilot code referencing. If the agent generates code that matches code in a public GitHub repository, the matching code will be highlighted in the agent session logs with a link to the original code, so you can understand where the code comes from and any license that may apply. Copilot coding agent does not support the “Suggestions matching public code” policy’s Block mode. When the policy is set to Block...": {
     "zh": "Copilot 编码代理是我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
@@ -2736,5 +2712,13 @@
   "Released GPT Image 2, a state-of-the-art image generation model for image generation and editing. GPT Image 2 supports flexible image sizes, high-fidelity image inputs, token-based image pricing, and Batch API support with a 50% discount.": {
     "zh": "发布了 GPT Image 2，这是一种用于图像生成和编辑的最先进的图像生成模型。 GPT Image 2 支持灵活的图像尺寸、高保真图像输入、基于令牌的图像定价以及 Batch API 支持（折扣 50%）。",
     "ja": "画像生成および編集のための最先端の画像生成モデルである GPT Image 2 をリリースしました。 GPT Image 2 は、柔軟な画像サイズ、高忠実度の画像入力、トークンベースの画像価格設定、および 50% 割引のバッチ API サポートをサポートしています。"
+  },
+  "Add images to agent sessions": {
+    "zh": "将图像添加到代理会话",
+    "ja": "エージェントセッションに画像を追加する"
+  },
+  "Quick start your agent session by starting from an image. Simply paste, drag, or click the image icon to wherever you work with agents on github.com (e.g., from the recently released Agents tab in a repository). Let us know what you build by sharing your feedback. Click the Give feedback button on the top-right corner of any agent session. The post Add images to agent sessions appeared first on The GitHub Blog.": {
+    "zh": "从图像开始快速启动代理会话。只需将图像图标粘贴、拖动或单击到您在 github.com 上使用代理的任何位置（例如，从存储库中最近发布的代理选项卡）。通过分享您的反馈让我们知道您构建了什么。单击任何代理会话右上角的“提供反馈”按钮。将图像添加到代理会话中的帖子首先出现在 GitHub 博客上。",
+    "ja": "イメージから開始して、エージェント セッションをすばやく開始します。 github.com 上のエージェントを操作する場所 (リポジトリの最近リリースされた [エージェント] タブなど) に画像アイコンを貼り付ける、ドラッグする、またはクリックするだけです。フィードバックを共有して、あなたが構築したものをお知らせください。エージェント セッションの右上隅にある [フィードバックを送信] ボタンをクリックします。 「エージェント セッションに画像を追加する」という投稿は、最初に The GitHub Blog に掲載されました。"
   }
 }
