@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-01-22-openai-scaling-postgresql",
+      "date": "2026-01-22",
+      "category": "openai",
+      "title": {
+        "zh": "扩展 PostgreSQL 为 8 亿 ChatGPT 用户提供支持",
+        "ja": "PostgreSQL を拡張して 8 億 ChatGPT ユーザーをサポート",
+        "en": "Scaling PostgreSQL to power 800 million ChatGPT users"
+      },
+      "summary": {
+        "zh": "深入了解 OpenAI 如何使用副本、缓存、速率限制和工作负载隔离将 PostgreSQL 扩展到每秒数百万个查询。",
+        "ja": "OpenAI がレプリカ、キャッシュ、レート制限、ワークロード分離を使用して、PostgreSQL を 1 秒あたり数百万のクエリにどのように拡張したかを内部的に見ていきます。",
+        "en": "An inside look at how OpenAI scaled PostgreSQL to millions of queries per second using replicas, caching, rate limiting, and workload isolation."
+      },
+      "url": "https://openai.com/index/scaling-postgresql",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-01-21-openai-how-countries-can-end-the-capability-overhang",
       "date": "2026-01-21",
