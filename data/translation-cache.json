@@ -131,14 +131,6 @@
     "ja": "Lyria 3 は、Gemini API を介して有料プレビューで利用できるようになり、Google AI Studio でテストできるようになりました。",
     "zh": "Lyria 3 现已通过 Gemini API 提供付费预览版，并可在 Google AI Studio 中进行测试。"
   },
-  "Lyria 3 Pro: Create longer tracks in more Google products": {
-    "ja": "Lyria 3 Pro: より多くの Google サービスで長いトラックを作成",
-    "zh": "Lyria 3 Pro：在更多 Google 产品中创建更长的曲目"
-  },
-  "We are bringing Lyria 3 to the tools where professionals work and create every day.": {
-    "ja": "私たちは、プロフェッショナルが毎日作業し、作成するツールに Lyria 3 を導入します。",
-    "zh": "我们将 Lyria 3 引入专业人士每天工作和创作的工具中。"
-  },
   "Helping developers build safer AI experiences for teens": {
     "ja": "開発者による十代の若者向けのより安全な AI エクスペリエンスの構築を支援",
     "zh": "帮助开发者为青少年打造更安全的人工智能体验"
@@ -2800,5 +2792,97 @@
   "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what...": {
     "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
     "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか..."
+  },
+  "Memory": {
+    "zh": "记忆",
+    "ja": "メモリ"
+  },
+  "Memory for Claude Managed Agents is now in public beta under the standard managed-agents-2026-04-01 header. See Using agent memory for the full integration guide.": {
+    "zh": "Claude Managed Agents 的内存现在处于标准 Managed-agents-2026-04-01 标头下的公开测试版。请参阅使用代理内存以获取完整的集成指南。",
+    "ja": "Claude 管理対象エージェントのメモリは、標準の manage-agents-2026-04-01 ヘッダーの下でパブリック ベータ版になりました。完全な統合ガイドについては、「エージェント メモリの使用」を参照してください。"
+  },
+  "Introducing GPT-5.5": {
+    "zh": "GPT-5.5 简介",
+    "ja": "GPT-5.5の紹介"
+  },
+  "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.": {
+    "zh": "隆重推出 GPT-5.5，这是我们迄今为止最智能的模型，速度更快、功能更强大，专为跨工具编码、研究和数据分析等复杂任务而构建。",
+    "ja": "GPT-5.5 は、これまでで最もスマートなモデルであり、より高速かつ高機能で、複数のツールにわたるコーディング、調査、データ分析などの複雑なタスク向けに構築されています。"
+  },
+  "GPT-5.5 System Card": {
+    "zh": "GPT-5.5系统卡",
+    "ja": "GPT-5.5 システムカード"
+  },
+  "GPT-5.5 Bio Bug Bounty": {
+    "zh": "GPT-5.5 生物错误赏金",
+    "ja": "GPT-5.5 バイオバグ報奨金"
+  },
+  "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.": {
+    "zh": "探索 GPT-5.5 生物错误赏金：一项红队挑战，旨在寻找生物安全风险的通用越狱方法，奖励高达 25,000 美元。",
+    "ja": "GPT-5.5 バイオ バグ バウンティを探索してください。バイオ セーフティ リスクに対する普遍的なジェイルブレイクを見つけるためのレッド チーム チャレンジで、最大 25,000 ドルの報酬が得られます。"
+  },
+  "View and manage agent sessions from issues and projects": {
+    "zh": "查看和管理问题和项目中的代理会话",
+    "ja": "問題とプロジェクトからのエージェント セッションの表示と管理"
+  },
+  "You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. What’s new Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance. Session side panel on issues: Click any session from the pill or assignee area to open it in the sidebar, where you can view progress, review logs, or steer the agent. Agent sessions enabled by default in projects...": {
+    "zh": "您现在可以直接从问题和项目中查看和引导云代理会话，从而无需离开工作流程即可更好地了解代理活动。关于问题的新会话药丸：关于问题的新标题药丸显示所有活动和已完成的代理会话一目了然。关于问题的会话侧面板：单击药丸或受让人区域中的任何会话以在侧栏中将其打开，您可以在其中查看进度、查看日志或指导代理。项目中默认启用代理会话...",
+    "ja": "クラウド エージェント セッションを問題やプロジェクトから直接表示および操作できるようになり、ワークフローを離れることなくエージェントのアクティビティをより正確に把握できるようになりました。新機能 問題に関するセッション ピル: 問題に関する新しいヘッダー ピルには、アクティブなエージェント セッションと完了したエージェント セッションが一目で表示されます。問題に関するセッションのサイド パネル: ピルまたは担当者エリアから任意のセッションをクリックしてサイドバーに開き、進行状況を表示したり、ログを確認したり、エージェントを操作したりできます。プロジェクトではエージェント セッションがデフォルトで有効になっています..."
+  },
+  "Copilot cloud agent fields added to usage metrics": {
+    "zh": "Copilot 云代理字段已添加到使用指标中",
+    "ja": "Copilot クラウド エージェント フィールドが使用状況メトリクスに追加されました"
+  },
+  "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name. What’s new Field Description used_copilot_cloud_agent Whether the user had Copilot cloud agent activity during the reporting period (boolean, nullable) The field is available in single-day and 28-day rolling window reports at...": {
+    "zh": "在将 Copilot 编码代理重命名为 Copilot 云代理之后，Copilot 使用指标 API 现在在用户级报告中包含一个新的used_copilot_cloud_agent 字段。此布尔字段反映更新后的产品名称下现有的used_copilot_coding_agent 标志。新增内容 字段 说明used_copilot_cloud_agent 用户在报告期间是否有 Copilot 云代理活动（布尔值，可为空） 该字段在单日和 28 天滚动窗口报告中可用，网址为...",
+    "ja": "Copilot コーディング エージェントから Copilot クラウド エージェントへの名前変更に続き、Copilot 使用状況メトリクス API には、ユーザー レベルのレポートに新しい used_copilot_cloud_agent フィールドが含まれるようになりました。このブール値フィールドは、更新された製品名の下にある既存の used_copilot_coding_agent フラグを反映します。新機能 フィールド 説明 used_copilot_cloud_agent レポート期間中にユーザーが Copilot クラウド エージェント アクティビティを行ったかどうか (ブール値、NULL 可能) このフィールドは、1 日および 28 日のローリング ウィンドウ レポートで使用できます。"
+  },
+  "Copilot Chat improvements for pull requests": {
+    "zh": "Copilot 针对拉取请求的聊天改进",
+    "ja": "Copilot プル リクエストのチャットの改善"
+  },
+  "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface. Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request. New abilities Three new...": {
+    "zh": "GitHub Copilot 当您处理差异和拉取请求时，聊天现在提供更丰富的上下文和新功能。您可以通过在 github.com/copilot 中询问有关拉取请求的问题或通过全局 Copilot 导航来访问此功能，该导航允许您在任何 GitHub 表面上打开聊天。启用公共预览的用户还可以单击差异上的 Copilot 按钮来提出一系列问题，以更好地了解更改或相关的拉取请求。新能力 三个新...",
+    "ja": "GitHub Copilot Chat では、差分やプル リクエストを操作する際に、より豊富なコンテキストと新機能が提供されるようになりました。この機能にアクセスするには、github.com/copilot でプル リクエストについて質問するか、グローバル Copilot ナビゲーションを介してアクセスできます。これにより、任意の GitHub サーフェス上でチャットを開くことができます。パブリック プレビューが有効なユーザーは、差分の Copilot ボタンをクリックして一連の質問をして、変更内容や関連するプル リクエストをよりよく理解することもできます。新しい能力 3つの新しい..."
+  },
+  "Pausing new self-serve signups for GitHub Copilot Business": {
+    "zh": "暂停 GitHub Copilot 业务的新自助注册",
+    "ja": "GitHub Copilot Business の新規セルフサービス サインアップを一時停止しています"
+  },
+  "As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on GitHub Free and GitHub Team plans. Existing Copilot Business customers are not affected and can continue adding seats and using the service as they normally would. We will share an update as soon as self-serve signups are available again. The post Pausing new self-serve signups for GitHub Copilot Business...": {
+    "zh": "作为我们不断努力确保为所有用户提供可靠且可持续的 Copilot 体验的一部分，我们正在暂停 GitHub 免费和 GitHub 团队计划组织的 GitHub Copilot 业务的新自助注册。现有 Copilot 企业客户不受影响，可以继续像往常一样添加席位和使用服务。一旦自助注册再次可用，我们将立即分享更新。该帖子暂停 GitHub Copilot 业务的新自助注册...",
+    "ja": "すべてのユーザーに信頼性が高く持続可能な Copilot エクスペリエンスを確保するための継続的な取り組みの一環として、GitHub Free および GitHub Team プランの組織向けの GitHub Copilot Business への新規セルフサービス サインアップを一時停止します。既存の Copilot Business 顧客は影響を受けず、引き続きシートを追加し、通常どおりサービスを使用できます。セルフサービスのサインアップが再び利用可能になり次第、最新情報を共有します。投稿 GitHub Copilot Business の新しいセルフサービス サインアップを一時停止する..."
+  },
+  "Upcoming change to Copilot usage metrics report download URLs": {
+    "zh": "Copilot 使用指标报告下载 URL 即将发生变化",
+    "ja": "Copilot 使用状況メトリック レポートのダウンロード URL に対する今後の変更"
+  },
+  "We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make firewall and proxy allowlist management easier for enterprise customers. What’s changing Starting May 20, 2026, Copilot usage metrics report download links—returned by the Copilot Usage Metrics API —will use the new domain copilot-reports.github.com instead of the current copilot-reports-*.b01.azurefd.net...": {
+    "zh": "我们正在将 Copilot 使用指标报告的下载 URL 从 Azure Front Door 域迁移到 GitHub 拥有的稳定自定义域。此更改将提高 URL 稳定性，并使企业客户更轻松地进行防火墙和代理白名单管理。变化内容 从 2026 年 5 月 20 日开始，Copilot 使用指标报告下载链接（由 Copilot 使用指标 API 返回）将使用新域 copilot-reports.github.com，而不是当前的 copilot-reports-*.b01.azurefd.net...",
+    "ja": "Copilot 使用状況メトリック レポートのダウンロード URL を、Azure Front Door ドメインから、GitHub が所有する安定したカスタム ドメインに移行しています。この変更により、URL の安定性が向上し、企業顧客にとってファイアウォールとプロキシの許可リストの管理が容易になります。変更点 2026 年 5 月 20 日以降、Copilot 使用状況メトリック API によって返される Copilot 使用状況メトリック レポートのダウンロード リンクでは、現在の copilot-reports-*.b01.azurefd.net の代わりに新しいドメイン copilot-reports.github.com が使用されます。"
+  },
+  "Manage agent skills with GitHub CLI": {
+    "zh": "使用 GitHub CLI 管理代理技能",
+    "ja": "GitHub CLI を使用してエージェントのスキルを管理する"
+  },
+  "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories. What are agent skills? Agent skills are portable sets of instructions, scripts, and resources that teach AI agents how to perform specific tasks. They follow the open Agent Skills specification, and work across multiple agent hosts including GitHub Copilot, Claude...": {
+    "zh": "代理技能正在重塑开发人员使用人工智能编码代理的方式。今天，我们推出 gh Skill，这是 GitHub CLI 中的一个新命令，可以轻松地从 GitHub 存储库发现、安装、管理和发布代理技能。什么是代理技能？代理技能是可移植的指令、脚本和资源集，可教会 AI 代理如何执行特定任务。它们遵循开放的代理技能规范，并跨多个代理主机工作，包括 GitHub Copilot、Claude...",
+    "ja": "エージェント スキルは、開発者が AI コーディング エージェントと連携する方法を再構築しています。本日、GitHub CLI の新しいコマンドである gh skill を開始します。これにより、GitHub リポジトリからのエージェント スキルの検出、インストール、管理、公開が簡単になります。エージェントスキルとは何ですか?エージェント スキルは、AI エージェントに特定のタスクの実行方法を教える、移植可能な命令、スクリプト、リソースのセットです。これらはオープンなエージェント スキル仕様に従っており、GitHub、Copilot、Claude... などの複数のエージェント ホスト間で動作します。"
+  },
+  "Grok Code Fast 1 is now available in Copilot Free auto model selection": {
+    "zh": "Grok Code Fast 1 现已在 Copilot 免费自动模型选择中提供",
+    "ja": "Grok Code Fast 1 が Copilot で利用可能になりました 無料の自動車モデルの選択"
+  },
+  "Grok Code Fast 1 is generally available to Copilot Free plans via Copilot auto model selection. This model is now added to the list of possible models that Copilot might choose in auto model selection. It’s part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your...": {
+    "zh": "Grok Code Fast 1 通常可通过 Copilot 自动型号选择提供给 Copilot 免费计划。该模型现已添加到 Copilot 在自动模型选择中可能选择的可能模型列表中。它是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈加入 GitHub 社区分享您的...",
+    "ja": "Grok Code Fast 1 は、Copilot 自動モデル選択を介して Copilot 無料プランで一般的に利用可能です。このモデルは、Copilot が自動モデル選択で選択する可能性のあるモデルのリストに追加されました。これは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot Chat の Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加して、フィードバックを共有してください..."
+  },
+  "Claude Sonnet 4.6 is now generally available in GitHub Copilot": {
+    "zh": "Claude Sonnet 4.6 现已在 GitHub Copilot 中全面可用",
+    "ja": "Claude Sonnet 4.6 は GitHub Copilot で一般公開されました"
+  },
+  "Claude Sonnet 4.6, Anthropic’s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, this model excels on agentic coding, and is particularly successful in search operations. Note, while this model is launching with a 1x premium request multiplier, pricing is tentative and subject to change. https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 Availability in GitHub Copilot Claude Sonnet 4.6 will be available to Copilot Pro, Pro+...": {
+    "zh": "Claude Sonnet 4.6，Anthropic 的最新代理编码模型，现已在 GitHub Copilot 中推出。在早期测试中，该模型在代理编码方面表现出色，并且在搜索操作方面尤其成功。请注意，虽然此型号以 1 倍保费请求乘数推出，但定价是暂定的，可能会发生变化。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub Copilot Claude Sonnet 4.6 中的可用性将适用于 Copilot Pro、Pro+...",
+    "ja": "Anthropic の最新のエージェント コーディング モデルである Claude Sonnet 4.6 は、GitHub Copilot で展開されています。初期のテストでは、このモデルはエージェント コーディングに優れており、特に検索操作で成功しています。このモデルは 1 倍のプレミアム リクエスト乗数で発売されますが、価格は暫定的なものであり、変更される可能性があることに注意してください。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub での利用可能性 Copilot Claude Sonnet 4.6 は Copilot Pro、Pro+... で利用可能になります。"
   }
 }
