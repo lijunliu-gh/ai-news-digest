@@ -3,6 +3,27 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-24-anthropic-anthropic-nec",
+      "date": "2026-04-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 和 NEC 合作在日本大规模构建人工智能原生工程",
+        "ja": "Anthropic と NEC が提携し、日本で大規模な AI ネイティブ エンジニアリングを構築",
+        "en": "Anthropic and NEC partner to build AI-native engineering at scale in Japan"
+      },
+      "summary": {
+        "zh": "NEC 将向 30,000 名员工部署 Claude，并成为 Anthropic 的首个日本全球合作伙伴，共同开发面向金融、制造和政府​​的人工智能产品",
+        "ja": "NEC は Claude を 30,000 人の従業員に導入し、Anthropic の日本を拠点とする初のグローバル パートナーとなり、金融、製造、政府向けの AI 製品を共同開発します",
+        "en": "NEC will deploy Claude to 30,000 employees and become Anthropic's first Japan-based global partner, co-developing AI products for finance, manufacturing, and government"
+      },
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-04-23-openai-introducing-gpt-5-5",
       "date": "2026-04-23",
       "category": "openai",
@@ -1995,30 +2016,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-03-github-2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
-      "date": "2026-04-03",
-      "category": "github",
-      "title": {
-        "zh": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 已弃用",
-        "ja": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini は非推奨になりました",
-        "en": "GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 4 月 15 日）：我们更新了这篇文章以包含有关弃用 GPT-5.1 的信息。我们已于 2026 年 4 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex 请...",
-        "ja": "編集者注 (2026 年 4 月 15 日): この投稿を更新して、GPT-5.1 の非推奨に関する情報を追加しました。 2026 年 4 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替品 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex お願いします...",
-        "en": "Editor’s note (April 15, 2026): We updated this post to include information about the deprecation of GPT-5.1. We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date Suggested alternative GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Please..."
-      },
-      "url": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
       "date": "2026-04-03",
       "category": "github",
@@ -3835,6 +3832,31 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-request-copilot-code-review-from-github-cli",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "从 GitHub CLI 请求 Copilot 代码审查",
+        "ja": "GitHub CLI から Copilot コード レビューをリクエストする",
+        "en": "Request Copilot code review from GitHub CLI"
+      },
+      "summary": {
+        "zh": "您现在可以使用 GitHub CLI 直接从终端请求 GitHub Copilot 进行审核。无论您是编辑现有拉取请求还是创建新拉取请求，Copilot 都可以作为 gh pr edit 和 gh pr create 中的审阅者选项使用。无需切换到浏览器。工作原理 非交互式：使用 gh pr edit --add-reviewer @copilot 添加 Copilot 作为审阅者。交互式：当您通过交互式提示选择审阅者时，Copilot 会出现在您的队友旁边......",
+        "ja": "GitHub CLI を使用して、端末から直接 GitHub Copilot にレビューをリクエストできるようになりました。既存のプル リクエストを編集している場合でも、新しいプル リクエストを作成している場合でも、gh pr edit および gh pr create のレビュー担当者オプションとして Copilot を使用できます。ブラウザに切り替える必要はありません。仕組み 非対話型: gh pr edit --add-reviewer @copilot を使用して、Copilot をレビューアーとして追加します。インタラクティブ: インタラクティブなプロンプトを通じてレビュー担当者を選択すると、チームメイトの横に Copilot が表示されます...",
+        "en": "You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you’re editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There’s no need to switch to the browser. How it works Non-interactive: Add Copilot as a reviewer with gh pr edit --add-reviewer @copilot. Interactive: When you select reviewers through the interactive prompts, Copilot appears alongside your teammates..."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-11-github-2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
@@ -5990,30 +6012,6 @@
       "url": "https://github.blog/changelog/2026-02-18-claude-opus-4-6-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-17-github-2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
-      "date": "2026-02-17",
-      "category": "github",
-      "title": {
-        "zh": "MCP 注册表以及 Eclipse 中 Copilot 的更多改进",
-        "ja": "MCP レジストリと Eclipse の Copilot のさらなる改善",
-        "en": "MCP Registry and more improvements in Copilot in Eclipse"
-      },
-      "summary": {
-        "zh": "我们刚刚发布了一组新的改进，使 Eclipse 中的 GitHub Copilot 更智能、更易于使用。这些更新带来了更多上下文选项、更流畅的工作流程以及更好的开发体验定制。 ✨ 新功能 MCP 注册表 只需单击几下即可从集中式注册表发现并安装 MCP 服务器。浏览可用服务器、查看其功能并立即将其添加到您的工作区，所有这些都不需要任何手动配置。管理待办事项...",
-        "ja": "Eclipse の GitHub Copilot をよりスマートで使いやすくするための新しい改善セットをリリースしました。これらのアップデートにより、より多くのコンテキスト オプション、スムーズなワークフロー、開発エクスペリエンスのカスタマイズ性の向上が実現します。 ✨ 新機能 MCP レジストリ 数回クリックするだけで、集中化されたレジストリから MCP サーバーを検出してインストールします。手動構成を必要とせずに、利用可能なサーバーを参照してその機能を表示し、即座にワークスペースに追加します。 Todoを管理...",
-        "en": "We’ve just shipped a new set of improvements to make GitHub Copilot in Eclipse smarter and easier to use. These updates bring more context options, smoother workflows, and better customization for your development experience. ✨ What’s new MCP Registry Discover and install MCP servers from a centralized registry with just a few clicks. Browse available servers, view their capabilities, and add them to your workspace instantly, all without requiring any manual configuration required. Manage Todo..."
-      },
-      "url": "https://github.blog/changelog/2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
