@@ -3,6 +3,27 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-24-anthropic-election-safeguards-update",
+      "date": "2026-04-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们的选举保障措施的最新情况",
+        "ja": "選挙の保護措置に関する最新情報",
+        "en": "An update on our election safeguards"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/election-safeguards-update",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-04-24-anthropic-anthropic-nec",
       "date": "2026-04-24",
       "category": "anthropic",
@@ -1404,6 +1425,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-10-github-2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的验证工具现在速度提高了 20%",
+        "ja": "Copilot クラウド エージェントの検証ツールが 20% 高速になりました",
+        "en": "Copilot cloud agent’s validation tools are now 20% faster"
+      },
+      "summary": {
+        "zh": "当Copilot云代理编写代码时，它会自动运行GitHub的安全和质量验证工具，包括CodeQL、GitHub咨询数据库、秘密扫描和Copilot代码审查。如果发现任何问题，Copilot 会在完成工作并请求审核之前尝试解决它们。这些验证工具现在并行运行，而不是顺序运行，从而将验证时间缩短了 20%。这意味着 Copilot 工作速度更快，同时仍保持相同的质量。您可以配置...",
+        "ja": "Copilot クラウド エージェントがコードを記述すると、CodeQL、GitHub アドバイザリー データベース、シークレット スキャン、Copilot コード レビューなどの GitHub のセキュリティおよび品質検証ツールが自動的に実行されます。問題が見つかった場合、Copilot は作業を終了してレビューを要求する前に問題の解決を試みます。これらの検証ツールは順次ではなく並行して実行されるようになり、検証時間が 20% 短縮されます。これは、Copilot が同じ品質を維持しながら高速に動作することを意味します。設定できるのは...",
+        "en": "When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before finishing work and requesting review. These validation tools now run in parallel rather than sequentially, reducing validation time by 20%. This means Copilot works faster while still maintaining the same quality. You can configure..."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-10-github-2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
       "date": "2026-04-10",
       "category": "github",
@@ -2008,6 +2053,30 @@
       "url": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 已弃用",
+        "ja": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini は非推奨になりました",
+        "en": "GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 4 月 15 日）：我们更新了这篇文章以包含有关弃用 GPT-5.1 的信息。我们已于 2026 年 4 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex 请...",
+        "ja": "編集者注 (2026 年 4 月 15 日): この投稿を更新して、GPT-5.1 の非推奨に関する情報を追加しました。 2026 年 4 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替品 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex お願いします...",
+        "en": "Editor’s note (April 15, 2026): We updated this post to include information about the deprecation of GPT-5.1. We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date Suggested alternative GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Please..."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "tags": [
+        "retired",
         "copilot",
         "github",
         "changelog"
