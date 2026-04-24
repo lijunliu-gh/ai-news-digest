@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "windowMonths": 3,
   "items": [
     {
@@ -2847,32 +2847,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-03-25-github-2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
-      "date": "2026-03-25",
-      "category": "github",
-      "title": {
-        "zh": "我们的隐私声明和服务条款的更新：我们如何使用您的数据",
-        "ja": "プライバシーに関する声明と利用規約の更新: データの使用方法",
-        "en": "Updates to our Privacy Statement and Terms of Service: How we use your data"
-      },
-      "summary": {
-        "zh": "您好 GitHub 社区，我们对隐私声明和服务条款进行了一些重要更新，以便让您了解我们如何处理您的数据。值得注意的是，从 4 月 24 日起，我们将开始使用来自 Copilot Free、Pro 和 Pro+ 用户的交互数据（特别是输入、输出、代码片段和相关上下文）来训练和改进我们的 AI 模型，除非您选择退出。 Copilot 商业用户和 Copilot 企业用户不受此更新的影响。以下是...的快速概述",
-        "ja": "GitHub コミュニティの皆さん、データの取り扱い方法について常にお知らせするために、プライバシーに関する声明と利用規約にいくつかの重要な更新を加えました。特に、4 月 24 日以降、オプトアウトしない限り、Copilot Free、Pro、Pro+ ユーザーからのインタラクション データ (特に入力、出力、コード スニペット、および関連するコンテキスト) を使用して、AI モデルをトレーニングおよび改善することを開始します。 Copilot Business および Copilot Enterprise ユーザーは、この更新プログラムの影響を受けません。概要は次のとおりです...",
-        "en": "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24 onward we will begin using interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users to train and improve our AI models unless you opt out. Copilot Business and Copilot Enterprise users are not affected by this update. Here’s a quick overview of the..."
-      },
-      "url": "https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "platform-governance",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-25-github-2026-03-25-github-copilot-for-jira-public-preview-enhancements",
       "date": "2026-03-25",
       "category": "github",
@@ -3861,31 +3835,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-03-11-github-2026-03-11-request-copilot-code-review-from-github-cli",
-      "date": "2026-03-11",
-      "category": "github",
-      "title": {
-        "zh": "从 GitHub CLI 请求 Copilot 代码审查",
-        "ja": "GitHub CLI から Copilot コード レビューをリクエストする",
-        "en": "Request Copilot code review from GitHub CLI"
-      },
-      "summary": {
-        "zh": "您现在可以使用 GitHub CLI 直接从终端请求 GitHub Copilot 进行审核。无论您是编辑现有拉取请求还是创建新拉取请求，Copilot 都可以作为 gh pr edit 和 gh pr create 中的审阅者选项使用。无需切换到浏览器。工作原理 非交互式：使用 gh pr edit --add-reviewer @copilot 添加 Copilot 作为审阅者。交互式：当您通过交互式提示选择审阅者时，Copilot 会出现在您的队友旁边......",
-        "ja": "GitHub CLI を使用して、端末から直接 GitHub Copilot にレビューをリクエストできるようになりました。既存のプル リクエストを編集している場合でも、新しいプル リクエストを作成している場合でも、gh pr edit および gh pr create のレビュー担当者オプションとして Copilot を使用できます。ブラウザに切り替える必要はありません。仕組み 非対話型: gh pr edit --add-reviewer @copilot を使用して、Copilot をレビューアーとして追加します。インタラクティブ: インタラクティブなプロンプトを通じてレビュー担当者を選択すると、チームメイトの横に Copilot が表示されます...",
-        "en": "You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you’re editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There’s no need to switch to the browser. How it works Non-interactive: Add Copilot as a reviewer with gh pr edit --add-reviewer @copilot. Interactive: When you select reviewers through the interactive prompts, Copilot appears alongside your teammates..."
-      },
-      "url": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-03-11-github-2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
@@ -7926,28 +7875,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-01-23-openai-unrolling-the-codex-agent-loop",
-      "date": "2026-01-23",
-      "category": "openai",
-      "title": {
-        "zh": "展开 Codex 代理循环",
-        "ja": "Codex エージェント ループの展開",
-        "en": "Unrolling the Codex agent loop"
-      },
-      "summary": {
-        "zh": "从技术上深入探讨 Codex 代理循环，解释 Codex CLI 如何使用响应 API 编排模型、工具、提示和性能。",
-        "ja": "Codex エージェント ループの技術的な詳細を説明し、Codex CLI が Responses API を使用してモデル、ツール、プロンプト、パフォーマンスを調整する方法を説明します。",
-        "en": "A technical deep dive into the Codex agent loop, explaining how Codex CLI orchestrates models, tools, prompts, and performance using the Responses API."
-      },
-      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
-      "tags": [
-        "engineering",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
     }
   ]
 }
