@@ -1726,10 +1726,6 @@
     "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
     "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。"
   },
-  "Copilot cloud agent’s validation tools are now 20% faster": {
-    "zh": "Copilot 云代理的验证工具现在速度提高了 20%",
-    "ja": "Copilot クラウド エージェントの検証ツールが 20% 高速になりました"
-  },
   "Copilot CLI activity now included in usage metrics totals and feature breakdowns": {
     "zh": "Copilot CLI 活动现在包含在使用指标总数和功能细分中",
     "ja": "Copilot CLI アクティビティが使用状況メトリクスの合計と機能の内訳に含まれるようになりました"
@@ -1853,10 +1849,6 @@
   "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in...": {
     "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。三个新字段可用...",
     "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。 3 つの新しいフィールドが利用可能です..."
-  },
-  "When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before finishing work and requesting review. These validation tools now run in parallel rather than sequentially, reducing validation time by 20%. This means Copilot works faster while still maintaining the same quality. You can configure...": {
-    "zh": "当Copilot云代理编写代码时，它会自动运行GitHub的安全和质量验证工具，包括CodeQL、GitHub咨询数据库、秘密扫描和Copilot代码审查。如果发现任何问题，Copilot 会在完成工作并请求审核之前尝试解决它们。这些验证工具现在并行运行，而不是顺序运行，从而将验证时间缩短了 20%。这意味着 Copilot 工作速度更快，同时仍保持相同的质量。您可以配置...",
-    "ja": "Copilot クラウド エージェントがコードを記述すると、CodeQL、GitHub アドバイザリー データベース、シークレット スキャン、Copilot コード レビューなどの GitHub のセキュリティおよび品質検証ツールが自動的に実行されます。問題が見つかった場合、Copilot は作業を終了してレビューを要求する前に問題の解決を試みます。これらの検証ツールは順次ではなく並行して実行されるようになり、検証時間が 20% 短縮されます。これは、Copilot が同じ品質を維持しながら高速に動作することを意味します。設定できるのは..."
   },
   "Previous CLI metrics releases added a standalone totals_by_cli section to the Copilot usage metrics API with session counts, request counts, and token usage. That section reported CLI activity separately from the rest of the report—top-level totals and dimensional breakdowns reflected IDE activity only. With this update, CLI activity is now integrated into the metrics you already use. What’s new Top-level totals now include CLI contributions. The following fields now represent IDE + CLI...": {
     "zh": "以前的 CLI 指标版本在 Copilot 使用指标 API 中添加了一个独立的 Totals_by_cli 部分，其中包含会话计数、请求计数和令牌使用情况。该部分将 CLI 活动与报告的其余部分分开报告 - 顶级总计和维度细分仅反映 IDE 活动。通过此更新，CLI 活动现已集成到您已使用的指标中。新变化 顶级总计现在包括 CLI 贡献。以下字段现在代表 IDE + CLI...",
@@ -2868,5 +2860,29 @@
   "You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you’re editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There’s no need to switch to the browser. How it works Non-interactive: Add Copilot as a reviewer with gh pr edit --add-reviewer @copilot. Interactive: When you select reviewers through the interactive prompts, Copilot appears alongside your teammates...": {
     "zh": "您现在可以使用 GitHub CLI 直接从终端请求 GitHub Copilot 进行审核。无论您是编辑现有拉取请求还是创建新拉取请求，Copilot 都可以作为 gh pr edit 和 gh pr create 中的审阅者选项使用。无需切换到浏览器。工作原理 非交互式：使用 gh pr edit --add-reviewer @copilot 添加 Copilot 作为审阅者。交互式：当您通过交互式提示选择审阅者时，Copilot 会出现在您的队友旁边......",
     "ja": "GitHub CLI を使用して、端末から直接 GitHub Copilot にレビューをリクエストできるようになりました。既存のプル リクエストを編集している場合でも、新しいプル リクエストを作成している場合でも、gh pr edit および gh pr create のレビュー担当者オプションとして Copilot を使用できます。ブラウザに切り替える必要はありません。仕組み 非対話型: gh pr edit --add-reviewer @copilot を使用して、Copilot をレビューアーとして追加します。インタラクティブ: インタラクティブなプロンプトを通じてレビュー担当者を選択すると、チームメイトの横に Copilot が表示されます..."
+  },
+  "Copilot CLI supports custom registry based MCP allowlists": {
+    "zh": "Copilot CLI 支持基于自定义注册表的 MCP 允许列表",
+    "ja": "Copilot CLI はカスタム レジストリ ベースの MCP ホワイトリストをサポートします"
+  },
+  "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI. What is bring your own registry? Bring your own registry (BYOR) lets GitHub administrators use the URL of an internally managed MCP registry to their enterprise or organization’s Copilot policies page. Once configured, it prevents any usage of MCP servers...": {
+    "zh": "企业和组织管理员现在可以携带自己的 MCP 注册表，并在 Copilot CLI 中实施许可名单策略。此功能已推出公共预览版，可为直接从 CLI 工作的开发人员带来 MCP 治理控制。什么是自带注册表？自带注册表 (BYOR) 允许 GitHub 管理员使用内部管理的 MCP 注册表的 URL 访问其企业或组织的 Copilot 策略页面。配置完成后，它会阻止任何 MCP 服务器的使用...",
+    "ja": "企業および組織の管理者は、独自の MCP レジストリを導入し、Copilot CLI で許可リスト ポリシーを適用できるようになりました。この機能はパブリック プレビュー段階にあり、CLI から直接作業する開発者に MCP ガバナンス制御をもたらします。自分のレジストリの持ち込みとは何ですか?独自のレジストリの持ち込み (BYOR) を使用すると、GitHub 管理者は、内部管理されている MCP レジストリの URL を企業または組織の Copilot ポリシー ページに使用できます。構成が完了すると、MCP サーバーの使用が禁止されます..."
+  },
+  "Updates to our Privacy Statement and Terms of Service: How we use your data": {
+    "zh": "我们的隐私声明和服务条款的更新：我们如何使用您的数据",
+    "ja": "プライバシーに関する声明と利用規約の更新: データの使用方法"
+  },
+  "Hey GitHub Community, We’ve made some important updates to our Privacy Statement and Terms of Service to keep you informed about how we handle your data. Notably, from April 24 onward we will begin using interaction data—specifically inputs, outputs, code snippets, and associated context—from Copilot Free, Pro, and Pro+ users to train and improve our AI models unless you opt out. Copilot Business and Copilot Enterprise users are not affected by this update. Here’s a quick overview of the...": {
+    "zh": "您好 GitHub 社区，我们对隐私声明和服务条款进行了一些重要更新，以便让您了解我们如何处理您的数据。值得注意的是，从 4 月 24 日起，我们将开始使用来自 Copilot Free、Pro 和 Pro+ 用户的交互数据（特别是输入、输出、代码片段和相关上下文）来训练和改进我们的 AI 模型，除非您选择退出。 Copilot 商业用户和 Copilot 企业用户不受此更新的影响。以下是...的快速概述",
+    "ja": "GitHub コミュニティの皆さん、データの取り扱い方法について常にお知らせするために、プライバシーに関する声明と利用規約にいくつかの重要な更新を加えました。特に、4 月 24 日以降、オプトアウトしない限り、Copilot Free、Pro、Pro+ ユーザーからのインタラクション データ (特に入力、出力、コード スニペット、および関連するコンテキスト) を使用して、AI モデルをトレーニングおよび改善することを開始します。 Copilot Business および Copilot Enterprise ユーザーは、この更新プログラムの影響を受けません。概要は次のとおりです..."
+  },
+  "MCP Registry and more improvements in Copilot in Eclipse": {
+    "zh": "Eclipse 中的 MCP 注册表和 Copilot 的更多改进",
+    "ja": "Eclipse の MCP レジストリと Copilot のその他の改善"
+  },
+  "We’ve just shipped a new set of improvements to make GitHub Copilot in Eclipse smarter and easier to use. These updates bring more context options, smoother workflows, and better customization for your development experience. ✨ What’s new MCP Registry Discover and install MCP servers from a centralized registry with just a few clicks. Browse available servers, view their capabilities, and add them to your workspace instantly, all without requiring any manual configuration required. Manage Todo...": {
+    "zh": "我们刚刚发布了一组新的改进，使 Eclipse 中的 GitHub Copilot 更智能、更易于使用。这些更新带来了更多上下文选项、更流畅的工作流程以及更好的开发体验定制。 ✨ 新功能 MCP 注册表 只需单击几下即可从集中式注册表发现并安装 MCP 服务器。浏览可用服务器、查看其功能并立即将它们添加到您的工作区，所有这些都不需要任何手动配置。管理待办事项...",
+    "ja": "Eclipse の GitHub Copilot をよりスマートで使いやすくするための新しい改善セットをリリースしました。これらのアップデートにより、より多くのコンテキスト オプション、スムーズなワークフロー、開発エクスペリエンスのカスタマイズ性の向上が実現します。 ✨ 新機能 MCP レジストリ 数回クリックするだけで、一元化されたレジストリから MCP サーバーを検出してインストールします。手動構成を必要とせずに、利用可能なサーバーを参照してその機能を確認し、ワークスペースに即座に追加します。 Todoを管理..."
   }
 }
