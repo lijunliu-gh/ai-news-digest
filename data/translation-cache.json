@@ -1162,10 +1162,6 @@
     "zh": "Copilot 代码审查现在在代理架构上运行",
     "ja": "Copilot のコード レビューがエージェント アーキテクチャで実行されるようになりました"
   },
-  "Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models": {
-    "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
-    "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の廃止予定"
-  },
   "Copilot metrics reports now return consistent usernames for Enterprise Managed Users": {
     "zh": "Copilot 指标报告现在为企业托管用户返回一致的用户名",
     "ja": "Copilot メトリクス レポートは、エンタープライズ管理対象ユーザーに対して一貫したユーザー名を返すようになりました。"
@@ -1401,14 +1397,6 @@
   "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.": {
     "zh": "我们最新的语音模型提高了精度并降低了延迟，使语音交互更加流畅、自然和精确。",
     "ja": "最新の音声モデルは精度が向上し、遅延が短くなり、音声インタラクションがより滑らかで自然かつ正確になりました。"
-  },
-  "Search Live is expanding globally": {
-    "zh": "Search Live 正在全球扩张",
-    "ja": "Search Live は世界的に拡大しています"
-  },
-  "We’re expanding Search Live globally, to all languages and locations where AI Mode is available.": {
-    "zh": "我们正在全球范围内将 Search Live 扩展到支持 AI 模式的所有语言和地点。",
-    "ja": "AI モードが利用できるすべての言語と場所に、Search Live をグローバルに拡大しています。"
   },
   "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.": {
     "zh": "隆重推出 Lyria 3 Pro，它可以通过结构意识解锁更长的轨道。我们还将 Lyria 引入更多 Google 产品和界面。",
@@ -2037,10 +2025,6 @@
   "Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp...": {
     "zh": "已弃用 视频生成预览端点 弃用 下表介绍了已弃用的视频生成端点及其替代品。我们建议在 2026 年 4 月 2 日之前更新您的模型端点，以避免服务中断。已停用的端点 建议的端点迁移 veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp...",
     "ja": "非推奨のビデオ生成プレビュー エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 4 月 2 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp..."
-  },
-  "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions): Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex The Gemini 3 Pro deprecation date is accelerated due to provider deprecation. Please update your...": {
-    "zh": "我们将在所有 GitHub Copilot 体验中弃用以下模型（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.4 迷你 GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex Gemini 3 Pro 弃用日期因提供商弃用而提前。请更新您的...",
-    "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Gemini 3 プロバイダーの非推奨により、Pro の非推奨日が早まります。更新してください..."
   },
   "Copilot usage metrics now includes plan mode telemetry. Enterprises can track adoption and engagement trends for plan mode alongside existing Copilot metrics, enabling a more complete view of how teams are implementing plans directly in their IDE. Availability Plan mode telemetry is included as part of the broader Copilot usage metrics experience. Please ensure Copilot usage metrics is enabled for the enterprise or organization. Telemetry is supported for JetBrains, Eclipse, Xcode, and VS Code...": {
     "zh": "Copilot 使用指标现在包括计划模式遥测。企业可以跟踪计划模式的采用和参与趋势以及现有的 Copilot 指标，从而更全面地了解团队如何直接在其 IDE 中实施计划。可用性计划模式遥测包含在更广泛的 Copilot 使用指标体验中。请确保为企业或组织启用 Copilot 使用指标。 JetBrains、Eclipse、Xcode 和 VS Code 支持遥测...",
@@ -2952,5 +2936,29 @@
   "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.": {
     "zh": "我们的使命是确保 AGI 造福全人类。 Sam Altman 分享了指导我们工作的五项原则。",
     "ja": "私たちの使命は、AGI が全人類に利益をもたらすことを保証することです。サム・アルトマンは、私たちの仕事の指針となる 5 つの原則を共有しています。"
+  },
+  "The next phase of the Microsoft OpenAI partnership": {
+    "zh": "Microsoft OpenAI 合作伙伴关系的下一阶段",
+    "ja": "Microsoft OpenAI パートナーシップの次の段階"
+  },
+  "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.": {
+    "zh": "OpenAI 和 Microsoft 宣布了一项修订后的协议，该协议简​​化了合作伙伴关系，增加了长期清晰度，并支持大规模的持续人工智能创新。",
+    "ja": "OpenAI と Microsoft は、パートナーシップを簡素化し、長期的な明確性を加え、大規模な AI イノベーションの継続をサポートする修正契約を発表しました。"
+  },
+  "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026": {
+    "zh": "GitHub Copilot 代码审查将于 2026 年 6 月 1 日开始消耗 GitHub 操作分钟数",
+    "ja": "GitHub Copilot コード レビューは、2026 年 6 月 1 日に GitHub アクション分の消費を開始します"
+  },
+  "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare. The sections below outline what is changing, why, and how to plan accordingly. What’s changing Last month, we shared how GitHub Copilot code review runs on agentic tool-calling architecture, allowing...": {
+    "zh": "世界各地的开发人员和工程团队使用 GitHub Copilot 对每个拉取请求进行高质量、由代理支持的代码审查。我们知道任何变化对我们的客户都很重要，尤其是与计费相关的变化，因此我们提前分享此更新以帮助您进行计划和准备。以下部分概述了变化的内容、原因以及如何进行相应的规划。发生了什么变化上个月，我们分享了 GitHub Copilot 代码审查如何在代理工具调用架构上运行，从而允许...",
+    "ja": "世界中の開発者とエンジニアリング チームは、すべてのプル リクエストでエージェントによる高品質のコード レビューを行うために GitHub Copilot を使用しています。特に請求に関する変更はお客様にとって重要であることを当社は理解しているため、お客様の計画と準備に役立つよう、この更新情報を早期に共有しています。以下のセクションでは、何が変更されるのか、なぜ変更されるのか、それに応じて計画を立てる方法について概説します。何が変わるのか 先月、エージェント ツール呼び出しアーキテクチャで GitHub Copilot コード レビューを実行する方法を共有しました。"
+  },
+  "Join the new AI Agents Vibe Coding Course from Google and Kaggle": {
+    "zh": "加入 Google 和 Kaggle 推出的新 AI Agents Vibe 编码课程",
+    "ja": "Google と Kaggle の新しい AI Agents Vibe コーディング コースに参加してください"
+  },
+  "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.": {
+    "zh": "谷歌将通过 Kaggle 重新推出为期 5 天的人工智能代理强化课程，现已开放报名。",
+    "ja": "Google は、Kaggle を使用した 5 日間の AI エージェント集中コースを復活させ、登録を開始しています。"
   }
 }
