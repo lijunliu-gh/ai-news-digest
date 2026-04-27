@@ -1098,10 +1098,6 @@
     "zh": "通过 API 管理 Copilot 编码代理存储库访问",
     "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する"
   },
-  "Ask @copilot to make changes to a pull request": {
-    "zh": "要求 @copilot 对拉取请求进行更改",
-    "ja": "@copilot にプル リクエストに変更を加えるように依頼します"
-  },
   "Gemini 3.1 Pro is now available in JetBrains IDEs, Xcode, and Eclipse": {
     "zh": "Gemini 3.1 Pro 现已在 JetBrains IDE、Xcode 和 Eclipse 中提供",
     "ja": "Gemini 3.1 Pro が JetBrains IDE、Xcode、および Eclipse で利用可能になりました"
@@ -1190,10 +1186,6 @@
     "zh": "GitHub Mobile：通过实时通知实时跟踪编码代理进度",
     "ja": "GitHub モバイル: ライブ通知を使用してコーディング エージェントの進行状況をリアルタイムで追跡する"
   },
-  "Enterprise AI Controls & agent control plane now generally available": {
-    "zh": "企业人工智能控制和代理控制平面现已普遍可用",
-    "ja": "Enterprise AI Controls とエージェント コントロール プレーンが一般提供開始"
-  },
   "Copilot metrics report URLs update": {
     "zh": "Copilot 指标报告 URL 更新",
     "ja": "Copilot メトリクス レポート URL の更新"
@@ -1201,10 +1193,6 @@
   "Copilot Content Exclusion REST API in public preview": {
     "zh": "公开预览版中的 Copilot 内容排除 REST API",
     "ja": "パブリック プレビュー中の Copilot コンテンツ除外 REST API"
-  },
-  "Claude and Codex now available for Copilot Business & Pro users": {
-    "zh": "Claude 和 Codex 现已可供 Copilot Business 和 Pro 用户使用",
-    "ja": "Copilot Business および Pro ユーザーが Claude と Codex を利用できるようになりました"
   },
   "Org-level metrics API now includes pull request throughput metric parity": {
     "zh": "组织级指标 API 现在包括拉取请求吞吐量指标奇偶校验",
@@ -1626,10 +1614,6 @@
     "zh": "Cloudflare 将 OpenAI 的 GPT-5.4 和 Codex 引入 Agent Cloud，使企业能够快速、安全地构建、部署和扩展用于实际任务的 AI 代理。",
     "ja": "Cloudflareは、OpenAIのGPT-5.4とCodexをAgent Cloudに導入し、企業が現実世界のタスク用にAIエージェントを迅速かつ安全に構築、デプロイ、拡張できるようにします。"
   },
-  "Remote control CLI sessions on web and mobile in public preview": {
-    "zh": "在公共预览版中远程控制 Web 和移动设备上的 CLI 会话",
-    "ja": "パブリック プレビュー中の Web およびモバイルでの CLI セッションのリモート制御"
-  },
   "Fix merge conflicts in three clicks with Copilot cloud agent": {
     "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
     "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正"
@@ -1753,10 +1737,6 @@
   "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties— deployable and deployed —are now available. These properties reflect existing artifact and deployment metadata, so you don’t need to manually maintain lists of which repositories are actively deployed. You can use these properties to: Filter repositories in your organization based on deployment...": {
     "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
     "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする..."
-  },
-  "The Copilot CLI is no longer a purely local experience. Today we’re launching copilot --remote: With remote capabilities, you can now monitor and steer a running CLI session directly from GitHub on the web or in the GitHub Mobile apps. When remote sessions are enabled, Copilot streams your CLI session activity to GitHub in real time. The CLI will display a link and a QR code that you can open from another device to view, monitor, and send follow up commands to that session. Activity stays in...": {
-    "zh": "Copilot CLI 不再是纯粹的本地体验。今天，我们将推出 copilot --remote：借助远程功能，您现在可以直接从网络上的 GitHub 或 GitHub 移动应用程序中监控和引导正在运行的 CLI 会话。启用远程会话后，Copilot 将您的 CLI 会话活动实时传输到 GitHub。 CLI 将显示一个链接和一个 QR 代码，您可以从其他设备打开它们以查看、监控并向该会话发送后续命令。活动停留在...",
-    "ja": "Copilot CLI は、純粋にローカルなエクスペリエンスではなくなりました。本日、copilot --remote をリリースします。リモート機能を使用すると、Web 上の GitHub または GitHub モバイル アプリから直接、実行中の CLI セッションを監視および操作できるようになります。リモート セッションが有効になると、Copilot は CLI セッション アクティビティをリアルタイムで GitHub にストリーミングします。 CLI にはリンクと QR コードが表示され、別のデバイスからこれらを開いて表示、監視し、そのセッションにフォローアップ コマンドを送信できます。活動は継続中です..."
   },
   "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts. When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment. You can also mention @copilot in pull requests to: Fix failing GitHub Actions...": {
     "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的 GitHub 操作...",
@@ -1914,10 +1894,6 @@
     "zh": "想要大规模管理 Copilot 编码代理访问的组织所有者现在可以使用新的 Copilot 编码代理管理 REST API（在公共预览版中提供）以编程方式执行此操作。使用这些 API，您可以： 决定 Copilot 编码代理是否可用于您的组织拥有的无存储库、所有存储库或选定的存储库。当您的组织设置为仅允许选定的存储库时，添加或删除允许的存储库。您还可以管理这些设置...",
     "ja": "Copilot コーディング エージェントへのアクセスを大規模に管理したい組織所有者は、パブリック プレビューで利用可能な新しい Copilot コーディング エージェント管理 REST API を使用してプログラムで管理できるようになりました。これらの API を使用すると、次のことが可能になります。 Copilot コーディング エージェントを、リポジトリなし、すべてのリポジトリ、または組織が所有する選択したリポジトリで使用できるかどうかを決定します。組織が選択されたリポジトリのみを許可するように設定されている場合は、許可されたリポジトリを追加または削除します。これらの設定を管理することもできます..."
   },
-  "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push...": {
-    "zh": "您现在可以在拉取请求中提及@copilot，要求 Copilot 进行更改。您可以要求@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试解决代码审查评论：@copilot解决此评论进行任何其他更改：@copilot添加一个单元测试，覆盖模型参数丢失时的情况Copilot编码代理在其自己的基于云的开发环境中工作，可以在其中进行更改，使用测试和linter验证其工作，然后推送...",
-    "ja": "プル リクエストで @copilot に言及して、Copilot に変更を依頼できるようになりました。 @copilot に次のことを依頼できます: 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは独自のクラウドベースの開発環境で動作し、変更を加え、テストとリンターでその動作を検証し、プッシュ..."
-  },
   "Deprecated Imagen generation GA endpoints deprecation The following table describes image generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before June 30, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006...": {
     "zh": "已弃用的 Imagen 生成 GA 端点已弃用 下表介绍了已弃用的映像生成端点及其替代品。我们建议在 2026 年 6 月 30 日之前更新您的模型端点，以避免服务中断。已停产的端点 建议的端点迁移 image Generation@002 gemini-2.5-flash-image image Generation@003 gemini-2.5-flash-image imagegenesis@004 gemini-2.5-flash-image imagegenesis@005 gemini-2.5-flash-image imagegenesis@006...",
     "ja": "非推奨の Imagen 生成 GA エンドポイントの非推奨 次の表では、非推奨のイメージ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 6 月 30 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 imagegeneration@002 gemini-2.5-flash-image imagegeneration@003 gemini-2.5-flash-image imagegeneration@004 gemini-2.5-flash-image imagegeneration@005 gemini-2.5-flash-image imagegeneration@006..."
@@ -2054,10 +2030,6 @@
     "zh": "实时编码代理通知现已在 GitHub 移动设备上提供，让您在旅途中更轻松地掌握 Copilot 编码代理和支持的第三方代理会话。从 GitHub.com、GitHub Mobile 或 CLI 启动的代理会话可以直接在您的手机上显示实时更新。使用实时活动，您将看到关键会话详细信息，例如相关的拉取请求标题和当前状态，并且您可以点击应用程序中的拉取请求以快速查看...",
     "ja": "ライブ コーディング エージェント通知が GitHub モバイルで利用できるようになり、外出中でも Copilot コーディング エージェントとサポートされているサードパーティ エージェント セッションを簡単に把握できるようになりました。 GitHub.com、GitHub Mobile、または CLI から開始されたエージェント セッションは、リアルタイムの更新を電話機に直接表示できます。ライブ アクティビティを使用すると、関連するプル リクエストのタイトルや現在のステータスなどの主要なセッションの詳細が表示され、アプリでプル リクエストをタップして簡単に確認できます。"
   },
-  "We are now announcing general availability of GitHub’s Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrators deeper control and greater auditability around the use of AI controls and agents across their environments. AI administration teams are expected to enable AI capabilities for their users while keeping their businesses safe. That starts with governance fundamentals, understanding agent activity, and...": {
-    "zh": "我们现在宣布 GitHub 的企业 AI 控制和代理控制平面全面上市，这是一套企业治理功能，旨在为 GitHub 企业管理员提供围绕其环境中 AI 控制和代理的使用进行更深入的控制和更高的可审核性。人工智能管理团队应为其用户启用人工智能功能，同时确保其业务安全。首先是治理基础知识、了解代理活动，然后……",
-    "ja": "この度、GitHub の Enterprise AI Controls とエージェント コントロール プレーンの一般提供を発表します。これは、GitHub エンタープライズ管理者が環境全体で AI コントロールとエージェントの使用に関してより深い制御と優れた監査可能性を提供できるように設計されたエンタープライズ ガバナンス機能スイートです。 AI 管理チームは、ビジネスを安全に保ちながら、ユーザーの AI 機能を有効にすることが期待されています。それはガバナンスの基礎、エージェントのアクティビティの理解から始まります..."
-  },
   "The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven’t changed. Action required If your firewall rules allowlist specific CDN domains, add copilot-reports-production-*.b01.azurefd.net alongside the existing copilot-reports-*.b01.azurefd.net pattern. If you download reports using the download links in the dashboard UI, you don’t need to make any changes. To view the current list of...": {
     "zh": "GitHub Copilot 使用指标 API 返回的下载 URL 现在来自新端点。您的报告数据、API 合同和响应架构没有更改。所需操作 如果您的防火墙规则将特定 CDN 域列入允许名单，请添加 copilot-reports-product-*.b01.azurefd.net 以及现有的 copilot-reports-*.b01.azurefd.net 模式。如果您使用仪表板 UI 中的下载链接下载报告，则无需进行任何更改。要查看当前列表...",
     "ja": "GitHub Copilot 使用状況メトリクス API によって返されるダウンロード URL は、新しいエンドポイントから取得されるようになりました。レポート データ、API コントラクト、および応答スキーマは変更されていません。必要なアクション ファイアウォール ルールで特定の CDN ドメインを許可リストに登録している場合は、既存の copilot-reports-production-*.b01.azurefd.net パターンと一緒に copilot-reports-production-*.b01.azurefd.net を追加します。ダッシュボード UI のダウンロード リンクを使用してレポートをダウンロードする場合は、変更を加える必要はありません。現在のリストを表示するには..."
@@ -2065,10 +2037,6 @@
   "Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale. API Documentation About excluding content from GitHub Copilot Join the discussion within GitHub Community. The post Copilot Content Exclusion REST API in public preview...": {
     "zh": "组织和企业管理员现在可以使用新的内容排除 REST API 以编程方式管理 Copilot 内容排除规则。此 JSON API 提供公共预览版，支持组织和企业级别的 GET 和 SET 操作，从而实现更轻松的大规模自动化和治理。 API 文档 关于从 GitHub 中排除内容 Copilot 加入 GitHub 社区内的讨论。公共预览版中的 Copilot 内容排除 REST API 后...",
     "ja": "組織および企業の管理者は、新しいコンテンツ除外 REST API を使用して、Copilot コンテンツ除外ルールをプログラムで管理できるようになりました。この JSON API はパブリック プレビューで利用でき、組織レベルとエンタープライズ レベルの両方で GET および SET 操作をサポートし、大規模な自動化とガバナンスを容易にします。 API ドキュメント GitHub からのコンテンツの除外について Copilot GitHub コミュニティ内のディスカッションに参加してください。パブリック プレビュー中のポスト Copilot コンテンツ除外 REST API..."
-  },
-  "Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and today we’re expanding availability to more teams. You can run Claude, Codex, and Copilot directly inside github.com, GitHub Mobile, and VS Code, all within your existing GitHub workflows. Whether you’re reviewing code on the web, triaging issues on your phone, or iterating in the editor, you can stay...": {
-    "zh": "Anthropic 的 Claude 和 OpenAI Codex 现在可作为 Copilot Business 和 Copilot Pro 客户的编码代理。 Copilot Enterprise 和 Pro+ 客户已于本月初获得访问权限，今天我们将可用性扩展到更多团队。您可以直接在 github.com、GitHub Mobile 和 VS Code 中运行 Claude、Codex 和 Copilot，所有这些都在现有的 GitHub 工作流程中。无论您是在网络上审查代码、在手机上分类问题还是在编辑器中进行迭代，您都可以...",
-    "ja": "Anthropic および OpenAI Codex による Claude が、Copilot Business および Copilot Pro の顧客向けのコーディング エージェントとして利用できるようになりました。 Copilot Enterprise および Pro+ のお客様は今月初めにアクセスを受け取りましたが、本日より多くのチームが利用できるようになります。 Claude、Codex、および Copilot は、すべて既存の GitHub ワークフロー内で、github.com、GitHub Mobile、および VS Code 内で直接実行できます。 Web 上でコードをレビューしている場合でも、携帯電話で問題を優先順位付けしている場合でも、エディターで繰り返し作業している場合でも、作業を続けることができます..."
   },
   "We’re expanding the organization-level Copilot Usage Metrics API to include a broader set of pull request activity, including creation volume, throughput and cycle time. This brings the org-level endpoints to parity with what was previously available only at the enterprise level. What’s new Organizations can now retrieve daily aggregated pull request activity and Copilot participation metrics directly from the org-level API, including: Baseline pull request activity Total pull requests created...": {
     "zh": "我们正在扩展组织级 Copilot 使用指标 API，以包含更广泛的拉取请求活动，包括创建量、吞吐量和周期时间。这使得组织级端点与以前仅在企业级可用的端点相同。新功能 组织现在可以直接从组织级 API 检索每日汇总的拉取请求活动和 Copilot 参与指标，包括： 基线拉取请求活动 创建的拉取请求总数...",
@@ -2565,14 +2533,6 @@
     "zh": "此更新为 JetBrains IDE 中的 GitHub Copilot 带来了多项新功能和改进。核心代理功能（包括自定义代理、子代理和计划代理）现已普遍可用，并提供预览版代理挂钩和对 MCP 的自动批准支持。它还扩展了对代理指令文件的支持，使自动模型选择普遍可用，增强了模型和推理体验，并包括额外的用户体验和质量改进。新功能代理...",
     "ja": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements.新機能エージェント..."
   },
-  "Explore a repository using Copilot on the web": {
-    "zh": "在网络上使用 Copilot 探索存储库",
-    "ja": "Web 上で Copilot を使用してリポジトリを探索する"
-  },
-  "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current...": {
-    "zh": "当您在网络上与 Copilot 聊天时，我们使您可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并在上下文中询问 Copilot 正确的问题从未如此简单。无缝添加对聊天的引用当您导航文件资源管理器时，您选择的文件会自动添加到您当前的...",
-    "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は Copilot にファイルを表示するように要求し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動してコンテキスト内で Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーをナビゲートすると、選択したファイルが現在のファイルに自動的に追加されます。"
-  },
   "Copilot Memory now on by default for Pro and Pro+ users in public preview": {
     "zh": "Copilot 现在在公共预览版中默认为 Pro 和 Pro+ 用户启用内存",
     "ja": "Copilot パブリック プレビューで Pro および Pro+ ユーザーに対してメモリがデフォルトでオンになりました"
@@ -2580,14 +2540,6 @@
   "Copilot Memory is now enabled by default for all GitHub Copilot Pro and Copilot Pro+ users. Previously in public preview as an opt-in feature, Copilot Memory allows Copilot to build and retain a persistent, repository-level understanding of your codebase so you spend less time reexplaining context and more time shipping code. What is Copilot Memory? Copilot Memory enables Copilot agents to discover and store useful facts about a repository (e.g., coding conventions, architectural patterns, and...": {
     "zh": "现在，所有 GitHub Copilot Pro 和 Copilot Pro+ 用户默认启用 Copilot 内存。之前在公共预览版中作为一项可选功能，Copilot Memory 允许 Copilot 构建并保留对代码库的持久的、存储库级别的理解，这样您就可以花更少的时间重新解释上下文，而将更多的时间用于交付代码。什么是 Copilot 内存？ Copilot 内存使 Copilot 代理能够发现和存储有关存储库的有用事实（例如，编码约定、架构模式等）",
     "ja": "Copilot メモリは、すべての GitHub Copilot Pro および Copilot Pro+ ユーザーに対してデフォルトで有効になりました。以前はオプトイン機能としてパブリック プレビューとして提供されていましたが、Copilot メモリを使用すると、Copilot がコードベースの永続的なリポジトリ レベルの理解を構築して保持できるため、コンテキストの再説明に費やす時間を減らし、コードの出荷により多くの時間を費やすことができます。 Copilot メモリとは何ですか? Copilot メモリを使用すると、Copilot エージェントはリポジトリに関する有用な情報 (コーディング規約、アーキテクチャ パターンなど) を検出して保存できます。"
-  },
-  "Better debugging with GitHub Copilot on the web": {
-    "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
-    "ja": "Web 上の GitHub Copilot を使用したデバッグの向上"
-  },
-  "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what...": {
-    "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
-    "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか..."
   },
   "Memory": {
     "zh": "记忆",
@@ -2960,5 +2912,37 @@
   "Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.": {
     "zh": "谷歌将通过 Kaggle 重新推出为期 5 天的人工智能代理强化课程，现已开放报名。",
     "ja": "Google は、Kaggle を使用した 5 日間の AI エージェント集中コースを復活させ、登録を開始しています。"
+  },
+  "An open-source spec for orchestration: Symphony": {
+    "zh": "编排的开源规范：Symphony",
+    "ja": "オーケストレーションのオープンソース仕様: Symphony"
+  },
+  "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.": {
+    "zh": "了解 Symphony（Codex 编排的开源规范）如何将问题跟踪器转变为始终在线的代理系统，从而提高工程输出并减少上下文切换。",
+    "ja": "Codex オーケストレーションのオープンソース仕様である Symphony が、問題トラッカーを常時稼働のエージェント システムに変え、エンジニアリングの成果を高め、コンテキストの切り替えを減らす方法を学びましょう。"
+  },
+  "Copilot Student GPT-5.3-Codex removal from model picker": {
+    "zh": "Copilot Student GPT-5.3-Codex 从模型选择器中删除",
+    "ja": "Copilot Student GPT-5.3-Codex をモデル ピッカーから削除"
+  },
+  "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each request with the strongest model for the job, which means less time toggling settings and more time coding. It’s also how we keep the Student plan performant and free for learners around the world. This change is part of the temporary reliability and performance measures we recently rolled out across...": {
+    "zh": "从今天开始，在我们的 Copilot 学生计划中，我们将从模型选择器中删除 GPT-5.3-Codex。它仍然可以通过自动模型选择来使用。自动模型选择旨在将每个请求与最适合作业的模型相匹配，这意味着更少的时间切换设置和更多的时间编码。这也是我们保持学生计划高效且免费向世界各地的学习者提供的方式。这一变化是我们最近推出的临时可靠性和性能措施的一部分......",
+    "ja": "本日より、Copilot Student プランで、GPT-5.3-Codex をモデル ピッカーから削除します。自動車モデルの選択を通じて引き続き利用できます。自動モデル選択は、各リクエストをジョブにとって最も強力なモデルと照合するように構築されているため、設定の切り替えにかかる時間が短縮され、コーディングにかかる​​時間が短縮されます。これは、学生プランのパフォーマンスを維持し、世界中の学習者に無料で提供する方法でもあります。この変更は、最近全社に展開した一時的な信頼性とパフォーマンス対策の一部です。"
+  },
+  "Copilot cloud agent starts 20% faster with Actions custom images": {
+    "zh": "Copilot 云代理使用 Actions 自定义映像启动速度提高 20%",
+    "ja": "Copilot アクション カスタム イメージを使用すると、クラウド エージェントの起動が 20% 高速化されます"
+  },
+  "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task from the Agents tab, or mention @copilot in a pull request, the agent spins up a cloud-based environment to do its work. By prebuilding that environment with a custom Actions image, startup overhead has been significantly reduced, getting Copilot to work on your code faster than before. This builds on the 50%...": {
+    "zh": "由于使用 GitHub Actions 自定义映像构建了优化的运行器环境，Copilot 云代理现在的启动速度提高了 20% 以上。当您将问题分配给 Copilot、从“代理”选项卡启动任务或在拉取请求中提及 @copilot 时，代理会启动基于云的环境来完成其工作。通过使用自定义操作映像预构建该环境，启动开销已显着减少，使 Copilot 能够比以前更快地处理代码。这建立在 50% 的基础上...",
+    "ja": "GitHub アクション カスタム イメージを使用して構築された最適化されたランナー環境のおかげで、Copilot クラウド エージェントの起動が 20% 以上高速になりました。問題を Copilot に割り当てるか、[エージェント] タブからタスクを開始するか、プル リクエストで @copilot に言及すると、エージェントはクラウドベースの環境を起動して作業を実行します。カスタム アクション イメージを使用してその環境を事前構築することで、起動時のオーバーヘッドが大幅に削減され、Copilot が以前よりも速くコード上で動作できるようになります。これは 50% に基づいています..."
+  },
+  "Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models": {
+    "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
+    "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の非推奨"
+  },
+  "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions): Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex The Gemini 3 Pro deprecation date is accelerated due to provider deprecation. Please update your...": {
+    "zh": "我们将在所有 GitHub Copilot 体验中弃用以下模型（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.4 迷你 GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex Gemini 3 Pro 弃用日期因提供商弃用而提前。请更新您的...",
+    "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Gemini 3 プロバイダーの非推奨により、Pro の非推奨日が早まります。更新してください..."
   }
 }
