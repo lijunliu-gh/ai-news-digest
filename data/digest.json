@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-27-openai-openai-available-at-fedramp-moderate",
+      "date": "2026-04-27",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 在 FedRAMP 中等可用",
+        "ja": "OpenAI は FedRAMP Moderate で利用可能",
+        "en": "OpenAI available at FedRAMP Moderate"
+      },
+      "summary": {
+        "zh": "OpenAI 可在 FedRAMP 对 ChatGPT Enterprise 和 OpenAI API 进行适度授权，从而为美国联邦机构提供安全的 AI 采用。",
+        "ja": "OpenAI は、ChatGPT Enterprise および OpenAI API の FedRAMP Moderate 認証で利用可能であり、米国連邦機関の安全な AI 導入を可能にします。",
+        "en": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies."
+      },
+      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-04-27-openai-open-source-codex-orchestration-symphony",
       "date": "2026-04-27",
@@ -145,6 +167,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-27-anthropic-theo-hourmouzis-general-manager-australia-new-zealand",
+      "date": "2026-04-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 悉尼办事处",
+        "ja": "Anthropic シドニーオフィス",
+        "en": "Anthropic Sydney office"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-04-26-openai-our-principles",
@@ -516,6 +559,30 @@
         "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface. Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request. New abilities Three new..."
       },
       "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
+        "ja": "Web 上の GitHub Copilot を使用したデバッグの改善",
+        "en": "Better debugging with GitHub Copilot on the web"
+      },
+      "summary": {
+        "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
+        "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか...",
+        "en": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what..."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
       "tags": [
         "improvement",
         "copilot",
@@ -1547,48 +1614,23 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-04-13-github-2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+      "id": "2026-04-13-github-2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
       "date": "2026-04-13",
       "category": "github",
       "title": {
-        "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
-        "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正",
-        "en": "Fix merge conflicts in three clicks with Copilot cloud agent"
+        "zh": "在公共预览版中远程控制 Web 和移动设备上的 CLI 会话",
+        "ja": "パブリック プレビュー中の Web およびモバイルでの CLI セッションのリモート制御",
+        "en": "Remote control CLI sessions on web and mobile in public preview"
       },
       "summary": {
-        "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的 GitHub 操作...",
-        "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。コメントを送信すると、Copilot は競合を修正し、ビルドとテストが引き続き合格することを確認して、プッシュします。そして、これらすべてを独自のクラウドベースの開発環境から実行します。プル リクエストで @copilot に言及して、失敗した GitHub アクションを修正することもできます。",
-        "en": "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts. When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment. You can also mention @copilot in pull requests to: Fix failing GitHub Actions..."
+        "zh": "Copilot CLI 不再是纯粹的本地体验。今天，我们将推出 copilot --remote：借助远程功能，您现在可以直接从网络上的 GitHub 或 GitHub 移动应用程序中监控和引导正在运行的 CLI 会话。启用远程会话后，Copilot 将您的 CLI 会话活动实时传输到 GitHub。 CLI 将显示一个链接和一个 QR 代码，您可以从其他设备打开它们以查看、监控并向该会话发送后续命令。活动停留在...",
+        "ja": "Copilot CLI は、純粋にローカルなエクスペリエンスではなくなりました。本日、copilot --remote をリリースします。リモート機能を使用すると、Web 上の GitHub または GitHub モバイル アプリから直接、実行中の CLI セッションを監視および操作できるようになります。リモート セッションが有効になると、Copilot は CLI セッション アクティビティをリアルタイムで GitHub にストリーミングします。 CLI にはリンクと QR コードが表示され、別のデバイスからこれらを開いて表示、監視し、そのセッションにフォローアップ コマンドを送信できます。アクティビティは次のとおりです...",
+        "en": "The Copilot CLI is no longer a purely local experience. Today we’re launching copilot --remote: With remote capabilities, you can now monitor and steer a running CLI session directly from GitHub on the web or in the GitHub Mobile apps. When remote sessions are enabled, Copilot streams your CLI session activity to GitHub in real time. The CLI will display a link and a QR code that you can open from another device to view, monitor, and send follow up commands to that session. Activity stays in..."
       },
-      "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-13-github-2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
-      "date": "2026-04-13",
-      "category": "github",
-      "title": {
-        "zh": "数据驻留（美国 + 欧盟）和 FedRAMP 授权模型现已在 Copilot 中提供",
-        "ja": "データ常駐 (米国 + EU) および FedRAMP 認定モデルが Copilot で利用可能になりました",
-        "en": "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 4 月 24 日）：更新了这篇文章以包含有关这些产品的更详细和具体的信息。我们还添加了参考链接。做出这些更改是为了让更改内容更加清晰。 GitHub Copilot 现在支持美国和欧盟地区的数据驻留，确保所有推理处理和关联数据驻留在您指定的地理位置内。欧盟与 Microsoft 的欧盟数据边界保持一致，涵盖欧盟成员国以及欧洲自由贸易联盟国家（即...",
-        "ja": "編集者注 (2026 年 4 月 24 日): この投稿を更新して、これらのサービスに関するより詳細かつ具体的な情報を追加しました。参考までにリンクも追加しました。これらの変更は、何が変更されたのかを明確にするために行われました。 GitHub Copilot は、米国および EU 地域のデータ常駐をサポートするようになり、すべての推論処理と関連データが指定された地域内に留まるようにします。 EU は、EU 加盟国と EFTA 諸国をカバーする Microsoft の EU データ境界に準拠しています (例:",
-        "en": "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed. GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e..."
-      },
-      "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+      "url": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
       "tags": [
         "release",
         "copilot",
-        "platform-governance",
         "github",
         "changelog"
       ],
@@ -3323,6 +3365,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "date": "2026-03-24",
+      "category": "github",
+      "title": {
+        "zh": "要求 @copilot 对拉取请求进行更改",
+        "ja": "@copilot にプル リクエストに変更を加えるように依頼します",
+        "en": "Ask @copilot to make changes to a pull request"
+      },
+      "summary": {
+        "zh": "您现在可以在拉取请求中提及@copilot，要求 Copilot 进行更改。您可以要求@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试解决代码审查评论：@copilot解决此评论进行任何其他更改：@copilot添加一个单元测试，覆盖模型参数丢失时的情况Copilot编码代理在其自己的基于云的开发环境中工作，可以在其中进行更改，使用测试和linter验证其工作，然后推送...",
+        "ja": "プル リクエストで @copilot に言及して、Copilot に変更を依頼できるようになりました。 @copilot に次のことを依頼できます: 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは独自のクラウドベースの開発環境で動作し、変更を加え、テストとリンターで動作を検証し、プッシュ...",
+        "en": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push..."
+      },
+      "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-23-openai-creating-with-sora-safely",
       "date": "2026-03-23",
       "category": "openai",
@@ -3888,30 +3954,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-03-13-github-2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
-      "date": "2026-03-13",
-      "category": "github",
-      "title": {
-        "zh": "（可选）跳过 Copilot 编码代理操作工作流程的审批",
-        "ja": "オプションで、Copilot コーディング エージェントのアクション ワークフローの承認をスキップします。",
-        "en": "Optionally skip approval for Copilot coding agent Actions workflows"
-      },
-      "summary": {
-        "zh": "当 Copilot 编码代理打开拉取请求或推送更改时，Copilot 被视为开源项目中的外部贡献者。 GitHub 操作工作流只有在人工使用“批准并运行工作流”按钮批准后才会运行。鉴于 GitHub 操作工作流可能有权访问令牌、机密或存储库权限，这有助于保护您免受安全风险，具体取决于您的配置。然而，它减慢了验证 Copilot 工作的反馈循环，并且......",
-        "ja": "Copilot コーディング エージェントがプル リクエストを開いたり、変更をプッシュしたりすると、Copilot はオープン ソース プロジェクトの外部貢献者のように扱われます。 GitHub アクション ワークフローは、人間が [ワークフローの承認と実行] ボタンを使用して承認するまで実行されません。構成に応じて、GitHub アクション ワークフローがトークン、シークレット、またはリポジトリのアクセス許可にアクセスできる場合があるため、これはセキュリティ リスクから保護するのに役立ちます。ただし、Copilot の作業を検証するためのフィードバック ループが遅くなります...",
-        "en": "When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button. This helps protect you from security risks, given that GitHub Actions workflows may have access to tokens, secrets, or repository permissions, depending on your configuration. However, it slows down the feedback loop for validating Copilot’s work and..."
-      },
-      "url": "https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-13-anthropic-release-notes-2",
       "date": "2026-03-13",
       "category": "anthropic",
@@ -4167,6 +4209,30 @@
       "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 Copilot 探索存储库",
+        "ja": "Web 上で Copilot を使用してリポジトリを探索する",
+        "en": "Explore a repository using Copilot on the web"
+      },
+      "summary": {
+        "zh": "当您在网络上与 Copilot 聊天时，我们使您可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并在上下文中询问 Copilot 正确的问题从未如此简单。无缝添加对聊天的引用当您导航文件资源管理器时，您选择的文件会自动添加到您当前的...",
+        "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は Copilot にファイルを表示するように要求し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動してコンテキスト内で Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーをナビゲートすると、選択したファイルが現在のファイルに自動的に追加されます。",
+        "en": "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current..."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -4559,31 +4625,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-03-05-github-2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview",
-      "date": "2026-03-05",
-      "category": "github",
-      "title": {
-        "zh": "Jira 的 GitHub Copilot 编码代理现已推出公共预览版",
-        "ja": "Jira 用 GitHub Copilot コーディング エージェントがパブリック プレビュー段階になりました",
-        "en": "GitHub Copilot coding agent for Jira is now in public preview"
-      },
-      "summary": {
-        "zh": "现在，您可以将 Jira 问题分配给 GitHub Copilot 编码代理（我们的异步自主代理），并获取在 GitHub 存储库中创建的 AI 生成的草稿拉取请求。当您将 Jira 问题分配给 Copilot 时，它将： 分析 Jira 问题的描述和评论以收集相关上下文。独立工作以实施更改并打开草稿拉取请求。通过代理面板在 Jira 中发布更新。当需要更多信息时，在 Jira 中提出澄清问题。主要优点...",
-        "ja": "Jira 課題を GitHub Copilot コーディング エージェント (非同期自律エージェント) に割り当て、GitHub リポジトリに作成された AI 生成のドラフト プル リクエストを取得できるようになりました。 Jira 課題を Copilot に割り当てると、次のことが行われます。 Jira 課題の説明とコメントを分析して、関連するコンテキストを収集します。独立して作業して変更を実装し、ドラフト プル リクエストをオープンします。エージェント パネルを介して Jira に更新を投稿します。さらに詳しい情報が必要な場合は、Jira で明確な質問をしてください。主な利点...",
-        "en": "You can now assign Jira issues to GitHub Copilot coding agent, our asynchronous, autonomous agent, and get AI-generated draft pull requests created in your GitHub repository. When you assign a Jira issue to Copilot, it will: Analyze the Jira issue’s description and comments to gather relevant context. Work independently to implement changes and open a draft pull request. Post updates in Jira via the agent panel. Ask clarifying questions in Jira when more information is needed. Key benefits..."
-      },
-      "url": "https://github.blog/changelog/2026-03-05-github-copilot-coding-agent-for-jira-is-now-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-05-github-2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
       "date": "2026-03-05",
       "category": "github",
@@ -4628,30 +4669,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-05-github-2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
-      "date": "2026-03-05",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 代码审查现在在代理架构上运行",
-        "ja": "Copilot のコード レビューがエージェント アーキテクチャで実行されるようになりました",
-        "en": "Copilot code review now runs on an agentic architecture"
-      },
-      "summary": {
-        "zh": "Copilot 代码审查现在在代理工具调用架构上运行，并且通常可供使用 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 的所有用户使用。有关背景信息，请参阅公开预览版公告。什么是新的？ ✨ Copilot 代码审查现在使用代理工具调用来根据需要收集更广泛的存储库上下文（例如相关代码、目录结构和引用），因此反馈反映了您的更改如何适应更大的架构。具有代理...",
-        "ja": "Copilot コード レビューは、エージェント ツール呼び出しアーキテクチャで実行されるようになり、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise を使用するすべてのユーザーが一般的に利用できるようになりました。背景については、パブリック プレビューの発表をご覧ください。新着情報？ ✨ Copilot コード レビューでは、エージェント ツールの呼び出しを使用して、必要に応じてより広範なリポジトリ コンテキスト (関連するコード、ディレクトリ構造、参照など) を収集するようになりました。そのため、フィードバックは、変更がより大きなアーキテクチャにどのように適合するかを反映します。エージェントとは...",
-        "en": "Copilot code review now runs on an agentic tool-calling architecture and is generally available for all users with Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise. For background, see the public preview announcement. What’s new? ✨ Copilot code review now uses agentic tool calling to gather broader repository context as needed (e.g., relevant code, directory structure, and references) so feedback reflects how your changes fit into the larger architecture. With agentic..."
-      },
-      "url": "https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -5351,6 +5368,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-26-github-2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available",
+      "date": "2026-02-26",
+      "category": "github",
+      "title": {
+        "zh": "企业人工智能控制和代理控制平面现已普遍可用",
+        "ja": "Enterprise AI Controls とエージェント コントロール プレーンが一般提供開始",
+        "en": "Enterprise AI Controls & agent control plane now generally available"
+      },
+      "summary": {
+        "zh": "我们现在宣布 GitHub 的企业 AI 控制和代理控制平面全面上市，这是一套企业治理功能，旨在为 GitHub 企业管理员提供围绕其环境中 AI 控制和代理的使用进行更深入的控制和更高的可审核性。人工智能管理团队应为其用户启用人工智能功能，同时确保其业务安全。首先是治理基础知识、了解代理活动，然后……",
+        "ja": "この度、GitHub の Enterprise AI Controls とエージェント コントロール プレーンの一般提供を発表します。これは、GitHub エンタープライズ管理者が環境全体で AI コントロールとエージェントの使用に関してより深い制御と優れた監査可能性を提供できるように設計されたエンタープライズ ガバナンス機能スイートです。 AI 管理チームは、ビジネスを安全に保ちながら、ユーザーの AI 機能を有効にすることが期待されています。それはガバナンスの基礎、エージェントのアクティビティの理解から始まります...",
+        "en": "We are now announcing general availability of GitHub’s Enterprise AI Controls and agent control plane, a suite of enterprise governance features designed to give GitHub Enterprise administrators deeper control and greater auditability around the use of AI controls and agents across their environments. AI administration teams are expected to enable AI capabilities for their users while keeping their businesses safe. That starts with governance fundamentals, understanding agent activity, and..."
+      },
+      "url": "https://github.blog/changelog/2026-02-26-enterprise-ai-controls-agent-control-plane-now-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-26-github-2026-02-26-copilot-metrics-report-urls-update",
       "date": "2026-02-26",
       "category": "github",
@@ -5391,6 +5433,30 @@
         "en": "Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale. API Documentation About excluding content from GitHub Copilot Join the discussion within GitHub Community. The post Copilot Content Exclusion REST API in public preview..."
       },
       "url": "https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-26-github-2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users",
+      "date": "2026-02-26",
+      "category": "github",
+      "title": {
+        "zh": "Claude 和 Codex 现在可供 Copilot Business 和 Pro 用户使用",
+        "ja": "Claude と Codex が Copilot Business および Pro ユーザー向けに利用可能になりました",
+        "en": "Claude and Codex now available for Copilot Business & Pro users"
+      },
+      "summary": {
+        "zh": "Anthropic 的 Claude 和 OpenAI Codex 现在可作为 Copilot Business 和 Copilot Pro 客户的编码代理。 Copilot Enterprise 和 Pro+ 客户已于本月初获得访问权限，今天我们将可用性扩展到更多团队。您可以直接在 github.com、GitHub Mobile 和 VS Code 中运行 Claude、Codex 和 Copilot，所有这些都在现有的 GitHub 工作流程中。无论您是在网络上审查代码、在手机上分类问题还是在编辑器中进行迭代，您都可以...",
+        "ja": "Anthropic および OpenAI Codex による Claude が、Copilot Business および Copilot Pro の顧客向けのコーディング エージェントとして利用できるようになりました。 Copilot Enterprise および Pro+ のお客様は今月初めにアクセスを受け取りましたが、本日より多くのチームが利用できるようになります。 Claude、Codex、および Copilot は、すべて既存の GitHub ワークフロー内で、github.com、GitHub Mobile、および VS Code 内で直接実行できます。 Web 上でコードをレビューしている場合でも、携帯電話で問題を優先順位付けしている場合でも、エディターで繰り返し作業している場合でも、作業を続けることができます...",
+        "en": "Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Business and Copilot Pro customers. Copilot Enterprise and Pro+ customers received access earlier this month, and today we’re expanding availability to more teams. You can run Claude, Codex, and Copilot directly inside github.com, GitHub Mobile, and VS Code, all within your existing GitHub workflows. Whether you’re reviewing code on the web, triaging issues on your phone, or iterating in the editor, you can stay..."
+      },
+      "url": "https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users",
       "tags": [
         "release",
         "copilot",
@@ -7998,71 +8064,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/servicenow-anthropic-claude",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-27-openai-pvh-future-of-fashion",
-      "date": "2026-01-27",
-      "category": "openai",
-      "title": {
-        "zh": "PVH 借助 OpenAI 重新构想时尚的未来",
-        "ja": "PVH は OpenAI でファッションの未来を再考します",
-        "en": "PVH reimagines the future of fashion with OpenAI"
-      },
-      "summary": {
-        "zh": "Calvin Klein 和 Tommy Hilfiger 的母公司 PVH Corp. 正在采用 ChatGPT Enterprise 将人工智能引入时装设计、供应链和消费者互动。",
-        "ja": "Calvin Klein と Tommy Hilfiger の親会社である PVH Corp. は、ファッション デザイン、サプライ チェーン、消費者エンゲージメントに AI を導入するために ChatGPT Enterprise を採用しています。",
-        "en": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement."
-      },
-      "url": "https://openai.com/index/pvh-future-of-fashion",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-27-openai-introducing-prism",
-      "date": "2026-01-27",
-      "category": "openai",
-      "title": {
-        "zh": "棱镜简介",
-        "ja": "プリズムの紹介",
-        "en": "Introducing Prism"
-      },
-      "summary": {
-        "zh": "Prism 是一个免费的 LaTeX 原生工作区，内置 GPT-5.2，可帮助研究人员在一个地方进行写作、协作和推理。",
-        "ja": "Prism は、GPT-5.2 が組み込まれた無料の LaTeX ネイティブ ワークスペースで、研究者が 1 か所で執筆、共同作業、推論するのに役立ちます。",
-        "en": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place."
-      },
-      "url": "https://openai.com/index/introducing-prism",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-01-27-anthropic-gov-uk-partnership",
-      "date": "2026-01-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 与英国政府合作，为 GOV.UK 服务提供人工智能援助",
-        "ja": "Anthropic は英国政府と提携し、GOV.UK のサービスに AI 支援を提供します",
-        "en": "Anthropic partners with the UK Government to bring AI assistance to GOV.UK services"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/gov-UK-partnership",
       "tags": [
         "anthropic"
       ],
