@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-04-30-openai-advanced-account-security",
+      "date": "2026-04-30",
+      "category": "openai",
+      "title": {
+        "zh": "引入高级帐户安全",
+        "ja": "高度なアカウント セキュリティの導入",
+        "en": "Introducing Advanced Account Security"
+      },
+      "summary": {
+        "zh": "引入高级帐户安全性：防网络钓鱼登录、更强的恢复以及增强的保护措施，以保护敏感数据并防止帐户被盗用。",
+        "ja": "高度なアカウント セキュリティの導入: フィッシング耐性のあるログイン、強力な回復、機密データを保護し、アカウントの乗っ取りを防ぐための強化された保護。",
+        "en": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover."
+      },
+      "url": "https://openai.com/index/advanced-account-security",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-04-30-github-2026-04-30-github-copilot-in-visual-studio-april-update",
       "date": "2026-04-30",
       "category": "github",
@@ -674,32 +696,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-23-github-2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
-      "date": "2026-04-23",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 云代理字段已添加到使用指标中",
-        "ja": "Copilot クラウド エージェント フィールドが使用状況メトリクスに追加されました",
-        "en": "Copilot cloud agent fields added to usage metrics"
-      },
-      "summary": {
-        "zh": "在将 Copilot 编码代理重命名为 Copilot 云代理之后，Copilot 使用指标 API 现在在用户级报告中包含一个新的used_copilot_cloud_agent 字段。此布尔字段反映更新后的产品名称下现有的used_copilot_coding_agent 标志。新增内容 字段 说明used_copilot_cloud_agent 用户在报告期间是否有 Copilot 云代理活动（布尔值，可为空） 该字段在单日和 28 天滚动窗口报告中可用，网址为...",
-        "ja": "Copilot コーディング エージェントから Copilot クラウド エージェントへの名前変更に続き、Copilot 使用状況メトリクス API には、ユーザー レベルのレポートに新しい used_copilot_cloud_agent フィールドが含まれるようになりました。このブール値フィールドは、更新された製品名の下にある既存の used_copilot_coding_agent フラグを反映します。新機能 フィールド 説明 used_copilot_cloud_agent レポート期間中にユーザーが Copilot クラウド エージェント アクティビティを行ったかどうか (ブール値、NULL 可能) このフィールドは、1 日および 28 日のローリング ウィンドウ レポートで使用できます。",
-        "en": "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name. What’s new Field Description used_copilot_cloud_agent Whether the user had Copilot cloud agent activity during the reporting period (boolean, nullable) The field is available in single-day and 28-day rolling window reports at..."
-      },
-      "url": "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-23-github-2026-04-23-copilot-chat-improvements-for-pull-requests",
       "date": "2026-04-23",
       "category": "github",
@@ -999,6 +995,30 @@
       "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-22-github-2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
+      "date": "2026-04-22",
+      "category": "github",
+      "title": {
+        "zh": "现在可以在 VS Code 中添加您自己的语言模型密钥",
+        "ja": "VS Code で独自の言語モデル キーを使用できるようになりました",
+        "en": "Bring your own language model key in VS Code now available"
+      },
+      "summary": {
+        "zh": "Copilot 商业和企业用户现在可以在 Visual Studio Code 中使用自带语言模型密钥 (BYOK)。 BYOK 允许团队重复使用其 API 密钥来访问来自 Anthropic、Gemini、OpenAI、OpenRouter 和 Azure 等提供商的模型，以及通过 Ollama 和 Foundry Local 本地运行的模型。配置完成后，BYOK 模型可在 VS Code Chat 中的任何位置使用，包括内置计划代理和自定义代理。 BYOK 不适用于代码完成。使用费用直接由...",
+        "ja": "Copilot Business および Enterprise ユーザーは、Visual Studio Code で独自の言語モデル キー (BYOK) を使用できるようになりました。 BYOK を使用すると、チームは API キーを再利用して、Anthropic、Gemini、OpenAI、OpenRouter、Azure などのプロバイダーのモデルにアクセスしたり、Ollama や Foundry Local を通じてローカルで実行されているモデルにアクセスしたりできます。構成が完了すると、ビルトイン プラン エージェントやカスタム エージェントを含め、VS Code Chat 内のどこでも BYOK モデルを利用できるようになります。 BYOK はコード補完には適用されません。使用量は直接請求されます...",
+        "en": "Copilot Business and Enterprise users can now use bring your own language model key (BYOK) in Visual Studio Code. BYOK lets teams reuse their API keys to access models from providers like Anthropic, Gemini, OpenAI, OpenRouter, and Azure, as well as locally running models through Ollama and Foundry Local. Once configured, BYOK models are available anywhere in VS Code Chat, including the built-in plan agent and custom agents. BYOK does not apply to code completions. Usage is billed directly by..."
+      },
+      "url": "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -1983,30 +2003,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-04-09-github-2026-04-09-ask-copilot-in-security-assessments-now-available",
-      "date": "2026-04-09",
-      "category": "github",
-      "title": {
-        "zh": "现在可以在安全评估中询问 Copilot",
-        "ja": "セキュリティ評価で Copilot に質問できるようになりました",
-        "en": "Ask Copilot in security assessments now available"
-      },
-      "summary": {
-        "zh": "组织管理员和安全经理现在可以直接从秘密风险评估或代码安全风险评估结果跳转到 Copilot 体验，以获得上下文解释和指导后续步骤。要了解更多信息，请访问我们有关运行代码安全风险评估或秘密风险评估的文档。安全评估中询问 Copilot 的帖子现已发布，首先出现在 GitHub 博客上。",
-        "ja": "組織管理者とセキュリティ マネージャーは、機密リスク評価またはコード セキュリティ リスク評価の結果から直接 Copilot エクスペリエンスにジャンプして、状況に応じた説明とガイド付きの次のステップを取得できるようになりました。詳細については、コード セキュリティ リスク評価または機密リスク評価の実行に関するドキュメントを参照してください。 「セキュリティ評価で Copilot に質問する」という投稿が最初に公開されたのは、GitHub ブログです。",
-        "en": "Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next steps. To learn more, visit our docs about running a Code Security risk assessment or secret risk assessment. The post Ask Copilot in security assessments now available appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-04-09-anthropic-advisor-tool",
@@ -3803,30 +3799,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-03-18-github-2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
-      "date": "2026-03-18",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 中的 GPT-5.3-Codex 长期支持",
-        "ja": "GitHub Copilot での GPT-5.3-Codex の長期サポート",
-        "en": "GPT-5.3-Codex long-term support in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "为了给企业提供内部安全和安全审查所需的稳定性，GitHub 做出了新的承诺，为 Copilot 商业版和 Copilot 企业版提供长期支持 (LTS) 模型。指定的 LTS 型号将在该型号发布之日起整整 12 个月内供货。 GPT-5.3-Codex 是我们与 OpenAI 合作的第一个 LTS 型号。该模型于 2026 年 2 月 5 日推出，并将在 2027 年 2 月 4 日之前持续为 Copilot Business 和...",
-        "ja": "社内のセキュリティと安全性のレビューに必要な安定性を企業に提供するために、GitHub は、Copilot Business および Copilot Enterprise で利用可能な長期サポート (LTS) モデルを備えた新しいコミットメントを確立しました。指定された LTS モデルは、モデルの発売日から丸 12 か月間利用可能になります。 GPT-5.3-Codex は、OpenAI と提携した最初の LTS モデルです。このモデルは 2026 年 2 月 5 日に発売され、2027 年 2 月 4 日まで Copilot Business および...",
-        "en": "To give enterprises the stability they need for internal security and safety reviews, GitHub has established a new commitment with long-term support (LTS) models available for Copilot Business and Copilot Enterprise. Designated LTS models will be made available for a full 12 months from the model’s launch date. GPT-5.3-Codex is our first LTS model, in partnership with OpenAI. The model launched on February 5, 2026, and will remain available through February 4, 2027 for Copilot Business and..."
-      },
-      "url": "https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-18-github-2026-03-18-configure-copilot-coding-agents-validation-tools",
       "date": "2026-03-18",
       "category": "github",
@@ -4389,30 +4361,6 @@
       "tags": [
         "improvement",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-11-github-2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
-      "date": "2026-03-11",
-      "category": "github",
-      "title": {
-        "zh": "JetBrains IDE 的 GitHub Copilot 中的主要代理功能改进",
-        "ja": "JetBrains IDE の GitHub Copilot におけるエージェント機能の大幅な改善",
-        "en": "Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs"
-      },
-      "summary": {
-        "zh": "此更新为 JetBrains IDE 中的 GitHub Copilot 带来了多项新功能和改进。核心代理功能（包括自定义代理、子代理和计划代理）现已普遍可用，并提供预览版代理挂钩和对 MCP 的自动批准支持。它还扩展了对代理指令文件的支持，使自动模型选择普遍可用，增强了模型和推理体验，并包括额外的用户体验和质量改进。新功能代理...",
-        "ja": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements.新機能エージェント...",
-        "en": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements. New features Agentic..."
-      },
-      "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -7565,30 +7513,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-02-05-github-2026-02-05-github-actions-early-february-2026-updates",
-      "date": "2026-02-05",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Actions：2026 年 2 月上旬更新",
-        "ja": "GitHub アクション: 2026 年 2 月初旬の更新",
-        "en": "GitHub Actions: Early February 2026 updates"
-      },
-      "summary": {
-        "zh": "本月，GitHub Actions 推出了新功能，包括自定义运行程序自动缩放、针对所有用户的扩展安全控制以及抢先访问新的 Windows 和 macOS 运行程序映像。 GitHub Actions 运行程序规模集客户端 GitHub Actions 运行程序规模集客户端现已推出公共预览版。该客户端是一个基于 Go 的独立模块，可让您为 GitHub Actions 运行程序构建自定义自动缩放解决方案，而无需 Kubernetes。客户提供核心建筑...",
-        "ja": "今月、GitHub アクションには、カスタム ランナーの自動スケーリング、すべてのユーザー向けのセキュリティ制御の拡張、新しい Windows および macOS ランナー イメージへの早期アクセスなどの新機能が導入されます。 GitHub アクション ランナー スケール セット クライアント GitHub アクション ランナー スケール セット クライアントがパブリック プレビューで利用できるようになりました。クライアントはスタンドアロンの Go ベースのモジュールで、Kubernetes を必要とせずに GitHub アクション ランナー用のカスタム自動スケーリング ソリューションを構築できます。クライアントはコアとなる建物を提供します...",
-        "en": "This month, GitHub Actions introduces new capabilities, including custom runner autoscaling, expanded security controls for all users, and early access to new Windows and macOS runner images. GitHub Actions runner scale set client The GitHub Actions runner scale set client is now available in public preview. The client is a standalone Go-based module that lets you build custom autoscaling solutions for GitHub Actions runners without requiring Kubernetes. The client provides the core building..."
-      },
-      "url": "https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates",
-      "tags": [
-        "release",
-        "actions",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-02-05-github-2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot",
