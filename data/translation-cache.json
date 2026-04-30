@@ -2313,14 +2313,6 @@
     "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
     "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは..."
   },
-  "Bring your own language model key in VS Code now available": {
-    "zh": "现在可以在 VS Code 中添加您自己的语言模型密钥",
-    "ja": "VS Code で独自の言語モデル キーを使用できるようになりました"
-  },
-  "Copilot Business and Enterprise users can now use bring your own language model key (BYOK) in Visual Studio Code. BYOK lets teams reuse their API keys to access models from providers like Anthropic, Gemini, OpenAI, OpenRouter, and Azure, as well as locally running models through Ollama and Foundry Local. Once configured, BYOK models are available anywhere in VS Code Chat, including the built-in plan agent and custom agents. BYOK does not apply to code completions. Usage is billed directly by...": {
-    "zh": "Copilot 商业和企业用户现在可以在 Visual Studio Code 中使用自带语言模型密钥 (BYOK)。 BYOK 允许团队重复使用其 API 密钥来访问来自 Anthropic、Gemini、OpenAI、OpenRouter 和 Azure 等提供商的模型，以及通过 Ollama 和 Foundry Local 本地运行的模型。配置完成后，BYOK 模型可在 VS Code Chat 中的任何位置使用，包括内置计划代理和自定义代理。 BYOK 不适用于代码完成。使用费用直接由...",
-    "ja": "Copilot Business および Enterprise ユーザーは、Visual Studio Code で独自の言語モデル キー (BYOK) を使用できるようになりました。 BYOK を使用すると、チームは API キーを再利用して、Anthropic、Gemini、OpenAI、OpenRouter、Azure などのプロバイダーのモデルにアクセスしたり、Ollama や Foundry Local を通じてローカルで実行されているモデルにアクセスしたりできます。構成が完了すると、ビルトイン プラン エージェントやカスタム エージェントを含め、VS Code Chat 内のどこでも BYOK モデルを利用できるようになります。 BYOK はコード補完には適用されません。使用量は直接請求されます..."
-  },
   "GitHub Copilot for Jira: Our latest enhancements": {
     "zh": "Jira 的 GitHub Copilot：我们的最新增强功能",
     "ja": "GitHub Copilot for Jira: 最新の機能強化"
@@ -2440,14 +2432,6 @@
   "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about...": {
     "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解更多关于...",
     "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で「検証済み」として表示されるため、そのコミットが本当にエージェントによって作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になっているリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。詳細については..."
-  },
-  "Organization-level Copilot usage metrics dashboard available in public preview": {
-    "zh": "组织级 Copilot 使用指标仪表板可在公共预览版中使用",
-    "ja": "組織レベルの Copilot 使用状況指標ダッシュボードがパブリック プレビューで利用可能になりました"
-  },
-  "Until now, Copilot usage metrics dashboards were only available at the enterprise level. With this release, organization owners can view GitHub Copilot usage metrics for their organization directly in the GitHub UI. This dashboard brings the same organization-scoped insights as the recently released organization usage APIs into an easy-to-scan experience. This way, org admins don’t need to rely on enterprise reporting to understand adoption and usage trends. How it works The dashboard shows...": {
-    "zh": "到目前为止，Copilot 使用指标仪表板仅在企业级别可用。在此版本中，组织所​​有者可以直接在 GitHub UI 中查看其组织的 GitHub Copilot 使用指标。该仪表板将与最近发布的组织使用 API 相同的组织范围的见解带入易于扫描的体验中。这样，组织管理员不需要依赖企业报告来了解采用和使用趋势。它是如何工作的 仪表板显示...",
-    "ja": "これまで、Copilot 使用状況メトリック ダッシュボードはエンタープライズ レベルでのみ利用可能でした。このリリースでは、組織の所有者は組織の GitHub Copilot 使用状況メトリクスを GitHub UI で直接表示できるようになりました。このダッシュボードは、最近リリースされた組織の使用状況 API と同じ、組織を対象とした洞察をスキャンしやすいエクスペリエンスにもたらします。これにより、組織管理者は導入と使用の傾向を理解するためにエンタープライズ レポートに依存する必要がなくなります。仕組み ダッシュボードに表示されるのは..."
   },
   "Elevating Austria: Google invests in its first data center in the Alps.": {
     "zh": "提升奥地利水平：谷歌在阿尔卑斯山投资建设第一个数据中心。",
@@ -3048,5 +3032,13 @@
   "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.": {
     "zh": "OpenAI 扩展 Stargate 以构建支持 AGI 的计算基础设施，增加新的数据中心容量以满足不断增长的人工智能需求。",
     "ja": "OpenAI は、Stargate を拡張して AGI を強化するコンピューティング インフラストラクチャを構築し、増大する AI 需要に対応する新しいデータセンター容量を追加します。"
+  },
+  "GitHub Copilot in Visual Studio — April update": {
+    "zh": "Visual Studio 中的 GitHub Copilot — 四月更新",
+    "ja": "Visual Studio の GitHub Copilot — 4 月の更新"
+  },
+  "The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest: Cloud agent integration: Start new cloud agent sessions directly from Visual Studio. Select Cloud from the agent picker, describe your task, and the...": {
+    "zh": "Visual Studio 2026 年 4 月的更新以代理工作流程为中心：云代理会话直接从 IDE 启动，自定义代理获得用户级支持，新的调试器代理根据实时运行时行为验证修复。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。查看 Insiders 频道​​了解最新信息： 云代理集成：直接从 Visual Studio 启动新的云代理会话。从代理选择器中选择云，描述您的任务，然后...",
+    "ja": "Visual Studio の 2026 年 4 月の更新プログラムは、エージェント ワークフローに重点を置いています。クラウド エージェント セッションは IDE から直接起動され、カスタム エージェントはユーザー レベルのサポートを獲得し、新しいデバッガー エージェントはライブ ランタイム動作に対して修正を検証します。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。最新情報については Insiders チャネルを確認してください: クラウド エージェントの統合: Visual Studio から直接新しいクラウド エージェント セッションを開始します。エージェント ピッカーから [クラウド] を選択し、タスクと内容を説明します。"
   }
 }
