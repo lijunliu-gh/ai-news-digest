@@ -47,6 +47,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-11-openai-changelog",
+      "date": "2026-05-11",
+      "category": "openai",
+      "title": {
+        "zh": "网络搜索工具",
+        "ja": "ウェブ検索ツール",
+        "en": "web search tool"
+      },
+      "summary": {
+        "zh": "为 Responses API Web 搜索工具添加了 return_token_budget。使用它可以选择更长的 GPT-5+ 推理网络搜索运行，以进行高强度的研究和评估工作负载。",
+        "ja": "Responses API Web 検索ツールに return_token_budget を追加しました。これを使用して、労力のかかる研究および評価ワークロードに対して、より長い GPT-5+ 推論 Web 検索の実行をオプトインします。",
+        "en": "Added return_token_budget for the Responses API web search tool. Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-11-feature-web-search-tool",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-11-anthropic-claude-platform-on-aws",
       "date": "2026-05-11",
       "category": "anthropic",
@@ -3639,30 +3663,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
-      "date": "2026-04-03",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 云代理签署其承诺",
-        "ja": "Copilot クラウド エージェントがコミットに署名します",
-        "en": "Copilot cloud agent signs its commits"
-      },
-      "summary": {
-        "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解更多关于...",
-        "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で「検証済み」として表示されるため、そのコミットが本当にエージェントによって作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になっているリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。詳細については...",
-        "en": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about..."
-      },
-      "url": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-02-openai-openai-acquires-tbpn",
       "date": "2026-04-02",
       "category": "openai",
@@ -5043,30 +5043,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-17-github-2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
-      "date": "2026-03-17",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
-        "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します",
-        "en": "Copilot coding agent works faster with semantic code search"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理现在可以访问语义代码搜索工具，使其能够根据含义查找相关代码，而不是依赖于 grep 等工具的精确文本匹配。当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
-        "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します...",
-        "en": "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses..."
-      },
-      "url": "https://github.blog/changelog/2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
-      "tags": [
-        "improvement",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -6838,31 +6814,6 @@
       "url": "https://github.blog/changelog/2026-02-25-gpt-5-3-codex-is-now-available-in-github-com-github-mobile-and-visual-studio",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-25-github-2026-02-25-github-copilot-cli-is-now-generally-available",
-      "date": "2026-02-25",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot CLI 现已全面可用",
-        "ja": "GitHub Copilot CLI が一般公開されました",
-        "en": "GitHub Copilot CLI is now generally available"
-      },
-      "summary": {
-        "zh": "GitHub Copilot CLI — 终端本机编码代理，可将 GitHub Copilot 的功能直接带入命令行 — 现在可供所有 Copilot 订阅者使用。编者注（2026 年 2 月 27 日）：更新了文本以准确表明 Copilot CLI 可供所有 Copilot 订阅者使用。自 2025 年 9 月推出公共预览版以来，我们已经根据您的反馈进行了数百项改进。 Copilot CLI 已经从一个终端助手发展成为一个完整的代理......",
-        "ja": "GitHub Copilot CLI (GitHub Copilot の機能をコマンド ラインに直接提供するターミナル ネイティブ コーディング エージェント) が、すべての Copilot サブスクライバーに一般提供されるようになりました。編集者注記 (2026 年 2 月 27 日): Copilot CLI がすべての Copilot サブスクライバーに利用可能であることを正確に示すためにテキストを更新しました。 2025 年 9 月にパブリック プレビューを開始して以来、お客様のフィードバックをもとに何百もの改良を加えてきました。 Copilot CLI はターミナル アシスタントから完全なエージェントに成長しました...",
-        "en": "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic..."
-      },
-      "url": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available",
-      "tags": [
-        "improvement",
-        "client-apps",
         "copilot",
         "github",
         "changelog"
