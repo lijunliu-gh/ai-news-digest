@@ -505,10 +505,6 @@
     "ja": "自動キャッシュ",
     "zh": "自动缓存"
   },
-  "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Azure AI Foundry (preview). Learn more in Prompt caching.": {
-    "ja": "Messages API の自動キャッシュを開始しました。単一のcache_controlフィールドをリクエスト本文に追加すると、システムは最後のキャッシュ可能なブロックを自動的にキャッシュし、会話の成長に応じてキャッシュポイントを前方に移動します。手動によるブレークポイント管理は必要ありません。既存のブロックレベルのキャッシュ制御と連携して、きめ細かい最適化を実現します。 Claude API および Azure AI Foundry (プレビュー) で利用できます。詳細については、「プロンプト キャッシュ」を参照してください。",
-    "zh": "我们已经为消息 API 启动了自动缓存。将单个cache_control字段添加到请求正文中，系统会自动缓存最后一个可缓存块，随着对话的增长将缓存点向前移动。无需手动断点管理。与现有的块级缓存控制一起工作，以实现细粒度优化。可在 Claude API 和 Azure AI Foundry（预览版）上使用。在提示缓存中了解更多信息。"
-  },
   "Advancing independent research on AI alignment": {
     "ja": "AI アラインメントに関する独立した研究を推進",
     "zh": "推进人工智能对齐的独立研究"
@@ -3359,5 +3355,25 @@
   "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.": {
     "zh": "加入OpenAI校园网络——连接世界各地的学生俱乐部、访问人工智能工具、举办活动并建立人工智能驱动的校园社区。",
     "ja": "OpenAI キャンパス ネットワークに参加しましょう。世界中の学生クラブを結び付け、AI ツールにアクセスし、イベントを主催し、AI を活用したキャンパス コミュニティを構築します。"
+  },
+  "Claude Platform on AWS": {
+    "zh": "AWS 上的 Claude 平台",
+    "ja": "Claude AWS 上のプラットフォーム"
+  },
+  "We've launched Claude Platform on AWS, bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use through native AWS endpoints. Learn more in Claude Platform on AWS.": {
+    "zh": "我们在 AWS 上推出了 Claude 平台，将 Claude API 引入可通过 AWS 访问的 Anthropic 托管基础设施，并具有 AWS 计费和 IAM 身份验证功能。通过本机 AWS 终端节点访问完整的消息 API、文件 API、消息批处理 API、Claude 托管代理、代理技能、代码执行和工具使用。在 AWS 上的 Claude 平台中了解更多信息。",
+    "ja": "AWS で Claude プラットフォームを開始し、AWS 経由でアクセスできる Anthropic 管理のインフラストラクチャに Claude API を導入し、AWS 請求と IAM 認証を実現しました。ネイティブ AWS エンドポイントを通じて、完全なメッセージ API、ファイル API、メッセージ バッチ API、Claude 管理対象エージェント、エージェント スキル、コード実行、およびツールの使用にアクセスします。詳細については、AWS の Claude プラットフォームをご覧ください。"
+  },
+  "OpenAI launches DeployCo to help businesses build around intelligence": {
+    "zh": "OpenAI 推出 DeployCo，帮助企业围绕智能进行构建",
+    "ja": "OpenAI は、企業がインテリジェンスを中心に構築できるよう支援する DeployCo を立ち上げます"
+  },
+  "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.": {
+    "zh": "OpenAI 推出 DeployCo，这是一家新的企业部署公司，旨在帮助组织将前沿人工智能投入生产并将其转化为可衡量的业务影响。",
+    "ja": "OpenAI は、組織がフロンティア AI を本番環境に導入し、それを測定可能なビジネス効果に変えることを支援するために設立された新しいエンタープライズ導入会社である DeployCo を立ち上げます。"
+  },
+  "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching.": {
+    "zh": "我们已经为消息 API 启动了自动缓存。将单个cache_control字段添加到请求正文中，系统会自动缓存最后一个可缓存块，随着对话的增长将缓存点向前移动。无需手动断点管理。与现有的块级缓存控制一起工作，以实现细粒度优化。可在 Claude API 和 Microsoft Foundry（预览版）上使用。在提示缓存中了解更多信息。",
+    "ja": "Messages API の自動キャッシュを開始しました。単一のcache_controlフィールドをリクエスト本文に追加すると、システムは最後のキャッシュ可能なブロックを自動的にキャッシュし、会話の成長に応じてキャッシュポイントを前方に移動します。手動によるブレークポイント管理は必要ありません。既存のブロックレベルのキャッシュ制御と連携して、きめ細かい最適化を実現します。 Claude API および Microsoft Foundry (プレビュー) で利用できます。詳細については、「プロンプト キャッシュ」を参照してください。"
   }
 }
