@@ -1086,7 +1086,7 @@ def parse_anthropic_entries(cutoff: date) -> list[FeedEntry]:
 
 
 def parse_anthropic_release_entries(cutoff: date) -> list[FeedEntry]:
-    html = fetch_text('https://platform.claude.com/docs/en/release-notes')
+    html = fetch_text('https://platform.claude.com/docs/en/release-notes/overview')
     entries: list[FeedEntry] = []
     section_pattern = re.compile(
         r'<h3[^>]*><div class="group relative pt-6 pb-2" id="(?P<anchor>[^"]+)">.*?<div>(?P<published>[A-Za-z]+ \d{1,2}, \d{4})</div>.*?</h3>\s*<ul[^>]*>(?P<body>.*?)</ul>',
@@ -1098,7 +1098,7 @@ def parse_anthropic_release_entries(cutoff: date) -> list[FeedEntry]:
         published = datetime.strptime(normalize_whitespace(section_match.group('published')), '%B %d, %Y').date().isoformat()
         if not within_window(published, cutoff):
             continue
-        base_link = f"https://platform.claude.com/docs/en/release-notes#{section_match.group('anchor')}"
+        base_link = f"https://platform.claude.com/docs/en/release-notes/overview#{section_match.group('anchor')}"
         for item_html in item_pattern.findall(section_match.group('body')):
             summary = normalize_whitespace(strip_html(item_html))
             if not summary:
