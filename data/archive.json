@@ -1,7 +1,885 @@
 {
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-11",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-02-10-openai-changelog-4",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "批量API",
+        "ja": "バッチAPI",
+        "en": "Batch API"
+      },
+      "summary": {
+        "zh": "GPT 图像模型现在支持 Batch API：gpt-image-1.5、chatgpt-image-latest、gpt-image-1 和 gpt-image-1-mini。",
+        "ja": "バッチ API が GPT イメージ モデル (gpt-image-1.5、chatgpt-image-latest、gpt-image-1、および gpt-image-1-mini) でサポートされるようになりました。",
+        "en": "Batch API is now supported for GPT Image models: gpt-image-1.5, chatgpt-image-latest, gpt-image-1, and gpt-image-1-mini."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-batch-api",
+      "tags": [
+        "gpt-image-1-5",
+        "gpt-image-1",
+        "gpt-image-1-mini",
+        "chatgpt-image-latest",
+        "v1-batch",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog-3",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "托管外壳",
+        "ja": "ホストされたシェル",
+        "en": "Hosted Shell"
+      },
+      "summary": {
+        "zh": "推出了新的 Hosted Shell 工具，以及对容器中网络的支持。",
+        "ja": "新しい Hosted Shell ツールとコンテナーでのネットワークのサポートを開始しました。",
+        "en": "Launched a new Hosted Shell tool, as well as support for networking in containers."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-hosted-shell",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog-2",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "服务器端压缩",
+        "ja": "サーバー側の圧縮",
+        "en": "server-side compaction"
+      },
+      "summary": {
+        "zh": "在响应 API 中启动了服务器端压缩。",
+        "ja": "Responses API でサーバー側の圧縮を開始しました。",
+        "en": "Launched server-side compaction in the Responses API."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-server-side-compaction",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-10-openai-changelog",
+      "date": "2026-02-10",
+      "category": "openai",
+      "title": {
+        "zh": "技能",
+        "ja": "スキル",
+        "en": "Skills"
+      },
+      "summary": {
+        "zh": "推出了对​​响应 API 中的技能的支持。我们支持本地执行和基于托管容器的执行的技能。",
+        "ja": "Responses API でのスキルのサポートを開始しました。ローカル実行とホストされたコンテナベースの実行の両方でスキルをサポートします。",
+        "en": "Launched support for Skills in the Responses API. We support Skills across both local execution and hosted container-based execution."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-10-feature-skills",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-09-openai-testing-ads-in-chatgpt",
+      "date": "2026-02-09",
+      "category": "openai",
+      "title": {
+        "zh": "在 ChatGPT 中测试广告",
+        "ja": "ChatGPT での広告のテスト",
+        "en": "Testing ads in ChatGPT"
+      },
+      "summary": {
+        "zh": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+        "ja": "OpenAI は、明確なラベル付け、回答の独立性、強力なプライバシー保護、ユーザー制御を備えた無料アクセスをサポートするために、ChatGPT で広告のテストを開始します。",
+        "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
+      },
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-09-openai-changelog",
+      "date": "2026-02-09",
+      "category": "openai",
+      "title": {
+        "zh": "添加了对 GPT 映像模型的 /v1/images/edits 上的 application/json 请求的支持。",
+        "ja": "GPT イメージ モデルの /v1/images/edits での application/json リクエストのサポートが追加されました。",
+        "en": "Added support for application/json requests on /v1/images/edits for GPT image models."
+      },
+      "summary": {
+        "zh": "添加了对 GPT 映像模型的 /v1/images/edits 上的 application/json 请求的支持。 JSON 请求使用带有 image_url 或 file_id 引用的图像（和可选 mask ），而不是分段上传。",
+        "ja": "GPT イメージ モデルの /v1/images/edits での application/json リクエストのサポートが追加されました。 JSON リクエストでは、マルチパート アップロードの代わりに、image_url または file_id 参照を持つ画像 (およびオプションのマスク) を使用します。",
+        "en": "Added support for application/json requests on /v1/images/edits for GPT image models. JSON requests use images (and optional mask ) with image_url or file_id references instead of multipart uploads."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-09-feature-added-support-for-application-json-requests-on-v1-images-edits-for-gpt-image-models",
+      "tags": [
+        "gpt-image-1-5",
+        "gpt-image-1",
+        "gpt-image-1-mini",
+        "chatgpt-image-latest",
+        "v1-images-edits",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-09-openai-bringing-chatgpt-to-genaimil",
+      "date": "2026-02-09",
+      "category": "openai",
+      "title": {
+        "zh": "将 ChatGPT 引入 GenAI.mil",
+        "ja": "ChatGPT を GenAI.mil に導入",
+        "en": "Bringing ChatGPT to GenAI.mil"
+      },
+      "summary": {
+        "zh": "OpenAI for Government 宣布在 GenAI.mil 上部署自定义 ChatGPT，为美国国防团队带来安全、安全的人工智能。",
+        "ja": "OpenAI for Government は、GenAI.mil へのカスタム ChatGPT の展開を発表し、安全で安全性を重視した AI を米国の国防チームに提供します。",
+        "en": "OpenAI for Government announces the deployment of a custom ChatGPT on GenAI.mil, bringing secure, safety-forward AI to U.S. defense teams."
+      },
+      "url": "https://openai.com/index/bringing-chatgpt-to-genaimil",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-09-google-accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+      "date": "2026-02-09",
+      "category": "google",
+      "title": {
+        "zh": "通过 Gemini Deep Think 加速数学和科学发现",
+        "ja": "Gemini Deep Think で数学的および科学的発見を加速する",
+        "en": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think"
+      },
+      "summary": {
+        "zh": "研究论文指出深度思考在各个领域的影响力日益增强",
+        "ja": "研究論文は、分野を超えてディープシンキングの影響が増大していることを指摘しています",
+        "en": "Research papers point to the growing impact of Deep Think across fields"
+      },
+      "url": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-09-github-2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot",
+      "date": "2026-02-09",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.3-Codex 现已普遍适用于 GitHub Copilot",
+        "ja": "GPT-5.3-Codex が GitHub Copilot で一般提供されるようになりました",
+        "en": "GPT-5.3-Codex is now generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-5.3-Codex 是 OpenAI 的最新代理编码模型，现已在 GitHub Copilot 中推出。在早期测试中，GPT-5.3-Codex 在我们用来评估编码、代理和现实世界功能的基准测试中取得了新的高分。它还改进了复杂、工具驱动、长时间运行的工作流程中的推理和执行，这有助于其在代理编码任务上的性能比 GPT-5.2-Codex 快 25%。 GitHub Copilot GPT-5.3-Codex 中的可用性将可供 Copilot Pro...",
+        "ja": "OpenAI の最新のエージェント コーディング モデルである GPT-5.3-Codex は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.3-Codex は、コーディング、エージェント、および現実世界の機能を評価するために使用するベンチマークで新たな高スコアに達しました。また、複雑でツール主導の長時間実行ワークフローにおける推論と実行も改善されており、エージェント コーディング タスクで GPT-5.2-Codex よりも最大 25% 高速なパフォーマンスを実現します。 GitHub での利用可能性 Copilot GPT-5.3-Codex は Copilot Pro で利用可能になります...",
+        "en": "GPT-5.3-Codex, OpenAI’s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, GPT-5.3-Codex reaches new high scores on benchmarks we use to evaluate coding, agentic, and real-world capabilities. It also has improved reasoning and execution in complex, tool-driven, long-running workflows which help it to deliver up to 25% faster performance than GPT-5.2-Codex on agentic coding tasks. Availability in GitHub Copilot GPT-5.3-Codex will be available to Copilot Pro..."
+      },
+      "url": "https://github.blog/changelog/2026-02-09-gpt-5-3-codex-is-now-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-07-github-2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot",
+      "date": "2026-02-07",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 4.6 的快速模式现已在 GitHub Copilot 上预览",
+        "ja": "Claude Opus 4.6 の高速モードは GitHub Copilot でプレビュー中です",
+        "en": "Fast mode for Claude Opus 4.6 is now in preview for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "编者注（太平洋标准时间 2025 年 2 月 13 日下午 5:00）：该型号的促销期于 2025 年 2 月 16 日星期一（太平洋时间）结束。此后，将适用 30 倍的保费请求乘数。 Claude Opus 4.6 的快速模式现已在 GitHub Copilot 的研究预览中推出。这种高速选项可将输出令牌速度提高 2.5 倍，同时保持与 Opus 4.6 相同的智能。此版本是早期的实验性版本，重点是显着加快推理速度......",
+        "ja": "編集者注 (2025 年 2 月 13 日午後 5 時 PST): このモデルのプロモーション期間は、2025 年 2 月 16 日月曜日 (太平洋時間) の終わりに終了します。その後、30 倍のプレミアム リクエスト倍率が適用されます。 Claude Opus 4.6 の高速モードは、GitHub Copilot のリサーチ プレビューで公開されています。この高速オプションは、Opus 4.6 と同じインテリジェンスを維持しながら、出力トークンの速度を最大 2.5 倍高速化します。このリリースは初期の実験的なもので、大幅に高速化された推論に重点を置いています。",
+        "en": "Editor’s note (February 13, 2025 at 5:00 PM PST): This model’s promotional period ends end of day Monday, Feb 16, 2025 (Pacific Time). Afterwards, a 30x premium request multiplier will apply. Fast mode for Claude Opus 4.6 is now rolling out in a research preview on GitHub Copilot. This high-speed option delivers output token speeds up to 2.5x faster, while maintaining the same intelligence as Opus 4.6. This release is early and experimental, focused on significantly faster inference..."
+      },
+      "url": "https://github.blog/changelog/2026-02-07-claude-opus-4-6-fast-is-now-in-public-preview-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-07-github-2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy",
+      "date": "2026-02-07",
+      "category": "github",
+      "title": {
+        "zh": "CodeQL 2.24.1 改进了 Maven 私有注册表支持并提高了查询准确性",
+        "ja": "CodeQL 2.24.1 は Maven プライベート レジストリのサポートを改善し、クエリの精度を向上させます。",
+        "en": "CodeQL 2.24.1 improves Maven private registry support and improves query accuracy"
+      },
+      "summary": {
+        "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.24.1，改进了对 Maven 私有包注册表的支持、对最新版本 Kotlin 的支持，以及提高代码扫描结果准确性的各种其他改进。语言和框架支持 Java/Kotlin 现在支持 Kotlin 版本高达 2.3.0 的分析。我们添加了对 Struts 7.x 包名称的支持...",
+        "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近 CodeQL 2.24.1 をリリースしました。これにより、Maven プライベート パッケージ レジストリのサポート、Kotlin の最新バージョンのサポート、およびコード スキャン結果の精度を高めるその他のさまざまな改善が行われました。言語とフレームワークのサポート Java/Kotlin Kotlin バージョン 2.3.0 までが分析用にサポートされるようになりました。 Struts 7.x パッケージ名のサポートを追加しました...",
+        "en": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.24.1, improving support for Maven private package registries, support for the latest version of Kotlin, and various other improvements that enhance the accuracy of your code scanning results. Language and framework support Java/Kotlin Kotlin versions up to 2.3.0 are now supported for analysis. We’ve added support for Struts 7.x package names..."
+      },
+      "url": "https://github.blog/changelog/2026-02-06-codeql-2-24-1-improves-maven-private-registry-support-and-improves-query-accuracy",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-07-anthropic-fast-mode",
+      "date": "2026-02-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "速度",
+        "ja": "スピード",
+        "en": "speed"
+      },
+      "summary": {
+        "zh": "我们在 Opus 4.6 的研究预览中推出了快速模式，通过速度参数提供显着更快的输出令牌生成。快速模式的速度高达 2.5 倍，价格优惠。有兴趣的顾客应该加入等候名单。",
+        "ja": "Opus 4.6 のリサーチ プレビューで高速モードを開始し、speed パラメーターを介して出力トークンの生成を大幅に高速化しました。高速モードは、プレミアム価格で最大 2.5 倍の速度になります。興味のあるお客様は順番待ちリストに参加してください。",
+        "en": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "speed",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-06-openai-our-approach-to-localization",
+      "date": "2026-02-06",
+      "category": "openai",
+      "title": {
+        "zh": "让人工智能为每个地方的每个人服务：我们的本地化方法",
+        "ja": "AI をどこでも誰でも使えるようにする: ローカリゼーションへのアプローチ",
+        "en": "Making AI work for everyone, everywhere: our approach to localization"
+      },
+      "summary": {
+        "zh": "OpenAI 分享了其人工智能本地化方法，展示了全球共享的前沿模型如何在不影响安全的情况下适应当地语言、法律和文化。",
+        "ja": "OpenAI は、AI ローカライゼーションへのアプローチを共有し、安全性を損なうことなく、世界的に共有されるフロンティア モデルを現地の言語、法律、文化にどのように適応させることができるかを示しています。",
+        "en": "OpenAI shares its approach to AI localization, showing how globally shared frontier models can be adapted to local languages, laws, and cultures without compromising safety."
+      },
+      "url": "https://openai.com/index/our-approach-to-localization",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-openai-trusted-access-for-cyber",
+      "date": "2026-02-05",
+      "category": "openai",
+      "title": {
+        "zh": "引入网络可信访问",
+        "ja": "サイバー向けの信頼されたアクセスの導入",
+        "en": "Introducing Trusted Access for Cyber"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了 Trusted Access for Cyber​​，这是一个基于信任的框架，可扩展对前沿网络功能的访问，同时加强防止滥用的保护措施。",
+        "ja": "OpenAI は、悪用に対する保護手段を強化しながら、最先端のサイバー機能へのアクセスを拡大する信頼ベースのフレームワークである Trusted Access for Cyber​​ を導入します。",
+        "en": "OpenAI introduces Trusted Access for Cyber, a trust-based framework that expands access to frontier cyber capabilities while strengthening safeguards against misuse."
+      },
+      "url": "https://openai.com/index/trusted-access-for-cyber",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-openai-introducing-openai-frontier",
+      "date": "2026-02-05",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI Frontier 发布",
+        "ja": "OpenAI Frontier を発表",
+        "en": "Introducing OpenAI Frontier"
+      },
+      "summary": {
+        "zh": "OpenAI Frontier 是一个企业平台，用于构建、部署和管理具有共享上下文、入职、权限和治理的 AI 代理。",
+        "ja": "OpenAI Frontier は、共有コンテキスト、オンボーディング、権限、ガバナンスを備えた AI エージェントを構築、デプロイ、管理するためのエンタープライズ プラットフォームです。",
+        "en": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance."
+      },
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-openai-introducing-gpt-5-3-codex",
+      "date": "2026-02-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.3-Codex 发布",
+        "ja": "GPT-5.3-Codex を発表",
+        "en": "Introducing GPT-5.3-Codex"
+      },
+      "summary": {
+        "zh": "GPT-5.3-Codex 是一种 Codex 原生代理，它将前沿编码性能与一般推理相结合，以支持长期的现实技术工作。",
+        "ja": "GPT-5.3-Codex は、フロンティア コーディングのパフォーマンスと一般的な推論を組み合わせて、長期にわたる現実世界の技術作業をサポートする Codex ネイティブ エージェントです。",
+        "en": "GPT-5.3-Codex is a Codex-native agent that pairs frontier coding performance with general reasoning to support long-horizon, real-world technical work."
+      },
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-openai-gpt-5-lowers-protein-synthesis-cost",
+      "date": "2026-02-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5降低无细胞蛋白质合成成本",
+        "ja": "GPT-5 は無細胞タンパク質合成のコストを削減します",
+        "en": "GPT-5 lowers the cost of cell-free protein synthesis"
+      },
+      "summary": {
+        "zh": "一个自主实验室将 OpenAI 的 GPT-5 与 Ginkgo Bioworks 的云自动化相结合，通过闭环实验将无细胞蛋白质合成成本降低了 40%。",
+        "ja": "OpenAI の GPT-5 と Ginkgo Bioworks のクラウド オートメーションを組み合わせた自律型ラボは、閉ループ実験を通じて無細胞タンパク質合成コストを 40% 削減しました。",
+        "en": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation."
+      },
+      "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-openai-gpt-5-3-codex-system-card",
+      "date": "2026-02-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.3-Codex 系统卡",
+        "ja": "GPT-5.3-Codex システム カード",
+        "en": "GPT-5.3-Codex System Card"
+      },
+      "summary": {
+        "zh": "GPT-5.3-Codex是迄今为止功能最强大的代理编码模型，将GPT-5.2-Codex的前沿编码性能与GPT-5.2的推理和专业知识能力相结合。",
+        "ja": "GPT-5.3-Codex は、GPT-5.2-Codex のフロンティア コーディング パフォーマンスと GPT-5.2 の推論および専門知識機能を組み合わせた、これまでで最も有能なエージェント コーディング モデルです。",
+        "en": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2."
+      },
+      "url": "https://openai.com/index/gpt-5-3-codex-system-card",
+      "tags": [
+        "publication",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-05-github-2026-02-05-github-actions-early-february-2026-updates",
+      "date": "2026-02-05",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 行动：2026 年 2 月上旬更新",
+        "ja": "GitHub アクション: 2026 年 2 月初旬の更新",
+        "en": "GitHub Actions: Early February 2026 updates"
+      },
+      "summary": {
+        "zh": "本月，GitHub Actions 推出了新功能，包括自定义运行程序自动缩放、针对所有用户的扩展安全控制以及抢先访问新的 Windows 和 macOS 运行程序映像。 GitHub Actions 运行程序规模集客户端 GitHub Actions 运行程序规模集客户端现已推出公共预览版。该客户端是一个基于 Go 的独立模块，可让您为 GitHub Actions 运行程序构建自定义自动缩放解决方案，而无需 Kubernetes。客户提供核心建筑...",
+        "ja": "今月、GitHub アクションには、カスタム ランナーの自動スケーリング、すべてのユーザー向けのセキュリティ制御の拡張、新しい Windows および macOS ランナー イメージへの早期アクセスなどの新機能が導入されます。 GitHub アクション ランナー スケール セット クライアント GitHub アクション ランナー スケール セット クライアントがパブリック プレビューで利用できるようになりました。クライアントはスタンドアロンの Go ベースのモジュールで、Kubernetes を必要とせずに GitHub アクション ランナー用のカスタム自動スケーリング ソリューションを構築できます。クライアントはコアとなる建物を提供します...",
+        "en": "This month, GitHub Actions introduces new capabilities, including custom runner autoscaling, expanded security controls for all users, and early access to new Windows and macOS runner images. GitHub Actions runner scale set client The GitHub Actions runner scale set client is now available in public preview. The client is a standalone Go-based module that lets you build custom autoscaling solutions for GitHub Actions runners without requiring Kubernetes. The client provides the core building..."
+      },
+      "url": "https://github.blog/changelog/2026-02-05-github-actions-early-february-2026-updates",
+      "tags": [
+        "release",
+        "actions",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-05-github-2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot",
+      "date": "2026-02-05",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 4.6 现已普遍可用于 GitHub Copilot",
+        "ja": "Claude Opus 4.6 が GitHub Copilot で一般公開されました",
+        "en": "Claude Opus 4.6 is now generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 4.6 是 Anthropic 的最新型号，现已在 GitHub Copilot 中推出。在早期测试中，Claude Opus 4.6 在代理编码方面表现出色，专门处理需要规划和工具调用的特别困难的任务。 GitHub Copilot Claude Opus 4.6 中的可用性将适用于 Copilot Pro、Pro+、Business 和 Enterprise 用户。您将能够在模型选择器中选择模型： 所有模式下的 Visual Studio Code：聊天、询问、编辑、代理 所有模式下的 Visual Studio：代理、询问...",
+        "ja": "Anthropic の最新モデルである Claude Opus 4.6 は、GitHub Copilot で展開されています。初期のテストでは、Claude Opus 4.6 はエージェント コーディングに優れており、計画とツール呼び出しを必要とする特に難しいタスクに特化しています。 GitHub Copilot Claude Opus 4.6 は、Copilot Pro、Pro+、Business、および Enterprise ユーザーが利用できます。次のモデル ピッカーでモデルを選択できるようになります。 Visual Studio Code (すべてのモード): チャット、質問、編集、エージェント Visual Studio (すべてのモード): エージェント、質問...",
+        "en": "Claude Opus 4.6, Anthropic’s latest model, is now rolling out in GitHub Copilot. In early testing, Claude Opus 4.6 excels in agentic coding, with specialization on especially hard tasks requiring planning and tool calling. Availability in GitHub Copilot Claude Opus 4.6 will be available to Copilot Pro, Pro+, Business, and Enterprise users. You’ll be able to select the model in the model picker in: Visual Studio Code in all modes: chat, ask, edit, agent Visual Studio in all modes: agent, ask..."
+      },
+      "url": "https://github.blog/changelog/2026-02-05-claude-opus-4-6-is-now-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-05-anthropic-fine-grained-tool-streaming",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "输出格式",
+        "ja": "出力形式",
+        "en": "output_format"
+      },
+      "summary": {
+        "zh": "细粒度工具流现在普遍适用于所有型号和平台（无需 beta 标头）。结构化输出的output_format参数已移至output_config.format。",
+        "ja": "詳細なツール ストリーミングは、すべてのモデルとプラットフォームで一般的に利用できるようになりました (ベータ ヘッダーは必要ありません)。構造化出力の Output_format パラメーターは、output_config.format に移動されました。",
+        "en": "Fine-grained tool streaming is now generally available on all models and platforms (no beta header required). The output_format parameter for structured outputs has been moved to output_config.format."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "tags": [
+        "output-format",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-effort",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "预算代币",
+        "ja": "予算トークン",
+        "en": "budget_tokens"
+      },
+      "summary": {
+        "zh": "工作量参数现已普遍可用（无需 beta 标头）并支持 Claude Opus 4.6。 Effort 取代 Budget_tokens 来控制新模型的思考深度。",
+        "ja": "努力パラメータは現在一般利用可能であり (ベータヘッダーは必要ありません)、Claude Opus 4.6 をサポートしています。 Effort は、新しいモデルの思考の深さを制御するために Budget_token を置き換えます。",
+        "en": "The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling thinking depth on new models."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "tags": [
+        "budget-tokens",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-data-residency",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "推理地理",
+        "ja": "推論_地理",
+        "en": "inference_geo"
+      },
+      "summary": {
+        "zh": "我们引入了数据驻留控制，允许您使用 inference_geo 参数指定模型推理的运行位置。对于 2026 年 2 月 1 日之后发布的模型，仅适用于美国的推理将以 1.1 倍的价格提供。",
+        "ja": "データ常駐制御が導入され、inference_geo パラメーターを使用してモデル推論を実行する場所を指定できるようになりました。 2026 年 2 月 1 日以降にリリースされたモデルについては、米国のみの推論を 1.1 倍の価格で利用できます。",
+        "en": "We've introduced data residency controls, allowing you to specify where model inference runs with the inference_geo parameter. US-only inference is available at 1.1x pricing for models released after February 1, 2026."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/data-residency",
+      "tags": [
+        "inference-geo",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-compaction",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "压缩API",
+        "ja": "コンパクションAPI",
+        "en": "compaction API"
+      },
+      "summary": {
+        "zh": "我们推出了测试版压缩 API，为有效的无限对话提供服务器端上下文摘要。在 Opus 4.6 上可用。",
+        "ja": "私たちはコンパクション API をベータ版で開始し、実質的に無限の会話を実現するサーバー側のコンテキストの要約を提供しました。 Opus 4.6 で利用可能です。",
+        "en": "We've launched the compaction API in beta, providing server-side context summarization for effectively infinite conversations. Available on Opus 4.6."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "tags": [
+        "compaction-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-05-anthropic-claude-opus-4-6",
+      "date": "2026-02-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "__保持00__ 4.6",
+        "ja": "Claude Opus 4.6",
+        "en": "Claude Opus 4.6"
+      },
+      "summary": {
+        "zh": "我们正在升级我们最智能的模型。在代理编码、计算机使用、工具使用、搜索和金融领域，Opus 4.6 是一个行业领先的模型，通常遥遥领先。",
+        "ja": "私たちは最もスマートなモデルをアップグレードしています。 Opus 4.6 は、エージェント コーディング、コンピューターの使用、ツールの使用、検索、金融の分野において、多くの場合大差を付けて業界をリードするモデルです。",
+        "en": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin."
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-04-openai-unlocking-the-codex-harness",
+      "date": "2026-02-04",
+      "category": "openai",
+      "title": {
+        "zh": "解锁 Codex 工具：我们如何构建应用程序服务器",
+        "ja": "Codex ハーネスのロックを解除する: App Server の構築方法",
+        "en": "Unlocking the Codex harness: how we built the App Server"
+      },
+      "summary": {
+        "zh": "了解如何使用 Codex App Server 嵌入 Codex 代理，Codex App Server 是一个支持流处理进度、工具使用、批准和差异的双向 JSON-RPC API。",
+        "ja": "ストリーミングの進行状況、ツールの使用、承認、および差分を強化する双方向 JSON-RPC API である Codex App Server を使用して Codex エージェントを埋め込む方法を学びます。",
+        "en": "Learn how to embed the Codex agent using the Codex App Server, a bidirectional JSON-RPC API powering streaming progress, tool use, approvals, and diffs."
+      },
+      "url": "https://openai.com/index/unlocking-the-codex-harness",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "显示网络上 Copilot 聊天的工具调用和其他改进",
+        "ja": "ツール呼び出しとその他の Copilot チャットの改善点を Web 上で表示",
+        "en": "Showing tool calls and other improvements to Copilot chat on the web"
+      },
+      "summary": {
+        "zh": "我们添加了一些增强功能，让您在 github.com 上的 GitHub Copilot 聊天体验更加流畅、快捷。聊天响应中的工具调用您现在将看到清晰的工具调用详细信息，以便您在发送 Copilot 消息时可以实时跟踪发生的情况。此更新可帮助您： 了解 Copilot 为满足您的请求而采取的步骤。如果出现问题，则进行纠正。查看每个工具调用生成的参考。轻松将聊天导出到 JSON 或 Markdown 您现在可以将聊天导出到...",
+        "ja": "github.com での GitHub Copilot チャット エクスペリエンスをよりスムーズかつ高速にするための機能強化を追加しました。チャット応答内のツール呼び出し 明確なツール呼び出しの詳細が表示されるようになり、Copilot メッセージを送信するときに何が起こっているかをリアルタイムで追跡できるようになりました。この更新は次の目的に役立ちます。 Copilot がリクエストを満たすために実行している手順を理解する。何かが失敗しても軌道修正します。各ツール呼び出しによって生成された参照を参照してください。チャットを JSON または Markdown に簡単にエクスポートできます。チャットを次の場所にエクスポートできるようになりました。",
+        "en": "We’ve added enhancements to make your GitHub Copilot Chat experience on github.com feel smoother and faster. Tool calls in your chat response You’ll now see clear tool call details so you can track what’s happening in real time when you send Copilot a message. This update helps you: Understand the steps Copilot is taking to fulfill your request. Course-correct if something fails. See references generated by each tool call. Easily export a chat to JSON or Markdown You can now export a chat to..."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-showing-tool-calls-and-other-improvements-to-copilot-chat-on-the-web",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-january-update",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 一月更新",
+        "ja": "Visual Studio の GitHub Copilot — 1 月の更新",
+        "en": "GitHub Copilot in Visual Studio — January update"
+      },
+      "summary": {
+        "zh": "2026 年 1 月带来了彩色代码补全、部分接受代码补全、生产力提高等。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。查看 Insiders 频道​​了解最新动态： 彩色代码补全：代码补全现在具有语法突出显示功能，可帮助您快速区分变量、函数和其他元素。通过选择使用彩色文本完成代码来在设置中启用此功能。单击部分接受...",
+        "ja": "2026 年 1 月には、色付きのコード補完、コード補完の部分的な受け入れ、生産性の向上などが実現しました。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。最新情報については Insiders チャネルをチェックしてください: 色分けされたコード補完: コード補完に構文の強調表示機能が追加され、変数、関数、およびその他の要素をすばやく区別できるようになりました。設定でこれを有効にするには、コード補完に色付きのテキストを使用するを選択します。クリックして部分的に同意します...",
+        "en": "January 2026 brought colorized code completions, partial acceptance of code completions, productivity improvements, and more. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026. Check the Insiders channel for the latest: Colorized code completions: Code completions now feature syntax highlighting to help you quickly distinguish variables, functions, and other elements. Enable this in settings by selecting Use colorized text for code completions. Click to partially accept..."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-january-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code v1.109 中的 GitHub Copilot – 1 月版本",
+        "ja": "Visual Studio Code v1.109 の GitHub Copilot – 1 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code v1.109 – January Release"
+      },
+      "summary": {
+        "zh": "2026 年 1 月的版本对 Visual Studio Code 中的 GitHub Copilot 进行了重大改进，包括代理驱动的工作流、对代理会话管理的改进，以及在 IDE 中引入 Anthropic 对 Claude 的代理支持。代理可扩展性（模型 + 集成） Claude 代理支持处于公共预览版，并允许使用 GitHub Copilot 订阅中的 Claude 模型将任务委派给 Anthropic 的官方 Claude Agent SDK。更丰富的聊天互动...",
+        "ja": "この 2026 年 1 月のリリースでは、エージェント主導のワークフロー、エージェント セッション管理の改善、IDE 内での Anthropic による Claude のエージェント サポートの導入により、Visual Studio Code の GitHub Copilot が大幅に改善されました。エージェントの拡張性 (モデル + 統合) Claude エージェントのサポートはパブリック プレビュー段階にあり、GitHub Copilot サブスクリプションの Claude モデルを使用して、Anthropic の公式 Claude エージェント SDK にタスクを委任できます。 Richer chat interactions with...",
+        "en": "This January 2026 release brings significant improvements to GitHub Copilot in Visual Studio Code with agent-driven workflows, improvements to agent session management, and the introduction of agent support for Claude by Anthropic – right in your IDE. Agent extensibility (models + integrations) Claude agent support is in public preview and enables delegating tasks to Anthropic’s official Claude Agent SDK using Claude models from your GitHub Copilot subscription. Richer chat interactions with..."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-github-copilot-in-visual-studio-code-v1-109-january-release",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "Claude 和 Codex 现已在 GitHub 上提供公共预览版",
+        "ja": "Claude と Codex が GitHub でパブリック プレビューで利用可能になりました",
+        "en": "Claude and Codex are now available in public preview on GitHub"
+      },
+      "summary": {
+        "zh": "Claude 和 Codex 编码代理现已推出公共预览版 Claude by Anthropic 和 OpenAI Codex 现在可用作 Copilot Pro+ 和 Copilot Enterprise 客户的编码代理。您可以从 github.com、GitHub Mobile 和 VS Code 启动代理会话并将工作分配给这些代理。您可以直接从问题、拉取请求、启用的存储库中的“代理”选项卡以及 VS Code 中的代理会话视图中执行此操作，以获得无缝的跨客户端体验。无需额外订阅...",
+        "ja": "Claude および Codex コーディング エージェントがパブリック プレビューになりました。 Anthropic および OpenAI による Claude が、Copilot Pro+ および Copilot Enterprise の顧客向けのコーディング エージェントとして利用できるようになりました。エージェント セッションを開始し、github.com、GitHub Mobile、VS Code からこれらのエージェントに作業を割り当てることができます。これは、問題、プル リクエスト、有効なリポジトリの [エージェント] タブ、および VS Code のエージェント セッション ビューから直接行うことができ、シームレスなクロスクライアント エクスペリエンスを実現します。追加のサブスクリプションは必要ありません...",
+        "en": "Claude and Codex coding agents are now in public preview Claude by Anthropic and OpenAI Codex are now available as coding agents for Copilot Pro+ and Copilot Enterprise customers. You can start agent sessions and assign work to these agents from github.com, GitHub Mobile, and VS Code. You can do this directly from issues, pull requests, the Agents tab in enabled repositories, and the agent sessions view in VS Code for a seamless cross-client experience. No additional subscriptions are required..."
+      },
+      "url": "https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-github-2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+      "date": "2026-02-04",
+      "category": "github",
+      "title": {
+        "zh": "为个人用户提供简化的 Copilot 模型支持体验",
+        "ja": "個々のユーザー向けの簡素化された Copilot モデル有効化エクスペリエンス",
+        "en": "Simplified Copilot model enablement experience for individual users"
+      },
+      "summary": {
+        "zh": "我们让您更轻松地发现和使用所有 Copilot 功能的最新模型。如果您是 Copilot Pro+、Pro 或 Free 用户，新发布的模型现在可以直接在 Copilot 中使用，无需管理策略或访问设置页面即可访问它们。通过此更改：可以在 Copilot 功能中立即访问新模型 - 无需额外点击或访问设置。您可以通过自己选择模型来使用模型，也可以在自动模式处于...时让 GitHub 为您选择一个模型...",
+        "ja": "すべての Copilot 機能にわたって、最新モデルを見つけて使用することが簡単になりました。 Copilot Pro+、Pro、または Free ユーザーの場合は、新しくリリースされたモデルを Copilot 内で直接利用できるようになりました。ポリシーを管理したり、設定ページにアクセスしてアクセスしたりする必要はありません。この変更により、Copilot 機能内で新しいモデルにすぐにアクセスできるようになり、追加のクリックや設定へのアクセスは必要なくなりました。モデルを使用するには、自分でモデルを選択するか、自動モードの場合に GitHub にモデルを選択してもらいます。",
+        "en": "We’ve made it easier to discover and use the latest models across all Copilot features. If you’re a Copilot Pro+, Pro, or Free user, newly released models are now available directly within Copilot—no need to manage policies or visit your settings pages to access them. With this change: New models are immediately accessible within Copilot features—no extra clicks or visits to settings required. You can use a model by choosing it yourself or by letting GitHub pick one for you when Auto mode is..."
+      },
+      "url": "https://github.blog/changelog/2026-02-03-simplified-copilot-model-enablement-experience-for-individual-users",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-04-anthropic-claude-is-a-space-to-think",
+      "date": "2026-02-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德是一个思考的空间 |人择",
+        "ja": "クロードは考えるための空間です |人間的",
+        "en": "Claude is a space to think | Anthropic"
+      },
+      "summary": {
+        "zh": "我们做出了选择：克劳德将保持无广告状态。我们解释了为什么广告激励与真正有用的人工智能助手不兼容，以及我们计划如何在不损害用户信任的情况下扩大访问范围。",
+        "ja": "私たちは選択をしました。クロードには広告が表示されないままにしておきます。広告インセンティブが真に役立つ AI アシスタントと両立しない理由と、ユーザーの信頼を損なうことなくアクセスを拡大する方法を説明します。",
+        "en": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust."
+      },
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-03-openai-sora-feed-philosophy",
+      "date": "2026-02-03",
+      "category": "openai",
+      "title": {
+        "zh": "Sora 饲料理念",
+        "ja": "ソラフィードの哲学",
+        "en": "The Sora feed philosophy"
+      },
+      "summary": {
+        "zh": "探索 Sora feed 理念——旨在激发创造力、促进联系，并通过个性化推荐、家长控制和强大的护栏来保证体验安全。",
+        "ja": "Sora フィードの哲学をご覧ください。創造性を刺激し、つながりを育み、パーソナライズされた推奨事項、ペアレンタル コントロール、強力なガードレールによって体験を安全に保つために構築されています。",
+        "en": "Discover the Sora feed philosophy—built to spark creativity, foster connections, and keep experiences safe with personalized recommendations, parental controls, and strong guardrails."
+      },
+      "url": "https://openai.com/index/sora-feed-philosophy",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-03-openai-changelog",
+      "date": "2026-02-03",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.2、GPT-5.2-法典",
+        "ja": "GPT-5.2、GPT-5.2-コーデックス",
+        "en": "GPT-5.2, GPT-5.2-Codex"
+      },
+      "summary": {
+        "zh": "我们已经为 API 客户优化了推理堆栈，GPT-5.2 和 GPT-5.2-Codex 现在的运行速度提高了约 40%。模型和模型权重不变。",
+        "ja": "API 顧客向けに推論スタックを最適化し、GPT-5.2 および GPT-5.2-Codex が最大 40% 高速に実行されるようになりました。モデルとモデルの重量は変更されません。",
+        "en": "We have optimized our inference stack for API customers and GPT-5.2 and GPT-5.2-Codex now run ~40% faster. Model and model weights are unchanged."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-03-update-gpt-5-2-gpt-5-2-codex",
+      "tags": [
+        "gpt-5-2",
+        "gpt-5-2-codex",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-03-anthropic-apple-xcode-claude-agent-sdk",
+      "date": "2026-02-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "Apple 的 Xcode 现在支持 Claude Agent SDK",
+        "ja": "Apple の Xcode が Claude Agent SDK をサポートするようになりました",
+        "en": "Apple’s Xcode now supports the Claude Agent SDK"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/apple-xcode-claude-agent-sdk",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-02-openai-snowflake-partnership",
+      "date": "2026-02-02",
+      "category": "openai",
+      "title": {
+        "zh": "Snowflake 与 OpenAI 合作，为企业数据带来前沿智能",
+        "ja": "Snowflake と OpenAI が提携し、エンタープライズ データにフロンティア インテリジェンスを導入",
+        "en": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data"
+      },
+      "summary": {
+        "zh": "OpenAI 和 Snowflake 达成了一项价值 2 亿美元的合作协议，将前沿智能引入企业数据，从而直接在 Snowflake 中实现 AI 代理和洞察。",
+        "ja": "OpenAI と Snowflake は、フロンティア インテリジェンスをエンタープライズ データに取り込み、Snowflake で直接 AI エージェントと洞察を可能にするために 2 億ドルの契約で提携しています。",
+        "en": "OpenAI and Snowflake partner in a $200M agreement to bring frontier intelligence into enterprise data, enabling AI agents and insights directly in Snowflake."
+      },
+      "url": "https://openai.com/index/snowflake-partnership",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-02-openai-introducing-the-codex-app",
+      "date": "2026-02-02",
+      "category": "openai",
+      "title": {
+        "zh": "介绍 Codex 应用程序",
+        "ja": "Codex アプリのご紹介",
+        "en": "Introducing the Codex app"
+      },
+      "summary": {
+        "zh": "隆重推出适用于 macOS 的 Codex 应用程序，这是一个用于 AI 编码和软件开发的指挥中心，具有多个代理、并行工作流程和长时间运行的任务。",
+        "ja": "macOS 用 Codex アプリの紹介。これは、複数のエージェント、並列ワークフロー、長​​時間実行タスクを備えた AI コーディングとソフトウェア開発のためのコマンド センターです。",
+        "en": "Introducing the Codex app for macOS—a command center for AI coding and software development with multiple agents, parallel workflows, and long-running tasks."
+      },
+      "url": "https://openai.com/index/introducing-the-codex-app",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-02-anthropic-anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+      "date": "2026-02-02",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 与艾伦研究所和霍华德休斯医学研究所合作，加速科学发现",
+        "ja": "Anthropic はアレン研究所およびハワード・ヒューズ医学研究所と提携して科学的発見を加速します",
+        "en": "Anthropic partners with Allen Institute and Howard Hughes Medical Institute to accelerate scientific discovery"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-01-29-openai-retiring-gpt-4o-and-older-models",
       "date": "2026-01-29",
