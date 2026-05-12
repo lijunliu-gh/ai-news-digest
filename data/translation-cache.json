@@ -3363,5 +3363,29 @@
   "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic...": {
     "zh": "GitHub Copilot CLI — 终端本机编码代理，可将 GitHub Copilot 的功能直接带入命令行 — 现在可供所有 Copilot 订阅者使用。编者注（2026 年 2 月 27 日）：更新了文本以准确表明 Copilot CLI 可供所有 Copilot 订阅者使用。自 2025 年 9 月推出公共预览版以来，我们已经根据您的反馈进行了数百项改进。 Copilot CLI 已经从一个终端助手发展成为一个完整的代理......",
     "ja": "GitHub Copilot CLI (GitHub Copilot の機能をコマンド ラインに直接提供するターミナル ネイティブ コーディング エージェント) が、すべての Copilot サブスクライバーに一般公開されました。編集者注記 (2026 年 2 月 27 日): Copilot CLI がすべての Copilot サブスクライバーに利用可能であることを正確に示すためにテキストを更新しました。 2025 年 9 月にパブリック プレビューを開始して以来、お客様のフィードバックをもとに何百もの改良を加えてきました。 Copilot CLI はターミナル アシスタントから完全なエージェントに成長しました..."
+  },
+  "C++ code intelligence for GitHub Copilot CLI in public preview": {
+    "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
+    "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス"
+  },
+  "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line. Why this matters C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides...": {
+    "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
+    "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは..."
+  },
+  "Copilot cloud agent signs its commits": {
+    "zh": "Copilot 云代理签署其承诺",
+    "ja": "Copilot クラウド エージェントがコミットに署名します"
+  },
+  "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about...": {
+    "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解更多关于...",
+    "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で検証済みとして表示されるため、そのコミットがエージェントによって真正に作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になったリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。詳細については..."
+  },
+  "Copilot coding agent supports code referencing": {
+    "zh": "Copilot编码代理支持代码引用",
+    "ja": "Copilot コーディング エージェントはコード参照をサポートします"
+  },
+  "Copilot coding agent, our asynchronous, autonomous background agent, now works with Copilot code referencing. If the agent generates code that matches code in a public GitHub repository, the matching code will be highlighted in the agent session logs with a link to the original code, so you can understand where the code comes from and any license that may apply. Copilot coding agent does not support the “Suggestions matching public code” policy’s Block mode. When the policy is set to Block...": {
+    "zh": "Copilot 编码代理，我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
+    "ja": "非同期で自律的なバックグラウンド エージェントである Copilot コーディング エージェントは、Copilot コード参照で動作するようになりました。エージェントがパブリック GitHub リポジトリ内のコードと一致するコードを生成した場合、一致するコードは元のコードへのリンクとともにエージェント セッション ログで強調表示されるため、コードの出所と適用される可能性のあるライセンスを理解できます。 Copilot コーディング エージェントは、「パブリック コードに一致する提案」ポリシーのブロック モードをサポートしていません。ポリシーがブロックに設定されている場合..."
   }
 }
