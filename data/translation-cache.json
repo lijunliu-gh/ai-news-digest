@@ -1186,10 +1186,6 @@
     "zh": "将 Copilot 编码代理与 Windows 项目结合使用",
     "ja": "Windows プロジェクトで Copilot コーディング エージェントを使用する"
   },
-  "Copilot coding agent supports code referencing": {
-    "zh": "副驾驶编码代理支持代码引用",
-    "ja": "Copilot コーディング エージェントはコード参照をサポートします"
-  },
   "Claude Opus 4.6 is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse": {
     "zh": "Claude Opus 4.6 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中可用",
     "ja": "Claude Opus 4.6 が Visual Studio、JetBrains IDE、Xcode、および Eclipse で利用可能になりました"
@@ -1970,10 +1966,6 @@
     "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，Copilot 在其自己的开发环境中在后台运行，由 GitHub 操作提供支持。默认情况下，代理使用 Linux 开发环境。如果您的项目面向 Windows，您现在可以配置 Copilot 编码代理以使用 Windows 环境，仍由 GitHub 操作提供支持。借助有效的开发环境，Copilot 可以确保您的项目构建和自动化测试......",
     "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot は GitHub アクションを利用して、独自の開発環境のバックグラウンドで動作します。デフォルトでは、エージェントは Linux 開発環境を使用します。プロジェクトが Windows を対象とする場合、GitHub アクションを利用しながら、Windows 環境を使用するように Copilot コーディング エージェントを構成できるようになりました。実用的な開発環境があれば、Copilot はプロジェクトのビルドと自動テストを確実に行うことができます..."
   },
-  "Copilot coding agent, our asynchronous, autonomous background agent, now works with Copilot code referencing. If the agent generates code that matches code in a public GitHub repository, the matching code will be highlighted in the agent session logs with a link to the original code, so you can understand where the code comes from and any license that may apply. Copilot coding agent does not support the “Suggestions matching public code” policy’s Block mode. When the policy is set to Block...": {
-    "zh": "Copilot 编码代理是我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
-    "ja": "非同期で自律的なバックグラウンド エージェントである Copilot コーディング エージェントは、Copilot コード参照で動作するようになりました。エージェントがパブリック GitHub リポジトリ内のコードと一致するコードを生成した場合、一致するコードは元のコードへのリンクとともにエージェント セッション ログで強調表示されるため、コードの出所と適用される可能性のあるライセンスを理解できます。 Copilot コーディング エージェントは、「パブリック コードに一致する提案」ポリシーのブロック モードをサポートしていません。ポリシーがブロックに設定されている場合..."
-  },
   "Claude Opus 4.6 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the Claude Opus 4.6...": {
     "zh": "Claude Opus 4.6 一般适用于 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）访问 GitHub Copilot Chat on github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中的模型。如果您还没有访问权限，请稍后再检查。启用访问 Copilot 业务和企业管理员必须通过启用 Claude Opus 4.6 来选择加入...",
     "ja": "Claude Opus 4.6 は、Copilot Enterprise、Copilot Business、Copilot Pro、および Copilot Pro+ で一般提供されています。チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com の GitHub Copilot チャット、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。アクセスの有効化 Copilot Business および Enterprise 管理者は、Claude Opus 4.6... を有効にしてオプトインする必要があります。"
@@ -2228,14 +2220,6 @@
   "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.": {
     "zh": "ChatGPT 中的工作区代理是 Codex 支持的代理，可自动执行复杂的工作流程、在云中运行并帮助团队安全地跨工具扩展工作。",
     "ja": "ChatGPT のワークスペース エージェントは、複雑なワークフローを自動化し、クラウドで実行し、チームがツール間で作業を安全にスケールできるようにする Codex を利用したエージェントです。"
-  },
-  "C++ code intelligence for GitHub Copilot CLI in public preview": {
-    "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
-    "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス"
-  },
-  "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line. Why this matters C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides...": {
-    "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
-    "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは..."
   },
   "GitHub Copilot for Jira: Our latest enhancements": {
     "zh": "Jira 的 GitHub Copilot：我们的最新增强功能",
@@ -3355,5 +3339,29 @@
   "Added return_token_budget for the Responses API web search tool. Use it to opt in to longer GPT-5+ reasoning web search runs for high-effort research and evaluation workloads.": {
     "zh": "为 Responses API Web 搜索工具添加了 return_token_budget。使用它可以选择更长的 GPT-5+ 推理网络搜索运行，以进行高强度的研究和评估工作负载。",
     "ja": "Responses API Web 検索ツールに return_token_budget を追加しました。これを使用して、労力のかかる研究および評価ワークロードに対して、より長い GPT-5+ 推論 Web 検索の実行をオプトインします。"
+  },
+  "How ChatGPT adoption broadened in early 2026": {
+    "zh": "ChatGPT 的采用率如何在 2026 年初扩大",
+    "ja": "2026 年初頭に ChatGPT の導入はどのように拡大したか"
+  },
+  "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.": {
+    "zh": "ChatGPT 的采用率在 2026 年第一季度激增，其中 35 岁以上的用户增长最快，性别使用更加平衡，这表明主流人工智能的采用范围更广泛。",
+    "ja": "ChatGPT の導入は 2026 年第 1 四半期に急増し、35 歳以上のユーザーの間で最も急速に増加し、男女の使用のバランスがより均衡し、主流の AI 導入が広範に広がっていることを示しています。"
+  },
+  "Copilot coding agent works faster with semantic code search": {
+    "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
+    "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します"
+  },
+  "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses...": {
+    "zh": "Copilot 编码代理现在可以访问语义代码搜索工具，使其能够根据含义查找相关代码，而不是依赖于 grep 等工具的精确文本匹配。当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
+    "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します..."
+  },
+  "GitHub Copilot CLI is now generally available": {
+    "zh": "GitHub Copilot CLI 现已全面可用",
+    "ja": "GitHub Copilot CLI が一般公開されました"
+  },
+  "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic...": {
+    "zh": "GitHub Copilot CLI — 终端本机编码代理，可将 GitHub Copilot 的功能直接带入命令行 — 现在可供所有 Copilot 订阅者使用。编者注（2026 年 2 月 27 日）：更新了文本以准确表明 Copilot CLI 可供所有 Copilot 订阅者使用。自 2025 年 9 月推出公共预览版以来，我们已经根据您的反馈进行了数百项改进。 Copilot CLI 已经从一个终端助手发展成为一个完整的代理......",
+    "ja": "GitHub Copilot CLI (GitHub Copilot の機能をコマンド ラインに直接提供するターミナル ネイティブ コーディング エージェント) が、すべての Copilot サブスクライバーに一般公開されました。編集者注記 (2026 年 2 月 27 日): Copilot CLI がすべての Copilot サブスクライバーに利用可能であることを正確に示すためにテキストを更新しました。 2025 年 9 月にパブリック プレビューを開始して以来、お客様のフィードバックをもとに何百もの改良を加えてきました。 Copilot CLI はターミナル アシスタントから完全なエージェントに成長しました..."
   }
 }

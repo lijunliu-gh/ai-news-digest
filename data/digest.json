@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-12",
   "windowMonths": 3,
   "items": [
     {
@@ -69,6 +69,27 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-11-openai-2026q1-update",
+      "date": "2026-05-11",
+      "category": "openai",
+      "title": {
+        "zh": "ChatGPT 的采用率如何在 2026 年初扩大",
+        "ja": "2026 年初頭に ChatGPT の導入はどのように拡大したか",
+        "en": "How ChatGPT adoption broadened in early 2026"
+      },
+      "summary": {
+        "zh": "ChatGPT 的采用率在 2026 年第一季度激增，其中 35 岁以上的用户增长最快，性别使用更加平衡，这表明主流人工智能的采用范围更广泛。",
+        "ja": "ChatGPT の導入は 2026 年第 1 四半期に急増し、35 歳以上のユーザーの間で最も急速に増加し、男女の使用のバランスがより均衡し、主流の AI 導入が広範に広がっていることを示しています。",
+        "en": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption."
+      },
+      "url": "https://openai.com/signals/research/2026q1-update",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-11-anthropic-claude-platform-on-aws",
@@ -2064,30 +2085,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-22-github-2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
-      "date": "2026-04-22",
-      "category": "github",
-      "title": {
-        "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
-        "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス",
-        "en": "C++ code intelligence for GitHub Copilot CLI in public preview"
-      },
-      "summary": {
-        "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
-        "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは...",
-        "en": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line. Why this matters C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides..."
-      },
-      "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -5050,6 +5047,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-17-github-2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "date": "2026-03-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します",
+        "en": "Copilot coding agent works faster with semantic code search"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理现在可以访问语义代码搜索工具，使其能够根据含义查找相关代码，而不是依赖于 grep 等工具的精确文本匹配。当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します...",
+        "en": "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses..."
+      },
+      "url": "https://github.blog/changelog/2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-16-openai-why-codex-security-doesnt-include-sast",
       "date": "2026-03-16",
       "category": "openai",
@@ -6822,6 +6843,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-25-github-2026-02-25-github-copilot-cli-is-now-generally-available",
+      "date": "2026-02-25",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot CLI 现已全面可用",
+        "ja": "GitHub Copilot CLI が一般公開されました",
+        "en": "GitHub Copilot CLI is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI — 终端本机编码代理，可将 GitHub Copilot 的功能直接带入命令行 — 现在可供所有 Copilot 订阅者使用。编者注（2026 年 2 月 27 日）：更新了文本以准确表明 Copilot CLI 可供所有 Copilot 订阅者使用。自 2025 年 9 月推出公共预览版以来，我们已经根据您的反馈进行了数百项改进。 Copilot CLI 已经从一个终端助手发展成为一个完整的代理......",
+        "ja": "GitHub Copilot CLI (GitHub Copilot の機能をコマンド ラインに直接提供するターミナル ネイティブ コーディング エージェント) が、すべての Copilot サブスクライバーに一般公開されました。編集者注記 (2026 年 2 月 27 日): Copilot CLI がすべての Copilot サブスクライバーに利用可能であることを正確に示すためにテキストを更新しました。 2025 年 9 月にパブリック プレビューを開始して以来、お客様のフィードバックをもとに何百もの改良を加えてきました。 Copilot CLI はターミナル アシスタントから完全なエージェントに成長しました...",
+        "en": "GitHub Copilot CLI—the terminal-native coding agent that brings the power of GitHub Copilot directly to your command line—is now generally available for all Copilot subscribers. Editor’s note (February 27, 2026): Updated the text to accurately indicate that Copilot CLI is available to all Copilot subscribers. Since launching in public preview in September 2025, we’ve shipped hundreds of improvements shaped by your feedback. Copilot CLI has grown from a terminal assistant into a full agentic..."
+      },
+      "url": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-25-github-2026-02-25-generate-pull-request-titles-with-copilot-on-the-web",
       "date": "2026-02-25",
       "category": "github",
@@ -7470,30 +7516,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-02-18-github-2026-02-18-copilot-coding-agent-supports-code-referencing",
-      "date": "2026-02-18",
-      "category": "github",
-      "title": {
-        "zh": "副驾驶编码代理支持代码引用",
-        "ja": "Copilot コーディング エージェントはコード参照をサポートします",
-        "en": "Copilot coding agent supports code referencing"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理是我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
-        "ja": "非同期で自律的なバックグラウンド エージェントである Copilot コーディング エージェントは、Copilot コード参照で動作するようになりました。エージェントがパブリック GitHub リポジトリ内のコードと一致するコードを生成した場合、一致するコードは元のコードへのリンクとともにエージェント セッション ログで強調表示されるため、コードの出所と適用される可能性のあるライセンスを理解できます。 Copilot コーディング エージェントは、「パブリック コードに一致する提案」ポリシーのブロック モードをサポートしていません。ポリシーがブロックに設定されている場合...",
-        "en": "Copilot coding agent, our asynchronous, autonomous background agent, now works with Copilot code referencing. If the agent generates code that matches code in a public GitHub repository, the matching code will be highlighted in the agent session logs with a link to the original code, so you can understand where the code comes from and any license that may apply. Copilot coding agent does not support the “Suggestions matching public code” policy’s Block mode. When the policy is set to Block..."
-      },
-      "url": "https://github.blog/changelog/2026-02-18-copilot-coding-agent-supports-code-referencing",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-02-18-github-2026-02-18-claude-opus-4-6-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
       "date": "2026-02-18",
       "category": "github",
@@ -8056,74 +8078,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-11-openai-harness-engineering",
-      "date": "2026-02-11",
-      "category": "openai",
-      "title": {
-        "zh": "线束工程：在代理优先的世界中利用 Codex",
-        "ja": "ハーネス エンジニアリング: エージェントファーストの世界で Codex を活用する",
-        "en": "Harness engineering: leveraging Codex in an agent-first world"
-      },
-      "summary": {
-        "zh": "作者：Ryan Lopopolo，技术人员",
-        "ja": "Ryan Lopopolo、技術スタッフのメンバーによる",
-        "en": "By Ryan Lopopolo, Member of the Technical Staff"
-      },
-      "url": "https://openai.com/index/harness-engineering",
-      "tags": [
-        "engineering",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-11-github-2026-02-11-github-mobile-model-picker-for-copilot-coding-agent",
-      "date": "2026-02-11",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Mobile：Copilot 编码代理的模型选择器",
-        "ja": "GitHub Mobile: Copilot コーディング エージェントのモデル ピッカー",
-        "en": "GitHub Mobile: Model picker for Copilot coding agent"
-      },
-      "summary": {
-        "zh": "Copilot Pro 和 Pro+ 订阅者现在可以在 GitHub 移动应用程序中启动 Copilot 编码代理会话时选择模型。您可以快速将模型与手头的任务相匹配，而无需切换到桌面。也许您想在旅途中选择更快的响应，或者您想选择更强大的模型来进行更深入的工作。当您在应用程序中启动会话时，使用模型选择器进行选择： 自动 Anthropic Claude Opus 4.5 Anthropic Claude Opus 4.6 Anthropic Claude Sonnet 4.5...",
-        "ja": "Copilot Pro および Pro+ サブスクライバーは、GitHub モバイル アプリで Copilot コーディング エージェント セッションを開始するときにモデルを選択できるようになりました。デスクトップに切り替える必要がなく、モデルを当面のタスクにすばやく適合させることができます。外出中により高速な応答を選択したい場合や、より深い作業のためにより高性能なモデルを選択したい場合もあります。アプリでセッションを開始するときは、モデル ピッカーを使用して次から選択します。 自動 Anthropic Claude Opus 4.5 Anthropic Claude Opus 4.6 Anthropic Claude Sonnet 4.5...",
-        "en": "Copilot Pro and Pro+ subscribers can now choose a model when starting a Copilot coding agent session in the GitHub Mobile app. You can quickly match the model to the task at hand without needing to switch to desktop. Maybe you want to opt for faster responses when you’re on the go, or you want to pick a more capable model for deeper work. When you start a session in the app, use the model picker to select from: Auto Anthropic Claude Opus 4.5 Anthropic Claude Opus 4.6 Anthropic Claude Sonnet 4.5..."
-      },
-      "url": "https://github.blog/changelog/2026-02-11-github-mobile-model-picker-for-copilot-coding-agent",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-11-anthropic-covering-electricity-price-increases",
-      "date": "2026-02-11",
-      "category": "anthropic",
-      "title": {
-        "zh": "弥补我们数据中心的电价上涨",
-        "ja": "データセンターの電気料金値上げをカバー",
-        "en": "Covering electricity price increases from our data centers"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/covering-electricity-price-increases",
       "tags": [
         "anthropic"
       ],
