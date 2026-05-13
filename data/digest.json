@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12",
+  "lastUpdated": "2026-05-13",
   "windowMonths": 3,
   "items": [
     {
@@ -19,6 +19,48 @@
       "url": "https://openai.com/index/what-parameter-golf-taught-us",
       "tags": [
         "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-12-openai-nvidia",
+      "date": "2026-05-12",
+      "category": "openai",
+      "title": {
+        "zh": "NVIDIA 工程师和研究人员如何使用 Codex 进行构建",
+        "ja": "NVIDIA エンジニアと研究者が Codex を使用して構築する方法",
+        "en": "How NVIDIA engineers and researchers build with Codex"
+      },
+      "summary": {
+        "zh": "团队使用 Codex 和 GPT-5.5 来交付生产系统，并将研究想法转化为可运行的实验。",
+        "ja": "チームは GPT-5.5 で Codex を使用して実稼働システムを出荷し、研究のアイデアを実行可能な実験に変えます。",
+        "en": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments."
+      },
+      "url": "https://openai.com/index/nvidia",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-12-openai-autoscout24",
+      "date": "2026-05-12",
+      "category": "openai",
+      "title": {
+        "zh": "AutoScout24 通过人工智能驱动的工作流程扩展工程",
+        "ja": "AutoScout24 は AI を活用したワークフローでエンジニアリングを拡張します",
+        "en": "AutoScout24 scales engineering with AI-powered workflows"
+      },
+      "summary": {
+        "zh": "了解 AutoScout24 Group 如何使用 Codex 和 ChatGPT 来加快开发周期、提高代码质量并扩大人工智能的采用。",
+        "ja": "AutoScout24 Group が Codex と ChatGPT を使用して、開発サイクルを短縮し、コード品質を向上させ、AI 導入を拡大する方法を学びましょう。",
+        "en": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption."
+      },
+      "url": "https://openai.com/index/autoscout24",
+      "tags": [
         "openai"
       ],
       "source": "OpenAI News",
@@ -304,6 +346,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-08-github-2026-05-07-upcoming-deprecation-of-gpt-4-1",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 GPT-4.1",
+        "ja": "GPT-4.1 の今後の非推奨",
+        "en": "Upcoming deprecation of GPT-4.1"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以...",
+        "ja": "2026 年 6 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 これらの前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。日付。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者としてできることは...",
+        "en": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative GPT-4.1 2026-06-01 GPT-5.5 Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can..."
+      },
+      "url": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-07-openai-testing-ads-in-chatgpt",
       "date": "2026-05-07",
       "category": "openai",
@@ -481,6 +547,30 @@
       "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-07-github-2026-05-07-claude-sonnet-4-deprecated",
+      "date": "2026-05-07",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 4 已弃用",
+        "ja": "Claude Sonnet 4 は非推奨になりました",
+        "en": "Claude Sonnet 4 deprecated"
+      },
+      "summary": {
+        "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以...",
+        "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者としてできることは...",
+        "en": "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can..."
+      },
+      "url": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
+      "tags": [
+        "retired",
         "copilot",
         "github",
         "changelog"
@@ -5448,6 +5538,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-11-openai-rakuten",
+      "date": "2026-03-11",
+      "category": "openai",
+      "title": {
+        "zh": "Rakuten 使用 Codex 解决问题的速度提高了一倍",
+        "ja": "楽天は Codex を使用して問題を 2 倍の速さで解決します",
+        "en": "Rakuten fixes issues twice as fast with Codex"
+      },
+      "summary": {
+        "zh": "",
+        "ja": "",
+        "en": ""
+      },
+      "url": "https://openai.com/index/rakuten",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-03-11-openai-equip-responses-api-computer-environment",
       "date": "2026-03-11",
       "category": "openai",
@@ -8130,92 +8241,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-12-openai-introducing-gpt-5-3-codex-spark",
-      "date": "2026-02-12",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-5.3-Codex-Spark 简介",
-        "ja": "GPT-5.3-Codex-Spark の紹介",
-        "en": "Introducing GPT-5.3-Codex-Spark"
-      },
-      "summary": {
-        "zh": "隆重推出 GPT-5.3-Codex-Spark——我们的第一个实时编码模型。生成速度提高 15 倍，128k 上下文，现在为 ChatGPT Pro 用户提供研究预览版。",
-        "ja": "当社初のリアルタイム コーディング モデルである GPT-5.3-Codex-Spark の紹介。 15 倍高速な生成、128k コンテキスト、現在 ChatGPT Pro ユーザー向けのリサーチ プレビュー中です。",
-        "en": "Introducing GPT-5.3-Codex-Spark—our first real-time coding model. 15x faster generation, 128k context, now in research preview for ChatGPT Pro users."
-      },
-      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-12-google-gemini-3-deep-think-advancing-science-research-and-engineering",
-      "date": "2026-02-12",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3 Deep Think：推进科学、研究和工程",
-        "ja": "ジェミニ 3 深く考える: 科学、研究、エンジニアリングの進歩",
-        "en": "Gemini 3 Deep Think: Advancing science, research and engineering"
-      },
-      "summary": {
-        "zh": "我们最专业的推理模式现已更新，可以解决现代科学、研究和工程挑战。",
-        "ja": "最も特殊な推論モードが更新され、現代の科学、研究、工学の課題を解決できるようになりました。",
-        "en": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
-      },
-      "url": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-12-anthropic-donate-public-first-action",
-      "date": "2026-02-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 向 Public First Action 捐赠 2000 万美元",
-        "ja": "Anthropic は Public First Action に 2,000 万ドルを寄付",
-        "en": "Anthropic is donating $20 million to Public First Action"
-      },
-      "summary": {
-        "zh": "向关注公共利益的人工智能问题的 501(c)(4) 捐款",
-        "ja": "公益上の AI 問題に焦点を当てた 501(c)(4) への寄付",
-        "en": "Donating to a 501(c)(4) focused on AI issues in the public interest"
-      },
-      "url": "https://www.anthropic.com/news/donate-public-first-action",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-12-anthropic-anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-      "date": "2026-02-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 G 轮融资中筹集了 300 亿美元，投后估值为 3800 亿美元",
-        "ja": "Anthropic、ポストマネー評価額3,800億ドルでシリーズG資金調達で300億ドルを調達",
-        "en": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
       "tags": [
         "anthropic"
       ],
