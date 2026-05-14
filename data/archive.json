@@ -1,7 +1,188 @@
 {
-  "lastUpdated": "2026-05-13",
+  "lastUpdated": "2026-05-14",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-02-13-openai-scaling-social-science-research",
+      "date": "2026-02-13",
+      "category": "openai",
+      "title": {
+        "zh": "扩大社会科学研究规模",
+        "ja": "社会科学研究の拡大",
+        "en": "Scaling social science research"
+      },
+      "summary": {
+        "zh": "GABRIEL 是 OpenAI 的一款新开源工具包，它使用 GPT 将定性文本和图像转化为定量数据，帮助社会科学家大规模分析研究。",
+        "ja": "GABRIEL は OpenAI の新しいオープンソース ツールキットで、GPT を使用して定性的なテキストと画像を定量的なデータに変換し、社会科学者が研究を大規模に分析できるようにします。",
+        "en": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale."
+      },
+      "url": "https://openai.com/index/scaling-social-science-research",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-13-openai-new-result-theoretical-physics",
+      "date": "2026-02-13",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.2得出理论物理新结果",
+        "ja": "GPT-5.2 は理論物理学における新たな結果を導き出します",
+        "en": "GPT-5.2 derives a new result in theoretical physics"
+      },
+      "summary": {
+        "zh": "新的预印本显示 GPT-5.2 提出了胶子振幅的新公式，后来由 OpenAI 和学术合作者正式证明和验证。",
+        "ja": "新しいプレプリントには、GPT-5.2 がグルーオン振幅の新しい公式を提案しており、後に OpenAI と学術協力者によって正式に証明および検証されたことが示されています。",
+        "en": "A new preprint shows GPT-5.2 proposing a new formula for a gluon amplitude, later formally proved and verified by OpenAI and academic collaborators."
+      },
+      "url": "https://openai.com/index/new-result-theoretical-physics",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-13-openai-introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "date": "2026-02-13",
+      "category": "openai",
+      "title": {
+        "zh": "ChatGPT 中引入锁定模式和高风险标签",
+        "ja": "ChatGPT にロックダウン モードとリスク上昇ラベルを導入",
+        "en": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT"
+      },
+      "summary": {
+        "zh": "在 ChatGPT 中引入锁定模式和高风险标签，以帮助组织防御即时注入和人工智能驱动的数据泄露。",
+        "ja": "ChatGPT にロックダウン モードとリスク上昇ラベルを導入し、組織が迅速なインジェクションや AI 主導のデータ漏洩から防御できるようにします。",
+        "en": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT to help organizations defend against prompt injection and AI-driven data exfiltration."
+      },
+      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-13-openai-beyond-rate-limits",
+      "date": "2026-02-13",
+      "category": "openai",
+      "title": {
+        "zh": "超越速率限制：扩展对 Codex 和 Sora 的访问",
+        "ja": "レート制限を超えて: Codex と Sora へのアクセスをスケーリングする",
+        "en": "Beyond rate limits: scaling access to Codex and Sora"
+      },
+      "summary": {
+        "zh": "OpenAI 如何构建一个结合了速率限制、使用情况跟踪和积分的实时访问系统，以支持对 Sora 和 Codex 的持续访问。",
+        "ja": "OpenAI が、Sora と Codex への継続的なアクセスを強化するために、レート制限、使用量追跡、クレジットを組み合わせたリアルタイム アクセス システムをどのように構築したか。",
+        "en": "How OpenAI built a real-time access system combining rate limits, usage tracking, and credits to power continuous access to Sora and Codex."
+      },
+      "url": "https://openai.com/index/beyond-rate-limits",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-13-github-2026-02-13-network-configuration-changes-for-copilot-coding-agent",
+      "date": "2026-02-13",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理的网络配置更改",
+        "ja": "Copilot コーディング エージェントのネットワーク構成の変更",
+        "en": "Network configuration changes for Copilot coding agent"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，Copilot 在其自己的开发环境中在后台运行，由 GitHub 操作提供支持。一旦 Copilot 完成工作，它会打开一个拉取请求并请求您进行审查。我们正在对 Copilot 编码代理的网络配置进行一些更改，这些更改将于 2026 年 2 月 27 日 00:00 UTC 生效。这些更改会影响已将代理配置为在自托管上运行的团队...",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot は GitHub アクションを利用して、独自の開発環境のバックグラウンドで動作します。 Copilot は作業を完了すると、プル リクエストを開き、レビューを要求します。 Copilot コーディング エージェントのネットワーク構成にいくつかの変更を加えており、2026 年 2 月 27 日の 00:00 UTC に有効になります。これらの変更は、自己ホスト型で実行するようにエージェントを構成しているチームに影響します。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions. Once Copilot finishes work, it opens a pull request and requests your review. We’re making some changes to the network configuration for Copilot coding agent which will take effect at 00:00 UTC on February 27, 2026. These changes affect teams who have configured the agent to run on self-hosted..."
+      },
+      "url": "https://github.blog/changelog/2026-02-13-network-configuration-changes-for-copilot-coding-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-13-github-2026-02-13-github-agentic-workflows-are-now-in-technical-preview",
+      "date": "2026-02-13",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Agentic Workflows 现已推出技术预览版",
+        "ja": "GitHub Agentic Workflow は現在テクニカル プレビュー段階にあります",
+        "en": "GitHub Agentic Workflows are now in technical preview"
+      },
+      "summary": {
+        "zh": "GitHub 代理工作流程允许您使用在 GitHub 操作中运行的 AI 代理自动执行存储库任务。使用简单的 Markdown 而不是复杂的 YAML 编写工作流程，并让 AI 处理问题分类、拉取请求审查、CI 故障分析和存储库维护的智能决策。通过将 Markdown 文件添加到.github/workflows/，您可以用自然语言描述自动化目标。 gh aw CLI 将这些转换为使用 GitHub 执行的标准 GitHub 操作工作流程...",
+        "ja": "GitHub エージェント ワークフローを使用すると、GitHub アクション内で実行される AI エージェントを使用してリポジトリ タスクを自動化できます。複雑な YAML ではなくプレーンな Markdown でワークフローを記述し、問題のトリアージ、プル リクエストのレビュー、CI 障害分析、リポジトリのメンテナンスに関するインテリジェントな意思決定を AI に処理させます。 Markdown ファイルを.github/workflows/ に追加すると、自動化の目標を自然言語で記述することができます。 gh aw CLI は、これらを、GitHub を使用して実行する標準の GitHub アクション ワークフローに変換します。",
+        "en": "GitHub Agentic Workflows let you automate repository tasks using AI agents that run within GitHub Actions. Write workflows in plain Markdown instead of complex YAML, and let AI handle intelligent decision-making for issue triage, pull request reviews, CI failure analysis, and repository maintenance. By adding Markdown files to.github/workflows/, you can describe automation goals in natural language. The gh aw CLI converts these into standard GitHub Actions workflows that execute using GitHub..."
+      },
+      "url": "https://github.blog/changelog/2026-02-13-github-agentic-workflows-are-now-in-technical-preview",
+      "tags": [
+        "release",
+        "actions",
+        "collaboration-tools",
+        "copilot",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-13-anthropic-chris-liddell-appointed-anthropic-board",
+      "date": "2026-02-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "Chris Liddell 被任命为 Anthropic 董事会成员",
+        "ja": "Chris Liddell が Anthropic の取締役会に任命される",
+        "en": "Chris Liddell appointed to Anthropic’s board of directors"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-13-anthropic-anthropic-codepath-partnership",
+      "date": "2026-02-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 与 CodePath 合作，将 Claude 带到美国最大的大学计算机科学项目",
+        "ja": "Anthropic が CodePath と提携して、クロードを米国最大の大学コンピュータ サイエンス プログラムに参加させる",
+        "en": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-02-12-openai-introducing-gpt-5-3-codex-spark",
       "date": "2026-02-12",
