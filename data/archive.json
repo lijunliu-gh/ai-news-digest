@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-05-17",
+  "lastUpdated": "2026-05-18",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-02-17-github-2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "Eclipse 中的 MCP 注册表和 Copilot 的更多改进",
+        "ja": "Eclipse の MCP レジストリと Copilot のその他の改善",
+        "en": "MCP Registry and more improvements in Copilot in Eclipse"
+      },
+      "summary": {
+        "zh": "我们刚刚发布了一组新的改进，使 Eclipse 中的 GitHub Copilot 更智能、更易于使用。这些更新带来了更多上下文选项、更流畅的工作流程以及更好的开发体验定制。 ✨ 新功能 MCP 注册表 只需单击几下即可从集中式注册表发现并安装 MCP 服务器。浏览可用服务器、查看其功能并立即将它们添加到您的工作区，所有这些都不需要任何手动配置。管理待办事项...",
+        "ja": "Eclipse の GitHub Copilot をよりスマートで使いやすくするための新しい改善セットをリリースしました。これらのアップデートにより、より多くのコンテキスト オプション、スムーズなワークフロー、開発エクスペリエンスのカスタマイズ性の向上が実現します。 ✨ 新機能 MCP レジストリ 数回クリックするだけで、一元化されたレジストリから MCP サーバーを検出してインストールします。手動構成を必要とせずに、利用可能なサーバーを参照してその機能を確認し、ワークスペースに即座に追加します。 Todoを管理...",
+        "en": "We’ve just shipped a new set of improvements to make GitHub Copilot in Eclipse smarter and easier to use. These updates bring more context options, smoother workflows, and better customization for your development experience. ✨ What’s new MCP Registry Discover and install MCP servers from a centralized registry with just a few clicks. Browse available servers, view their capabilities, and add them to your workspace instantly, all without requiring any manual configuration required. Manage Todo..."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-mcp-registry-and-more-improvements-in-copilot-in-eclipse",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-delegate-tasks-to-copilot-coding-agent-from-visual-studio",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "从 Visual Studio 将任务委派给 Copilot 编码代理",
+        "ja": "Visual Studio から Copilot コーディング エージェントにタスクを委任する",
+        "en": "Delegate tasks to Copilot coding agent from Visual Studio"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会打开草稿拉取请求，在云中的后台工作，然后请求您进行审核。现在，您可以将任务从 Visual Studio 委托给 Copilot。要启动后台任务，请在 Copilot 聊天中输入提示，然后单击“发送”按钮旁边的新发送到 Copilot 编码代理按钮。 Copilot 会要求您确认，然后将打开拉取请求并开始工作......",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、ドラフト プル リクエストが開かれ、クラウドのバックグラウンドで動作し、ユーザーからのレビューを要求します。 Visual Studio からタスクを Copilot に委任できるようになりました。バックグラウンド タスクを開始するには、Copilot チャットにプロンプ​​トを入力し、[送信] ボタンの隣にある新しい [Copilot コーディング エージェントに送信] ボタンをクリックします。 Copilot は確認を求め、プル リクエストを開いて作業を開始します...",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it opens a draft pull request, works in the background in the cloud, and then requests a review from you. You can now delegate tasks to Copilot from Visual Studio. To start a background task, enter your prompt in Copilot Chat then click the new Send to Copilot Coding Agent button next to the Send button. Copilot will ask you to confirm, and then will open a pull request and start working in..."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-delegate-tasks-to-copilot-coding-agent-from-visual-studio",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 4.6 现已在 GitHub Copilot 中全面可用",
+        "ja": "Claude Sonnet 4.6 は GitHub Copilot で一般公開されました",
+        "en": "Claude Sonnet 4.6 is now generally available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Sonnet 4.6，Anthropic 的最新代理编码模型，现已在 GitHub Copilot 中推出。在早期测试中，该模型在代理编码方面表现出色，并且在搜索操作方面尤其成功。请注意，虽然此型号以 1 倍保费请求乘数推出，但定价是暂定的，可能会发生变化。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub Copilot Claude Sonnet 4.6 中的可用性将适用于 Copilot Pro、Pro+...",
+        "ja": "Anthropic の最新のエージェント コーディング モデルである Claude Sonnet 4.6 は、GitHub Copilot で展開されています。初期のテストでは、このモデルはエージェント コーディングに優れており、特に検索操作で成功しています。このモデルは 1 倍のプレミアム リクエスト乗数で発売されますが、価格は暫定的なものであり、変更される可能性があることに注意してください。 https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 GitHub での利用可能性 Copilot Claude Sonnet 4.6 は Copilot Pro、Pro+... で利用可能になります。",
+        "en": "Claude Sonnet 4.6, Anthropic’s latest agentic coding model, is now rolling out in GitHub Copilot. In early testing, this model excels on agentic coding, and is particularly successful in search operations. Note, while this model is launching with a 1x premium request multiplier, pricing is tentative and subject to change. https://github.blog/wp-content/uploads/2026/02/Claude-Sonnet-4.6-Demo.mp4#t=0.001 Availability in GitHub Copilot Claude Sonnet 4.6 will be available to Copilot Pro, Pro+..."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-claude-sonnet-4-6-is-now-generally-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-github-2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "date": "2026-02-17",
+      "category": "github",
+      "title": {
+        "zh": "将问题从 Raycast 分配给 Copilot 编码代理",
+        "ja": "Raycast から Copilot コーディング エージェントに問題を割り当てる",
+        "en": "Assign issues to Copilot coding agent from Raycast"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，它会在后台运行，然后请求您进行审核。您现在可以将问题从 Raycast 分配给 Copilot，Raycast 是一款适用于 Windows 和 macOS 的强大免费启动器。 Raycast 可以启动应用程序、搜索文件、控制您的系统并利用社区构建的扩展，例如 GitHub Copilot 扩展。安装扩展程序后，您可以使用“将问题分配给...”将问题分配给 Copilot。",
+        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、バックグラウンドで動作し、ユーザーにレビューを要求します。 Windows および macOS 用の強力な無料ランチャーである Raycast から、問題を Copilot に割り当てることができるようになりました。 Raycast は、アプリの起動、ファイルの検索、システムの制御、GitHub Copilot 拡張機能などのコミュニティが構築した拡張機能の利用を行うことができます。拡張機能をインストールしたら、「問題の割り当て先...」を使用して問題を Copilot に割り当てることができます。",
+        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and it works in the background, then requests a review from you. You can now assign issues to Copilot from Raycast, a powerful free launcher for Windows and macOS. Raycast can launch apps, search files, control your system, and leverage community-built extensions like the GitHub Copilot extension. Once you’ve installed the extension, you can assign an issue to Copilot using the “Assign Issue to..."
+      },
+      "url": "https://github.blog/changelog/2026-02-17-assign-issues-to-copilot-coding-agent-from-raycast",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-17-anthropic-web-search-tool",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "网络搜索工具",
+        "ja": "ウェブ検索ツール",
+        "en": "web search tool"
+      },
+      "summary": {
+        "zh": "Web 搜索工具和编程工具调用现已普遍可用（无需 beta 标头）。 Web 搜索和 Web 获取现在支持动态过滤，它使用代码执行在结果到达上下文窗口之前对其进行过滤，以获得更好的性能并降低令牌成本。",
+        "ja": "Web 検索ツールとプログラムによるツール呼び出しが一般公開されました (ベータ ヘッダーは必要ありません)。 Web 検索と Web フェッチは動的フィルタリングをサポートするようになりました。これは、コード実行を使用して結果がコンテキスト ウィンドウに到達する前にフィルタリングすることで、パフォーマンスの向上とトークン コストの削減を実現します。",
+        "en": "The web search tool and programmatic tool calling are now generally available (no beta header required). Web search and web fetch now support dynamic filtering, which uses code execution to filter results before they reach the context window for better performance and reduced token cost."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "tags": [
+        "web-search-tool",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-17-anthropic-code-execution-tool",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "与网络搜索或网络获取一起使用时免费",
+        "ja": "Web 検索または Web フェッチと一緒に使用する場合は無料",
+        "en": "free when used with web search or web fetch"
+      },
+      "summary": {
+        "zh": "当与网络搜索或网络获取一起使用时，API 代码执行现在是免费的。沙盒代码执行提高了模型能力和令牌效率。请参阅独立使用的定价详细信息。",
+        "ja": "Web 検索または Web フェッチと併用すると、API コードの実行が無料になりました。サンドボックス化されたコードの実行により、モデルの機能とトークンの効率が向上します。スタンドアロン使用の料金の詳細をご覧ください。",
+        "en": "API code execution is now free when used with web search or web fetch. Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
+      "tags": [
+        "free-when-used-with-web-search-or-web-fetch",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-02-17-anthropic-claude-sonnet-4-6",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "十四行诗 4.6 简介",
+        "ja": "ソネット 4.6 の紹介",
+        "en": "Introducing Sonnet 4.6"
+      },
+      "summary": {
+        "zh": "Claude Sonnet 4.6 是模型在编码、计算机使用、长期推理、智能体规划、知识工作和设计方面的技能的全面升级。",
+        "ja": "Claude Sonnet 4.6 は、コーディング、コンピューターの使用、長時間推論、エージェントの計画、知識作業、設計にわたるモデルのスキルを完全にアップグレードしたものです。",
+        "en": "Claude Sonnet 4.6 is a full upgrade of the model’s skills across coding, computer use, long-reasoning, agent planning, knowledge work, and design."
+      },
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-17-anthropic-anthropic-rwanda-mou",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 与卢旺达政府签署人工智能在健康和教育领域的谅解备忘录",
+        "ja": "Anthropic とルワンダ政府が健康と教育における AI に関する覚書に署名",
+        "en": "Anthropic and the Government of Rwanda sign MOU for AI in health and education"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-17-anthropic-anthropic-infosys",
+      "date": "2026-02-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 和 Infosys 合作为电信和其他受监管行业构建人工智能代理",
+        "ja": "Anthropic と Infosys は通信およびその他の規制産業向けの AI エージェントを構築するために協力しています",
+        "en": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-infosys",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-02-16-anthropic-bengaluru-office-partnerships-across-india",
       "date": "2026-02-16",
