@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-19",
   "windowMonths": 3,
   "items": [
     {
@@ -79,6 +79,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理一键修复失败的操作",
+        "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正",
+        "en": "One-click fixes for failing Actions with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。它通过自己的基于云的开发环境完成这一切。这意味着您可以将简单但耗时的工作交给 Copilot （例如，修复测试或纠正 linter...",
+        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。これらすべてを独自のクラウドベースの開発環境から実行します。これは、単純だが時間のかかる作業 (テストの修正やリンターの修正など) を Copilot に引き継ぐことができることを意味します。",
+        "en": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment. This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
       "date": "2026-05-18",
       "category": "github",
@@ -103,6 +127,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
+        "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル",
+        "en": "Copilot cloud agent: Fast, cost-efficient models for simple tasks"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用于完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。这意味着您可以为工作选择正确的模型：更小、更快的模型用于简单的更改，或者更强大的模型用于复杂的工作。除了现有选项外，现在还提供以下型号： Claude Haiku 4.5（0.33x 乘数） GPT-5.4-mini（0.33x 乘数） 要了解...",
+        "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。これは、単純な変更には小型で高速なモデル、複雑な作業にはより高性能なモデルなど、ジョブに適したモデルを選択できることを意味します。既存のオプションに加えて、次のモデルが利用可能になりました: Claude Haiku 4.5 (0.33x 乗数) GPT-5.4-mini (0.33x 乗数) 学習するには...",
+        "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options. This means you can pick the right model for the job: a smaller, quicker model for straightforward changes, or a more capable model for complex work. The following models are now available, in addition to the existing options: Claude Haiku 4.5 (0.33x multiplier) GPT-5.4-mini (0.33x multiplier) To learn..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
       "date": "2026-05-18",
       "category": "github",
@@ -117,6 +165,30 @@
         "en": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration. This makes it easy to understand and audit the security posture of your repositories at scale. The post Audit..."
       },
       "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-18-github-2026-05-18-ask-questions-in-context-with-copilot-on-web",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 Copilot 提问",
+        "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする",
+        "en": "Ask questions in context with Copilot on web"
+      },
+      "summary": {
+        "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。更改内容 当您单击顶部导航中的 Copilot 图标时，Copilot 将打开一个面板，而不是导航到 github.com/copilot。您仍然可以通过单击 Copilot 图标旁边的更多菜单并选择在沉浸式聊天中，或者单击上下文聊天面板上的箭头图标来导航到全页沉浸式聊天体验...",
+        "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。変更点 上部のナビゲーションで Copilot アイコンをクリックすると、Copilot は github.com/copilot に移動する代わりにパネルを開きます。 Copilot アイコンの横にある [その他] メニューをクリックして [イマーシブ チャット中] を選択するか、コンテキスト チャット パネルの矢印アイコンをクリックすると、フルページのイマーシブ チャット エクスペリエンスに移動できます...",
+        "en": "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching. What’s changed When you click the Copilot icon in the top navigation, Copilot opens a panel instead of navigating to github.com/copilot. You can still navigate to a full-page, immersive chat experience by clicking the More menu next to the Copilot icon and selecting In immersive chat, or by clicking the arrow icon on the contextual chat panel..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-ask-questions-in-context-with-copilot-on-web",
       "tags": [
         "release",
         "copilot",
@@ -8314,168 +8386,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-02-18-openai-openai-for-india",
-      "date": "2026-02-18",
-      "category": "openai",
-      "title": {
-        "zh": "为印度推出 OpenAI",
-        "ja": "インド向け OpenAI の紹介",
-        "en": "Introducing OpenAI for India"
-      },
-      "summary": {
-        "zh": "OpenAI for India 在全国范围内扩展了人工智能的使用范围——建设当地基础设施、为企业提供动力并提高劳动力技能。",
-        "ja": "OpenAI for India は、インド全土に AI へのアクセスを拡大し、地域のインフラストラクチャを構築し、企業を強化し、従業員のスキルを向上させます。",
-        "en": "OpenAI for India expands AI access across the country—building local infrastructure, powering enterprises, and advancing workforce skills."
-      },
-      "url": "https://openai.com/index/openai-for-india",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-18-openai-introducing-evmbench",
-      "date": "2026-02-18",
-      "category": "openai",
-      "title": {
-        "zh": "EVMbench 简介",
-        "ja": "EVMbench の紹介",
-        "en": "Introducing EVMbench"
-      },
-      "summary": {
-        "zh": "OpenAI 和 Paradigm 推出了 EVMbench，这是一个评估 AI 代理检测、修补和利用高严重性智能合约漏洞能力的基准。",
-        "ja": "OpenAI と Paradigm は、重大度の高いスマート コントラクトの脆弱性を検出、パッチ適用、悪用する AI エージェントの能力を評価するベンチマークである EVMbench を導入しました。",
-        "en": "OpenAI and Paradigm introduce EVMbench, a benchmark evaluating AI agents’ ability to detect, patch, and exploit high-severity smart contract vulnerabilities."
-      },
-      "url": "https://openai.com/index/introducing-evmbench",
-      "tags": [
-        "research",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-18-google-a-new-way-to-express-yourself-gemini-can-now-create-music",
-      "date": "2026-02-18",
-      "category": "google",
-      "title": {
-        "zh": "表达自己的新方式：Gemini 现在可以创作音乐",
-        "ja": "自分自身を表現する新しい方法: ジェミニは音楽を作成できるようになりました",
-        "en": "A new way to express yourself: Gemini can now create music"
-      },
-      "summary": {
-        "zh": "Gemini 应用程序现在采用我们最先进的音乐生成模型 Lyria 3，使任何人都可以使用文本或图像制作 30 秒的曲目。",
-        "ja": "Gemini アプリには最新の音楽生成モデル Lyria 3 が搭載されており、誰でもテキストや画像を使用して 30 秒のトラックを作成できるようになります。",
-        "en": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
-      },
-      "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-02-18-github-2026-02-18-use-copilot-coding-agent-with-windows-projects",
-      "date": "2026-02-18",
-      "category": "github",
-      "title": {
-        "zh": "将 Copilot 编码代理与 Windows 项目结合使用",
-        "ja": "Windows プロジェクトで Copilot コーディング エージェントを使用する",
-        "en": "Use Copilot coding agent with Windows projects"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理是我们的异步、自主后台代理。将任务委派给 Copilot，Copilot 在其自己的开发环境中在后台运行，由 GitHub 操作提供支持。默认情况下，代理使用 Linux 开发环境。如果您的项目面向 Windows，您现在可以配置 Copilot 编码代理以使用 Windows 环境，仍由 GitHub 操作提供支持。借助有效的开发环境，Copilot 可以确保您的项目构建和自动化测试......",
-        "ja": "Copilot コーディング エージェントは、非同期で自律的なバックグラウンド エージェントです。タスクを Copilot に委任すると、Copilot は GitHub アクションを利用して、独自の開発環境のバックグラウンドで動作します。デフォルトでは、エージェントは Linux 開発環境を使用します。プロジェクトが Windows を対象とする場合、GitHub アクションを利用しながら、Windows 環境を使用するように Copilot コーディング エージェントを構成できるようになりました。実用的な開発環境があれば、Copilot はプロジェクトのビルドと自動テストを確実に行うことができます...",
-        "en": "Copilot coding agent is our asynchronous, autonomous background agent. Delegate a task to Copilot, and Copilot works in the background in its own development environment, powered by GitHub Actions. By default, the agent use a Linux development environment. If your project targets Windows, you can now configure Copilot coding agent to use a Windows environment, still powered by GitHub Actions. With a working development environment, Copilot can ensure your project builds and your automated tests..."
-      },
-      "url": "https://github.blog/changelog/2026-02-18-use-copilot-coding-agent-with-windows-projects",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-18-github-2026-02-18-github-desktop-3-5-5-adds-git-hooks-support",
-      "date": "2026-02-18",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Desktop 3.5.5 添加了 Git hooks 支持",
-        "ja": "GitHub Desktop 3.5.5 は Git フックのサポートを追加します",
-        "en": "GitHub Desktop 3.5.5 adds Git hooks support"
-      },
-      "summary": {
-        "zh": "GitHub Desktop 现在支持 Git 挂钩，解决了版本管理器和环境相关脚本的兼容性问题。问题 从历史上看，Git 挂钩在 GitHub 桌面中一直存在问题。由于 Desktop 附带了自己的嵌入式 Git 安装（尤其是在 Windows 上），因此当您的挂钩依赖于 shell 环境、nvm 等版本管理器或 Desktop 的精简版 Git 中不存在的工具时，它们经常会失败。此外，你无法区分钩子拒绝......",
-        "ja": "GitHub Desktop は Git フックをサポートするようになり、バージョン マネージャーや環境依存のスクリプトとの互換性の問題が解決されました。問題 これまで、GitHub Desktop では Git フックに問題がありました。 Desktop には独自の組み込み Git インストールが同梱されているため (特に Windows では)、フックがシェル環境、nvm などのバージョン マネージャー、または Desktop の機能を省略した Git に存在しないツールに依存している場合、フックが失敗することがよくありました。さらに、フック拒否を区別できませんでした...",
-        "en": "GitHub Desktop now supports Git hooks, solving compatibility issues with version managers and environment-dependent scripts. The problem Historically, Git hooks have been problematic in GitHub Desktop. Because Desktop ships with its own embedded Git installation (especially on Windows), your hooks often failed when they relied on your shell environment, version managers like nvm, or tools not present in Desktop’s stripped-down Git. Additionally, you couldn’t distinguish between a hook rejection..."
-      },
-      "url": "https://github.blog/changelog/2026-02-18-github-desktop-3-5-5-adds-git-hooks-support",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-18-github-2026-02-18-copilot-coding-agent-supports-code-referencing",
-      "date": "2026-02-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot编码代理支持代码引用",
-        "ja": "Copilot コーディング エージェントはコード参照をサポートします",
-        "en": "Copilot coding agent supports code referencing"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理，我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
-        "ja": "非同期で自律的なバックグラウンド エージェントである Copilot コーディング エージェントは、Copilot コード参照で動作するようになりました。エージェントがパブリック GitHub リポジトリ内のコードと一致するコードを生成した場合、一致するコードは元のコードへのリンクとともにエージェント セッション ログで強調表示されるため、コードの出所と適用される可能性のあるライセンスを理解できます。 Copilot コーディング エージェントは、「パブリック コードに一致する提案」ポリシーのブロック モードをサポートしていません。ポリシーがブロックに設定されている場合...",
-        "en": "Copilot coding agent, our asynchronous, autonomous background agent, now works with Copilot code referencing. If the agent generates code that matches code in a public GitHub repository, the matching code will be highlighted in the agent session logs with a link to the original code, so you can understand where the code comes from and any license that may apply. Copilot coding agent does not support the “Suggestions matching public code” policy’s Block mode. When the policy is set to Block..."
-      },
-      "url": "https://github.blog/changelog/2026-02-18-copilot-coding-agent-supports-code-referencing",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-18-github-2026-02-18-claude-opus-4-6-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "date": "2026-02-18",
-      "category": "github",
-      "title": {
-        "zh": "Claude Opus 4.6 现已在 Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中可用",
-        "ja": "Claude Opus 4.6 が Visual Studio、JetBrains IDE、Xcode、および Eclipse で利用可能になりました",
-        "en": "Claude Opus 4.6 is now available in Visual Studio, JetBrains IDEs, Xcode, and Eclipse"
-      },
-      "summary": {
-        "zh": "Claude Opus 4.6 一般适用于 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）访问 GitHub Copilot Chat on github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中的模型。如果您还没有访问权限，请稍后再检查。启用访问 Copilot 业务和企业管理员必须通过启用 Claude Opus 4.6 来选择加入...",
-        "ja": "Claude Opus 4.6 は、Copilot Enterprise、Copilot Business、Copilot Pro、および Copilot Pro+ で一般提供されています。チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com の GitHub Copilot チャット、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。アクセスの有効化 Copilot Business および Enterprise 管理者は、Claude Opus 4.6... を有効にしてオプトインする必要があります。",
-        "en": "Claude Opus 4.6 is generally available to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the Claude Opus 4.6..."
-      },
-      "url": "https://github.blog/changelog/2026-02-18-claude-opus-4-6-is-now-available-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     }
   ]
 }

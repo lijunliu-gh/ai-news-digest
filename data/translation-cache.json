@@ -3671,5 +3671,29 @@
   "Until now, Copilot usage metrics dashboards were only available at the enterprise level. With this release, organization owners can view GitHub Copilot usage metrics for their organization directly in the GitHub UI. This dashboard brings the same organization-scoped insights as the recently released organization usage APIs into an easy-to-scan experience. This way, org admins don’t need to rely on enterprise reporting to understand adoption and usage trends. How it works The dashboard shows...": {
     "zh": "到目前为止，Copilot 使用指标仪表板仅在企业级别可用。在此版本中，组织所​​有者可以直接在 GitHub UI 中查看其组织的 GitHub Copilot 使用指标。该仪表板将与最近发布的组织使用 API 相同的组织范围的见解带入易于扫描的体验中。这样，组织管理员不需要依赖企业报告来了解采用和使用趋势。它是如何工作的 仪表板显示...",
     "ja": "これまで、Copilot 使用状況メトリクス ダッシュボードはエンタープライズ レベルでのみ利用可能でした。このリリースでは、組織の所有者は組織の GitHub Copilot 使用状況メトリクスを GitHub UI で直接表示できるようになりました。このダッシュボードは、最近リリースされた組織の使用状況 API と同じ、組織を対象とした洞察をスキャンしやすいエクスペリエンスにもたらします。こうすることで、組織管理者は導入と使用の傾向を理解するためにエンタープライズレポートに依存する必要がなくなります。仕組み ダッシュボードに表示されるのは..."
+  },
+  "One-click fixes for failing Actions with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理一键修复失败的操作",
+    "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正"
+  },
+  "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment. This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter...": {
+    "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。它通过自己的基于云的开发环境完成这一切。这意味着您可以将简单但耗时的工作交给 Copilot （例如，修复测试或纠正 linter...",
+    "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。これらすべてを独自のクラウドベースの開発環境から実行します。これは、単純だが時間のかかる作業 (テストの修正やリンターの修正など) を Copilot に引き継ぐことができることを意味します。"
+  },
+  "Copilot cloud agent: Fast, cost-efficient models for simple tasks": {
+    "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
+    "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル"
+  },
+  "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options. This means you can pick the right model for the job: a smaller, quicker model for straightforward changes, or a more capable model for complex work. The following models are now available, in addition to the existing options: Claude Haiku 4.5 (0.33x multiplier) GPT-5.4-mini (0.33x multiplier) To learn...": {
+    "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用于完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。这意味着您可以为工作选择正确的模型：更小、更快的模型用于简单的更改，或者更强大的模型用于复杂的工作。除了现有选项外，现在还提供以下型号： Claude Haiku 4.5（0.33x 乘数） GPT-5.4-mini（0.33x 乘数） 要了解...",
+    "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。これは、単純な変更には小型で高速なモデル、複雑な作業にはより高性能なモデルなど、ジョブに適したモデルを選択できることを意味します。既存のオプションに加えて、次のモデルが利用可能になりました: Claude Haiku 4.5 (0.33x 乗数) GPT-5.4-mini (0.33x 乗数) 学習するには..."
+  },
+  "Ask questions in context with Copilot on web": {
+    "zh": "在网络上使用 Copilot 提问",
+    "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする"
+  },
+  "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching. What’s changed When you click the Copilot icon in the top navigation, Copilot opens a panel instead of navigating to github.com/copilot. You can still navigate to a full-page, immersive chat experience by clicking the More menu next to the Copilot icon and selecting In immersive chat, or by clicking the arrow icon on the contextual chat panel...": {
+    "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。更改内容 当您单击顶部导航中的 Copilot 图标时，Copilot 将打开一个面板，而不是导航到 github.com/copilot。您仍然可以通过单击 Copilot 图标旁边的更多菜单并选择在沉浸式聊天中，或者单击上下文聊天面板上的箭头图标来导航到全页沉浸式聊天体验...",
+    "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。変更点 上部のナビゲーションで Copilot アイコンをクリックすると、Copilot は github.com/copilot に移動する代わりにパネルを開きます。 Copilot アイコンの横にある [その他] メニューをクリックして [イマーシブ チャット中] を選択するか、コンテキスト チャット パネルの矢印アイコンをクリックすると、フルページのイマーシブ チャット エクスペリエンスに移動できます..."
   }
 }
