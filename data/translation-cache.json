@@ -3707,5 +3707,29 @@
   "GitHub Copilot usage metrics is now generally available, giving you a single place to see how your teams adopt and use Copilot. This way you can track trends, make informed decisions about rollout, and build reports that fit your organization. Since the public preview at Universe 2025, Copilot usage metrics has expanded with organization-level visibility, fine-grained access controls, data residency support, and more. Here’s what you can expect now that it’s generally available. What’s included...": {
     "zh": "GitHub Copilot 使用指标现已普遍可用，让您可以在一个地方查看您的团队如何采用和使用 Copilot。通过这种方式，您可以跟踪趋势，就部署做出明智的决策，并构建适合您的组织的报告。自 Universe 2025 公开预览以来，Copilot 使用指标已通过组织级可见性、细粒度访问控制、数据驻留支持等进行了扩展。现在它已经普遍可用，这是您可以期待的。包含什么...",
     "ja": "GitHub Copilot の使用状況メトリクスが一般提供されるようになり、チームが Copilot をどのように採用して使用しているかを 1 か所で確認できるようになりました。これにより、傾向を追跡し、情報に基づいて展開に関する決定を下し、組織に適したレポートを作成できます。 Universe 2025 でのパブリック プレビュー以来、Copilot 使用状況メトリックは、組織レベルの可視性、きめ細かいアクセス制御、データ常駐サポートなどによって拡張されました。一般公開された時点で期待できることは次のとおりです。含まれるものは..."
+  },
+  "Secret scanning with GitHub MCP Server is now generally available": {
+    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般公開されました"
+  },
+  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new...": {
+    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
+    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報..."
+  },
+  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
+    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
+    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました"
+  },
+  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
+    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
+    "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
+  },
+  "GitHub Mobile: Track coding agent progress in real time with Live Notifications": {
+    "zh": "GitHub 移动设备：通过实时通知实时跟踪编码代理进度",
+    "ja": "GitHub モバイル: ライブ通知を使用してコーディング エージェントの進行状況をリアルタイムで追跡"
+  },
+  "Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you’re on the go. Agent sessions started from GitHub.com, GitHub Mobile, or the CLI can surface real-time updates directly on your phone. Using Live Activities, you’ll see key session details such as the related pull request title and current status, and you can tap through to the pull request in the app to quickly review...": {
+    "zh": "实时编码代理通知现已在 GitHub 移动设备上提供，让您在旅途中更轻松地掌握 Copilot 编码代理和支持的第三方代理会话。从 GitHub.com、GitHub Mobile 或 CLI 启动的代理会话可以直接在您的手机上显示实时更新。使用实时活动，您将看到关键会话详细信息，例如相关的拉取请求标题和当前状态，并且您可以点击应用程序中的拉取请求以快速查看...",
+    "ja": "ライブ コーディング エージェント通知が GitHub モバイルで利用できるようになり、外出中でも Copilot コーディング エージェントとサポートされているサードパーティ エージェント セッションを簡単に把握できるようになりました。 GitHub.com、GitHub Mobile、または CLI から開始されたエージェント セッションは、リアルタイムの更新を電話機に直接表示できます。ライブ アクティビティを使用すると、関連するプル リクエストのタイトルや現在のステータスなどの主要なセッションの詳細が表示され、アプリでプル リクエストをタップして簡単に確認できます。"
   }
 }

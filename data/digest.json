@@ -3,27 +3,6 @@
   "windowMonths": 3,
   "items": [
     {
-      "id": "2026-05-20-anthropic-anthropic-kpmg",
-      "date": "2026-05-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
-        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-19-anthropic-self-hosted-sandboxes",
       "date": "2026-05-19",
       "category": "anthropic",
@@ -114,6 +93,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-19-anthropic-anthropic-kpmg",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
+        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
+        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
@@ -1838,6 +1838,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-05-github-2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "date": "2026-05-05",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+        "ja": "GitHub MCP サーバーによるシークレット スキャンが一般公開されました",
+        "en": "Secret scanning with GitHub MCP Server is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
+        "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報...",
+        "en": "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new..."
+      },
+      "url": "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-05-github-2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
@@ -6960,6 +6984,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-05-github-2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
+        "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました",
+        "en": "Copilot usage metrics now includes user-level GitHub Copilot CLI activity"
+      },
+      "summary": {
+        "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
+        "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します...",
+        "en": "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout..."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-05-github-2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
       "date": "2026-03-05",
       "category": "github",
@@ -7644,6 +7694,31 @@
       "tags": [
         "improvement",
         "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-26-github-2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications",
+      "date": "2026-02-26",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动设备：通过实时通知实时跟踪编码代理进度",
+        "ja": "GitHub モバイル: ライブ通知を使用してコーディング エージェントの進行状況をリアルタイムで追跡",
+        "en": "GitHub Mobile: Track coding agent progress in real time with Live Notifications"
+      },
+      "summary": {
+        "zh": "实时编码代理通知现已在 GitHub 移动设备上提供，让您在旅途中更轻松地掌握 Copilot 编码代理和支持的第三方代理会话。从 GitHub.com、GitHub Mobile 或 CLI 启动的代理会话可以直接在您的手机上显示实时更新。使用实时活动，您将看到关键会话详细信息，例如相关的拉取请求标题和当前状态，并且您可以点击应用程序中的拉取请求以快速查看...",
+        "ja": "ライブ コーディング エージェント通知が GitHub モバイルで利用できるようになり、外出中でも Copilot コーディング エージェントとサポートされているサードパーティ エージェント セッションを簡単に把握できるようになりました。 GitHub.com、GitHub Mobile、または CLI から開始されたエージェント セッションは、リアルタイムの更新を電話機に直接表示できます。ライブ アクティビティを使用すると、関連するプル リクエストのタイトルや現在のステータスなどの主要なセッションの詳細が表示され、アプリでプル リクエストをタップして簡単に確認できます。",
+        "en": "Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you’re on the go. Agent sessions started from GitHub.com, GitHub Mobile, or the CLI can surface real-time updates directly on your phone. Using Live Activities, you’ll see key session details such as the related pull request title and current status, and you can tap through to the pull request in the app to quickly review..."
+      },
+      "url": "https://github.blog/changelog/2026-02-26-github-mobile-track-coding-agent-progress-in-real-time-with-live-notifications",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
         "github",
         "changelog"
       ],
