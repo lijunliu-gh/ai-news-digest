@@ -1102,10 +1102,6 @@
     "zh": "改进了问题仪表板上的搜索",
     "ja": "問題ダッシュボードでの検索の改善"
   },
-  "GitHub Mobile: Track coding agent progress in real time with Live Notifications": {
-    "zh": "GitHub Mobile：通过实时通知实时跟踪编码代理进度",
-    "ja": "GitHub モバイル: ライブ通知を使用してコーディング エージェントの進行状況をリアルタイムで追跡する"
-  },
   "Copilot metrics report URLs update": {
     "zh": "Copilot 指标报告 URL 更新",
     "ja": "Copilot メトリクス レポート URL の更新"
@@ -1834,10 +1830,6 @@
     "zh": "新的 GitHub 问题语义搜索将于下周在问题仪表板上推出公开预览版，这意味着您可以使用自然语言跨存储库查找相关问题。在此之前，我们在一月份发布了改进的问题索引搜索。在收到社区的积极反馈后，我们也为仪表板搜索带来了相同的改进体验。注意：对于不限于特定存储库的搜索，语义搜索...",
     "ja": "新しい GitHub 問題のセマンティック検索は、来週中に問題ダッシュボードでパブリック プレビューに展開されます。つまり、自然言語を使用して、リポジトリ全体で関連する問題を見つけることができます。これは、1 月にリリースされた問題インデックスの検索機能の改善に続くものです。コミュニティから肯定的なフィードバックを受け取った後、ダッシュボード検索にも同様の改善されたエクスペリエンスを提供します。注: 特定のリポジトリに範囲を限定しない検索の場合、セマンティック検索は..."
   },
-  "Live Coding Agent Notifications are now available on GitHub Mobile, making it easier to stay on top of your Copilot coding agent and supported third-party agent sessions while you’re on the go. Agent sessions started from GitHub.com, GitHub Mobile, or the CLI can surface real-time updates directly on your phone. Using Live Activities, you’ll see key session details such as the related pull request title and current status, and you can tap through to the pull request in the app to quickly review...": {
-    "zh": "实时编码代理通知现已在 GitHub 移动设备上提供，让您在旅途中更轻松地掌握 Copilot 编码代理和支持的第三方代理会话。从 GitHub.com、GitHub Mobile 或 CLI 启动的代理会话可以直接在您的手机上显示实时更新。使用实时活动，您将看到关键会话详细信息，例如相关的拉取请求标题和当前状态，并且您可以点击应用程序中的拉取请求以快速查看...",
-    "ja": "ライブ コーディング エージェント通知が GitHub モバイルで利用できるようになり、外出中でも Copilot コーディング エージェントとサポートされているサードパーティ エージェント セッションを簡単に把握できるようになりました。 GitHub.com、GitHub Mobile、または CLI から開始されたエージェント セッションは、リアルタイムの更新を電話機に直接表示できます。ライブ アクティビティを使用すると、関連するプル リクエストのタイトルや現在のステータスなどの主要なセッションの詳細が表示され、アプリでプル リクエストをタップして簡単に確認できます。"
-  },
   "The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven’t changed. Action required If your firewall rules allowlist specific CDN domains, add copilot-reports-production-*.b01.azurefd.net alongside the existing copilot-reports-*.b01.azurefd.net pattern. If you download reports using the download links in the dashboard UI, you don’t need to make any changes. To view the current list of...": {
     "zh": "GitHub Copilot 使用指标 API 返回的下载 URL 现在来自新端点。您的报告数据、API 合同和响应架构没有更改。所需操作 如果您的防火墙规则将特定 CDN 域列入允许名单，请添加 copilot-reports-product-*.b01.azurefd.net 以及现有的 copilot-reports-*.b01.azurefd.net 模式。如果您使用仪表板 UI 中的下载链接下载报告，则无需进行任何更改。要查看当前列表...",
     "ja": "GitHub Copilot 使用状況メトリクス API によって返されるダウンロード URL は、新しいエンドポイントから取得されるようになりました。レポート データ、API コントラクト、および応答スキーマは変更されていません。必要なアクション ファイアウォール ルールで特定の CDN ドメインを許可リストに登録している場合は、既存の copilot-reports-production-*.b01.azurefd.net パターンと一緒に copilot-reports-production-*.b01.azurefd.net を追加します。ダッシュボード UI のダウンロード リンクを使用してレポートをダウンロードする場合は、変更を加える必要はありません。現在のリストを表示するには..."
@@ -2424,14 +2416,6 @@
   "Hierarchy view in GitHub Projects is now generally available. Starting today, hierarchy view is enabled by default for all new project views. If you have existing views, you can turn it on from the View menu by toggling Show hierarchy. Since our last release, we’ve also shipped several improvements and bug fixes: Improved discoverability of sub-issue filters: Sub-issue specific filters are now easier to find in the filter suggestion bar. Auto-apply filters to sub-issues: When sub-issues are...": {
     "zh": "GitHub 项目中的层次结构视图现已普遍可用。从今天开始，所有新项目视图默认启用层次结构视图。如果您有现有视图，则可以通过切换“显示层次结构”从“视图”菜单将其打开。自上一版本以来，我们还进行了多项改进和错误修复： 改进了子问题过滤器的可发现性：现在可以更轻松地在过滤器建议栏中找到子问题特定过滤器。自动将过滤器应用于子问题：当子问题...",
     "ja": "GitHub プロジェクトの階層ビューが一般提供されるようになりました。本日より、すべての新しいプロジェクト ビューで階層ビューがデフォルトで有効になります。既存のビューがある場合は、[表示] メニューから [階層の表示] を切り替えてオンにできます。前回のリリース以来、いくつかの改善とバグ修正もリリースしました。 サブ課題フィルターの発見可能性の向上: サブ課題固有のフィルターがフィルター提案バーで見つけやすくなりました。サブ問題にフィルターを自動適用する: サブ問題が次の場合..."
-  },
-  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
-    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
-    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました。"
-  },
-  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
-    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
-    "ja": "先週リリースされたエンタープライズ レベルの CLI テレメトリのフォローアップとして、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
   },
   "GitHub Copilot in Visual Studio — February update": {
     "zh": "Visual Studio 中的 GitHub Copilot — 二月更新",
@@ -3324,14 +3308,6 @@
     "zh": "VS Code 改为每周稳定版本。此变更日志涵盖 v1.116 至 v1.119 版本，这些版本是我们在 2026 年 4 月和 5 月初发布的版本。Copilot 现在可以在任何工作区中按含义进行搜索，并在 GitHub 存储库和组织中运行 grep 式查询。实验性的/编年史功能可让您查询自己的聊天历史记录，以回忆您所做的工作、接触过的文件以及引用的 PR。更智能的提示缓存、延迟工具加载和专门构建的代理工具...",
     "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログでは、リリース v1.116 から v1.119 までをカバーしており、2026 年 4 月から 5 月初めにかけて出荷されたリリースです。 Copilot は、任意のワークスペースで意味による検索が可能になり、GitHub リポジトリと組織全体で grep スタイルのクエリを実行できるようになりました。実験的な /chronicle 機能を使用すると、自分のチャット履歴をクエリして、作業した内容、触れたファイル、参照した PR を思い出すことができます。よりスマートなプロンプト キャッシュ、遅延ツールの読み込み、専用のエージェント ツール..."
   },
-  "Secret scanning with GitHub MCP Server is now generally available": {
-    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
-    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般提供になりました"
-  },
-  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new...": {
-    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
-    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報..."
-  },
   "Dependency scanning with GitHub MCP Server is in public preview": {
     "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
     "ja": "GitHub MCP サーバーによる依存関係のスキャンはパブリック プレビュー中です"
@@ -3655,5 +3631,81 @@
   "Claude Managed Agents vault credential background refresh is now supported for mcp_oauth credentials. See Authenticate with vaults.": {
     "zh": "mcp_oauth 凭据现在支持 Claude 托管代理保管库凭据后台刷新。请参阅使用保管库进行身份验证。",
     "ja": "Claude 管理対象エージェントのボールト資格情報のバックグラウンド更新が、mcp_oauth 資格情報でサポートされるようになりました。 「ボールトを使用した認証」を参照してください。"
+  },
+  "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance": {
+    "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
+    "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合"
+  },
+  "Team-level Copilot usage metrics now available via API": {
+    "zh": "团队级 Copilot 使用指标现在可通过 API 获取",
+    "ja": "チームレベルのCopilot使用状況メトリクスがAPI経由で利用可能に"
+  },
+  "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing per-user usage report, enterprise administrators and organization owners can produce team-level Copilot usage metrics for any team in their organization or enterprise. This includes elements such as active users, completions, chats, as well as breakdowns by language, IDE, feature, and model. How it works Two new...": {
+    "zh": "Copilot 使用指标 API 现在公开了一个新的用户团队报告，该报告将每个 Copilot 许可的用户映射到他们所属的团队。通过将用户团队报告与现有的每用户使用情况报告相结合，企业管理员和组织所有者可以为其组织或企业中的任何团队生成团队级 Copilot 使用情况指标。这包括活跃用户、完成情况、聊天等元素，以及按语言、IDE、功能和模型进行的细分。工作原理 两个新...",
+    "ja": "Copilot 使用状況メトリクス API は、Copilot ライセンスを持つ各ユーザーを、そのユーザーが所属するチームにマッピングする新しいユーザー チーム レポートを公開するようになりました。ユーザー チーム レポートを既存のユーザーごとの使用状況レポートと結合することにより、エンタープライズ管理者と組織の所有者は、組織または企業内の任意のチームについてチーム レベルの Copilot 使用状況メトリックを作成できます。これには、アクティブ ユーザー、完了、チャットなどの要素に加え、言語、IDE、機能、モデルごとの内訳が含まれます。仕組み 2 つの新しい..."
+  },
+  "Secret scanning pattern updates and product improvements": {
+    "zh": "秘密扫描模式更新和产品改进",
+    "ja": "シークレット スキャン パターンの更新と製品の改善"
+  },
+  "This week, we’re rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers. Detection coverage New Cloudflare detectors: Cloudflare is now a secret scanning partner. Push protection Forks for enterprise-managed users: User-owned forks in EMU enterprises now inherit push protection from their nearest licensed ancestor...": {
+    "zh": "本周，我们将对检测覆盖范围、API 和工作流程进行多项改进。这些改进加强了我们对秘密扫描功能的开发人员体验的持续投资。由开发人员构建，为开发人员服务。检测范围 新的 Cloudflare 探测器：Cloudflare 现在是秘密扫描合作伙伴。企业管理用户的推送保护分叉：EMU 企业中用户拥有的分叉现在继承了最近许可祖先的推送保护......",
+    "ja": "今週、検出範囲、API、ワークフローに対するいくつかの改善を展開します。これらの改善により、シークレット スキャン機能の開発者エクスペリエンスに対する継続的な投資が強化されます。開発者によって開発者のために構築されました。検出範囲 新しい Cloudflare 検出器: Cloudflare はシークレット スキャン パートナーになりました。エンタープライズ管理ユーザー向けのプッシュ保護フォーク: EMU エンタープライズ内のユーザー所有のフォークは、最も近いライセンスを取得した祖先からプッシュ保護を継承するようになりました。"
+  },
+  "CodeQL pull requests insights on security overview now cover all protected branches": {
+    "zh": "CodeQL 拉取请求有关安全概述的见解现在涵盖所有受保护的分支",
+    "ja": "CodeQL プル リクエストのセキュリティ概要に関する洞察が、保護されたすべてのブランチをカバーするようになりました"
+  },
+  "The CodeQL pull request insights tab in GitHub security overview now reports Copilot Autofix and alert statistics from all protected branches, not just the default branch. This gives you a more complete picture of the value Autofix delivers across your entire codebase. What’s new All nine insight tiles and the CSV file you can download on the CodeQL pull requests insights tab now aggregate data from all protected branches instead of only the default branch. You’ll see higher, more...": {
+    "zh": "GitHub 安全概述中的 CodeQL 拉取请求洞察选项卡现在报告来自所有受保护分支（而不仅仅是默认分支）的 Copilot 自动修复和警报统计信息。这可以让您更全面地了解 Autofix 在整个代码库中提供的价值。新功能 现在，您可以在 CodeQL 拉取请求洞察选项卡上下载的所有九个洞察图块和 CSV 文件都会聚合来自所有受保护分支（而不仅仅是默认分支）的数据。你会看到更高、更多……",
+    "ja": "GitHub セキュリティ概要の CodeQL プル リクエストの洞察タブは、デフォルト ブランチだけでなく、すべての保護されたブランチからの Copilot 自動修正とアラートの統計をレポートするようになりました。これにより、Autofix がコードベース全体にもたらす価値のより完全な全体像が得られます。新機能 CodeQL プル リクエストの [洞察] タブでダウンロードできる 9 つの洞察タイルすべてと CSV ファイルは、デフォルトのブランチのみではなく、すべての保護されたブランチからのデータを集約するようになりました。もっと高く、もっと..."
+  },
+  "Gemini 3.1 Pro is now available in JetBrains IDEs, Xcode, and Eclipse": {
+    "zh": "Gemini 3.1 Pro 现已在 JetBrains IDE、Xcode 和 Eclipse 中提供",
+    "ja": "Gemini 3.1 Pro が JetBrains IDE、Xcode、および Eclipse で利用可能になりました"
+  },
+  "Gemini 3.1 Pro is available in public preview to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the Gemini 3.1...": {
+    "zh": "Gemini 3.1 Pro 已向 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+ 提供公共预览版。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）访问 GitHub Copilot Chat on github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中的模型。如果您还没有访问权限，请稍后再检查。启用访问 Copilot 业务和企业管理员必须通过启用 Gemini 3.1 来选择加入...",
+    "ja": "Gemini 3.1 Pro は、Copilot Enterprise、Copilot Business、Copilot Pro、および Copilot Pro+ のパブリック プレビューで利用できます。チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com の GitHub Copilot チャット、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。アクセスの有効化 Copilot Business および Enterprise 管理者は、Gemini 3.1... を有効にしてオプトインする必要があります。"
+  },
+  "Copilot usage metrics now resolve auto model selection to actual models": {
+    "zh": "Copilot 使用指标现在将自动模型选择解析为实际模型",
+    "ja": "Copilot 使用状況メトリクスにより、自動モデル選択が実際のモデルに解決されるようになりました。"
+  },
+  "Copilot usage metrics now provides full clarity into model usage when auto model selection is enabled. Activity that previously appeared under a generic “Auto” label now resolves to the actual model name, giving admins a complete and accurate view of which models their teams are using. This applies to model breakdowns across the Copilot usage metrics REST API and dashboard, including totals_by_model_feature in the enterprise, org, and user level reports, as well as the “Model usage per chat...": {
+    "zh": "当启用自动模型选择时，Copilot 使用指标现在可以完全清楚地了解模型的使用情况。以前出现在通用“自动”标签下的活动现在解析为实际模型名称，使管理员能够完整、准确地了解其团队正在使用的模型。这适用于 Copilot 使用指标 REST API 和仪表板的模型细分，包括企业、组织和用户级别报告中的 Totals_by_model_feature，以及“每次聊天的模型使用情况...",
+    "ja": "Copilot 使用状況メトリックにより、自動モデル選択が有効になっている場合にモデルの使用状況が完全に明確になるようになりました。以前は一般的な「自動」ラベルで表示されていたアクティビティが実際のモデル名に解決されるようになり、管理者はチームがどのモデルを使用しているかを完全かつ正確に把握できるようになりました。これは、Copilot 使用状況メトリクス REST API とダッシュボード全体のモデルの内訳に適用されます。これには、エンタープライズ、組織、およびユーザー レベルのレポートの totals_by_model_feature や、「チャットごとのモデル使用量...」が含まれます。"
+  },
+  "Copilot auto model selection is generally available in JetBrains IDEs": {
+    "zh": "Copilot 自动模型选择通常在 JetBrains IDE 中可用",
+    "ja": "Copilot 自動モデル選択は JetBrains IDE で一般的に利用可能です"
+  },
+  "GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 depending on your plan and policies. Which models auto routes to will change over time. Transparency...": {
+    "zh": "GitHub Copilot 自动模型选择现在在所有 Copilot 计划的 JetBrains IDE 中普遍可用。通过自动，Copilot 根据实时模型可用性和性能代表您选择模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。根据您的计划和政策，它会路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。自动路由的型号会随着时间的推移而改变。透明度...",
+    "ja": "GitHub Copilot 自動モデル選択は、すべての Copilot プランの JetBrains IDE で一般利用できるようになりました。自動の場合、Copilot は、リアルタイムのモデルの可用性とパフォーマンスに基づいて、ユーザーに代わってモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。プランやポリシーに応じて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。どのモデルに自動ルートするかは時間の経過とともに変化します。透明度..."
+  },
+  "Copilot metrics reports now return consistent usernames for Enterprise Managed Users": {
+    "zh": "Copilot 指标报告现在为企业托管用户返回一致的用户名",
+    "ja": "Copilot メトリクス レポートは、エンタープライズ管理対象ユーザーに対して一貫したユーザー名を返すようになりました。"
+  },
+  "GitHub Copilot usage metrics reports now return a consistent user_login value for Enterprise Managed Users (EMU). Previously, some reports could include a suffix in user_login, which made it harder to match results across GitHub APIs. The post Copilot metrics reports now return consistent usernames for Enterprise Managed Users appeared first on The GitHub Blog.": {
+    "zh": "GitHub Copilot 使用指标报告现在为企业托管用户 (EMU) 返回一致的 user_login 值。以前，一些报告可能在 user_login 中包含后缀，这使得跨 GitHub API 匹配结果变得更加困难。 Copilot 帖子指标报告现在返回企业托管用户的一致用户名，首先出现在 GitHub 博客上。",
+    "ja": "GitHub Copilot 使用状況メトリック レポートは、エンタープライズ管理対象ユーザー (EMU) に対して一貫した user_login 値を返すようになりました。以前は、一部のレポートで user_login にサフィックスが含まれる可能性があり、GitHub API 間で結果を一致させることが困難でした。 Copilot 後のメトリクス レポートは、エンタープライズ管理対象ユーザーの一貫したユーザー名を返すようになりました。 appeared first on The GitHub Blog."
+  },
+  "Copilot usage metrics now includes enterprise-level GitHub Copilot CLI activity": {
+    "zh": "Copilot 使用指标现在包括企业级 GitHub Copilot CLI 活动",
+    "ja": "Copilot 使用状況メトリックにエンタープライズ レベルの GitHub Copilot CLI アクティビティが含まれるようになりました"
+  },
+  "Copilot enterprise usage metrics coverage has expanded to now include Copilot CLI telemetry. With this update, your enterprise metrics can include CLI-specific activity and usage totals, such as: Daily active CLI users CLI request and session counts Token usage totals, including average tokens per request Why this matters Track CLI adoption across your enterprise and spot where enablement or support is needed. Compare usage patterns across environments so you can understand how developers use...": {
+    "zh": "Copilot 企业使用指标覆盖范围现已扩大到现在包括 Copilot CLI 遥测。通过此更新，您的企业指标可以包括特定于 CLI 的活动和使用总量，例如： 每日活跃 CLI 用户 CLI 请求和会话计数 令牌使用总量，包括每个请求的平均令牌 为什么这很重要 跟踪整个企业中的 CLI 采用情况并发现需要启用或支持的地方。比较跨环境的使用模式，以便您可以了解开发人员如何使用...",
+    "ja": "Copilot エンタープライズ使用状況メトリクスの対象範囲が拡張され、Copilot CLI テレメトリが含まれるようになりました。この更新により、エンタープライズ メトリクスには、次のような CLI 固有のアクティビティと使用量の合計が含まれるようになります。 毎日のアクティブな CLI ユーザー CLI リクエストとセッション数 リクエストごとの平均トークンを含むトークン使用量の合計 重要な理由 企業全体での CLI 導入を追跡し、有効化またはサポートが必要な箇所を特定します。環境間の使用パターンを比較して、開発者がどのように使用しているかを理解できるようにします。"
+  },
+  "Copilot metrics is now generally available": {
+    "zh": "Copilot 指标现已普遍可用",
+    "ja": "Copilot メトリクスが一般公開されました"
+  },
+  "GitHub Copilot usage metrics is now generally available, giving you a single place to see how your teams adopt and use Copilot. This way you can track trends, make informed decisions about rollout, and build reports that fit your organization. Since the public preview at Universe 2025, Copilot usage metrics has expanded with organization-level visibility, fine-grained access controls, data residency support, and more. Here’s what you can expect now that it’s generally available. What’s included...": {
+    "zh": "GitHub Copilot 使用指标现已普遍可用，让您可以在一个地方查看您的团队如何采用和使用 Copilot。通过这种方式，您可以跟踪趋势，就部署做出明智的决策，并构建适合您的组织的报告。自 Universe 2025 公开预览以来，Copilot 使用指标已通过组织级可见性、细粒度访问控制、数据驻留支持等进行了扩展。现在它已经普遍可用，这是您可以期待的。包含什么...",
+    "ja": "GitHub Copilot の使用状況メトリクスが一般提供されるようになり、チームが Copilot をどのように採用して使用しているかを 1 か所で確認できるようになりました。これにより、傾向を追跡し、情報に基づいて展開に関する決定を下し、組織に適したレポートを作成できます。 Universe 2025 でのパブリック プレビュー以来、Copilot 使用状況メトリックは、組織レベルの可視性、きめ細かいアクセス制御、データ常駐サポートなどによって拡張されました。一般公開された時点で期待できることは次のとおりです。含まれるものは..."
   }
 }
