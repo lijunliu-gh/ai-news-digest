@@ -25,6 +25,55 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-20-github-2026-05-20-semantic-issue-search-in-copilot-chat",
+      "date": "2026-05-20",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天中的语义问题搜索",
+        "ja": "Copilot チャットでのセマンティックな問題の検索",
+        "en": "Semantic issue search in Copilot Chat"
+      },
+      "summary": {
+        "zh": "您可以在 GitHub Copilot 网络聊天中使用自然语言来快速查找、分组和分析问题，并获得由新的语义问题索引提供支持的上下文感知结果。新功能 Copilot Chat 现在不再仅仅依赖于精确匹配和手动过滤器，而是可以理解您的查询的意图，并显示语义相关的问题，即使它们的措辞不同。当您不...时，您可以使用此功能帮助您使用自然语言在存储库中查找问题。",
+        "ja": "GitHub Copilot Web 上のチャットで自然言語を使用すると、新しいセマンティック問題インデックスを活用したコンテキスト認識の結果を利用して、問題をすばやく検索、グループ化、分析できます。新機能 Copilot Chat は、完全一致や手動フィルターのみに依存するのではなく、クエリの意図を理解し、言い方が違っていても意味的に関連する問題を表面化できるようになりました。この機能を使用すると、自然言語を使用してリポジトリ内の問題を見つけられない場合に役立ちます。",
+        "en": "You can use natural language in GitHub Copilot Chat on web to quickly find, group, and analyze issues, with context-aware results powered by a new semantic issues index. What’s new Instead of relying only on exact matches and manual filters, Copilot Chat can now understand the intent of your query and surface issues that are semantically related even when they are worded differently. You can use this capability to help you find an issue in a repository using natural language when you don’t..."
+      },
+      "url": "https://github.blog/changelog/2026-05-20-semantic-issue-search-in-copilot-chat",
+      "tags": [
+        "release",
+        "copilot",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-20-github-2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code",
+      "date": "2026-05-20",
+      "category": "github",
+      "title": {
+        "zh": "自动模型选择现在根据 VS Code 中的任务进行路由",
+        "ja": "自動モデル選択は、VS Code のタスクに基づいてルーティングされるようになりました",
+        "en": "Auto model selection now routes based on your task in VS Code"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 自动模型选择现在可以路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。工作原理 自动权衡实时模型可用性和可靠性信号，然后从推理、代码生成复杂性、错误诊断难度和工具编排需要等多个维度评估您的任务，以选择最佳模型。透明度：您可以看到...使用了哪个模型",
+        "ja": "GitHub Copilot 自動モデル選択は、高品質で信頼性が高く、トークン効率の高いエクスペリエンスを実現するために、使用率とモデルの健全性メトリクスを使用して、タスクに最適なモデルにルーティングされるようになりました。仕組み リアルタイムのモデルの可用性と信頼性の信号を自動的に比較検討し、推論、コード生成の複雑さ、バグ診断の難易度、最適なモデルを選択するためのツール オーケストレーションの必要性など、いくつかの側面にわたってタスクを評価します。透明性: どのモデルが使用されているかがわかります...",
+        "en": "GitHub Copilot auto model selection now routes to the best model for your task, using utilization and model health metrics for a high quality, reliable, and token-efficient experience. How it works Auto weighs real-time model availability and reliability signals, then evaluates your task across several dimensions like reasoning, code generation complexity, bug diagnosis difficulty, and tool orchestration needs to select the optimal model. Transparency: You can see which model was used by..."
+      },
+      "url": "https://github.blog/changelog/2026-05-20-auto-model-selection-now-routes-based-on-your-task-in-vs-code",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-19-openai-introducing-openai-for-singapore",
       "date": "2026-05-19",
       "category": "openai",
@@ -497,30 +546,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot Spaces API 现已全面可用",
-        "ja": "Copilot Spaces API の一般提供が開始されました",
-        "en": "Copilot Spaces API now generally available"
-      },
-      "summary": {
-        "zh": "Copilot Spaces API 现已全面可用 GitHub Copilot Spaces API 现已全面可用。您可以直接从自己的应用程序以编程方式创建、读取、更新和删除空间，从而减少团队大规模管理上下文的手动开销。这对于需要管理多个空间而不依赖于 GitHub UI 中的手动工作流程的企业特别有用。您可以使用 Spaces API 做什么： 以编程方式创建新空间 检索有关...的详细信息",
-        "ja": "Copilot Spaces API が一般利用可能になりました GitHub Copilot Spaces API が一般利用可能になりました。プログラムを使用して、独自のアプリケーションからスペースを直接作成、読み取り、更新、削除できるため、大規模なコンテキストを管理するチームの手動オーバーヘッドが削減されます。これは、GitHub UI の手動ワークフローに依存せずに複数のスペースを管理する必要がある企業に特に役立ちます。 Spaces API でできること: 新しいスペースをプログラムで作成する 詳細を取得する...",
-        "en": "Copilot Spaces API is now generally available The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale. This is especially useful for enterprises that need to manage multiple Spaces without relying on manual workflows in the GitHub UI. What you can do with the Spaces API: Create new Spaces programmatically Retrieve details about..."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
       "date": "2026-05-18",
       "category": "github",
@@ -535,30 +560,6 @@
         "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options. This means you can pick the right model for the job: a smaller, quicker model for straightforward changes, or a more capable model for complex work. The following models are now available, in addition to the existing options: Claude Haiku 4.5 (0.33x multiplier) GPT-5.4-mini (0.33x multiplier) To learn..."
       },
       "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-github-2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "通过 REST API 审核存储库 Copilot 云代理配置",
-        "ja": "REST API を介したリポジトリ Copilot クラウド エージェント構成の監査",
-        "en": "Audit repository Copilot cloud agent configuration via the REST API"
-      },
-      "summary": {
-        "zh": "现在，您可以使用存储库 REST API 的新 Get Copilot 云代理配置以编程方式审核存储库的 Copilot 云代理配置（公共预览版中提供）。新的 API 返回有关存储库的 Copilot 云代理设置的详细信息，包括其 MCP 服务器配置、启用的工具、GitHub 操作工作流策略和防火墙配置。这使得您可以轻松地大规模理解和审核存储库的安全状况。事后审计...",
-        "ja": "パブリック プレビューで利用可能なリポジトリ REST API の新しい Get Copilot クラウド エージェント構成を使用して、リポジトリの Copilot クラウド エージェント構成をプログラムで監査できるようになりました。新しい API は、MCP サーバー構成、有効なツール、GitHub アクション ワークフロー ポリシー、ファイアウォール構成など、リポジトリの Copilot クラウド エージェント セットアップに関する詳細を返します。これにより、リポジトリのセキュリティ体制を大規模に理解し、監査することが容易になります。監査後の...",
-        "en": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration. This makes it easy to understand and audit the security posture of your repositories at scale. The post Audit..."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
       "tags": [
         "release",
         "copilot",
@@ -1123,9 +1124,9 @@
         "en": "Building a safe, effective sandbox to enable Codex on Windows"
       },
       "summary": {
-        "zh": "了解 OpenAI 如何在 Windows 上为 Codex 构建安全沙箱，从而通过受控文件访问和网络限制启用安全、高效的编码代理。",
-        "ja": "OpenAI が Windows 上で Codex 用の安全なサンドボックスを構築し、ファイル アクセスとネットワーク制限が制御された安全で効率的なコーディング エージェントを実現した方法を学びましょう。",
-        "en": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions."
+        "zh": "了解 OpenAI 如何构建安全、有效的沙箱，以在 Windows 上启用 Codex 并控制文件访问和网络限制。",
+        "ja": "OpenAI が、ファイル アクセスとネットワーク制限を制御して Windows 上で Codex を有効にする安全で効果的なサンドボックスをどのように構築したかを学びましょう。",
+        "en": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits."
       },
       "url": "https://openai.com/index/building-codex-windows-sandbox",
       "tags": [
