@@ -25,6 +25,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-19-openai-changelog",
+      "date": "2026-05-19",
+      "category": "openai",
+      "title": {
+        "zh": "保护 MCP 隧道",
+        "ja": "MCP トンネルを保護する",
+        "en": "Secure MCP Tunnel"
+      },
+      "summary": {
+        "zh": "为企业客户发布安全MCP隧道。安全 MCP 隧道允许受支持的 OpenAI 产品（包括 ChatGPT web、Codex、Responses API 和 AgentKit）通过客户托管的隧道客户端连接到私有或本地 MCP 服务器，而无需将这些服务器暴露到公共互联网。初始 GA 是由客户主导的，而不是自助服务。",
+        "ja": "企業顧客向けに Secure MCP トンネルをリリースしました。安全な MCP トンネルを使用すると、サポートされている OpenAI 製品 (ChatGPT Web、Codex、Responses API、AgentKit など) が、プライベートまたはオンプレミスの MCP サーバーをパブリック インターネットに公開することなく、顧客がホストするトンネル クライアント経由で接続できます。初期 GA はセルフサービスではなく、アカウント主導で行われます。",
+        "en": "Released Secure MCP Tunnel for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted tunnel-client without exposing those servers to the public internet. Initial GA is account-led rather than self-serve."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-19-feature-secure-mcp-tunnel",
+      "tags": [
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-19-openai-advancing-content-provenance",
       "date": "2026-05-19",
       "category": "openai",
@@ -403,6 +426,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 会话的远程控制现在普遍可在移动设备、Web 和 VS Code 上使用",
+        "ja": "Copilot CLI セッションのリモート コントロールがモバイル、Web、VS Code で一般提供されるようになりました",
+        "en": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code"
+      },
+      "summary": {
+        "zh": "Copilot CLI 会话的远程控制现在在 GitHub Mobile 和 github.com 上普遍可用，因此您可以在终端中开始工作并使其从任何地方移动。在此版本中，远程控制现在支持非 GitHub 存储库以及与存储库不关联的目录。我们还在 VS Code 和 JetBrains 中引入了远程控制，使 GitHub Copilot 真正实现多表面并可在任何设备上使用。启用远程控制后，Copilot 会传输您的 CLI 会话...",
+        "ja": "Copilot CLI セッションのリモート コントロールが GitHub Mobile および github.com で一般提供されるようになりました。そのため、端末で作業を開始し、どこからでも作業を継続できます。このリリースでは、リモート コントロールは、非 GitHub リポジトリおよびリポジトリに関連付けられていないディレクトリをサポートするようになりました。また、VS Code と JetBrains にリモート コントロールを導入し、GitHub Copilot を真のマルチサーフェスにし、あらゆるデバイスで利用できるようにします。リモート制御が有効な場合、Copilot は CLI セッションをストリーミングします...",
+        "en": "Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere. With this release, remote control now supports non-GitHub repositories and directories not associated with a repository. We’re also introducing remote control in VS Code and JetBrains, making GitHub Copilot truly multi-surface and available across any device. When remote control is enabled, Copilot streams your CLI session..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
       "date": "2026-05-18",
       "category": "github",
@@ -513,6 +561,30 @@
         "en": "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching. What’s changed When you click the Copilot icon in the top navigation, Copilot opens a panel instead of navigating to github.com/copilot. You can still navigate to a full-page, immersive chat experience by clicking the More menu next to the Copilot icon and selecting In immersive chat, or by clicking the arrow icon on the contextual chat panel..."
       },
       "url": "https://github.blog/changelog/2026-05-18-ask-questions-in-context-with-copilot-on-web",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-18-github-2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.3-Codex 现在是 Copilot 商业和企业的基本模型",
+        "ja": "GPT-5.3-Codex は、Copilot Business および Enterprise の基本モデルになりました",
+        "en": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise"
+      },
+      "summary": {
+        "zh": "正如 2026 年 3 月 18 日宣布的那样，GPT-5.3-Codex 现在是所有 Copilot 商业和 Copilot 企业组织的基本模型，取代了 GPT-4.1。当您的组织尚未通过其内部审核流程批准其他模型时，将使用基本模型。 GPT-5.3-Codex 也是我们与 OpenAI 合作的第一个长期支持 (LTS) 模型。 LTS 模型保证自模型发布之日起整整 12 个月内可用，为企业提供所需的稳定性...",
+        "ja": "2026 年 3 月 18 日に発表されたように、GPT-5.3-Codex は、GPT-4.1 に代わって、すべての Copilot Business 組織および Copilot Enterprise 組織の基本モデルになりました。基本モデルは、組織が内部レビュー プロセスを通じて他のモデルをまだ承認していない場合に使用されます。 GPT-5.3-Codex は、OpenAI と提携した最初の長期サポート (LTS) モデルでもあります。 LTS モデルは、モデルの発売日から丸 12 か月間利用可能であることが保証されており、企業に必要な安定性を提供します。",
+        "en": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process. GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for..."
+      },
+      "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
       "tags": [
         "release",
         "copilot",
@@ -653,6 +725,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-16-github-2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "date": "2026-05-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
+        "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー",
+        "en": "GitHub App installation tokens: Per-request override header"
+      },
+      "summary": {
+        "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。标题是什么？在 POST /app/installations/:installation_id/access_tokens 请求上设置 X-GitHub-Stateless-S2S-Token 会覆盖该单个请求的服务器端部署决策。标头值 效果已启用...",
+        "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。ヘッダーとは何ですか? POST /app/installations/:installation_id/access_tokens リクエストで X-GitHub-Stateless-S2S-Token を設定すると、その単一リクエストに対するサーバー側のロールアウト決定がオーバーライドされます。ヘッダー値 効果が有効です...",
+        "en": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand. What is the header? Setting X-GitHub-Stateless-S2S-Token on a POST /app/installations/:installation_id/access_tokens request overrides the server-side rollout decision for that single request. Header value Effect enabled..."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "tags": [
+        "improvement",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-15-openai-personal-finance-chatgpt",
@@ -1355,6 +1451,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-08-github-2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Grok Code Fast 1",
+        "ja": "Grok Code Fast 1 の今後の非推奨",
+        "en": "Upcoming deprecation of Grok Code Fast 1"
+      },
+      "summary": {
+        "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供商弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要...",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日までに、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は次のことを行う必要がある場合があります...",
+        "en": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to..."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
       "date": "2026-05-08",
       "category": "github",
@@ -1372,6 +1492,32 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-08-github-2026-05-08-copilot-code-review-comment-types-now-in-usage-metrics-api",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查评论类型现在位于使用指标 API 中",
+        "ja": "Copilot コード レビューのコメント タイプが使用状況メトリクス API に追加されました",
+        "en": "Copilot code review comment types now in usage metrics API"
+      },
+      "summary": {
+        "zh": "为了帮助您了解 Copilot 代码审查用户生成的活动，Copilot 使用指标 API 现在按评论类型细分 Copilot 代码审查建议。企业和组织报告中的 pull_requests 下均提供了新的 copilot_suggestions_by_comment_type 数组。新功能对于每个 Copilot 代码审查建议（即由 Copilot 自动生成的行锚定审查注释），新数组报告按注释类型 Copilot 聚合的计数...",
+        "ja": "Copilot コード レビュー ユーザーによって生成されたアクティビティを理解しやすくするために、Copilot 使用状況メトリクス API は、Copilot コード レビューの提案をコメント タイプごとに分類するようになりました。新しい copilot_suggestions_by_comment_type 配列は、企業レポートと組織レポートの両方の pull_requests で使用できます。新機能 各 Copilot コード レビュー提案 (つまり、Copilot によって自動的に生成される行にアンカーされたレビュー コメント) について、新しい配列はコメント タイプ Copilot... ごとに集計された数を報告します。",
+        "en": "To help you understand the activity generated by Copilot code review users, the Copilot usage metrics API now breaks down Copilot code review suggestions by comment type. A new copilot_suggestions_by_comment_type array is available under pull_requests in both enterprise and organization reports. What’s new For each Copilot code review suggestion (i.e., a line-anchored review comment generated automatically by Copilot), the new array reports aggregated counts by the comment types Copilot..."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-copilot-code-review-comment-types-now-in-usage-metrics-api",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -3064,6 +3210,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
+        "ja": "Web 上の GitHub Copilot を使用したデバッグの改善",
+        "en": "Better debugging with GitHub Copilot on the web"
+      },
+      "summary": {
+        "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
+        "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか...",
+        "en": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what..."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-23-github-2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
       "date": "2026-04-23",
       "category": "github",
@@ -3777,6 +3947,31 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-04-15-github-2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+      "date": "2026-04-15",
+      "category": "github",
+      "title": {
+        "zh": "通过自定义属性启用 Copilot 云代理",
+        "ja": "Enable Copilot cloud agent via custom properties",
+        "en": "Enable Copilot cloud agent via custom properties"
+      },
+      "summary": {
+        "zh": "您现在可以针对每个组织有选择地启用 GitHub Copilot 云代理 (CCA) 访问权限。以前，企业管理员和人工智能经理只能在各处启用代理、在各处禁用代理，或者让每个组织自行决定。在此版本中，您可以单独或使用组织自定义属性有选择地为特定组织启用 CCA。您可以使用新的 API 端点或直接在 AI 控制页面中管理此策略设置。请注意，使用...",
+        "ja": "GitHub Copilot クラウド エージェント (CCA) アクセスを組織ごとに選択的に有効にできるようになりました。以前は、企業管理者と AI マネージャーは、どこでもエージェントを有効にするか、どこでも無効にするか、各組織に決定させることしかできませんでした。このリリースでは、個別に、または組織のカスタム プロパティを使用して、特定の組織に対して CCA を選択的に有効にすることができます。このポリシー設定は、新しい API エンドポイントを使用して、または [AI コントロール] ページで直接管理できます。ご利用の際はご注意ください...",
+        "en": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide. With this release, you can selectively enable CCA for specific organizations, individually or by using organization custom properties. You can manage this policy setting using the new API endpoints or directly in the AI Controls page. Please note that using..."
+      },
+      "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-14-openai-scaling-trusted-access-for-cyber-defense",
@@ -5052,6 +5247,80 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-01-github-2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.4 mini现已在Copilot学生汽车车型选择中上市",
+        "ja": "GPT-5.4 mini が Copilot 学生向け自動車モデル選択で利用可能になりました",
+        "en": "GPT-5.4 mini is now available in Copilot Student auto model selection"
+      },
+      "summary": {
+        "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择普遍用于 Copilot 学生计划。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入GitHub 社区分享您的反馈。后 GPT-5.4 mini 现已在 Copilot 学生汽车模型选择中提供...",
+        "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を介して Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot チャットの Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。ポスト GPT-5.4 mini が Copilot 学生自動車モデル選択で利用可能になりました...",
+        "en": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection..."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
+        "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持",
+        "en": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
+        "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています...",
+        "en": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-faster-more-flexible-agent-assignment-from-issues",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动：更快、更灵活地从问题中分配代理",
+        "ja": "GitHub モバイル: 問題からのエージェントのより迅速かつ柔軟な割り当て",
+        "en": "GitHub Mobile: Faster, more flexible agent assignment from issues"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在可以通过问题溢出菜单中的新“分配代理”选项更轻松地委派工作，以便您可以更快地开始工作。分配代理时，您现在可以添加自定义指令并选择不同的存储库，以更好地控制工作的委派方式。创建新问题时也可以使用这些相同的选项，从而可以更轻松地在不离开流程的情况下交接工作。这些更新简化了您在 GitHub Mobile 中向客服人员分配工作的方式，...",
+        "ja": "GitHub モバイルでは、問題のオーバーフロー メニューにある新しい [エージェントの割り当て] オプションを使用して作業を簡単に委任できるようになり、より迅速に作業を開始できるようになりました。エージェントを割り当てるときに、カスタム指示を追加し、別のリポジトリを選択して、作業の委任方法をより詳細に制御できるようになりました。これらと同じオプションは、新しい問題を作成するときにも使用できるため、フローを離れることなく作業を簡単に引き継ぐことができます。これらの更新により、GitHub Mobile でエージェントに作業を割り当てる方法が合理化されます。",
+        "en": "GitHub Mobile now makes it easier to delegate work with a new Assign an Agent option in the issue overflow menu, so you can get started more quickly. When assigning an agent, you can now add custom instructions and choose a different repository for more control over how work gets delegated. These same options are also available when creating a new issue, making it easier to hand off work without leaving your flow. These updates streamline how you assign work to agents in GitHub Mobile, with..."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-faster-more-flexible-agent-assignment-from-issues",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
       "date": "2026-04-01",
       "category": "github",
@@ -6057,6 +6326,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-17-github-2026-03-17-secret-scanning-in-ai-coding-agents-via-the-github-mcp-server",
+      "date": "2026-03-17",
+      "category": "github",
+      "title": {
+        "zh": "通过 GitHub MCP 服务器对 AI 编码代理进行秘密扫描",
+        "ja": "GitHub MCP サーバーを介した AI コーディング エージェントのシークレット スキャン",
+        "en": "Secret scanning in AI coding agents via the GitHub MCP Server"
+      },
+      "summary": {
+        "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描您的代码更改以查找暴露的机密。这可以帮助您在使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时检测机密，从而防止凭据泄露。此功能现已针对启用了 GitHub 秘密保护的存储库提供公共预览版。工作原理 在启用 MCP 的环境中，您的 AI 编码代理可以根据您的提示和指令运行秘密扫描。当你问你的人工智能编码代理时......",
+        "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、公開されたシークレットのコード変更をスキャンできるようになりました。これは、MCP 互換の IDE および AI コーディング エージェントを使用してコードを作成するときにシークレットを検出することで、資格情報の漏洩を防ぐのに役立ちます。この機能は現在、GitHub シークレット保護が有効になっているリポジトリに対してパブリック プレビュー段階にあります。仕組み MCP が有効な環境では、AI コーディング エージェントはプロンプトと指示に基づいてシークレット スキャンを実行できます。 AIコーディングエージェントに依頼すると...",
+        "en": "The GitHub MCP Server can now scan your code changes for exposed secrets before you commit or open a pull request. This helps you prevent credential leaks by detecting secrets while you write code with MCP-compatible IDEs and AI coding agents. This feature is now in public preview for repositories with GitHub Secret Protection enabled. How it works In MCP-enabled environments, your AI coding agent can run secret scanning based on your prompts and instructions. When you ask your AI coding agent..."
+      },
+      "url": "https://github.blog/changelog/2026-03-17-secret-scanning-in-ai-coding-agents-via-the-github-mcp-server",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-17-github-2026-03-17-gpt-5-4-mini-is-now-generally-available-for-github-copilot",
       "date": "2026-03-17",
       "category": "github",
@@ -6100,6 +6393,30 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-17-github-2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "date": "2026-03-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します",
+        "en": "Copilot coding agent works faster with semantic code search"
+      },
+      "summary": {
+        "zh": "Copilot 编码代理现在可以访问语义代码搜索工具，使其能够根据含义查找相关代码，而不是依赖于 grep 等工具的精确文本匹配。当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します...",
+        "en": "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses..."
+      },
+      "url": "https://github.blog/changelog/2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -7239,6 +7556,30 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-02-github-2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
+        "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の非推奨",
+        "en": "Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models"
+      },
+      "summary": {
+        "zh": "我们将在所有 GitHub Copilot 体验中弃用以下模型（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.4 迷你 GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex Gemini 3 Pro 弃用日期因提供商弃用而提前。请更新您的...",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Gemini 3 プロバイダーの非推奨により、Pro の非推奨日が早まります。更新してください...",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions): Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex The Gemini 3 Pro deprecation date is accelerated due to provider deprecation. Please update your..."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-02-github-2026-03-02-network-configuration-changes-for-copilot-coding-agent-now-in-effect",
