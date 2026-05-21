@@ -8262,6 +8262,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-02-26-github-2026-02-25-org-level-metrics-api-now-includes-pull-request-throughput-metric-parity",
+      "date": "2026-02-26",
+      "category": "github",
+      "title": {
+        "zh": "组织级指标 API 现在包括拉取请求吞吐量指标奇偶校验",
+        "ja": "組織レベルのメトリクス API にプル リクエストのスループット メトリクスのパリティが含まれるようになりました",
+        "en": "Org-level metrics API now includes pull request throughput metric parity"
+      },
+      "summary": {
+        "zh": "我们正在扩展组织级 Copilot 使用指标 API，以包含更广泛的拉取请求活动，包括创建量、吞吐量和周期时间。这使得组织级端点与以前仅在企业级可用的端点相同。新功能 组织现在可以直接从组织级 API 检索每日汇总的拉取请求活动和 Copilot 参与指标，包括： 基线拉取请求活动 创建的拉取请求总数...",
+        "ja": "私たちは組織レベルの Copilot 使用状況メトリクス API を拡張し、作成量、スループット、サイクル タイムなど、より広範なプル リクエスト アクティビティを含めるようにしています。これにより、組織レベルのエンドポイントが、以前はエンタープライズ レベルでのみ利用可能であったものと同等になります。新機能 組織は、毎日集計されたプル リクエスト アクティビティと Copilot 参加メトリクスを組織レベルの API から直接取得できるようになりました。次のものが含まれます。 ベースライン プル リクエスト アクティビティ 作成されたプル リクエストの合計...",
+        "en": "We’re expanding the organization-level Copilot Usage Metrics API to include a broader set of pull request activity, including creation volume, throughput and cycle time. This brings the org-level endpoints to parity with what was previously available only at the enterprise level. What’s new Organizations can now retrieve daily aggregated pull request activity and Copilot participation metrics directly from the org-level API, including: Baseline pull request activity Total pull requests created..."
+      },
+      "url": "https://github.blog/changelog/2026-02-25-org-level-metrics-api-now-includes-pull-request-throughput-metric-parity",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-02-26-anthropic-statement-department-of-war",
       "date": "2026-02-26",
       "category": "anthropic",
