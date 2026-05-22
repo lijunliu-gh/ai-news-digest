@@ -1086,10 +1086,6 @@
     "zh": "Copilot 指标报告 URL 更新",
     "ja": "Copilot メトリクス レポート URL の更新"
   },
-  "Copilot Content Exclusion REST API in public preview": {
-    "zh": "公开预览版中的 Copilot 内容排除 REST API",
-    "ja": "パブリック プレビュー中の Copilot コンテンツ除外 REST API"
-  },
   "Pull request throughput and time to merge available in Copilot usage metrics API": {
     "zh": "Copilot 使用指标 API 中提供拉取请求吞吐量和合并时间",
     "ja": "Copilot 使用状況メトリクス API で利用可能なプル リクエストのスループットとマージ時間"
@@ -1753,10 +1749,6 @@
   "The download URLs returned by the GitHub Copilot usage metrics API now come from a new endpoint. Your report data, the API contract, and the response schema haven’t changed. Action required If your firewall rules allowlist specific CDN domains, add copilot-reports-production-*.b01.azurefd.net alongside the existing copilot-reports-*.b01.azurefd.net pattern. If you download reports using the download links in the dashboard UI, you don’t need to make any changes. To view the current list of...": {
     "zh": "GitHub Copilot 使用指标 API 返回的下载 URL 现在来自新端点。您的报告数据、API 合同和响应架构没有更改。所需操作 如果您的防火墙规则将特定 CDN 域列入允许名单，请添加 copilot-reports-product-*.b01.azurefd.net 以及现有的 copilot-reports-*.b01.azurefd.net 模式。如果您使用仪表板 UI 中的下载链接下载报告，则无需进行任何更改。要查看当前列表...",
     "ja": "GitHub Copilot 使用状況メトリクス API によって返されるダウンロード URL は、新しいエンドポイントから取得されるようになりました。レポート データ、API コントラクト、および応答スキーマは変更されていません。必要なアクション ファイアウォール ルールで特定の CDN ドメインを許可リストに登録している場合は、既存の copilot-reports-production-*.b01.azurefd.net パターンと一緒に copilot-reports-production-*.b01.azurefd.net を追加します。ダッシュボード UI のダウンロード リンクを使用してレポートをダウンロードする場合は、変更を加える必要はありません。現在のリストを表示するには..."
-  },
-  "Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale. API Documentation About excluding content from GitHub Copilot Join the discussion within GitHub Community. The post Copilot Content Exclusion REST API in public preview...": {
-    "zh": "组织和企业管理员现在可以使用新的内容排除 REST API 以编程方式管理 Copilot 内容排除规则。此 JSON API 提供公共预览版，支持组织和企业级别的 GET 和 SET 操作，从而实现更轻松的大规模自动化和治理。 API 文档 关于从 GitHub 中排除内容 Copilot 加入 GitHub 社区内的讨论。公共预览版中的 Copilot 内容排除 REST API 后...",
-    "ja": "組織および企業の管理者は、新しいコンテンツ除外 REST API を使用して、Copilot コンテンツ除外ルールをプログラムで管理できるようになりました。この JSON API はパブリック プレビューで利用でき、組織レベルとエンタープライズ レベルの両方で GET および SET 操作をサポートし、大規模な自動化とガバナンスを容易にします。 API ドキュメント GitHub からのコンテンツの除外について Copilot GitHub コミュニティ内のディスカッションに参加してください。パブリック プレビュー中のポスト Copilot コンテンツ除外 REST API..."
   },
   "You can now use GitHub’s Copilot usage metrics APIs to better understand how Copilot influences pull request outcomes across your organization, from review suggestions to merged pull requests. Editor’s note (March 19, 2026): Corrected the broken link. How it works New enterprise-level API metrics cover pull request review suggestions and acceptance, pull requests created with Copilot coding agent that got merged, and pull request cycle time. Who can use this feature Customers who have enabled...": {
     "zh": "您现在可以使用 GitHub 的 Copilot 使用指标 API 来更好地了解 Copilot 如何影响整个组织的拉取请求结果，从审查建议到合并拉取请求。编者注（2026 年 3 月 19 日）：更正了损坏的链接。工作原理 新的企业级 API 指标涵盖拉取请求审查建议和接受、使用 Copilot 编码代理创建并合并的拉取请求，以及拉取请求周期时间。谁可以使用此功能 已启用...的客户",
@@ -2896,14 +2888,6 @@
     "zh": "Uber 使用 OpenAI 为人工智能助手和语音功能提供支持，帮助司机在全球实时市场上更智能地赚钱，让乘客更快地预订。",
     "ja": "Uber は OpenAI を使用して AI アシスタントと音声機能を強化し、ドライバーがよりスマートに収入を得ることができるようにし、乗客は世界的なリアルタイム マーケットプレイス全体でより迅速に予約できるようにします。"
   },
-  "View and manage agent sessions from issues and projects": {
-    "zh": "查看和管理问题和项目中的代理会话",
-    "ja": "問題とプロジェクトからのエージェント セッションの表示と管理"
-  },
-  "You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. What’s new Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance. Session side panel on issues: Click any session from the pill or assignee area to open it in the sidebar, where you can view progress, review logs, or steer the agent. Agent sessions enabled by default in projects...": {
-    "zh": "您现在可以直接从问题和项目中查看和引导云代理会话，从而无需离开工作流程即可更好地了解代理活动。关于问题的新会话药丸：关于问题的新标题药丸显示所有活动和已完成的代理会话一目了然。关于问题的会话侧面板：单击药丸或受让人区域中的任何会话以在侧栏中将其打开，您可以在其中查看进度、查看日志或指导代理。项目中默认启用代理会话...",
-    "ja": "クラウド エージェント セッションを問題やプロジェクトから直接表示および操作できるようになり、ワークフローを離れることなくエージェントのアクティビティをより正確に把握できるようになりました。新機能 問題に関するセッション ピル: 問題に関する新しいヘッダー ピルには、アクティブなエージェント セッションと完了したエージェント セッションが一目で表示されます。問題に関するセッションのサイド パネル: ピルまたは担当者エリアから任意のセッションをクリックしてサイドバーに開き、進行状況を表示したり、ログを確認したり、エージェントを操作したりできます。プロジェクトではエージェント セッションがデフォルトで有効になっています..."
-  },
   "Add images to agent sessions": {
     "zh": "将图像添加到代理会话",
     "ja": "エージェントセッションに画像を追加する"
@@ -3028,14 +3012,6 @@
     "zh": "在 ChatGPT 中为美国的 Pro 用户预览全新的个人财务体验。安全地连接您的财务账户，并获得基于您的财务背景、目标和优先事项的人工智能见解和指导。",
     "ja": "米国の Pro ユーザー向けに、ChatGPT で新しいパーソナル ファイナンス エクスペリエンスをプレビューします。金融口座を安全に接続し、財務状況、目標、優先事項に基づいた AI を活用した洞察とガイダンスを取得します。"
   },
-  "Grok Code Fast 1 deprecated": {
-    "zh": "Grok Code Fast 1 已弃用",
-    "ja": "Grok Code Fast 1 は非推奨になりました"
-  },
-  "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an...": {
-    "zh": "今天，即 2026 年 5 月 15 日，我们已在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了 Grok Code Fast 1。 模型弃用日期 建议替代 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为一个...",
-    "ja": "本日、2026 年 5 月 15 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Grok Code Fast 1 を非推奨にしました。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 更新してくださいサポートされているモデルを使用するためのワークフローと統合。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。として..."
-  },
   "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients": {
     "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
     "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています"
@@ -3079,14 +3055,6 @@
   "npm trusted publishing now supports CircleCI as an OIDC provider, joining GitHub Actions and GitLab CI/CD. Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly through their CI/CD pipeline. With this expansion, trusted publishing now covers a large majority of npm publishers by CI provider. Configuration is available through the npm website and the npm trust CLI command. See the trusted publishing documentation for setup...": {
     "zh": "npm 可信发布现在支持 CircleCI 作为 OIDC 提供商，加入 GitHub Actions 和 GitLab CI/CD。从 CircleCI 工作流程发布的维护者现在可以完全消除存储的凭据，并直接通过其 CI/CD 管道进行身份验证。通过这种扩展，可信发布现在覆盖了 CI 提供商的绝大多数 npm 发布者。可通过 npm 网站和 npm trust CLI 命令进行配置。请参阅受信任的发布文档进行设置...",
     "ja": "npm Trusted Publishing は、OIDC プロバイダーとして CircleCI をサポートし、GitHub アクションと GitLab CI/CD に加わりました。 CircleCI ワークフローから公開するメンテナは、保存されている認証情報を完全に削除し、CI/CD パイプラインを通じて直接認証できるようになりました。この拡張により、信頼できるパブリッシングは、CI プロバイダーによる npm パブリッシャーの大部分をカバーするようになりました。構成は、npm Web サイトおよび npm trust CLI コマンドを通じて利用できます。セットアップについては、信頼できる公開ドキュメントを参照してください..."
-  },
-  "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot": {
-    "zh": "即将弃用 GitHub Copilot 中的 Claude Sonnet 4",
-    "ja": "GitHub Copilot の Claude Sonnet 4 は今後非推奨になります"
-  },
-  "Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026. We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/6/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access...": {
-    "zh": "编者注（2026 年 5 月 1 日）：将弃用日期从 2026 年 5 月 1 日更新为 2026 年 5 月 6 日。我们将于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要启用访问...",
-    "ja": "編集者注 (2026 年 5 月 1 日): 非推奨日を 2026 年 5 月 1 日から 2026 年 5 月 6 日に更新しました。2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨にします: モデルの非推奨日推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 この日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者はアクセスを有効にする必要がある場合があります..."
   },
   "Copilot coding agent now starts work 50% faster": {
     "zh": "Copilot 编码代理现在开始工作的速度提高了 50%",
@@ -3867,5 +3835,29 @@
   "Copilot usage metrics now includes plan mode telemetry. Enterprises can track adoption and engagement trends for plan mode alongside existing Copilot metrics, enabling a more complete view of how teams are implementing plans directly in their IDE. Availability Plan mode telemetry is included as part of the broader Copilot usage metrics experience. Please ensure Copilot usage metrics is enabled for the enterprise or organization. Telemetry is supported for JetBrains, Eclipse, Xcode, and VS Code...": {
     "zh": "Copilot 使用指标现在包括计划模式遥测。企业可以跟踪计划模式的采用和参与趋势以及现有的 Copilot 指标，从而更全面地了解团队如何直接在其 IDE 中实施计划。可用性计划模式遥测包含在更广泛的 Copilot 使用指标体验中。请确保为企业或组织启用 Copilot 使用指标。 JetBrains、Eclipse、Xcode 和 VS Code 支持遥测...",
     "ja": "Copilot 使用状況メトリクスに、プラン モード テレメトリが含まれるようになりました。企業は、既存の Copilot メトリックとともに計画モードの導入とエンゲージメントの傾向を追跡できるため、チームがどのように計画を実装しているかを IDE で直接、より完全に把握できるようになります。可用性プラン モードのテレメトリは、広範な Copilot 使用状況メトリクス エクスペリエンスの一部として含まれています。 Copilot 使用状況メトリクスが企業または組織に対して有効になっていることを確認してください。テレメトリは、JetBrains、Eclipse、Xcode、VS Code でサポートされています..."
+  },
+  "Deployment context in repository properties and alerts": {
+    "zh": "存储库属性和警报中的部署上下文",
+    "ja": "リポジトリのプロパティとアラートのデプロイメントコンテキスト"
+  },
+  "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties— deployable and deployed —are now available. These properties reflect existing artifact and deployment metadata, so you don’t need to manually maintain lists of which repositories are actively deployed. You can use these properties to: Filter repositories in your organization based on deployment...": {
+    "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
+    "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする..."
+  },
+  "New pull requests dashboard is in public preview": {
+    "zh": "新的拉取请求仪表板已公开预览",
+    "ja": "新しいプル リクエスト ダッシュボードはパブリック プレビュー中です"
+  },
+  "A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. 📥 Inbox Inbox is your new home to discover the pull requests that need your attention, including your review, pull requests that need fixing, and pull requests that are ready to merge. Filter by repository or how recently a pull request was updated to focus on what...": {
+    "zh": "更新后的拉取请求仪表板现已在 github.com/pulls 上提供公共预览，引入了新的拉取请求收件箱和保存的视图，以便您可以组织和优先处理需要您关注的拉取请求。 📥 收件箱 收件箱是您发现需要您关注的拉取请求的新家，包括您的审阅、需要修复的拉取请求以及准备合并的拉取请求。按存储库或拉取请求最近更新的时间进行过滤，以重点关注......",
+    "ja": "更新されたプル リクエスト ダッシュボードのパブリック プレビューが github.com/pulls で利用できるようになりました。これにより、新しいプル リクエストの受信トレイと保存されたビューが導入され、注意が必要なプル リクエストを整理して優先順位を付けることができます。 📥 Inbox Inbox は、レビュー、修正が必要なプル リクエスト、マージの準備ができているプル リクエストなど、注意が必要なプル リクエストを見つけるための新しい場所です。リポジトリ、またはプル リクエストがどのくらい最近更新されたかによってフィルタリングして、何に焦点を当てるか..."
+  },
+  "Updates to GitHub Copilot for students": {
+    "zh": "针对学生的 GitHub Copilot 更新",
+    "ja": "学生向けの GitHub Copilot の更新"
+  },
+  "Starting today, students with GitHub Education benefits are now on the new GitHub Copilot Student plan. As part of this transition, we’ve updated the available model lineup. The new GitHub Copilot Student plan allows us to focus on building a long-term, sustainable Copilot experience tailored for students with continued investment in AI-native learning tools. Please visit our Community Discussion for a full breakdown of what’s changing. The post Updates to GitHub Copilot for students appeared...": {
+    "zh": "从今天开始，享有 GitHub 教育福利的学生现在可以加入新的 GitHub Copilot 学生计划。作为这一转变的一部分，我们更新了可用的型号阵容。新的 GitHub Copilot 学生计划使我们能够通过持续投资人工智能原生学习工具，专注于为学生打造长期、可持续的 Copilot 体验。请访问我们的社区讨论，了解变化的完整详情。学生 GitHub Copilot 的帖子更新出现...",
+    "ja": "本日より、GitHub 教育特典を持つ学生は、新しい GitHub Copilot 学生プランを利用できるようになりました。この移行の一環として、利用可能なモデルのラインナップを更新しました。新しい GitHub Copilot Student プランでは、AI ネイティブ学習ツールへの継続的な投資により、学生向けにカスタマイズされた長期的で持続可能な Copilot エクスペリエンスの構築に集中できます。変更内容の詳細については、コミュニティ ディスカッションをご覧ください。学生向けの GitHub Copilot の投稿が表示されました..."
   }
 }

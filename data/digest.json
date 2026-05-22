@@ -1072,30 +1072,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-15-github-2026-05-15-grok-code-fast-1-deprecated",
-      "date": "2026-05-15",
-      "category": "github",
-      "title": {
-        "zh": "Grok Code Fast 1 已弃用",
-        "ja": "Grok Code Fast 1 は非推奨になりました",
-        "en": "Grok Code Fast 1 deprecated"
-      },
-      "summary": {
-        "zh": "今天，即 2026 年 5 月 15 日，我们已在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了 Grok Code Fast 1。 模型弃用日期 建议替代 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为一个...",
-        "ja": "本日、2026 年 5 月 15 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Grok Code Fast 1 を非推奨にしました。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 更新してくださいサポートされているモデルを使用するためのワークフローと統合。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。として...",
-        "en": "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an..."
-      },
-      "url": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-15-github-2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
       "date": "2026-05-15",
       "category": "github",
@@ -3366,31 +3342,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-04-23-github-2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
-      "date": "2026-04-23",
-      "category": "github",
-      "title": {
-        "zh": "查看和管理问题和项目中的代理会话",
-        "ja": "問題とプロジェクトからのエージェント セッションの表示と管理",
-        "en": "View and manage agent sessions from issues and projects"
-      },
-      "summary": {
-        "zh": "您现在可以直接从问题和项目中查看和引导云代理会话，从而无需离开工作流程即可更好地了解代理活动。关于问题的新会话药丸：关于问题的新标题药丸显示所有活动和已完成的代理会话一目了然。关于问题的会话侧面板：单击药丸或受让人区域中的任何会话以在侧栏中将其打开，您可以在其中查看进度、查看日志或指导代理。项目中默认启用代理会话...",
-        "ja": "クラウド エージェント セッションを問題やプロジェクトから直接表示および操作できるようになり、ワークフローを離れることなくエージェントのアクティビティをより正確に把握できるようになりました。新機能 問題に関するセッション ピル: 問題に関する新しいヘッダー ピルには、アクティブなエージェント セッションと完了したエージェント セッションが一目で表示されます。問題に関するセッションのサイド パネル: ピルまたは担当者エリアから任意のセッションをクリックしてサイドバーに開き、進行状況を表示したり、ログを確認したり、エージェントを操作したりできます。プロジェクトではエージェント セッションがデフォルトで有効になっています...",
-        "en": "You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. What’s new Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance. Session side panel on issues: Click any session from the pill or assignee area to open it in the sidebar, where you can view progress, review logs, or steer the agent. Agent sessions enabled by default in projects..."
-      },
-      "url": "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
-      "tags": [
-        "release",
-        "copilot",
-        "projects-issues",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-23-github-2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
       "date": "2026-04-23",
       "category": "github",
@@ -4315,6 +4266,31 @@
       "url": "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
       "tags": [
         "improvement",
+        "application-security",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-14-github-2026-04-14-deployment-context-in-repository-properties-and-alerts",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "存储库属性和警报中的部署上下文",
+        "ja": "リポジトリのプロパティとアラートのデプロイメントコンテキスト",
+        "en": "Deployment context in repository properties and alerts"
+      },
+      "summary": {
+        "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
+        "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする...",
+        "en": "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties— deployable and deployed —are now available. These properties reflect existing artifact and deployment metadata, so you don’t need to manually maintain lists of which repositories are actively deployed. You can use these properties to: Filter repositories in your organization based on deployment..."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts",
+      "tags": [
+        "release",
         "application-security",
         "platform-governance",
         "github",
@@ -5527,30 +5503,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
-      "date": "2026-04-01",
-      "category": "github",
-      "title": {
-        "zh": "即将弃用 GitHub Copilot 中的 Claude Sonnet 4",
-        "ja": "GitHub Copilot の Claude Sonnet 4 は今後非推奨になります",
-        "en": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 5 月 1 日）：将弃用日期从 2026 年 5 月 1 日更新为 2026 年 5 月 6 日。我们将于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要启用访问...",
-        "ja": "編集者注 (2026 年 5 月 1 日): 非推奨日を 2026 年 5 月 1 日から 2026 年 5 月 6 日に更新しました。2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨にします: モデルの非推奨日推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 この日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者はアクセスを有効にする必要がある場合があります...",
-        "en": "Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026. We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/6/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access..."
-      },
-      "url": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
       "date": "2026-03-31",
       "category": "openai",
@@ -5734,6 +5686,30 @@
       ],
       "source": "GitHub Product News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-26-github-2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
+      "date": "2026-03-26",
+      "category": "github",
+      "title": {
+        "zh": "新的拉取请求仪表板已公开预览",
+        "ja": "新しいプル リクエスト ダッシュボードはパブリック プレビュー中です",
+        "en": "New pull requests dashboard is in public preview"
+      },
+      "summary": {
+        "zh": "更新后的拉取请求仪表板现已在 github.com/pulls 上提供公共预览，引入了新的拉取请求收件箱和保存的视图，以便您可以组织和优先处理需要您关注的拉取请求。 📥 收件箱 收件箱是您发现需要您关注的拉取请求的新家，包括您的审阅、需要修复的拉取请求以及准备合并的拉取请求。按存储库或拉取请求最近更新的时间进行过滤，以重点关注......",
+        "ja": "更新されたプル リクエスト ダッシュボードのパブリック プレビューが github.com/pulls で利用できるようになりました。これにより、新しいプル リクエストの受信トレイと保存されたビューが導入され、注意が必要なプル リクエストを整理して優先順位を付けることができます。 📥 Inbox Inbox は、レビュー、修正が必要なプル リクエスト、マージの準備ができているプル リクエストなど、注意が必要なプル リクエストを見つけるための新しい場所です。リポジトリ、またはプル リクエストがどのくらい最近更新されたかによってフィルタリングして、何に焦点を当てるか...",
+        "en": "A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. 📥 Inbox Inbox is your new home to discover the pull requests that need your attention, including your review, pull requests that need fixing, and pull requests that are ready to merge. Filter by repository or how recently a pull request was updated to focus on what..."
+      },
+      "url": "https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
+      "tags": [
+        "release",
+        "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-26-github-2026-03-26-gemini-3-pro-deprecated",
@@ -6649,6 +6625,30 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-13-github-2026-03-13-updates-to-github-copilot-for-students",
+      "date": "2026-03-13",
+      "category": "github",
+      "title": {
+        "zh": "针对学生的 GitHub Copilot 更新",
+        "ja": "学生向けの GitHub Copilot の更新",
+        "en": "Updates to GitHub Copilot for students"
+      },
+      "summary": {
+        "zh": "从今天开始，享有 GitHub 教育福利的学生现在可以加入新的 GitHub Copilot 学生计划。作为这一转变的一部分，我们更新了可用的型号阵容。新的 GitHub Copilot 学生计划使我们能够通过持续投资人工智能原生学习工具，专注于为学生打造长期、可持续的 Copilot 体验。请访问我们的社区讨论，了解变化的完整详情。学生 GitHub Copilot 的帖子更新出现...",
+        "ja": "本日より、GitHub 教育特典を持つ学生は、新しい GitHub Copilot 学生プランを利用できるようになりました。この移行の一環として、利用可能なモデルのラインナップを更新しました。新しい GitHub Copilot Student プランでは、AI ネイティブ学習ツールへの継続的な投資により、学生向けにカスタマイズされた長期的で持続可能な Copilot エクスペリエンスの構築に集中できます。変更内容の詳細については、コミュニティ ディスカッションをご覧ください。学生向けの GitHub Copilot の投稿が表示されました...",
+        "en": "Starting today, students with GitHub Education benefits are now on the new GitHub Copilot Student plan. As part of this transition, we’ve updated the available model lineup. The new GitHub Copilot Student plan allows us to focus on building a long-term, sustainable Copilot experience tailored for students with continued investment in AI-native learning tools. Please visit our Community Discussion for a full breakdown of what’s changing. The post Updates to GitHub Copilot for students appeared..."
+      },
+      "url": "https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-13-github-2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
@@ -8203,30 +8203,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-02-26-github-2026-02-26-copilot-content-exclusion-rest-api-in-public-preview",
-      "date": "2026-02-26",
-      "category": "github",
-      "title": {
-        "zh": "公开预览版中的 Copilot 内容排除 REST API",
-        "ja": "パブリック プレビュー中の Copilot コンテンツ除外 REST API",
-        "en": "Copilot Content Exclusion REST API in public preview"
-      },
-      "summary": {
-        "zh": "组织和企业管理员现在可以使用新的内容排除 REST API 以编程方式管理 Copilot 内容排除规则。此 JSON API 提供公共预览版，支持组织和企业级别的 GET 和 SET 操作，从而实现更轻松的大规模自动化和治理。 API 文档 关于从 GitHub 中排除内容 Copilot 加入 GitHub 社区内的讨论。公共预览版中的 Copilot 内容排除 REST API 后...",
-        "ja": "組織および企業の管理者は、新しいコンテンツ除外 REST API を使用して、Copilot コンテンツ除外ルールをプログラムで管理できるようになりました。この JSON API はパブリック プレビューで利用でき、組織レベルとエンタープライズ レベルの両方で GET および SET 操作をサポートし、大規模な自動化とガバナンスを容易にします。 API ドキュメント GitHub からのコンテンツの除外について Copilot GitHub コミュニティ内のディスカッションに参加してください。パブリック プレビュー中のポスト Copilot コンテンツ除外 REST API...",
-        "en": "Organization and enterprise administrators can now programmatically manage Copilot content exclusion rules using the new Content Exclusion REST API. This JSON API is available in public preview and supports GET and SET operations at both the organization and enterprise levels, enabling easier automation and governance at scale. API Documentation About excluding content from GitHub Copilot Join the discussion within GitHub Community. The post Copilot Content Exclusion REST API in public preview..."
-      },
-      "url": "https://github.blog/changelog/2026-02-26-copilot-content-exclusion-rest-api-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
