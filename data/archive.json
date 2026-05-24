@@ -1,7 +1,123 @@
 {
-  "lastUpdated": "2026-05-23",
+  "lastUpdated": "2026-05-24",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-02-23-openai-why-we-no-longer-evaluate-swe-bench-verified",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "为什么我们不再评估 SWE-bench Verified",
+        "ja": "SWEベンチを評価しなくなった理由",
+        "en": "Why we no longer evaluate SWE-bench Verified"
+      },
+      "summary": {
+        "zh": "SWE-bench Verified 受到越来越多的污染，并且错误地衡量了前沿编码进度。我们的分析显示了测试的缺陷和训练的泄漏。我们推荐 SWE-bench Pro。",
+        "ja": "SWE ベンチ Verified はますます汚染されており、フロンティア コーディングの進捗状況を誤って測定しています。私たちの分析では、欠陥のあるテストとトレーニングの漏れが明らかになりました。 SWE-bench Pro をお勧めします。",
+        "en": "SWE-bench Verified is increasingly contaminated and mismeasures frontier coding progress. Our analysis shows flawed tests and training leakage. We recommend SWE-bench Pro."
+      },
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-23-openai-frontier-alliance-partners",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 宣布前沿联盟合作伙伴",
+        "ja": "OpenAI、フロンティア・アライアンス・パートナーを発表",
+        "en": "OpenAI announces Frontier Alliance Partners"
+      },
+      "summary": {
+        "zh": "OpenAI 宣布成立前沿联盟合作伙伴，通过安全、可扩展的代理部署，帮助企业从人工智能试点转向生产。",
+        "ja": "OpenAI は、安全でスケーラブルなエージェント展開により企業が AI パイロットから本番環境に移行できるよう支援する Frontier Alliance Partners を発表しました。",
+        "en": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments."
+      },
+      "url": "https://openai.com/index/frontier-alliance-partners",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-02-23-openai-changelog-2",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "为响应 API 启动了 WebSocket 模式。",
+        "ja": "Responses API の WebSocket モードを開始しました。",
+        "en": "Launched WebSocket mode for the Responses API."
+      },
+      "summary": {
+        "zh": "为响应 API 启动了 WebSocket 模式。在这里了解更多。",
+        "ja": "Responses API の WebSocket モードを開始しました。詳細については、こちらをご覧ください。",
+        "en": "Launched WebSocket mode for the Responses API. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-23-feature-launched-websocket-mode-for-the-responses-api",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-23-openai-changelog",
+      "date": "2026-02-23",
+      "category": "openai",
+      "title": {
+        "zh": "向实时 API 发布了 gpt-realtime-1.5。",
+        "ja": "gpt-realtime-1.5 を Realtime API にリリースしました。",
+        "en": "Released gpt-realtime-1.5 to the Realtime API."
+      },
+      "summary": {
+        "zh": "向实时 API 发布了 gpt-realtime-1.5。在这里阅读更多内容。向聊天完成 API 发布了 gpt-audio-1.5。在这里阅读更多内容。",
+        "ja": "gpt-realtime-1.5 を Realtime API にリリースしました。詳細はこちらをご覧ください。 gpt-audio-1.5 を Chat Completions API にリリースしました。詳細はこちらをご覧ください。",
+        "en": "Released gpt-realtime-1.5 to the Realtime API. Read more here. Released gpt-audio-1.5 to the Chat Completions API. Read more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-02-23-feature-released-gpt-realtime-1-5-to-the-realtime-api",
+      "tags": [
+        "gpt-realtime-1-5",
+        "gpt-audio-1-5",
+        "v1-realtime",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-02-23-anthropic-detecting-and-preventing-distillation-attacks",
+      "date": "2026-02-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "检测和防止蒸馏攻击",
+        "ja": "蒸留攻撃の検出と防止",
+        "en": "Detecting and preventing distillation attacks"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-02-20-openai-first-proof-submissions",
       "date": "2026-02-20",
