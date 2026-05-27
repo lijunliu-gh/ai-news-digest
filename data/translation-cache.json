@@ -3971,5 +3971,29 @@
   "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try the integration, report issues, and share suggestions—your input has directly shaped the improvements we have shipped. What’s new Improved onboarding and setup guidance Based on feedback from early adopters, the integration now provides better guidance, including clearer error messages and steps to resolve common...": {
     "zh": "自从推出 Jira GitHub Copilot 编码代理的公共预览版以来，我们一直在密切倾听客户的反馈。感谢所有花时间尝试集成、报告问题和分享建议的人——你们的意见直接影响了我们所发布的改进。新功能 改进的入门和设置指南 根据早期采用者的反馈，集成现在提供更好的指导，包括更清晰的错误消息和解决常见问题的步骤...",
     "ja": "Jira 用 GitHub Copilot コーディング エージェントのパブリック プレビューを開始して以来、私たちはお客様のフィードバックに注意深く耳を傾けてきました。統合を試したり、問題を報告したり、提案を共有したりするために時間を割いてくださった皆様に感謝します。皆様のご意見が、私たちが出荷した改善点に直接反映されました。新機能 オンボーディングとセットアップのガイダンスの改善 早期導入者からのフィードバックに基づいて、統合により、より明確なエラー メッセージや一般的な問題を解決する手順など、より適切なガイダンスが提供されるようになりました。"
+  },
+  "One-click fixes for failing Actions with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理一键修复失败的操作",
+    "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正"
+  },
+  "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment. This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter...": {
+    "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。它通过自己的基于云的开发环境完成这一切。这意味着您可以将简单但耗时的工作交给 Copilot （例如，修复测试或纠正 linter...",
+    "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。これらすべてを独自のクラウドベースの開発環境から実行します。これは、単純だが時間のかかる作業 (テストの修正やリンターの修正など) を Copilot に引き継ぐことができることを意味します。"
+  },
+  "GPT-5.5 is generally available for GitHub Copilot": {
+    "zh": "GPT-5.5 一般适用于 GitHub Copilot",
+    "ja": "GPT-5.5 は GitHub Copilot で一般提供されています"
+  },
+  "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t. Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing. Availability in GitHub Copilot GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users. You’ll be able to...": {
+    "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。请注意，作为促销价格的一部分，该型号推出时附带 7.5 倍的高级请求乘数。 GitHub Copilot GPT-5.5 中的可用性将提供给 Copilot Pro+、Copilot Business 和 Copilot Enterprise 用户。你将能够...",
+    "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。このモデルは、プロモーション価格の一環として、7.5 倍のプレミアム リクエスト乗数で発売されることに注意してください。 GitHub での利用可能性 Copilot GPT-5.5 は、Copilot Pro+、Copilot Business、および Copilot Enterprise ユーザーが利用できます。できるようになります..."
+  },
+  "GitHub Copilot in Visual Studio Code v1.110 – February release": {
+    "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
+    "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース"
+  },
+  "The Visual Studio Code February 2026 release makes agents practical for longer-running and more complex tasks. This gives you more control over how they run, new ways to extend what they can do, and smarter session management that keeps context intact. Program your agents Automate with hooks: Run your code at key agent lifecycle events to enforce policies, auto-lint, or block commands before they execute. Fork a conversation: Branch from any checkpoint to explore an alternative path without...": {
+    "zh": "Visual Studio Code 2026 年 2 月版使代理适用于运行时间较长且更复杂的任务。这使您可以更好地控制它们的运行方式、扩展它们功能的新方法以及保持上下文完整的更智能的会话管理。使用挂钩对代理进行自动化编程：在关键代理生命周期事件中运行代码，以在命令执行之前强制执行策略、自动检查或阻止命令。分叉对话：从任何检查点分支以探索替代路径，而无需......",
+    "ja": "Visual Studio Code 2026 年 2 月リリースでは、エージェントは実行時間のかかる、より複雑なタスクに実用的になります。これにより、セッションの実行方法をより詳細に制御できるようになり、実行できることを拡張する新しい方法が提供され、コンテキストをそのまま維持するよりスマートなセッション管理が可能になります。エージェントをプログラムする フックを使用して自動化する: 主要なエージェントのライフサイクル イベントでコードを実行し、ポリシーを適用したり、自動 lint を実行したり、実行前にコマンドをブロックしたりできます。会話をフォークする: チェックポイントから分岐して、別のパスを探索します..."
   }
 }

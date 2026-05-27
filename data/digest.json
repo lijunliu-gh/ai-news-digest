@@ -864,6 +864,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理一键修复失败的操作",
+        "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正",
+        "en": "One-click fixes for failing Actions with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。它通过自己的基于云的开发环境完成这一切。这意味着您可以将简单但耗时的工作交给 Copilot （例如，修复测试或纠正 linter...",
+        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。これらすべてを独自のクラウドベースの開発環境から実行します。これは、単純だが時間のかかる作業 (テストの修正やリンターの修正など) を Copilot に引き継ぐことができることを意味します。",
+        "en": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment. This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
       "date": "2026-05-18",
       "category": "github",
@@ -3357,6 +3381,30 @@
       "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-24-github-2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "date": "2026-04-24",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.5 一般适用于 GitHub Copilot",
+        "ja": "GPT-5.5 は GitHub Copilot で一般提供されています",
+        "en": "GPT-5.5 is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。请注意，作为促销价格的一部分，该型号推出时附带 7.5 倍的高级请求乘数。 GitHub Copilot GPT-5.5 中的可用性将提供给 Copilot Pro+、Copilot Business 和 Copilot Enterprise 用户。你将能够...",
+        "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。このモデルは、プロモーション価格の一環として、7.5 倍のプレミアム リクエスト乗数で発売されることに注意してください。 GitHub での利用可能性 Copilot GPT-5.5 は、Copilot Pro+、Copilot Business、および Copilot Enterprise ユーザーが利用できます。できるようになります...",
+        "en": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t. Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing. Availability in GitHub Copilot GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users. You’ll be able to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -7377,6 +7425,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-06-github-2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
+      "date": "2026-03-06",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
+        "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code v1.110 – February release"
+      },
+      "summary": {
+        "zh": "Visual Studio Code 2026 年 2 月版使代理适用于运行时间较长且更复杂的任务。这使您可以更好地控制它们的运行方式、扩展它们功能的新方法以及保持上下文完整的更智能的会话管理。使用挂钩对代理进行自动化编程：在关键代理生命周期事件中运行代码，以在命令执行之前强制执行策略、自动检查或阻止命令。分叉对话：从任何检查点分支以探索替代路径，而无需......",
+        "ja": "Visual Studio Code 2026 年 2 月リリースでは、エージェントは実行時間のかかる、より複雑なタスクに実用的になります。これにより、セッションの実行方法をより詳細に制御できるようになり、実行できることを拡張する新しい方法が提供され、コンテキストをそのまま維持するよりスマートなセッション管理が可能になります。エージェントをプログラムする フックを使用して自動化する: 主要なエージェントのライフサイクル イベントでコードを実行し、ポリシーを適用したり、自動 lint を実行したり、実行前にコマンドをブロックしたりできます。会話をフォークする: チェックポイントから分岐して、別のパスを探索します...",
+        "en": "The Visual Studio Code February 2026 release makes agents practical for longer-running and more complex tasks. This gives you more control over how they run, new ways to extend what they can do, and smarter session management that keeps context intact. Program your agents Automate with hooks: Run your code at key agent lifecycle events to enforce policies, auto-lint, or block commands before they execute. Fork a conversation: Branch from any checkpoint to explore an alternative path without..."
+      },
+      "url": "https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-06-github-2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
