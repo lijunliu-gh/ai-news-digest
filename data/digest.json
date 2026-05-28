@@ -123,6 +123,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-28-anthropic-series-h",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
+        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+      },
+      "summary": {
+        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
+        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
+      },
+      "url": "https://www.anthropic.com/news/series-h",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -178,7 +199,7 @@
         "en": "role: \"system\""
       },
       "summary": {
-        "zh": "We've launched mid-conversation system messages. On Claude Opus 4.8, you can send role: \"system\" messages after a user turn (subject to placement rules ) in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required.",
+        "zh": "我们推出了对话中系统消息。在 Claude Opus 4.8 上，您可以在用户在消息数组中转动（遵循放置规则）后发送角色：“系统”消息，从而在长时间运行的会话期间指令更改时保留提示缓存命中。不需要 beta 标头。",
         "ja": "会話中のシステム メッセージを開始しました。 Claude Opus 4.8 では、メッセージ配列内でユーザーがターンした後 (配置ルールに従って) role: \"system\" メッセージを送信し、長時間実行セッション中に命令が変更されたときにプロンプ​​ト キャッシュ ヒットを維持できます。ベータヘッダーは必要ありません。",
         "en": "We've launched mid-conversation system messages. On Claude Opus 4.8, you can send role: \"system\" messages after a user turn (subject to placement rules ) in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required."
       },
@@ -705,6 +726,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-21-github-2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations",
+      "date": "2026-05-21",
+      "category": "github",
+      "title": {
+        "zh": "问题字段现已对所有组织提供公共预览版",
+        "ja": "問題フィールドは現在、すべての組織に対してパブリック プレビュー段階にあります",
+        "en": "Issue fields are now in public preview for all organizations"
+      },
+      "summary": {
+        "zh": "问题字段现在可供 github.com 上的所有 GitHub 组织和具有数据驻留的 GitHub 企业云公开预览。当您在组织级别定义类型化元数据（例如优先级、工作量或任何自定义字段）时，它会自动显示在每个存储库中的每个问题上。字段支持四种类型（即单选、文本、数字和日期），可以固定到特定问题类型，并跨平台工作。您可以按字段值搜索和过滤问题，添加...",
+        "ja": "問題フィールドは、github.com およびデータ常駐の GitHub Enterprise Cloud 上のすべての GitHub 組織に対してパブリック プレビューで利用できるようになりました。組織レベルで優先度、工数、カスタム フィールドなどの型付きメタデータを定義すると、すべてのリポジトリのすべての課題に自動的に表示されます。フィールドは 4 つのタイプ (単一選択、テキスト、数値、日付) をサポートし、特定の課題タイプに固定でき、プラットフォーム全体で機能します。フィールド値で問題を検索およびフィルタリングしたり、追加したりできます。",
+        "en": "Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or any custom field at the org level, and it automatically shows up on every issue, in every repository. Fields support four types (i.e., single select, text, number, and date), can be pinned to specific issue types, and work across the platform. You can search and filter issues by field value, add..."
+      },
+      "url": "https://github.blog/changelog/2026-05-21-issue-fields-are-now-in-public-preview-for-all-organizations",
+      "tags": [
+        "release",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-21-github-2026-05-21-github-copilot-for-eclipse-is-open-source",
@@ -2161,6 +2206,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-12-github-2026-05-12-copilot-code-review-comment-experience-improvements",
+      "date": "2026-05-12",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：评论体验改进",
+        "ja": "Copilot コードレビュー: コメントエクスペリエンスの改善",
+        "en": "Copilot code review: Comment experience improvements"
+      },
+      "summary": {
+        "zh": "Copilot 代码审查注释现在更容易扫描和执行。可供选择新的拉取请求体验的所有用户使用，分组建议、严重性级别和更新的建议变更集 UI 将减少噪音并帮助您优先考虑来自 Copilot 的建议。帮助您确定优先级的严重性级别评论现在包含严重性标签，因此您可以确定要解决的建议以及何时解决的优先级。您可以在 Copilot 代码审查注释的右上角找到严重性标签...",
+        "ja": "Copilot コード レビュー コメントをスキャンして対処することが容易になりました。新しいプル リクエスト エクスペリエンス、グループ化された提案、重大度レベル、および更新された提案変更セット UI をオプトインしたすべてのユーザーが利用できるため、ノイズが軽減され、Copilot からの提案の優先順位付けに役立ちます。優先順位付けに役立つ重大度レベル コメントに重大度ラベルが含まれるようになったので、いつどの提案に対処するか優先順位を付けることができます。 Copilot コード レビュー コメントの右上隅に重大度ラベルが表示されます。",
+        "en": "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated suggested changeset UI will reduce noise and help you prioritize suggestions from Copilot. Severity levels to help you prioritize Comments now include severity labels, so you can prioritize which suggestions to address and when. You can find severity labels on the top-right corner of Copilot code review comments..."
+      },
+      "url": "https://github.blog/changelog/2026-05-12-copilot-code-review-comment-experience-improvements",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-12-github-2026-05-12-april-reports-are-now-available-to-prepare-for-usage-based-billing",
       "date": "2026-05-12",
       "category": "github",
@@ -3074,6 +3143,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-05-github-2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "date": "2026-05-05",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+        "ja": "GitHub MCP サーバーによるシークレット スキャンが一般公開されました",
+        "en": "Secret scanning with GitHub MCP Server is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
+        "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報...",
+        "en": "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new..."
+      },
+      "url": "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-05-github-2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
@@ -5143,6 +5236,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-10-github-2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
+        "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。",
+        "en": "Copilot usage metrics now aggregate Copilot cloud agent active user counts"
+      },
+      "summary": {
+        "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。三个新字段可用...",
+        "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。 3 つの新しいフィールドが利用可能です...",
+        "en": "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in..."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-usage-metrics-now-aggregate-copilot-cloud-agent-active-user-counts",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-10-github-2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
       "date": "2026-04-10",
       "category": "github",
@@ -6927,6 +7046,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-19-github-2026-03-19-copilot-coding-agent-now-starts-work-50-faster",
+      "date": "2026-03-19",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理现在开始工作的速度提高了 50%",
+        "ja": "Copilot コーディング エージェントの作業開始が 50% 速くなりました",
+        "en": "Copilot coding agent now starts work 50% faster"
+      },
+      "summary": {
+        "zh": "我们优化了 Copilot 编码代理，现在它的工作速度提高了 50%。您可以通过多种方式将工作交给 Copilot 编码代理，包括将问题分配给 Copilot、在存储库的“代理”选项卡中输入提示或在拉取请求注释中提及 @copilot。 Copilot 在自己的基于云的开发环境中工作，进行更改，运行测试，然后推送。通过更短的启动时间，Copilot 可以更快地从头开始创建拉取请求，并且您可以获得更快的...",
+        "ja": "Copilot コーディング エージェントを最適化したため、作業の開始が 50% 速くなりました。 Copilot に問題を割り当てる、リポジトリの [エージェント] タブにプロンプ​​トを入力する、プル リクエストのコメントで @copilot に言及するなど、さまざまな方法で Copilot コーディング エージェントに作業を依頼できます。 Copilot は独自のクラウドベースの開発環境で動作し、変更を加え、テストを実行してからプッシュします。起動時間が短縮されると、Copilot はプル リクエストを最初からより迅速に作成でき、より高速な結果を得ることができます。",
+        "en": "We’ve optimized Copilot coding agent so it now starts work 50% faster. You can hand work to Copilot coding agent in many ways, including assigning an issue to Copilot, entering a prompt in the Agents tab in your repository or mentioning @copilot in a pull request comment. Copilot works in its own cloud-based development environment, makes changes, runs your tests, and then pushes. With shorter startup times, Copilot can create pull requests from scratch more quickly, and you get a faster..."
+      },
+      "url": "https://github.blog/changelog/2026-03-19-copilot-coding-agent-now-starts-work-50-faster",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-18-github-2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
       "date": "2026-03-18",
       "category": "github",
@@ -8055,6 +8198,32 @@
       "url": "https://github.blog/changelog/2026-03-05-discover-and-manage-agent-activity-with-new-session-filters",
       "tags": [
         "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-05-github-2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
+        "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました。",
+        "en": "Copilot usage metrics now includes user-level GitHub Copilot CLI activity"
+      },
+      "summary": {
+        "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
+        "ja": "先週リリースされたエンタープライズ レベルの CLI テレメトリのフォローアップとして、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します...",
+        "en": "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout..."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-copilot-usage-metrics-now-includes-user-level-github-copilot-cli-activity",
+      "tags": [
+        "release",
+        "account-management",
         "copilot",
         "enterprise-management-tools",
         "github",
