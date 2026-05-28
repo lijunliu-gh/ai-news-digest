@@ -190,14 +190,6 @@
     "ja": "1M トークン コンテキスト ウィンドウを使用する場合、メディア制限をリクエストごとに 100 から 600 ページの画像または PDF ページに引き上げました。",
     "zh": "使用 1M 令牌上下文窗口时，我们已将每个请求的媒体限制从 100 个图像或 PDF 页面提高到 600 个。"
   },
-  "1M token context window": {
-    "ja": "1M トークンのコンテキスト ウィンドウ",
-    "zh": "1M 令牌上下文窗口"
-  },
-  "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4.": {
-    "ja": "1M トークン コンテキスト ウィンドウは、Claude Opus 4.6 および Sonnet 4.6 で標準価格で一般提供されるようになりました。これらのモデルでは、ベータ ヘッダーを必要とせずに、200,000 トークンを超えるリクエストが自動的に機能します。 1M トークン コンテキスト ウィンドウは、Claude Sonnet 4.5 および Sonnet 4 のベータ版のままです。",
-    "zh": "1M 代币上下文窗口现已普遍适用于 Claude Opus 4.6 和 Sonnet 4.6，并以标准价格提供。对于这些模型，超过 200k 令牌的请求会自动工作，无需 beta 标头。 Claude Sonnet 4.5 和 Sonnet 4 的 1M 令牌上下文窗口仍处于测试阶段。"
-  },
   "Anthropic invests $100 million into the Claude Partner Network": {
     "ja": "Anthropic が Claude Partner Network に 1 億ドルを投資",
     "zh": "Anthropic 向 Claude 合作伙伴网络投资 1 亿美元"
@@ -1370,14 +1362,6 @@
     "zh": "推出 Claude for Healthcare 以及符合 HIPAA 要求的基础设施，以及用于临床试验和监管提交的扩展生命科学工具。 CMS、Medidata 和 ClinicalTrials.gov 的新连接器。",
     "ja": "HIPAA 対応インフラストラクチャを備えた Claude for Healthcare に加え、臨床試験や規​​制申請のための拡張されたライフ サイエンス ツールを導入します。 CMS、Medidata、ClinicalTrials.gov への新しいコネクタ。"
   },
-  "advisor-tool-2026-03-01": {
-    "zh": "顾问工具-2026-03-01",
-    "ja": "アドバイザーツール-2026-03-01"
-  },
-  "We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-model rates. Include the beta header advisor-tool-2026-03-01 in your requests.": {
-    "zh": "我们已经推出了公开测试版的顾问工具。将更快的执行器模型与更高智能的顾问模型配对，该模型在中期提供战略指导，因此长期代理工作负载接近顾问单独的质量，而大部分代币生成以执行器模型的速率发生。在您的请求中包含 beta 标头 Advisor-tool-2026-03-01。",
-    "ja": "アドバイザ ツールをパブリック ベータ版で開始しました。より高速なエグゼキューター モデルと、世代途中で戦略的なガイダンスを提供する高インテリジェンス アドバイザー モデルを組み合わせることで、トークン生成の大部分がエグゼキューター モデルのレートで発生しながら、長期的なエージェント ワークロードがアドバイザー ソロの品質に近づきます。リクエストにベータヘッダーの Advisor-tool-2026-03-01 を含めます。"
-  },
   "Video generation preview endpoints deprecation": {
     "zh": "视频生成预览端点弃用",
     "ja": "ビデオ生成プレビュー エンドポイントの非推奨"
@@ -1454,10 +1438,6 @@
     "zh": "强制执行新限制并从 Copilot Pro+ 中淘汰 Opus 4.6 Fast",
     "ja": "新しい制限を適用し、Copilot Pro+ から Opus 4.6 Fast を廃止"
   },
-  "Copilot usage metrics now aggregate Copilot cloud agent active user counts": {
-    "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
-    "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。"
-  },
   "Accelerating the cyber defense ecosystem that protects us all": {
     "zh": "加速保护我们所有人的网络防御生态系统",
     "ja": "私たち全員を守るサイバー防御エコシステムを加速する"
@@ -1521,10 +1501,6 @@
   "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate workflows, this type of usage places significant strain on our shared infrastructure and operating resources. To ensure every user gets a fast, reliable Copilot experience, we’re updating limits to better balance capacity. These will roll out over the next few weeks. There will be two types of limits that users...": {
     "zh": "随着 GitHub Copilot 继续快速增长，我们继续观察到高并发和密集使用模式的增加。虽然我们知道这可以由合法的工作流程驱动，但这种类型的使用给我们的共享基础设施和运营资源带来了巨大的压力。为了确保每个用户都能获得快速、可靠的 Copilot 体验，我们正在更新限制以更好地平衡容量。这些将在接下来的几周内推出。用户将受到两种类型的限制...",
     "ja": "GitHub Copilot が急速に成長し続けるにつれて、高い同時実行性と集中的な使用のパターンの増加が観察され続けています。これが正当なワークフローによって引き起こされる可能性があることは理解していますが、この種の使用法は共有インフラストラクチャと運用リソースに大きな負担を与えます。すべてのユーザーが高速で信頼性の高い Copilot エクスペリエンスを確実に得られるように、容量のバランスを改善するために制限を更新しています。これらは今後数週間にわたって展開される予定です。ユーザーが設定できる制限には 2 種類あります。"
-  },
-  "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in...": {
-    "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。三个新字段可用...",
-    "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。 3 つの新しいフィールドが利用可能です..."
   },
   "The next phase of enterprise AI": {
     "zh": "企业人工智能的下一阶段",
@@ -2060,14 +2036,6 @@
   "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs. New features Inline agent mode in public preview Inline agent mode is now available in public preview. This brings agent mode capabilities into the existing inline chat experience, making it possible...": {
     "zh": "此更新在预览中引入了内联代理模式、对下一步编辑建议的增强、全局自动批准以及对终端命令和文件编辑的更灵活的控制。它还包括针对 JetBrains IDE 的 GitHub Copilot 的多项用户体验改进和质量改进。新功能 公共预览版中的内联代理模式 内联代理模式现已在公共预览版中提供。这将代理模式功能引入现有的内联聊天体验中，使其成为可能...",
     "ja": "この更新では、プレビューでのインライン エージェント モード、次の編集提案の機能強化、グローバル自動承認、ターミナル コマンドとファイル編集のより柔軟な制御が導入されています。また、JetBrains IDE の GitHub Copilot 全体にわたるいくつかのユーザー エクスペリエンスの改良と品質の向上も含まれています。新機能 パブリック プレビューのインライン エージェント モード インライン エージェント モードがパブリック プレビューで利用できるようになりました。これにより、既存のインライン チャット エクスペリエンスにエージェント モード機能が導入され、次のことが可能になります。"
-  },
-  "8 Gemini tips for organizing your space (and life)": {
-    "zh": "8 个 Gemini 整理空间（和生活）的技巧",
-    "ja": "スペース (そして生活) を整理するための 8 Gemini のヒント"
-  },
-  "Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.": {
-    "zh": "使用 Gemini 整理您的家庭和数字空间。使用人工智能驱动的技巧来制定清洁计划、整理收件箱、处理季节性家务。",
-    "ja": "Gemini を使用して、家とデジタル スペースを整理します。掃除のスケジュール、受信箱の整理、季節ごとの家事などに AI を活用したヒントを活用します。"
   },
   "GPT-5.5, GPT-5.5 pro": {
     "zh": "GPT-5.5、GPT-5.5 专业版",
@@ -2672,14 +2640,6 @@
     "zh": "Copilot 编码代理，我们的异步、自主后台代理，现在可与 Copilot 代码引用一起使用。如果代理生成的代码与公共 GitHub 存储库中的代码相匹配，则匹配的代码将在代理会话日志中突出显示，并带有指向原始代码的链接，以便您可以了解代码的来源以及可能适用的任何许可证。 Copilot 编码代理不支持“与公共代码匹配的建议”策略的阻止模式。当策略设置为阻止时...",
     "ja": "非同期で自律的なバックグラウンド エージェントである Copilot コーディング エージェントは、Copilot コード参照で動作するようになりました。エージェントがパブリック GitHub リポジトリ内のコードと一致するコードを生成した場合、一致するコードは元のコードへのリンクとともにエージェント セッション ログで強調表示されるため、コードの出所と適用される可能性のあるライセンスを理解できます。 Copilot コーディング エージェントは、「パブリック コードに一致する提案」ポリシーのブロック モードをサポートしていません。ポリシーがブロックに設定されている場合..."
   },
-  "speed: \"fast\"": {
-    "zh": "速度：“快”",
-    "ja": "スピード：「速い」"
-  },
-  "Fast mode (research preview) now supports Claude Opus 4.7. Set speed: \"fast\" with model: \"claude-opus-4-7\" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist.": {
-    "zh": "快速模式（研究预览）现在支持 Claude Opus 4.7。设置速度：“快速”，型号：“claude-opus-4-7”和 fast-mode-2026-02-01 beta 标头，以高价显着加快输出代币生成速度。定价、速率限制和访问权限与 Opus 4.6 快速模式相同；有兴趣的顾客应该加入候补名单。",
-    "ja": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。速度を「高速」に設定し、モデル: 「claude-opus-4-7」と fast-mode-2026-02-01 ベータ ヘッダーを使用すると、プレミアム価格で出力トークンの生成が大幅に高速化されます。価格、レート制限、アクセスは Opus 4.6 高速モードと同じです。興味のあるお客様は順番待ちリストに参加してください。"
-  },
   "What Parameter Golf taught us about AI-assisted research": {
     "zh": "参数高尔夫教会了我们关于人工智能辅助研究的哪些知识",
     "ja": "Parameter Golf が AI 支援研究について教えてくれたこと"
@@ -2872,14 +2832,6 @@
     "zh": "npm 可信发布现在支持 CircleCI 作为 OIDC 提供商，加入 GitHub Actions 和 GitLab CI/CD。从 CircleCI 工作流程发布的维护者现在可以完全消除存储的凭据，并直接通过其 CI/CD 管道进行身份验证。通过这种扩展，可信发布现在覆盖了 CI 提供商的绝大多数 npm 发布者。可通过 npm 网站和 npm trust CLI 命令进行配置。请参阅受信任的发布文档进行设置...",
     "ja": "npm Trusted Publishing は、OIDC プロバイダーとして CircleCI をサポートし、GitHub アクションと GitLab CI/CD に加わりました。 CircleCI ワークフローから公開するメンテナは、保存されている認証情報を完全に削除し、CI/CD パイプラインを通じて直接認証できるようになりました。この拡張により、信頼できるパブリッシングは、CI プロバイダーによる npm パブリッシャーの大部分をカバーするようになりました。構成は、npm Web サイトおよび npm trust CLI コマンドを通じて利用できます。セットアップについては、信頼できる公開ドキュメントを参照してください..."
   },
-  "Copilot coding agent now starts work 50% faster": {
-    "zh": "Copilot 编码代理现在开始工作的速度提高了 50%",
-    "ja": "Copilot コーディング エージェントの作業開始が 50% 速くなりました"
-  },
-  "We’ve optimized Copilot coding agent so it now starts work 50% faster. You can hand work to Copilot coding agent in many ways, including assigning an issue to Copilot, entering a prompt in the Agents tab in your repository or mentioning @copilot in a pull request comment. Copilot works in its own cloud-based development environment, makes changes, runs your tests, and then pushes. With shorter startup times, Copilot can create pull requests from scratch more quickly, and you get a faster...": {
-    "zh": "我们优化了 Copilot 编码代理，现在它的工作速度提高了 50%。您可以通过多种方式将工作交给 Copilot 编码代理，包括将问题分配给 Copilot、在存储库的“代理”选项卡中输入提示或在拉取请求注释中提及 @copilot。 Copilot 在自己的基于云的开发环境中工作，进行更改，运行测试，然后推送。通过更短的启动时间，Copilot 可以更快地从头开始创建拉取请求，并且您可以获得更快的...",
-    "ja": "Copilot コーディング エージェントを最適化したため、作業の開始が 50% 速くなりました。 Copilot に問題を割り当てる、リポジトリの [エージェント] タブにプロンプ​​トを入力する、プル リクエストのコメントで @copilot に言及するなど、さまざまな方法で Copilot コーディング エージェントに作業を依頼できます。 Copilot は独自のクラウドベースの開発環境で動作し、変更を加え、テストを実行してからプッシュします。起動時間が短縮されると、Copilot はプル リクエストを最初からより迅速に作成でき、より高速な結果を得ることができます。"
-  },
   "Figma MCP server can now generate design layers from VS Code": {
     "zh": "Figma MCP 服务器现在可以从 VS Code 生成设计层",
     "ja": "Figma MCP サーバーは VS Code からデザイン レイヤーを生成できるようになりました"
@@ -3071,14 +3023,6 @@
   "GitHub Copilot usage metrics is now generally available, giving you a single place to see how your teams adopt and use Copilot. This way you can track trends, make informed decisions about rollout, and build reports that fit your organization. Since the public preview at Universe 2025, Copilot usage metrics has expanded with organization-level visibility, fine-grained access controls, data residency support, and more. Here’s what you can expect now that it’s generally available. What’s included...": {
     "zh": "GitHub Copilot 使用指标现已普遍可用，让您可以在一个地方查看您的团队如何采用和使用 Copilot。通过这种方式，您可以跟踪趋势，就部署做出明智的决策，并构建适合您的组织的报告。自 Universe 2025 公开预览以来，Copilot 使用指标已通过组织级可见性、细粒度访问控制、数据驻留支持等进行了扩展。现在它已经普遍可用，这是您可以期待的。包含什么...",
     "ja": "GitHub Copilot の使用状況メトリクスが一般提供されるようになり、チームが Copilot をどのように採用して使用しているかを 1 か所で確認できるようになりました。これにより、傾向を追跡し、情報に基づいて展開に関する決定を下し、組織に適したレポートを作成できます。 Universe 2025 でのパブリック プレビュー以来、Copilot 使用状況メトリックは、組織レベルの可視性、きめ細かいアクセス制御、データ常駐サポートなどによって拡張されました。一般公開された時点で期待できることは次のとおりです。含まれるものは..."
-  },
-  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
-    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
-    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました"
-  },
-  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
-    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
-    "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
   },
   "GitHub Mobile: Track coding agent progress in real time with Live Notifications": {
     "zh": "GitHub 移动设备：通过实时通知实时跟踪编码代理进度",
@@ -3504,14 +3448,6 @@
     "zh": "AdventHealth 正在使用 ChatGPT for Healthcare 来简化工作流程、减轻管理负担，并将更多时间用于患者护理。",
     "ja": "AdventHealth は、ヘルスケアに ChatGPT を使用して、ワークフローを合理化し、管理負担を軽減し、より多くの時間を患者ケアに還元しています。"
   },
-  "Issue fields are now in public preview for all organizations": {
-    "zh": "问题字段现已对所有组织提供公共预览版",
-    "ja": "問題フィールドは現在、すべての組織に対してパブリック プレビュー段階にあります"
-  },
-  "Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or any custom field at the org level, and it automatically shows up on every issue, in every repository. Fields support four types (i.e., single select, text, number, and date), can be pinned to specific issue types, and work across the platform. You can search and filter issues by field value, add...": {
-    "zh": "问题字段现在可供 github.com 上的所有 GitHub 组织和具有数据驻留的 GitHub 企业云公开预览。当您在组织级别定义类型化元数据（例如优先级、工作量或任何自定义字段）时，它会自动显示在每个存储库中的每个问题上。字段支持四种类型（即单选、文本、数字和日期），可以固定到特定问题类型，并跨平台工作。您可以按字段值搜索和过滤问题，添加...",
-    "ja": "問題フィールドは、github.com およびデータ常駐の GitHub Enterprise Cloud 上のすべての GitHub 組織に対してパブリック プレビューで利用できるようになりました。組織レベルで優先度、工数、カスタム フィールドなどの型付きメタデータを定義すると、すべてのリポジトリのすべての課題に自動的に表示されます。フィールドは 4 つのタイプ (単一選択、テキスト、数値、日付) をサポートし、特定の課題タイプに固定でき、プラットフォーム全体で機能します。フィールド値で問題を検索およびフィルタリングしたり、追加したりできます。"
-  },
   "GitHub Copilot for Eclipse is open source": {
     "zh": "Eclipse 的 GitHub Copilot 是开源的",
     "ja": "Eclipse の GitHub Copilot はオープンソースです"
@@ -3520,14 +3456,6 @@
     "zh": "继我们之前的更新之后，Eclipse 的 GitHub Copilot 是开源的，代码可在 MIT 许可证下的 GitHub 上获得。这标志着 GitHub Copilot 在 Eclipse 生态系统中的一个重要里程碑。通过开源该插件，我们邀请社区探索、学习并为如何在 Eclipse 中构建人工智能驱动的开发人员体验做出贡献。 ✨ 新内容 为什么要开源？我们的主要动机是社区驱动的创新和提高透明度。日食有...",
     "ja": "以前の更新に続き、Eclipse の GitHub Copilot はオープン ソースとなり、コードは MIT ライセンスの下で GitHub で利用可能になります。これは、Eclipse エコシステムにおける GitHub Copilot にとって重要なマイルストーンとなります。プラグインをオープンソース化することで、Eclipse 内で AI を活用した開発者エクスペリエンスがどのように構築されるかを探索し、そこから学び、貢献するようコミュニティを招待します。 ✨ 新機能 なぜオープンソースなのか?私たちの主な動機は、コミュニティ主導のイノベーションと透明性の向上です。エクリプスには..."
   },
-  "Copilot code review: Comment experience improvements": {
-    "zh": "Copilot 代码审查：评论体验改进",
-    "ja": "Copilot コードレビュー: コメントエクスペリエンスの改善"
-  },
-  "Copilot code review comments are now easier to scan and act on. Available to all users opted into the new pull requests experience, grouped suggestions, severity levels, and an updated suggested changeset UI will reduce noise and help you prioritize suggestions from Copilot. Severity levels to help you prioritize Comments now include severity labels, so you can prioritize which suggestions to address and when. You can find severity labels on the top-right corner of Copilot code review comments...": {
-    "zh": "Copilot 代码审查注释现在更容易扫描和执行。可供选择新的拉取请求体验的所有用户使用，分组建议、严重性级别和更新的建议变更集 UI 将减少噪音并帮助您优先考虑来自 Copilot 的建议。帮助您确定优先级的严重性级别评论现在包含严重性标签，因此您可以确定要解决的建议以及何时解决的优先级。您可以在 Copilot 代码审查注释的右上角找到严重性标签...",
-    "ja": "Copilot コード レビュー コメントをスキャンして対処することが容易になりました。新しいプル リクエスト エクスペリエンス、グループ化された提案、重大度レベル、更新された提案変更セット UI をオプトインしたすべてのユーザーが利用できるため、ノイズが軽減され、Copilot からの提案の優先順位付けに役立ちます。優先順位付けに役立つ重大度レベル コメントに重大度ラベルが含まれるようになったので、いつどの提案に対処するか優先順位を付けることができます。 Copilot コード レビュー コメントの右上隅に重大度ラベルが表示されます。"
-  },
   "April reports are now available to prepare for usage-based billing": {
     "zh": "现已提供四月份报告，为基于使用情况的计费做好准备",
     "ja": "使用量ベースの請求に備えて 4 月のレポートが利用可能になりました"
@@ -3535,14 +3463,6 @@
   "Starting today, you can download your usage report to see how April’s GitHub Copilot activity translates into AI credits. The new billing unit of AI credits is going live on June 1. Copilot Business and Copilot Enterprise admins can download the report for their enterprise. Copilot Pro and Pro+ users can download the report for their personal usage. You can use the report to plan: identify your top consumers, see which models and surfaces drive the most consumption, and get a working sense of...": {
     "zh": "从今天开始，您可以下载使用报告，了解 4 月份的 GitHub Copilot 活动如何转化为 AI 积分。 AI 积分的新计费单位将于 6 月 1 日上线。Copilot Business 和 Copilot Enterprise 管理员可以下载其企业的报告。 Copilot Pro 和 Pro+ 用户可以下载该报告供个人使用。您可以使用该报告来规划：确定您的主要消费者，查看哪些型号和表面驱动最多的消费，并了解...",
     "ja": "本日より、使用状況レポートをダウンロードして、4 月の GitHub Copilot アクティビティが AI クレジットにどのように変換されるかを確認できるようになりました。 AI クレジットの新しい請求単位は 6 月 1 日に開始されます。Copilot Business および Copilot Enterprise の管理者は、自社のレポートをダウンロードできます。 Copilot Pro および Pro+ ユーザーは、個人使用のためにレポートをダウンロードできます。このレポートを使用して計画を立てることができます。上位の消費者を特定し、どのモデルとサーフェスが最も多くの消費を引き起こしているかを確認し、実際の状況を把握します。"
-  },
-  "Secret scanning with GitHub MCP Server is now generally available": {
-    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
-    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般公開されました"
-  },
-  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new...": {
-    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
-    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報..."
   },
   "Dependency scanning with GitHub MCP Server is in public preview": {
     "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
@@ -4019,5 +3939,163 @@
   "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.": {
     "zh": "思科和 OpenAI 正在通过 Codex 重新定义企业工程，帮助思科扩展 AI 原生开发、加速 AI 防御工作并自动执行缺陷修复。",
     "ja": "シスコと OpenAI は、Codex でエンタープライズ エンジニアリングを再定義し、シスコによる AI ネイティブ開発の拡張、AI 防御作業の加速、欠陥修復の自動化を支援しています。"
+  },
+  "Introducing Claude Opus 4.8": {
+    "zh": "介绍Claude Opus 4.8",
+    "ja": "Claude Opus 4.8 の紹介"
+  },
+  "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.": {
+    "zh": "我们的最新模型 Claude Opus 4.8 是 Opus 类模型的升级，在编码、代理任务和专业工作方面具有更强的性能，以及处理长时间运行工作的一致性。",
+    "ja": "当社の最新モデル Claude Opus 4.8 は、Opus クラスのモデルへのアップグレードであり、コーディング、エージェント タスク、プロフェッショナルな作業全体にわたってより強力なパフォーマンスと、長時間実行される作業を処理するための一貫性を備えています。"
+  },
+  "release notes for Claude Apps": {
+    "zh": "Claude 应用程序的发行说明",
+    "ja": "Claude アプリのリリースノート"
+  },
+  "For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the release notes for Claude Apps.": {
+    "zh": "有关此版本中 claude.ai、Cowork、Microsoft 365 的 Claude 以及其他 Claude 应用程序的更新，请参阅 Claude 应用程序的发行说明。",
+    "ja": "このリリースの claude.ai、Cowork、Claude for Microsoft 365、およびその他の Claude アプリの更新については、Claude アプリのリリース ノートを参照してください。"
+  },
+  "high-resolution image input": {
+    "zh": "高分辨率图像输入",
+    "ja": "高解像度画像入力"
+  },
+  "Claude Opus 4.8 supports high-resolution image input (up to 2576 pixels on the long edge), same as Claude Opus 4.7.": {
+    "zh": "Claude Opus 4.8 支持高分辨率图像输入（长边高达 2576 像素），与 Claude Opus 4.7 相同。",
+    "ja": "Claude Opus 4.8 は、Claude Opus 4.7 と同様に、高解像度の画像入力 (長辺で最大 2576 ピクセル) をサポートします。"
+  },
+  "Task budgets": {
+    "zh": "任务预算",
+    "ja": "タスクの予算"
+  },
+  "Task budgets now support Claude Opus 4.8.": {
+    "zh": "任务预算现在支持 Claude Opus 4.8。",
+    "ja": "タスクの予算が Claude Opus 4.8 をサポートするようになりました。"
+  },
+  "prompt caching": {
+    "zh": "提示缓存",
+    "ja": "プロンプトキャッシュ"
+  },
+  "On Claude Opus 4.8, the minimum cacheable prompt length for prompt caching is 1,024 tokens, lower than on Claude Opus 4.7.": {
+    "zh": "在 Claude Opus 4.8 上，提示缓存的最小可缓存提示长度为 1,024 个令牌，低于 Claude Opus 4.7。",
+    "ja": "Claude Opus 4.8 では、プロンプト キャッシュでキャッシュ可能なプロンプトの最小長は 1,024 トークンであり、Claude Opus 4.7 よりも短くなります。"
+  },
+  "role: \"system\"": {
+    "zh": "角色：“系统”",
+    "ja": "役割：「システム」"
+  },
+  "We've launched mid-conversation system messages. On Claude Opus 4.8, you can send role: \"system\" messages after a user turn (subject to placement rules ) in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required.": {
+    "ja": "会話中のシステム メッセージを開始しました。 Claude Opus 4.8 では、メッセージ配列内でユーザーがターンした後 (配置ルールに従って) role: \"system\" メッセージを送信し、長時間実行セッション中に命令が変更されたときにプロンプ​​ト キャッシュ ヒットを維持できます。ベータヘッダーは必要ありません。"
+  },
+  "stop_details": {
+    "zh": "停止详情",
+    "ja": "停留所の詳細"
+  },
+  "The stop_details field on refusal responses is now publicly documented; it returns a category ( cyber, bio, or null ) and a human-readable explanation, so your application can route different classes of refusal to the right next step. No beta header is required.": {
+    "zh": "拒绝响应的 stop_details 字段现已公开记录；它返回一个类别（ cyber 、 bio 或 null ）和人类可读的解释，因此您的应用程序可以将不同类别的拒绝路由到正确的下一步。不需要 beta 标头。",
+    "ja": "拒否応答の stop_details フィールドは現在、公的に文書化されています。カテゴリ (サイバー、バイオ、または null) と人間が読める説明を返すため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。"
+  },
+  "Fast mode": {
+    "zh": "快速模式",
+    "ja": "高速モード"
+  },
+  "Fast mode for Claude Opus 4.8 is available as a research preview on the Claude API only.": {
+    "zh": "Claude Opus 4.8 的快速模式仅作为 Claude API 上的研究预览提供。",
+    "ja": "Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用できます。"
+  },
+  "high": {
+    "zh": "高的",
+    "ja": "高い"
+  },
+  "On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API.": {
+    "zh": "在 Claude Opus 4.8 上，所有表面的工作量参数默认为高，包括 Claude Code 和消息 API。",
+    "ja": "Claude Opus 4.8 では、Claude Code やメッセージ API を含むすべてのサーフェスで、努力パラメータはデフォルトで高くなります。"
+  },
+  "Claude Opus 4.8": {
+    "zh": "__保持00__ 4.8"
+  },
+  "We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See What's new in Claude Opus 4.8 for capability improvements, new features, and migration guidance.": {
+    "zh": "我们推出了 Claude Opus 4.8 ( claude-opus-4-8 )，这是我们最强大的通用模型。 Claude Opus 4.8 默认在 Claude API、Amazon Bedrock 和 Vertex AI（Microsoft Foundry 上为 200k）上支持 1M 令牌上下文窗口、最大 128k 输出令牌，以及与 Claude Opus 4.7 相同的工具和平台功能集。有关功能改进、新功能和迁移指南，请参阅 Claude Opus 4.8 中的新增功能。",
+    "ja": "最も高性能な一般入手可能なモデルである Claude Opus 4.8 ( claude-opus-4-8 ) をリリースしました。 Claude Opus 4.8 は、Claude API、Amazon Bedrock、および Vertex AI (Microsoft Foundry では 200k) でデフォルトで 1M トークン コンテキスト ウィンドウ、最大 128k の出力トークン、および Claude Opus 4.7 と同じツール セットとプラットフォーム機能をサポートします。機能の改善、新機能、移行ガイダンスについては、「Claude Opus 4.8 の新機能」を参照してください。"
+  },
+  "adaptive thinking": {
+    "zh": "适应性思维",
+    "ja": "適応的思考"
+  },
+  "With adaptive thinking enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.": {
+    "zh": "启用自适应思维后，Claude Opus 4.8 仅在回合需要时触发推理，与 Claude Opus 4.7 相比，在相同的努力水平下减少了浪费的思维标记。",
+    "ja": "適応的思考が有効になっているため、Claude Opus 4.8 はターンで必要な場合にのみ推論をトリガーし、同じ努力レベルの Claude Opus 4.7 と比較して無駄な思考トークンを削減します。"
+  },
+  "Computer use": {
+    "zh": "电脑使用",
+    "ja": "コンピュータの使用"
+  },
+  "Computer use now supports Claude Opus 4.8.": {
+    "zh": "计算机使用现在支持Claude Opus 4.8。",
+    "ja": "コンピューターの使用が Claude Opus 4.8 をサポートするようになりました。"
+  },
+  "advisor tool": {
+    "zh": "顾问工具",
+    "ja": "アドバイザーツール"
+  },
+  "The advisor tool now supports Claude Opus 4.8.": {
+    "zh": "Advisor 工具现在支持 Claude Opus 4.8。",
+    "ja": "アドバイザ ツールは Claude Opus 4.8 をサポートするようになりました。"
+  },
+  "temperature": {
+    "zh": "温度",
+    "ja": "温度"
+  },
+  "Setting the sampling parameters temperature, top_p, or top_k to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the migration guide for details.": {
+    "zh": "将采样参数温度、top_p 或 top_k 设置为非默认值会在 Claude Opus 4.8 上返回 400 错误，与 Claude Opus 4.7 上相同。有关详细信息，请参阅迁移指南。",
+    "ja": "サンプリング パラメーターの温度、top_p、または top_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。"
+  },
+  "OpenAI’s Frontier Governance Framework": {
+    "zh": "OpenAI 的前沿治理框架",
+    "ja": "OpenAI のフロンティア ガバナンス フレームワーク"
+  },
+  "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.": {
+    "zh": "探索 OpenAI 的前沿治理框架，以及我们的人工智能安全、安保和风险实践如何与新兴的欧盟和加州法规保持一致。",
+    "ja": "OpenAI のフロンティア ガバナンス フレームワークと、AI の安全性、セキュリティ、リスク慣行が EU およびカリフォルニア州の新たな規制にどのように適合するかを調べてください。"
+  },
+  "Claude Opus 4.8 is generally available for GitHub Copilot": {
+    "zh": "Claude Opus 4.8 一般可用于 GitHub Copilot",
+    "ja": "Claude Opus 4.8 は GitHub Copilot で一般提供されています"
+  },
+  "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across a range of real-world coding tasks. It also handles complex problem-solving and large-codebase navigation with notable improvement to previous versions. This model is launching with a 15X premium request multiplier until Usage Based Billing launches on June 1, 2026. Availability in GitHub Copilot Claude...": {
+    "zh": "Claude Opus 4.8，Anthropic 的最新 Opus 型号，现已在 GitHub Copilot 中提供。在我们的早期测试中，Opus 4.8 在一系列实际编码任务中的代码理解和生成方面取得了明显的进步。它还可以处理复杂的问题解决和大型代码库导航，与以前的版本相比有显着改进。此型号推出时将提供 15 倍的高级请求乘数，直至 2026 年 6 月 1 日推出基于使用情况的计费。 GitHub Copilot Claude 中可用...",
+    "ja": "Anthropic の最新の Opus モデルである Claude Opus 4.8 が GitHub Copilot で利用できるようになりました。私たちの初期のテストでは、Opus 4.8 は、現実世界のさまざまなコーディング タスクにわたってコードの理解と生成において明確に前進していることを実証しました。また、以前のバージョンに比べて大幅な改善が加えられ、複雑な問題解決や大規模なコードベースのナビゲーションも処理されます。このモデルは、2026 年 6 月 1 日に従量制請求が開始されるまで、15 倍のプレミアム リクエスト乗数で開始されます。 GitHub Copilot Claude... で利用可能になります。"
+  },
+  "Claude Code documentation": {
+    "zh": "Claude Code 文档",
+    "ja": "Claude Code ドキュメント"
+  },
+  "In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the Claude Code documentation.": {
+    "zh": "在 Claude Code 中，我们将自动模式扩展到更多用户来执行长时间运行的任务。请参阅 Claude Code 文档。",
+    "ja": "Claude Code では、長時間実行タスクの自動モードをより多くのユーザーに拡張しました。 Claude Code のドキュメントを参照してください。"
+  },
+  "Catch up on 12 major I/O 2026 moments": {
+    "zh": "追忆 2026 年 I/O 12 个重要时刻",
+    "ja": "2026 年の 12 の主要な I/O の瞬間をキャッチアップ"
+  },
+  "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.": {
+    "zh": "以下是 12 个最重要的 Google I/O 2026 主题演讲时刻，包括有关 Gemini Omni、Gemini 3.5 Flash 等的新闻。",
+    "ja": "Gemini Omni、Gemini 3.5 Flash などに関するニュースを含む、Google I/O 2026 の基調講演の最大の瞬間 12 件を紹介します。"
+  },
+  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
+    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
+  },
+  "We're opening a new office in Milan, our sixth in Europe.": {
+    "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+    "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
+  },
+  "Admin API": {
+    "zh": "管理接口",
+    "ja": "管理者API"
+  },
+  "Added new Admin API capabilities for managing spend alerts, model allowlists, data retention settings, and hosted tool permissions, plus querying granular billing line items.": {
+    "zh": "添加了新的管理 API 功能，用于管理支出警报、模型允许列表、数据保留设置和托管工具权限，以及查询精细的计费行项目。",
+    "ja": "支出アラート、モデル許可リスト、データ保持設定、ホストされたツールの権限を管理するための新しい Admin API 機能が追加されました。さらに、詳細な請求項目をクエリすることもできます。"
   }
 }
