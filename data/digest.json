@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28",
+  "lastUpdated": "2026-05-29",
   "windowMonths": 3,
   "items": [
     {
@@ -19,6 +19,27 @@
       "url": "https://openai.com/index/openai-frontier-governance-framework",
       "tags": [
         "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-28-openai-endava",
+      "date": "2026-05-28",
+      "category": "openai",
+      "title": {
+        "zh": "Endava 如何使用 Codex 建立代理组织",
+        "ja": "Endava が Codex を使用してエージェント組織を構築する方法",
+        "en": "How Endava builds an agentic organization with Codex"
+      },
+      "summary": {
+        "zh": "了解 Endava 如何使用 Codex 构建代理组织，加速软件交付并将需求分析从几周缩短到几小时。",
+        "ja": "Endava が Codex を使用してエージェント組織を構築し、ソフトウェアの配信を加速し、要件分析を数週間から数時間に短縮する方法を学びましょう。",
+        "en": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours."
+      },
+      "url": "https://openai.com/index/endava",
+      "tags": [
         "openai"
       ],
       "source": "OpenAI News",
@@ -199,9 +220,9 @@
         "en": "role: \"system\""
       },
       "summary": {
-        "zh": "我们推出了对话中系统消息。在 Claude Opus 4.8 上，您可以在用户在消息数组中转动（遵循放置规则）后发送角色：“系统”消息，从而在长时间运行的会话期间指令更改时保留提示缓存命中。不需要 beta 标头。",
-        "ja": "会話中のシステム メッセージを開始しました。 Claude Opus 4.8 では、メッセージ配列内でユーザーがターンした後 (配置ルールに従って) role: \"system\" メッセージを送信し、長時間実行セッション中に命令が変更されたときにプロンプ​​ト キャッシュ ヒットを維持できます。ベータヘッダーは必要ありません。",
-        "en": "We've launched mid-conversation system messages. On Claude Opus 4.8, you can send role: \"system\" messages after a user turn (subject to placement rules ) in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required."
+        "zh": "我们推出了对话中系统消息。在 Claude Opus 4.8 上，您可以在消息数组中的非第一个位置发送角色：“系统”消息，从而在长时间运行的会话期间指令更改时保留提示缓存命中。不需要 beta 标头。",
+        "ja": "会話中のシステム メッセージを開始しました。 Claude Opus 4.8 では、メッセージ配列の先頭以外の位置で role: \"system\" メッセージを送信し、長時間実行セッション中に命令が変更されたときにプロンプ​​ト キャッシュ ヒットを維持できます。ベータヘッダーは必要ありません。",
+        "en": "We've launched mid-conversation system messages. On Claude Opus 4.8, you can send role: \"system\" messages at non-first positions in the messages array, preserving prompt cache hits when instructions change during a long-running session. No beta header is required."
       },
       "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
       "tags": [
@@ -222,9 +243,9 @@
         "en": "stop_details"
       },
       "summary": {
-        "zh": "拒绝响应的 stop_details 字段现已公开记录；它返回一个类别（ cyber 、 bio 或 null ）和人类可读的解释，因此您的应用程序可以将不同类别的拒绝路由到正确的下一步。不需要 beta 标头。",
-        "ja": "拒否応答の stop_details フィールドは現在、公的に文書化されています。カテゴリ (サイバー、バイオ、または null) と人間が読める説明を返すため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。",
-        "en": "The stop_details field on refusal responses is now publicly documented; it returns a category ( cyber, bio, or null ) and a human-readable explanation, so your application can route different classes of refusal to the right next step. No beta header is required."
+        "zh": "现在，当 Claude Opus 4.8 拒绝请求时，消息 API 会在 stop_details 中返回拒绝类别，因此您的应用程序可以将不同类别的拒绝路由到正确的下一步。不需要 beta 标头。请参阅拒绝类别。",
+        "ja": "Claude Opus 4.8 がリクエストを拒否した場合、メッセージ API は stop_details で拒否カテゴリを返すようになりました。そのため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。拒否カテゴリを参照してください。",
+        "en": "The Messages API now returns refusal categories in stop_details when Claude Opus 4.8 declines a request, so your application can route different classes of refusal to the right next step. No beta header is required. See Refusal categories."
       },
       "url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons#refusal-categories",
       "tags": [
@@ -314,9 +335,9 @@
         "en": "Claude Opus 4.8"
       },
       "summary": {
-        "zh": "我们推出了 Claude Opus 4.8 ( claude-opus-4-8 )，这是我们最强大的通用模型。 Claude Opus 4.8 默认在 Claude API、Amazon Bedrock 和 Vertex AI（Microsoft Foundry 上为 200k）上支持 1M 令牌上下文窗口、最大 128k 输出令牌，以及与 Claude Opus 4.7 相同的工具和平台功能集。有关功能改进、新功能和迁移指南，请参阅 Claude Opus 4.8 中的新增功能。",
-        "ja": "最も高性能な一般入手可能なモデルである Claude Opus 4.8 ( claude-opus-4-8 ) をリリースしました。 Claude Opus 4.8 は、Claude API、Amazon Bedrock、および Vertex AI (Microsoft Foundry では 200k) でデフォルトで 1M トークン コンテキスト ウィンドウ、最大 128k の出力トークン、および Claude Opus 4.7 と同じツール セットとプラットフォーム機能をサポートします。機能の改善、新機能、移行ガイダンスについては、「Claude Opus 4.8 の新機能」を参照してください。",
-        "en": "We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See What's new in Claude Opus 4.8 for capability improvements, new features, and migration guidance."
+        "zh": "我们推出了 Claude Opus 4.8 ( claude-opus-4-8 )，这是我们最强大的通用模型。 Claude Opus 4.8 默认支持 1M 令牌上下文窗口、最大 128k 输出令牌，以及与 Claude Opus 4.7 相同的工具集和平台功能。有关功能改进、新功能和迁移指南，请参阅 Claude Opus 4.8 中的新增功能。",
+        "ja": "最も高性能な一般入手可能なモデルである Claude Opus 4.8 ( claude-opus-4-8 ) をリリースしました。 Claude Opus 4.8 は、デフォルトで 1M トークン コンテキスト ウィンドウ、最大 128k の出力トークン、および Claude Opus 4.7 と同じツール セットとプラットフォーム機能をサポートします。機能の改善、新機能、移行ガイダンスについては、「Claude Opus 4.8 の新機能」を参照してください。",
+        "en": "We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See What's new in Claude Opus 4.8 for capability improvements, new features, and migration guidance."
       },
       "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
       "tags": [
@@ -404,9 +425,9 @@
         "en": "adaptive thinking"
       },
       "summary": {
-        "zh": "启用自适应思维后，Claude Opus 4.8 仅在回合需要时触发推理，与 Claude Opus 4.7 相比，在相同的努力水平下减少了浪费的思维标记。",
-        "ja": "適応的思考が有効になっているため、Claude Opus 4.8 はターンで必要な場合にのみ推論をトリガーし、同じ努力レベルの Claude Opus 4.7 と比較して無駄な思考トークンを削減します。",
-        "en": "With adaptive thinking enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level."
+        "zh": "Claude Opus 4.8 使用自适应思维，仅在回合需要时触发推理，与 Claude Opus 4.7 相比，在相同的努力水平下减少了浪费的思维标记。",
+        "ja": "Claude Opus 4.8 は適応的思考を使用して、ターンで必要な場合にのみ推論をトリガーし、同じ努力レベルの Claude Opus 4.7 と比較して無駄な思考トークンを削減します。",
+        "en": "Claude Opus 4.8 uses adaptive thinking to trigger reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level."
       },
       "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking",
       "tags": [
