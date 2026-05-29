@@ -1038,10 +1038,6 @@
     "zh": "通过 API 管理 Copilot 编码代理存储库访问",
     "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する"
   },
-  "More visibility into Copilot coding agent sessions": {
-    "zh": "更清楚地了解 Copilot 编码代理会话",
-    "ja": "Copilot コーディング エージェント セッションの可視性の向上"
-  },
   "Configure Copilot coding agent’s validation tools": {
     "zh": "配置 Copilot 编码代理的验证工具",
     "ja": "Copilot コーディング エージェントの検証ツールを構成する"
@@ -1609,10 +1605,6 @@
   "Accelerates Codex growth to power the next generation of Python developer tools": {
     "zh": "加速 Codex 的发展，为下一代 Python 开发工具提供动力",
     "ja": "Codex の成長を加速し、次世代の Python 開発者ツールを強化します"
-  },
-  "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall...": {
-    "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了许多改进，以便您更好地了解 Copilot 正在做什么： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙来做好准备...",
-    "ja": "Copilot コーディング エージェントにタスクを委任すると、バックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot コーディング エージェントのセッション ログに多くの改善を加え、Copilot の動作をよりわかりやすく表示しました: 組み込みのセットアップ手順の可視性を向上: Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォールを起動して準備を整える必要があります..."
   },
   "When Copilot coding agent writes code, it automatically runs your project’s tests and linter. It also runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before stopping work and requesting review. These validation tools are free of charge, enabled by default, and don’t require a GitHub Advanced Security license. However, in some cases, teams may...": {
     "zh": "当 Copilot 编码代理编写代码时，它会自动运行项目的测试和 linter。它还运行 GitHub 的安全和质量验证工具，包括 CodeQL、GitHub 咨询数据库、秘密扫描和 Copilot 代码审查。如果发现任何问题，Copilot 会在停止工作并请求审核之前尝试解决这些问题。这些验证工具是免费的，默认启用，并且不需要 GitHub 高级安全许可证。然而，在某些情况下，团队可能...",
@@ -2432,14 +2424,6 @@
     "zh": "了解 ChatGPT 如何保护您的隐私，减少训练中的个人数据，并让您控制您的对话是否改进 AI 模型。",
     "ja": "ChatGPT がどのようにプライバシーを保護し、トレーニング中の個人データを削減し、会話が AI モデルを改善するかどうかを制御できるようにする方法を学びましょう。"
   },
-  "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview": {
-    "zh": "GitHub Copilot CLI 中的企业管理插件现已推出公共预览版",
-    "ja": "GitHub Copilot CLI のエンタープライズ管理プラグインがパブリック プレビュー段階になりました"
-  },
-  "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client. Plugins support many extensibility types and can be installed automatically, helping improve developer onboarding and reduce setup time by broadly sharing custom agents and skills. You can also strengthen your governance strategy by defining hooks and MCP configurations that...": {
-    "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。插件支持多种可扩展性类型，并且可以自动安装，通过广泛共享自定义代理和技能来帮助改进开发人员入门并减少设置时间。您还可以通过定义挂钩和 MCP 配置来加强您的治理策略...",
-    "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。プラグインは多くの拡張タイプをサポートしており、自動的にインストールできるため、カスタム エージェントとスキルを広く共有することで開発者のオンボーディングを改善し、セットアップ時間を短縮できます。また、フックと MCP 構成を定義することで、ガバナンス戦略を強化することもできます。"
-  },
   "The updated Agents SDK is now available in TypeScript, with support for": {
     "zh": "更新后的 Agents SDK 现已在 TypeScript 中提供，支持",
     "ja": "更新された Agent SDK が TypeScript で利用できるようになり、"
@@ -2535,14 +2519,6 @@
   "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.": {
     "zh": "OpenAI 如何重建其 WebRTC 堆栈，以低延迟、全球规模和无缝对话轮流为实时语音 AI 提供支持。",
     "ja": "OpenAI が WebRTC スタックを再構築して、低遅延、グローバル スケール、シームレスな会話交代を備えたリアルタイム音声 AI を強化する方法。"
-  },
-  "Reduce friction and latency for long-running jobs with Webhooks in Gemini API": {
-    "zh": "使用 Gemini API 中的 Webhook 减少长时间运行作业的摩擦和延迟",
-    "ja": "Gemini API の Webhook を使用して、長時間実行ジョブの摩擦と遅延を軽減します。"
-  },
-  "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.": {
-    "zh": "事件驱动的 Webhooks 是一种基于推送的通知系统，消除了低效轮询的需要。",
-    "ja": "イベント駆動型 Webhook は、非効率的なポーリングの必要性を排除するプッシュベースの通知システムです。"
   },
   "The latest AI news we announced in April 2026": {
     "zh": "我们于 2026 年 4 月公布的最新 AI 新闻",
@@ -3704,14 +3680,6 @@
     "zh": "我们更新了 GitHub 代码质量体验，以便更轻松地在存储库中导航和分类结果。 GitHub 代码质量标准调查结果可帮助您检测存储库默认分支上潜在的可靠性和可维护性问题。每个发现都附带由 GitHub Copilot Autofix 生成的修复建议，以帮助您快速有效地解决问题。通过今天的更新，您现在可以： 按文件路径搜索结果： 快速找到特定文件...",
     "ja": "GitHub コード品質エクスペリエンスを更新し、リポジトリ全体でのナビゲーションと検出結果の優先順位付けを容易にしました。 GitHub コード品質標準の調査結果は、リポジトリのデフォルト ブランチにおける潜在的な信頼性と保守性の問題を検出するのに役立ちます。各検出結果には、GitHub Copilot Autofix によって生成された修正提案が付属しており、問題を迅速かつ効果的に解決するのに役立ちます。本日の更新により、次のことができるようになりました。 ファイル パスによる検出結果の検索: 特定のファイルをすばやく見つけます..."
   },
-  "Fix merge conflicts in three clicks with Copilot cloud agent": {
-    "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
-    "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正"
-  },
-  "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts. When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment. You can also mention @copilot in pull requests to: Fix failing GitHub Actions...": {
-    "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的 GitHub 操作...",
-    "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。コメントを送信すると、Copilot は競合を修正し、ビルドとテストが引き続き合格することを確認して、プッシュします。そして、これらすべてを独自のクラウドベースの開発環境から実行します。プル リクエストで @copilot に言及して、失敗した GitHub アクションを修正することもできます。"
-  },
   "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot": {
     "zh": "数据驻留（美国 + 欧盟）和 FedRAMP 授权模型现已在 Copilot 中提供",
     "ja": "データ常駐 (米国 + EU) および FedRAMP 認定モデルが Copilot で利用可能になりました"
@@ -3727,14 +3695,6 @@
   "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection...": {
     "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择普遍用于 Copilot 学生计划。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入GitHub 社区分享您的反馈。后 GPT-5.4 mini 现已在 Copilot 学生汽车模型选择中提供...",
     "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を介して Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot チャットの Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。ポスト GPT-5.4 mini が Copilot 学生自動車モデル選択で利用可能になりました..."
-  },
-  "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs": {
-    "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
-    "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持"
-  },
-  "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to...": {
-    "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
-    "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています..."
   },
   "Copilot usage metrics now identify active Copilot coding agent users": {
     "zh": "Copilot 使用指标现在可以识别活跃的 Copilot 编码代理用户",
@@ -4182,16 +4142,32 @@
     "zh": "波士顿儿童医院使用 OpenAI 技术来改善患者护理、减轻运营负担，并帮助诊断 40 多个罕见疾病病例。",
     "ja": "ボストン小児病院は、OpenAI テクノロジーを使用して患者ケアを改善し、業務負担を軽減し、40 を超える希少疾患の診断を支援しています。"
   },
-  "11 demos of Gemini Omni and Gemini 3.5 in action": {
-    "zh": "Gemini Omni 和 Gemini 3.5 的 11 个演示",
-    "ja": "Gemini Omni および Gemini 3.5 の動作の 11 個のデモ"
-  },
-  "Watch 11 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.": {
-    "zh": "观看 11 个视频，展示 Google I/O 2026 上宣布的 Gemini Omni 和 Gemini 3.5 的功能。",
-    "ja": "Google I/O 2026 で発表された Gemini Omni と Gemini 3.5 の機能を示す 11 本のビデオをご覧ください。"
-  },
   "Editor’s note (May 29, 2026): We updated this post to change the deprecation date from June 1, 2026 to June 5, 2026. We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), with the exception of GPT-5.2-Codex in Copilot Code Review, on June 1st, 2026: Model Deprecation date Suggested alternative GPT-5.2 6-05-2026 GPT-5.5 GPT-5.2-Codex 6-05-2026 GPT-5.3-Codex Please update your workflows and...": {
     "zh": "编者注（2026 年 5 月 29 日）：我们更新了这篇文章，将弃用日期从 2026 年 6 月 1 日更改为 2026 年 6 月 5 日。我们将在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型，但以下模型除外Copilot 代码审查中的 GPT-5.2-Codex，2026 年 6 月 1 日：模型弃用日期 建议替代方案 GPT-5.2 6-05-2026 GPT-5.5 GPT-5.2-Codex 6-05-2026 GPT-5.3-Codex 请更新您的工作流程并...",
     "ja": "編集者注 (2026 年 5 月 29 日): この投稿を更新して、非推奨日を 2026 年 6 月 1 日から 2026 年 6 月 5 日に変更しました。以下のモデルを除き、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で非推奨になります。 Copilot コード レビューの GPT-5.2-Codex、2026 年 6 月 1 日: モデルの非推奨日 推奨される代替品 GPT-5.2 6-05-2026 GPT-5.5 GPT-5.2-Codex 6-05-2026 GPT-5.3-Codex ワークフローを更新してください..."
+  },
+  "How Braintrust turns customer requests into code with Codex": {
+    "zh": "Braintrust 如何使用 Codex 将客户请求转化为代码",
+    "ja": "Braintrust が Codex を使用して顧客リクエストをコードに変換する方法"
+  },
+  "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.": {
+    "zh": "Braintrust 工程师如何将 Codex 与 GPT-5.5 结合使用来更快地运行实验和编码。",
+    "ja": "Braintrust のエンジニアが GPT-5.5 で Codex を使用して実験とコードをより高速に実行する方法。"
+  },
+  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.": {
+    "zh": "参加我们的 I/O 2026 测验，使用 Google AI Studio 编码。",
+    "ja": "Google AI Studio でコード化された I/O 2026 クイズに答えてください。"
+  },
+  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.": {
+    "zh": "我们使用 Google AI Studio 编写了一个有关 I/O 2026 重要公告的测验。",
+    "ja": "Google AI Studio を使用して、I/O 2026 の主な発表に関するクイズをバイブコーディングしました。"
+  },
+  "9 demos of Gemini Omni and Gemini 3.5 in action": {
+    "zh": "Gemini Omni 和 Gemini 3.5 的 9 个演示",
+    "ja": "Gemini Omni および Gemini 3.5 の動作の 9 つのデモ"
+  },
+  "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.": {
+    "zh": "观看 9 个视频，展示 Google I/O 2026 上宣布的 Gemini Omni 和 Gemini 3.5 的功能。",
+    "ja": "Google I/O 2026 で発表された Gemini Omni と Gemini 3.5 の機能を示す 9 本のビデオをご覧ください。"
   }
 }
