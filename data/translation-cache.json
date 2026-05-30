@@ -2776,10 +2776,6 @@
     "zh": "Visual Studio Code 中的 GitHub Copilot，四月版本",
     "ja": "Visual Studio Code の GitHub Copilot、4 月リリース"
   },
-  "VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which PRs you referenced. Smarter prompt caching, deferred tool loading, and purpose-built agentic tools...": {
-    "zh": "VS Code 改为每周稳定版本。此变更日志涵盖 v1.116 至 v1.119 版本，这些版本是我们在 2026 年 4 月和 5 月初发布的版本。Copilot 现在可以在任何工作区中按含义进行搜索，并在 GitHub 存储库和组织中运行 grep 式查询。实验性的/编年史功能可让您查询自己的聊天历史记录，以回忆您所做的工作、接触过的文件以及引用的 PR。更智能的提示缓存、延迟工具加载和专门构建的代理工具...",
-    "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログでは、リリース v1.116 から v1.119 までをカバーしており、2026 年 4 月から 5 月初めにかけて出荷されたリリースです。 Copilot は、任意のワークスペースで意味による検索が可能になり、GitHub リポジトリと組織全体で grep スタイルのクエリを実行できるようになりました。実験的な /chronicle 機能を使用すると、自分のチャット履歴をクエリして、作業した内容、触れたファイル、参照した PR を思い出すことができます。よりスマートなプロンプト キャッシュ、遅延ツールの読み込み、専用のエージェント ツール..."
-  },
   "npm trusted publishing now supports CircleCI": {
     "zh": "npm 可信发布现在支持 CircleCI",
     "ja": "npm Trusted Publishing が CircleCI をサポートするようになりました"
@@ -4169,5 +4165,49 @@
   "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.": {
     "zh": "观看 9 个视频，展示 Google I/O 2026 上宣布的 Gemini Omni 和 Gemini 3.5 的功能。",
     "ja": "Google I/O 2026 で発表された Gemini Omni と Gemini 3.5 の機能を示す 9 本のビデオをご覧ください。"
+  },
+  "Copilot usage metrics API adds cohorts for AI adoption": {
+    "zh": "Copilot 使用指标 API 添加了人工智能采用的群组",
+    "ja": "Copilot 使用状況メトリクス API が AI 導入のコホートを追加"
+  },
+  "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports. What’s new Each engaged user is assigned to one of four...": {
+    "zh": "为了帮助您讲述更深入的 Copilot 采用故事，不仅包括哪些人活跃，还包括他们如何使用 Copilot，Copilot 使用指标 API 现在根据每个参与用户在 28 天滚动窗口内的 Copilot 产品使用情况，将其分类为 AI 采用阶段。用户级报告中提供了新的 ai_adoption_phase 字段，新的 Totals_by_ai_adoption_phase 数组可在企业级和组织级报告中显示每个阶段的指标。新功能 每个参与的用户都被分配到四个中的一个...",
+    "ja": "誰がアクティブであるかだけでなく、Copilot をどのように使用しているかなど、より深い Copilot 導入ストーリーを伝えるのに役立つように、Copilot 使用状況メトリクス API は、28 日間のローリング ウィンドウでの Copilot 製品の使用状況に基づいて、関与している各ユーザーを AI 導入フェーズに分類するようになりました。新しい ai_adoption_phase フィールドはユーザー レベルのレポートで使用でき、新しい totals_by_ai_adoption_phase 配列は企業レベルおよび組織レベルのレポートでフェーズごとのメトリクスを表示します。最新情報 関与している各ユーザーは、4 つのうちの 1 つに割り当てられます..."
+  },
+  "VS Code moved to weekly stable releases. This changelog covers releases v1.116 through v1.119, the releases we shipped throughout April and early May 2026. Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repositories and orgs. An experimental /chronicle feature lets you query your own chat history to recall what you worked on, which files you touched, and which pull requests you referenced. Smarter prompt caching, deferred tool loading, and...": {
+    "zh": "VS Code 改为每周稳定版本。此变更日志涵盖版本 v1.116 到 v1.119，这些版本是我们在 2026 年 4 月和 5 月初发布的版本。Copilot 现在可以在任何工作区中按含义进行搜索，并在 GitHub 存储库和组织中运行 grep 式查询。实验性的/编年史功能可让您查询自己的聊天历史记录，以回忆您所做的工作、接触过的文件以及引用的拉取请求。更智能的提示缓存、延迟工具加载以及...",
+    "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログでは、リリース v1.116 から v1.119 までをカバーしており、2026 年 4 月から 5 月初めにかけて出荷されたリリースです。 Copilot は、任意のワークスペースで意味による検索が可能になり、GitHub リポジトリと組織全体で grep スタイルのクエリを実行できるようになりました。実験的な /chronicle 機能を使用すると、自分のチャット履歴をクエリして、作業した内容、触れたファイル、参照したプル リクエストを思い出すことができます。よりスマートなプロンプトキャッシュ、遅延ツールロードなど..."
+  },
+  "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview": {
+    "zh": "GitHub Copilot CLI 中的企业管理插件现已推出公共预览版",
+    "ja": "GitHub Copilot CLI のエンタープライズ管理プラグインがパブリック プレビュー段階になりました"
+  },
+  "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client. Plugins support many extensibility types and can be installed automatically, helping improve developer onboarding and reduce setup time by broadly sharing custom agents and skills. You can also strengthen your governance strategy by defining hooks and MCP configurations that...": {
+    "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。插件支持多种可扩展性类型，并且可以自动安装，通过广泛共享自定义代理和技能来帮助改进开发人员入门并减少设置时间。您还可以通过定义挂钩和 MCP 配置来加强您的治理策略...",
+    "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。プラグインは多くの拡張タイプをサポートしており、自動的にインストールできるため、カスタム エージェントとスキルを広く共有することで開発者のオンボーディングを改善し、セットアップ時間を短縮できます。また、フックと MCP 構成を定義することで、ガバナンス戦略を強化することもできます。"
+  },
+  "Fix merge conflicts in three clicks with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
+    "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正"
+  },
+  "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts. When you submit the comment, Copilot fixes the conflicts, checks that the build and tests still pass, and pushes. And it does all this from its own cloud-based development environment. You can also mention @copilot in pull requests to: Fix failing GitHub Actions...": {
+    "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的 GitHub 操作...",
+    "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。コメントを送信すると、Copilot は競合を修正し、ビルドとテストが引き続き合格することを確認して、プッシュします。そして、これらすべてを独自のクラウドベースの開発環境から実行します。プル リクエストで @copilot に言及して、失敗した GitHub アクションを修正することもできます。"
+  },
+  "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs": {
+    "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
+    "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持"
+  },
+  "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to...": {
+    "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
+    "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています..."
+  },
+  "More visibility into Copilot coding agent sessions": {
+    "zh": "更清楚地了解 Copilot 编码代理会话",
+    "ja": "Copilot コーディング エージェント セッションの可視性の向上"
+  },
+  "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall...": {
+    "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了许多改进，以便您更好地了解 Copilot 正在做什么： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙来做好准备...",
+    "ja": "Copilot コーディング エージェントにタスクを委任すると、バックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot コーディング エージェントのセッション ログに多くの改善を加え、Copilot の動作をよりわかりやすく表示しました: 組み込みのセットアップ手順の可視性を向上: Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォールを起動して準備を整える必要があります..."
   }
 }
