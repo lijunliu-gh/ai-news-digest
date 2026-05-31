@@ -47,6 +47,32 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-29-openai-changelog",
+      "date": "2026-05-29",
+      "category": "openai",
+      "title": {
+        "zh": "对于未启用 ZDR 的组织，prompt_cache_retention 现在默认为 24​​ 小时，而不是",
+        "ja": "ZDR が有効になっていない組織の場合、prompt_cache_retention はデフォルトで 24 時間ではなく 24 時間に設定されるようになりました。",
+        "en": "For organizations without ZDR enabled, prompt_cache_retention now defaults to 24h instead of"
+      },
+      "summary": {
+        "zh": "对于未启用 ZDR 的组织，prompt_cache_retention 现在默认为 24​​h，而不是 in_memory，默认启用扩展提示缓存。了解更多。",
+        "ja": "ZDR が有効になっていない組織の場合、prompt_cache_retention のデフォルトが in_memory ではなく 24 時間になり、デフォルトで拡張プロンプト キャッシュが有効になります。もっと詳しく知る。",
+        "en": "For organizations without ZDR enabled, prompt_cache_retention now defaults to 24h instead of in_memory, enabling extended prompt caching by default. Learn more."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-29-update-for-organizations-without-zdr-enabled-prompt-cache-retention-now-defaults-to-24h-instead-of",
+      "tags": [
+        "v1-responses",
+        "v1-chat-completions",
+        "v1-batch",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-29-openai-braintrust",
       "date": "2026-05-29",
       "category": "openai",
