@@ -25,6 +25,54 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-01-openai-openai-frontier-models-and-codex-are-now-available-on-aws",
+      "date": "2026-06-01",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 前沿模型和 Codex 现已在 AWS 上提供",
+        "ja": "OpenAI フロンティア モデルと Codex が AWS で利用可能になりました",
+        "en": "OpenAI frontier models and Codex are now available on AWS"
+      },
+      "summary": {
+        "zh": "OpenAI 前沿模型和 Codex 现已在 AWS 上普遍提供，为企业提供了一条通过其已使用的 AWS 环境、控制和采购工作流程使用 OpenAI 进行构建的新途径。客户可以开始使用 AWS 上的 OpenAI 并更快地从评估过渡到生产。",
+        "ja": "OpenAI フロンティア モデルと Codex が AWS で一般提供されるようになり、企業はすでに使用している AWS 環境、制御、調達ワークフローを通じて OpenAI を使用して構築する新しいパスが得られます。お客様は AWS で OpenAI を使い始めて、評価から本番環境に迅速に移行できます。",
+        "en": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production."
+      },
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-01-openai-changelog",
+      "date": "2026-06-01",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 模型现在可通过 OpenAI 兼容的响应 API 终端节点在 Amazon Bedrock 中使用。",
+        "ja": "OpenAI モデルは、OpenAI 互換の Responses API エンドポイントを通じて Amazon Bedrock で利用できるようになりました。",
+        "en": "OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint."
+      },
+      "summary": {
+        "zh": "OpenAI 模型现在可通过 OpenAI 兼容的响应 API 终端节点在 Amazon Bedrock 中使用。支持的型号和功能因 AWS 区域而异。了解更多。",
+        "ja": "OpenAI モデルは、OpenAI 互換の Responses API エンドポイントを通じて Amazon Bedrock で利用できるようになりました。サポートされるモデルと機能は AWS リージョンによって異なります。もっと詳しく知る。",
+        "en": "OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint. Supported models and features vary by AWS Region. Learn more."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-06-01-feature-openai-models-are-now-available-in-amazon-bedrock-through-an-openai-compatible-responses-api-endpoint",
+      "tags": [
+        "gpt-5-4",
+        "gpt-5-5",
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-01-google-io-2026-google-ai",
       "date": "2026-06-01",
       "category": "google",
@@ -1752,31 +1800,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-18-github-2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot CLI 会话的远程控制现在普遍可在移动设备、Web 和 VS Code 上使用",
-        "ja": "Copilot CLI セッションのリモート コントロールがモバイル、Web、VS Code で一般提供されるようになりました",
-        "en": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code"
-      },
-      "summary": {
-        "zh": "Copilot CLI 会话的远程控制现在在 GitHub Mobile 和 github.com 上普遍可用，因此您可以在终端中开始工作并使其从任何地方移动。在此版本中，远程控制现在支持非 GitHub 存储库以及与存储库不关联的目录。我们还在 VS Code 和 JetBrains 中引入了远程控制，使 GitHub Copilot 真正实现多表面并可在任何设备上使用。启用远程控制后，Copilot 会传输您的 CLI 会话...",
-        "ja": "Copilot CLI セッションのリモート コントロールが GitHub Mobile および github.com で一般提供されるようになりました。そのため、端末で作業を開始し、どこからでも作業を継続できます。このリリースでは、リモート コントロールは、非 GitHub リポジトリおよびリポジトリに関連付けられていないディレクトリをサポートするようになりました。また、VS Code と JetBrains にリモート コントロールを導入し、GitHub Copilot を真のマルチサーフェスにし、あらゆるデバイスで利用できるようにします。リモート制御が有効な場合、Copilot は CLI セッションをストリーミングします...",
-        "en": "Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere. With this release, remote control now supports non-GitHub repositories and directories not associated with a repository. We’re also introducing remote control in VS Code and JetBrains, making GitHub Copilot truly multi-surface and available across any device. When remote control is enabled, Copilot streams your CLI session..."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
       "date": "2026-05-18",
       "category": "github",
@@ -2752,6 +2775,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-08-github-2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Grok Code Fast 1",
+        "ja": "Grok Code Fast 1 の今後の非推奨",
+        "en": "Upcoming deprecation of Grok Code Fast 1"
+      },
+      "summary": {
+        "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供商弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要...",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は次のことを行う必要がある場合があります...",
+        "en": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to..."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
@@ -4619,54 +4666,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-22-github-2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
-      "date": "2026-04-22",
-      "category": "github",
-      "title": {
-        "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
-        "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス",
-        "en": "C++ code intelligence for GitHub Copilot CLI in public preview"
-      },
-      "summary": {
-        "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
-        "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは...",
-        "en": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line. Why this matters C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides..."
-      },
-      "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-22-github-2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
-      "date": "2026-04-22",
-      "category": "github",
-      "title": {
-        "zh": "现在可以在 VS Code 中添加您自己的语言模型密钥",
-        "ja": "VS Code で独自の言語モデル キーを使用できるようになりました",
-        "en": "Bring your own language model key in VS Code now available"
-      },
-      "summary": {
-        "zh": "Copilot 商业和企业用户现在可以在 Visual Studio Code 中使用自带语言模型密钥 (BYOK)。 BYOK 允许团队重复使用其 API 密钥来访问来自 Anthropic、Gemini、OpenAI、OpenRouter 和 Azure 等提供商的模型，以及通过 Ollama 和 Foundry Local 本地运行的模型。配置完成后，BYOK 模型可在 VS Code Chat 中的任何位置使用，包括内置计划代理和自定义代理。 BYOK 不适用于代码完成。使用费用直接由...",
-        "ja": "Copilot Business および Enterprise ユーザーは、Visual Studio Code で独自の言語モデル キー (BYOK) を使用できるようになりました。 BYOK を使用すると、チームは API キーを再利用して、Anthropic、Gemini、OpenAI、OpenRouter、Azure などのプロバイダーのモデルにアクセスしたり、Ollama や Foundry Local を通じてローカルで実行されているモデルにアクセスしたりできます。構成が完了すると、ビルトイン プラン エージェントやカスタム エージェントを含め、VS Code Chat 内のどこでも BYOK モデルを利用できるようになります。 BYOK はコード補完には適用されません。使用量は直接請求されます...",
-        "en": "Copilot Business and Enterprise users can now use bring your own language model key (BYOK) in Visual Studio Code. BYOK lets teams reuse their API keys to access models from providers like Anthropic, Gemini, OpenAI, OpenRouter, and Azure, as well as locally running models through Ollama and Foundry Local. Once configured, BYOK models are available anywhere in VS Code Chat, including the built-in plan agent and custom agents. BYOK does not apply to code completions. Usage is billed directly by..."
-      },
-      "url": "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-21-openai-scaling-codex-to-enterprises-worldwide",
       "date": "2026-04-21",
       "category": "openai",
@@ -5571,30 +5570,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-04-09-github-2026-04-09-ask-copilot-in-security-assessments-now-available",
-      "date": "2026-04-09",
-      "category": "github",
-      "title": {
-        "zh": "现在可以在安全评估中询问 Copilot",
-        "ja": "セキュリティ評価で Copilot に質問できるようになりました",
-        "en": "Ask Copilot in security assessments now available"
-      },
-      "summary": {
-        "zh": "组织管理员和安全经理现在可以直接从秘密风险评估或代码安全风险评估结果跳转到 Copilot 体验，以获得上下文解释和指导后续步骤。要了解更多信息，请访问我们有关运行代码安全风险评估或秘密风险评估的文档。安全评估中询问 Copilot 的帖子现已发布，首先出现在 GitHub 博客上。",
-        "ja": "組織管理者とセキュリティ マネージャーは、機密リスク評価またはコード セキュリティ リスク評価の結果から直接 Copilot エクスペリエンスにジャンプして、状況に応じた説明とガイド付きの次のステップを取得できるようになりました。詳細については、コード セキュリティ リスク評価または機密リスク評価の実行に関するドキュメントを参照してください。 「セキュリティ評価で Copilot に質問する」という投稿が最初に公開されたのは、GitHub ブログです。",
-        "en": "Organization admins and security managers can now jump into a Copilot experience directly from secret risk assessment or Code Security risk assessment results to get contextual explanations and guided next steps. To learn more, visit our docs about running a Code Security risk assessment or secret risk assessment. The post Ask Copilot in security assessments now available appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-04-09-ask-copilot-in-security-assessments-now-available",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-04-08-openai-next-phase-of-enterprise-ai",
@@ -6906,30 +6881,6 @@
       "tags": [
         "improvement",
         "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-25-github-2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
-      "date": "2026-03-25",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 使用指标现在可以识别活跃的 Copilot 编码代理用户",
-        "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コーディング エージェント ユーザーが識別されるようになりました",
-        "en": "Copilot usage metrics now identify active Copilot coding agent users"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 编码代理 (CCA) 活动。企业和组织管理员可以在每日报告和 28 天报告中识别哪些用户正在积极使用 Copilot 编码代理，从而更全面地了解 IDE 之外的各个界面的 Copilot 采用情况。在 API 响应中，CCA 使用情况由用户级别的used_copilot_coding_agent 字段表示。您可以在我们的文档中了解有关 Copilot 使用指标的更多信息。这包括是否...",
-        "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コーディング エージェント (CCA) アクティビティを行っているかを示すようになりました。企業および組織の管理者は、日次レポートおよび 28 日レポートで Copilot コーディング エージェントをアクティブに使用しているユーザーを特定できるため、IDE を超えたサーフェス全体での Copilot 導入のより完全な全体像を把握できるようになります。 API 応答内では、CCA の使用状況はユーザー レベルの used_copilot_coding_agent フィールドによって示されます。 Copilot の使用状況メトリクスに関するドキュメントで詳細を学ぶことができます。これには、次のことが含まれます。",
-        "en": "Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and 28-day reports, enabling a more complete picture of Copilot adoption across surfaces beyond the IDE. Within the API response, CCA usage is denoted by the used_copilot_coding_agent field at the user level. You can learn more in our documentation about Copilot usage metrics. This includes whether a..."
-      },
-      "url": "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
