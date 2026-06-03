@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-03-openai-introducing-new-capabilities-to-gpt-rosalind",
+      "date": "2026-06-03",
+      "category": "openai",
+      "title": {
+        "zh": "向 GPT-Rosalind 引入新功能",
+        "ja": "GPT-Rosalind への新機能の導入",
+        "en": "Introducing new capabilities to GPT-Rosalind"
+      },
+      "summary": {
+        "zh": "GPT-Rosalind 通过增强的生物推理、药物化学专业知识、基因组学分析和实验工作流程功能推进生命科学研究。",
+        "ja": "GPT-Rosalind は、強化された生物学的推論、医薬化学の専門知識、ゲノミクス分析、実験ワークフロー機能により、ライフ サイエンス研究を推進します。",
+        "en": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities."
+      },
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-03-openai-frontier-safety-blueprint",
       "date": "2026-06-03",
       "category": "openai",
@@ -45,6 +67,29 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-03-openai-changelog",
+      "date": "2026-06-03",
+      "category": "openai",
+      "title": {
+        "zh": "弃用页面",
+        "ja": "非推奨ページ",
+        "en": "deprecations page"
+      },
+      "summary": {
+        "zh": "宣布弃用可重用提示对象、Evals 平台和 Agent Builder。有关关闭时间表和迁移指南，请参阅弃用页面。",
+        "ja": "再利用可能なプロンプト オブジェクト、Evals プラットフォーム、および Agent Builder の非推奨が発表されました。シャットダウンのタイムラインと移行ガイダンスについては、非推奨のページを参照してください。",
+        "en": "Announced the deprecation of reusable prompt objects, the Evals platform, and Agent Builder. See the deprecations page for shutdown timelines and migration guidance."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-06-03-update-deprecations-page",
+      "tags": [
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-03-github-2026-06-03-github-copilot-in-visual-studio-code-may-releases",
@@ -410,30 +455,6 @@
         "en": "GitHub Copilot code review for Azure Repos is now available in technical preview, bringing on demand pull request reviews directly into your Azure DevOps workflow. How it works Once enabled at both the organization and repository level, users can request a Copilot code review directly from a pull request in Azure Repos. Copilot adds review comments inline with the code changes, suggests improvements when appropriate, and helps identify potential issues earlier in the development process—all..."
       },
       "url": "https://github.blog/changelog/2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-02-github-2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
-      "date": "2026-06-02",
-      "category": "github",
-      "title": {
-        "zh": "Copilot CLI、云代理和 Copilot 应用程序中的 Gemini 模型",
-        "ja": "Copilot CLI、クラウド エージェント、および Copilot アプリの Gemini モデル",
-        "en": "Gemini models in Copilot CLI, cloud agent, and the Copilot app"
-      },
-      "summary": {
-        "zh": "现在可在额外的 GitHub Copilot 表面上使用两个 Gemini 模型。 Gemini 3.1 Pro（预览版）和 Gemini 3.5 Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序（技术预览版） Copilot SDK Gemini 3.1 Pro（预览版）适用于 Copilot 学生， Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者。 Gemini 3.5 Flash 适用于 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者。正在启用访问...",
-        "ja": "2 つの Gemini モデルが、追加の GitHub Copilot サーフェスで使用できるようになりました。 Gemini 3.1 Pro (プレビュー) および Gemini 3.5 Flash は、以下で使用できるようになりました。 Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ (テクニカル プレビュー) Copilot SDK Gemini 3.1 Pro (プレビュー) は、Copilot Student で利用できます。 Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバー。 Gemini 3.5 Flash は、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。アクセスを有効にしています...",
-        "en": "Two Gemini models are now available across additional GitHub Copilot surfaces. Gemini 3.1 Pro (Preview) and Gemini 3.5 Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app (technical preview) Copilot SDK Gemini 3.1 Pro (Preview) is available for Copilot Student, Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. Gemini 3.5 Flash is available for Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. Enabling access..."
-      },
-      "url": "https://github.blog/changelog/2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
       "tags": [
         "release",
         "copilot",
@@ -3506,6 +3527,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理更灵活的秘密和变量",
+        "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数",
+        "en": "More flexible secrets and variables for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。到目前为止，这些必须在存储库的操作设置下的副驾驶环境中一次配置一个存储库。这使得推出共享配置变得很痛苦（例如，内部包注册表令牌或常见的 MCP...",
+        "ja": "タスクを Copilot クラウド エージェントに委任すると、そのタスクは GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。これまでは、リポジトリのアクション設定にあるコパイロット環境で、一度に 1 つのリポジトリを構成する必要がありました。そのため、共有構成 (内部パッケージ レジストリ トークンや共通の MCP など) をロールアウトするのが困難になりました。",
+        "en": "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers. Until now, these had to be configured one repository at a time, in a copilot environment under the repository’s Actions settings. That made it painful to roll out shared configuration (e.g., an internal package registry token or a common MCP..."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-08-github-2026-05-08-copilot-code-review-comment-types-now-in-usage-metrics-api",
       "date": "2026-05-08",
       "category": "github",
@@ -5971,31 +6016,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-14-github-2026-04-14-deployment-context-in-repository-properties-and-alerts",
-      "date": "2026-04-14",
-      "category": "github",
-      "title": {
-        "zh": "存储库属性和警报中的部署上下文",
-        "ja": "リポジトリのプロパティとアラートのデプロイメントコンテキスト",
-        "en": "Deployment context in repository properties and alerts"
-      },
-      "summary": {
-        "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
-        "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする...",
-        "en": "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties— deployable and deployed —are now available. These properties reflect existing artifact and deployment metadata, so you don’t need to manually maintain lists of which repositories are actively deployed. You can use these properties to: Filter repositories in your organization based on deployment..."
-      },
-      "url": "https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts",
-      "tags": [
-        "release",
-        "application-security",
-        "platform-governance",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-14-anthropic-narasimhan-board",
       "date": "2026-04-14",
       "category": "anthropic",
@@ -6170,6 +6190,30 @@
         "en": "April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you can change your plan to Copilot Free or upgrade to either a Copilot Pro or Pro+ subscription. As GitHub Copilot continues to grow, we’ve seen a significant rise in abuse of our free trial system. To protect the experience and integrity of the platform for legitimate developers, we are pausing new GitHub Copilot..."
       },
       "url": "https://github.blog/changelog/2026-04-10-pausing-new-github-copilot-pro-trials",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-10-github-2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "强制执行新限制并从 Copilot Pro+ 中淘汰 Opus 4.6 Fast",
+        "ja": "新しい制限を適用し、Copilot Pro+ から Opus 4.6 Fast を廃止",
+        "en": "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+"
+      },
+      "summary": {
+        "zh": "随着 GitHub Copilot 继续快速增长，我们继续观察到高并发和密集使用模式的增加。虽然我们知道这可以由合法的工作流程驱动，但这种类型的使用给我们的共享基础设施和运营资源带来了巨大的压力。为了确保每个用户都能获得快速、可靠的 Copilot 体验，我们正在更新限制以更好地平衡容量。这些将在接下来的几周内推出。用户将受到两种类型的限制...",
+        "ja": "GitHub Copilot が急速に成長し続けるにつれて、高い同時実行性と集中的な使用のパターンの増加が観察され続けています。これが正当なワークフローによって引き起こされる可能性があることは理解していますが、この種の使用法は共有インフラストラクチャと運用リソースに大きな負担を与えます。すべてのユーザーが高速で信頼性の高い Copilot エクスペリエンスを確実に得られるように、容量のバランスを改善するために制限を更新しています。これらは今後数週間以内に展開されます。ユーザーが設定できる制限には 2 種類あります。",
+        "en": "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate workflows, this type of usage places significant strain on our shared infrastructure and operating resources. To ensure every user gets a fast, reliable Copilot experience, we’re updating limits to better balance capacity. These will roll out over the next few weeks. There will be two types of limits that users..."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-enforcing-new-limits-and-retiring-opus-4-6-fast-from-copilot-pro",
       "tags": [
         "retired",
         "copilot",
@@ -7152,30 +7196,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
-      "date": "2026-04-01",
-      "category": "github",
-      "title": {
-        "zh": "即将弃用 GitHub Copilot 中的 Claude Sonnet 4",
-        "ja": "GitHub Copilot の Claude Sonnet 4 は今後非推奨になります",
-        "en": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 5 月 1 日）：将弃用日期从 2026 年 5 月 1 日更新为 2026 年 5 月 6 日。我们将于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要启用访问...",
-        "ja": "編集者注 (2026 年 5 月 1 日): 非推奨日を 2026 年 5 月 1 日から 2026 年 5 月 6 日に更新しました。2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨にします: モデルの非推奨日推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 この日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者はアクセスを有効にする必要がある場合があります...",
-        "en": "Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026. We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/6/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access..."
-      },
-      "url": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
       "date": "2026-03-31",
       "category": "openai",
@@ -7380,6 +7400,30 @@
       ],
       "source": "GitHub Product News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-03-26-github-2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
+      "date": "2026-03-26",
+      "category": "github",
+      "title": {
+        "zh": "新的拉取请求仪表板已公开预览",
+        "ja": "新しいプル リクエスト ダッシュボードはパブリック プレビュー中です",
+        "en": "New pull requests dashboard is in public preview"
+      },
+      "summary": {
+        "zh": "更新后的拉取请求仪表板现已在 github.com/pulls 上提供公共预览，引入了新的拉取请求收件箱和保存的视图，以便您可以组织和优先处理需要您关注的拉取请求。 📥 收件箱 收件箱是您发现需要您关注的拉取请求的新家，包括您的审阅、需要修复的拉取请求以及准备合并的拉取请求。按存储库或拉取请求最近更新的时间进行过滤，以重点关注......",
+        "ja": "更新されたプル リクエスト ダッシュボードのパブリック プレビューが github.com/pulls で利用できるようになりました。これにより、新しいプル リクエストの受信トレイと保存されたビューが導入され、注意が必要なプル リクエストを整理して優先順位を付けることができます。 📥 Inbox Inbox は、レビュー、修正が必要なプル リクエスト、マージの準備ができているプル リクエストなど、注意が必要なプル リクエストを見つけるための新しい場所です。リポジトリ、またはプル リクエストがどのくらい最近更新されたかによってフィルタリングし、何に焦点を当てるか...",
+        "en": "A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. 📥 Inbox Inbox is your new home to discover the pull requests that need your attention, including your review, pull requests that need fixing, and pull requests that are ready to merge. Filter by repository or how recently a pull request was updated to focus on what..."
+      },
+      "url": "https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
+      "tags": [
+        "release",
+        "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-26-github-2026-03-26-gemini-3-pro-deprecated",
@@ -7705,31 +7749,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-03-24-github-2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
-      "date": "2026-03-24",
-      "category": "github",
-      "title": {
-        "zh": "通过 API 管理 Copilot 编码代理存储库访问",
-        "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する",
-        "en": "Manage Copilot coding agent repository access via the API"
-      },
-      "summary": {
-        "zh": "想要大规模管理 Copilot 编码代理访问的组织所有者现在可以使用新的 Copilot 编码代理管理 REST API（在公共预览版中提供）以编程方式执行此操作。使用这些 API，您可以： 决定 Copilot 编码代理是否可用于您的组织拥有的无存储库、所有存储库或选定的存储库。当您的组织设置为仅允许选定的存储库时，添加或删除允许的存储库。您还可以管理这些设置...",
-        "ja": "Copilot コーディング エージェントへのアクセスを大規模に管理したい組織所有者は、パブリック プレビューで利用可能な新しい Copilot コーディング エージェント管理 REST API を使用してプログラムで管理できるようになりました。これらの API を使用すると、次のことが可能になります。 Copilot コーディング エージェントを、リポジトリなし、すべてのリポジトリ、または組織が所有する選択したリポジトリで使用できるかどうかを決定します。組織が選択されたリポジトリのみを許可するように設定されている場合は、許可されたリポジトリを追加または削除します。これらの設定を管理することもできます...",
-        "en": "Organization owners who want to manage Copilot coding agent access at scale can now do so programmatically with the new Copilot coding agent management REST APIs, available in public preview. With these APIs, you can: Decide whether Copilot coding agent is available for no repositories, all repositories, or selected repositories owned by your organization. Add or remove allowed repositories when your organization is set to allow Only selected repositories. You can also manage these settings..."
-      },
-      "url": "https://github.blog/changelog/2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
@@ -9169,29 +9188,6 @@
       "url": "https://github.blog/changelog/2026-03-05-copilot-code-review-now-runs-on-an-agentic-architecture",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-05-github-2026-03-05-add-images-to-agent-sessions",
-      "date": "2026-03-05",
-      "category": "github",
-      "title": {
-        "zh": "将图像添加到代理会话",
-        "ja": "エージェントセッションに画像を追加する",
-        "en": "Add images to agent sessions"
-      },
-      "summary": {
-        "zh": "从图像开始快速启动代理会话。只需将图像图标粘贴、拖动或单击到您在 github.com 上使用代理的任何位置（例如，从存储库中最近发布的代理选项卡）。通过分享您的反馈让我们知道您构建了什么。单击任何代理会话右上角的“提供反馈”按钮。将图像添加到代理会话中的帖子首先出现在 GitHub 博客上。",
-        "ja": "イメージから開始して、エージェント セッションをすばやく開始します。 github.com 上のエージェントを操作する場所 (リポジトリの最近リリースされた [エージェント] タブなど) に画像アイコンを貼り付ける、ドラッグする、またはクリックするだけです。フィードバックを共有して、あなたが構築したものをお知らせください。エージェント セッションの右上隅にある [フィードバックを送信] ボタンをクリックします。 「エージェント セッションに画像を追加する」という投稿は、最初に The GitHub Blog に掲載されました。",
-        "en": "Quick start your agent session by starting from an image. Simply paste, drag, or click the image icon to wherever you work with agents on github.com (e.g., from the recently released Agents tab in a repository). Let us know what you build by sharing your feedback. Click the Give feedback button on the top-right corner of any agent session. The post Add images to agent sessions appeared first on The GitHub Blog."
-      },
-      "url": "https://github.blog/changelog/2026-03-05-add-images-to-agent-sessions",
-      "tags": [
         "copilot",
         "github",
         "changelog"
