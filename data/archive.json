@@ -1,7 +1,107 @@
 {
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-06-03",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-02-github-2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Gemini 3 Pro 和 GPT-5.1 型号",
+        "ja": "Gemini 3 Pro および GPT-5.1 モデルの今後の非推奨",
+        "en": "Upcoming deprecation of Gemini 3 Pro and GPT-5.1 models"
+      },
+      "summary": {
+        "zh": "我们将在所有 GitHub Copilot 体验中弃用以下模型（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）： 模型 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.4 迷你 GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex Gemini 3 Pro 弃用日期因提供商弃用而提前。请更新您的...",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを廃止します。 モデルの廃止日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Gemini 3 プロバイダーの非推奨により、Pro の非推奨日が早まります。更新してください...",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions): Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro GPT-5.1 2026-04-15 GPT-5.4 GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.4 mini GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex The Gemini 3 Pro deprecation date is accelerated due to provider deprecation. Please update your..."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-upcoming-deprecation-of-gemini-3-pro-and-gpt-5-1-models",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-02-github-2026-03-02-network-configuration-changes-for-copilot-coding-agent-now-in-effect",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理的网络配置更改现已生效",
+        "ja": "Copilot コーディング エージェントのネットワーク構成の変更が有効になりました",
+        "en": "Network configuration changes for Copilot coding agent now in effect"
+      },
+      "summary": {
+        "zh": "2026 年 2 月 13 日，我们宣布对 Copilot 编码代理所需的网络配置进行更改，并于 2 月 27 日生效。这些更改仅影响在自托管运行器或具有 Azure 专用网络的大型运行器上运行 Copilot 编码代理的团队。这些变化现已生效。 Copilot 将应用基于订阅的网络路由，根据启动代理任务的用户的 Copilot 计划连接到不同的主机： Copilot Business...",
+        "ja": "2026 年 2 月 13 日に、Copilot コーディング エージェントに必要なネットワーク構成の変更が 2 月 27 日に発効することを発表しました。 これらの変更は、自己ホスト型ランナーまたは Azure プライベート ネットワークを備えた大規模ランナーで Copilot コーディング エージェントを実行しているチームにのみ影響します。これらの変更は現在有効になっています。 Copilot はサブスクリプション ベースのネットワーク ルーティングを適用し、エージェント タスクを開始したユーザーの Copilot プランに応じて別のホストに接続します: Copilot Business...",
+        "en": "On February 13, 2026 we announced changes to the required network configuration for Copilot coding agent, taking effect on February 27. These changes only affect teams running Copilot coding agent on self-hosted runners or larger runners with Azure private networking. These changes have now taken effect. Copilot will apply subscription-based network routing, connecting to a different host depending on the Copilot plan of the user who initiated the agent task: Copilot Business..."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-network-configuration-changes-for-copilot-coding-agent-now-in-effect",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-02-github-2026-03-02-copilot-metrics-reports-now-return-consistent-usernames-for-enterprise-managed-users",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 指标报告现在为企业托管用户返回一致的用户名",
+        "ja": "Copilot メトリクス レポートは、エンタープライズ管理対象ユーザーに対して一貫したユーザー名を返すようになりました。",
+        "en": "Copilot metrics reports now return consistent usernames for Enterprise Managed Users"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 使用指标报告现在为企业托管用户 (EMU) 返回一致的 user_login 值。以前，一些报告可能在 user_login 中包含后缀，这使得跨 GitHub API 匹配结果变得更加困难。 Copilot 帖子指标报告现在返回企业托管用户的一致用户名，首先出现在 GitHub 博客上。",
+        "ja": "GitHub Copilot 使用状況メトリック レポートは、エンタープライズ管理対象ユーザー (EMU) に対して一貫した user_login 値を返すようになりました。以前は、一部のレポートで user_login にサフィックスが含まれる可能性があり、GitHub API 間で結果を一致させることが困難でした。 Copilot 後のメトリクス レポートは、エンタープライズ管理対象ユーザーの一貫したユーザー名を返すようになりました。 appeared first on The GitHub Blog.",
+        "en": "GitHub Copilot usage metrics reports now return a consistent user_login value for Enterprise Managed Users (EMU). Previously, some reports could include a suffix in user_login, which made it harder to match results across GitHub APIs. The post Copilot metrics reports now return consistent usernames for Enterprise Managed Users appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-copilot-metrics-reports-now-return-consistent-usernames-for-enterprise-managed-users",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-02-github-2026-03-02-copilot-metrics-now-includes-plan-mode",
+      "date": "2026-03-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 指标现在包括计划模式",
+        "ja": "Copilot メトリクスにプラン モードが含まれるようになりました",
+        "en": "Copilot metrics now includes plan mode"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标现在包括计划模式遥测。企业可以跟踪计划模式的采用和参与趋势以及现有的 Copilot 指标，从而更全面地了解团队如何直接在其 IDE 中实施计划。可用性计划模式遥测包含在更广泛的 Copilot 使用指标体验中。请确保为企业或组织启用 Copilot 使用指标。 JetBrains、Eclipse、Xcode 和 VS Code 支持遥测...",
+        "ja": "Copilot 使用状況メトリクスに、プラン モード テレメトリが含まれるようになりました。企業は、既存の Copilot メトリックとともに計画モードの導入とエンゲージメントの傾向を追跡できるため、チームがどのように計画を実装しているかを IDE で直接、より完全に把握できるようになります。可用性プラン モードのテレメトリは、広範な Copilot 使用状況メトリクス エクスペリエンスの一部として含まれています。 Copilot 使用状況メトリクスが企業または組織に対して有効になっていることを確認してください。テレメトリは、JetBrains、Eclipse、Xcode、VS Code でサポートされています...",
+        "en": "Copilot usage metrics now includes plan mode telemetry. Enterprises can track adoption and engagement trends for plan mode alongside existing Copilot metrics, enabling a more complete view of how teams are implementing plans directly in their IDE. Availability Plan mode telemetry is included as part of the broader Copilot usage metrics experience. Please ensure Copilot usage metrics is enabled for the enterprise or organization. Telemetry is supported for JetBrains, Eclipse, Xcode, and VS Code..."
+      },
+      "url": "https://github.blog/changelog/2026-03-02-copilot-metrics-now-includes-plan-mode",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-02-28-openai-our-agreement-with-the-department-of-war",
       "date": "2026-02-28",
