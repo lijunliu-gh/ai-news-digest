@@ -1414,10 +1414,6 @@
     "zh": "暂停新的 GitHub Copilot Pro 试用",
     "ja": "新しい GitHub Copilot Pro トライアルを一時停止します"
   },
-  "Enforcing new limits and retiring Opus 4.6 Fast from Copilot Pro+": {
-    "zh": "强制执行新限制并从 Copilot Pro+ 中淘汰 Opus 4.6 Fast",
-    "ja": "新しい制限を適用し、Copilot Pro+ から Opus 4.6 Fast を廃止"
-  },
   "Accelerating the cyber defense ecosystem that protects us all": {
     "zh": "加速保护我们所有人的网络防御生态系统",
     "ja": "私たち全員を守るサイバー防御エコシステムを加速する"
@@ -1477,10 +1473,6 @@
   "April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you can change your plan to Copilot Free or upgrade to either a Copilot Pro or Pro+ subscription. As GitHub Copilot continues to grow, we’ve seen a significant rise in abuse of our free trial system. To protect the experience and integrity of the platform for legitimate developers, we are pausing new GitHub Copilot...": {
     "zh": "2026 年 4 月 13 日更新：在我们继续调查期间，所有 GitHub Copilot Pro 试验（包括现有试验）均已暂停。同时，如果您正在使用 Copilot 试用版，则可以将计划更改为 Copilot 免费版或升级到 Copilot Pro 或 Pro+ 订阅。随着 GitHub Copilot 的不断发展，我们发现滥用免费试用系统的情况显着增加。为了保护合法开发者的平台体验和完整性，我们暂停新的 GitHub Copilot...",
     "ja": "2026 年 4 月 13 日更新: 調査が継続している間、既存のトライアルを含むすべての GitHub Copilot Pro トライアルが一時停止されました。それまでの間、Copilot トライアル版を利用していた場合は、プランを Copilot Free に変更するか、Copilot Pro または Pro+ サブスクリプションにアップグレードすることができます。 GitHub Copilot が成長を続ける中、無料トライアル システムの悪用が大幅に増加しています。正規の開発者のエクスペリエンスとプラットフォームの整合性を保護するために、新しい GitHub Copilot... を一時停止します。"
-  },
-  "As GitHub Copilot continues to rapidly grow, we continue to observe an increase in patterns of high concurrency and intense usage. While we understand this can be driven by legitimate workflows, this type of usage places significant strain on our shared infrastructure and operating resources. To ensure every user gets a fast, reliable Copilot experience, we’re updating limits to better balance capacity. These will roll out over the next few weeks. There will be two types of limits that users...": {
-    "zh": "随着 GitHub Copilot 继续快速增长，我们继续观察到高并发和密集使用模式的增加。虽然我们知道这可以由合法的工作流程驱动，但这种类型的使用给我们的共享基础设施和运营资源带来了巨大的压力。为了确保每个用户都能获得快速、可靠的 Copilot 体验，我们正在更新限制以更好地平衡容量。这些将在接下来的几周内推出。用户将受到两种类型的限制...",
-    "ja": "GitHub Copilot が急速に成長し続けるにつれて、高い同時実行性と集中的な使用のパターンの増加が観察され続けています。これが正当なワークフローによって引き起こされる可能性があることは理解していますが、この種の使用法は共有インフラストラクチャと運用リソースに大きな負担を与えます。すべてのユーザーが高速で信頼性の高い Copilot エクスペリエンスを確実に得られるように、容量のバランスを改善するために制限を更新しています。これらは今後数週間にわたって展開される予定です。ユーザーが設定できる制限には 2 種類あります。"
   },
   "The next phase of enterprise AI": {
     "zh": "企业人工智能的下一阶段",
@@ -2275,14 +2267,6 @@
   "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.": {
     "zh": "OpenAI 如何通过沙箱、审批、网络策略和代理本机遥测安全地运行 Codex，以支持安全且合规的编码代理采用。",
     "ja": "OpenAI がサンドボックス、承認、ネットワーク ポリシー、エージェント ネイティブ テレメトリを使用して Codex を安全に実行し、安全で準拠したコーディング エージェントの導入をサポートする方法。"
-  },
-  "More flexible secrets and variables for Copilot cloud agent": {
-    "zh": "Copilot 云代理更灵活的秘密和变量",
-    "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数"
-  },
-  "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers. Until now, these had to be configured one repository at a time, in a copilot environment under the repository’s Actions settings. That made it painful to roll out shared configuration (e.g., an internal package registry token or a common MCP...": {
-    "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。到目前为止，这些必须在存储库的操作设置下的副驾驶环境中一次配置一个存储库。这使得推出共享配置变得很痛苦（例如，内部包注册表令牌或常见的 MCP...",
-    "ja": "タスクを Copilot クラウド エージェントに委任すると、GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。これまでは、リポジトリのアクション設定にあるコパイロット環境で、一度に 1 つのリポジトリを構成する必要がありました。そのため、共有構成 (内部パッケージ レジストリ トークンや共通の MCP など) をロールアウトするのが困難になりました。"
   },
   "Introducing Trusted Contact in ChatGPT": {
     "zh": "在 ChatGPT 中引入可信联系人",
@@ -3316,14 +3300,6 @@
     "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
     "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする..."
   },
-  "New pull requests dashboard is in public preview": {
-    "zh": "新的拉取请求仪表板已公开预览",
-    "ja": "新しいプル リクエスト ダッシュボードはパブリック プレビュー中です"
-  },
-  "A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. 📥 Inbox Inbox is your new home to discover the pull requests that need your attention, including your review, pull requests that need fixing, and pull requests that are ready to merge. Filter by repository or how recently a pull request was updated to focus on what...": {
-    "zh": "更新后的拉取请求仪表板现已在 github.com/pulls 上提供公共预览，引入了新的拉取请求收件箱和保存的视图，以便您可以组织和优先处理需要您关注的拉取请求。 📥 收件箱 收件箱是您发现需要您关注的拉取请求的新家，包括您的审阅、需要修复的拉取请求以及准备合并的拉取请求。按存储库或拉取请求最近更新的时间进行过滤，以重点关注......",
-    "ja": "更新されたプル リクエスト ダッシュボードのパブリック プレビューが github.com/pulls で利用できるようになりました。これにより、新しいプル リクエストの受信トレイと保存されたビューが導入され、注意が必要なプル リクエストを整理して優先順位を付けることができます。 📥 Inbox Inbox は、レビュー、修正が必要なプル リクエスト、マージの準備ができているプル リクエストなど、注意が必要なプル リクエストを見つけるための新しい場所です。リポジトリ、またはプル リクエストがどのくらい最近更新されたかによってフィルタリングして、何に焦点を当てるか..."
-  },
   "Updates to GitHub Copilot for students": {
     "zh": "针对学生的 GitHub Copilot 更新",
     "ja": "学生向けの GitHub Copilot の更新"
@@ -4190,10 +4166,6 @@
     "zh": "Copilot CLI：改进的 UI、橡皮鸭、提示调度和语音输入",
     "ja": "Copilot CLI: UI、ラバーダック、プロンプトスケジュール、および音声入力の改善"
   },
-  "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck, prompt scheduling, and voice input are generally available today, and a new experimental terminal interface —including tabs for working with issues, pull requests, and gists—is available to try via /experimental. A new terminal experience (experimental) We’re previewing a redesigned terminal interface for Copilot CLI. You get a cleaner layout, theme-aware semantic colors, and responsive components that adapt to...": {
-    "zh": "GitHub Copilot CLI 在 Microsoft Build 2026 上进行了重大更新。橡皮鸭、提示调度和语音输入现已普遍可用，并且可以通过 /experimental 尝试新的实验性终端界面（包括用于处理问题、拉取请求和要点的选项卡）。新的终端体验（实验性）我们正在预览重新设计的 Copilot CLI 终端界面。您将获得更清晰的布局、主题感知的语义颜色以及适应...的响应式组件",
-    "ja": "GitHub Copilot CLI は Microsoft Build 2026 で大幅に更新されます。ラバーダック、プロンプト スケジュール、および音声入力が本日一般提供され、問題、プル リクエスト、要点を操作するためのタブを含む新しい実験的なターミナル インターフェイスが /experimental 経由で試用できます。新しいターミナル エクスペリエンス (実験的) Copilot CLI 用に再設計されたターミナル インターフェイスをプレビューしています。よりクリーンなレイアウト、テーマを意識したセマンティックカラー、およびさまざまな状況に適応する応答性の高いコンポーネントが得られます。"
-  },
   "Cloud and local sandboxes for GitHub Copilot now in public preview": {
     "zh": "GitHub Copilot 的云和本地沙箱现已提供公共预览版",
     "ja": "GitHub Copilot のクラウドおよびローカル サンドボックスがパブリック プレビュー中"
@@ -4469,5 +4441,33 @@
   "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
     "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
     "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
+  },
+  "OpenAI public policy agenda": {
+    "zh": "OpenAI 公共政策议程",
+    "ja": "OpenAI 公共政策の議題"
+  },
+  "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.": {
+    "zh": "OpenAI 概述了人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
+    "ja": "OpenAI は、安全性、青少年保護、労働力の移行、AI が社会に利益をもたらすことを保証する世界標準など、AI に関する公共政策の課題を概説しています。"
+  },
+  "A blueprint for democratic governance of frontier AI": {
+    "zh": "前沿人工智能民主治理蓝图",
+    "ja": "フロンティア AI の民主的ガバナンスの青写真"
+  },
+  "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.": {
+    "zh": "OpenAI 概述了美国前沿人工智能治理的蓝图，提出了安全、弹性和国家安全的联邦框架。",
+    "ja": "OpenAI は、米国のフロンティア AI ガバナンスの青写真を概説し、安全性、回復力、国家安全保障のための連邦枠組みを提案しています。"
+  },
+  "GitHub Copilot in Visual Studio Code, May releases": {
+    "zh": "Visual Studio Code 中的 GitHub Copilot，5 月发布",
+    "ja": "Visual Studio Code の GitHub Copilot、5 月リリース"
+  },
+  "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026. In May, we made the Agents window available in VS Code Stable as a preview, giving users an agent-first experience focused on completing tasks rather than editing code. We also improved support for remotely controlling longer-running, more complex agent sessions. VS Code supports bring-your-own-key (BYOK) models, letting you use your...": {
+    "zh": "VS Code 继续每周发布稳定版。此变更日志涵盖 v1.120 至 v1.123 版本，这些版本是我们在 2026 年 5 月和 6 月初发布的。5 月，我们在 VS Code Stable 中提供了代理窗口预览版，为用户提供代理优先的体验，专注于完成任务而不是编辑代码。我们还改进了对远程控制运行时间更长、更复杂的代理会话的支持。 VS Code 支持自带密钥 (BYOK) 模型，让您可以使用您的...",
+    "ja": "VS Code は毎週の安定版リリースを継続します。この変更ログでは、2026 年 5 月から 6 月上旬にかけて出荷されたリリース v1.120 から v1.123 までを対象としています。 5 月に、エージェント ウィンドウをプレビューとして VS Code Stable で利用できるようにし、コードの編集ではなくタスクの完了に重点を置いたエージェントファーストのエクスペリエンスをユーザーに提供しました。また、実行時間が長く、より複雑なエージェント セッションをリモートで制御するためのサポートも改善されました。 VS Code は、Bring-Your-Own-Key (BYOK) モデルをサポートしており、独自のキーを使用できます。"
+  },
+  "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck and voice input are generally available today, and both prompt scheduling and a new experimental terminal interface —including tabs for working with issues, pull requests, and gists—are available to try via /experimental. Editor’s note (June 3, 2026): Updated prompt scheduling to indicate it is part of /experimental, not generally available. A new terminal experience (experimental) We’re previewing a redesigned...": {
+    "zh": "GitHub Copilot CLI 在 Microsoft Build 2026 上进行了重大更新。橡皮鸭和语音输入现已普遍可用，提示调度和新的实验性终端界面（包括用于处理问题、拉取请求和要点的选项卡）可通过 /experimental 进行尝试。编者注（2026 年 6 月 3 日）：更新了提示安排，表明它是 /experimental 的一部分，一般不可用。新的终端体验（实验性）我们正在预览重新设计的...",
+    "ja": "GitHub Copilot CLI は Microsoft Build 2026 で大幅に更新されます。ラバーダックと音声入力は現在一般提供されており、プロンプト スケジューリングと新しい実験的なターミナル インターフェイス (問題、プル リクエスト、要点を操作するためのタブを含む) の両方を /experimental 経由で試すことができます。編集者注 (2026 年 6 月 3 日): プロンプトのスケジュールを更新して、/experimental の一部であり、一般には利用できないことを示しました。新しいターミナル エクスペリエンス (実験的) 再設計されたターミナル エクスペリエンスをプレビュー中です..."
   }
 }
