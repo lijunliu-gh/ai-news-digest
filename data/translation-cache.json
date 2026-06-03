@@ -1789,14 +1789,6 @@
     "zh": "Anthropic 和 Amazon 扩大合作以实现高达 5 吉瓦的新计算",
     "ja": "Anthropic と Amazon がコラボレーションを拡大し、最大 5 ギガワットの新しいコンピューティングを実現"
   },
-  "GitHub Copilot in Visual Studio — March update": {
-    "zh": "Visual Studio 中的 GitHub Copilot — 三月更新",
-    "ja": "Visual Studio の GitHub Copilot — 3 月の更新"
-  },
-  "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable. Highlights Here’s what’s new with GitHub Copilot in the March update of Visual Studio 2026: Build your own custom agents: Define specialized Copilot agents as.agent.md files in your repository. Custom agents get full access to workspace awareness, code understanding, tools, your preferred model, and MCP...": {
-    "zh": "2026 年 3 月，Visual Studio 中的 GitHub Copilot 可扩展性向前迈出了一大步，提供了自定义代理、代理技能以及使代理更智能、更强大的新工具。亮点 以下是 Visual Studio 2026 3 月更新中 GitHub Copilot 的新增功能： 构建您自己的自定义代理：在存储库中将专门的 Copilot 代理定义为.agent.md 文件。自定义代理可以完全访问工作区意识、代码理解、工具、您的首选模型和 MCP...",
-    "ja": "2026 年 3 月には、カスタム エージェント、エージェント スキル、エージェントをより賢く、より有能にする新しいツールにより、Visual Studio の GitHub Copilot 拡張性が大きく前進しました。ハイライト Visual Studio 2026 の 3 月更新プログラムの GitHub Copilot の新機能は次のとおりです。 独自のカスタム エージェントを構築する: 特殊な Copilot エージェントをリポジトリ内の.agent.md ファイルとして定義します。カスタム エージェントは、ワークスペースの認識、コードの理解、ツール、好みのモデル、MCP に完全にアクセスできます。"
-  },
   "Agent activity in GitHub Issues and Projects": {
     "zh": "GitHub 问题和项目中的代理活动",
     "ja": "GitHub 問題とプロジェクトのエージェント アクティビティ"
@@ -3855,14 +3847,6 @@
     "zh": "Copilot 代码审查注释现在更容易扫描和执行。可供选择新的拉取请求体验的所有用户使用，分组建议、严重性级别和更新的建议变更集 UI 将减少噪音并帮助您优先考虑来自 Copilot 的建议。帮助您确定优先级的严重性级别评论现在包含严重性标签，因此您可以确定要解决的建议以及何时解决的优先级。您可以在 Copilot 代码审查注释的右上角找到严重性标签...",
     "ja": "Copilot コード レビュー コメントをスキャンして対処することが容易になりました。新しいプル リクエスト エクスペリエンス、グループ化された提案、重大度レベル、および更新された提案変更セット UI をオプトインしたすべてのユーザーが利用できるため、ノイズが軽減され、Copilot からの提案の優先順位付けに役立ちます。優先順位付けに役立つ重大度レベル コメントに重大度ラベルが含まれるようになったので、いつどの提案に対処するか優先順位を付けることができます。 Copilot コード レビュー コメントの右上隅に重大度ラベルが表示されます。"
   },
-  "Copilot usage metrics now aggregate Copilot cloud agent active user counts": {
-    "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
-    "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。"
-  },
-  "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in...": {
-    "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。三个新字段可用...",
-    "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。 3 つの新しいフィールドが利用可能です..."
-  },
   "Copilot coding agent now starts work 50% faster": {
     "zh": "Copilot 编码代理现在开始工作的速度提高了 50%",
     "ja": "Copilot コーディング エージェントの作業開始が 50% 速くなりました"
@@ -3870,14 +3854,6 @@
   "We’ve optimized Copilot coding agent so it now starts work 50% faster. You can hand work to Copilot coding agent in many ways, including assigning an issue to Copilot, entering a prompt in the Agents tab in your repository or mentioning @copilot in a pull request comment. Copilot works in its own cloud-based development environment, makes changes, runs your tests, and then pushes. With shorter startup times, Copilot can create pull requests from scratch more quickly, and you get a faster...": {
     "zh": "我们优化了 Copilot 编码代理，现在它的工作速度提高了 50%。您可以通过多种方式将工作交给 Copilot 编码代理，包括将问题分配给 Copilot、在存储库的“代理”选项卡中输入提示或在拉取请求注释中提及 @copilot。 Copilot 在自己的基于云的开发环境中工作，进行更改，运行测试，然后推送。通过更短的启动时间，Copilot 可以更快地从头开始创建拉取请求，并且您可以获得更快的...",
     "ja": "Copilot コーディング エージェントを最適化したため、作業の開始が 50% 速くなりました。 Copilot に問題を割り当てる、リポジトリの [エージェント] タブにプロンプ​​トを入力する、プル リクエストのコメントで @copilot に言及するなど、さまざまな方法で Copilot コーディング エージェントに作業を依頼できます。 Copilot は独自のクラウドベースの開発環境で動作し、変更を加え、テストを実行してからプッシュします。起動時間が短縮されると、Copilot はプル リクエストを最初からより迅速に作成でき、より高速な結果を得ることができます。"
-  },
-  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
-    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
-    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました。"
-  },
-  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
-    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
-    "ja": "先週リリースされたエンタープライズ レベルの CLI テレメトリのフォローアップとして、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
   },
   "How Endava builds an agentic organization with Codex": {
     "zh": "Endava 如何使用 Codex 建立代理组织",
@@ -4350,14 +4326,6 @@
     "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。插件支持多种可扩展性类型，并且可以自动安装，通过广泛共享自定义代理和技能来帮助改进开发人员入门并减少设置时间。您还可以通过定义挂钩和 MCP 配置来加强您的治理策略...",
     "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。プラグインは多くの拡張タイプをサポートしており、自動的にインストールできるため、カスタム エージェントとスキルを広く共有することで開発者のオンボーディングを改善し、セットアップ時間を短縮できます。また、フックと MCP 構成を定義することで、ガバナンス戦略を強化することもできます。"
   },
-  "Secret scanning with GitHub MCP Server is now generally available": {
-    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
-    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般公開されました"
-  },
-  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new...": {
-    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
-    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報..."
-  },
   "Copilot organization custom instructions are generally available": {
     "zh": "Copilot组织自定义指令普遍可用",
     "ja": "Copilot 組織のカスタム手順が一般公開されました"
@@ -4453,5 +4421,13 @@
   "Copilot usage metrics now provides full clarity into model usage when auto model selection is enabled. Activity that previously appeared under a generic “Auto” label now resolves to the actual model name, giving admins a complete and accurate view of which models their teams are using. This applies to model breakdowns across the Copilot usage metrics REST API and dashboard, including totals_by_model_feature in the enterprise, org, and user level reports, as well as the “Model usage per chat...": {
     "zh": "当启用自动模型选择时，Copilot 使用指标现在可以完全清楚地了解模型的使用情况。以前出现在通用“自动”标签下的活动现在解析为实际模型名称，使管理员能够完整、准确地了解其团队正在使用的模型。这适用于 Copilot 使用指标 REST API 和仪表板的模型细分，包括企业、组织和用户级别报告中的 Totals_by_model_feature，以及“每次聊天的模型使用情况...",
     "ja": "Copilot 使用状況メトリックは、自動モデル選択が有効になっている場合に、モデルの使用状況を完全に明確に提供するようになりました。以前は一般的な「自動」ラベルで表示されていたアクティビティが実際のモデル名に解決されるようになり、管理者はチームがどのモデルを使用しているかを完全かつ正確に把握できるようになりました。これは、Copilot 使用状況メトリクス REST API とダッシュボード全体のモデルの内訳に適用されます。これには、エンタープライズ、組織、およびユーザー レベルのレポートの totals_by_model_feature や、「チャットごとのモデル使用量...」が含まれます。"
+  },
+  "What we learned mapping a year’s worth of AI-enabled cyber threats": {
+    "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
+    "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと"
+  },
+  "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.": {
+    "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
+    "ja": "AI がサイバー攻撃の性質と背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。"
   }
 }
