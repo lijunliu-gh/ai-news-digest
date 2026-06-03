@@ -4429,5 +4429,45 @@
   "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.": {
     "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
     "ja": "AI がサイバー攻撃の性質と背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。"
+  },
+  "Introducing the Services Track and Partner Hub of the Claude Partner Network": {
+    "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+    "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介"
+  },
+  "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.": {
+    "zh": "三月份，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+    "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、お客様がこのエコシステムをナビゲートしやすくする 2 つの新しいコンポーネントを発表します。"
+  },
+  "Secret scanning with GitHub MCP Server is now generally available": {
+    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般提供になりました"
+  },
+  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place. It’s been in public preview since March 2026, and it’s available for repositories with GitHub Secret Protection enabled. What’s new...": {
+    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。它自 2026 年 3 月起开始公开预览，并且可用于启用了 GitHub 秘密保护的存储库。什么是新的...",
+    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。 2026 年 3 月からパブリック プレビューが開始されており、GitHub Secret Protection が有効になっているリポジトリで利用できます。新着情報..."
+  },
+  "Copilot usage metrics now aggregate Copilot cloud agent active user counts": {
+    "zh": "Copilot 使用指标现在聚合 Copilot 云代理活跃用户计数",
+    "ja": "Copilot 使用状況メトリクスは、Copilot クラウド エージェントのアクティブ ユーザー数を集計するようになりました。"
+  },
+  "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change. Following the launch of cloud agent active user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active user counts for the Copilot coding agent. Three new fields are available in...": {
+    "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。在推出云代理活跃用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 编码代理的聚合活跃用户计数。三个新字段可用...",
+    "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。クラウド エージェントのアクティブ ユーザー識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コーディング エージェントの集計されたアクティブ ユーザー数が含まれるようになりました。 3 つの新しいフィールドが利用可能です..."
+  },
+  "GitHub Copilot in Visual Studio — March update": {
+    "zh": "Visual Studio 中的 GitHub Copilot — 三月更新",
+    "ja": "Visual Studio の GitHub Copilot — 3 月の更新"
+  },
+  "March 2026 brought a major step forward for GitHub Copilot extensibility in Visual Studio, with custom agents, agent skills, and new tools that make the agent smarter and more capable. Highlights Here’s what’s new with GitHub Copilot in the March update of Visual Studio 2026: Build your own custom agents: Define specialized Copilot agents as.agent.md files in your repository. Custom agents get full access to workspace awareness, code understanding, tools, your preferred model, and MCP...": {
+    "zh": "2026 年 3 月，Visual Studio 中的 GitHub Copilot 可扩展性向前迈出了一大步，提供了自定义代理、代理技能以及使代理更智能、更强大的新工具。亮点 以下是 Visual Studio 2026 3 月更新中 GitHub Copilot 的新增功能： 构建您自己的自定义代理：在存储库中将专门的 Copilot 代理定义为.agent.md 文件。自定义代理可以完全访问工作区意识、代码理解、工具、您的首选模型和 MCP...",
+    "ja": "2026 年 3 月には、カスタム エージェント、エージェント スキル、エージェントをより賢く、より有能にする新しいツールにより、Visual Studio の GitHub Copilot 拡張性が大きく前進しました。ハイライト Visual Studio 2026 の 3 月更新プログラムの GitHub Copilot の新機能は次のとおりです。 独自のカスタム エージェントを構築する: 特殊な Copilot エージェントをリポジトリ内の.agent.md ファイルとして定義します。カスタム エージェントは、ワークスペースの認識、コードの理解、ツール、好みのモデル、MCP に完全にアクセスできます。"
+  },
+  "Copilot usage metrics now includes user-level GitHub Copilot CLI activity": {
+    "zh": "Copilot 使用指标现在包括用户级别 GitHub Copilot CLI 活动",
+    "ja": "Copilot 使用状況メトリックに、ユーザーレベルの GitHub Copilot CLI アクティビティが含まれるようになりました。"
+  },
+  "As a follow-up to last week’s release of enterprise-level CLI telemetry, we’re expanding coverage to the user-level. You can now view CLI-specific activity and usage totals in order to: Understand which users are active CLI users to spot where enablement or support is needed. View how many CLI requests and session counts are made to understand how developers are using Copilot day to day. Gain visibility into token usage totals to understand consumption trends and plan for expanded rollout...": {
+    "zh": "作为上周发布的企业级 CLI 遥测的后续版本，我们正在将覆盖范围扩大到用户级别。您现在可以查看特定于 CLI 的活动和使用总计，以便： 了解哪些用户是活跃的 CLI 用户，以发现需要启用或支持的地方。查看发出了多少 CLI 请求和会话计数，以了解开发人员如何日常使​​用 Copilot。深入了解代币使用总量，了解消费趋势并计划扩大推广...",
+    "ja": "エンタープライズ レベルの CLI テレメトリの先週のリリースに続き、対象範囲をユーザー レベルに拡大します。次の目的で、CLI 固有のアクティビティと使用量の合計を表示できるようになりました。 どのユーザーがアクティブな CLI ユーザーであるかを理解し、有効化またはサポートが必要な場所を特定します。作成された CLI リクエストの数とセッション数を表示して、開発者が日々 Copilot をどのように使用しているかを把握します。トークン使用量の合計を可視化して、消費傾向を理解し、展開の拡大を計画します..."
   }
 }
