@@ -24,6 +24,52 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-04-openai-chatgpt-memory-dreaming",
+      "date": "2026-06-04",
+      "category": "openai",
+      "title": {
+        "zh": "梦想：更好的记忆力，更有帮助的ChatGPT",
+        "ja": "夢を見る: より良い記憶力でより役立つ ChatGPT",
+        "en": "Dreaming: Better memory for a more helpful ChatGPT"
+      },
+      "summary": {
+        "zh": "ChatGPT 引入了一种新的记忆系统，可以更好地记住偏好，使对话中的上下文保持新鲜和相关。",
+        "ja": "ChatGPT は、設定をよりよく記憶するための新しい記憶システムを導入し、会話全体でコンテキストを最新かつ関連性のある状態に保ちます。",
+        "en": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations."
+      },
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-04-github-2026-06-04-github-copilot-in-visual-studio-may-update",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 可能会更新",
+        "ja": "Visual Studio の GitHub Copilot — 5 月の更新",
+        "en": "GitHub Copilot in Visual Studio — May update"
+      },
+      "summary": {
+        "zh": "2026 年 5 月带来了更清晰的工具，用于在 Visual Studio 2026 中使用 GitHub Copilot 来规划、审查和管理工作。亮点 以下是 Visual Studio 2026 中所有 GitHub Copilot 用户的新增功能。查看 Insiders 频道了解最新信息： 使用 Plan 代理进行构建之前进行规划：新的 Plan 代理（在代理选择器中标记为 Plan）可让您与在编写任何代码之前，Copilot 遵守实施计划。 Copilot 使用只读工具探索您的代码库，询问...",
+        "ja": "2026 年 5 月には、Visual Studio 2026 の GitHub Copilot を使用した作業の計画、レビュー、管理のためのより鮮明なツールが導入されました。 ハイライト Visual Studio 2026 のすべての GitHub Copilot ユーザー向けの新機能は次のとおりです。 最新情報については Insiders チャネルを確認してください: Plan エージェントを使用してビルドする前に計画を立ててください: 新しい Plan エージェント (エージェント ピッカーで Plan というラベルが付いている) を使用すると、次のツールと共同作業できます。コードを記述する前に実装計画に Copilot を追加します。 Copilot は読み取り専用ツールを使用してコードベースを探索し、質問します...",
+        "en": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual Studio 2026. Check the Insiders channel for the latest: Plan before you build with the Plan agent: The new Plan agent (labeled Plan in the agent picker) lets you collaborate with Copilot on an implementation plan before any code is written. Copilot explores your codebase with read-only tools, asks..."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-03-openai-wasmer",
       "date": "2026-06-03",
       "category": "openai",
@@ -1706,6 +1752,29 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-27-anthropic-extended-thinking",
+      "date": "2026-05-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "用法.output_tokens_details.thinking_tokens",
+        "ja": "使用法.output_tokens_details. Thinking_tokens",
+        "en": "usage.output_tokens_details.thinking_tokens"
+      },
+      "summary": {
+        "zh": "Messages API 响应现在包括 use.output_tokens_details.thinking_tokens，报告有多少计费输出令牌是扩展思维。流式传输时，故障仅出现在最终的 message_delta 事件上。不需要 beta 标头。",
+        "ja": "Messages API の応答には、usage.output_tokens_details. Thinking_tokens が含まれるようになり、請求された出力トークンの数が拡張思考であったことを報告します。ストリーミング中、内訳は最後の message_delta イベントにのみ表示されます。ベータヘッダーは必要ありません。",
+        "en": "The Messages API response now includes usage.output_tokens_details.thinking_tokens, reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final message_delta event. No beta header is required."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#working-with-thinking-budgets",
+      "tags": [
+        "usage-output-tokens-details-thinking-tokens",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-05-26-openai-changelog",
@@ -6220,31 +6289,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-13-github-2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
-      "date": "2026-04-13",
-      "category": "github",
-      "title": {
-        "zh": "数据驻留（美国 + 欧盟）和 FedRAMP 授权模型现已在 Copilot 中提供",
-        "ja": "データ常駐 (米国 + EU) および FedRAMP 認定モデルが Copilot で利用可能になりました",
-        "en": "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 4 月 24 日）：更新了这篇文章以包含有关这些产品的更详细和具体的信息。我们还添加了参考链接。做出这些更改是为了让更改内容更加清晰。 GitHub Copilot 现在支持美国和欧盟地区的数据驻留，确保所有推理处理和关联数据驻留在您指定的地理位置内。欧盟与 Microsoft 的欧盟数据边界保持一致，涵盖欧盟成员国以及欧洲自由贸易联盟国家（即...",
-        "ja": "編集者注 (2026 年 4 月 24 日): この投稿を更新して、これらのサービスに関するより詳細かつ具体的な情報を追加しました。参考までにリンクも追加しました。これらの変更は、何が変更されたのかを明確にするために行われました。 GitHub Copilot は、米国および EU 地域のデータ常駐をサポートするようになり、すべての推論処理と関連データが指定された地域内に留まるようになります。 EU は、EU 加盟国と EFTA 諸国をカバーする Microsoft の EU データ境界に準拠しています (つまり...",
-        "en": "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed. GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e..."
-      },
-      "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
-      "tags": [
-        "release",
-        "copilot",
-        "platform-governance",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-10-openai-axios-developer-tool-compromise",
       "date": "2026-04-10",
       "category": "openai",
@@ -7203,30 +7247,6 @@
         "en": "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over when you open a pull request Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when you move your work forward. Copilot generates code on a branch without opening a pull request. Review the..."
       },
       "url": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-01-github-2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
-      "date": "2026-04-01",
-      "category": "github",
-      "title": {
-        "zh": "GPT-5.4 mini现已在Copilot学生汽车车型选择中上市",
-        "ja": "GPT-5.4 mini が Copilot 学生向け自動車モデル選択で利用可能になりました",
-        "en": "GPT-5.4 mini is now available in Copilot Student auto model selection"
-      },
-      "summary": {
-        "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择普遍用于 Copilot 学生计划。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入GitHub 社区分享您的反馈。后 GPT-5.4 mini 现已在 Copilot 学生汽车模型选择中提供...",
-        "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を介して Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot チャットの Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。ポスト GPT-5.4 mini が Copilot 学生自動車モデル選択で利用可能になりました...",
-        "en": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection..."
-      },
-      "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
       "tags": [
         "release",
         "copilot",
