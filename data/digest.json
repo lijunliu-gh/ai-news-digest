@@ -1,7 +1,28 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-06-03-openai-wasmer",
+      "date": "2026-06-03",
+      "category": "openai",
+      "title": {
+        "zh": "Wasmer 如何使用 Codex 为边缘构建 Node.js 运行时",
+        "ja": "Wasmer が Codex を使用してエッジ用の Node.js ランタイムを構築した方法",
+        "en": "How Wasmer used Codex to build a Node.js runtime for the edge"
+      },
+      "summary": {
+        "zh": "了解 Wasmer 如何使用 Codex 和 GPT-5.5 为边缘构建 Node.js 运行时，将开发速度提高 10 倍到 20 倍，并在数周而不是数月内交付。",
+        "ja": "Wasmer が GPT-5.5 で Codex を使用してエッジ用の Node.js ランタイムを構築し、開発を 10 倍から 20 倍加速し、数か月ではなく数週間で出荷した方法をご覧ください。",
+        "en": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months."
+      },
+      "url": "https://openai.com/index/wasmer",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-06-03-openai-public-policy-agenda",
       "date": "2026-06-03",
@@ -455,6 +476,30 @@
         "en": "GitHub Copilot code review for Azure Repos is now available in technical preview, bringing on demand pull request reviews directly into your Azure DevOps workflow. How it works Once enabled at both the organization and repository level, users can request a Copilot code review directly from a pull request in Azure Repos. Copilot adds review comments inline with the code changes, suggests improvements when appropriate, and helps identify potential issues earlier in the development process—all..."
       },
       "url": "https://github.blog/changelog/2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI、云代理和 Copilot 应用程序中的 Gemini 模型",
+        "ja": "Copilot CLI、クラウド エージェント、および Copilot アプリの Gemini モデル",
+        "en": "Gemini models in Copilot CLI, cloud agent, and the Copilot app"
+      },
+      "summary": {
+        "zh": "现在可在额外的 GitHub Copilot 表面上使用两个 Gemini 模型。 Gemini 3.1 Pro（预览版）和 Gemini 3.5 Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序（技术预览版） Copilot SDK Gemini 3.1 Pro（预览版）适用于 Copilot 学生， Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者。 Gemini 3.5 Flash 适用于 Copilot Pro、Copilot Pro+、Copilot Business 和 Copilot Enterprise 订阅者。正在启用访问...",
+        "ja": "2 つの Gemini モデルが、追加の GitHub Copilot サーフェスで使用できるようになりました。 Gemini 3.1 Pro (プレビュー) および Gemini 3.5 Flash は、以下で使用できるようになりました。 Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ (テクニカル プレビュー) Copilot SDK Gemini 3.1 Pro (プレビュー) は、Copilot Student で利用できます。 Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバー。 Gemini 3.5 Flash は、Copilot Pro、Copilot Pro+、Copilot Business、および Copilot Enterprise サブスクライバーが利用できます。アクセスを有効にしています...",
+        "en": "Two Gemini models are now available across additional GitHub Copilot surfaces. Gemini 3.1 Pro (Preview) and Gemini 3.5 Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app (technical preview) Copilot SDK Gemini 3.1 Pro (Preview) is available for Copilot Student, Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. Gemini 3.5 Flash is available for Copilot Pro, Copilot Pro+, Copilot Business, and Copilot Enterprise subscribers. Enabling access..."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
       "tags": [
         "release",
         "copilot",
@@ -6016,6 +6061,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-14-github-2026-04-14-deployment-context-in-repository-properties-and-alerts",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "存储库属性和警报中的部署上下文",
+        "ja": "リポジトリのプロパティとアラートのデプロイメントコンテキスト",
+        "en": "Deployment context in repository properties and alerts"
+      },
+      "summary": {
+        "zh": "工件和部署上下文现在出现在两个新位置：存储库属性和安全警报页面。存储库属性：可部署和已部署 现在提供两个新的内置存储库属性：可部署和已部署。这些属性反映了现有的工件和部署元数据，因此您无需手动维护主动部署的存储库的列表。您可以使用这些属性来： 根据部署过滤组织中的存储库...",
+        "ja": "アーティファクトとデプロイメントのコンテキストが、リポジトリのプロパティとセキュリティ アラート ページの 2 つの新しい場所に表示されるようになりました。リポジトリ プロパティ: デプロイ可能およびデプロイ済み 2 つの新しい組み込みリポジトリ プロパティ (デプロイ可能およびデプロイ済み) が利用できるようになりました。これらのプロパティは既存のアーティファクトとデプロイメントのメタデータを反映するため、アクティブにデプロイされているリポジトリのリストを手動で管理する必要はありません。これらのプロパティを使用して、次のことを行うことができます。 デプロイメントに基づいて組織内のリポジトリをフィルタリングする...",
+        "en": "Artifact and deployment context now appears in two new places: repository properties and security alert pages. Repository properties: deployable and deployed Two new built-in repository properties— deployable and deployed —are now available. These properties reflect existing artifact and deployment metadata, so you don’t need to manually maintain lists of which repositories are actively deployed. You can use these properties to: Filter repositories in your organization based on deployment..."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-deployment-context-in-repository-properties-and-alerts",
+      "tags": [
+        "release",
+        "application-security",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-14-anthropic-narasimhan-board",
       "date": "2026-04-14",
       "category": "anthropic",
@@ -7196,6 +7266,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-01-github-2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 GitHub Copilot 中的 Claude Sonnet 4",
+        "ja": "GitHub Copilot の Claude Sonnet 4 は今後非推奨になります",
+        "en": "Upcoming deprecation of Claude Sonnet 4 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 5 月 1 日）：将弃用日期从 2026 年 5 月 1 日更新为 2026 年 5 月 6 日。我们将于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要启用访问...",
+        "ja": "編集者注 (2026 年 5 月 1 日): 非推奨日を 2026 年 5 月 1 日から 2026 年 5 月 6 日に更新しました。2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルを非推奨にします: モデルの非推奨日推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 この日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者はアクセスを有効にする必要がある場合があります...",
+        "en": "Editor’s note (May 1, 2026): Updated the deprecation date to May 6, 2026 from May 1, 2026. We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 5/6/2026: Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to enable access..."
+      },
+      "url": "https://github.blog/changelog/2026-03-31-upcoming-deprecation-of-claude-sonnet-4-in-github-copilot",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
       "date": "2026-03-31",
       "category": "openai",
@@ -7749,6 +7843,31 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-24-github-2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
+      "date": "2026-03-24",
+      "category": "github",
+      "title": {
+        "zh": "通过 API 管理 Copilot 编码代理存储库访问",
+        "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する",
+        "en": "Manage Copilot coding agent repository access via the API"
+      },
+      "summary": {
+        "zh": "想要大规模管理 Copilot 编码代理访问的组织所有者现在可以使用新的 Copilot 编码代理管理 REST API（在公共预览版中提供）以编程方式执行此操作。使用这些 API，您可以： 决定 Copilot 编码代理是否可用于您的组织拥有的无存储库、所有存储库或选定的存储库。当您的组织设置为仅允许选定的存储库时，添加或删除允许的存储库。您还可以管理这些设置...",
+        "ja": "Copilot コーディング エージェントへのアクセスを大規模に管理したい組織所有者は、パブリック プレビューで利用可能な新しい Copilot コーディング エージェント管理 REST API を使用してプログラムで管理できるようになりました。これらの API を使用すると、次のことが可能になります。 Copilot コーディング エージェントを、リポジトリなし、すべてのリポジトリ、または組織が所有する選択したリポジトリで使用できるかどうかを決定します。組織が選択されたリポジトリのみを許可するように設定されている場合は、許可されたリポジトリを追加または削除します。これらの設定を管理することもできます...",
+        "en": "Organization owners who want to manage Copilot coding agent access at scale can now do so programmatically with the new Copilot coding agent management REST APIs, available in public preview. With these APIs, you can: Decide whether Copilot coding agent is available for no repositories, all repositories, or selected repositories owned by your organization. Add or remove allowed repositories when your organization is set to allow Only selected repositories. You can also manage these settings..."
+      },
+      "url": "https://github.blog/changelog/2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
@@ -9196,6 +9315,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-05-github-2026-03-05-add-images-to-agent-sessions",
+      "date": "2026-03-05",
+      "category": "github",
+      "title": {
+        "zh": "将图像添加到代理会话",
+        "ja": "エージェントセッションに画像を追加する",
+        "en": "Add images to agent sessions"
+      },
+      "summary": {
+        "zh": "从图像开始快速启动代理会话。只需将图像图标粘贴、拖动或单击到您在 github.com 上使用代理的任何位置（例如，从存储库中最近发布的代理选项卡）。通过分享您的反馈让我们知道您构建了什么。单击任何代理会话右上角的“提供反馈”按钮。将图像添加到代理会话中的帖子首先出现在 GitHub 博客上。",
+        "ja": "イメージから開始して、エージェント セッションをすばやく開始します。 github.com 上のエージェントを操作する場所 (リポジトリの最近リリースされた [エージェント] タブなど) に画像アイコンを貼り付ける、ドラッグする、またはクリックするだけです。フィードバックを共有して、あなたが構築したものをお知らせください。エージェント セッションの右上隅にある [フィードバックを送信] ボタンをクリックします。 「エージェント セッションに画像を追加する」という投稿は、最初に The GitHub Blog に掲載されました。",
+        "en": "Quick start your agent session by starting from an image. Simply paste, drag, or click the image icon to wherever you work with agents on github.com (e.g., from the recently released Agents tab in a repository). Let us know what you build by sharing your feedback. Click the Give feedback button on the top-right corner of any agent session. The post Add images to agent sessions appeared first on The GitHub Blog."
+      },
+      "url": "https://github.blog/changelog/2026-03-05-add-images-to-agent-sessions",
+      "tags": [
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-05-github-2026-03-04-github-copilot-in-visual-studio-february-update",
       "date": "2026-03-05",
       "category": "github",
@@ -9352,95 +9494,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-03-openai-gpt-5-3-instant-system-card",
-      "date": "2026-03-03",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-5.3即时系统卡",
-        "ja": "GPT-5.3 インスタント システム カード",
-        "en": "GPT-5.3 Instant System Card"
-      },
-      "summary": {
-        "zh": "",
-        "ja": "",
-        "en": ""
-      },
-      "url": "https://openai.com/index/gpt-5-3-instant-system-card",
-      "tags": [
-        "publication",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-03-openai-gpt-5-3-instant",
-      "date": "2026-03-03",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-5.3 Instant：更流畅、更有用的日常对话",
-        "ja": "GPT-5.3 Instant: よりスムーズでより便利な日常会話",
-        "en": "GPT-5.3 Instant: Smoother, more useful everyday conversations"
-      },
-      "summary": {
-        "zh": "",
-        "ja": "",
-        "en": ""
-      },
-      "url": "https://openai.com/index/gpt-5-3-instant",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-03-google-release-notes",
-      "date": "2026-03-03",
-      "category": "google",
-      "title": {
-        "zh": "视频生成预览端点弃用",
-        "ja": "ビデオ生成プレビュー エンドポイントの非推奨",
-        "en": "Video generation preview endpoints deprecation"
-      },
-      "summary": {
-        "zh": "已弃用 视频生成预览端点 弃用 下表介绍了已弃用的视频生成端点及其替代品。我们建议在 2026 年 4 月 2 日之前更新您的模型端点，以避免服务中断。已停用的端点 建议的端点迁移 veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp...",
-        "ja": "非推奨のビデオ生成プレビュー エンドポイントの非推奨 次の表では、非推奨となったビデオ生成エンドポイントとその代替品について説明します。サービスの中断を避けるために、2026 年 4 月 2 日までにモデル エンドポイントを更新することをお勧めします。廃止されたエンドポイント 推奨されるエンドポイントの移行 veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp...",
-        "en": "Deprecated Video generation preview endpoints deprecation The following table describes video generation endpoints that are deprecated and their replacements. We recommend updating your model endpoints before April 2, 2026, to avoid service disruption. Discontinued endpoints Recommended endpoint migration veo-3.0-generate-preview veo-3.0-generate-001 veo-3.0-fast-generate-preview veo-3.0-fast-generate-preview veo-2.0-generate-preview veo-2.0-generate-001 veo-2.0-generate-exp..."
-      },
-      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#March_03_2026-video-generation-preview-endpoints-deprecation",
-      "tags": [
-        "deprecated",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-03-03-google-gemini-3-1-flash-lite-built-for-intelligence-at-scale",
-      "date": "2026-03-03",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash-Lite：专为大规模智能而打造",
-        "ja": "Gemini 3.1 Flash-Lite: 大規模なインテリジェンスを実現するために構築",
-        "en": "Gemini 3.1 Flash-Lite: Built for intelligence at scale"
-      },
-      "summary": {
-        "zh": "Gemini 3.1 Flash-Lite 是我们迄今为止速度最快、最具成本效益的 Gemini 3 系列型号。",
-        "ja": "Gemini 3.1 Flash-Lite は、これまでで最速かつ最もコスト効率の高い Gemini 3 シリーズ モデルです。",
-        "en": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
-      },
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
     }
   ]
 }
