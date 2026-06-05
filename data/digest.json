@@ -5362,6 +5362,56 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-23-github-2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理字段已添加到使用指标中",
+        "ja": "Copilot クラウド エージェント フィールドが使用状況メトリクスに追加されました",
+        "en": "Copilot cloud agent fields added to usage metrics"
+      },
+      "summary": {
+        "zh": "在将 Copilot 编码代理重命名为 Copilot 云代理之后，Copilot 使用指标 API 现在在用户级报告中包含一个新的used_copilot_cloud_agent 字段。此布尔字段反映更新后的产品名称下现有的used_copilot_coding_agent 标志。新增内容 字段 说明used_copilot_cloud_agent 用户在报告期间是否有 Copilot 云代理活动（布尔值，可为空） 该字段在单日和 28 天滚动窗口报告中可用，网址为...",
+        "ja": "Copilot コーディング エージェントから Copilot クラウド エージェントへの名前変更に続き、Copilot 使用状況メトリクス API には、ユーザー レベルのレポートに新しい used_copilot_cloud_agent フィールドが含まれるようになりました。このブール値フィールドは、更新された製品名の下にある既存の used_copilot_coding_agent フラグを反映します。新機能 フィールド 説明 used_copilot_cloud_agent レポート期間中にユーザーが Copilot クラウド エージェント アクティビティを行ったかどうか (ブール値、null 可能) このフィールドは、1 日および 28 日のローリング ウィンドウ レポートで使用できます。",
+        "en": "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name. What’s new Field Description used_copilot_cloud_agent Whether the user had Copilot cloud agent activity during the reporting period (boolean, nullable) The field is available in single-day and 28-day rolling window reports at..."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 针对拉取请求的聊天改进",
+        "ja": "Copilot プル リクエストのチャットの改善",
+        "en": "Copilot Chat improvements for pull requests"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 当您处理差异和拉取请求时，聊天现在提供更丰富的上下文和新功能。您可以通过在 github.com/copilot 中询问有关拉取请求的问题或通过全局 Copilot 导航来访问此功能，该导航允许您在任何 GitHub 表面上打开聊天。启用公共预览的用户还可以单击差异上的 Copilot 按钮来提出一系列问题，以更好地了解更改或相关的拉取请求。新能力 三个新...",
+        "ja": "GitHub Copilot Chat では、差分やプル リクエストを操作する際に、より豊富なコンテキストと新機能が提供されるようになりました。この機能にアクセスするには、github.com/copilot でプル リクエストについて質問するか、グローバル Copilot ナビゲーションを介してアクセスできます。これにより、任意の GitHub サーフェス上でチャットを開くことができます。パブリック プレビューが有効なユーザーは、差分の Copilot ボタンをクリックして一連の質問をして、変更内容や関連するプル リクエストをよりよく理解することもできます。新しい能力 3つの新しい...",
+        "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface. Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request. New abilities Three new..."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
       "date": "2026-04-23",
       "category": "github",
@@ -6172,6 +6222,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-14-github-2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "github.com 上 Claude 和 Codex 代理的模型选择",
+        "ja": "github.com での Claude および Codex エージェントのモデル選択",
+        "en": "Model selection for Claude and Codex agents on github.com"
+      },
+      "summary": {
+        "zh": "现在可在 github.com 上为 Claude 和 Codex 第三方编码代理提供模型选择。就像 Copilot 云代理一样，您现在可以在开始任务时选择一个模型 - Anthropic 模型用于 Claude，OpenAI 模型用于 Codex - 让您可以在最新、最强大的模型可用时访问它们。使用 Claude 编码代理时，当前提供以下型号： Claude Sonnet 4.6 Claude Opus 4.6 Claude Sonnet 4.5 Claude Opus 4.5 当使用 Codex 编码时...",
+        "ja": "モデルの選択は、github.com の Claude および Codex サードパーティ コーディング エージェントで利用できるようになりました。 Copilot クラウド エージェントと同様に、タスクを開始するときにモデル (Claude の場合は Anthropic モデル、Codex の場合は OpenAI モデル) を選択できるようになりました。これにより、最新かつ最も機能の高いモデルが利用可能になったときにアクセスできるようになります。 Claude コーディング エージェントを使用する場合、現在次のモデルが利用可能です: Claude Sonnet 4.6 Claude Opus 4.6 Claude Sonnet 4.5 Claude Opus 4.5 Codex コーディングを使用する場合...",
+        "en": "Model selection is now available for the Claude and Codex third-party coding agents on github.com. Just like Copilot cloud agent, you can now select a model when kicking off a task—Anthropic models for Claude, and OpenAI models for Codex—giving you access to the latest and most capable models as they become available. When using the Claude coding agent, the following models are currently available: Claude Sonnet 4.6 Claude Opus 4.6 Claude Sonnet 4.5 Claude Opus 4.5 When using the Codex coding..."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-14-github-2026-04-14-link-code-scanning-alerts-to-github-issues",
       "date": "2026-04-14",
       "category": "github",
@@ -6189,6 +6263,31 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-14-github-2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量：公共预览版中标准结果的改进",
+        "ja": "GitHub コードの品質: パブリック プレビューにおける標準の結果の改善",
+        "en": "GitHub Code Quality: Improvements to standard findings in public preview"
+      },
+      "summary": {
+        "zh": "我们更新了 GitHub 代码质量体验，以便更轻松地在存储库中导航和分类结果。 GitHub 代码质量标准调查结果可帮助您检测存储库默认分支上潜在的可靠性和可维护性问题。每个发现都附带由 GitHub Copilot Autofix 生成的修复建议，以帮助您快速有效地解决问题。通过今天的更新，您现在可以： 按文件路径搜索结果： 快速找到特定文件...",
+        "ja": "GitHub コード品質エクスペリエンスを更新し、リポジトリ全体でのナビゲーションと検出結果の優先順位付けを容易にしました。 GitHub コード品質標準の調査結果は、リポジトリのデフォルト ブランチにおける潜在的な信頼性と保守性の問題を検出するのに役立ちます。各検出結果には、GitHub Copilot Autofix によって生成された修正提案が付属しており、問題を迅速かつ効果的に解決するのに役立ちます。本日の更新により、次のことができるようになりました。 ファイル パスによる検出結果の検索: 特定のファイルをすばやく見つけます...",
+        "en": "We’ve updated the GitHub Code Quality experience to make it easier to navigate and triage findings across your repository. GitHub Code Quality standard findings help you detect potential reliability and maintainability issues on your repository’s default branch. Each finding comes with a fix suggestion, generated by GitHub Copilot Autofix, to help you resolve the issues quickly and effectively. With today’s updates, you can now: Search for findings by file path: Quickly locate specific files..."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-github-code-quality-improvements-to-standard-findings-in-public-preview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "platform-governance",
         "github",
         "changelog"
       ],
@@ -7018,6 +7117,78 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的组织运行器控制",
+        "ja": "Copilot クラウド エージェントの組織ランナー コントロール",
+        "en": "Organization runner controls for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "每次 Copilot 云代理执行任务时，它都会启动一个由 GitHub 操作支持的新开发环境。默认情况下，它在标准的 GitHub 托管运行器上运行，但团队还可以自定义代理环境以使用大型运行器或自托管运行器，以实现更快的性能、访问内部资源等。到目前为止，运行程序是使用 copilot-setup-steps.yml 文件在存储库级别配置的。这使得很难推出一致的默认值或强制执行......",
+        "ja": "Copilot クラウド エージェントがタスクを処理するたびに、GitHub アクションを利用した新しい開発環境が開始されます。デフォルトでは、これは標準の GitHub でホストされるランナーで実行されますが、チームはエージェント環境をカスタマイズして、より高速なパフォーマンスや内部リソースへのアクセスなどのために大規模なランナーや自己ホスト型ランナーを使用することもできます。これまで、ランナーは copilot-setup-steps.yml ファイルを使用してリポジトリ レベルで構成されていました。これにより、一貫したデフォルトを展開したり、強制したりすることが困難になりました。",
+        "en": "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more. Until now, the runner was configured at the repository level with a copilot-setup-steps.yml file. This made it difficult to roll out consistent defaults or enforce..."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的组织防火墙设置",
+        "ja": "Copilot クラウド エージェントの組織ファイアウォール設定",
+        "en": "Organization firewall settings for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "Copilot 云代理包括内置代理防火墙，用于控制 Copilot 的互联网访问并帮助防止提示注入和数据泄露。到目前为止，防火墙是由存储库管理员在存储库级别配置的。组织管理员现在可以管理组织中所有存储库的代理防火墙。这样可以更轻松地大规模部署 Copilot 云代理，并根据您的需求提供正确的默认设置和护栏。组织管理员可以： 转动...",
+        "ja": "Copilot クラウド エージェントには、Copilot のインターネット アクセスを制御し、プロンプト インジェクションやデータ漏洩から保護するためのエージェント ファイアウォールが組み込まれています。これまで、ファイアウォールはリポジトリ管理者によってリポジトリ レベルで設定されていました。組織管理者は、組織内のすべてのリポジトリにわたってエージェント ファイアウォールを管理できるようになりました。これにより、ニーズに合わせた適切なデフォルトとガードレールを備えた Copilot クラウド エージェントを大規模に展開することが容易になります。組織管理者は次のことができます:",
+        "en": "Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the repository level by repository admins. Organization admins can now manage the agent firewall across all repositories in their organization. This makes it easier to roll out Copilot cloud agent at scale with the right defaults and guardrails for your needs. Organization admins can: Turn the..."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 已弃用",
+        "ja": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini は非推奨になりました",
+        "en": "GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 4 月 15 日）：我们更新了这篇文章以包含有关弃用 GPT-5.1 的信息。我们已于 2026 年 4 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-迷你 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-最大 2026-04-01 GPT-5.3-Codex 请...",
+        "ja": "編集者注 (2026 年 4 月 15 日): この投稿を更新して、GPT-5.1 の非推奨に関する情報を追加しました。 2026 年 4 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替品 GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex お願いします...",
+        "en": "Editor’s note (April 15, 2026): We updated this post to include information about the deprecation of GPT-5.1. We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026. Model Deprecation date Suggested alternative GPT-5.1 2026-04-15 GPT-5.3-Codex GPT-5.1-Codex 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Mini 2026-04-01 GPT-5.3-Codex GPT-5.1-Codex-Max 2026-04-01 GPT-5.3-Codex Please..."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
@@ -9423,6 +9594,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-05-anthropic-where-stand-department-war",
+      "date": "2026-03-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "陆军部的情况",
+        "ja": "陸軍省の現状",
+        "en": "Where things stand with the Department of War"
+      },
+      "summary": {
+        "zh": "达里奥·阿莫代的声明",
+        "ja": "ダリオ・アモデイ氏の声明",
+        "en": "A statement from Dario Amodei"
+      },
+      "url": "https://www.anthropic.com/news/where-stand-department-war",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     }
   ]
 }
