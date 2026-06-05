@@ -37,6 +37,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-05-anthropic-migration-guide",
+      "date": "2026-06-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德-opus-4-1-20250805",
+        "ja": "クロード-作品-4-1-20250805",
+        "en": "claude-opus-4-1-20250805"
+      },
+      "summary": {
+        "zh": "我们宣布弃用 Claude Opus 4.1 模型 ( claude-opus-4-1-20250805 )，并计划于 2026 年 8 月 5 日停用 Claude API。我们建议迁移到 Claude Opus 4.8。阅读模型弃用的更多内容。",
+        "ja": "Claude Opus 4.1 モデル ( claude-opus-4-1-20250805 ) の非推奨を発表し、Claude API は 2026 年 8 月 5 日に廃止される予定です。 Claude Opus 4.8 に移行することをお勧めします。詳細については、モデルの非推奨を参照してください。",
+        "en": "We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to Claude Opus 4.8. Read more in model deprecations."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-from-claude-opus-47",
+      "tags": [
+        "claude-opus-4-1-20250805",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-06-04-openai-endava-frontiers",
       "date": "2026-06-04",
       "category": "openai",
@@ -611,30 +634,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-02-github-2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot",
-      "date": "2026-06-02",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1-Flash 现在可用于 GitHub Copilot",
-        "ja": "MAI-Code-1-Flash が GitHub Copilot で利用できるようになりました",
-        "en": "MAI-Code-1-Flash is now available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "MAI‑Code‑1‑Flash 是 Microsoft 最新的小型编码模型，现已从 VS Code 开始在 GitHub Copilot 中推出。 MAI‑Code‑1‑Flash 以其尺寸提供一流的质量，在早期测试中优于其他小型模型，使其非常适合轻量级编码工作流程。专为 GitHub Copilot 设计和调整，这标志着 Microsoft 新一波专用编码模型中的第一个。 GitHub Copilot MAI‑Code‑1‑Flash 的可用性正在开始推出...",
-        "ja": "Microsoft の最新の小規模階層コーディング モデルである MAI‑Code‑1‑Flash は、VS Code から GitHub Copilot で展開されています。 MAI‑Code‑1‑Flash は、そのサイズに対してクラス最高の品質を提供し、初期のテストで他の小型モデルを上回るパフォーマンスを示し、軽量のコーディング ワークフローに最適です。これは、GitHub Copilot 専用に設計および調整されたもので、Microsoft の専用コーディング モデルの新しい波の最初のものです。 GitHub Copilot MAI‑Code‑1‑Flash の提供が開始されています...",
-        "en": "MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing, making it well‑suited for lightweight coding workflows. Designed and tuned specifically for GitHub Copilot, this marks the first in a new wave of purpose‑built coding models from Microsoft. Availability in GitHub Copilot MAI‑Code‑1‑Flash is beginning to roll out..."
-      },
-      "url": "https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-02-github-2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides",
       "date": "2026-06-02",
       "category": "github",
@@ -812,9 +811,9 @@
         "en": "Expanded technical preview availability for the GitHub Copilot app"
       },
       "summary": {
-        "zh": "GitHub Copilot 应用程序技术预览版现已向所有现有 Copilot Pro、Pro+、Business 和 Enterprise 客户开放。下载适用于 Windows、macOS 或 Linux 的 Copilot 应用程序以开始使用。 Copilot 免费用户和尚未加入 Copilot 的客户可以加入候补名单，以便在更广泛的访问权限可用时收到通知。现有 Pro+ 客户可以升级到新的 Copilot Max 套餐，以获得更多使用量。此版本也是应用程序重心发生转移的地方。随着代理商做更多...",
-        "ja": "GitHub Copilot アプリのテクニカル プレビューは、既存の Copilot Pro、Pro+、Business、Enterprise のすべての顧客が利用できるようになりました。開始するには、Windows、macOS、または Linux 用の Copilot アプリをダウンロードしてください。 Copilot 無料ユーザーおよびまだ Copilot を利用していない顧客は、待機リストに参加して、より広範なアクセスが利用可能になったときに通知を受け取ることができます。既存の Pro+ 顧客は、新しい Copilot Max プランにアップグレードして、より多くの使用量を含めることができます。このリリースでは、アプリの重心が移動します。エージェントがさらに多くのことを行うと...",
-        "en": "The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get started. Copilot Free users and customers not yet on Copilot can join the waitlist to be notified when broader access becomes available. Existing Pro+ customers can upgrade to the new Copilot Max plan for greater included usage. This release is also where the app’s center of gravity shifts. As agents do more..."
+        "zh": "编者注（2026 年 6 月 5 日）：删除了等候名单链接并更新了 GitHub Copilot 应用程序的链接。 GitHub Copilot 应用程序技术预览版现已向所有现有 Copilot Pro、Pro+、Business 和 Enterprise 客户开放。下载适用于 Windows、macOS 或 Linux 的 Copilot 应用程序以开始使用。 Copilot 免费用户和新订阅者的访问权限即将开放。现有 Pro+ 客户可以升级到新的 Copilot Max 套餐，以获得更多使用量。此版本也是...",
+        "ja": "編集者注記 (2026 年 6 月 5 日): 待機リストのリンクを削除し、GitHub Copilot アプリへのリンクを更新しました。 GitHub Copilot アプリのテクニカル プレビューは、既存の Copilot Pro、Pro+、Business、Enterprise のすべての顧客が利用できるようになりました。開始するには、Windows、macOS、または Linux 用の Copilot アプリをダウンロードしてください。 Copilot 無料ユーザーと新規購読者のアクセスは間もなく開始されます。既存の Pro+ 顧客は、新しい Copilot Max プランにアップグレードして、より多くの使用量を含めることができます。このリリースでは、...",
+        "en": "Editor’s note (June 5, 2026): Removed the waitlist link and updated the links to the GitHub Copilot app. The GitHub Copilot app technical preview is now available to all existing Copilot Pro, Pro+, Business, and Enterprise customers. Download the Copilot app for Windows, macOS, or Linux to get started. Access for Copilot Free users and new subscribers will be opening soon. Existing Pro+ customers can upgrade to the new Copilot Max plan for greater included usage. This release is also where the..."
       },
       "url": "https://github.blog/changelog/2026-06-02-expanded-technical-preview-availability-for-the-github-copilot-app",
       "tags": [
@@ -845,31 +844,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-02-github-2026-06-02-copilot-memory-supports-user-preferences-for-business-enterprise",
-      "date": "2026-06-02",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 内存支持商业、企业用户偏好",
-        "ja": "Copilot メモリはビジネス、エンタープライズ向けのユーザー設定をサポートします",
-        "en": "Copilot Memory supports user preferences for Business, Enterprise"
-      },
-      "summary": {
-        "zh": "继向 Copilot Pro 和 Pro+ 用户推出之后，Copilot Memory 正在为 Copilot Business 和 Copilot Enterprise 的公共预览版推出用户级别首选项，并提供新的治理管理控件。 Copilot 内存现在可以捕获用户级别的首选项，例如通信方式、工具堆栈或 git 约定，并将它们应用于存储库和 Copilot 体验。这些用户级首选项补充了现有的存储库级事实，这些事实适用于所有协作者，但是......",
-        "ja": "Copilot Pro および Pro+ ユーザーへの展開に続き、Copilot Memory は、ガバナンスのための新しい管理制御を備えた Copilot Business および Copilot Enterprise のパブリック プレビューでユーザー レベルの設定を展開しています。 Copilot メモリは、通信スタイル、ツール スタック、git 規約などのユーザーレベルの設定をキャプチャし、それらをリポジトリと Copilot エクスペリエンス全体に適用できるようになりました。これらのユーザーレベルの設定は、すべてのコラボレーターに適用される既存のリポジトリレベルの事実を補完します。",
-        "en": "Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for governance. Copilot Memory can now capture user-level preferences such as communication style, tool stack, or git conventions, applying them across repositories and Copilot experiences. These user-level preferences complement existing repository-level facts, which are applied to all collaborators but..."
-      },
-      "url": "https://github.blog/changelog/2026-06-02-copilot-memory-supports-user-preferences-for-business-enterprise",
-      "tags": [
-        "release",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -2839,30 +2813,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "使用 Copilot 云代理一键修复失败的操作",
-        "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正",
-        "en": "One-click fixes for failing Actions with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。它通过自己的基于云的开发环境完成这一切。这意味着您可以将简单但耗时的工作交给 Copilot （例如，修复测试或纠正 linter...",
-        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。これらすべてを独自のクラウドベースの開発環境から実行します。これは、単純だが時間のかかる作業 (テストの修正やリンターの修正など) を Copilot に引き継ぐことができることを意味します。",
-        "en": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done. It does all this from its own cloud-based development environment. This means you can hand off simple but time-consuming work to Copilot (e.g., fixing tests or correcting linter..."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
       "date": "2026-05-18",
       "category": "github",
@@ -2877,30 +2827,6 @@
         "en": "Copilot Spaces API is now generally available The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale. This is especially useful for enterprises that need to manage multiple Spaces without relying on manual workflows in the GitHub UI. What you can do with the Spaces API: Create new Spaces programmatically Retrieve details about..."
       },
       "url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
-        "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル",
-        "en": "Copilot cloud agent: Fast, cost-efficient models for simple tasks"
-      },
-      "summary": {
-        "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用于完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。这意味着您可以为工作选择正确的模型：更小、更快的模型用于简单的更改，或者更强大的模型用于复杂的工作。除了现有选项外，现在还提供以下型号： Claude Haiku 4.5（0.33x 乘数） GPT-5.4-mini（0.33x 乘数） 要了解...",
-        "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。これは、単純な変更には小型で高速なモデル、複雑な作業にはより高性能なモデルなど、ジョブに適したモデルを選択できることを意味します。既存のオプションに加えて、次のモデルが利用可能になりました: Claude Haiku 4.5 (0.33x 乗数) GPT-5.4-mini (0.33x 乗数) 学習するには...",
-        "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options. This means you can pick the right model for the job: a smaller, quicker model for straightforward changes, or a more capable model for complex work. The following models are now available, in addition to the existing options: Claude Haiku 4.5 (0.33x multiplier) GPT-5.4-mini (0.33x multiplier) To learn..."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
       "tags": [
         "release",
         "copilot",
@@ -4543,55 +4469,6 @@
       "tags": [
         "release",
         "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-05-github-2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
-      "date": "2026-05-05",
-      "category": "github",
-      "title": {
-        "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
-        "ja": "GitHub MCP サーバーによる依存関係のスキャンはパブリック プレビュー中です",
-        "en": "Dependency scanning with GitHub MCP Server is in public preview"
-      },
-      "summary": {
-        "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描您的代码更改以查找易受攻击的依赖项。当您使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时，您将发现已知的漏洞。现在，它已针对启用了 Dependabot 警报的存储库提供公共预览版。工作原理 依赖项漏洞扫描工具作为 GitHub MCP 服务器的 dependentabot 工具集的一部分提供。启用后，您的 AI 编码代理可以运行依赖性漏洞扫描...",
-        "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、コードの変更をスキャンして脆弱な依存関係を見つけることができるようになりました。 MCP 互換の IDE と AI コーディング エージェントを使用してコードを作成するときに、既知の脆弱性を発見できます。現在、Dependabot アラートが有効になっているリポジトリのパブリック プレビュー段階にあります。仕組み 依存関係脆弱性スキャン ツールは、GitHub MCP サーバーの dependabot ツールセットの一部として出荷されます。有効にすると、AI コーディング エージェントは依存関係の脆弱性スキャンを実行できるようになります...",
-        "en": "The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You’ll catch known vulnerabilities while you write code with MCP-compatible IDEs and AI coding agents. It’s now in public preview for repositories with Dependabot alerts enabled. How it works The dependency vulnerability scanning tools ship as part of the GitHub MCP Server’s dependabot toolset. Once enabled, your AI coding agent can run dependency vulnerability scanning..."
-      },
-      "url": "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
-      "tags": [
-        "release",
-        "supply-chain-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-05-github-2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
-      "date": "2026-05-05",
-      "category": "github",
-      "title": {
-        "zh": "Microsoft Defender for Cloud 的代码到云风险可见性现已全面推出",
-        "ja": "Microsoft Defender for Cloud によるコードからクラウドへのリスクの可視化が一般提供になりました",
-        "en": "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available"
-      },
-      "summary": {
-        "zh": "此集成现已普遍可用。自进入公共预览版以来，我们收到了客户的宝贵反馈，并且我们已经进行了后续改进，使工件和运行时上下文更接近 GitHub 高级安全警报体验。此集成连接代码、构建工件和运行时上下文，以便您可以跟踪、确定优先级并修复与您的环境最相关的安全风险。代码到云与 Microsoft Defender for Cloud Defender 的关联...",
-        "ja": "この統合は現在一般提供されています。パブリック プレビューに入って以来、お客様からの貴重なフィードバックを聞き、アーティファクトとランタイム コンテキストを GitHub Advanced Security アラート エクスペリエンスに近づけるフォローアップの改善を出荷してきました。この統合により、コード、ビルド成果物、実行時コンテキストが接続されるため、環境に最も関連するセキュリティ リスクを追跡、優先順位付け、修復できるようになります。 Microsoft Defender for Cloud Defender を使用したコードとクラウドの相関...",
-        "en": "This integration is now generally available. Since entering public preview, we’ve heard valuable feedback from customers, and we’ve shipped follow-up improvements that bring artifact and runtime context closer to the GitHub Advanced Security alert experience. This integration connects code, build artifacts, and runtime context so you can track, prioritize, and remediate the security risks most relevant to your environment. Code-to-cloud correlation with Microsoft Defender for Cloud Defender for..."
-      },
-      "url": "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
-      "tags": [
-        "release",
-        "application-security",
-        "supply-chain-security",
         "github",
         "changelog"
       ],
@@ -6922,30 +6799,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-04-07-github-2026-04-06-npm-trusted-publishing-now-supports-circleci",
-      "date": "2026-04-07",
-      "category": "github",
-      "title": {
-        "zh": "npm 可信发布现在支持 CircleCI",
-        "ja": "npm Trusted Publishing が CircleCI をサポートするようになりました",
-        "en": "npm trusted publishing now supports CircleCI"
-      },
-      "summary": {
-        "zh": "npm 可信发布现在支持 CircleCI 作为 OIDC 提供商，加入 GitHub Actions 和 GitLab CI/CD。从 CircleCI 工作流程发布的维护者现在可以完全消除存储的凭据，并直接通过其 CI/CD 管道进行身份验证。通过这种扩展，可信发布现在覆盖了 CI 提供商的绝大多数 npm 发布者。可通过 npm 网站和 npm trust CLI 命令进行配置。请参阅受信任的发布文档进行设置...",
-        "ja": "npm Trusted Publishing は、OIDC プロバイダーとして CircleCI をサポートし、GitHub アクションと GitLab CI/CD に加わりました。 CircleCI ワークフローから公開するメンテナは、保存されている認証情報を完全に削除し、CI/CD パイプラインを通じて直接認証できるようになりました。この拡張により、信頼できるパブリッシングは、CI プロバイダーによる npm パブリッシャーの大部分をカバーするようになりました。構成は、npm Web サイトおよび npm trust CLI コマンドを通じて利用できます。セットアップについては、信頼できる公開ドキュメントを参照してください...",
-        "en": "npm trusted publishing now supports CircleCI as an OIDC provider, joining GitHub Actions and GitLab CI/CD. Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly through their CI/CD pipeline. With this expansion, trusted publishing now covers a large majority of npm publishers by CI provider. Configuration is available through the npm website and the npm trust CLI command. See the trusted publishing documentation for setup..."
-      },
-      "url": "https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci",
-      "tags": [
-        "improvement",
-        "supply-chain-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-04-07-anthropic-messages",
       "date": "2026-04-07",
       "category": "anthropic",
@@ -7057,32 +6910,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-06-github-2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
-      "date": "2026-04-06",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户",
-        "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました",
-        "en": "Copilot usage metrics now identify active and passive Copilot code review users"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级报告中了解用户如何参与 Copilot 代码审查，从而更清晰地了解 CCR 采用和参与情况。在 API 响应中，CCR 使用情况由用户级别的两个字段表示：used_copilot_code_review_active：当用户有意参与 Copilot 时设置为 true...",
-        "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザーレベルのレポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。 API 応答内では、CCR の使用状況はユーザー レベルの 2 つのフィールドで表されます。 used_copilot_code_review_active: ユーザーが意図的に Copilot を使用した場合に true に設定します。",
-        "en": "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement. Within the API response, CCR usage is represented by two fields at the user level: used_copilot_code_review_active: Set to true when a user intentionally engaged with Copilot..."
-      },
-      "url": "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-04-06-anthropic-google-broadcom-partnership-compute",
