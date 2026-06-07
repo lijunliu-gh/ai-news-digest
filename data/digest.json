@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06",
+  "lastUpdated": "2026-06-07",
   "windowMonths": 3,
   "items": [
     {
@@ -9211,118 +9211,6 @@
         "openai"
       ],
       "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-06-openai-codex-security-now-in-research-preview",
-      "date": "2026-03-06",
-      "category": "openai",
-      "title": {
-        "zh": "Codex 安全性：现在处于研究预览阶段",
-        "ja": "Codex セキュリティ: 研究プレビュー中",
-        "en": "Codex Security: now in research preview"
-      },
-      "summary": {
-        "zh": "Codex Security 是一种人工智能应用程序安全代理，可分析项目上下文，以更高的置信度和更少的噪音来检测、验证和修补复杂的漏洞。",
-        "ja": "Codex Security は、プロジェクトのコンテキストを分析して、より高い信頼性と少ないノイズで複雑な脆弱性を検出、検証、パッチ適用する AI アプリケーション セキュリティ エージェントです。",
-        "en": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise."
-      },
-      "url": "https://openai.com/index/codex-security-now-in-research-preview",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-06-openai-balyasny-asset-management",
-      "date": "2026-03-06",
-      "category": "openai",
-      "title": {
-        "zh": "Balyasny Asset Management 如何构建人工智能研究引擎",
-        "ja": "Balyasny Asset Management が AI 研究エンジンを構築した方法",
-        "en": "How Balyasny Asset Management built an AI research engine"
-      },
-      "summary": {
-        "zh": "通过将严格的模型评估、OpenAI 的全平台使用和代理工作流程相结合，Balyasny 正在重塑投资研究。",
-        "ja": "Balyasny 氏は、厳密なモデル評価、OpenAI のフルプラットフォームの使用、エージェントのワークフローを組み合わせることで、投資調査を再発明しています。",
-        "en": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research."
-      },
-      "url": "https://openai.com/index/balyasny-asset-management",
-      "tags": [
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-06-github-2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
-      "date": "2026-03-06",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
-        "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース",
-        "en": "GitHub Copilot in Visual Studio Code v1.110 – February release"
-      },
-      "summary": {
-        "zh": "Visual Studio Code 2026 年 2 月版使代理适用于运行时间较长且更复杂的任务。这使您可以更好地控制它们的运行方式、扩展它们功能的新方法以及保持上下文完整的更智能的会话管理。使用挂钩对代理进行自动化编程：在关键代理生命周期事件中运行代码，以在命令执行之前强制执行策略、自动检查或阻止命令。分叉对话：从任何检查点分支以探索替代路径，而无需......",
-        "ja": "Visual Studio Code 2026 年 2 月リリースでは、エージェントは実行時間のかかる、より複雑なタスクに実用的になります。これにより、セッションの実行方法をより詳細に制御できるようになり、実行できることを拡張する新しい方法が提供され、コンテキストをそのまま維持するよりスマートなセッション管理が可能になります。エージェントをプログラムする フックを使用して自動化する: 主要なエージェントのライフサイクル イベントでコードを実行し、ポリシーを適用したり、自動 lint を実行したり、実行前にコマンドをブロックしたりできます。会話をフォークする: チェックポイントから分岐して、別のパスを探索します...",
-        "en": "The Visual Studio Code February 2026 release makes agents practical for longer-running and more complex tasks. This gives you more control over how they run, new ways to extend what they can do, and smarter session management that keeps context intact. Program your agents Automate with hooks: Run your code at key agent lifecycle events to enforce policies, auto-lint, or block commands before they execute. Fork a conversation: Branch from any checkpoint to explore an alternative path without..."
-      },
-      "url": "https://github.blog/changelog/2026-03-06-github-copilot-in-visual-studio-code-v1-110-february-release",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-06-github-2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
-      "date": "2026-03-06",
-      "category": "github",
-      "title": {
-        "zh": "Figma MCP 服务器现在可以从 VS Code 生成设计层",
-        "ja": "Figma MCP サーバーは VS Code からデザイン レイヤーを生成できるようになりました",
-        "en": "Figma MCP server can now generate design layers from VS Code"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 用户现在可以连接到 Figma MCP 服务器，将设计上下文拉入代码并将渲染的 UI 作为可编辑框架发送到 Figma。这些功能共同支持互联工作流程：根据设计生成代码、将 UI 发送回 Figma 进行迭代，以及将更新拉回到代码库中。此功能现已在 VS Code 中提供，并且很快将在 Copilot CLI 中提供。它是如何工作的 Figma MCP 服务器和 GitHub Copilot 入门很简单：安装 Figma...",
-        "ja": "GitHub Copilot ユーザーは、Figma MCP サーバーに接続して、デザイン コンテキストをコードに取り込み、レンダリングされた UI を編集可能なフレームとして Figma に送信できるようになりました。これらの機能を組み合わせることで、接続されたワークフローがサポートされます。つまり、デザインからコードを生成し、反復のために UI を Figma に送り返し、更新をコードベースに取り込みます。この機能は現在 VS Code で利用可能であり、近日中に Copilot CLI にも追加される予定です。仕組み Figma MCP サーバーと GitHub Copilot の使用を開始するのは簡単です。Figma をインストールします...",
-        "en": "GitHub Copilot users can now connect to the Figma MCP server to both pull design context into code and send rendered UI to Figma as editable frames. Together, these capabilities support a connected workflow: generate code from a design, send your UI back to Figma for iteration, and pull updates back into your codebase. This feature is available today in VS Code and coming soon to Copilot CLI. How it works Getting started with the Figma MCP server and GitHub Copilot is simple: Install the Figma..."
-      },
-      "url": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-06-anthropic-mozilla-firefox-security",
-      "date": "2026-03-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "与 Mozilla 合作提高 Firefox 的安全性",
-        "ja": "Mozilla と提携して Firefox のセキュリティを向上",
-        "en": "Partnering with Mozilla to improve Firefox’s security"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
       "sourceType": "news"
     }
   ]
