@@ -3,6 +3,72 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-06-08-openai-openai-submits-confidential-s-1",
+      "date": "2026-06-08",
+      "category": "openai",
+      "title": {
+        "zh": "向 SEC 秘密提交 S-1 草案",
+        "ja": "S-1 草案を秘密裏に SEC に提出",
+        "en": "Confidential submission of draft S-1 to the SEC"
+      },
+      "summary": {
+        "zh": "OpenAI 最近向 SEC 提交了一份机密 S-1，但尚未决定具体时间。",
+        "ja": "OpenAI は最近 SEC に機密 S-1 を提出しましたが、時期はまだ決定していません。",
+        "en": "OpenAI recently submitted a confidential S-1 to the SEC and has not decided on timing."
+      },
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-08-openai-economic-research-exchange",
+      "date": "2026-06-08",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 经济研究交流中心简介",
+        "ja": "OpenAI 経済研究交流のご紹介",
+        "en": "Introducing the OpenAI Economic Research Exchange"
+      },
+      "summary": {
+        "zh": "OpenAI 启动经济研究交流中心，研究人工智能对就业、生产力和经济的影响。选定的研究项目现已开放申请。",
+        "ja": "OpenAI は、AI が雇用、生産性、経済に与える影響を研究するために、Economic Research Exchange を立ち上げます。厳選された研究プロジェクトへの応募が受付中です。",
+        "en": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects."
+      },
+      "url": "https://openai.com/index/economic-research-exchange",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-08-openai-built-to-benefit-everyone-our-plan",
+      "date": "2026-06-08",
+      "category": "openai",
+      "title": {
+        "zh": "旨在造福所有人：我们的计划",
+        "ja": "すべての人に利益をもたらすように構築: 私たちの計画",
+        "en": "Built to benefit everyone: our plan"
+      },
+      "summary": {
+        "zh": "OpenAI 对人工智能未来的愿景，专注于访问、安全和共享繁荣，致力于确保 AGI 惠及每个人。",
+        "ja": "AI の将来のビジョン。OpenAI は、AGI がすべての人に利益をもたらすように取り組んでおり、アクセス、安全性、繁栄の共有に焦点を当てています。",
+        "en": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone."
+      },
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-05-google-google-ai-updates-may-2026",
       "date": "2026-06-05",
       "category": "google",
@@ -842,6 +908,30 @@
         "en": "Every Copilot session you run (e.g., fixing a bug, reviewing code, spinning up a feature) builds a history only you can query. /chronicle turns that history into standup summaries, personalized tips, and custom instructions that make Copilot work better for you over time. Now, Chronicle has a more complete view of your Copilot sessions across GitHub and your IDEs, including sessions from Copilot cloud agent, Copilot code review, the GitHub Copilot app, VS Code, and JetBrains. This makes it..."
       },
       "url": "https://github.blog/changelog/2026-06-02-gain-insights-across-your-agent-sessions-with-chronicle",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-extend-github-with-agent-apps",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "使用代理应用程序扩展 GitHub",
+        "ja": "エージェント アプリで GitHub を拡張する",
+        "en": "Extend GitHub with agent apps"
+      },
+      "summary": {
+        "zh": "代理应用程序是来自 GitHub 合作伙伴的 AI 代理，可从 GitHub Marketplace 安装，并直接集成到 GitHub 中。您可以像市场上任何其他 GitHub 应用程序一样安装代理应用程序。一旦管理员安装并启用该代理，该代理就可以在您的 GitHub 工作流程中使用，并具有三个入口点： 将问题分配给代理 @在拉取请求评论中提及该代理 在代理 UI 中选择代理并为其提供提示 第一波代理应用程序是...",
+        "ja": "エージェント アプリは、GitHub パートナーの AI エージェントであり、GitHub マーケットプレイスからインストールでき、GitHub に直接統合されます。エージェント アプリは、マーケットプレイスからの他の GitHub アプリと同様にインストールします。管理者がインストールして有効にすると、エージェントは GitHub ワークフロー内で使用できるようになり、次の 3 つのエントリ ポイントがあります: エージェントに問題を割り当てる プル リクエストのコメントでエージェントを @メンションする エージェント UI でエージェントを選択し、プロンプトを表示する エージェント アプリの最初のウェーブは...",
+        "en": "Agent apps are AI agents from GitHub partners, installable from the GitHub Marketplace, and integrated directly into GitHub. You install an agent app just like any other GitHub App from the Marketplace. Once it’s installed and enabled by an administrator, the agent becomes available inside your GitHub workflows, with three entry points: Assign an issue to the agent @mention the agent in a pull request comment Select the agent in the Agents UI and give it a prompt The first wave of agent apps is..."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-extend-github-with-agent-apps",
       "tags": [
         "release",
         "copilot",
@@ -2731,9 +2821,9 @@
         "en": "MCP tunnels"
       },
       "summary": {
-        "zh": "MCP 隧道现在作为研究预览版提供，因此您可以连接到专用网络中的 MCP 服务器。",
-        "ja": "MCP トンネルが Research Preview として利用可能になり、プライベート ネットワーク内の MCP サーバーに接続できるようになりました。",
-        "en": "MCP tunnels is now available as a Research Preview, so you can connect to MCP servers in your private network."
+        "zh": "MCP 隧道现已作为研究预览版提供，因此您可以连接到专用网络中的 MCP 服务器。",
+        "ja": "MCP トンネルがリサーチ プレビューとして利用可能になり、プライベート ネットワーク内の MCP サーバーに接続できるようになりました。",
+        "en": "MCP tunnels is now available as a research preview, so you can connect to MCP servers in your private network."
       },
       "url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview",
       "tags": [
@@ -6851,6 +6941,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-08-anthropic-quickstart",
+      "date": "2026-04-08",
+      "category": "anthropic",
+      "title": {
+        "zh": "蚂蚁命令行界面",
+        "ja": "アント CLI",
+        "en": "ant CLI"
+      },
+      "summary": {
+        "zh": "我们推出了 ant CLI，它是 Claude API 的命令行客户端，可实现与 Claude API 的更快交互、与 Claude Code 的本机集成以及 YAML 文件中 API 资源的版本控制。在 CLI 快速入门中了解更多信息。",
+        "ja": "Claude API のコマンドライン クライアントである ant CLI をリリースしました。これにより、Claude API とのより高速な対話、Claude Code とのネイティブ統合、YAML ファイル内の API リソースのバージョン管理が可能になります。詳細については、CLI クイックスタートをご覧ください。",
+        "en": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI quickstart."
+      },
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/quickstart",
+      "tags": [
+        "ant-cli",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-04-08-anthropic-overview",
       "date": "2026-04-08",
       "category": "anthropic",
@@ -6867,29 +6980,6 @@
       "url": "https://platform.claude.com/docs/en/managed-agents/overview",
       "tags": [
         "claude-managed-agents",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-08-anthropic-cli",
-      "date": "2026-04-08",
-      "category": "anthropic",
-      "title": {
-        "zh": "蚂蚁命令行界面",
-        "ja": "アント CLI",
-        "en": "ant CLI"
-      },
-      "summary": {
-        "zh": "我们推出了 ant CLI，这是 Claude API 的命令行客户端，可以更快地与 Claude API 交互、与 Claude Code 进行本机集成以及 YAML 文件中 API 资源的版本控制。在 CLI 参考中了解更多信息。",
-        "ja": "Claude API のコマンドライン クライアントである Ant CLI をリリースしました。これにより、Claude API との高速な対話、Claude Code とのネイティブ統合、YAML ファイル内の API リソースのバージョン管理が可能になります。詳細については、CLI リファレンスを参照してください。",
-        "en": "We've launched the ant CLI, a command-line client for the Claude API that enables faster interaction with the Claude API, native integration with Claude Code, and versioning of API resources in YAML files. Learn more in the CLI reference."
-      },
-      "url": "https://platform.claude.com/docs/en/api/sdks/cli",
-      "tags": [
-        "ant-cli",
         "anthropic",
         "release-notes"
       ],
@@ -7501,6 +7591,31 @@
       "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
+        "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持",
+        "en": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
+        "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています...",
+        "en": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "tags": [
+        "release",
+        "client-apps",
         "copilot",
         "github",
         "changelog"
@@ -8719,6 +8834,30 @@
       "url": "https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-13-github-2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
+      "date": "2026-03-13",
+      "category": "github",
+      "title": {
+        "zh": "（可选）跳过 Copilot 编码代理操作工作流程的批准",
+        "ja": "必要に応じて、Copilot コーディング エージェントのアクション ワークフローの承認をスキップします",
+        "en": "Optionally skip approval for Copilot coding agent Actions workflows"
+      },
+      "summary": {
+        "zh": "当 Copilot 编码代理打开拉取请求或推送更改时，Copilot 被视为开源项目中的外部贡献者。 GitHub 操作工作流只有在人工使用“批准并运行工作流”按钮批准后才会运行。这有助于保护您免受安全风险，因为 GitHub 操作工作流可能有权访问令牌、机密或存储库权限，具体取决于您的配置。然而，它减慢了验证 Copilot 工作的反馈循环，并且......",
+        "ja": "Copilot コーディング エージェントがプル リクエストを開いたり、変更をプッシュしたりすると、Copilot はオープン ソース プロジェクトの外部貢献者のように扱われます。 GitHub アクション ワークフローは、人間が [ワークフローの承認と実行] ボタンを使用して承認するまで実行されません。構成に応じて、GitHub アクション ワークフローがトークン、シークレット、またはリポジトリのアクセス許可にアクセスできる場合があるため、これはセキュリティ リスクから保護するのに役立ちます。ただし、Copilot の作業を検証するためのフィードバック ループが遅くなります...",
+        "en": "When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button. This helps protect you from security risks, given that GitHub Actions workflows may have access to tokens, secrets, or repository permissions, depending on your configuration. However, it slows down the feedback loop for validating Copilot’s work and..."
+      },
+      "url": "https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
