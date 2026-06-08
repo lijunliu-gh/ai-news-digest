@@ -4078,17 +4078,23 @@
       "date": "2026-05-07",
       "category": "openai",
       "title": {
-        "zh": "OpenAI Codex 的开发者插件",
-        "ja": "OpenAI Codex 用の開発者プラグイン",
-        "en": "OpenAI Developers plugin for Codex"
+        "zh": "GPT-实时-2、GPT-实时-翻译",
+        "ja": "GPT リアルタイム 2、GPT リアルタイム翻訳",
+        "en": "GPT-Realtime-2, GPT-Realtime-Translate"
       },
       "summary": {
-        "zh": "发布了 Codex 的 OpenAI 开发者插件。这可以帮助您通过 OpenAI 平台访问和 OpenAI API 设置指南在 Codex 中构建 AI 应用程序和代理。",
-        "ja": "Codex 用の OpenAI 開発者プラグインをリリースしました。これは、OpenAI プラットフォーム アクセスと OpenAI API セットアップ ガイダンスを備えた Codex で AI アプリケーションとエージェントを構築するのに役立ちます。",
-        "en": "Released the OpenAI Developers plugin for Codex. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance."
+        "zh": "发布了 GPT-Realtime-2，这是一种新的实时语音模型，可为语音到语音代理提供可配置的推理，以及用于流式语音翻译的 GPT-Realtime-Translate 和用于流式语音到文本的 GPT-Realtime-Whisper。更新了实时和音频指南，添加了专用的实时翻译指南，刷新了流转录本的实时转录，并将实时提示指南移至使用实时模型。",
+        "ja": "ストリーミング音声翻訳の GPT-Realtime-Translate およびストリーミング音声テキスト化の GPT-Realtime-Whisper とともに、音声合成エージェントの構成可能な推論を備えた新しいリアルタイム音声モデルである GPT-Realtime-2 をリリースしました。リアルタイムおよびオーディオ ガイドを更新し、専用のリアルタイム翻訳ガイドを追加し、ストリーミング トランスクリプトのリアルタイム トランスクリプションを更新し、リアルタイム プロンプト ガイダンスを「リアルタイム モデルの使用」に移動しました。",
+        "en": "Released GPT-Realtime-2, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with GPT-Realtime-Translate for streaming speech translation and GPT-Realtime-Whisper for streaming speech-to-text. Updated the Realtime and audio guide, added a dedicated Realtime translation guide, refreshed Realtime transcription for streaming transcripts, and moved realtime prompting guidance into Using realtime models."
       },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-openai-developers-plugin-for-codex",
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-gpt-realtime-2-gpt-realtime-translate",
       "tags": [
+        "gpt-realtime-2",
+        "gpt-realtime-translate",
+        "gpt-realtime-whisper",
+        "v1-realtime",
+        "v1-realtime-translations",
+        "v1-realtime-transcription-sessions",
         "feature",
         "openai",
         "changelog"
@@ -4101,23 +4107,17 @@
       "date": "2026-05-07",
       "category": "openai",
       "title": {
-        "zh": "实时2、实时翻译",
-        "ja": "リアルタイム 2、リアルタイム翻訳",
-        "en": "Realtime 2, Realtime Translate"
+        "zh": "OpenAI Codex 的开发者插件",
+        "ja": "OpenAI Codex 用の開発者プラグイン",
+        "en": "OpenAI Developers plugin for Codex"
       },
       "summary": {
-        "zh": "发布了 Realtime 2，这是一种新的实时语音模型，可为语音到语音代理提供可配置的推理，以及用于流式语音翻译的 Realtime Translate 和用于流式语音到文本的 Realtime Whisper。更新了实时和音频指南，添加了专用的实时翻译指南，刷新了流转录本的实时转录，并将实时提示指南移至使用实时模型。",
-        "ja": "Realtime 2 は、音声合成エージェントの構成可能な推論を備えた新しいリアルタイム音声モデルであり、ストリーミング音声翻訳の Realtime Translate およびストリーミング音声テキスト変換の Realtime Whisper とともにリリースされました。リアルタイムおよびオーディオ ガイドを更新し、専用のリアルタイム翻訳ガイドを追加し、ストリーミング トランスクリプトのリアルタイム トランスクリプションを更新し、リアルタイム プロンプト ガイダンスを「リアルタイム モデルの使用」に移動しました。",
-        "en": "Released Realtime 2, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with Realtime Translate for streaming speech translation and Realtime Whisper for streaming speech-to-text. Updated the Realtime and audio guide, added a dedicated Realtime translation guide, refreshed Realtime transcription for streaming transcripts, and moved realtime prompting guidance into Using realtime models."
+        "zh": "发布了 Codex 的 OpenAI 开发者插件。这可以帮助您通过 OpenAI 平台访问和 OpenAI API 设置指南在 Codex 中构建 AI 应用程序和代理。",
+        "ja": "Codex 用の OpenAI 開発者プラグインをリリースしました。これは、OpenAI プラットフォーム アクセスと OpenAI API セットアップ ガイダンスを備えた Codex で AI アプリケーションとエージェントを構築するのに役立ちます。",
+        "en": "Released the OpenAI Developers plugin for Codex. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance."
       },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-realtime-2-realtime-translate",
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-openai-developers-plugin-for-codex",
       "tags": [
-        "gpt-realtime-2",
-        "gpt-realtime-translate",
-        "gpt-realtime-whisper",
-        "v1-realtime",
-        "v1-realtime-translations",
-        "v1-realtime-transcription-sessions",
         "feature",
         "openai",
         "changelog"
@@ -5192,12 +5192,12 @@
       "title": {
         "zh": "GPT-5.5、GPT-5.5 专业版",
         "ja": "GPT-5.5、GPT-5.5プロ",
-        "en": "GPT-5.5, GPT-5.5 pro"
+        "en": "GPT-5.5, GPT-5.5 Pro"
       },
       "summary": {
-        "zh": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search.主要更新包括： 推理工作现在默认为中等。什么时候...",
-        "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 プロをリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。主な更新内容は次のとおりです。 推論の労力がデフォルトで中になりました。いつ...",
-        "en": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium. When..."
+        "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。主要更新包括： 推理工作现在默认为中等。什么时候...",
+        "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。主な更新内容は次のとおりです。 推論の労力がデフォルトで中になりました。いつ...",
+        "en": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium. When..."
       },
       "url": "https://developers.openai.com/api/docs/changelog#2026-04-24-feature-gpt-5-5-gpt-5-5-pro",
       "tags": [

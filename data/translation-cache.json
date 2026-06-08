@@ -1937,10 +1937,6 @@
     "zh": "此更新在预览中引入了内联代理模式、对下一步编辑建议的增强、全局自动批准以及对终端命令和文件编辑的更灵活的控制。它还包括针对 JetBrains IDE 的 GitHub Copilot 的多项用户体验改进和质量改进。新功能 公共预览版中的内联代理模式 内联代理模式现已在公共预览版中提供。这将代理模式功能引入现有的内联聊天体验中，使其成为可能...",
     "ja": "この更新では、プレビューでのインライン エージェント モード、次の編集提案の機能強化、グローバル自動承認、ターミナル コマンドとファイル編集のより柔軟な制御が導入されています。また、JetBrains IDE の GitHub Copilot 全体にわたるいくつかのユーザー エクスペリエンスの改良と品質の向上も含まれています。新機能 パブリック プレビューのインライン エージェント モード インライン エージェント モードがパブリック プレビューで利用できるようになりました。これにより、既存のインライン チャット エクスペリエンスにエージェント モード機能が導入され、次のことが可能になります。"
   },
-  "GPT-5.5, GPT-5.5 pro": {
-    "zh": "GPT-5.5、GPT-5.5 专业版",
-    "ja": "GPT-5.5、GPT-5.5プロ"
-  },
   "Rate Limits API": {
     "zh": "速率限制 API",
     "ja": "レート制限 API"
@@ -1956,10 +1952,6 @@
   "Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant and improving the reliability of our API surface. If your application expects or relies on installation tokens being exactly 40 characters long, it may not handle this new token format correctly. What is changing? We’re now supporting a new, stateless token format for GitHub App installation tokens that improves...": {
     "zh": "从 2026 年 4 月 27 日开始，在接下来的几周内，我们将开始分阶段推出，更新新创建的 GitHub 应用程序安装令牌的格式，使其性能更高，并提高 API 表面的可靠性。如果您的应用程序期望或依赖长度恰好为 40 个字符的安装令牌，则它可能无法正确处理这种新的令牌格式。什么正在改变？我们现在支持 GitHub 应用程序安装令牌的新的无状态令牌格式，该格式改进了...",
     "ja": "2026 年 4 月 27 日から数週間にわたって、新たに作成された GitHub アプリ インストール トークンの形式を更新する段階的なロールアウトを開始し、トークンのパフォーマンスを向上させ、API サーフェスの信頼性を向上させます。アプリケーションがインストール トークンの長さがちょうど 40 文字であることを期待または依存している場合、この新しいトークン形式を正しく処理できない可能性があります。何が変わっているのでしょうか？現在、GitHub アプリ インストール トークンの新しいステートレス トークン形式をサポートしており、改善されています..."
-  },
-  "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium. When...": {
-    "zh": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search.主要更新包括： 推理工作现在默认为中等。什么时候...",
-    "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 プロをリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。主な更新内容は次のとおりです。 推論の労力がデフォルトで中になりました。いつ..."
   },
   "GitHub Copilot CLI now supports Copilot auto model selection": {
     "zh": "GitHub Copilot CLI 现在支持 Copilot 自动模型选择",
@@ -2203,14 +2195,6 @@
   "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.": {
     "zh": "在 OpenAI API 中探索新的实时语音模型，该模型可以推理、翻译和转录语音，从而实现更自然、更智能的语音体验。",
     "ja": "OpenAI API の新しいリアルタイム音声モデルを探索して、音声を推論、翻訳、文字起こしすることで、より自然でインテリジェントな音声エクスペリエンスを実現します。"
-  },
-  "Realtime 2, Realtime Translate": {
-    "zh": "实时2、实时翻译",
-    "ja": "リアルタイム 2、リアルタイム翻訳"
-  },
-  "Released Realtime 2, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with Realtime Translate for streaming speech translation and Realtime Whisper for streaming speech-to-text. Updated the Realtime and audio guide, added a dedicated Realtime translation guide, refreshed Realtime transcription for streaming transcripts, and moved realtime prompting guidance into Using realtime models.": {
-    "zh": "发布了 Realtime 2，这是一种新的实时语音模型，可为语音到语音代理提供可配置的推理，以及用于流式语音翻译的 Realtime Translate 和用于流式语音到文本的 Realtime Whisper。更新了实时和音频指南，添加了专用的实时翻译指南，刷新了流转录本的实时转录，并将实时提示指南移至使用实时模型。",
-    "ja": "Realtime 2 は、音声合成エージェントの構成可能な推論を備えた新しいリアルタイム音声モデルであり、ストリーミング音声翻訳の Realtime Translate およびストリーミング音声テキスト変換の Realtime Whisper とともにリリースされました。リアルタイムおよびオーディオ ガイドを更新し、専用のリアルタイム翻訳ガイドを追加し、ストリーミング トランスクリプトのリアルタイム トランスクリプションを更新し、リアルタイム プロンプト ガイダンスを「リアルタイム モデルの使用」に移動しました。"
   },
   "OpenAI Developers plugin for Codex": {
     "zh": "OpenAI Codex 的开发者插件",
@@ -4625,5 +4609,21 @@
   "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement. Within the API response, CCR usage is represented by two fields at the user level: used_copilot_code_review_active: Set to true when a user intentionally engaged with Copilot...": {
     "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级报告中了解用户如何参与 Copilot 代码审查，从而更清晰地了解 CCR 采用和参与情况。在 API 响应中，CCR 使用情况由用户级别的两个字段表示：used_copilot_code_review_active：当用户有意参与 Copilot 时设置为 true...",
     "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザーレベルのレポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。 API 応答内では、CCR の使用状況はユーザー レベルの 2 つのフィールドで表されます。 used_copilot_code_review_active: ユーザーが意図的に Copilot を使用した場合に true に設定します。"
+  },
+  "GPT-Realtime-2, GPT-Realtime-Translate": {
+    "zh": "GPT-实时-2、GPT-实时-翻译",
+    "ja": "GPT リアルタイム 2、GPT リアルタイム翻訳"
+  },
+  "Released GPT-Realtime-2, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with GPT-Realtime-Translate for streaming speech translation and GPT-Realtime-Whisper for streaming speech-to-text. Updated the Realtime and audio guide, added a dedicated Realtime translation guide, refreshed Realtime transcription for streaming transcripts, and moved realtime prompting guidance into Using realtime models.": {
+    "zh": "发布了 GPT-Realtime-2，这是一种新的实时语音模型，可为语音到语音代理提供可配置的推理，以及用于流式语音翻译的 GPT-Realtime-Translate 和用于流式语音到文本的 GPT-Realtime-Whisper。更新了实时和音频指南，添加了专用的实时翻译指南，刷新了流转录本的实时转录，并将实时提示指南移至使用实时模型。",
+    "ja": "ストリーミング音声翻訳の GPT-Realtime-Translate およびストリーミング音声テキスト化の GPT-Realtime-Whisper とともに、音声合成エージェントの構成可能な推論を備えた新しいリアルタイム音声モデルである GPT-Realtime-2 をリリースしました。リアルタイムおよびオーディオ ガイドを更新し、専用のリアルタイム翻訳ガイドを追加し、ストリーミング トランスクリプトのリアルタイム トランスクリプションを更新し、リアルタイム プロンプト ガイダンスを「リアルタイム モデルの使用」に移動しました。"
+  },
+  "GPT-5.5, GPT-5.5 Pro": {
+    "zh": "GPT-5.5、GPT-5.5 专业版",
+    "ja": "GPT-5.5、GPT-5.5プロ"
+  },
+  "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium. When...": {
+    "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。主要更新包括： 推理工作现在默认为中等。什么时候...",
+    "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。主な更新内容は次のとおりです。 推論の労力がデフォルトで中になりました。いつ..."
   }
 }
