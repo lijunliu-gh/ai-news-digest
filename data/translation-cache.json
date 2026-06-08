@@ -2500,14 +2500,6 @@
     "zh": "了解新的 ChatGPT 安全更新如何提高敏感对话中的上下文感知，帮助随着时间的推移检测风险并更安全地做出响应。",
     "ja": "新しい ChatGPT 安全性アップデートが機密性の高い会話におけるコンテキスト認識を向上させ、時間の経過とともにリスクを検出し、より安全に対応できるようにする方法を学びましょう。"
   },
-  "Optionally skip approval for Copilot coding agent Actions workflows": {
-    "zh": "（可选）跳过 Copilot 编码代理操作工作流程的批准",
-    "ja": "必要に応じて、Copilot コーディング エージェントのアクション ワークフローの承認をスキップします"
-  },
-  "When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button. This helps protect you from security risks, given that GitHub Actions workflows may have access to tokens, secrets, or repository permissions, depending on your configuration. However, it slows down the feedback loop for validating Copilot’s work and...": {
-    "zh": "当 Copilot 编码代理打开拉取请求或推送更改时，Copilot 被视为开源项目中的外部贡献者。 GitHub 操作工作流只有在人工使用“批准并运行工作流”按钮批准后才会运行。这有助于保护您免受安全风险，因为 GitHub 操作工作流可能有权访问令牌、机密或存储库权限，具体取决于您的配置。然而，它减慢了验证 Copilot 工作的反馈循环，并且......",
-    "ja": "Copilot コーディング エージェントがプル リクエストを開いたり、変更をプッシュしたりすると、Copilot はオープン ソース プロジェクトの外部貢献者のように扱われます。 GitHub アクション ワークフローは、人間が [ワークフローの承認と実行] ボタンを使用して承認するまで実行されません。構成に応じて、GitHub アクション ワークフローがトークン、シークレット、またはリポジトリのアクセス許可にアクセスできる場合があるため、これはセキュリティ リスクから保護するのに役立ちます。ただし、Copilot の作業を検証するためのフィードバック ループが遅くなります..."
-  },
   "GitHub Copilot support in Zed generally available": {
     "zh": "Zed 中的 GitHub Copilot 支持全面可用",
     "ja": "Zed での GitHub Copilot サポートの一般提供が開始されました"
@@ -3858,14 +3850,6 @@
     "zh": "您运行的每个 Copilot 会话（例如，修复错误、审查代码、启动功能）都会构建只有您可以查询的历史记录。 /chronicle 将历史记录转化为站立摘要、个性化提示和自定义说明，让 Copilot 随着时间的推移更好地为您服务。现在，Chronicle 可以更完整地了解 GitHub 和 IDE 中的 Copilot 会话，包括来自 Copilot 云代理、Copilot 代码审查、GitHub Copilot 应用程序、VS Code 和 JetBrains 的会话。这使得它...",
     "ja": "あなたが実行するすべての Copilot セッション (バグの修正、コードのレビュー、機能の起動など) によって、あなただけがクエリできる履歴が構築されます。 /chronicle は、その履歴をスタンドアップ サマリー、パーソナライズされたヒント、カスタム手順に変換し、Copilot が時間の経過とともにより効果的に機能するようにします。現在、Chronicle では、Copilot クラウド エージェント、Copilot コード レビュー、GitHub Copilot アプリ、VS Code、JetBrains からのセッションを含む、GitHub と IDE にわたる Copilot セッションをより完全に表示できるようになりました。これにより..."
   },
-  "Extend GitHub with agent apps": {
-    "zh": "使用代理应用程序扩展 GitHub",
-    "ja": "エージェント アプリで GitHub を拡張する"
-  },
-  "Agent apps are AI agents from GitHub partners, installable from the GitHub Marketplace, and integrated directly into GitHub. You install an agent app just like any other GitHub App from the Marketplace. Once it’s installed and enabled by an administrator, the agent becomes available inside your GitHub workflows, with three entry points: Assign an issue to the agent @mention the agent in a pull request comment Select the agent in the Agents UI and give it a prompt The first wave of agent apps is...": {
-    "zh": "代理应用程序是来自 GitHub 合作伙伴的 AI 代理，可从 GitHub Marketplace 安装，并直接集成到 GitHub 中。您可以像市场上任何其他 GitHub 应用程序一样安装代理应用程序。一旦管理员安装并启用该代理，该代理就可以在您的 GitHub 工作流程中使用，并具有三个入口点： 将问题分配给代理 @在拉取请求评论中提及该代理 在代理 UI 中选择代理并为其提供提示 第一波代理应用程序是...",
-    "ja": "エージェント アプリは、GitHub パートナーの AI エージェントであり、GitHub マーケットプレイスからインストールでき、GitHub に直接統合されます。エージェント アプリは、マーケットプレイスからの他の GitHub アプリと同様にインストールします。管理者がインストールして有効にすると、エージェントは GitHub ワークフロー内で使用できるようになり、次の 3 つのエントリ ポイントがあります: エージェントに課題を割り当てる プル リクエストのコメントでエージェントを @メンションする エージェント UI でエージェントを選択し、プロンプトを表示する エージェント アプリの最初のウェーブは..."
-  },
   "Expanded technical preview availability for the GitHub Copilot app": {
     "zh": "GitHub Copilot 应用程序的扩展技术预览版可用性",
     "ja": "GitHub Copilot アプリのテクニカル プレビューの利用可能範囲が拡大されました"
@@ -3997,14 +3981,6 @@
   "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over when you open a pull request Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when you move your work forward. Copilot generates code on a branch without opening a pull request. Review the...": {
     "zh": "Copilot 云代理（以前称为 Copilot 编码代理）不再局限于拉取请求工作流程，解锁了更广泛的方式来让 Copilot 发挥作用。对打开拉取请求的时间进行更多控制到目前为止，使用 Copilot 云代理意味着打开拉取请求。现在，Copilot 可以在不创建分支的情况下在分支上工作，从而使您能够更加灵活地决定如何以及何时推进工作。 Copilot 在分支上生成代码而不打开拉取请求。回顾...",
     "ja": "Copilot クラウド エージェント (以前は Copilot コーディング エージェントとして知られていました) はプルリクエスト ワークフローに限定されなくなり、Copilot を機能させるためのより幅広い方法が可能になりました。プル リクエストを開くときの制御の強化 これまで、Copilot クラウド エージェントを使用することは、プル リクエストを開くことを意味していました。 Copilot はブランチを作成せずにブランチで作業できるようになり、いつ、どのように作業を進めるかについてより柔軟に対応できるようになりました。 Copilot は、プル リクエストを開かずにブランチ上にコードを生成します。レビューしてください..."
-  },
-  "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs": {
-    "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
-    "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持"
-  },
-  "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to...": {
-    "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
-    "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています..."
   },
   "GitHub Mobile: Faster, more flexible agent assignment from issues": {
     "zh": "GitHub 移动：更快、更灵活地从问题中分配代理",
