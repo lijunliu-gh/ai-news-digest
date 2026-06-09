@@ -2596,14 +2596,6 @@
     "zh": "我们已经在公共测试版中推出了缓存诊断。在消息请求上传递diagnostics.previous_message_id，API 会报告cache_miss_reason，解释提示缓存前缀与上一回合的差异。在您的请求中包含cache-diagnosis-2026-04-07 beta标头。",
     "ja": "キャッシュ診断をパブリックベータ版で開始しました。メッセージ リクエストで Diagnostics.previous_message_id を渡すと、API はプロンプト キャッシュ プレフィックスが前のターンから分岐した場所を説明するcache_miss_reason を報告します。リクエストに、cache-diagnosis-2026-04-07 beta ヘッダーを含めます。"
   },
-  "Copilot cloud agent signs its commits": {
-    "zh": "Copilot 云代理签署其承诺",
-    "ja": "Copilot クラウド エージェントがコミットに署名します"
-  },
-  "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about...": {
-    "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解更多关于...",
-    "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で検証済みとして表示されるため、そのコミットがエージェントによって真正に作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になったリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。詳細については..."
-  },
   "Gemini 3 Pro deprecated": {
     "zh": "Gemini 3 Pro 已弃用",
     "ja": "Gemini 3 Pro は非推奨になりました"
@@ -2851,14 +2843,6 @@
   "The GitHub MCP Server can now scan your code changes for exposed secrets before you commit or open a pull request. This helps you prevent credential leaks by detecting secrets while you write code with MCP-compatible IDEs and AI coding agents. This feature is now in public preview for repositories with GitHub Secret Protection enabled. How it works In MCP-enabled environments, your AI coding agent can run secret scanning based on your prompts and instructions. When you ask your AI coding agent...": {
     "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描您的代码更改以查找暴露的机密。这可以帮助您在使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时检测机密，从而防止凭据泄露。此功能现已针对启用了 GitHub 秘密保护的存储库提供公共预览版。工作原理 在启用 MCP 的环境中，您的 AI 编码代理可以根据您的提示和指令运行秘密扫描。当你问你的人工智能编码代理时......",
     "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、公開されたシークレットのコード変更をスキャンできるようになりました。これは、MCP 互換の IDE および AI コーディング エージェントを使用してコードを作成するときにシークレットを検出することで、資格情報の漏洩を防ぐのに役立ちます。この機能は現在、GitHub シークレット保護が有効になっているリポジトリに対してパブリック プレビュー段階にあります。仕組み MCP が有効な環境では、AI コーディング エージェントはプロンプトと指示に基づいてシークレット スキャンを実行できます。 AIコーディングエージェントに依頼すると..."
-  },
-  "Copilot coding agent works faster with semantic code search": {
-    "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
-    "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します"
-  },
-  "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses...": {
-    "zh": "Copilot 编码代理现在可以访问语义代码搜索工具，使其能够根据含义查找相关代码，而不是依赖于 grep 等工具的精确文本匹配。当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
-    "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します..."
   },
   "The next phase of OpenAI’s Education for Countries": {
     "zh": "OpenAI 国家教育的下一阶段",
@@ -3726,14 +3710,6 @@
     "zh": "OpenAI 前沿模型和 Codex 现已在 AWS 上普遍提供，为企业提供了一条通过其已使用的 AWS 环境、控制和采购工作流程使用 OpenAI 进行构建的新途径。客户可以开始使用 AWS 上的 OpenAI 并更快地从评估过渡到生产。",
     "ja": "OpenAI フロンティア モデルと Codex が AWS で一般提供されるようになり、企業はすでに使用している AWS 環境、制御、調達ワークフローを通じて OpenAI を使用して構築する新しいパスが得られます。お客様は AWS で OpenAI を使い始めて、評価から本番環境に迅速に移行できます。"
   },
-  "Upcoming deprecation of Grok Code Fast 1": {
-    "zh": "即将弃用 Grok Code Fast 1",
-    "ja": "Grok Code Fast 1 の今後の非推奨"
-  },
-  "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to...": {
-    "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供商弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要...",
-    "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は次のことを行う必要がある場合があります..."
-  },
   "Our views on AI policy and political advocacy": {
     "zh": "我们对人工智能政策和政治倡导的看法",
     "ja": "AI 政策と政治的擁護に関する私たちの見解"
@@ -4261,14 +4237,6 @@
   "Added moderation scores to the Responses API and Chat Completions API. Pass a moderation object in a generation request to receive moderation results for both the model input and generated output in the same response. Learn more in the Moderation guide.": {
     "zh": "向响应 API 和聊天完成 API 添加了审核分数。在生成请求中传递审核对象，以在同一响应中接收模型输入和生成输出的审核结果。请参阅审核指南了解更多信息。",
     "ja": "Responses API と Chat Completions API にモデレーション スコアを追加しました。生成リクエストでモデレーション オブジェクトを渡し、同じ応答でモデル入力と生成された出力の両方のモデレーション結果を受け取ります。詳細については、モデレーション ガイドをご覧ください。"
-  },
-  "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot": {
-    "zh": "数据驻留（美国 + 欧盟）和 FedRAMP 授权模型现已在 Copilot 中提供",
-    "ja": "データ常駐 (米国 + EU) および FedRAMP 認定モデルが Copilot で利用可能になりました"
-  },
-  "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed. GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e...": {
-    "zh": "编者注（2026 年 4 月 24 日）：更新了这篇文章以包含有关这些产品的更详细和具体的信息。我们还添加了参考链接。做出这些更改是为了让更改内容更加清晰。 GitHub Copilot 现在支持美国和欧盟地区的数据驻留，确保所有推理处理和关联数据驻留在您指定的地理位置内。欧盟与 Microsoft 的欧盟数据边界保持一致，涵盖欧盟成员国以及欧洲自由贸易联盟国家（即...",
-    "ja": "編集者注 (2026 年 4 月 24 日): この投稿を更新して、これらのサービスに関するより詳細かつ具体的な情報を追加しました。参考までにリンクも追加しました。これらの変更は、何が変更されたのかを明確にするために行われました。 GitHub Copilot は、米国および EU 地域のデータ常駐をサポートするようになり、すべての推論処理と関連データが指定された地域内に留まるようにします。 EU は、EU 加盟国と EFTA 諸国をカバーする Microsoft の EU データ境界に準拠しています (つまり..."
   },
   "GPT-5.4 mini is now available in Copilot Student auto model selection": {
     "zh": "GPT-5.4 mini现已在Copilot学生汽车车型选择中上市",
