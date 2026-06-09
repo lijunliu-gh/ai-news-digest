@@ -3955,6 +3955,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-08-github-2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Grok Code Fast 1",
+        "ja": "Grok Code Fast 1 の今後の非推奨",
+        "en": "Upcoming deprecation of Grok Code Fast 1"
+      },
+      "summary": {
+        "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供商弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要...",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日までに、サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は次のことを行う必要がある場合があります...",
+        "en": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date. Copilot Enterprise administrators may need to..."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
       "date": "2026-05-08",
       "category": "github",
@@ -5128,30 +5152,6 @@
       "tags": [
         "release",
         "actions",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-27-github-2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-      "date": "2026-04-27",
-      "category": "github",
-      "title": {
-        "zh": "Copilot Student GPT-5.3-Codex 从模型选择器中删除",
-        "ja": "Copilot Student GPT-5.3-Codex をモデル ピッカーから削除",
-        "en": "Copilot Student GPT-5.3-Codex removal from model picker"
-      },
-      "summary": {
-        "zh": "从今天开始，在我们的 Copilot 学生计划中，我们将从模型选择器中删除 GPT-5.3-Codex。它仍然可以通过自动模型选择来使用。自动模型选择旨在将每个请求与最适合作业的模型相匹配，这意味着更少的时间切换设置和更多的时间编码。这也是我们保持学生计划高效且免费向世界各地的学习者提供的方式。这一变化是我们最近推出的临时可靠性和性能措施的一部分......",
-        "ja": "本日より、Copilot Student プランで、GPT-5.3-Codex をモデル ピッカーから削除します。自動車モデルの選択を通じて引き続き利用できます。自動モデル選択は、各リクエストをジョブにとって最も強力なモデルと照合するように構築されているため、設定の切り替えにかかる時間が短縮され、コーディングにかかる​​時間が長くなります。これは、学生プランのパフォーマンスを維持し、世界中の学習者に無料で提供する方法でもあります。この変更は、最近全社に展開した一時的な信頼性とパフォーマンス対策の一部です。",
-        "en": "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection. Auto model selection is built to match each request with the strongest model for the job, which means less time toggling settings and more time coding. It’s also how we keep the Student plan performant and free for learners around the world. This change is part of the temporary reliability and performance measures we recently rolled out across..."
-      },
-      "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-      "tags": [
-        "retired",
         "copilot",
         "github",
         "changelog"
@@ -6558,6 +6558,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-13-github-2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+      "date": "2026-04-13",
+      "category": "github",
+      "title": {
+        "zh": "数据驻留（美国 + 欧盟）和 FedRAMP 授权模型现已在 Copilot 中提供",
+        "ja": "データ常駐 (米国 + EU) および FedRAMP 認定モデルが Copilot で利用可能になりました",
+        "en": "Data residency (US + EU) and FedRAMP-authorized models now available in Copilot"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 4 月 24 日）：更新了这篇文章以包含有关这些产品的更详细和具体的信息。我们还添加了参考链接。做出这些更改是为了让更改内容更加清晰。 GitHub Copilot 现在支持美国和欧盟地区的数据驻留，确保所有推理处理和关联数据驻留在您指定的地理位置内。欧盟与 Microsoft 的欧盟数据边界保持一致，涵盖欧盟成员国以及欧洲自由贸易联盟国家（即...",
+        "ja": "編集者注 (2026 年 4 月 24 日): この投稿を更新して、これらのサービスに関するより詳細かつ具体的な情報を追加しました。参考までにリンクも追加しました。これらの変更は、何が変更されたのかを明確にするために行われました。 GitHub Copilot は、米国および EU 地域のデータ常駐をサポートするようになり、すべての推論処理と関連データが指定された地域内に留まるようにします。 EU は、EU 加盟国と EFTA 諸国をカバーする Microsoft の EU データ境界に準拠しています (例:",
+        "en": "Editor’s note (April 24, 2026): Updated this post to include more detailed and specific information about these offerings. We also added links for reference. These changes were made in an effort to add some clarity about what has changed. GitHub Copilot now supports data residency for US and EU regions, ensuring all inference processing and associated data stay within your designated geography. EU aligns with Microsoft’s EU Data Boundary, which covers EU member states plus EFTA countries (i.e..."
+      },
+      "url": "https://github.blog/changelog/2026-04-13-copilot-data-residency-in-us-eu-and-fedramp-compliance-now-available",
+      "tags": [
+        "release",
+        "copilot",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-10-openai-axios-developer-tool-compromise",
       "date": "2026-04-10",
       "category": "openai",
@@ -7291,6 +7316,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理签署其承诺",
+        "ja": "Copilot クラウド エージェントがコミットに署名します",
+        "en": "Copilot cloud agent signs its commits"
+      },
+      "summary": {
+        "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。这意味着 Copilot 云代理现在可以在启用了“需要签名提交”分支保护规则或规则集的存储库中工作。以前，这是代理无法遵守的规则之一，这导致它完全无法在这些存储库中使用。要了解更多关于...",
+        "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で検証済みとして表示されるため、そのコミットがエージェントによって真正に作成され、改ざんされていないことが確信できます。これは、Copilot クラウド エージェントが、「署名付きコミットが必要」ブランチ保護ルールまたはルールセットが有効になったリポジトリで動作するようになったということを意味します。以前は、これはエージェントが遵守できないルールの 1 つであり、これらのリポジトリでの使用が完全にブロックされていました。詳細については...",
+        "en": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with. This means that Copilot cloud agent now works in repositories with the “Require signed commits” branch protection rule or ruleset enabled. Previously, this was one of the rules that the agent couldn’t comply with, which blocked it entirely from being used in those repositories. To learn more about..."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-02-openai-openai-acquires-tbpn",
       "date": "2026-04-02",
       "category": "openai",
@@ -7492,30 +7541,6 @@
         "en": "Copilot cloud agent (formerly known as Copilot coding agent) is no longer limited to pull-request workflows, unlocking a broader range of ways to put Copilot to work. More control over when you open a pull request Up until now, working with Copilot cloud agent meant opening a pull request. Now Copilot can work on a branch without creating one, giving you more flexibility over how and when you move your work forward. Copilot generates code on a branch without opening a pull request. Review the..."
       },
       "url": "https://github.blog/changelog/2026-04-01-research-plan-and-code-with-copilot-cloud-agent",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-01-github-2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
-      "date": "2026-04-01",
-      "category": "github",
-      "title": {
-        "zh": "GPT-5.4 mini现已在Copilot学生汽车车型选择中上市",
-        "ja": "GPT-5.4 mini が Copilot 学生向け自動車モデル選択で利用可能になりました",
-        "en": "GPT-5.4 mini is now available in Copilot Student auto model selection"
-      },
-      "summary": {
-        "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择普遍用于 Copilot 学生计划。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入GitHub 社区分享您的反馈。后 GPT-5.4 mini 现已在 Copilot 学生汽车模型选择中提供...",
-        "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を介して Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot チャットの Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。ポスト GPT-5.4 mini が Copilot 学生自動車モデル選択で利用可能になりました...",
-        "en": "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection..."
-      },
-      "url": "https://github.blog/changelog/2026-04-01-gpt-5-4-mini-is-now-available-in-copilot-student-auto-model-selection",
       "tags": [
         "release",
         "copilot",
@@ -8669,6 +8694,30 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-17-github-2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "date": "2026-03-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索により高速に動作します",
+        "en": "Copilot coding agent works faster with semantic code search"
+      },
+      "summary": {
+        "zh": "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep.当代理不知道要搜索的精确名称或模式时，语义搜索可以帮助它更快地找到正确的代码。通过测试，我们发现这个新工具可以让 Copilot 在减少 2% 的时间内完成任务，并且质量没有任何变化。无需配置 - 代理自动使用...",
+        "ja": "Copilot コーディング エージェントはセマンティック コード検索ツールにアクセスできるようになり、grep などのツールによるテキストの完全一致に依存するのではなく、意味に基づいて関連コードを検索できるようになりました。エージェントが検索対象の正確な名前やパターンを知らない場合、セマンティック検索を使用すると、適切なコードをより迅速に見つけることができます。テストの結果、この新しいツールにより、Copilot は品質を変えることなく 2% 短い時間でタスクを完了できることがわかりました。構成は必要ありません。エージェントは自動的に使用します...",
+        "en": "Copilot coding agent now has access to a semantic code search tool, allowing it to find relevant code based on meaning rather than relying on exact text matches with tools like grep. When the agent doesn’t know the precise names or patterns to search for, semantic search helps it locate the right code faster. From testing, we’ve found that this new tool allows Copilot to complete tasks in 2% less time without any change in quality. No configuration is required – the agent automatically uses..."
+      },
+      "url": "https://github.blog/changelog/2026-03-17-copilot-coding-agent-works-faster-with-semantic-code-search",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
