@@ -3,6 +3,53 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-06-10-openai-lseg",
+      "date": "2026-06-10",
+      "category": "openai",
+      "title": {
+        "zh": "从数据到决策：伦敦证券交易所集团如何扩展可信人工智能",
+        "ja": "データから意思決定まで: LSEG が信頼できる AI をどのように拡張するか",
+        "en": "From data to decisions: how LSEG is scaling trusted AI"
+      },
+      "summary": {
+        "zh": "了解 LSEG 如何使用 OpenAI 在其全球业务中扩展可信 AI、加速洞察、缩短发布周期并为 4,000 名员工提供支持。",
+        "ja": "LSEG が OpenAI を使用して信頼できる AI をグローバル ビジネス全体に拡張し、洞察を加速し、リリース サイクルを短縮し、4,000 人の従業員に権限を与えている様子をご覧ください。",
+        "en": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees."
+      },
+      "url": "https://openai.com/index/lseg",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-10-github-2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 中现已提供专用安全审查命令",
+        "ja": "専用のセキュリティレビューコマンドが Copilot CLI で利用可能になりました",
+        "en": "Dedicated security review command now available in Copilot CLI"
+      },
+      "summary": {
+        "zh": "现在，您可以直接从 GitHub Copilot CLI 对代码更改运行安全审查。新的 /security-review 斜杠命令作为公共预览版中的实验性功能提供，为您提供一种快速、人工智能驱动的方法，在安全漏洞到达生产代码之前捕获它们。它的作用 /security-review 分析您的本地代码更改并返回：高可信度的安全结果，按严重性和置信度进行评分。您无需离开...即可应用可行的建议",
+        "ja": "コード変更のセキュリティ レビューを GitHub Copilot CLI から直接実行できるようになりました。新しい /security-review スラッシュ コマンドは、パブリック プレビューの実験機能として出荷されており、セキュリティの脆弱性が製品コードに到達する前に、AI 主導の高速な方法で検出できるようになります。機能 /security-review は、ローカル コードの変更を分析し、次の結果を返します: 重大度と信頼度によってスコア付けされた、信頼性の高いセキュリティ結果。画面を離れることなく適用できる実用的な提案...",
+        "en": "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code. What it does /security-review analyzes your local code changes and returns: High-confidence security findings, scored by severity and confidence. Actionable suggestions you can apply without leaving the..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
+      "tags": [
+        "improvement",
+        "application-security",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-09-openai-notion",
       "date": "2026-06-09",
       "category": "openai",
@@ -6367,30 +6414,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-04-17-github-2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-      "date": "2026-04-17",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot CLI 现在支持 Copilot 自动模型选择",
-        "ja": "GitHub Copilot CLI が Copilot 自動モデル選択をサポートするようになりました",
-        "en": "GitHub Copilot CLI now supports Copilot auto model selection"
-      },
-      "summary": {
-        "zh": "Copilot 自动模型选择现在通常可在所有 Copilot 计划的 GitHub Copilot CLI 中使用。通过自动，Copilot 会代表您选择最高效的模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。它根据您的计划和政策路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。汽车将路由到的模型会随着时间的推移而改变。透明度：查看哪个模型直接用于...",
-        "ja": "Copilot 自動モデル選択は、すべての Copilot プランの GitHub Copilot CLI で一般的に利用できるようになりました。 auto では、Copilot がユーザーに代わって最も効率的なモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。計画とポリシーに基づいて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。自動ルーティング先のモデルは時間の経過とともに変化します。透明性: どのモデルが直接使用されているかを確認します...",
-        "en": "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time. Transparency: See which model was used directly in the..."
-      },
-      "url": "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-04-17-anthropic-claude-design-anthropic-labs",

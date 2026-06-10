@@ -1945,14 +1945,6 @@
     "zh": "从 2026 年 4 月 27 日开始，在接下来的几周内，我们将开始分阶段推出，更新新创建的 GitHub 应用程序安装令牌的格式，使其性能更高，并提高 API 表面的可靠性。如果您的应用程序期望或依赖长度恰好为 40 个字符的安装令牌，则它可能无法正确处理这种新的令牌格式。什么正在改变？我们现在支持 GitHub 应用程序安装令牌的新的无状态令牌格式，该格式改进了...",
     "ja": "2026 年 4 月 27 日から数週間にわたって、新たに作成された GitHub アプリ インストール トークンの形式を更新する段階的なロールアウトを開始し、トークンのパフォーマンスを向上させ、API サーフェスの信頼性を向上させます。アプリケーションがインストール トークンの長さがちょうど 40 文字であることを期待または依存している場合、この新しいトークン形式を正しく処理できない可能性があります。何が変わっているのでしょうか？現在、GitHub アプリ インストール トークンの新しいステートレス トークン形式をサポートしており、改善されています..."
   },
-  "GitHub Copilot CLI now supports Copilot auto model selection": {
-    "zh": "GitHub Copilot CLI 现在支持 Copilot 自动模型选择",
-    "ja": "GitHub Copilot CLI が Copilot 自動モデル選択をサポートするようになりました"
-  },
-  "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time. Transparency: See which model was used directly in the...": {
-    "zh": "Copilot 自动模型选择现在通常可在所有 Copilot 计划的 GitHub Copilot CLI 中使用。通过自动，Copilot 会代表您选择最高效的模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。它根据您的计划和政策路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。汽车将路由到的模型会随着时间的推移而改变。透明度：查看哪个模型直接用于...",
-    "ja": "Copilot 自動モデル選択は、すべての Copilot プランの GitHub Copilot CLI で一般的に利用できるようになりました。 auto では、Copilot がユーザーに代わって最も効率的なモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。計画とポリシーに基づいて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。自動ルーティング先のモデルは時間の経過とともに変化します。透明性: どのモデルが直接使用されているかを確認します..."
-  },
   "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search.": {
     "zh": "RAG 引擎的功能元数据搜索 在 Vertex AI RAG 引擎中使用基于模式的元数据搜索。您可以为语料库定义元数据架构，将元数据附加到该语料库中的文件，并在检索期间使用此元数据过滤上下文。有关详细信息，请参阅使用元数据搜索进行过滤。",
     "ja": "機能 RAG エンジンのメタデータ検索 Vertex AI RAG エンジンでスキーマベースのメタデータ検索を使用します。コーパスのメタデータ スキーマを定義し、そのコーパス内のファイルにメタデータを添付し、取得中にこのメタデータを使用してコンテキストをフィルタリングできます。詳細については、「メタデータ検索によるフィルター」を参照してください。"
@@ -4758,5 +4750,21 @@
   "The CodeQL pull request insights tab in GitHub security overview now reports Copilot Autofix and alert statistics from all protected branches, not just the default branch. This gives you a more complete picture of the value Autofix delivers across your entire codebase. What’s new All nine insight tiles and the CSV file you can download on the CodeQL pull requests insights tab now aggregate data from all protected branches instead of only the default branch. You’ll see higher, more...": {
     "zh": "GitHub 安全概述中的 CodeQL 拉取请求洞察选项卡现在报告来自所有受保护分支（而不仅仅是默认分支）的 Copilot 自动修复和警报统计信息。这可以让您更全面地了解 Autofix 在整个代码库中提供的价值。新功能 现在，您可以在 CodeQL 拉取请求洞察选项卡上下载的所有九个洞察图块和 CSV 文件都会聚合来自所有受保护分支（而不仅仅是默认分支）的数据。你会看到更高、更多……",
     "ja": "GitHub セキュリティ概要の CodeQL プル リクエストの洞察タブは、デフォルト ブランチだけでなく、すべての保護されたブランチからの Copilot 自動修正とアラートの統計をレポートするようになりました。これにより、Autofix がコードベース全体にもたらす価値のより完全な全体像が得られます。新機能 CodeQL プル リクエストの [洞察] タブでダウンロードできる 9 つの洞察タイルすべてと CSV ファイルは、デフォルトのブランチのみではなく、すべての保護されたブランチからのデータを集約するようになりました。もっと高く、もっと..."
+  },
+  "From data to decisions: how LSEG is scaling trusted AI": {
+    "zh": "从数据到决策：伦敦证券交易所集团如何扩展可信人工智能",
+    "ja": "データから意思決定まで: LSEG が信頼できる AI をどのように拡張するか"
+  },
+  "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.": {
+    "zh": "了解 LSEG 如何使用 OpenAI 在其全球业务中扩展可信 AI、加速洞察、缩短发布周期并为 4,000 名员工提供支持。",
+    "ja": "LSEG が OpenAI を使用して信頼できる AI をグローバル ビジネス全体に拡張し、洞察を加速し、リリース サイクルを短縮し、4,000 人の従業員に権限を与えている様子をご覧ください。"
+  },
+  "Dedicated security review command now available in Copilot CLI": {
+    "zh": "Copilot CLI 中现已提供专用安全审查命令",
+    "ja": "専用のセキュリティレビューコマンドが Copilot CLI で利用可能になりました"
+  },
+  "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code. What it does /security-review analyzes your local code changes and returns: High-confidence security findings, scored by severity and confidence. Actionable suggestions you can apply without leaving the...": {
+    "zh": "现在，您可以直接从 GitHub Copilot CLI 对代码更改运行安全审查。新的 /security-review 斜杠命令作为公共预览版中的实验性功能提供，为您提供一种快速、人工智能驱动的方法，在安全漏洞到达生产代码之前捕获它们。它的作用 /security-review 分析您的本地代码更改并返回：高可信度的安全结果，按严重性和置信度进行评分。您无需离开...即可应用可行的建议",
+    "ja": "コード変更のセキュリティ レビューを GitHub Copilot CLI から直接実行できるようになりました。新しい /security-review スラッシュ コマンドは、パブリック プレビューの実験機能として出荷されており、セキュリティの脆弱性が製品コードに到達する前に、AI 主導の高速な方法で検出できるようになります。機能 /security-review は、ローカル コードの変更を分析し、次の結果を返します: 重大度と信頼度によってスコア付けされた、信頼性の高いセキュリティ結果。画面を離れることなく適用できる実用的な提案..."
   }
 }
