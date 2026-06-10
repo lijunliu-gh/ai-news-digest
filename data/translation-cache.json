@@ -2876,14 +2876,6 @@
     "zh": "Copilot Spaces API 现已全面可用 GitHub Copilot Spaces API 现已全面可用。您可以直接从自己的应用程序以编程方式创建、读取、更新和删除空间，从而减少团队大规模管理上下文的手动开销。这对于需要管理多个空间而不依赖于 GitHub UI 中的手动工作流程的企业特别有用。您可以使用 Spaces API 做什么： 以编程方式创建新空间 检索有关...的详细信息",
     "ja": "Copilot Spaces API が一般利用可能になりました GitHub Copilot Spaces API が一般利用可能になりました。プログラムを使用して、独自のアプリケーションからスペースを直接作成、読み取り、更新、削除できるため、大規模なコンテキストを管理するチームの手動オーバーヘッドが削減されます。これは、GitHub UI の手動ワークフローに依存せずに複数のスペースを管理する必要がある企業に特に役立ちます。 Spaces API でできること: 新しいスペースをプログラムで作成する 詳細を取得する..."
   },
-  "Copilot usage metrics reports now use GitHub-owned download URLs": {
-    "zh": "Copilot 使用指标报告现在使用 GitHub 拥有的下载 URL",
-    "ja": "Copilot 使用状況メトリック レポートでは、GitHub が所有するダウンロード URL が使用されるようになりました"
-  },
-  "As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and makes firewall and proxy allowlist management easier for enterprise customers. What’s changed Starting today, Copilot usage metrics report download links, which are returned by the Copilot Usage Metrics API, use the new domain copilot-reports.github.com instead of the previous...": {
-    "zh": "正如之前所宣布的，Copilot 使用指标报告的下载 URL 已从 Azure Front Door 域迁移到 GitHub 拥有的稳定自定义域。此更改提高了 URL 稳定性，并使企业客户更轻松地进行防火墙和代理白名单管理。更改内容 从今天开始，Copilot 使用指标 API 返回的 Copilot 使用指标报告下载链接将使用新的域 copilot-reports.github.com，而不是之前的...",
-    "ja": "以前に発表したように、Copilot 使用状況メトリック レポートのダウンロード URL は、Azure Front Door ドメインから、GitHub が所有する安定したカスタム ドメインに移行されました。この変更により、URL の安定性が向上し、企業顧客にとってファイアウォールとプロキシの許可リストの管理が容易になります。変更点 本日より、Copilot 使用状況メトリック API によって返される Copilot 使用状況メトリック レポートのダウンロード リンクでは、以前のドメインではなく新しいドメイン copilot-reports.github.com が使用されます。"
-  },
   "Audit repository Copilot cloud agent configuration via the REST API": {
     "zh": "通过 REST API 审核存储库 Copilot 云代理配置",
     "ja": "REST API を介したリポジトリ Copilot クラウド エージェント構成の監査"
@@ -3300,14 +3292,6 @@
     "zh": "自从推出 Jira GitHub Copilot 编码代理的公共预览版以来，我们一直在密切倾听客户的反馈。感谢所有花时间尝试集成、报告问题和分享建议的人——你们的意见直接影响了我们所发布的改进。新功能 改进的入门和设置指南 根据早期采用者的反馈，集成现在提供更好的指导，包括更清晰的错误消息和解决常见问题的步骤...",
     "ja": "Jira 用 GitHub Copilot コーディング エージェントのパブリック プレビューを開始して以来、私たちはお客様のフィードバックに注意深く耳を傾けてきました。統合を試したり、問題を報告したり、提案を共有したりするために時間を割いてくださった皆様に感謝します。皆様のご意見が、私たちが出荷した改善点に直接反映されました。新機能 オンボーディングとセットアップのガイダンスの改善 早期導入者からのフィードバックに基づいて、統合により、より明確なエラー メッセージや一般的な問題を解決する手順など、より適切なガイダンスが提供されるようになりました。"
   },
-  "GPT-5.5 is generally available for GitHub Copilot": {
-    "zh": "GPT-5.5 一般适用于 GitHub Copilot",
-    "ja": "GPT-5.5 は GitHub Copilot で一般提供されています"
-  },
-  "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t. Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing. Availability in GitHub Copilot GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users. You’ll be able to...": {
-    "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。请注意，作为促销价格的一部分，该型号推出时附带 7.5 倍的高级请求乘数。 GitHub Copilot GPT-5.5 中的可用性将提供给 Copilot Pro+、Copilot Business 和 Copilot Enterprise 用户。你将能够...",
-    "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。このモデルは、プロモーション価格の一環として、7.5 倍のプレミアム リクエスト乗数で発売されることに注意してください。 GitHub での利用可能性 Copilot GPT-5.5 は、Copilot Pro+、Copilot Business、および Copilot Enterprise ユーザーが利用できます。できるようになります..."
-  },
   "GitHub Copilot in Visual Studio Code v1.110 – February release": {
     "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
     "ja": "Visual Studio Code v1.110 の GitHub Copilot – 2 月リリース"
@@ -3638,14 +3622,6 @@
   "With Copilot CLI now available in GitHub Copilot for JetBrains IDEs, this update centers on new capabilities for Copilot CLI sessions, while also delivering a broader set of agentic improvements. For Copilot CLI sessions, that includes agent picker support, new slash commands, and the agent debug panel in public preview, along with the beginning of a phased transition to Copilot CLI agent as the default experience. In parallel, this release also integrates Coding Agent into the unified sessions...": {
     "zh": "由于 Copilot CLI 现已在 JetBrains IDE 的 GitHub Copilot 中可用，此更新以 Copilot CLI 会话的新功能为中心，同时还提供了更广泛的代理改进。对于 Copilot CLI 会话，包括代理选择器支持、新的斜杠命令和公共预览版中的代理调试面板，以及开始分阶段过渡到 Copilot CLI 代理作为默认体验。与此同时，此版本还将 Coding Agent 集成到统一会话中......",
     "ja": "JetBrains IDE の GitHub Copilot で Copilot CLI が利用できるようになったこのアップデートでは、Copilot CLI セッションの新機能が中心となると同時に、幅広いエージェント機能の改善も提供されます。 Copilot CLI セッションの場合、エージェント ピッカーのサポート、新しいスラッシュ コマンド、およびパブリック プレビューのエージェント デバッグ パネルが含まれ、デフォルトのエクスペリエンスとして Copilot CLI エージェントへの段階的な移行が開始されます。並行して、このリリースでは、コーディング エージェントも統合セッションに統合されています..."
-  },
-  "GitHub Copilot in Eclipse: BYOK, skills, and chat updates": {
-    "zh": "Eclipse 中的 GitHub Copilot：BYOK、技能和聊天更新",
-    "ja": "Eclipse の GitHub Copilot: BYOK、スキル、チャットの更新"
-  },
-  "This release of GitHub Copilot in Eclipse packs a lot: a refreshed chat experience, deeper visibility into your session context, BYOK for Business and Enterprise, better ABAP support, and brand new support for skills and prompt files. Read on for the highlights. ✨ What’s new Refreshed chat view with a new combo picker We’ve refreshed the chat view with a brand new combo picker for selecting chat modes and models, surfacing more information for each model right where you make the choice. Session...": {
-    "zh": "Eclipse 中的 GitHub Copilot 版本包含很多内容：焕然一新的聊天体验、对会话上下文的更深入可见性、针对商业和企业的 BYOK、更好的 ABAP 支持以及对技能和提示文件的全新支持。请继续阅读重点内容。 ✨ 新功能 使用新的组合选择器刷新聊天视图 我们使用全新的组合选择器刷新了聊天视图，用于选择聊天模式和模型，在您做出选择时显示每个模型的更多信息。会议...",
-    "ja": "Eclipse の GitHub Copilot のこのリリースには、更新されたチャット エクスペリエンス、セッション コンテキストのより深い可視性、ビジネスおよびエンタープライズ向けの BYOK、より優れた ABAP サポート、スキルとプロンプト ファイルの新しいサポートなど、多くの機能が詰め込まれています。ハイライトを読んでください。 ✨ 新機能 新しいコンボ ピッカーでチャット ビューを更新 チャット モードとモデルを選択するための新しいコンボ ピッカーでチャット ビューを更新し、選択した場所で各モデルの詳細情報を表示します。セッション..."
   },
   "Gain insights across your agent sessions with /chronicle": {
     "zh": "通过 /chronicle 深入了解您的座席会话",
@@ -4766,5 +4742,17 @@
   "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code. What it does /security-review analyzes your local code changes and returns: High-confidence security findings, scored by severity and confidence. Actionable suggestions you can apply without leaving the...": {
     "zh": "现在，您可以直接从 GitHub Copilot CLI 对代码更改运行安全审查。新的 /security-review 斜杠命令作为公共预览版中的实验性功能提供，为您提供一种快速、人工智能驱动的方法，在安全漏洞到达生产代码之前捕获它们。它的作用 /security-review 分析您的本地代码更改并返回：高可信度的安全结果，按严重性和置信度进行评分。您无需离开...即可应用可行的建议",
     "ja": "コード変更のセキュリティ レビューを GitHub Copilot CLI から直接実行できるようになりました。新しい /security-review スラッシュ コマンドは、パブリック プレビューの実験機能として出荷されており、セキュリティの脆弱性が製品コードに到達する前に、AI 主導の高速な方法で検出できるようになります。機能 /security-review は、ローカル コードの変更を分析し、次の結果を返します: 重大度と信頼度によってスコア付けされた、信頼性の高いセキュリティ結果。画面を離れることなく適用できる実用的な提案..."
+  },
+  "DiffusionGemma: 4x faster text generation": {
+    "zh": "DiffusionGemma：文本生成速度提高 4 倍",
+    "ja": "DiffusionGemma: 4 倍高速なテキスト生成"
+  },
+  "GitHub Copilot CLI now supports Copilot auto model selection": {
+    "zh": "GitHub Copilot CLI 现在支持 Copilot 自动模型选择",
+    "ja": "GitHub Copilot CLI が Copilot 自動モデル選択をサポートするようになりました"
+  },
+  "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 based on your plan and policies. The models auto will route to will change over time. Transparency: See which model was used directly in the...": {
+    "zh": "Copilot 自动模型选择现在通常可在所有 Copilot 计划的 GitHub Copilot CLI 中使用。通过自动，Copilot 会代表您选择最高效的模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。它根据您的计划和政策路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。汽车将路由到的模型会随着时间的推移而改变。透明度：查看哪个模型直接用于...",
+    "ja": "Copilot 自動モデル選択は、すべての Copilot プランの GitHub Copilot CLI で一般的に利用できるようになりました。 auto では、Copilot がユーザーに代わって最も効率的なモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。計画とポリシーに基づいて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。自動ルーティング先のモデルは時間の経過とともに変化します。透明性: どのモデルが直接使用されているかを確認します..."
   }
 }
