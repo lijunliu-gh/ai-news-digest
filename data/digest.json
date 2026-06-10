@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-06-10-openai-prc-linked-influence-operations-ai-debates",
+      "date": "2026-06-10",
+      "category": "openai",
+      "title": {
+        "zh": "与中国相关的影响力行动瞄准了美国的人工智能辩论",
+        "ja": "中国関連の影響力作戦が米国のAI議論を標的にしている",
+        "en": "PRC-linked influence operations are targeting AI debates in the US"
+      },
+      "summary": {
+        "zh": "OpenAI 的一份新报告详细介绍了与中国相关的利用人工智能针对美国科技辩论、数据中心叙述、关税和有关 ChatGPT 的虚假声明的影响力行动。",
+        "ja": "OpenAI の新しい報告書では、米国の技術論争、データセンターの言説、関税、ChatGPT に関する虚偽の主張をターゲットとする、AI を使用した中国関連の影響力作戦について詳述しています。",
+        "en": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT."
+      },
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-10-openai-lseg",
       "date": "2026-06-10",
       "category": "openai",
@@ -64,6 +86,30 @@
         "improvement",
         "application-security",
         "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-10-github-2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天现在可以看到您的代理会话",
+        "ja": "Copilot チャットにエージェント セッションが表示されるようになりました",
+        "en": "Copilot Chat now sees your agent sessions"
+      },
+      "summary": {
+        "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。更改内容当您通过要求聊天创建会话、创建拉取请求或对存储库进行深入研究来启动代理会话时，聊天现在会反映正在进行的会话的状态。会议结束后，您可以提出会议的后续问题或开始另一个会议...",
+        "ja": "Copilot Chat と Web 上の Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。変更点 チャットにセッションの作成、プル リクエストの作成、またはリポジトリでの詳細な調査を依頼してエージェント セッションを開始すると、進行中のセッションのステータスがチャットに反映されるようになりました。セッションが完了したら、セッションに関してフォローアップの質問をしたり、別のセッションを開始したりできます。",
+        "en": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat. What’s changed When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session. When a session is complete, you can ask follow-up questions on the session or kick off another..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -621,32 +667,6 @@
       "tags": [
         "retired",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-05-github-2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
-      "date": "2026-06-05",
-      "category": "github",
-      "title": {
-        "zh": "公共预览版 VS Code 中的企业管理插件",
-        "ja": "パブリック プレビュー中の VS Code のエンタープライズ管理プラグイン",
-        "en": "Enterprise-managed plugins in VS Code in public preview"
-      },
-      "summary": {
-        "zh": "上个月，我们推出了 Copilot CLI 的公共预览版，使企业管理员能够配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。 VS Code 发行版本 1.122 添加了对此企业管理功能的支持。您为企业设置的基线标准适用于每个用户的 Copilot CLI 和 VS Code 客户端。插件支持多种扩展类型并且可以自动安装，有助于改善开发人员的入门...",
-        "ja": "先月、Copilot CLI のパブリック プレビューを開始しました。これにより、エンタープライズ管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになります。 VS Code リリース バージョン 1.122 では、このエンタープライズ管理機能のサポートが追加されています。企業向けに設定したベースライン標準は、すべてのユーザーの Copilot CLI および VS Code クライアントに適用されます。プラグインは多くの拡張タイプをサポートしており、自動的にインストールできるため、開発者のオンボーディングの向上に役立ちます。",
-        "en": "Last month we launched a public preview with Copilot CLI that allows enterprise administrators the ability to configure and distribute plugins to GitHub Copilot CLI users across their enterprise. VS Code release version 1.122 adds support for this enterprise-managed capability. The baseline standards you set for your enterprise apply to every user’s Copilot CLI and VS Code clients. Plugins support many extensibility types and can be automatically installed, helping improve developer onboarding..."
-      },
-      "url": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -1315,6 +1335,30 @@
       "url": "https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated",
       "tags": [
         "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-github-copilot-in-eclipse-byok-skills-and-chat-updates",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "Eclipse 中的 GitHub Copilot：BYOK、技能和聊天更新",
+        "ja": "Eclipse の GitHub Copilot: BYOK、スキル、チャットの更新",
+        "en": "GitHub Copilot in Eclipse: BYOK, skills, and chat updates"
+      },
+      "summary": {
+        "zh": "Eclipse 中的 GitHub Copilot 版本包含很多内容：焕然一新的聊天体验、对会话上下文的更深入可见性、针对商业和企业的 BYOK、更好的 ABAP 支持以及对技能和提示文件的全新支持。请继续阅读重点内容。 ✨ 新功能 使用新的组合选择器刷新聊天视图 我们使用全新的组合选择器刷新了聊天视图，用于选择聊天模式和模型，在您做出选择时显示每个模型的更多信息。会议...",
+        "ja": "Eclipse の GitHub Copilot のこのリリースには、更新されたチャット エクスペリエンス、セッション コンテキストのより深い可視性、ビジネスおよびエンタープライズ向けの BYOK、より優れた ABAP サポート、スキルとプロンプト ファイルの新しいサポートなど、多くの機能が詰め込まれています。ハイライトを読んでください。 ✨ 新機能 新しいコンボ ピッカーでチャット ビューを更新 チャット モードとモデルを選択するための新しいコンボ ピッカーでチャット ビューを更新し、選択した場所で各モデルの詳細情報を表示します。セッション...",
+        "en": "This release of GitHub Copilot in Eclipse packs a lot: a refreshed chat experience, deeper visibility into your session context, BYOK for Business and Enterprise, better ABAP support, and brand new support for skills and prompt files. Read on for the highlights. ✨ What’s new Refreshed chat view with a new combo picker We’ve refreshed the chat view with a brand new combo picker for selecting chat modes and models, surfacing more information for each model right where you make the choice. Session..."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-github-copilot-in-eclipse-byok-skills-and-chat-updates",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -2882,6 +2926,31 @@
         "release",
         "copilot",
         "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-20-github-2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
+      "date": "2026-05-20",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标报告现在使用 GitHub 拥有的下载 URL",
+        "ja": "Copilot 使用状況メトリクス レポートでは、GitHub が所有するダウンロード URL が使用されるようになりました",
+        "en": "Copilot usage metrics reports now use GitHub-owned download URLs"
+      },
+      "summary": {
+        "zh": "正如之前所宣布的，Copilot 使用指标报告的下载 URL 已从 Azure Front Door 域迁移到 GitHub 拥有的稳定自定义域。此更改提高了 URL 稳定性，并使企业客户更轻松地进行防火墙和代理白名单管理。更改内容 从今天开始，Copilot 使用指标 API 返回的 Copilot 使用指标报告下载链接将使用新的域 copilot-reports.github.com，而不是之前的...",
+        "ja": "以前に発表したように、Copilot 使用状況メトリック レポートのダウンロード URL は、Azure Front Door ドメインから、GitHub が所有する安定したカスタム ドメインに移行されました。この変更により、URL の安定性が向上し、企業顧客にとってファイアウォールとプロキシの許可リストの管理が容易になります。変更点 本日より、Copilot 使用状況メトリック API によって返される Copilot 使用状況メトリック レポートのダウンロード リンクでは、以前のドメインではなく新しいドメイン copilot-reports.github.com が使用されます。",
+        "en": "As previously announced, the download URLs for Copilot usage metrics reports have migrated from Azure Front Door domains to a stable, GitHub-owned custom domain. This change improves URL stability and makes firewall and proxy allowlist management easier for enterprise customers. What’s changed Starting today, Copilot usage metrics report download links, which are returned by the Copilot Usage Metrics API, use the new domain copilot-reports.github.com instead of the previous..."
+      },
+      "url": "https://github.blog/changelog/2026-05-20-copilot-usage-metrics-reports-now-use-github-owned-download-urls",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -5714,6 +5783,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-24-github-2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "date": "2026-04-24",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.5 一般适用于 GitHub Copilot",
+        "ja": "GPT-5.5 は GitHub Copilot で一般提供されています",
+        "en": "GPT-5.5 is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。请注意，作为促销价格的一部分，该型号推出时附带 7.5 倍的高级请求乘数。 GitHub Copilot GPT-5.5 中的可用性将提供给 Copilot Pro+、Copilot Business 和 Copilot Enterprise 用户。你将能够...",
+        "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。このモデルは、プロモーション価格の一環として、7.5 倍のプレミアム リクエスト乗数で発売されることに注意してください。 GitHub での利用可能性 Copilot GPT-5.5 は、Copilot Pro+、Copilot Business、および Copilot Enterprise ユーザーが利用できます。できるようになります...",
+        "en": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t. Note that this model is launching with a 7.5× premium request multiplier as part of promotional pricing. Availability in GitHub Copilot GPT-5.5 will be available to Copilot Pro+, Copilot Business, and Copilot Enterprise users. You’ll be able to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-24-anthropic-rate-limits-api",
       "date": "2026-04-24",
       "category": "anthropic",
@@ -5910,30 +6003,6 @@
         "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface. Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request. New abilities Three new..."
       },
       "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
-      "date": "2026-04-23",
-      "category": "github",
-      "title": {
-        "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
-        "ja": "Web 上の GitHub Copilot を使用したデバッグの改善",
-        "en": "Better debugging with GitHub Copilot on the web"
-      },
-      "summary": {
-        "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
-        "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか...",
-        "en": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what..."
-      },
-      "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
       "tags": [
         "improvement",
         "copilot",
@@ -6891,30 +6960,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-04-13-github-2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
-      "date": "2026-04-13",
-      "category": "github",
-      "title": {
-        "zh": "在公共预览版中远程控制 Web 和移动设备上的 CLI 会话",
-        "ja": "パブリック プレビュー中の Web およびモバイルでの CLI セッションのリモート制御",
-        "en": "Remote control CLI sessions on web and mobile in public preview"
-      },
-      "summary": {
-        "zh": "Copilot CLI 不再是纯粹的本地体验。今天，我们将推出 copilot --remote：借助远程功能，您现在可以直接从网络上的 GitHub 或 GitHub 移动应用程序中监控和引导正在运行的 CLI 会话。启用远程会话后，Copilot 将您的 CLI 会话活动实时传输到 GitHub。 CLI 将显示一个链接和一个 QR 代码，您可以从其他设备打开它们以查看、监控并向该会话发送后续命令。活动停留在...",
-        "ja": "Copilot CLI は、純粋にローカルなエクスペリエンスではなくなりました。本日、copilot --remote をリリースします。リモート機能を使用すると、Web 上の GitHub または GitHub モバイル アプリから直接、実行中の CLI セッションを監視および操作できるようになります。リモート セッションが有効になると、Copilot は CLI セッション アクティビティをリアルタイムで GitHub にストリーミングします。 CLI にはリンクと QR コードが表示され、別のデバイスからこれらを開いて表示、監視し、そのセッションにフォローアップ コマンドを送信できます。アクティビティは次のとおりです...",
-        "en": "The Copilot CLI is no longer a purely local experience. Today we’re launching copilot --remote: With remote capabilities, you can now monitor and steer a running CLI session directly from GitHub on the web or in the GitHub Mobile apps. When remote sessions are enabled, Copilot streams your CLI session activity to GitHub in real time. The CLI will display a link and a QR code that you can open from another device to view, monitor, and send follow up commands to that session. Activity stays in..."
-      },
-      "url": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-04-13-github-2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
@@ -8582,30 +8627,6 @@
       "tags": [
         "release",
         "account-management",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
-      "date": "2026-03-24",
-      "category": "github",
-      "title": {
-        "zh": "要求 @copilot 对拉取请求进行更改",
-        "ja": "@copilot にプル リクエストに変更を加えるように依頼します",
-        "en": "Ask @copilot to make changes to a pull request"
-      },
-      "summary": {
-        "zh": "您现在可以在拉取请求中提及@copilot，要求 Copilot 进行更改。您可以要求@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试解决代码审查评论：@copilot解决此评论进行任何其他更改：@copilot添加一个单元测试，覆盖模型参数丢失时的情况Copilot编码代理在其自己的基于云的开发环境中工作，可以在其中进行更改，使用测试和linter验证其工作，然后推送...",
-        "ja": "プル リクエストで @copilot に言及して、Copilot に変更を依頼できるようになりました。 @copilot に次のことを依頼できます: 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは独自のクラウドベースの開発環境で動作し、変更を加え、テストとリンターで動作を検証し、プッシュ...",
-        "en": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push..."
-      },
-      "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
