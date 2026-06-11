@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "windowMonths": 3,
   "items": [
     {
@@ -19,6 +19,28 @@
       "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
       "tags": [
         "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-10-openai-openai-on-oracle-cloud",
+      "date": "2026-06-10",
+      "category": "openai",
+      "title": {
+        "zh": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+        "ja": "Oracle クラウド コミットメントを通じて OpenAI モデルと Codex にアクセスします",
+        "en": "Access OpenAI models and Codex through your Oracle cloud commitment"
+      },
+      "summary": {
+        "zh": "通过 Oracle 云访问 OpenAI 模型和 Codex，利用现有承诺构建和部署具有企业安全性和治理的 AI。",
+        "ja": "Oracle Cloudを通じてOpenAIモデルとCodexにアクセスし、エンタープライズ・セキュリティとガバナンスを備えたAIを構築およびデプロイするための既存のコミットメントを利用します。",
+        "en": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance."
+      },
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "tags": [
+        "company",
         "openai"
       ],
       "source": "OpenAI News",
@@ -66,6 +88,30 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-10-github-2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "从 GitHub CLI 管理子问题、类型和依赖关系",
+        "ja": "GitHub CLI からサブ問題、タイプ、依存関係を管理する",
+        "en": "Manage sub-issues, types, and dependencies from GitHub CLI"
+      },
+      "summary": {
+        "zh": "GitHub CLI 现在直接从终端公开问题类型、父问题和子问题关系以及问题依赖关系。这意味着您可以构建和跟踪工作，而无需进入浏览器或编写原始 gh api 脚本。这些正是开发人员和越来越依赖 gh 作为 GitHub 接口的编码代理每天运行的工作流程。 gh issues 中的高级问题功能从 v2.94.0 开始，您现在可以使用问题层次结构、类型和依赖项...",
+        "ja": "GitHub CLI は、課題タイプ、親課題とサブ課題の関係、課題の依存関係を端末から直接公開するようになりました。これは、ブラウザにドロップしたり、生の gh API スクリプトを記述したりせずに、作業を構造化して追跡できることを意味します。これらはまさに、開発者と、GitHub へのインターフェイスとして gh への依存度が高まっているコーディング エージェントの両方が毎日実行するワークフローです。 gh issue の高度な課題機能 v2.94.0 では、課題の階層、タイプ、依存関係を操作できるようになりました。",
+        "en": "GitHub CLI now exposes issue types, parent and sub-issue relationships, and issue dependencies directly from the terminal. This means you can structure and track work without dropping into the browser or writing raw gh api scripts. These are exactly the workflows that both developers, and the coding agents that increasingly rely on gh as their interface to GitHub, run every day. Advanced issue features in gh issue As of v2.94.0, you can now work with issue hierarchy, types, and dependencies..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli",
+      "tags": [
+        "release",
+        "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-10-github-2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
@@ -667,6 +713,32 @@
       "tags": [
         "retired",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-05-github-2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
+      "date": "2026-06-05",
+      "category": "github",
+      "title": {
+        "zh": "公共预览版 VS Code 中的企业管理插件",
+        "ja": "パブリック プレビュー中の VS Code のエンタープライズ管理プラグイン",
+        "en": "Enterprise-managed plugins in VS Code in public preview"
+      },
+      "summary": {
+        "zh": "上个月，我们推出了 Copilot CLI 的公共预览版，使企业管理员能够配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。 VS Code 发行版本 1.122 添加了对此企业管理功能的支持。您为企业设置的基线标准适用于每个用户的 Copilot CLI 和 VS Code 客户端。插件支持多种扩展类型并且可以自动安装，有助于改善开发人员的入门...",
+        "ja": "先月、Copilot CLI のパブリック プレビューを開始しました。これにより、エンタープライズ管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになります。 VS Code リリース バージョン 1.122 では、このエンタープライズ管理機能のサポートが追加されています。企業向けに設定したベースライン標準は、すべてのユーザーの Copilot CLI および VS Code クライアントに適用されます。プラグインは多くの拡張タイプをサポートしており、自動的にインストールできるため、開発者のオンボーディングの向上に役立ちます。",
+        "en": "Last month we launched a public preview with Copilot CLI that allows enterprise administrators the ability to configure and distribute plugins to GitHub Copilot CLI users across their enterprise. VS Code release version 1.122 adds support for this enterprise-managed capability. The baseline standards you set for your enterprise apply to every user’s Copilot CLI and VS Code clients. Plugins support many extensibility types and can be automatically installed, helping improve developer onboarding..."
+      },
+      "url": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -6013,6 +6085,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
+        "ja": "Web 上の GitHub Copilot を使用したデバッグの改善",
+        "en": "Better debugging with GitHub Copilot on the web"
+      },
+      "summary": {
+        "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。更改内容 为了让您能够更快地采取行动，Copilot 的响应现在通过以下方式更加结构化：失败的内容以及失败的原因以及失败的原因...",
+        "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。変更点 より迅速に行動できるように、Copilot の応答は次のようにより構造化されました: 何が失敗したのか、どこで失敗したのか、なぜ失敗したのか...",
+        "en": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”. What’s changed So that you can act faster, Copilot’s responses are now more structured in the following ways: What failed and where Why it failed and what..."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-23-github-2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
       "date": "2026-04-23",
       "category": "github",
@@ -6960,6 +7056,30 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-04-13-github-2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
+      "date": "2026-04-13",
+      "category": "github",
+      "title": {
+        "zh": "在公共预览版中远程控制 Web 和移动设备上的 CLI 会话",
+        "ja": "パブリック プレビュー中の Web およびモバイルでの CLI セッションのリモート制御",
+        "en": "Remote control CLI sessions on web and mobile in public preview"
+      },
+      "summary": {
+        "zh": "Copilot CLI 不再是纯粹的本地体验。今天，我们将推出 copilot --remote：借助远程功能，您现在可以直接从网络上的 GitHub 或 GitHub 移动应用程序中监控和引导正在运行的 CLI 会话。启用远程会话后，Copilot 将您的 CLI 会话活动实时传输到 GitHub。 CLI 将显示一个链接和一个 QR 代码，您可以从其他设备打开它们以查看、监控并向该会话发送后续命令。活动停留在...",
+        "ja": "Copilot CLI は、純粋にローカルなエクスペリエンスではなくなりました。本日、copilot --remote をリリースします。リモート機能を使用すると、Web 上の GitHub または GitHub モバイル アプリから直接、実行中の CLI セッションを監視および操作できるようになります。リモート セッションが有効になると、Copilot は CLI セッション アクティビティをリアルタイムで GitHub にストリーミングします。 CLI にはリンクと QR コードが表示され、別のデバイスからこれらを開いて表示、監視し、そのセッションにフォローアップ コマンドを送信できます。活動は継続中です...",
+        "en": "The Copilot CLI is no longer a purely local experience. Today we’re launching copilot --remote: With remote capabilities, you can now monitor and steer a running CLI session directly from GitHub on the web or in the GitHub Mobile apps. When remote sessions are enabled, Copilot streams your CLI session activity to GitHub in real time. The CLI will display a link and a QR code that you can open from another device to view, monitor, and send follow up commands to that session. Activity stays in..."
+      },
+      "url": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-13-github-2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
@@ -8635,6 +8755,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "date": "2026-03-24",
+      "category": "github",
+      "title": {
+        "zh": "要求 @copilot 对拉取请求进行更改",
+        "ja": "@copilot にプル リクエストに変更を加えるように依頼します",
+        "en": "Ask @copilot to make changes to a pull request"
+      },
+      "summary": {
+        "zh": "您现在可以在拉取请求中提及@copilot，要求 Copilot 进行更改。您可以要求@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试解决代码审查评论：@copilot解决此评论进行任何其他更改：@copilot添加一个单元测试，覆盖模型参数丢失时的情况Copilot编码代理在其自己的基于云的开发环境中工作，可以在其中进行更改，使用测试和linter验证其工作，然后推送...",
+        "ja": "プル リクエストで @copilot に言及して、Copilot に変更を依頼できるようになりました。 @copilot に次のことを依頼できます: 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは独自のクラウドベースの開発環境で動作し、変更を加え、テストとリンターで動作を検証し、プッシュ...",
+        "en": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push..."
+      },
+      "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-23-openai-creating-with-sora-safely",
       "date": "2026-03-23",
       "category": "openai",
@@ -9544,71 +9688,6 @@
         "en": "We’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies."
       },
       "url": "https://www.anthropic.com/news/the-anthropic-institute",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-10-openai-new-ways-to-learn-math-and-science-in-chatgpt",
-      "date": "2026-03-10",
-      "category": "openai",
-      "title": {
-        "zh": "在 ChatGPT 中学习数学和科学的新方法",
-        "ja": "ChatGPT で数学と科学を学ぶ新しい方法",
-        "en": "New ways to learn math and science in ChatGPT"
-      },
-      "summary": {
-        "zh": "ChatGPT 引入了数学和科学的交互式视觉解释，帮助学生实时探索公式、变量和概念。",
-        "ja": "ChatGPT は、数学と科学に関するインタラクティブな視覚的説明を導入し、学生が公式、変数、概念をリアルタイムで探索できるようにします。",
-        "en": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time."
-      },
-      "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-10-openai-instruction-hierarchy-challenge",
-      "date": "2026-03-10",
-      "category": "openai",
-      "title": {
-        "zh": "改善前沿法学硕士的教学层次",
-        "ja": "フロンティア LLM の命令階層の改善",
-        "en": "Improving instruction hierarchy in frontier LLMs"
-      },
-      "summary": {
-        "zh": "IH-Challenge 训练模型以优先考虑可信指令，改善指令层次结构、安全可操纵性以及对即时注入攻击的抵抗力。",
-        "ja": "IH-Challenge は、信頼できる命令に優先順位を付けるようにモデルをトレーニングし、命令階層、安全性の操作性、プロンプト インジェクション攻撃に対する耐性を向上させます。",
-        "en": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks."
-      },
-      "url": "https://openai.com/index/instruction-hierarchy-challenge",
-      "tags": [
-        "research",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-10-anthropic-sydney-fourth-office-asia-pacific",
-      "date": "2026-03-10",
-      "category": "anthropic",
-      "title": {
-        "zh": "悉尼将成为 Anthropic 在亚太地区的第四个办事处",
-        "ja": "シドニーはAnthropicのアジア太平洋地域で4番目のオフィスとなる",
-        "en": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
       "tags": [
         "anthropic"
       ],
