@@ -3363,14 +3363,6 @@
     "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。当您提交评论时，Copilot 会修复冲突，检查构建和测试是否仍然通过，然后推送。所有这一切都是通过自己的基于云的开发环境完成的。您还可以在拉取请求中提及@copilot：修复失败的 GitHub 操作...",
     "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。コメントを送信すると、Copilot は競合を修正し、ビルドとテストが引き続き合格することを確認して、プッシュします。そして、これらすべてを独自のクラウドベースの開発環境から実行します。プル リクエストで @copilot に言及して、失敗した GitHub アクションを修正することもできます。"
   },
-  "More visibility into Copilot coding agent sessions": {
-    "zh": "更清楚地了解 Copilot 编码代理会话",
-    "ja": "Copilot コーディング エージェント セッションの可視性の向上"
-  },
-  "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall...": {
-    "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了许多改进，以便您更好地了解 Copilot 正在做什么： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙来做好准备...",
-    "ja": "Copilot コーディング エージェントにタスクを委任すると、バックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot コーディング エージェントのセッション ログに多くの改善を加え、Copilot の動作をよりわかりやすく表示しました: 組み込みのセットアップ手順の可視性を向上: Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォールを起動して準備を整える必要があります..."
-  },
   "Released Secure MCP Tunnel for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted tunnel-client without exposing those servers to the public internet.": {
     "zh": "为企业客户发布安全MCP隧道。安全 MCP 隧道允许受支持的 OpenAI 产品（包括 ChatGPT web、Codex、Responses API 和 AgentKit）通过客户托管的隧道客户端连接到私有或本地 MCP 服务器，而无需将这些服务器暴露到公共互联网。",
     "ja": "企業顧客向けに Secure MCP トンネルをリリースしました。安全な MCP トンネルを使用すると、サポートされている OpenAI 製品 (ChatGPT Web、Codex、Responses API、AgentKit など) が、プライベートまたはオンプレミスの MCP サーバーをパブリック インターネットに公開することなく、顧客がホストするトンネル クライアント経由で接続できます。"
@@ -4475,14 +4467,6 @@
     "zh": "OpenAI 的一份新报告详细介绍了与中国相关的利用人工智能针对美国科技辩论、数据中心叙述、关税和有关 ChatGPT 的虚假声明的影响力行动。",
     "ja": "OpenAI の新しい報告書では、米国の技術論争、データセンターの言説、関税、ChatGPT に関する虚偽の主張をターゲットとする、AI を使用した中国関連の影響力作戦について詳述しています。"
   },
-  "Copilot Chat now sees your agent sessions": {
-    "zh": "Copilot 聊天现在可以看到您的代理会话",
-    "ja": "Copilot チャットにエージェント セッションが表示されるようになりました"
-  },
-  "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat. What’s changed When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session. When a session is complete, you can ask follow-up questions on the session or kick off another...": {
-    "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。更改内容当您通过要求聊天创建会话、创建拉取请求或对存储库进行深入研究来启动代理会话时，聊天现在会反映正在进行的会话的状态。会议结束后，您可以提出会议的后续问题或开始另一个会议...",
-    "ja": "Copilot Chat と Web 上の Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。変更点 チャットにセッションの作成、プル リクエストの作成、またはリポジトリでの詳細な調査を依頼してエージェント セッションを開始すると、進行中のセッションのステータスがチャットに反映されるようになりました。セッションが完了したら、セッションに関してフォローアップの質問をしたり、別のセッションを開始したりできます。"
-  },
   "Copilot usage metrics reports now use GitHub-owned download URLs": {
     "zh": "Copilot 使用指标报告现在使用 GitHub 拥有的下载 URL",
     "ja": "Copilot 使用状況メトリクス レポートでは、GitHub が所有するダウンロード URL が使用されるようになりました"
@@ -4610,14 +4594,6 @@
   "GPT-5.4 mini is now generally available to Copilot Student plan via Copilot auto model selection. This model is part of Auto in GitHub Copilot Chat on Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Join the GitHub Community to share your feedback. The post GPT-5.4 mini is now available in Copilot Student auto model selection...": {
     "zh": "GPT-5.4 mini 现在可通过 Copilot 自动型号选择普遍用于 Copilot 学生计划。此模型是 Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 上 GitHub Copilot Chat 中 Auto 的一部分。要了解有关 Copilot 中可用模型的更多信息，请参阅我们的模型文档并立即开始使用 Copilot。分享您的反馈 加入GitHub 社区分享您的反馈。后 GPT-5.4 mini 现已在 Copilot 学生汽车模型选择中提供...",
     "ja": "GPT-5.4 mini は、Copilot 自動モデル選択を介して Copilot Student プランで一般提供されるようになりました。このモデルは、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse の GitHub Copilot チャットの Auto の一部です。 Copilot で使用できるモデルの詳細については、モデルに関するドキュメントを参照して、今すぐ Copilot を始めてください。フィードバックを共有する GitHub コミュニティに参加してフィードバックを共有してください。ポスト GPT-5.4 mini が Copilot 学生自動車モデル選択で利用可能になりました..."
-  },
-  "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs": {
-    "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
-    "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持"
-  },
-  "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to...": {
-    "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
-    "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています..."
   },
   "Copilot coding agent works faster with semantic code search": {
     "zh": "Copilot 编码代理通过语义代码搜索更快地工作",
@@ -4905,5 +4881,13 @@
   "Anthropic Public Record is a national survey of attitudes and opinions towards AI.": {
     "zh": "Anthropic 公共记录是一项针对人工智能态度和观点的全国性调查。",
     "ja": "Anthropic Public Record は、AI に対する態度と意見に関する全国調査です。"
+  },
+  "TCS and Anthropic partner to bring Claude to regulated industries": {
+    "zh": "TCS 和 Anthropic 合作将 Claude 引入受监管行业",
+    "ja": "TCS と Anthropic は提携して規制産業に Claude を提供します"
+  },
+  "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.": {
+    "zh": "我们宣布与塔塔咨询服务公司 (TCS) 建立合作伙伴关系。 TCS 将为 56 个国家/地区的 50,000 名员工提供 Claude；为金融服务、医疗保健、公共部门和其他受监管行业的客户构建 Claude 支持的产品；并加入 Claude 合作伙伴网络。",
+    "ja": "Tata Consultancy Services (TCS) とのパートナーシップを発表します。 TCS は、56 か国の 50,000 人の自社従業員に Claude を提供します。金融サービス、ヘルスケア、公共部門、その他の規制対象業界のクライアント向けに Claude を活用した製品を構築する。 Claude パートナー ネットワークに参加してください。"
   }
 }
