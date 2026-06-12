@@ -1,7 +1,187 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-11-openai-wayfair",
+      "date": "2026-03-11",
+      "category": "openai",
+      "title": {
+        "zh": "Wayfair 通过 OpenAI 提高目录准确性和支持速度",
+        "ja": "Wayfair は OpenAI によりカタログの精度とサポート速度を向上させます",
+        "en": "Wayfair boosts catalog accuracy and support speed with OpenAI"
+      },
+      "summary": {
+        "zh": "Wayfair 使用 OpenAI 模型来提高电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。",
+        "ja": "Wayfair は、OpenAI モデルを使用して、e コマースのサポートと製品カタログの精度を向上させ、チケットのトリアージを自動化し、数百万の製品属性を大規模に強化します。",
+        "en": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
+      },
+      "url": "https://openai.com/index/wayfair",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-11-openai-rakuten",
+      "date": "2026-03-11",
+      "category": "openai",
+      "title": {
+        "zh": "Rakuten 使用 Codex 解决问题的速度提高了一倍",
+        "ja": "楽天は Codex を使用して問題を 2 倍の速さで解決します",
+        "en": "Rakuten fixes issues twice as fast with Codex"
+      },
+      "summary": {
+        "zh": "",
+        "ja": "",
+        "en": ""
+      },
+      "url": "https://openai.com/index/rakuten",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-11-openai-equip-responses-api-computer-environment",
+      "date": "2026-03-11",
+      "category": "openai",
+      "title": {
+        "zh": "从模型到代理：为 Responses API 配备计算机环境",
+        "ja": "モデルからエージェントへ: Responses API にコンピュータ環境を装備",
+        "en": "From model to agent: Equipping the Responses API with a computer environment"
+      },
+      "summary": {
+        "zh": "OpenAI 如何使用响应 API、shell 工具和托管容器构建代理运行时，以使用文件、工具和状态运行安全、可扩展的代理。",
+        "ja": "OpenAI が、Responses API、シェル ツール、ホストされたコンテナーを使用して、ファイル、ツール、状態を備えた安全でスケーラブルなエージェントを実行するエージェント ランタイムをどのように構築したか。",
+        "en": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state."
+      },
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-11-openai-designing-agents-to-resist-prompt-injection",
+      "date": "2026-03-11",
+      "category": "openai",
+      "title": {
+        "zh": "设计人工智能代理以抵抗即时注入",
+        "ja": "即時注入に耐えられるように AI エージェントを設計する",
+        "en": "Designing AI agents to resist prompt injection"
+      },
+      "summary": {
+        "zh": "ChatGPT 如何通过限制危险行为和保护代理工作流程中的敏感数据来防御即时注入和社会工程。",
+        "ja": "ChatGPT は、エージェント ワークフローで危険なアクションを制限し、機密データを保護することで、プロンプト インジェクションとソーシャル エンジニアリングをどのように防御するか。",
+        "en": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows."
+      },
+      "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-request-copilot-code-review-from-github-cli",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "从 GitHub CLI 请求 Copilot 代码审查",
+        "ja": "GitHub CLI から Copilot コード レビューをリクエストする",
+        "en": "Request Copilot code review from GitHub CLI"
+      },
+      "summary": {
+        "zh": "您现在可以使用 GitHub CLI 直接从终端请求 GitHub Copilot 进行审核。无论您是编辑现有拉取请求还是创建新拉取请求，Copilot 都可以作为 gh pr edit 和 gh pr create 中的审阅者选项使用。无需切换到浏览器。工作原理 非交互式：使用 gh pr edit --add-reviewer @copilot 添加 Copilot 作为审阅者。交互式：当您通过交互式提示选择审阅者时，Copilot 会出现在您的队友旁边......",
+        "ja": "GitHub CLI を使用して、端末から直接 GitHub Copilot にレビューをリクエストできるようになりました。既存のプル リクエストを編集している場合でも、新しいプル リクエストを作成している場合でも、gh pr edit および gh pr create のレビュー担当者オプションとして Copilot を使用できます。ブラウザに切り替える必要はありません。仕組み 非対話型: gh pr edit --add-reviewer @copilot を使用して、Copilot をレビューアーとして追加します。インタラクティブ: インタラクティブなプロンプトを通じてレビュー担当者を選択すると、チームメイトの横に Copilot が表示されます...",
+        "en": "You can now request a review from GitHub Copilot directly from your terminal using the GitHub CLI. Whether you’re editing an existing pull request or creating a new one, Copilot is available as a reviewer option in gh pr edit and gh pr create. There’s no need to switch to the browser. How it works Non-interactive: Add Copilot as a reviewer with gh pr edit --add-reviewer @copilot. Interactive: When you select reviewers through the interactive prompts, Copilot appears alongside your teammates..."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "JetBrains IDE 的 GitHub Copilot 中的主要代理功能改进",
+        "ja": "JetBrains IDE の GitHub Copilot におけるエージェント機能の大幅な改善",
+        "en": "Major agentic capabilities improvements in GitHub Copilot for JetBrains IDEs"
+      },
+      "summary": {
+        "zh": "此更新为 JetBrains IDE 中的 GitHub Copilot 带来了多项新功能和改进。核心代理功能（包括自定义代理、子代理和计划代理）现已普遍可用，并提供预览版代理挂钩和对 MCP 的自动批准支持。它还扩展了对代理指令文件的支持，使自动模型选择普遍可用，增强了模型和推理体验，并包括额外的用户体验和质量改进。新功能代理...",
+        "ja": "このアップデートにより、JetBrains IDE の GitHub Copilot にいくつかの新機能と改善が加えられました。カスタム エージェント、サブエージェント、プラン エージェントなどのコア エージェント機能が一般提供され、プレビュー中のエージェント フックと MCP の自動承認サポートが追加されました。また、エージェント指示ファイルのサポートを拡張し、自動モデル選択を一般利用できるようにし、モデルと推論のエクスペリエンスを強化し、追加のユーザー エクスペリエンスと品質の向上を実現します。新機能エージェント...",
+        "en": "This update brings several new features and improvements to GitHub Copilot in JetBrains IDEs. Core agentic capabilities, including custom agents, sub-agents, and plan agent, are now generally available, with agent hooks in preview and auto-approve support for MCP. It also expands support for agent instruction files, makes auto model selection generally available, enhances the model and reasoning experience, and includes additional user experience and quality improvements. New features Agentic..."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-major-agentic-capabilities-improvements-in-github-copilot-for-jetbrains-ides",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-github-2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "date": "2026-03-11",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 Copilot 探索存储库",
+        "ja": "Web 上で Copilot を使用してリポジトリを探索する",
+        "en": "Explore a repository using Copilot on the web"
+      },
+      "summary": {
+        "zh": "当您在网络上与 Copilot 聊天时，我们使您可以更轻松地探索存储库的文件结构。更改内容 开发人员现在可以要求 Copilot 显示文件，然后浏览文件树和文件内容。通过更深入地了解文件如何与更广泛的代码库相关，在文件之间跳转并在上下文中询问 Copilot 正确的问题从未如此简单。无缝添加对聊天的引用当您导航文件资源管理器时，您选择的文件会自动添加到您当前的...",
+        "ja": "Web 上で Copilot とチャットするときに、リポジトリのファイル構造を簡単に探索できるようにしました。変更点 開発者は Copilot にファイルを表示するように要求し、ファイルの内容と一緒にファイル ツリーを参照できるようになりました。ファイルがより広範なコードベースにどのように関連しているかをより深く把握できるため、ファイル間を移動してコンテキスト内で Copilot に適切な質問をすることがこれまでになく簡単になりました。チャットへの参照をシームレスに追加 ファイル エクスプローラーをナビゲートすると、選択したファイルが現在のファイルに自動的に追加されます。",
+        "en": "We’ve made it easier to explore a repository’s file structure when you chat with Copilot on the web. What’s changed Developers can now ask Copilot to show a file, then browse the file tree alongside file contents. With a deeper view into how files relate to the broader codebase, it’s never been easier to jump between files and ask Copilot the right questions in context. Seamlessly add references to chat As you navigate the file explorer, files you select get automatically added to your current..."
+      },
+      "url": "https://github.blog/changelog/2026-03-11-explore-a-repository-using-copilot-on-the-web",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-11-anthropic-the-anthropic-institute",
+      "date": "2026-03-11",
+      "category": "anthropic",
+      "title": {
+        "zh": "人类研究所简介",
+        "ja": "人類研究所の紹介",
+        "en": "Introducing The Anthropic Institute"
+      },
+      "summary": {
+        "zh": "我们正在启动人类研究所，这是一项新的努力，旨在应对强大的人工智能给我们的社会带来的最重大挑战。",
+        "ja": "私たちは、強力な AI が社会にもたらすであろう最も重大な課題に立ち向かうための新たな取り組みである The Anthropic Institute を立ち上げます。",
+        "en": "We’re launching The Anthropic Institute, a new effort to confront the most significant challenges that powerful AI will pose to our societies."
+      },
+      "url": "https://www.anthropic.com/news/the-anthropic-institute",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-03-10-openai-new-ways-to-learn-math-and-science-in-chatgpt",
       "date": "2026-03-10",
