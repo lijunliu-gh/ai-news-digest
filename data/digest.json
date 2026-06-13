@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "windowMonths": 3,
   "items": [
     {
@@ -24,6 +24,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-12-github-2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "date": "2026-06-12",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：新配置和控件",
+        "ja": "Copilot コード レビュー: 新しい構成とコントロール",
+        "en": "Copilot code review: New configurations and controls"
+      },
+      "summary": {
+        "zh": "借助新的组织运行程序控件、Copilot 内容排除支持以及取消存储库自定义指令的字符限制，Copilot 代码审查现在可以更轻松地根据存储库和组织内的需求进行定制。 ⚙️ 组织运行器控件随着 Copilot 代码审查代理架构的发布，我们宣布 Copilot 代码审查由 GitHub 操作提供支持。默认情况下，Copilot 代码审查在标准 GitHub 托管的运行器上运行，但团队可以...",
+        "ja": "新しい組織ランナー コントロール、Copilot コンテンツ除外のサポート、リポジトリのカスタム命令の文字数制限の削除により、Copilot コード レビューをリポジトリや組織内のニーズに合わせて調整することが容易になりました。 ⚙️ 組織ランナーのコントロール Copilot コード レビューのエージェント アーキテクチャのリリースに伴い、Copilot コード レビューが GitHub アクションによって強化されることを発表しました。デフォルトでは、Copilot コード レビューは標準の GitHub がホストするランナー上で実行されますが、チームは...",
+        "en": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization. ⚙️ Organization runner controls With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions. By default, Copilot code review runs on the standard GitHub-hosted runner, but teams can..."
+      },
+      "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-12-anthropic-tcs-anthropic-partnership",
       "date": "2026-06-12",
       "category": "anthropic",
@@ -38,6 +62,27 @@
         "en": "We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network."
       },
       "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-12-anthropic-fable-mythos-access",
+      "date": "2026-06-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "关于美国政府暂停访问《神鬼寓言 5》和《神话 5》的指令的声明",
+        "ja": "Fable 5 および Mythos 5 へのアクセスを一時停止するという米国政府の指示に関する声明",
+        "en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5"
+      },
+      "summary": {
+        "zh": "美国政府已发布出口管制指令，暂停任何外国人（无论在美国境内还是境外）访问《神鬼寓言 5》和《神话 5》。",
+        "ja": "米国政府は、米国内外を問わず、外国人による Fable 5 および Mythos 5 へのアクセスをすべて停止する輸出管理指令を出しました。",
+        "en": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States."
+      },
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
       "tags": [
         "anthropic"
       ],
@@ -432,6 +477,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-10-github-2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天现在可以看到您的代理会话",
+        "ja": "Copilot チャットにエージェント セッションが表示されるようになりました",
+        "en": "Copilot Chat now sees your agent sessions"
+      },
+      "summary": {
+        "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。更改内容当您通过要求聊天创建会话、创建拉取请求或对存储库进行深入研究来启动代理会话时，聊天现在会反映正在进行的会话的状态。会议结束后，您可以提出会议的后续问题或开始另一个会议...",
+        "ja": "Web 上の Copilot Chat と Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。変更点 チャットにセッションの作成、プル リクエストの作成、またはリポジトリでの詳細な調査を依頼してエージェント セッションを開始すると、進行中のセッションのステータスがチャットに反映されるようになりました。セッションが完了したら、セッションに関してフォローアップの質問をしたり、別のセッションを開始したりできます。",
+        "en": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat. What’s changed When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session. When a session is complete, you can ask follow-up questions on the session or kick off another..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-10-anthropic-self-hosted-sandboxes",
       "date": "2026-06-10",
       "category": "anthropic",
@@ -621,9 +690,9 @@
         "en": "Claude Fable 5 is generally available for GitHub Copilot"
       },
       "summary": {
-        "zh": "Anthropic 的 Claude Fable 5 现已在 GitHub Copilot 中提供，这是 Anthropic Mythos 类中的第一个模型，专为长期、自主编码和知识工作任务而设计。与 GitHub Copilot 中的其他 Claude 模型不同，Claude Fable 5 需要保留数据才能操作 Anthropic 的安全分类器。继续阅读了解更多详细信息。在我们关于自主编码工作流程的内部基准测试中，《神鬼寓言 5》以更少的工具调用和更低的代币消耗完成了同等的工作……",
-        "ja": "Anthropic の Claude Fable 5 が、GitHub Copilot で利用できるようになりました。これは、Anthropic の Mythos クラスの最初のモデルであり、長期にわたる自律的なコーディングおよびナレッジワーク タスク向けに設計されています。 GitHub Copilot の他の Claude モデルとは異なり、Claude Fable 5 では、Anthropic の安全分類器を操作するためにデータ保持が必要です。詳細については、読み続けてください。自律コーディング ワークフローに関する社内ベンチマークでは、Fable 5 は、より少ないツール呼び出しとより少ないトークン消費量で同等の作業を完了しました。",
-        "en": "Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models in GitHub Copilot, Claude Fable 5 requires data retention to operate Anthropic’s safety classifiers. Continue reading for more details. In our internal benchmarks on autonomous coding workflows, Fable 5 completed equivalent work with fewer tool calls and lower token consumption than..."
+        "zh": "编者注（2026 年 6 月 12 日）：继 Anthropic 发布声明后，自即日起，所有 GitHub Copilot 体验中对 Claude 《神鬼寓言 5》的访问已暂停。所有其他 Claude 型号（包括 Claude Opus 4.8、Sonnet 4.6 和 Haiku 4.5）仍然可用且不受影响。对于造成的干扰，我们深表歉意。您可以在他们的声明中详细了解 Anthropic 的立场。 Anthropic 的 Claude 《神鬼寓言 5》现已在 GitHub Copilot 中提供，这是 Anthropic 神话类中的第一个模型，专为...",
+        "ja": "編集者注 (2026 年 6 月 12 日): Anthropic の発表を受けて、本日より、Claude Fable 5 へのアクセスがすべての GitHub Copilot エクスペリエンスで一時停止されました。 Claude Opus 4.8、Sonnet 4.6、Haiku 4.5 を含む他のすべての Claude モデルは引き続き利用可能であり、影響を受けません。ご迷惑をおかけして申し訳ございません。 Anthropic の立場については、彼らの声明で詳しく読むことができます。 Claude Anthropic の Fable 5 が、GitHub Copilot で利用できるようになりました。これは、Anthropic の Mythos クラスの最初のモデルであり、... 向けに設計されています。",
+        "en": "Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences. All other Claude models including Claude Opus 4.8, Sonnet 4.6, and Haiku 4.5 remain available and unaffected. We apologize for the disruption. You can read more about Anthropic’s position in their statement. Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for..."
       },
       "url": "https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
       "tags": [
@@ -8369,6 +8438,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-01-github-2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "date": "2026-04-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动版：通过刷新的 Copilot 选项卡和本机会话日志保持流畅",
+        "ja": "GitHub モバイル: 更新された Copilot タブとネイティブ セッション ログでフローを維持",
+        "en": "GitHub Mobile: Stay in flow with a refreshed Copilot tab and native session logs"
+      },
+      "summary": {
+        "zh": "GitHub Mobile 现在通过刷新的 Copilot 选项卡、本机会话日志以及更多针对代理会话的应用内控件，让您可以更轻松地随时随地管理代理工作流程。在 Android 上，Copilot 已作为 Copilot 选项卡移至导航栏，从而可以更快地跳转到会话和聊天历史记录。在 Copilot 选项卡中，新的主页体验可让您更清晰地了解代理会话和聊天历史记录，以便您可以快速找到所需内容。新的会话列表视图包括过滤器...",
+        "ja": "GitHub モバイルでは、更新された Copilot タブ、ネイティブ セッション ログ、およびエージェント セッションのアプリ内コントロールの追加により、外出先でのエージェント ワークフローの管理が容易になりました。 Android では、Copilot が Copilot タブとしてナビゲーション バーに移動され、セッションやチャット履歴にすばやくジャンプできるようになりました。 Copilot タブ内の新しいホーム エクスペリエンスでは、エージェント セッションとチャット履歴の概要がより明確に表示されるため、必要なものをすぐに見つけることができます。新しいセッション リスト ビューには、次のフィルタが含まれています...",
+        "en": "GitHub Mobile now makes it easier to manage agentic workflows on the go with a refreshed Copilot tab, native session logs, and more in-app controls for agent sessions. On Android, Copilot has moved to the navigation bar as the Copilot tab, making it faster to jump into your sessions and chat history. Inside the Copilot tab, a new Home experience gives you a clearer overview of your agent sessions and chat history so you can quickly find what you need. A new session list view includes filters to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-01-github-mobile-stay-in-flow-with-a-refreshed-copilot-tab-and-native-session-logs",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-01-github-2026-04-01-github-mobile-faster-more-flexible-agent-assignment-from-issues",
       "date": "2026-04-01",
       "category": "github",
@@ -9184,6 +9278,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-03-19-github-2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "date": "2026-03-19",
+      "category": "github",
+      "title": {
+        "zh": "更清楚地了解 Copilot 编码代理会话",
+        "ja": "Copilot コーディング エージェント セッションの可視性の向上",
+        "en": "More visibility into Copilot coding agent sessions"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了许多改进，以便您更好地了解 Copilot 正在做什么： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙来做好准备...",
+        "ja": "Copilot コーディング エージェントにタスクを委任すると、バックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot コーディング エージェントのセッション ログに多くの改善を加え、Copilot の動作をよりわかりやすく表示しました: 組み込みのセットアップ手順の可視性を向上: Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォールを起動して準備を整える必要があります...",
+        "en": "When you delegate a task to Copilot coding agent, it works in the background, then requests your review. You can view the agent session logs to understand what Copilot did while working on your task. We’ve made a number of improvements to Copilot coding agent’s session logs to give you better visibility of what Copilot is up to: Better visibility of built-in setup steps: Before Copilot starts working on your task, it needs to get ready by cloning your repository and starting the agent firewall..."
+      },
+      "url": "https://github.blog/changelog/2026-03-19-more-visibility-into-copilot-coding-agent-sessions",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-19-github-2026-03-19-hierarchy-view-in-github-projects-is-now-generally-available",
       "date": "2026-03-19",
       "category": "github",
@@ -9631,107 +9749,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-03-12-openai-changelog-2",
-      "date": "2026-03-12",
-      "category": "openai",
-      "title": {
-        "zh": "通过可重用的字符引用扩展了 Sora API，更长的代数可达",
-        "ja": "再利用可能な文字参照を使用して Sora API を拡張し、世代が長くなりました。",
-        "en": "Expanded the Sora API with reusable character references, longer generations up to"
-      },
-      "summary": {
-        "zh": "通过可重复使用的字符引用、长达 20 秒的更长生成、sora-2-pro 的 1080p 输出、视频扩展以及 POST /v1/videos 的 Batch API 支持来扩展 Sora API。 sora-2-pro 上的 1080p 世代收费为每秒 0.70 美元。在这里了解更多。",
-        "ja": "再利用可能な文字参照、最大 20 秒の長い世代、sora-2-pro の 1080p 出力、ビデオ拡張機能、および POST /v1/videos のバッチ API サポートを備えた Sora API を拡張しました。 sora-2-pro の 1080p 世代の料金は 1 秒あたり 0.70 ドルです。詳細については、こちらをご覧ください。",
-        "en": "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-feature-expanded-the-sora-api-with-reusable-character-references-longer-generations-up-to",
-      "tags": [
-        "sora-2",
-        "sora-2-pro",
-        "v1-videos",
-        "v1-videos-characters",
-        "v1-videos-extensions",
-        "v1-batch",
-        "feature",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-12-openai-changelog",
-      "date": "2026-03-12",
-      "category": "openai",
-      "title": {
-        "zh": "添加了 POST /v1/videos/edits 用于编辑现有视频。",
-        "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。",
-        "en": "Added POST /v1/videos/edits for editing existing videos."
-      },
-      "summary": {
-        "zh": "添加了 POST /v1/videos/edits 用于编辑现有视频。这将取代 POST /v1/videos/{video_id}/remix，后者将在 6 个月内弃用。在这里了解更多。",
-        "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。これは、6 か月後に非推奨となる POST /v1/videos/{video_id}/remix に代わるものです。詳細については、こちらをご覧ください。",
-        "en": "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-update-added-post-v1-videos-edits-for-editing-existing-videos",
-      "tags": [
-        "sora-2",
-        "sora-2-pro",
-        "v1-videos-edits",
-        "v1-videos-video-id-remix",
-        "update",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-12-github-2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides",
-      "date": "2026-03-12",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 自动模型选择通常在 JetBrains IDE 中可用",
-        "ja": "Copilot 自動モデル選択は JetBrains IDE で一般的に利用可能です",
-        "en": "Copilot auto model selection is generally available in JetBrains IDEs"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 自动模型选择现在在所有 Copilot 计划的 JetBrains IDE 中普遍可用。通过自动，Copilot 根据实时模型可用性和性能代表您选择模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。根据您的计划和政策，它会路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。自动路由的型号会随着时间的推移而改变。透明度...",
-        "ja": "GitHub Copilot 自動モデル選択は、すべての Copilot プランの JetBrains IDE で一般利用できるようになりました。自動の場合、Copilot は、リアルタイムのモデルの可用性とパフォーマンスに基づいて、ユーザーに代わってモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。プランやポリシーに応じて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。どのモデルに自動ルートするかは時間の経過とともに変化します。透明度...",
-        "en": "GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 depending on your plan and policies. Which models auto routes to will change over time. Transparency..."
-      },
-      "url": "https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-12-anthropic-claude-partner-network",
-      "date": "2026-03-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 向 Claude 合作伙伴网络投资 1 亿美元",
-        "ja": "Anthropic が Claude Partner Network に 1 億ドルを投資",
-        "en": "Anthropic invests $100 million into the Claude Partner Network"
-      },
-      "summary": {
-        "zh": "我们正在启动 Claude 合作伙伴网络，这是一个为合作伙伴组织提供的计划，帮助企业采用 Claude。",
-        "ja": "私たちは、企業によるクロードの導入を支援するパートナー組織向けのプログラムであるクロード パートナー ネットワークを立ち上げます。",
-        "en": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude."
-      },
-      "url": "https://www.anthropic.com/news/claude-partner-network",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }

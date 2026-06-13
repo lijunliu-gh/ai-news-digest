@@ -1,7 +1,108 @@
 {
-  "lastUpdated": "2026-06-12",
+  "lastUpdated": "2026-06-13",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-12-openai-changelog-2",
+      "date": "2026-03-12",
+      "category": "openai",
+      "title": {
+        "zh": "通过可重用的字符引用扩展了 Sora API，更长的代数可达",
+        "ja": "再利用可能な文字参照を使用して Sora API を拡張し、世代が長くなりました。",
+        "en": "Expanded the Sora API with reusable character references, longer generations up to"
+      },
+      "summary": {
+        "zh": "通过可重复使用的字符引用、长达 20 秒的更长生成、sora-2-pro 的 1080p 输出、视频扩展以及 POST /v1/videos 的 Batch API 支持来扩展 Sora API。 sora-2-pro 上的 1080p 世代收费为每秒 0.70 美元。在这里了解更多。",
+        "ja": "再利用可能な文字参照、最大 20 秒の長い世代、sora-2-pro の 1080p 出力、ビデオ拡張機能、および POST /v1/videos のバッチ API サポートを備えた Sora API を拡張しました。 sora-2-pro の 1080p 世代の料金は 1 秒あたり 0.70 ドルです。詳細については、こちらをご覧ください。",
+        "en": "Expanded the Sora API with reusable character references, longer generations up to 20 seconds, 1080p output for sora-2-pro, video extensions, and Batch API support for POST /v1/videos. 1080p generations on sora-2-pro are billed at $0.70 per second. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-feature-expanded-the-sora-api-with-reusable-character-references-longer-generations-up-to",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "v1-videos",
+        "v1-videos-characters",
+        "v1-videos-extensions",
+        "v1-batch",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-12-openai-changelog",
+      "date": "2026-03-12",
+      "category": "openai",
+      "title": {
+        "zh": "添加了 POST /v1/videos/edits 用于编辑现有视频。",
+        "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。",
+        "en": "Added POST /v1/videos/edits for editing existing videos."
+      },
+      "summary": {
+        "zh": "添加了 POST /v1/videos/edits 用于编辑现有视频。这将取代 POST /v1/videos/{video_id}/remix，后者将在 6 个月内弃用。在这里了解更多。",
+        "ja": "既存のビデオを編集するための POST /v1/videos/edits を追加しました。これは、6 か月後に非推奨となる POST /v1/videos/{video_id}/remix に代わるものです。詳細については、こちらをご覧ください。",
+        "en": "Added POST /v1/videos/edits for editing existing videos. This will replace POST /v1/videos/{video_id}/remix, which will be deprecated in 6 months. Learn more here."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-03-12-update-added-post-v1-videos-edits-for-editing-existing-videos",
+      "tags": [
+        "sora-2",
+        "sora-2-pro",
+        "v1-videos-edits",
+        "v1-videos-video-id-remix",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-12-github-2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides",
+      "date": "2026-03-12",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 自动模型选择通常在 JetBrains IDE 中可用",
+        "ja": "Copilot 自動モデル選択は JetBrains IDE で一般的に利用可能です",
+        "en": "Copilot auto model selection is generally available in JetBrains IDEs"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 自动模型选择现在在所有 Copilot 计划的 JetBrains IDE 中普遍可用。通过自动，Copilot 根据实时模型可用性和性能代表您选择模型。工作原理 Auto 是动态的，让您能够可靠地访问您喜爱的模型，同时减轻速率限制。根据您的计划和政策，它会路由到 GPT-5.4、GPT-5.3-Codex、Sonnet 4.6 和 Haiku 4.5 等模型。自动路由的型号会随着时间的推移而改变。透明度...",
+        "ja": "GitHub Copilot 自動モデル選択は、すべての Copilot プランの JetBrains IDE で一般利用できるようになりました。自動の場合、Copilot は、リアルタイムのモデルの可用性とパフォーマンスに基づいて、ユーザーに代わってモデルを選択します。仕組み Auto は動的であり、レート制限を軽減しながらお気に入りのモデルに確実にアクセスできます。プランやポリシーに応じて、GPT-5.4、GPT-5.3-Codex、Sonnet 4.6、Haiku 4.5 などのモデルにルーティングされます。どのモデルに自動ルートするかは時間の経過とともに変化します。透明度...",
+        "en": "GitHub Copilot auto model selection is now generally available in JetBrains IDEs for all Copilot plans. With auto, Copilot chooses a model on your behalf based on real-time model availability and performance. How it works Auto is dynamic, giving you reliable access to your favorite models while mitigating rate limits. It routes to models like GPT-5.4, GPT-5.3-Codex, Sonnet 4.6, and Haiku 4.5 depending on your plan and policies. Which models auto routes to will change over time. Transparency..."
+      },
+      "url": "https://github.blog/changelog/2026-03-12-copilot-auto-model-selection-is-generally-available-in-jetbrains-ides",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-12-anthropic-claude-partner-network",
+      "date": "2026-03-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 向 Claude 合作伙伴网络投资 1 亿美元",
+        "ja": "Anthropic が Claude Partner Network に 1 億ドルを投資",
+        "en": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      "summary": {
+        "zh": "我们正在启动 Claude 合作伙伴网络，这是一个为合作伙伴组织提供的计划，帮助企业采用 Claude。",
+        "ja": "私たちは、企業によるクロードの導入を支援するパートナー組織向けのプログラムであるクロード パートナー ネットワークを立ち上げます。",
+        "en": "We’re launching the Claude Partner Network, a program for partner organizations helping enterprises adopt Claude."
+      },
+      "url": "https://www.anthropic.com/news/claude-partner-network",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-03-11-openai-wayfair",
       "date": "2026-03-11",
