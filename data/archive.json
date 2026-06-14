@@ -1,7 +1,101 @@
 {
-  "lastUpdated": "2026-06-13",
+  "lastUpdated": "2026-06-14",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-13-github-2026-03-13-updates-to-github-copilot-for-students",
+      "date": "2026-03-13",
+      "category": "github",
+      "title": {
+        "zh": "针对学生的 GitHub Copilot 更新",
+        "ja": "学生向けの GitHub Copilot の更新",
+        "en": "Updates to GitHub Copilot for students"
+      },
+      "summary": {
+        "zh": "从今天开始，享受 GitHub 教育福利的学生现在可以加入新的 GitHub Copilot 学生计划。作为这一转变的一部分，我们更新了可用的型号阵容。新的 GitHub Copilot 学生计划使我们能够通过持续投资人工智能原生学习工具，专注于为学生打造长期、可持续的 Copilot 体验。请访问我们的社区讨论，了解变化的完整详情。学生 GitHub Copilot 的帖子更新出现...",
+        "ja": "本日より、GitHub 教育特典を持つ学生は、新しい GitHub Copilot 学生プランを利用できるようになりました。この移行の一環として、利用可能なモデルのラインナップを更新しました。新しい GitHub Copilot Student プランでは、AI ネイティブ学習ツールへの継続的な投資により、学生向けにカスタマイズされた長期的で持続可能な Copilot エクスペリエンスの構築に集中できます。変更内容の詳細については、コミュニティ ディスカッションをご覧ください。学生向けの GitHub Copilot の投稿が表示されました...",
+        "en": "Starting today, students with GitHub Education benefits are now on the new GitHub Copilot Student plan. As part of this transition, we’ve updated the available model lineup. The new GitHub Copilot Student plan allows us to focus on building a long-term, sustainable Copilot experience tailored for students with continued investment in AI-native learning tools. Please visit our Community Discussion for a full breakdown of what’s changing. The post Updates to GitHub Copilot for students appeared..."
+      },
+      "url": "https://github.blog/changelog/2026-03-13-updates-to-github-copilot-for-students",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-13-github-2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
+      "date": "2026-03-13",
+      "category": "github",
+      "title": {
+        "zh": "（可选）跳过 Copilot 编码代理操作工作流程的批准",
+        "ja": "必要に応じて、Copilot コーディング エージェントのアクション ワークフローの承認をスキップします",
+        "en": "Optionally skip approval for Copilot coding agent Actions workflows"
+      },
+      "summary": {
+        "zh": "当 Copilot 编码代理打开拉取请求或推送更改时，Copilot 被视为开源项目中的外部贡献者。 GitHub 操作工作流只有在人工使用“批准并运行工作流”按钮批准后才会运行。这有助于保护您免受安全风险，因为 GitHub 操作工作流可能有权访问令牌、机密或存储库权限，具体取决于您的配置。然而，它减慢了验证 Copilot 工作的反馈循环，并且......",
+        "ja": "Copilot コーディング エージェントがプル リクエストを開いたり、変更をプッシュしたりすると、Copilot はオープン ソース プロジェクトの外部貢献者のように扱われます。 GitHub アクション ワークフローは、人間が [ワークフローの承認と実行] ボタンを使用して承認するまで実行されません。構成に応じて、GitHub アクション ワークフローがトークン、シークレット、またはリポジトリのアクセス許可にアクセスできる場合があるため、これはセキュリティ リスクから保護するのに役立ちます。ただし、Copilot の作業を検証するためのフィードバック ループが遅くなります...",
+        "en": "When Copilot coding agent opens a pull request or pushes changes, Copilot is treated like an outside contributor in an open source project. GitHub Actions workflows do not run until approved by a human with the Approve and run workflows button. This helps protect you from security risks, given that GitHub Actions workflows may have access to tokens, secrets, or repository permissions, depending on your configuration. However, it slows down the feedback loop for validating Copilot’s work and..."
+      },
+      "url": "https://github.blog/changelog/2026-03-13-optionally-skip-approval-for-copilot-coding-agent-actions-workflows",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-13-anthropic-overview-2",
+      "date": "2026-03-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "使用 1M 令牌上下文窗口时，我们已将每个请求的媒体限制从 100 个图像或 PDF 页面提高到 600 个。",
+        "ja": "1M トークン コンテキスト ウィンドウを使用する場合、メディア制限をリクエストごとに 100 から 600 ページの画像または PDF ページに引き上げました。",
+        "en": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window."
+      },
+      "summary": {
+        "zh": "使用 1M 令牌上下文窗口时，我们已将每个请求的媒体限制从 100 个图像或 PDF 页面提高到 600 个。",
+        "ja": "1M トークン コンテキスト ウィンドウを使用する場合、メディア制限をリクエストごとに 100 から 600 ページの画像または PDF ページに引き上げました。",
+        "en": "We've raised the media limit from 100 to 600 images or PDF pages per request when using the 1M token context window."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#march-13-2026-we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window-we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window",
+      "tags": [
+        "we-ve-raised-the-media-limit-from-100-to-600-images-or-pdf-pages-per-request-when-using-the-1m-token-context-window",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-03-13-anthropic-overview",
+      "date": "2026-03-13",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们取消了所有受支持型号的专用 1M 速率限制。",
+        "ja": "サポートされているすべてのモデルに対して、専用の 1M レート制限を削除しました。",
+        "en": "We've removed the dedicated 1M rate limits for all supported models."
+      },
+      "summary": {
+        "zh": "我们取消了所有受支持型号的专用 1M 速率限制。您的标准帐户限制现在适用于每个上下文长度。",
+        "ja": "サポートされているすべてのモデルに対して、専用の 1M レート制限を削除しました。標準アカウントの制限は、すべてのコンテキスト長に適用されるようになりました。",
+        "en": "We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#march-13-2026-we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models-your-standard-account-limits-now-apply-across-every-context-length-we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models",
+      "tags": [
+        "we-ve-removed-the-dedicated-1m-rate-limits-for-all-supported-models",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-03-12-openai-changelog-2",
       "date": "2026-03-12",
