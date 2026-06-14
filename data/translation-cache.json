@@ -4858,76 +4858,12 @@
     "zh": "当您将任务委托给 Copilot 编码代理时，它会在后台运行，然后请求您进行审核。您可以查看代理会话日志以了解 Copilot 在执行任务时做了什么。我们对 Copilot 编码代理的会话日志进行了许多改进，以便您更好地了解 Copilot 正在做什么： 更好地了解内置设置步骤：在 Copilot 开始处理您的任务之前，它需要通过克隆存储库并启动代理防火墙来做好准备...",
     "ja": "Copilot コーディング エージェントにタスクを委任すると、バックグラウンドで動作し、レビューを要求します。エージェント セッション ログを表示すると、タスクの作業中に Copilot が何をしたかを理解できます。 Copilot コーディング エージェントのセッション ログに多くの改善を加え、Copilot の動作をよりわかりやすく表示しました: 組み込みのセットアップ手順の可視性を向上: Copilot がタスクの作業を開始する前に、リポジトリのクローンを作成し、エージェント ファイアウォールを起動して準備を整える必要があります..."
   },
-  "release notes for Claude Apps": {
-    "zh": "Claude 应用程序的发行说明",
-    "ja": "Claude アプリのリリースノート"
+  "speed: \"fast\"": {
+    "zh": "速度：“快”",
+    "ja": "スピード：「速い」"
   },
-  "For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the release notes for Claude Apps.": {
-    "zh": "有关此版本中 claude.ai、Cowork、Microsoft 365 的 Claude 以及其他 Claude 应用程序的更新，请参阅 Claude 应用程序的发行说明。",
-    "ja": "このリリースの claude.ai、Cowork、Claude for Microsoft 365、およびその他の Claude アプリの更新については、Claude アプリのリリース ノートを参照してください。"
-  },
-  "high-resolution image input": {
-    "zh": "高分辨率图像输入",
-    "ja": "高解像度画像入力"
-  },
-  "Claude Opus 4.8 supports high-resolution image input (up to 2576 pixels on the long edge), same as Claude Opus 4.7.": {
-    "zh": "Claude Opus 4.8 支持高分辨率图像输入（长边高达 2576 像素），与 Claude Opus 4.7 相同。",
-    "ja": "Claude Opus 4.8 は、Claude Opus 4.7 と同様に、高解像度の画像入力 (長辺で最大 2576 ピクセル) をサポートします。"
-  },
-  "Task budgets": {
-    "zh": "任务预算",
-    "ja": "タスクの予算"
-  },
-  "Task budgets now support Claude Opus 4.8.": {
-    "zh": "任务预算现在支持 Claude Opus 4.8。",
-    "ja": "タスクの予算が Claude Opus 4.8 をサポートするようになりました。"
-  },
-  "prompt caching": {
-    "zh": "提示缓存",
-    "ja": "プロンプトキャッシュ"
-  },
-  "On Claude Opus 4.8, the minimum cacheable prompt length for prompt caching is 1,024 tokens, lower than on Claude Opus 4.7.": {
-    "zh": "在 Claude Opus 4.8 上，提示缓存的最小可缓存提示长度为 1,024 个令牌，低于 Claude Opus 4.7。",
-    "ja": "Claude Opus 4.8 では、プロンプト キャッシュでキャッシュ可能なプロンプトの最小長は 1,024 トークンであり、Claude Opus 4.7 よりも短くなります。"
-  },
-  "Fast mode": {
-    "zh": "快速模式",
-    "ja": "高速モード"
-  },
-  "Fast mode for Claude Opus 4.8 is available as a research preview on the Claude API only.": {
-    "zh": "Claude Opus 4.8 的快速模式仅作为 Claude API 上的研究预览提供。",
-    "ja": "Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用できます。"
-  },
-  "high": {
-    "zh": "高的",
-    "ja": "高い"
-  },
-  "On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API.": {
-    "zh": "在 Claude Opus 4.8 上，所有表面的工作量参数默认为高，包括 Claude Code 和消息 API。",
-    "ja": "Claude Opus 4.8 では、Claude Code やメッセージ API を含むすべてのサーフェスで、努力パラメータがデフォルトで高くなります。"
-  },
-  "Computer use": {
-    "zh": "电脑使用",
-    "ja": "コンピュータの使用"
-  },
-  "Computer use now supports Claude Opus 4.8.": {
-    "zh": "计算机使用现在支持Claude Opus 4.8。",
-    "ja": "コンピューターの使用が Claude Opus 4.8 をサポートするようになりました。"
-  },
-  "temperature": {
-    "zh": "温度",
-    "ja": "温度"
-  },
-  "Setting the sampling parameters temperature, top_p, or top_k to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the migration guide for details.": {
-    "zh": "将采样参数温度、top_p 或 top_k 设置为非默认值会在 Claude Opus 4.8 上返回 400 错误，与 Claude Opus 4.7 上相同。有关详细信息，请参阅迁移指南。",
-    "ja": "サンプリング パラメーターの温度、top_p、または top_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。"
-  },
-  "Claude Code documentation": {
-    "zh": "Claude Code 文档",
-    "ja": "Claude Code ドキュメント"
-  },
-  "In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the Claude Code documentation.": {
-    "zh": "在 Claude Code 中，我们将自动模式扩展到更多用户来执行长时间运行的任务。请参阅 Claude Code 文档。",
-    "ja": "Claude Code では、長時間実行されるタスクのために自動モードをより多くのユーザーに拡張しました。 Claude Code のドキュメントを参照してください。"
+  "Fast mode (research preview) now supports Claude Opus 4.7. Set speed: \"fast\" with model: \"claude-opus-4-7\" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist.": {
+    "zh": "快速模式（研究预览）现在支持 Claude Opus 4.7。设置速度：“快速”，型号：“claude-opus-4-7”和 fast-mode-2026-02-01 beta 标头，以高价显着加快输出代币生成速度。定价、速率限制和访问权限与 Opus 4.6 快速模式相同；有兴趣的顾客应该加入候补名单。",
+    "ja": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。速度を「高速」に設定し、モデル: 「claude-opus-4-7」と fast-mode-2026-02-01 ベータ ヘッダーを使用すると、プレミアム価格で出力トークンの生成が大幅に高速化されます。価格、レート制限、アクセスは Opus 4.6 高速モードと同じです。興味のあるお客様は順番待ちリストに参加してください。"
   }
 }
