@@ -2113,13 +2113,6 @@
     "zh": "引入高级帐户安全性：防网络钓鱼登录、更强的恢复以及增强的保护措施，以保护敏感数据并防止帐户被盗用。",
     "ja": "高度なアカウント セキュリティの導入: フィッシング耐性のあるログイン、強力な回復、機密データを保護し、アカウントの乗っ取りを防ぐための強化された保護。"
   },
-  "context-1m-2025-08-07": {
-    "zh": "上下文-1m-2025-08-07"
-  },
-  "We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, where it's generally available at standard pricing with no beta header required.": {
-    "zh": "我们已经停用了 Claude Sonnet 4.5 和 Claude Sonnet 4 的 1M 令牌上下文窗口测试版 ( context-1m-2025-08-07 )。测试标头现在对这些模型没有影响，超过标准 200k 令牌上下文窗口的请求会返回错误。要使用 1M 上下文窗口，请迁移到 Claude Sonnet 4.6 或 Claude Opus 4.6，通常以标准价格提供，无需 beta 标头。",
-    "ja": "Claude Sonnet 4.5 および Claude Sonnet 4 の 1M トークン コンテキスト ウィンドウのベータ版 ( context-1m-2025-08-07 ) を廃止しました。ベータ ヘッダーはこれらのモデルに影響を与えなくなり、標準の 200k トークン コンテキスト ウィンドウを超えるリクエストはエラーを返します。 1M コンテキスト ウィンドウを使用するには、Claude Sonnet 4.6 または Claude Opus 4.6 に移行します。通常、ベータ ヘッダーは不要で標準価格で入手できます。"
-  },
   "GitHub Actions: Early February 2026 updates": {
     "zh": "GitHub 行动：2026 年 2 月上旬更新",
     "ja": "GitHub アクション: 2026 年 2 月初旬の更新"
@@ -4937,5 +4930,13 @@
   "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.": {
     "zh": "OpenAI 推出合作伙伴网络，投资 1.5 亿美元帮助全球合作伙伴加速企业人工智能的采用、部署和转型。",
     "ja": "OpenAI は、グローバル パートナーによるエンタープライズ AI の導入、展開、変革の加速を支援するために 1 億 5,000 万ドルを投資してパートナー ネットワークを立ち上げます。"
+  },
+  "claude-sonnet-4-20250514": {
+    "zh": "克劳德十四行诗-4-20250514",
+    "ja": "クロード・ソネット-4-20250514"
+  },
+  "We've retired the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Opus 4.8 respectively. Researchers can request ongoing access through the External Researcher Access Program.": {
+    "zh": "我们已经淘汰了 Claude Sonnet 4 模型 ( claude-sonnet-4-20250514 ) 和 Claude Opus 4 模型 ( claude-opus-4-20250514 )。对这些模型的所有请求现在都将返回错误。我们建议分别升级到 Claude Sonnet 4.6 和 Claude Opus 4.8。研究人员可以通过外部研究人员访问计划请求持续访问。",
+    "ja": "Claude Sonnet 4 モデル ( claude-sonnet-4-20250514 ) と Claude Opus 4 モデル ( claude-opus-4-20250514 ) は廃止されました。これらのモデルに対するすべてのリクエストはエラーを返すようになります。それぞれ Claude Sonnet 4.6 と Claude Opus 4.8 にアップグレードすることをお勧めします。研究者は、外部研究者アクセス プログラムを通じて継続的なアクセスをリクエストできます。"
   }
 }

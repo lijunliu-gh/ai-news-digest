@@ -3,6 +3,29 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-06-15-anthropic-overview",
+      "date": "2026-06-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德十四行诗-4-20250514",
+        "ja": "クロード・ソネット-4-20250514",
+        "en": "claude-sonnet-4-20250514"
+      },
+      "summary": {
+        "zh": "我们已经淘汰了 Claude Sonnet 4 模型 ( claude-sonnet-4-20250514 ) 和 Claude Opus 4 模型 ( claude-opus-4-20250514 )。对这些模型的所有请求现在都将返回错误。我们建议分别升级到 Claude Sonnet 4.6 和 Claude Opus 4.8。研究人员可以通过外部研究人员访问计划请求持续访问。",
+        "ja": "Claude Sonnet 4 モデル ( claude-sonnet-4-20250514 ) と Claude Opus 4 モデル ( claude-opus-4-20250514 ) は廃止されました。これらのモデルに対するすべてのリクエストはエラーを返すようになります。それぞれ Claude Sonnet 4.6 と Claude Opus 4.8 にアップグレードすることをお勧めします。研究者は、外部研究者アクセス プログラムを通じて継続的なアクセスをリクエストできます。",
+        "en": "We've retired the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ). All requests to these models will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Opus 4.8 respectively. Researchers can request ongoing access through the External Researcher Access Program."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "tags": [
+        "claude-sonnet-4-20250514",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-06-14-openai-introducing-openai-partner-network",
       "date": "2026-06-14",
       "category": "openai",
@@ -5775,29 +5798,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-30-anthropic-overview",
-      "date": "2026-04-30",
-      "category": "anthropic",
-      "title": {
-        "zh": "上下文-1m-2025-08-07",
-        "ja": "context-1m-2025-08-07",
-        "en": "context-1m-2025-08-07"
-      },
-      "summary": {
-        "zh": "我们已经停用了 Claude Sonnet 4.5 和 Claude Sonnet 4 的 1M 令牌上下文窗口测试版 ( context-1m-2025-08-07 )。测试标头现在对这些模型没有影响，超过标准 200k 令牌上下文窗口的请求会返回错误。要使用 1M 上下文窗口，请迁移到 Claude Sonnet 4.6 或 Claude Opus 4.6，通常以标准价格提供，无需 beta 标头。",
-        "ja": "Claude Sonnet 4.5 および Claude Sonnet 4 の 1M トークン コンテキスト ウィンドウのベータ版 ( context-1m-2025-08-07 ) を廃止しました。ベータ ヘッダーはこれらのモデルに影響を与えなくなり、標準の 200k トークン コンテキスト ウィンドウを超えるリクエストはエラーを返します。 1M コンテキスト ウィンドウを使用するには、Claude Sonnet 4.6 または Claude Opus 4.6 に移行します。通常、ベータ ヘッダーは不要で標準価格で入手できます。",
-        "en": "We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, where it's generally available at standard pricing with no beta header required."
-      },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
-      "tags": [
-        "context-1m-2025-08-07",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-29-openai-where-the-goblins-came-from",
