@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-16-openai-why-codex-security-doesnt-include-sast",
+      "date": "2026-03-16",
+      "category": "openai",
+      "title": {
+        "zh": "为什么 Codex 安全性不包括 SAST 报告",
+        "ja": "Codex Security に SAST レポートが含まれない理由",
+        "en": "Why Codex Security Doesn’t Include a SAST Report"
+      },
+      "summary": {
+        "zh": "深入探讨为什么 Codex Security 不依赖传统的 SAST，而是使用人工智能驱动的约束推理和验证来发现真正的漏洞，并减少误报。",
+        "ja": "Codex Security が従来の SAST に依存せず、代わりに AI 主導の制約推論と検証を使用して、誤検知を減らして実際の脆弱性を検出する理由を詳しく説明します。",
+        "en": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives."
+      },
+      "url": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-16-anthropic-extended-thinking",
+      "date": "2026-03-16",
+      "category": "anthropic",
+      "title": {
+        "zh": "展示",
+        "ja": "画面",
+        "en": "display"
+      },
+      "summary": {
+        "zh": "我们推出了扩展思考的显示字段，让您可以省略响应中的思考内容，以实现更快的流式传输。设置thinking.display：“省略”以接收具有空思维字段和为多回合连续性保留的签名的思维块。计费方式不变。了解更多信息控制思维展示。",
+        "ja": "拡張思考のための表示フィールドを開始しました。これにより、ストリーミングを高速化するために応答から思考コンテンツを省略できるようになります。 Thinking.display: \"省略\" を設定すると、空の思考フィールドと複数ターンの連続性のために保存された署名を持つ思考ブロックを受け取ります。請求額は変更ありません。詳細については、思考表示の制御を参照してください。",
+        "en": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#controlling-thinking-display",
+      "tags": [
+        "display",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-03-13-github-2026-03-13-updates-to-github-copilot-for-students",
       "date": "2026-03-13",
