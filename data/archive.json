@@ -1,7 +1,78 @@
 {
-  "lastUpdated": "2026-06-18",
+  "lastUpdated": "2026-06-19",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-18-github-2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
+      "date": "2026-03-18",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.3-Codex GitHub Copilot 中的长期支持",
+        "ja": "GPT-5.3-Codex GitHub Copilot での長期サポート",
+        "en": "GPT-5.3-Codex long-term support in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "为了给企业提供内部安全和安全审查所需的稳定性，GitHub 做出了新的承诺，为 Copilot 商业版和 Copilot 企业版提供长期支持 (LTS) 模型。指定的 LTS 型号将在该型号发布之日起整整 12 个月内供货。 GPT-5.3-Codex 是我们与 OpenAI 合作的第一个 LTS 型号。该模型于 2026 年 2 月 5 日推出，并将在 2027 年 2 月 4 日之前持续为 Copilot Business 和...",
+        "ja": "社内のセキュリティと安全性のレビューに必要な安定性を企業に提供するために、GitHub は、Copilot Business および Copilot Enterprise で利用可能な長期サポート (LTS) モデルを備えた新しいコミットメントを確立しました。指定された LTS モデルは、モデルの発売日から丸 12 か月間利用可能になります。 GPT-5.3-Codex は、OpenAI と提携した最初の LTS モデルです。このモデルは 2026 年 2 月 5 日に発売され、2027 年 2 月 4 日まで Copilot Business および...",
+        "en": "To give enterprises the stability they need for internal security and safety reviews, GitHub has established a new commitment with long-term support (LTS) models available for Copilot Business and Copilot Enterprise. Designated LTS models will be made available for a full 12 months from the model’s launch date. GPT-5.3-Codex is our first LTS model, in partnership with OpenAI. The model launched on February 5, 2026, and will remain available through February 4, 2027 for Copilot Business and..."
+      },
+      "url": "https://github.blog/changelog/2026-03-18-gpt-5-3-codex-long-term-support-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-18-github-2026-03-18-configure-copilot-coding-agents-validation-tools",
+      "date": "2026-03-18",
+      "category": "github",
+      "title": {
+        "zh": "配置Copilot编码代理的验证工具",
+        "ja": "Copilot コーディング エージェントの検証ツールを構成する",
+        "en": "Configure Copilot coding agent’s validation tools"
+      },
+      "summary": {
+        "zh": "当 Copilot 编码代理编写代码时，它会自动运行项目的测试和 linter。它还运行 GitHub 的安全和质量验证工具，包括 CodeQL、GitHub 咨询数据库、秘密扫描和 Copilot 代码审查。如果发现任何问题，Copilot 会在停止工作并请求审核之前尝试解决这些问题。这些验证工具是免费的，默认启用，并且不需要 GitHub 高级安全许可证。然而，在某些情况下，团队可能...",
+        "ja": "Copilot コーディング エージェントがコードを記述すると、プロジェクトのテストとリンターが自動的に実行されます。また、CodeQL、GitHub アドバイザリー データベース、シークレット スキャン、Copilot コード レビューなど、GitHub のセキュリティおよび品質検証ツールも実行します。問題が見つかった場合、Copilot は作業を停止してレビューを要求する前に問題の解決を試みます。これらの検証ツールは無料で、デフォルトで有効になっており、GitHub Advanced Security ライセンスは必要ありません。ただし、場合によっては、チームが...",
+        "en": "When Copilot coding agent writes code, it automatically runs your project’s tests and linter. It also runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before stopping work and requesting review. These validation tools are free of charge, enabled by default, and don’t require a GitHub Advanced Security license. However, in some cases, teams may..."
+      },
+      "url": "https://github.blog/changelog/2026-03-18-configure-copilot-coding-agents-validation-tools",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-18-anthropic-list",
+      "date": "2026-03-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "获取/v1/模型",
+        "ja": "GET /v1/models",
+        "en": "GET /v1/models"
+      },
+      "summary": {
+        "zh": "我们已将模型功能字段添加到模型 API 中。 GET /v1/models 和 GET /v1/models/{model_id} 现在返回 max_input_tokens、max_tokens 和功能对象。查询 API 以了解每个模型支持的内容。",
+        "ja": "モデル API にモデル機能フィールドを追加しました。 GET /v1/models および GET /v1/models/{model_id} は、max_input_tokens、max_tokens、および機能オブジェクトを返すようになりました。 API にクエリを実行して、各モデルがサポートしている内容を確認します。",
+        "en": "We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens, max_tokens, and a capabilities object. Query the API to discover what each model supports."
+      },
+      "url": "https://platform.claude.com/docs/en/api/models/list",
+      "tags": [
+        "get-v1-models",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-03-17-openai-japan-teen-safety-blueprint",
       "date": "2026-03-17",
