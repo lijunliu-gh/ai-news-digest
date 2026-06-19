@@ -2885,14 +2885,6 @@
     "zh": "我们一直很忙！以下是 I/O 2026 上最重要的公告、发布和演示的摘要。",
     "ja": "私たちは忙しかったのです！ I/O 2026 での主な発表、発表、デモの概要を以下に示します。"
   },
-  "Target Copilot models to organizations with model rules": {
-    "zh": "将 Copilot 模型定位到具有模型规则的组织",
-    "ja": "モデル ルールを使用して Copilot モデルを組織にターゲット設定する"
-  },
-  "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of relying on a single enterprise-wide setting. This capability is now in public preview. We’ve also refreshed the experience for managing default model availability across your enterprise, making it easier to see and configure which models are available to your organizations. What’s new...": {
-    "zh": "企业所有者现在可以精细控制每个组织可以使用哪些 GitHub Copilot 模型。通过有针对性的模型规则，您可以允许特定组织使用特定模型，而不是依赖于单个企业范围的设置。此功能现已推出公共预览版。我们还刷新了管理整个企业默认模型可用性的体验，使您可以更轻松地查看和配置哪些模型可供您的组织使用。什么是新的...",
-    "ja": "企業所有者は、各組織でどの GitHub Copilot モデルを使用できるかをきめ細かく制御できるようになりました。対象を絞ったモデル ルールを使用すると、企業全体の単一の設定に依存するのではなく、特定の組織に特定のモデルを許可できます。この機能は現在パブリック プレビュー段階にあります。また、企業全体でのデフォルト モデルの可用性を管理するためのエクスペリエンスも更新され、組織で利用可能なモデルの確認と構成が容易になりました。新着情報..."
-  },
   "Vertex AI Extensions deprecation": {
     "zh": "Vertex AI 扩展弃用",
     "ja": "Vertex AI 拡張機能の非推奨"
@@ -2940,14 +2932,6 @@
   "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.": {
     "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
     "ja": "KiYoung Choi は、ソウル事務所の開設に先立って、韓国代表取締役として Anthropic に加わります。"
-  },
-  "GitHub Copilot for Jira — Public preview enhancements": {
-    "zh": "Jira 的 GitHub Copilot — 公共预览版增强功能",
-    "ja": "GitHub Copilot for Jira — パブリック プレビューの機能強化"
-  },
-  "Since launching the public preview of GitHub Copilot coding agent for Jira, we’ve been listening closely to customer feedback. Thank you to everyone who has taken the time to try the integration, report issues, and share suggestions—your input has directly shaped the improvements we have shipped. What’s new Improved onboarding and setup guidance Based on feedback from early adopters, the integration now provides better guidance, including clearer error messages and steps to resolve common...": {
-    "zh": "自从推出 Jira GitHub Copilot 编码代理的公共预览版以来，我们一直在密切倾听客户的反馈。感谢所有花时间尝试集成、报告问题和分享建议的人——你们的意见直接影响了我们所发布的改进。新功能 改进的入门和设置指南 根据早期采用者的反馈，集成现在提供更好的指导，包括更清晰的错误消息和解决常见问题的步骤...",
-    "ja": "Jira 用 GitHub Copilot コーディング エージェントのパブリック プレビューを開始して以来、私たちはお客様のフィードバックに注意深く耳を傾けてきました。統合を試したり、問題を報告したり、提案を共有したりするために時間を割いてくださった皆様に感謝します。皆様のご意見が、私たちが出荷した改善点に直接反映されました。新機能 オンボーディングとセットアップのガイダンスの改善 早期導入者からのフィードバックに基づいて、統合により、より明確なエラー メッセージや一般的な問題を解決する手順など、より適切なガイダンスが提供されるようになりました。"
   },
   "GitHub Copilot in Visual Studio Code v1.110 – February release": {
     "zh": "Visual Studio Code v1.110 中的 GitHub Copilot – 2 月版本",
@@ -3527,14 +3511,6 @@
   "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we’ve upgraded the GPT model used to seek a second opinion. ## What’s new Rubber Duck for GPT sessions: When you’ve selected a GPT model as your orchestrator, and /experimental is enabled, Copilot will dispatch a Claude-powered Rubber Duck agent to provide a second opinion. The same...": {
     "zh": "当您的会话使用 GPT 模型时，Rubber Duck 是 GitHub Copilot CLI 中的跨系列审核代理，现在可以使用 Claude 驱动的评论代理。对于使用 Claude 作为协调器的会话，我们升级了用于寻求第二意见的 GPT 模型。 ## GPT 会话的橡皮鸭有哪些新功能：当您选择 GPT 模型作为编排器并启用 /experimental 时，Copilot 将派遣由 Claude 驱动的橡皮鸭代理来提供第二意见。相同...",
     "ja": "GitHub Copilot CLI のクロスファミリー レビュー エージェントであるラバー ダックは、セッションが GPT モデルを使用している場合に、Claude を利用した批評家エージェントを使用して利用できるようになりました。 Claude をオーケストレーターとして使用するセッションの場合、セカンドオピニオンを求めるために使用される GPT モデルをアップグレードしました。 ## GPT セッション用の新機能ラバーダック: オーケストレーターとして GPT モデルを選択し、/experimental が有効になっている場合、Copilot はセカンドオピニオンを提供するために Claude を利用したラバーダックエージェントを派遣します。同じ..."
-  },
-  "Claude Sonnet 4 deprecated": {
-    "zh": "Claude Sonnet 4 已弃用",
-    "ja": "Claude Sonnet 4 は非推奨になりました"
-  },
-  "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can...": {
-    "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以...",
-    "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者としてできることは..."
   },
   "C++ code intelligence for GitHub Copilot CLI in public preview": {
     "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
@@ -5070,5 +5046,61 @@
   "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API. What’s new A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed. This is an overall per-user total across all of that user’s Copilot activity. The field is available in both the single-day ( users-1-day ) and 28-day ( users-28-day )...": {
     "zh": "Copilot 使用指标 API 现在报告每个用户每天消耗的 AI 积分数，这些积分源自基于使用情况的计费 API 中使用的相同 AI 积分消耗数据。新功能 现在，用户级报告中为每个用户添加了一个新的 ai_credits_used 字段，并指示用户消耗的总 AI 积分。这是每个用户所有 Copilot 活动的总和。该字段在单日 (users-1-day) 和 28 天 (users-28-day) 中均可用...",
     "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。これは、そのユーザーのすべての Copilot アクティビティにわたるユーザーごとの合計です。このフィールドは、1 日 ( users-1-day ) と 28 日 ( users-28-day ) の両方で使用できます。"
+  },
+  "Schedule and automate tasks with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理安排和自动执行任务",
+    "ja": "Copilot クラウド エージェントを使用してタスクをスケジュールし、自動化する"
+  },
+  "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the agent without any manual input. For example: Triage incoming issues: Automatically label new issues as bug, enhancement, or other based on their content. Fix failing tests nightly: Each night, check for failing tests on the main branch, attempt a fix, and open a draft pull request. Prepare weekly release notes...": {
+    "zh": "借助新的自动化功能，Copilot 云代理现在可以按计划自动运行或响应存储库事件。自动化让您可以将重复性任务交给客服人员，无需任何手动输入。例如： 对传入问题进行分类：根据新问题的内容自动将新问题标记为错误、增强或其他。每晚修复失败的测试：每天晚上，检查主分支上是否有失败的测试，尝试修复，并打开草稿拉取请求。准备每周发行说明...",
+    "ja": "新しい自動化機能により、Copilot クラウド エージェントは、スケジュールに従って、またはリポジトリ イベントに応答して自動的に実行できるようになりました。自動化を使用すると、手動入力を行わずに、反復的なタスクをエージェントに引き渡すことができます。例: 受信した問題の優先順位付け: 内容に基づいて、新しい問題にバグ、機能拡張、またはその他のラベルを自動的に付けます。失敗したテストを毎晩修正する: 毎晩、メイン ブランチで失敗したテストをチェックし、修正を試み、ドラフト プル リクエストを開きます。毎週のリリースノートを準備します..."
+  },
+  "Gain insights across your agent sessions with /chronicle": {
+    "zh": "通过 /chronicle 深入了解您的座席会话",
+    "ja": "/chronicle を使用してエージェント セッション全体にわたって洞察を得る"
+  },
+  "Every Copilot session you run (e.g., fixing a bug, reviewing code, spinning up a feature) builds a history only you can query. /chronicle turns that history into standup summaries, personalized tips, and custom instructions that make Copilot work better for you over time. Now, Chronicle has a more complete view of your Copilot sessions across GitHub and your IDEs, including sessions from Copilot cloud agent, Copilot code review, the GitHub Copilot app, VS Code, and JetBrains. This makes it...": {
+    "zh": "您运行的每个 Copilot 会话（例如，修复错误、审查代码、启动功能）都会构建只有您可以查询的历史记录。 /chronicle 将历史记录转化为站立摘要、个性化提示和自定义说明，让 Copilot 随着时间的推移更好地为您服务。现在，Chronicle 可以更完整地了解 GitHub 和 IDE 中的 Copilot 会话，包括来自 Copilot 云代理、Copilot 代码审查、GitHub Copilot 应用程序、VS Code 和 JetBrains 的会话。这使得它...",
+    "ja": "あなたが実行するすべての Copilot セッション (バグの修正、コードのレビュー、機能の起動など) によって、あなただけがクエリできる履歴が構築されます。 /chronicle は、その履歴をスタンドアップ サマリー、パーソナライズされたヒント、カスタム手順に変換し、Copilot が時間の経過とともにより効果的に機能するようにします。現在、Chronicle では、Copilot クラウド エージェント、Copilot コード レビュー、GitHub Copilot アプリ、VS Code、JetBrains からのセッションを含む、GitHub と IDE にわたる Copilot セッションをより完全に表示できるようになりました。これにより..."
+  },
+  "GitHub Copilot app is now available in technical preview": {
+    "zh": "GitHub Copilot 应用程序现已提供技术预览版",
+    "ja": "GitHub Copilot アプリがテクニカル プレビューで利用可能になりました"
+  },
+  "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review. 🧭 Start from GitHub context Your work already lives in GitHub. Sessions start from those artifacts too. Open a session from real work. Start from an issue, pull request, prompt, or previous session. See what needs attention. Use your inbox to find issues and...": {
+    "zh": "GitHub Copilot 应用程序现已处于技术预览版。这是一种 GitHub 原生桌面体验，可以从您面前的工作开始代理开发，保持隔离，引导它进行，并通过拉取请求审查来实现更改。 🧭 从 GitHub 上下文开始您的工作已经存在于 GitHub 中。会话也从这些工件开始。从实际工作中打开一个会话。从问题、拉取请求、提示或之前的会话开始。看看有什么需要注意的。使用您的收件箱查找问题并...",
+    "ja": "GitHub Copilot アプリは現在テクニカル プレビュー段階にあります。 GitHub ネイティブのデスクトップ エクスペリエンスでは、目の前の作業からエージェント開発を開始し、それを分離した状態に保ち、進行に合わせて操作し、プル リクエストのレビューを通じて変更を完了します。 🧭 GitHub コンテキストから開始 あなたの作品はすでに GitHub にあります。セッションもそれらの成果物から始まります。実際の作業からセッションを開きます。イシュー、プル リクエスト、プロンプト、または前のセッションから開始します。注意が必要なものを確認してください。受信トレイを使用して問題を見つけたり..."
+  },
+  "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex": {
+    "zh": "即将弃用 GPT-5.2 和 GPT-5.2-Codex",
+    "ja": "GPT-5.2 および GPT-5.2-Codex の今後の非推奨"
+  },
+  "Editor’s note (June 1, 2026): We updated this post to correct GPT-5.2 instead of GPT-5.2-Codex being the exception for Copilot Code Review. Editor’s note (May 29, 2026): We updated this post to change the deprecation date from June 1, 2026 to June 5, 2026. We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), with the exception of GPT-5.2 in Copilot Code Review, on June 5th, 2026: Model...": {
+    "zh": "编者注（2026 年 6 月 1 日）：我们更新了这篇文章，以更正 GPT-5.2，而不是 GPT-5.2-Codex 为 Copilot 代码审查的例外情况。编者注（2026 年 5 月 29 日）：我们更新了这篇文章，将弃用日期从 2026 年 6 月 1 日更改为 2026 年 6 月 5 日。我们将在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型，但 GPT-5.2 除外Copilot 代码审查，2026 年 6 月 5 日：模型...",
+    "ja": "編集者注 (2026 年 6 月 1 日): Copilot コード レビューの例外である GPT-5.2-Codex の代わりに、GPT-5.2 を修正するためにこの投稿を更新しました。編集者注 (2026 年 5 月 29 日): この投稿を更新して、非推奨日を 2026 年 6 月 1 日から 2026 年 6 月 5 日に変更しました。 Copilot コードレビュー、2026 年 6 月 5 日: モデル..."
+  },
+  "Secret scanning pattern updates and product improvements": {
+    "zh": "秘密扫描模式更新和产品改进",
+    "ja": "シークレット スキャン パターンの更新と製品の改善"
+  },
+  "This week, we’re rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers. Detection coverage New Cloudflare detectors: Cloudflare is now a secret scanning partner. Push protection Forks for enterprise-managed users: User-owned forks in EMU enterprises now inherit push protection from their nearest licensed ancestor...": {
+    "zh": "本周，我们将对检测覆盖范围、API 和工作流程进行多项改进。这些改进加强了我们对秘密扫描功能的开发人员体验的持续投资。由开发人员构建，为开发人员服务。检测范围 新的 Cloudflare 探测器：Cloudflare 现在是秘密扫描合作伙伴。企业管理用户的推送保护分叉：EMU 企业中用户拥有的分叉现在继承了最近许可祖先的推送保护......",
+    "ja": "今週、検出範囲、API、ワークフローに対するいくつかの改善を展開します。これらの改善により、シークレット スキャン機能の開発者エクスペリエンスに対する継続的な投資が強化されます。開発者によって開発者のために構築されました。検出範囲 新しい Cloudflare 検出器: Cloudflare はシークレット スキャン パートナーになりました。エンタープライズ管理ユーザー向けのプッシュ保護フォーク: EMU エンタープライズ内のユーザー所有のフォークは、最も近いライセンスを取得した祖先からプッシュ保護を継承するようになりました。"
+  },
+  "Copilot usage metrics now identify active and passive Copilot code review users": {
+    "zh": "Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户",
+    "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました"
+  },
+  "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement. Within the API response, CCR usage is represented by two fields at the user level: used_copilot_code_review_active: Set to true when a user intentionally engaged with Copilot...": {
+    "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级报告中了解用户如何参与 Copilot 代码审查，从而更清晰地了解 CCR 采用和参与情况。在 API 响应中，CCR 使用情况由用户级别的两个字段表示：used_copilot_code_review_active：当用户有意参与 Copilot 时设置为 true...",
+    "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザーレベルのレポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。 API 応答内では、CCR の使用状況はユーザー レベルの 2 つのフィールドで表されます。 used_copilot_code_review_active: ユーザーが意図的に Copilot を使用した場合に true に設定します。"
+  },
+  "Organization runner controls for Copilot cloud agent": {
+    "zh": "Copilot 云代理的组织运行器控制",
+    "ja": "Copilot クラウド エージェントの組織ランナー コントロール"
+  },
+  "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more. Until now, the runner was configured at the repository level with a copilot-setup-steps.yml file. This made it difficult to roll out consistent defaults or enforce...": {
+    "zh": "每次 Copilot 云代理执行任务时，它都会启动一个由 GitHub 操作支持的新开发环境。默认情况下，它在标准的 GitHub 托管运行器上运行，但团队还可以自定义代理环境以使用大型运行器或自托管运行器，以实现更快的性能、访问内部资源等。到目前为止，运行程序是使用 copilot-setup-steps.yml 文件在存储库级别配置的。这使得很难推出一致的默认值或强制执行......",
+    "ja": "Copilot クラウド エージェントがタスクを処理するたびに、GitHub アクションを利用した新しい開発環境が開始されます。デフォルトでは、これは標準の GitHub でホストされるランナーで実行されますが、チームはエージェント環境をカスタマイズして、より高速なパフォーマンスや内部リソースへのアクセスなどのために大規模なランナーや自己ホスト型ランナーを使用することもできます。これまで、ランナーは copilot-setup-steps.yml ファイルを使用してリポジトリ レベルで構成されていました。これにより、一貫したデフォルトを展開したり、強制したりすることが困難になりました。"
   }
 }
