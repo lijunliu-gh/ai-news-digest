@@ -4267,10 +4267,6 @@
     "zh": "MAI-Code-1-Flash 可用于更多 Copilot 表面",
     "ja": "MAI-Code-1-Flash は、より多くの Copilot サーフェスで利用可能です"
   },
-  "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing. It’s also designed and tuned specifically for GitHub Copilot. MAI‑Code‑1‑Flash is available in Copilot Free...": {
-    "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 上聊天 GitHub Mobile JetBrains IDE Eclipse Xcode MAI‑Code‑1‑Flash 以其尺寸提供一流的质量，在早期测试中优于其他小型型号。它还专为 GitHub Copilot 设计和调整。 MAI‑Code‑1‑Flash 可在 Copilot 免费中使用...",
-    "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました。 Copilot CLI GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode MAI‑Code‑1‑Flash が提供するサイズの割にクラス最高の品質を誇り、初期のテストでは他の小型モデルを上回りました。また、GitHub Copilot 専用に設計および調整されています。 MAI‑Code‑1‑Flash は Copilot 無料で利用できます..."
-  },
   "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues": {
     "zh": "检测重复问题 – 公共预览和问题字段 MCP 支持 GitHub 问题",
     "ja": "重複する問題の検出 – パブリック プレビューおよび問題フィールド GitHub 問題の MCP サポート"
@@ -5132,7 +5128,8 @@
     "ja": "Gemini 3.5 Flash でのコンピューターの使用の紹介"
   },
   "session.thread_*": {
-    "ja": "セッション.スレッド_*"
+    "ja": "セッション.スレッド_*",
+    "zh": "会话.thread_*"
   },
   "The session.thread_* webhook events now include a session_thread_id field identifying the multi-agent thread that triggered the event.": {
     "zh": "session.thread_* webhook 事件现在包含一个 session_thread_id 字段，用于标识触发该事件的多代理线程。",
@@ -5257,5 +5254,25 @@
   "In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the Claude Code documentation.": {
     "zh": "在 Claude Code 中，我们将自动模式扩展到更多用户来执行长时间运行的任务。请参阅 Claude Code 文档。",
     "ja": "Claude Code では、長時間実行タスクの自動モードをより多くのユーザーに拡張しました。 Claude Code のドキュメントを参照してください。"
+  },
+  "Changes to model selection for Free and Student plans": {
+    "zh": "免费和学生计划的型号选择发生变化",
+    "ja": "無料プランと学生プランのモデル選択の変更"
+  },
+  "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing the need for manual choice. Auto provides access to models across multiple model families, subject to plan restrictions. For more information, see our documentation on supported models in auto mode. As part of this simplification, we are also retiring the (Preview) label from Microsoft-released models. With...": {
+    "zh": "Copilot 免费和学生计划现在将使用 Copilot 自动模型选择作为默认且唯一的模型选择体验。自动为每个任务动态选择最佳模型，无需手动选择。 Auto 提供对多个车型系列的车型的访问，但受计划限制。有关更多信息，请参阅有关自动模式下支持的型号的文档。作为此简化的一部分，我们还将从 Microsoft 发布的模型中取消（预览）标签。和...",
+    "ja": "Copilot Free プランと Student プランでは、Copilot 自動モデル選択がデフォルトの唯一のモデル選択エクスペリエンスとして使用されるようになります。自動では各タスクに最適なモデルが動的に選択されるため、手動で選択する必要がありません。 Auto では、プランの制限に従って、複数のモデル ファミリにわたるモデルへのアクセスが提供されます。詳細については、自動モードでサポートされているモデルに関するドキュメントを参照してください。この簡素化の一環として、Microsoft がリリースしたモデルから (プレビュー) ラベルも廃止されます。と..."
+  },
+  "Safety dashboard": {
+    "zh": "安全仪表板",
+    "ja": "安全ダッシュボード"
+  },
+  "Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on safety_identifier values sent on requests to identify end users. Visit the Safety dashboard.": {
+    "zh": "在OpenAI API平台上发布安全使用仪表板。安全仪表板根据请求发送的 safety_identifier 值显示被阻止的响应请求，以识别最终用户。访问安全仪表板。",
+    "ja": "OpenAI API プラットフォームで安全使用状況ダッシュボードをリリースしました。安全性ダッシュボードには、エンド ユーザーを識別するリクエストで送信された safety_identifier 値に基づいて、ブロックされたレスポンス リクエストが表示されます。安全ダッシュボードにアクセスしてください。"
+  },
+  "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing...": {
+    "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 移动 JetBrains IDE Eclipse Xcode 上聊天 编者注：以上列表于 2026 年 6 月 24 日更新，包括Copilot 云代理。 MAI‑Code‑1‑Flash 以其尺寸提供一流的质量，在早期测试中优于其他小型型号...",
+    "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました: Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode エディターのメモ: 上記のリストは 6 月 24 日に更新されました。 2026 年、Copilot クラウド エージェントを含めます。 MAI‑Code‑1‑Flash は、そのサイズではクラス最高の品質を提供し、初期のテストでは他の小型モデルを上回っています..."
   }
 }
