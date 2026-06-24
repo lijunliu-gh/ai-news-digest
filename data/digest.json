@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-06-24",
   "windowMonths": 3,
   "items": [
     {
@@ -554,6 +554,129 @@
         "en": "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to start your first session. Start a session from an issue, pull request, or prompt. Run parallel sessions across repositories, each on its own branch and worktree. Review the diff, validate in the integrated terminal and browser, and open a pull request that uses your team’s existing checks and merge..."
       },
       "url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "企业管理的设置现在支持绕过权限控制",
+        "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました",
+        "en": "Enterprise-managed settings now support bypass permission controls"
+      },
+      "summary": {
+        "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。将disableBypassPermissionsMode 添加到.github-private/.github/copilot/settings.json。 GitHub Copilot 自动提取并应用这些设置...",
+        "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれる) を自動的にスキップしないようにできるようになりました。 disableBypassPermissionsMode を.github-private/.github/copilot/settings.json に追加します。 GitHub Copilot は、これらの設定を自動的に取得して適用します...",
+        "en": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve). Add disableBypassPermissionsMode to.github-private/.github/copilot/settings.json. GitHub Copilot automatically pulls and applies these settings for..."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 个人计划注册正在重新开放",
+        "ja": "Copilot 個別プランのサインアップが再開されます",
+        "en": "Copilot individual plan sign-ups are reopening"
+      },
+      "summary": {
+        "zh": "我们将在接下来的几周内逐步为新订阅者重新开放 GitHub Copilot Student、Pro、Pro+ 和 Max 计划的注册。如果您一直在等待开始使用 Copilot，请选择适合您需求的计划。如果您的首选选项尚不可用，请尽快回来查看。如果您发现您的使用量超出了当前计划中包含的用量，我们进行了一些更新，以帮助您获得最佳体验：升级以解锁更多包含的使用量：当接近您的...",
+        "ja": "新規加入者向けに、GitHub Copilot Student、Pro、Pro+、Max プランへのサインアップを今後数週間かけて段階的に再開します。 Copilot の使用を開始するのを待っていた場合は、ニーズに合ったプランを選択してください。ご希望のオプションがまだ利用できない場合は、すぐにもう一度ご確認ください。現在のプランに含まれているものを超えて使用していることが判明した場合は、最高のエクスペリエンスを得るためにいくつかの更新を行いました: アップグレードして、より多くの含まれる使用量のロックを解除します: 使用量に近づくと...",
+        "en": "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn’t available yet, check back soon. If you find that you’re using more than what’s included in your current plan, we’ve made some updates to help you get the best experience: Upgrade to unlock more included usage: When approaching your..."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 支持企业自带密钥 (BYOK) 模型",
+        "ja": "Copilot CLI はエンタープライズ Bring Your Own Key (BYOK) モデルをサポートします",
+        "en": "Copilot CLI supports enterprise bring your own key (BYOK) models"
+      },
+      "summary": {
+        "zh": "由企业管理员配置的外部提供商的模型现在可以在 Copilot CLI 的 /model 选择器中使用，为企业开发人员提供更大的灵活性，并允许企业管理员更轻松地向开发人员部署自定义模型。要详细了解企业管理员如何配置来自外部提供商的模型以在 GitHub Copilot 中使用，请参阅将 LLM 提供商 API 密钥与 Copilot 一起使用。另外，Copilot CLI 还支持最终用户配置本地模型和来自...的模型",
+        "ja": "エンタープライズ管理者によって構成された外部プロバイダーのモデルが Copilot CLI の /model ピッカーで使用できるようになりました。これにより、エンタープライズ開発者はより柔軟になり、エンタープライズ管理者は開発者にカスタム モデルをより簡単にデプロイできるようになります。エンタープライズ管理者が GitHub Copilot で使用するために外部プロバイダーのモデルを構成する方法の詳細については、「Copilot での LLM プロバイダー API キーの使用」を参照してください。これとは別に、Copilot CLI は、ローカル モデルおよび...からのモデルを構成するエンド ユーザーもサポートします。",
+        "en": "Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily deploy custom models to developers. To learn more about how enterprise admins can configure models from external providers for use in GitHub Copilot, see Using your LLM provider API keys with Copilot. Separately, Copilot CLI also supports end users configuring local models and models from..."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天中的自动模式可供所有用户使用",
+        "ja": "Copilot の自動モード チャットはすべてのユーザーが利用可能",
+        "en": "Auto mode in Copilot Chat available for all users"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 自动模型选择现已在 github.com 上的 Copilot Chat 和所有 Copilot 计划的 GitHub 移动应用程序中普遍提供。通过自动，Copilot 根据您请求的复杂性和当前型号的可用性代表您选择型号。使用 auto 可以让您更好地优化令牌使用，同时保持高质量的结果。工作原理 自动模型选择是动态的，根据实时可用性和请求的复杂性路由到模型。它...",
+        "ja": "GitHub Copilot 自動モデル選択は、github.com の Copilot チャットおよびすべての Copilot プランの GitHub モバイル アプリで一般利用できるようになりました。自動の場合、Copilot は、リクエストの複雑さと現在のモデルの可用性に基づいて、ユーザーに代わってモデルを選択します。 auto を使用すると、高品質の結果を維持しながら、トークンの使用をより適切に最適化できます。仕組み 自動モデル選択は動的であり、リアルタイムの可用性とリクエストの複雑さに基づいてモデルにルーティングされます。それ...",
+        "en": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability. Using auto allows you to better optimize for token use while maintaining high quality results. How it works Auto model selection is dynamic, routing to models based on real-time availability and the complexity of your request. It..."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-agent-finder-for-github-copilot-now-available",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 的代理查找器现已可用",
+        "ja": "GitHub Copilot のエージェント ファインダーが利用可能になりました",
+        "en": "Agent finder for GitHub Copilot now available"
+      },
+      "summary": {
+        "zh": "GitHub 代理查找器现已可用。 GitHub Copilot 现在可以自行发现任务的正确功能，而不是手动连接每个代理应使用哪些 MCP 服务器、技能、画布、代理和工具，并在此过程中填充上下文窗口。用简单的语言描述任务，代理查找器搜索可用人工智能资源的索引，然后返回排名匹配的 Copilot 可以根据需要从您指向的任何目录中提取。代理加载工作所需的内容，而不是......",
+        "ja": "GitHub エージェント ファインダーが利用できるようになりました。各エージェントが使用する MCP サーバー、スキル、キャンバス、エージェント、ツールを手動で設定し、そのプロセスでコンテキスト ウィンドウを埋める代わりに、GitHub Copilot はタスクに適した機能を独自に検出できるようになりました。わかりやすい言葉でタスクを説明すると、エージェント ファインダーは利用可能な AI リソースのインデックスを検索し、ランク付けされた一致を返します。Copilot は、指定したカタログからオンデマンドで取得できます。エージェントは、代わりに作業に必要なものを読み込みます...",
+        "en": "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can now discover the right capability for a task on its own. Describe a task in plain language and agent finder searches an index of available AI resources, then returns ranked matches Copilot can pull in on demand from any catalog you point it at. Agents load what the work calls for instead of..."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-agent-finder-for-github-copilot-now-available",
       "tags": [
         "release",
         "copilot",
@@ -1197,6 +1320,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-10-github-2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "从 GitHub CLI 管理子问题、类型和依赖关系",
+        "ja": "GitHub CLI からサブ問題、タイプ、依存関係を管理する",
+        "en": "Manage sub-issues, types, and dependencies from GitHub CLI"
+      },
+      "summary": {
+        "zh": "GitHub CLI 现在直接从终端公开问题类型、父问题和子问题关系以及问题依赖关系。这意味着您可以构建和跟踪工作，而无需进入浏览器或编写原始 gh api 脚本。这些正是开发人员和越来越依赖 gh 作为 GitHub 接口的编码代理每天运行的工作流程。 gh issues 中的高级问题功能从 v2.94.0 开始，您现在可以使用问题层次结构、类型和依赖项...",
+        "ja": "GitHub CLI は、問題のタイプ、親問題とサブ問題の関係、および問題の依存関係を端末から直接公開するようになりました。これは、ブラウザにドロップしたり、生の gh API スクリプトを記述したりせずに、作業を構造化して追跡できることを意味します。これらはまさに、開発者と、GitHub へのインターフェイスとして gh への依存度が高まっているコーディング エージェントの両方が毎日実行するワークフローです。 gh issue の高度な課題機能 v2.94.0 では、課題の階層、タイプ、依存関係を操作できるようになりました。",
+        "en": "GitHub CLI now exposes issue types, parent and sub-issue relationships, and issue dependencies directly from the terminal. This means you can structure and track work without dropping into the browser or writing raw gh api scripts. These are exactly the workflows that both developers, and the coding agents that increasingly rely on gh as their interface to GitHub, run every day. Advanced issue features in gh issue As of v2.94.0, you can now work with issue hierarchy, types, and dependencies..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli",
+      "tags": [
+        "release",
+        "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-10-github-2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli",
       "date": "2026-06-10",
       "category": "github",
@@ -1215,6 +1362,30 @@
         "improvement",
         "application-security",
         "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-10-github-2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "date": "2026-06-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天现在可以看到您的代理会话",
+        "ja": "Copilot チャットにエージェント セッションが表示されるようになりました",
+        "en": "Copilot Chat now sees your agent sessions"
+      },
+      "summary": {
+        "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。更改内容当您通过要求聊天创建会话、创建拉取请求或对存储库进行深入研究来启动代理会话时，聊天现在会反映正在进行的会话的状态。会议结束后，您可以提出会议的后续问题或开始另一个会议...",
+        "ja": "Web 上の Copilot Chat と Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。変更点 チャットにセッションの作成、プル リクエストの作成、またはリポジトリでの詳細な調査を依頼してエージェント セッションを開始すると、進行中のセッションのステータスがチャットに反映されるようになりました。セッションが完了したら、セッションに関してフォローアップの質問をしたり、別のセッションを開始したりできます。",
+        "en": "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat. What’s changed When you kick off an agent session by asking chat to create a session, create a pull request, or do deep research on a repository, chat now reflects the status of your in-progress session. When a session is complete, you can ask follow-up questions on the session or kick off another..."
+      },
+      "url": "https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -1427,6 +1598,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-09-anthropic-vaults",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "环境变量凭据",
+        "ja": "環境変数の資格情報",
+        "en": "environment variable credentials"
+      },
+      "summary": {
+        "zh": "Claude 托管代理保管库现在支持环境变量凭据，因此您可以将机密安全地注入代理的沙箱中，以用于通过环境变量进行身份验证的 CLI、SDK 和其他服务。",
+        "ja": "Claude 管理対象エージェント コンテナーは環境変数資格情報をサポートするようになったため、CLI、SDK、および環境変数を通じて認証するその他のサービスのエージェントのサンドボックスにシークレットを安全に挿入できます。",
+        "en": "Claude Managed Agents vaults now support environment variable credentials, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/vaults#add-a-credential",
+      "tags": [
+        "environment-variable-credentials",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-06-09-anthropic-token-counting",
       "date": "2026-06-09",
       "category": "anthropic",
@@ -1450,22 +1644,68 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-09-anthropic-scheduled-deployments",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "预定部署",
+        "ja": "スケジュールされた展開",
+        "en": "scheduled deployments"
+      },
+      "summary": {
+        "zh": "Claude 托管代理现在支持计划部署，让您可以按 cron 计划运行会话，而无需管理自己的计划程序。",
+        "ja": "Claude 管理対象エージェントはスケジュールされたデプロイメントをサポートするようになり、独自のスケジューラーを管理せずに cron スケジュールでセッションを実行できるようになりました。",
+        "en": "Claude Managed Agents now supports scheduled deployments, letting you run sessions on a cron schedule without managing your own scheduler."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/scheduled-deployments",
+      "tags": [
+        "scheduled-deployments",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-06-09-anthropic-refusals-and-fallback",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "stop_details.category",
+        "ja": "stop_details.category",
+        "en": "stop_details.category"
+      },
+      "summary": {
+        "zh": "拒绝响应的 stop_details.category 字段现在包括 Claude Fable 5 上的“reasoning_extraction”，当请求根据 Anthropic 的逆向工程或复制模型输出的服务条款限制被阻止时返回。现有的“网络”和“生物”类别保持不变。不需要 beta 标头。",
+        "ja": "拒否応答の stop_details.category フィールドには、Claude Fable 5 の「reasoning_extraction」が含まれるようになりました。これは、リバース エンジニアリングまたはモデル出力の複製に関する Anthropic の利用規約制限に基づいてリクエストがブロックされた場合に返されます。既存の「サイバー」および「バイオ」カテゴリに変更はありません。ベータヘッダーは必要ありません。",
+        "en": "The stop_details.category field on refusal responses now includes \"reasoning_extraction\" on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing \"cyber\" and \"bio\" categories are unchanged. No beta header is required."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#refusal-response",
+      "tags": [
+        "stop-details-category",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-06-09-anthropic-overview",
       "date": "2026-06-09",
       "category": "anthropic",
       "title": {
-        "zh": "拒绝响应字段现在包含在 Claude Fable 5 上，已返回",
-        "ja": "拒否応答のフィールドには、返された Claude Fable 5 が含まれるようになりました。",
-        "en": "The field on refusal responses now includes on Claude Fable 5, returned"
+        "zh": "会话.thread_*",
+        "ja": "セッション.スレッド_*",
+        "en": "session.thread_*"
       },
       "summary": {
-        "zh": "拒绝响应字段现在包括在 Claude Fable 5 上，当请求根据 Anthropic 的逆向工程或复制模型输出的服务条款限制被阻止时返回。现有的 和 类别不变。不需要 beta 标头。",
-        "ja": "拒否応答のフィールドには、Claude Fable 5 が含まれるようになりました。これは、リバース エンジニアリングまたはモデル出力の複製に関する Anthropic の利用規約制限に基づいてリクエストがブロックされた場合に返されます。既存の および カテゴリは変更されません。ベータヘッダーは必要ありません。",
-        "en": "The field on refusal responses now includes on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing and categories are unchanged. No beta header is required."
+        "zh": "session.thread_* webhook 事件现在包含一个 session_thread_id 字段，用于标识触发该事件的多代理线程。",
+        "ja": "session.thread_* webhook イベントには、イベントをトリガーしたマルチエージェント スレッドを識別する session_thread_id フィールドが含まれるようになりました。",
+        "en": "The session.thread_* webhook events now include a session_thread_id field identifying the multi-agent thread that triggered the event."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#june-9-2026-the-field-on-refusal-responses-now-includes-on-claude-fable-5-returned-when-a-request-is-blocked-under-anthropic-s-terms-of-service-restrictions-on-reverse-engineering-or-duplicating-model-outputs-the-existing-and-categories-are-unchanged-no-beta-header-is-required-the-field-on-refusal-responses-now-includes-on-claude-fable-5-returned",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#june-9-2026-the-session-thread-webhook-events-now-include-a-session-thread-id-field-identifying-the-multi-agent-thread-that-triggered-the-event-session-thread",
       "tags": [
-        "the-field-on-refusal-responses-now-includes-on-claude-fable-5-returned",
+        "session-thread",
         "anthropic",
         "release-notes"
       ],
@@ -1538,6 +1778,98 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-09-anthropic-apple-foundation-models",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "语言模型",
+        "ja": "言語モデル",
+        "en": "LanguageModel"
+      },
+      "summary": {
+        "zh": "我们发布了一个测试版 Swift 包，将 Claude 添加为 Apple 基础模型框架中的服务器端 LanguageModel。通过与 iOS 27、macOS 27、visionOS 27 和 watchOS 27（测试版）上 Apple 设备上模型相同的 LanguageModelSession API 调用 Claude。",
+        "ja": "Apple の Foundation Models フレームワークにサーバー側 LanguageModel として Claude を追加する Swift パッケージをベータ版でリリースしました。 iOS 27、macOS 27、visionOS 27、watchOS 27 (ベータ) 上の Apple のオンデバイス モデルと同じ LanguageModelSession API を通じて Claude を呼び出します。",
+        "en": "We've released a Swift package in beta that adds Claude as a server-side LanguageModel in Apple's Foundation Models framework. Call Claude through the same LanguageModelSession API as Apple's on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta)."
+      },
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "tags": [
+        "languagemodel",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-06-09-anthropic-api-and-data-retention",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "特定于型号的数据保留要求",
+        "ja": "モデル固有のデータ保持要件",
+        "en": "Model-specific data retention requirements"
+      },
+      "summary": {
+        "zh": "Claude Fable 5 要求在 Claude API 上保留 30 天的数据，并且在零数据保留下不可用。请参阅特定于型号的数据保留要求。",
+        "ja": "Claude Fable 5 では、Claude API で 30 日間のデータ保持が必要であり、データ保持がゼロの場合は使用できません。 「モデル固有のデータ保持要件」を参照してください。",
+        "en": "Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See Model-specific data retention requirements."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements",
+      "tags": [
+        "model-specific-data-retention-requirements",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-06-09-anthropic-adaptive-thinking-2",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "思考：{“type”：“禁用”}",
+        "ja": "思考: {\"タイプ\": \"無効\"}",
+        "en": "thinking: {\"type\": \"disabled\"}"
+      },
+      "summary": {
+        "zh": "在Claude寓言5和Claude神话5上，自适应思维是唯一的思维模式：不支持thinking: {\"type\": \"disabled\"}，不支持手动扩展思维预算和辅助预填（均返回400错误）。请参阅从 Claude Mythos 预览版迁移到 Claude Mythos 5。",
+        "ja": "Claude Fable 5 および Claude Mythos 5 では、適応的思考が唯一の思考モードです。 Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos プレビューから Claude Mythos 5 への移行」を参照してください。",
+        "en": "On Claude Fable 5 and Claude Mythos 5, adaptive thinking is the only thinking mode: thinking: {\"type\": \"disabled\"} is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See Migrating from Claude Mythos Preview to Claude Mythos 5."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking",
+      "tags": [
+        "thinking-type-disabled",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-06-09-anthropic-adaptive-thinking",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "思考.展示",
+        "ja": "思考・表示",
+        "en": "thinking.display"
+      },
+      "summary": {
+        "zh": "在 Claude Fable 5 和 Claude Mythos 5 上，thinking.display 默认为“省略”，与 Claude Opus 4.8、Claude Opus 4.7 和 Claude Mythos Preview 相同；设置显示：“摘要”以接收可读的思维摘要。原始的思想链永远不会返回；在同一模型上的多轮对话中，传递思维块会保持不变。请参阅 Claude Fable 5 和 Claude Mythos 5 的思考输出。",
+        "ja": "Claude Fable 5 および Claude Mythos 5 では、 Thinking.display のデフォルトは、Claude Opus 4.8、Claude Opus 4.7、および Claude Mythos Preview と同じ「省略」になります。読みやすい思考の要約を受け取るには、display: \"summaryized\" を設定します。生の思考の連鎖は決して戻されません。同じモデルでの複数ターンの会話で、思考ブロックを変更せずに戻します。 Claude Fable 5 および Claude Mythos 5 に関する考察の出力を参照してください。",
+        "en": "On Claude Fable 5 and Claude Mythos 5, thinking.display defaults to \"omitted\", the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set display: \"summarized\" to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See Thinking output on Claude Fable 5 and Claude Mythos 5."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking#thinking-output-on-claude-fable-5-and-claude-mythos-5",
+      "tags": [
+        "thinking-display",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-08-openai-openai-submits-confidential-s-1",
@@ -1828,6 +2160,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-04-github-2026-06-04-github-copilot-in-visual-studio-may-update",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio 中的 GitHub Copilot — 可能会更新",
+        "ja": "Visual Studio の GitHub Copilot — 5 月の更新",
+        "en": "GitHub Copilot in Visual Studio — May update"
+      },
+      "summary": {
+        "zh": "2026 年 5 月带来了更清晰的工具，用于在 Visual Studio 2026 中使用 GitHub Copilot 来规划、审查和管理工作。亮点 以下是 Visual Studio 2026 中所有 GitHub Copilot 用户的新增功能。查看 Insiders 频道了解最新信息： 使用 Plan 代理进行构建之前进行规划：新的 Plan 代理（在代理选择器中标记为 Plan）可让您与在编写任何代码之前，Copilot 遵守实施计划。 Copilot 使用只读工具探索您的代码库，询问...",
+        "ja": "2026 年 5 月には、Visual Studio 2026 の GitHub Copilot を使用して作業を計画、レビュー、管理するためのより鮮明なツールが導入されました。 ハイライト Visual Studio 2026 のすべての GitHub Copilot ユーザー向けの新機能は次のとおりです。 最新情報については Insiders チャネルを確認してください: Plan エージェントでビルドする前に計画を立ててください: 新しい Plan エージェント (エージェント ピッカーで Plan というラベルが付いている) を使用すると、次のツールと共同作業できます。コードを記述する前に実装計画に Copilot を追加します。 Copilot は読み取り専用ツールを使用してコードベースを探索し、質問します...",
+        "en": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual Studio 2026. Check the Insiders channel for the latest: Plan before you build with the Plan agent: The new Plan agent (labeled Plan in the agent picker) lets you collaborate with Copilot on an implementation plan before any code is written. Copilot explores your codebase with read-only tools, asks..."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-04-github-2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
       "date": "2026-06-04",
       "category": "github",
@@ -1844,6 +2200,30 @@
       "url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-04-github-2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天为拉取请求带来了更丰富的上下文",
+        "ja": "Copilot チャットはプル リクエストに豊富なコンテキストをもたらします",
+        "en": "Copilot Chat brings richer context to pull requests"
+      },
+      "summary": {
+        "zh": "当您在 github.com 上处理差异和拉取请求时，GitHub Copilot Chat 现在提供更丰富的上下文和新功能。此功能之前处于公共预览版，现在任何拥有 Copilot 许可证的人都可以使用。代码和聊天并排您可以直接在与 Copilot 的对话旁边查看您的对话。这允许评论和内联编辑，而无需在拉取请求和聊天窗口之间切换。聊天拉动上下文...",
+        "ja": "GitHub Copilot Chat は、github.com で差分やプル リクエストを操作するときに、より豊富なコンテキストと新機能を提供するようになりました。この機能は以前はパブリック プレビュー段階にありましたが、現在は Copilot ライセンスを持つ誰でも一般利用できるようになりました。コードとチャットは並行して表示されます。Copilot との会話と並行して、自分の会話を直接表示できます。これにより、プル リクエストとチャット ウィンドウを切り替えることなく、コメントやインライン編集が可能になります。チャットはコンテキストに沿って行われます...",
+        "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license. Code and chat are side-by-side You can view your conversation directly alongside your conversation with Copilot. This allows for comments and inline edits without needing to toggle between the pull request and your chat window. Chat pulls in context..."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -3133,6 +3513,52 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-28-anthropic-vision",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "高分辨率图像输入",
+        "ja": "高解像度画像入力",
+        "en": "high-resolution image input"
+      },
+      "summary": {
+        "zh": "Claude Opus 4.8 支持高分辨率图像输入（长边高达 2576 像素），与 Claude Opus 4.7 相同。",
+        "ja": "Claude Opus 4.8 は、Claude Opus 4.7 と同様に、高解像度の画像入力 (長辺で最大 2576 ピクセル) をサポートします。",
+        "en": "Claude Opus 4.8 supports high-resolution image input (up to 2576 pixels on the long edge), same as Claude Opus 4.7."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/vision#high-resolution-image-support-on-claude-opus-4-7",
+      "tags": [
+        "high-resolution-image-input",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-28-anthropic-task-budgets",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "任务预算",
+        "ja": "タスクの予算",
+        "en": "Task budgets"
+      },
+      "summary": {
+        "zh": "任务预算现在支持 Claude Opus 4.8。",
+        "ja": "タスクの予算が Claude Opus 4.8 をサポートするようになりました。",
+        "en": "Task budgets now support Claude Opus 4.8."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
+      "tags": [
+        "task-budgets",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-05-28-anthropic-series-h",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -3154,22 +3580,45 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-28-anthropic-refusals-and-fallback",
+      "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
       "title": {
-        "zh": "停止详情",
-        "ja": "停留所の詳細",
-        "en": "stop_details"
+        "zh": "提示缓存",
+        "ja": "プロンプトキャッシュ",
+        "en": "prompt caching"
       },
       "summary": {
-        "zh": "拒绝响应的 stop_details 字段现已公开记录；它返回一个类别（ cyber 、 bio 或 null ）和人类可读的解释，因此您的应用程序可以将不同类别的拒绝路由到正确的下一步。不需要 beta 标头。",
-        "ja": "拒否応答の stop_details フィールドは現在、公的に文書化されています。カテゴリ (サイバー、バイオ、または null ) と人間が読める説明を返すため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。",
-        "en": "The stop_details field on refusal responses is now publicly documented; it returns a category ( cyber, bio, or null ) and a human-readable explanation, so your application can route different classes of refusal to the right next step. No beta header is required."
+        "zh": "在 Claude Opus 4.8 上，提示缓存的最小可缓存提示长度为 1,024 个令牌，低于 Claude Opus 4.7。",
+        "ja": "Claude Opus 4.8 では、プロンプト キャッシュでキャッシュ可能なプロンプトの最小長は 1,024 トークンであり、Claude Opus 4.7 よりも短くなります。",
+        "en": "On Claude Opus 4.8, the minimum cacheable prompt length for prompt caching is 1,024 tokens, lower than on Claude Opus 4.7."
       },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#refusal-response",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
       "tags": [
-        "stop-details",
+        "prompt-caching",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-28-anthropic-migration-guide",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "温度",
+        "ja": "温度",
+        "en": "temperature"
+      },
+      "summary": {
+        "zh": "将采样参数温度、top_p 或 top_k 设置为非默认值会在 Claude Opus 4.8 上返回 400 错误，与 Claude Opus 4.7 上相同。有关详细信息，请参阅迁移指南。",
+        "ja": "サンプリング パラメーターの温度、top_p、または top_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。",
+        "en": "Setting the sampling parameters temperature, top_p, or top_k to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the migration guide for details."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
+      "tags": [
+        "temperature",
         "anthropic",
         "release-notes"
       ],
@@ -3200,6 +3649,98 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-28-anthropic-fast-mode",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "快速模式",
+        "ja": "高速モード",
+        "en": "Fast mode"
+      },
+      "summary": {
+        "zh": "Claude Opus 4.8 的快速模式仅作为 Claude API 上的研究预览提供。",
+        "ja": "Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用できます。",
+        "en": "Fast mode for Claude Opus 4.8 is available as a research preview on the Claude API only."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "fast-mode",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-28-anthropic-effort",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "高的",
+        "ja": "高い",
+        "en": "high"
+      },
+      "summary": {
+        "zh": "在 Claude Opus 4.8 上，所有表面的工作量参数默认为高，包括 Claude Code 和消息 API。",
+        "ja": "Claude Opus 4.8 では、Claude Code やメッセージ API を含むすべてのサーフェスで、努力パラメータがデフォルトで高くなります。",
+        "en": "On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "tags": [
+        "high",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-28-anthropic-docs",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Code 文档",
+        "ja": "Claude Code ドキュメント",
+        "en": "Claude Code documentation"
+      },
+      "summary": {
+        "zh": "在 Claude Code 中，我们将自动模式扩展到更多用户来执行长时间运行的任务。请参阅 Claude Code 文档。",
+        "ja": "Claude Code では、長時間実行タスクの自動モードをより多くのユーザーに拡張しました。 Claude Code のドキュメントを参照してください。",
+        "en": "In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the Claude Code documentation."
+      },
+      "url": "https://code.claude.com/docs",
+      "tags": [
+        "claude-code-documentation",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-28-anthropic-computer-use-tool",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "电脑使用",
+        "ja": "コンピュータの使用",
+        "en": "Computer use"
+      },
+      "summary": {
+        "zh": "计算机使用现在支持Claude Opus 4.8。",
+        "ja": "コンピューターの使用が Claude Opus 4.8 をサポートするようになりました。",
+        "en": "Computer use now supports Claude Opus 4.8."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "tags": [
+        "computer-use",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-05-28-anthropic-claude-opus-4-8",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -3219,6 +3760,29 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-28-anthropic-12138966-release-notes",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 应用程序的发行说明",
+        "ja": "Claude アプリのリリースノート",
+        "en": "release notes for Claude Apps"
+      },
+      "summary": {
+        "zh": "有关此版本中 claude.ai、Cowork、Microsoft 365 的 Claude 以及其他 Claude 应用程序的更新，请参阅 Claude 应用程序的发行说明。",
+        "ja": "このリリースの claude.ai、Cowork、Claude for Microsoft 365、およびその他の Claude アプリの更新については、Claude アプリのリリース ノートを参照してください。",
+        "en": "For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the release notes for Claude Apps."
+      },
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "tags": [
+        "release-notes-for-claude-apps",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-05-27-openai-election-safeguards-2026",
@@ -4141,6 +4705,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 会话的远程控制现在普遍可在移动设备、Web 和 VS Code 上使用",
+        "ja": "Copilot CLI セッションのリモート コントロールがモバイル、Web、VS Code で一般提供されるようになりました",
+        "en": "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code"
+      },
+      "summary": {
+        "zh": "Copilot CLI 会话的远程控制现在在 GitHub Mobile 和 github.com 上普遍可用，因此您可以在终端中开始工作并使其从任何地方移动。在此版本中，远程控制现在支持非 GitHub 存储库以及与存储库不关联的目录。我们还在 VS Code 和 JetBrains 中引入了远程控制，使 GitHub Copilot 真正实现多表面并可在任何设备上使用。启用远程控制后，Copilot 会传输您的 CLI 会话...",
+        "ja": "Copilot CLI セッションのリモート コントロールが GitHub Mobile および github.com で一般提供されるようになりました。そのため、端末で作業を開始し、どこからでも作業を継続できます。このリリースでは、リモート コントロールは、非 GitHub リポジトリおよびリポジトリに関連付けられていないディレクトリをサポートするようになりました。また、VS Code と JetBrains にリモート コントロールを導入し、GitHub Copilot を真のマルチサーフェスにし、あらゆるデバイスで利用できるようにします。リモート制御が有効になっている場合、Copilot は CLI セッションをストリーミングします...",
+        "en": "Remote control for Copilot CLI sessions is now generally available on GitHub Mobile and github.com, so you can start work in your terminal and keep it moving from anywhere. With this release, remote control now supports non-GitHub repositories and directories not associated with a repository. We’re also introducing remote control in VS Code and JetBrains, making GitHub Copilot truly multi-surface and available across any device. When remote control is enabled, Copilot streams your CLI session..."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-remote-control-for-copilot-cli-sessions-now-generally-available-on-mobile-web-and-vs-code",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
       "date": "2026-05-18",
       "category": "github",
@@ -4261,6 +4850,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.3-Codex 现在是 Copilot 商业和企业的基本模型",
+        "ja": "GPT-5.3-Codex は、Copilot Business および Enterprise の基本モデルになりました",
+        "en": "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise"
+      },
+      "summary": {
+        "zh": "正如 2026 年 3 月 18 日宣布的那样，GPT-5.3-Codex 现在是所有 Copilot 商业和 Copilot 企业组织的基本模型，取代了 GPT-4.1。 The base model is used when your organization hasn’t yet approved other models through its internal review process. GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for...",
+        "ja": "2026 年 3 月 18 日に発表されたように、GPT-5.3-Codex は、GPT-4.1 に代わって、すべての Copilot Business 組織および Copilot Enterprise 組織の基本モデルになりました。基本モデルは、組織が内部レビュー プロセスを通じて他のモデルをまだ承認していない場合に使用されます。 GPT-5.3-Codex は、OpenAI と提携した最初の長期サポート (LTS) モデルでもあります。 LTS モデルは、モデルの発売日から丸 12 か月間利用可能であることが保証されており、企業に必要な安定性を提供します。",
+        "en": "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process. GPT-5.3-Codex is also our first long-term support (LTS) model, in partnership with OpenAI. LTS models are guaranteed to be available for a full 12 months from the model’s launch date, giving enterprises the stability they need for..."
+      },
+      "url": "https://github.blog/changelog/2026-05-17-gpt-5-3-codex-is-now-the-base-model-for-copilot-business-and-enterprise",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
       "date": "2026-05-18",
       "category": "anthropic",
@@ -4370,6 +4983,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-16-github-2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "date": "2026-05-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub App installation tokens: Per-request override header",
+        "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー",
+        "en": "GitHub App installation tokens: Per-request override header"
+      },
+      "summary": {
+        "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。标题是什么？在 POST /app/installations/:installation_id/access_tokens 请求上设置 X-GitHub-Stateless-S2S-Token 会覆盖该单个请求的服务器端部署决策。标头值 效果已启用...",
+        "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。ヘッダーとは何ですか? POST /app/installations/:installation_id/access_tokens リクエストで X-GitHub-Stateless-S2S-Token を設定すると、その単一リクエストに対するサーバー側のロールアウト決定がオーバーライドされます。ヘッダー値 効果が有効です...",
+        "en": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand. What is the header? Setting X-GitHub-Stateless-S2S-Token on a POST /app/installations/:installation_id/access_tokens request overrides the server-side rollout decision for that single request. Header value Effect enabled..."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "tags": [
+        "improvement",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-15-openai-personal-finance-chatgpt",
       "date": "2026-05-15",
       "category": "openai",
@@ -4433,6 +5070,54 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-15-github-2026-05-15-grok-code-fast-1-deprecated",
+      "date": "2026-05-15",
+      "category": "github",
+      "title": {
+        "zh": "Grok Code Fast 1 已弃用",
+        "ja": "Grok Code Fast 1 は非推奨になりました",
+        "en": "Grok Code Fast 1 deprecated"
+      },
+      "summary": {
+        "zh": "今天，即 2026 年 5 月 15 日，我们已在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了 Grok Code Fast 1。 模型弃用日期 建议替代 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 请更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为一个...",
+        "ja": "本日、2026 年 5 月 15 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Grok Code Fast 1 を非推奨にしました。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 更新してくださいサポートされているモデルを使用するためのワークフローと統合。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。として...",
+        "en": "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an..."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-15-github-2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
+      "date": "2026-05-15",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 内存支持 Pro、Pro+ 用户的用户偏好",
+        "ja": "Copilot メモリは Pro、Pro+ ユーザーのユーザー設定をサポートします",
+        "en": "Copilot Memory supports user preferences for Pro, Pro+ users"
+      },
+      "summary": {
+        "zh": "Copilot Memory 现在支持 Copilot Pro 和 Copilot Pro+ 用户的早期访问中的用户级别首选项。 Copilot 现在可以存储有关您喜欢如何与其交互的陈述或推断的个人偏好。这些首选项可用于未来跨 Copilot 体验的 Copilot 交互。随着时间的推移，Copilot 会适应您的工作方式，自动提供适合您的风格和标准的结果。有何变化 以前，Copilot 内存仅将信息存储在...",
+        "ja": "Copilot メモリは、Copilot Pro および Copilot Pro+ ユーザーの早期アクセスでユーザーレベルの設定をサポートするようになりました。 Copilot は、ユーザーがどのように操作したいかについて、明示または推測された個人的な好みを保存できるようになりました。これらの設定は、将来の Copilot エクスペリエンス全体の Copilot インタラクションで使用できます。時間の経過とともに、Copilot はユーザーの作業方法に適応し、ユーザーのスタイルと基準に合った結果を自動的に提供します。変更点 以前は、Copilot メモリには情報のみが保存されていました...",
+        "en": "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to interact with it. These preferences are available for use in future Copilot interactions across Copilot experiences. Over time, Copilot adapts to the way you work, automatically delivering results that fit your style and standards. What’s changing Previously, Copilot Memory only stored information at the..."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-14-openai-work-with-codex-from-anywhere",
@@ -4863,29 +5548,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-12-anthropic-fast-mode",
-      "date": "2026-05-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "速度：“快”",
-        "ja": "スピード：「速い」",
-        "en": "speed: \"fast\""
-      },
-      "summary": {
-        "zh": "快速模式（研究预览）现在支持 Claude Opus 4.7。设置速度：“快速”，型号：“claude-opus-4-7”和 fast-mode-2026-02-01 beta 标头，以高价显着加快输出代币生成速度。定价、速率限制和访问权限与 Opus 4.6 快速模式相同；有兴趣的顾客应该加入候补名单。",
-        "ja": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。速度を「高速」に設定し、モデル: 「claude-opus-4-7」と fast-mode-2026-02-01 ベータ ヘッダーを使用すると、プレミアム価格で出力トークンの生成が大幅に高速化されます。価格、レート制限、アクセスは Opus 4.6 高速モードと同じです。興味のあるお客様は順番待ちリストに参加してください。",
-        "en": "Fast mode (research preview) now supports Claude Opus 4.7. Set speed: \"fast\" with model: \"claude-opus-4-7\" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "speed-fast",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-05-11-openai-openai-launches-the-deployment-company",
@@ -6933,6 +7595,54 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-22-github-2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+      "date": "2026-04-22",
+      "category": "github",
+      "title": {
+        "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
+        "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス",
+        "en": "C++ code intelligence for GitHub Copilot CLI in public preview"
+      },
+      "summary": {
+        "zh": "Microsoft C++ 语言服务器现已推出 Copilot CLI 的公共预览版。它由 Visual Studio 和 VS Code 中使用的相同 IntelliSense 引擎提供支持，将精确的语义 C++ 代码智能从 IDE 扩展到命令行。为什么这很重要 C++ 对于工具来说是很难推理的。复杂的包括层次结构、宏、模板和依赖于构建系统的配置意味着单独的文本搜索会给出不完整的结果。 C++ 语言服务器提供...",
+        "ja": "Microsoft C++ Language Server が Copilot CLI のパブリック プレビューで利用できるようになりました。 Visual Studio および VS Code で使用されているものと同じ IntelliSense エンジンを搭載しており、正確でセマンティックな C++ コード インテリジェンスを IDE を超えてコマンド ラインにまで拡張します。これが重要な理由 C++ は、ツールにとって独自に推論することが困難です。複雑なインクルード階層、マクロ、テンプレート、ビルド システム依存の構成により、テキスト検索だけでは不完全な結果が得られます。 C++ 言語サーバーが提供するのは...",
+        "en": "The Microsoft C++ Language Server is now available in public preview for the Copilot CLI. Powered by the same IntelliSense engine used in Visual Studio and VS Code, it extends precise, semantic C++ code intelligence beyond the IDE to the command line. Why this matters C++ is uniquely difficult for tools to reason about. Complex include hierarchies, macros, templates, and build-system-dependent configurations mean text search alone gives incomplete results. The C++ Language Server provides..."
+      },
+      "url": "https://github.blog/changelog/2026-04-22-c-code-intelligence-for-github-copilot-cli-in-public-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-22-github-2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
+      "date": "2026-04-22",
+      "category": "github",
+      "title": {
+        "zh": "现在可以在 VS Code 中添加您自己的语言模型密钥",
+        "ja": "VS Code で独自の言語モデル キーを使用できるようになりました",
+        "en": "Bring your own language model key in VS Code now available"
+      },
+      "summary": {
+        "zh": "Copilot 商业和企业用户现在可以在 Visual Studio Code 中使用自带语言模型密钥 (BYOK)。 BYOK 允许团队重复使用其 API 密钥来访问来自 Anthropic、Gemini、OpenAI、OpenRouter 和 Azure 等提供商的模型，以及通过 Ollama 和 Foundry Local 本地运行的模型。配置完成后，BYOK 模型可在 VS Code Chat 中的任何位置使用，包括内置计划代理和自定义代理。 BYOK 不适用于代码完成。使用费用直接由...",
+        "ja": "Copilot Business および Enterprise ユーザーは、Visual Studio Code で独自の言語モデル キー (BYOK) を使用できるようになりました。 BYOK を使用すると、チームは API キーを再利用して、Anthropic、Gemini、OpenAI、OpenRouter、Azure などのプロバイダーのモデルにアクセスしたり、Ollama や Foundry Local を通じてローカルで実行されているモデルにアクセスしたりできます。構成が完了すると、ビルトイン プラン エージェントやカスタム エージェントを含め、VS Code Chat 内のどこでも BYOK モデルを利用できるようになります。 BYOK はコード補完には適用されません。使用量は直接請求されます...",
+        "en": "Copilot Business and Enterprise users can now use bring your own language model key (BYOK) in Visual Studio Code. BYOK lets teams reuse their API keys to access models from providers like Anthropic, Gemini, OpenAI, OpenRouter, and Azure, as well as locally running models through Ollama and Foundry Local. Once configured, BYOK models are available anywhere in VS Code Chat, including the built-in plan agent and custom agents. BYOK does not apply to code completions. Usage is billed directly by..."
+      },
+      "url": "https://github.blog/changelog/2026-04-22-bring-your-own-language-model-key-in-vs-code-now-available",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-21-openai-scaling-codex-to-enterprises-worldwide",
       "date": "2026-04-21",
       "category": "openai",
@@ -7024,6 +7734,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-04-20-github-2026-04-20-changes-to-github-copilot-plans-for-individuals",
+      "date": "2026-04-20",
+      "category": "github",
+      "title": {
+        "zh": "个人 GitHub Copilot 计划的变更",
+        "ja": "個人向けの GitHub Copilot プランの変更",
+        "en": "Changes to GitHub Copilot plans for individuals"
+      },
+      "summary": {
+        "zh": "正如我们在最近的博客文章中所分享的，我们正在对个人 Copilot 计划进行以下更改，作为我们持续努力的一部分，以确保所有用户的服务可靠性和可持续的 Copilot 体验。暂停 Pro、Pro+ 和 Student 的新注册为了优先考虑现有付费客户的服务质量，我们将暂停 Student、Pro 和 Pro+ 计划的新注册。 Copilot 免费仍然对新注册开放，现有用户仍然可以在计划之间升级。更紧...",
+        "ja": "最近のブログ投稿で共有したように、すべてのユーザーにサービスの信頼性と持続可能な Copilot エクスペリエンスを確保するための継続的な取り組みの一環として、個人向けの Copilot プランに次の変更を加えます。 Pro、Pro+、Student の新規サインアップの一時停止 既存の有料顧客へのサービス品質を優先するため、Student、Pro、Pro+ プランの新規サインアップを一時停止します。 Copilot Free は引き続き新規サインアップを受け付けており、既存のユーザーは引き続きプラン間でアップグレードできます。もっときつく...",
+        "en": "As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable Copilot experience for all users. New signups paused for Pro, Pro+, and Student To prioritize service quality for existing paying customers, we will be pausing new signups for our Student, Pro, and Pro+ plans. Copilot Free remains open for new signups, and existing users can still upgrade between plans. Tighter..."
+      },
+      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-04-20-anthropic-anthropic-amazon-compute",
@@ -7228,75 +7962,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-16-anthropic-vision",
-      "date": "2026-04-16",
-      "category": "anthropic",
-      "title": {
-        "zh": "高分辨率图像输入",
-        "ja": "高解像度画像入力",
-        "en": "high-resolution image input"
-      },
-      "summary": {
-        "zh": "Claude Opus 4.7支持高分辨率图像输入，将长边最大图像分辨率从1568像素提高到2576像素，以提高计算机使用、屏幕截图理解和文档分析的性能。高分辨率支持是自动的，不需要 beta 标头；与之前的型号相比，图像可能使用最多大约 3 倍的图像标记。",
-        "ja": "Claude Opus 4.7 は高解像度の画像入力をサポートしており、長辺の最大画像解像度が 1568 ピクセルから 2576 ピクセルに引き上げられ、コンピューターの使用、スクリーンショットの理解、ドキュメント分析のパフォーマンスが向上します。高解像度のサポートは自動的に行われ、ベータ ヘッダーは必要ありません。画像では、以前のモデルに比べて最大約 3 倍多くのイメージ トークンが使用される可能性があります。",
-        "en": "Claude Opus 4.7 supports high-resolution image input, raising the maximum image resolution from 1568 to 2576 pixels on the long edge for improved performance on computer use, screenshot understanding, and document analysis. High-resolution support is automatic and requires no beta header; images may use up to approximately 3x more image tokens than on prior models."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/vision#high-resolution-image-support-on-claude-opus-4-7",
-      "tags": [
-        "high-resolution-image-input",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-16-anthropic-task-budgets",
-      "date": "2026-04-16",
-      "category": "anthropic",
-      "title": {
-        "zh": "任务预算-2026-03-13",
-        "ja": "タスク-予算-2026-03-13",
-        "en": "task-budgets-2026-03-13"
-      },
-      "summary": {
-        "zh": "我们在 Claude Opus 4.7 上推出了测试版任务预算。为 Claude 提供完整代理循环（思考、工具调用、工具结果和输出）的咨询代币预算，模型会看到正在运行的倒计时，使用它来确定工作的优先级，并在预算消耗时优雅地完成。在您的请求中包含 task-budgets-2026-03-13 beta 标头。",
-        "ja": "Claude Opus 4.7 のベータ版でタスク予算を開始しました。 Claude に完全なエージェント ループ (思考、ツール呼び出し、ツール結果、出力) のアドバイザリー トークン予算を与えると、モデルは実行中のカウントダウンを確認し、それを使用して作業に優先順位を付け、予算が消費されると正常に終了します。リクエストに task-budgets-2026-03-13 ベータ ヘッダーを含めます。",
-        "en": "We've launched task budgets in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritize work and finish gracefully as the budget is consumed. Include the task-budgets-2026-03-13 beta header in your requests."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
-      "tags": [
-        "task-budgets-2026-03-13",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-16-anthropic-overview",
-      "date": "2026-04-16",
-      "category": "anthropic",
-      "title": {
-        "zh": "我们在 Claude Opus 4.7 上添加了该级别。",
-        "ja": "Claude Opus 4.7 にレベルを追加しました。",
-        "en": "We've added the level on Claude Opus 4.7."
-      },
-      "summary": {
-        "zh": "我们在 Claude Opus 4.7 上添加了该级别。位于 和 之间，针对代币预算数百万的长时间运行的代理和编码任务（超过 30 分钟）进行了调整。不需要 beta 标头。",
-        "ja": "Claude Opus 4.7 にレベルを追加しました。と の間に位置し、数百万単位のトークン バジェットを伴う長時間実行のエージェントおよびコーディング タスク (30 分以上) 向けに調整されています。ベータヘッダーは必要ありません。",
-        "en": "We've added the level on Claude Opus 4.7. sits between and and is tuned for long-running agentic and coding tasks (over 30 minutes) with token budgets in the millions. No beta header is required."
-      },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#april-16-2026-we-ve-added-the-level-on-claude-opus-4-7-sits-between-and-and-is-tuned-for-long-running-agentic-and-coding-tasks-over-30-minutes-with-token-budgets-in-the-millions-no-beta-header-is-required-we-ve-added-the-level-on-claude-opus-4-7",
-      "tags": [
-        "we-ve-added-the-level-on-claude-opus-4-7",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-04-16-anthropic-claude-opus-4-7",
@@ -7977,6 +8642,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-04-08-github-2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "date": "2026-04-08",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code 中的 GitHub Copilot，三月版本",
+        "ja": "Visual Studio Code の GitHub Copilot、3 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code, March Releases"
+      },
+      "summary": {
+        "zh": "VS Code 改为每周稳定版本。此变更日志涵盖 v1.111 至 v1.115 版本，这些版本是我们在 2026 年 3 月和 4 月初发布的版本。亮点包括用于完全自主代理会话的 Autopilot（公开预览版）、集成浏览器调试、聊天中的图像和视频支持以及用于管理聊天自定义的新统一编辑器。控制代理如何运行代理权限：选择每个会话的权限级别（默认、绕过批准或自动驾驶仪）以...",
+        "ja": "VS Code は毎週の安定版リリースに移行しました。この変更ログでは、2026 年 3 月から 4 月初めにかけて出荷されたリリース v1.111 から v1.115 までを対象としています。ハイライトには、完全自律エージェント セッション用のオートパイロット (パブリック プレビュー中)、統合されたブラウザ デバッグ、チャットでの画像とビデオのサポート、チャットのカスタマイズを管理するための新しい統合エディターが含まれます。エージェントがエージェント権限を実行する方法を制御する: セッションごとの権限レベル (デフォルト、承認のバイパス、または自動操縦) を選択します。",
+        "en": "VS Code moved to weekly stable releases. This changelog covers releases v1.111 through v1.115, the releases we shipped throughout March and early April 2026. The highlights include Autopilot for fully autonomous agent sessions (in public preview), integrated browser debugging, image and video support in chat, and a new unified editor for managing chat customizations. Control how agents run Agent permissions: Choose a permission level per session ( Default, Bypass Approvals, or Autopilot ) to..."
+      },
+      "url": "https://github.blog/changelog/2026-04-08-github-copilot-in-visual-studio-code-march-releases",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-08-github-2026-04-08-copilot-reviewed-pull-request-merge-metrics-now-in-the-usage-metrics-api",
       "date": "2026-04-08",
       "category": "github",
@@ -8073,6 +8762,31 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-04-07-github-2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "使用 Dynatrace 的运行时上下文确定安全警报的优先级",
+        "ja": "Dynatrace のランタイム コンテキストを使用してセキュリティ アラートに優先順位を付ける",
+        "en": "Prioritize security alerts with runtime context from Dynatrace"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 Dynatrace 中的运行时上下文，根据 Kubernetes 环境中部署的工件和运行时风险来确定 GitHub 高级安全警报的优先级。当您将 Dynatrace 连接到 GitHub 时，您将看到 Dynatrace 映射到您的存储库的容器映像的部署上下文，以及运行时风险信号。您可以使用此上下文将修复重点放在影响已部署工件的警报上，尤其是当 Dynatrace 检测到较高风险的运行时条件时。如何使用...",
+        "ja": "Dynatrace のランタイム コンテキストを使用して、Kubernetes 環境でデプロイされたアーティファクトとランタイム リスクに基づいて GitHub Advanced Security アラートに優先順位を付けることができるようになりました。 Dynatrace を GitHub に接続すると、Dynatrace がリポジトリにマップするコンテナ イメージのデプロイメント コンテキストと、実行時のリスク シグナルが表示されます。このコンテキストを使用すると、特に Dynatrace がよりリスクの高い実行時状態を検出した場合に、デプロイされたアーティファクトに影響を与えるアラートの修復に重点を置くことができます。使用方法...",
+        "en": "You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to GitHub, you’ll see deployment context for container images that Dynatrace maps to your repositories, along with runtime risk signals. You can use this context to focus remediation on alerts that affect deployed artifacts, especially when Dynatrace detects higher-risk runtime conditions. How to use..."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "tags": [
+        "release",
+        "application-security",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-07-github-2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
       "date": "2026-04-07",
       "category": "github",
@@ -8090,6 +8804,31 @@
       "tags": [
         "improvement",
         "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 现在支持 BYOK 和本地模型",
+        "ja": "Copilot CLI が BYOK およびローカル モデルをサポートするようになりました",
+        "en": "Copilot CLI now supports BYOK and local models"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI 现在允许您连接自己的模型提供程序或运行完全本地模型，而不是使用 GitHub 托管的模型路由。这意味着您可以使用已经付费的模型和提供商，在隔离环境中运营，并保持对 LLM 支出的直接控制，同时保持相同的代理终端体验。连接任何模型提供程序通过设置一些环境来配置 Copilot CLI 以使用 Azure OpenAI、Anthropic 或任何 OpenAI 兼容端点...",
+        "ja": "GitHub Copilot CLI では、GitHub でホストされるモデル ルーティングを使用する代わりに、独自のモデル プロバイダーに接続したり、完全にローカル モデルを実行したりできるようになりました。これは、同じエージェント端末エクスペリエンスを維持しながら、既に料金を支払っているモデルとプロバイダーを使用し、エアギャップ環境で運用し、LLM 支出を直接制御できることを意味します。任意のモデル プロバイダーに接続するいくつかの環境を設定して、Azure OpenAI、Anthropic、または任意の OpenAI 互換エンドポイントを使用するように Copilot CLI を構成します...",
+        "en": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you’re already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience. Connect any model provider Configure Copilot CLI to use Azure OpenAI, Anthropic, or any OpenAI-compatible endpoint by setting a few environment..."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -9129,6 +9868,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-03-25-github-2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
+      "date": "2026-03-25",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在可以识别活跃的 Copilot 编码代理用户",
+        "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コーディング エージェント ユーザーが識別されるようになりました",
+        "en": "Copilot usage metrics now identify active Copilot coding agent users"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 编码代理 (CCA) 活动。企业和组织管理员可以在每日报告和 28 天报告中识别哪些用户正在积极使用 Copilot 编码代理，从而更全面地了解 IDE 之外的各个界面的 Copilot 采用情况。在 API 响应中，CCA 使用情况由用户级别的used_copilot_coding_agent 字段表示。您可以在我们的文档中了解有关 Copilot 使用指标的更多信息。这包括是否...",
+        "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コーディング エージェント (CCA) アクティビティを行っているかを示すようになりました。企業および組織の管理者は、日次レポートおよび 28 日レポートで Copilot コーディング エージェントをアクティブに使用しているユーザーを特定できるため、IDE を超えたサーフェス全体での Copilot 導入のより完全な全体像を把握できるようになります。 API 応答内では、CCA の使用状況はユーザー レベルの used_copilot_coding_agent フィールドによって示されます。 Copilot の使用状況メトリクスに関するドキュメントで詳細を学ぶことができます。これには、次のことが含まれます。",
+        "en": "Copilot usage metrics now indicate which users have Copilot coding agent (CCA) activity. Enterprise and organization admins can identify which users are actively using Copilot coding agent on daily and 28-day reports, enabling a more complete picture of Copilot adoption across surfaces beyond the IDE. Within the API response, CCA usage is denoted by the used_copilot_coding_agent field at the user level. You can learn more in our documentation about Copilot usage metrics. This includes whether a..."
+      },
+      "url": "https://github.blog/changelog/2026-03-25-copilot-usage-metrics-now-identify-active-copilot-coding-agent-users",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-03-24-openai-update-on-the-openai-foundation",
       "date": "2026-03-24",
       "category": "openai",
@@ -9218,44 +9981,47 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-03-23-openai-creating-with-sora-safely",
-      "date": "2026-03-23",
-      "category": "openai",
-      "title": {
-        "zh": "与 Sora 一起安全地创作",
-        "ja": "Sora で安全に作成する",
-        "en": "Creating with Sora Safely"
-      },
-      "summary": {
-        "zh": "为了解决最先进的视频模型和新的社交创作平台带来的新的安全挑战，我们构建了以安全为基础的 Sora 2 和 Sora 应用程序。我们的方法以具体的保护为基础。",
-        "ja": "最先端のビデオ モデルと新しいソーシャル クリエーション プラットフォームによってもたらされる新たな安全性の課題に対処するために、私たちは安全性を基盤として Sora 2 と Sora アプリを構築しました。私たちのアプローチは具体的な保護に基づいています。",
-        "en": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections."
-      },
-      "url": "https://openai.com/index/creating-with-sora-safely",
-      "tags": [
-        "safety",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-23-github-2026-03-23-gemini-3-1-pro-is-now-available-in-jetbrains-ides-xcode-and-eclipse",
-      "date": "2026-03-23",
+      "id": "2026-03-24-github-2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
+      "date": "2026-03-24",
       "category": "github",
       "title": {
-        "zh": "Gemini 3.1 Pro 现已在 JetBrains IDE、Xcode 和 Eclipse 中提供",
-        "ja": "Gemini 3.1 Pro が JetBrains IDE、Xcode、および Eclipse で利用可能になりました",
-        "en": "Gemini 3.1 Pro is now available in JetBrains IDEs, Xcode, and Eclipse"
+        "zh": "通过 API 管理 Copilot 编码代理存储库访问",
+        "ja": "API 経由で Copilot コーディング エージェント リポジトリ アクセスを管理する",
+        "en": "Manage Copilot coding agent repository access via the API"
       },
       "summary": {
-        "zh": "Gemini 3.1 Pro 已向 Copilot Enterprise、Copilot Business、Copilot Pro 和 Copilot Pro+ 提供公共预览版。现在，您可以通过聊天模型选择器（代理、询问和编辑模式）访问 GitHub Copilot Chat on github.com、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode 和 Eclipse 中的模型。如果您还没有访问权限，请稍后再检查。启用访问 Copilot 业务和企业管理员必须通过启用 Gemini 3.1 来选择加入...",
-        "ja": "Gemini 3.1 Pro は、Copilot Enterprise、Copilot Business、Copilot Pro、および Copilot Pro+ のパブリック プレビューで利用できます。チャット モデル ピッカー (エージェント、質問、および編集モード) を介して、github.com の GitHub Copilot チャット、GitHub Mobile、Visual Studio Code、Visual Studio、JetBrains IDE、Xcode、および Eclipse のモデルにアクセスできるようになります。まだアクセスしていない場合は、後でもう一度確認してください。アクセスの有効化 Copilot Business および Enterprise 管理者は、Gemini 3.1... を有効にしてオプトインする必要があります。",
-        "en": "Gemini 3.1 Pro is available in public preview to Copilot Enterprise, Copilot Business, Copilot Pro, and Copilot Pro+. You’ll now be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, Visual Studio Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (agent, ask, and edit modes). If you do not yet have access, please check again later. Enabling access Copilot Business and Enterprise administrators must opt in by enabling the Gemini 3.1..."
+        "zh": "想要大规模管理 Copilot 编码代理访问的组织所有者现在可以使用新的 Copilot 编码代理管理 REST API（在公共预览版中提供）以编程方式执行此操作。使用这些 API，您可以： 决定 Copilot 编码代理是否可用于您的组织拥有的无存储库、所有存储库或选定的存储库。当您的组织设置为仅允许选定的存储库时，添加或删除允许的存储库。您还可以管理这些设置...",
+        "ja": "Copilot コーディング エージェントへのアクセスを大規模に管理したい組織所有者は、パブリック プレビューで利用可能な新しい Copilot コーディング エージェント管理 REST API を使用してプログラムで管理できるようになりました。これらの API を使用すると、次のことが可能になります。 Copilot コーディング エージェントを、リポジトリなし、すべてのリポジトリ、または組織が所有する選択したリポジトリで使用できるかどうかを決定します。組織が選択されたリポジトリのみを許可するように設定されている場合は、許可されたリポジトリを追加または削除します。これらの設定を管理することもできます...",
+        "en": "Organization owners who want to manage Copilot coding agent access at scale can now do so programmatically with the new Copilot coding agent management REST APIs, available in public preview. With these APIs, you can: Decide whether Copilot coding agent is available for no repositories, all repositories, or selected repositories owned by your organization. Add or remove allowed repositories when your organization is set to allow Only selected repositories. You can also manage these settings..."
       },
-      "url": "https://github.blog/changelog/2026-03-23-gemini-3-1-pro-is-now-available-in-jetbrains-ides-xcode-and-eclipse",
+      "url": "https://github.blog/changelog/2026-03-24-manage-copilot-coding-agent-repository-access-via-the-api",
       "tags": [
         "release",
+        "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-24-github-2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "date": "2026-03-24",
+      "category": "github",
+      "title": {
+        "zh": "要求 @copilot 对拉取请求进行更改",
+        "ja": "@copilot にプル リクエストに変更を加えるように依頼します",
+        "en": "Ask @copilot to make changes to a pull request"
+      },
+      "summary": {
+        "zh": "您现在可以在拉取请求中提及@copilot，要求 Copilot 进行更改。您可以要求@copilot：修复失败的GitHub操作工作流程：@copilot修复失败的测试解决代码审查评论：@copilot解决此评论进行任何其他更改：@copilot添加一个单元测试，覆盖模型参数丢失时的情况Copilot编码代理在其自己的基于云的开发环境中工作，可以在其中进行更改，使用测试和linter验证其工作，然后推送...",
+        "ja": "プル リクエストで @copilot に言及して、Copilot に変更を依頼できるようになりました。 @copilot に次のことを依頼できます: 失敗した GitHub アクション ワークフローを修正する: @copilot 失敗したテストを修正する コード レビュー コメントにアドレス指定する: @copilot このコメントにアドレス指定する その他の変更を行う: @copilot モデル引数が欠落している場合をカバーする単体テストを追加する Copilot コーディング エージェントは独自のクラウドベースの開発環境で動作し、変更を加え、テストとリンターで動作を検証し、プッシュ...",
+        "en": "You can now mention @copilot in pull requests to ask Copilot to make changes. You can ask @copilot to: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments: @copilot Address this comment Make any other changes: @copilot Add a unit test covering the case when the model argument is missing Copilot coding agent works in its own cloud-based development environment where it can make changes, validate its work with your tests and linter, and then push..."
+      },
+      "url": "https://github.blog/changelog/2026-03-24-ask-copilot-to-make-changes-to-any-pull-request",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
