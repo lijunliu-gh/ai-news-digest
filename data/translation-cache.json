@@ -4375,14 +4375,6 @@
     "zh": "Web 搜索工具和 Web 获取工具现在支持 web_search_20260318 和 web_fetch_20260318，添加了 response_inclusion 参数以从代理工作流的 API 响应中删除消耗的结果块。不需要 beta 标头。",
     "ja": "Web 検索ツールと Web フェッチ ツールは、web_search_20260318 と web_fetch_20260318 をサポートするようになり、エージェント ワークフローの API 応答から消費された結果ブロックを削除するための response_inclusion パラメーターが追加されました。ベータヘッダーは必要ありません。"
   },
-  "code_execution_20260521": {
-    "zh": "代码_执行_20260521",
-    "ja": "コード_実行_20260521"
-  },
-  "The code execution tool now supports code_execution_20260521, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required.": {
-    "zh": "代码执行工具现在支持 code_execution_20260521，它在工具描述中公开了 90 秒的每单元执行时间限制，以便 Claude 可以预算长时间运行的单元。不需要 beta 标头。",
-    "ja": "コード実行ツールは code_execution_20260521 をサポートするようになりました。これは、Claude が長時間実行されるセルの予算を設定できるように、ツールの説明でセルごとの 90 秒の実行時間制限を開示しています。ベータヘッダーは必要ありません。"
-  },
   "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs": {
     "zh": "在 JetBrains IDE 的 GitHub Copilot 中引入 Copilot CLI 代理和统一会话视图",
     "ja": "JetBrains IDE の Copilot CLI エージェントと GitHub Copilot の統合セッション ビューの導入"
@@ -5107,132 +5099,95 @@
     "zh": "一篇新的 OpenAI 研究论文展示了人工智能代理如何改变工作方式，实现更长、更复杂的任务，并提高跨角色的生产力。",
     "ja": "新しい OpenAI 研究論文では、AI エージェントがどのように仕事を変革し、より長く複雑なタスクを可能にし、役割を越えて生産性を拡大しているかを示しています。"
   },
-  "session.thread_*": {
-    "zh": "会话.thread_*",
-    "ja": "セッション.スレッド_*"
+  "New features and Claude as agent provider preview in JetBrains IDEs": {
+    "zh": "新功能和 Claude 作为 JetBrains IDE 中的代理提供程序预览",
+    "ja": "JetBrains IDE のエージェント プロバイダー プレビューとしての新機能と Claude"
   },
-  "The session.thread_* webhook events now include a session_thread_id field identifying the multi-agent thread that triggered the event.": {
-    "zh": "session.thread_* webhook 事件现在包含一个 session_thread_id 字段，用于标识触发该事件的多代理线程。",
-    "ja": "session.thread_* webhook イベントには、イベントをトリガーしたマルチエージェント スレッドを識別する session_thread_id フィールドが含まれるようになりました。"
+  "This update adds support for organization and enterprise agents from GitHub, lets you queue and steer messages in Copilot CLI sessions, introduces a new agent debug logs summary view, and brings Claude as agent provider into public preview in GitHub Copilot for JetBrains IDEs. It also includes model picker enhancements, a per-turn AI credits indicator, and a set of user experience and reliability improvements. Cloud agent is now generally available. New features Support for organization and...": {
+    "zh": "此更新添加了对 GitHub 的组织和企业代理的支持，允许您在 Copilot CLI 会话中对消息进行排队和引导，引入新的代理调试日志摘要视图，并将 Claude 作为代理提供程序引入 JetBrains IDE 的 GitHub Copilot 中的公共预览版。它还包括模型选择器增强功能、每回合人工智能积分指示器以及一系列用户体验和可靠性改进。云代理现已普遍可用。新功能 支持组织和...",
+    "ja": "このアップデートでは、GitHub からの組織およびエンタープライズ エージェントのサポートが追加され、Copilot CLI セッションでメッセージをキューに入れて操作できるようになり、新しいエージェント デバッグ ログの概要ビューが導入され、JetBrains IDE の GitHub Copilot でエージェント プロバイダーとして Claude がパブリック プレビューになりました。また、モデル ピッカーの機能強化、ターンごとの AI クレジット インジケーター、一連のユーザー エクスペリエンスと信頼性の向上も含まれています。クラウド エージェントが一般提供されるようになりました。新機能 組織化と..."
   },
-  "environment variable credentials": {
-    "zh": "环境变量凭据",
-    "ja": "環境変数の資格情報"
+  "AI credits consumed per user now in the Copilot usage metrics API": {
+    "zh": "现在在 Copilot 使用指标 API 中每个用户消耗的 AI 积分",
+    "ja": "ユーザーごとに消費される AI クレジットが Copilot 使用状況メトリクス API に追加されました"
   },
-  "Claude Managed Agents vaults now support environment variable credentials, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.": {
-    "zh": "Claude 托管代理保管库现在支持环境变量凭据，因此您可以将机密安全地注入代理的沙箱中，以用于通过环境变量进行身份验证的 CLI、SDK 和其他服务。",
-    "ja": "Claude 管理対象エージェント コンテナーで環境変数資格情報がサポートされるようになったため、CLI、SDK、および環境変数を通じて認証するその他のサービスのエージェントのサンドボックスにシークレットを安全に挿入できます。"
+  "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API. What’s new A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed. This is an overall per-user total across all of that user’s Copilot activity. The field is available in both the single-day ( users-1-day ) and 28-day ( users-28-day )...": {
+    "zh": "Copilot 使用指标 API 现在报告每个用户每天消耗的 AI 积分数，这些积分源自基于使用情况的计费 API 中使用的相同 AI 积分消耗数据。新功能 现在，用户级报告中为每个用户添加了一个新的 ai_credits_used 字段，并指示用户消耗的总 AI 积分。这是每个用户所有 Copilot 活动的总和。该字段在单日 (users-1-day) 和 28 天 (users-28-day) 中均可用...",
+    "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。これは、そのユーザーのすべての Copilot アクティビティにわたるユーザーごとの合計です。このフィールドは、1 日 ( users-1-day ) と 28 日 ( users-28-day ) の両方で使用できます。"
   },
-  "scheduled deployments": {
-    "zh": "预定部署",
-    "ja": "スケジュールされた展開"
+  "code_execution_20260120": {
+    "ja": "コード_実行_20260120"
   },
-  "Claude Managed Agents now supports scheduled deployments, letting you run sessions on a cron schedule without managing your own scheduler.": {
-    "zh": "Claude 托管代理现在支持计划部署，让您可以按 cron 计划运行会话，而无需管理自己的计划程序。",
-    "ja": "Claude 管理対象エージェントはスケジュールされたデプロイメントをサポートするようになり、独自のスケジューラーを管理せずに cron スケジュールでセッションを実行できるようになりました。"
+  "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120, the code execution tool version that adds REPL state persistence and is the minimum version for programmatic tool calling. To adopt it, set the tool's type to code_execution_20260120; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the model compatibility table.": {
+    "zh": "Python、TypeScript、Go、Java、Ruby、PHP 和 C# SDK 现在包括对 code_execution_20260120 的支持，该代码执行工具版本添加了 REPL 状态持久性，并且是编程工具调用的最低版本。要采用它，请将工具的类型设置为code_execution_20260120；不需要 beta 标头。它适用于 Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 及更高版本以及 Claude Sonnet 4.5 及更高版本；请参阅型号兼容性表。",
+    "ja": "Python、TypeScript、Go、Java、Ruby、PHP、および C# SDK には、REPL 状態の永続性を追加し、プログラムによるツール呼び出しの最小バージョンであるコード実行ツールのバージョンである code_execution_20260120 のサポートが含まれるようになりました。これを採用するには、ツールのタイプを code_execution_20260120 に設定します。ベータヘッダーは必要ありません。これは、Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 以降、および Claude Sonnet 4.5 以降で利用できます。モデル互換性表を参照してください。"
   },
-  "Model-specific data retention requirements": {
-    "zh": "特定于型号的数据保留要求",
-    "ja": "モデル固有のデータ保持要件"
+  "The field on refusal responses now includes on Claude Fable 5, returned": {
+    "zh": "拒绝响应字段现在包含在 Claude Fable 5 上，已返回",
+    "ja": "拒否応答のフィールドには、返される Claude Fable 5 が含まれるようになりました。"
   },
-  "Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See Model-specific data retention requirements.": {
-    "zh": "Claude Fable 5 要求在 Claude API 上保留 30 天的数据，并且在零数据保留下不可用。请参阅特定于型号的数据保留要求。",
-    "ja": "Claude Fable 5 では、Claude API で 30 日間のデータ保持が必要であり、データ保持がゼロの場合は使用できません。 「モデル固有のデータ保持要件」を参照してください。"
+  "The field on refusal responses now includes on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing and categories are unchanged. No beta header is required.": {
+    "zh": "拒绝响应字段现在包括在 Claude Fable 5 上，当请求根据 Anthropic 的逆向工程或复制模型输出的服务条款限制被阻止时返回。现有的 和 类别不变。不需要 beta 标头。",
+    "ja": "拒否応答のフィールドには、Claude Fable 5 が含まれるようになりました。これは、リバース エンジニアリングまたはモデル出力の複製に関する Anthropic の利用規約制限に基づいてリクエストがブロックされた場合に返されます。既存の および カテゴリは変更されません。ベータヘッダーは必要ありません。"
   },
-  "LanguageModel": {
-    "zh": "语言模型",
-    "ja": "言語モデル"
+  "Schedule and automate tasks with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理安排和自动执行任务",
+    "ja": "Copilot クラウド エージェントを使用してタスクをスケジュールし、自動化する"
   },
-  "We've released a Swift package in beta that adds Claude as a server-side LanguageModel in Apple's Foundation Models framework. Call Claude through the same LanguageModelSession API as Apple's on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).": {
-    "zh": "我们发布了一个测试版 Swift 包，将 Claude 添加为 Apple 基础模型框架中的服务器端 LanguageModel。通过与 iOS 27、macOS 27、visionOS 27 和 watchOS 27（测试版）上 Apple 设备上模型相同的 LanguageModelSession API 调用 Claude。",
-    "ja": "Apple の Foundation Models フレームワークにサーバー側 LanguageModel として Claude を追加する Swift パッケージをベータ版でリリースしました。 iOS 27、macOS 27、visionOS 27、watchOS 27 (ベータ) 上の Apple のオンデバイス モデルと同じ LanguageModelSession API を通じて Claude を呼び出します。"
+  "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the agent without any manual input. For example: Triage incoming issues: Automatically label new issues as bug, enhancement, or other based on their content. Fix failing tests nightly: Each night, check for failing tests on the main branch, attempt a fix, and open a draft pull request. Prepare weekly release notes...": {
+    "zh": "借助新的自动化功能，Copilot 云代理现在可以按计划自动运行或响应存储库事件。自动化让您可以将重复性任务交给客服人员，无需任何手动输入。例如： 对传入问题进行分类：根据新问题的内容自动将新问题标记为错误、增强或其他。每晚修复失败的测试：每天晚上，检查主分支上是否有失败的测试，尝试修复，并打开草稿拉取请求。准备每周发行说明...",
+    "ja": "新しい自動化機能により、Copilot クラウド エージェントは、スケジュールに従って、またはリポジトリ イベントに応答して自動的に実行できるようになりました。自動化を使用すると、手動入力を行わずに、反復的なタスクをエージェントに引き渡すことができます。例: 受信した問題の優先順位付け: 内容に基づいて、新しい問題にバグ、機能拡張、またはその他のラベルを自動的に付けます。失敗したテストを毎晩修正する: 毎晩、メイン ブランチで失敗したテストをチェックし、修正を試み、ドラフト プル リクエストを開きます。毎週のリリースノートを準備します..."
   },
-  "The stop_details.category field on refusal responses now includes \"reasoning_extraction\" on Claude Fable 5, returned when a request is blocked under Anthropic's Terms of Service restrictions on reverse engineering or duplicating model outputs. The existing \"cyber\" and \"bio\" categories are unchanged. No beta header is required.": {
-    "zh": "拒绝响应的 stop_details.category 字段现在包括 Claude Fable 5 上的“reasoning_extraction”，当请求根据 Anthropic 的逆向工程或复制模型输出的服务条款限制被阻止时返回。现有的“网络”和“生物”类别保持不变。不需要 beta 标头。",
-    "ja": "拒否応答の stop_details.category フィールドには、Claude Fable 5 の「reasoning_extraction」が含まれるようになりました。これは、リバース エンジニアリングまたはモデル出力の複製に関する Anthropic の利用規約制限に基づいてリクエストがブロックされた場合に返されます。既存の「サイバー」および「バイオ」カテゴリに変更はありません。ベータヘッダーは必要ありません。"
+  "Copilot Memory supports user preferences for Business, Enterprise": {
+    "zh": "Copilot 内存支持商业、企业用户偏好",
+    "ja": "Copilot メモリはビジネス、エンタープライズ向けのユーザー設定をサポートします"
   },
-  "thinking.display": {
-    "zh": "思考.展示",
-    "ja": "思考・表示"
+  "Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for governance. Copilot Memory can now capture user-level preferences such as communication style, tool stack, or git conventions, applying them across repositories and Copilot experiences. These user-level preferences complement existing repository-level facts, which are applied to all collaborators but...": {
+    "zh": "继向 Copilot Pro 和 Pro+ 用户推出之后，Copilot Memory 正在为 Copilot Business 和 Copilot Enterprise 的公共预览版推出用户级别首选项，并提供新的治理管理控件。 Copilot 内存现在可以捕获用户级别的首选项，例如通信方式、工具堆栈或 git 约定，并将它们应用于存储库和 Copilot 体验。这些用户级首选项补充了现有的存储库级事实，这些事实适用于所有协作者，但是......",
+    "ja": "Copilot Pro および Pro+ ユーザーへの展開に続き、Copilot Memory は、ガバナンスのための新しい管理制御を備えた Copilot Business および Copilot Enterprise のパブリック プレビューでユーザー レベルの設定を展開しています。 Copilot メモリは、通信スタイル、ツール スタック、git 規約などのユーザーレベルの設定をキャプチャし、それらをリポジトリと Copilot エクスペリエンス全体に適用できるようになりました。これらのユーザーレベルの設定は、すべてのコラボレーターに適用される既存のリポジトリレベルの事実を補完します。"
   },
-  "On Claude Fable 5 and Claude Mythos 5, thinking.display defaults to \"omitted\", the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set display: \"summarized\" to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See Thinking output on Claude Fable 5 and Claude Mythos 5.": {
-    "zh": "在 Claude Fable 5 和 Claude Mythos 5 上，thinking.display 默认为“省略”，与 Claude Opus 4.8、Claude Opus 4.7 和 Claude Mythos Preview 相同；设置显示：“摘要”以接收可读的思维摘要。原始的思想链永远不会返回；在同一模型上的多轮对话中，传递思维块会保持不变。请参阅 Claude Fable 5 和 Claude Mythos 5 的思考输出。",
-    "ja": "Claude Fable 5 および Claude Mythos 5 では、 Thinking.display のデフォルトは、Claude Opus 4.8、Claude Opus 4.7、および Claude Mythos Preview と同じ「省略」になります。読みやすい思考の要約を受け取るには、display: \"summaryized\" を設定します。生の思考の連鎖は決して戻されません。同じモデルでの複数ターンの会話で、思考ブロックを変更せずに戻します。 Claude Fable 5 および Claude Mythos 5 に関する考察の出力を参照してください。"
+  "stop_details": {
+    "zh": "停止详情",
+    "ja": "停留所の詳細"
   },
-  "thinking: {\"type\": \"disabled\"}": {
-    "zh": "思考：{“type”：“禁用”}",
-    "ja": "思考: {\"タイプ\": \"無効\"}"
+  "The stop_details field on refusal responses is now publicly documented; it returns a category ( cyber, bio, or null ) and a human-readable explanation, so your application can route different classes of refusal to the right next step. No beta header is required.": {
+    "zh": "拒绝响应的 stop_details 字段现已公开记录；它返回一个类别（ cyber 、 bio 或 null ）和人类可读的解释，因此您的应用程序可以将不同类别的拒绝路由到正确的下一步。不需要 beta 标头。",
+    "ja": "拒否応答の stop_details フィールドは現在、公的に文書化されています。カテゴリ (サイバー、バイオ、または null) と人間が読める説明を返すため、アプリケーションはさまざまなクラスの拒否を適切な次のステップにルーティングできます。ベータヘッダーは必要ありません。"
   },
-  "On Claude Fable 5 and Claude Mythos 5, adaptive thinking is the only thinking mode: thinking: {\"type\": \"disabled\"} is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See Migrating from Claude Mythos Preview to Claude Mythos 5.": {
-    "zh": "在Claude寓言5和Claude神话5上，自适应思维是唯一的思维模式：不支持thinking: {\"type\": \"disabled\"}，不支持手动扩展思维预算和辅助预填充（均返回400错误）。请参阅从 Claude Mythos 预览版迁移到 Claude Mythos 5。",
-    "ja": "Claude Fable 5 および Claude Mythos 5 では、適応的思考が唯一の思考モードです。 Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos プレビューから Claude Mythos 5 への移行」を参照してください。"
+  "speed: \"fast\"": {
+    "zh": "速度：“快”",
+    "ja": "スピード：「速い」"
   },
-  "release notes for Claude Apps": {
-    "zh": "Claude 应用程序的发行说明",
-    "ja": "Claude アプリのリリースノート"
+  "Fast mode (research preview) now supports Claude Opus 4.7. Set speed: \"fast\" with model: \"claude-opus-4-7\" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist.": {
+    "zh": "快速模式（研究预览）现在支持 Claude Opus 4.7。设置速度：“快速”，型号：“claude-opus-4-7”和 fast-mode-2026-02-01 beta 标头，以高价显着加快输出代币生成速度。定价、速率限制和访问权限与 Opus 4.6 快速模式相同；有兴趣的顾客应该加入候补名单。",
+    "ja": "高速モード (リサーチ プレビュー) が Claude Opus 4.7 をサポートするようになりました。速度を「高速」に設定し、モデル: 「claude-opus-4-7」と fast-mode-2026-02-01 ベータ ヘッダーを使用すると、プレミアム価格で出力トークンの生成が大幅に高速化されます。価格、レート制限、アクセスは Opus 4.6 高速モードと同じです。興味のあるお客様は順番待ちリストに参加してください。"
   },
-  "For updates to claude.ai, Cowork, Claude for Microsoft 365, and other Claude apps in this release, see the release notes for Claude Apps.": {
-    "zh": "有关此版本中 claude.ai、Cowork、Microsoft 365 的 Claude 以及其他 Claude 应用程序的更新，请参阅 Claude 应用程序的发行说明。",
-    "ja": "このリリースの claude.ai、Cowork、Claude for Microsoft 365、およびその他の Claude アプリの更新については、Claude アプリのリリース ノートを参照してください。"
+  "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available": {
+    "zh": "Microsoft Defender for Cloud 的代码到云风险可见性现已全面推出",
+    "ja": "Microsoft Defender for Cloud によるコードからクラウドへのリスクの可視化が一般提供になりました"
   },
-  "Claude Opus 4.8 supports high-resolution image input (up to 2576 pixels on the long edge), same as Claude Opus 4.7.": {
-    "zh": "Claude Opus 4.8 支持高分辨率图像输入（长边高达 2576 像素），与 Claude Opus 4.7 相同。",
-    "ja": "Claude Opus 4.8 は、Claude Opus 4.7 と同様に、高解像度の画像入力 (長辺で最大 2576 ピクセル) をサポートします。"
+  "This integration is now generally available. Since entering public preview, we’ve heard valuable feedback from customers, and we’ve shipped follow-up improvements that bring artifact and runtime context closer to the GitHub Advanced Security alert experience. This integration connects code, build artifacts, and runtime context so you can track, prioritize, and remediate the security risks most relevant to your environment. Code-to-cloud correlation with Microsoft Defender for Cloud Defender for...": {
+    "zh": "此集成现已普遍可用。自进入公共预览版以来，我们收到了客户的宝贵反馈，并且我们已经进行了后续改进，使工件和运行时上下文更接近 GitHub 高级安全警报体验。此集成连接代码、构建工件和运行时上下文，以便您可以跟踪、确定优先级并修复与您的环境最相关的安全风险。代码到云与 Microsoft Defender for Cloud Defender 的关联...",
+    "ja": "この統合は現在一般提供されています。パブリック プレビューに入って以来、お客様からの貴重なフィードバックを聞き、アーティファクトとランタイム コンテキストを GitHub Advanced Security アラート エクスペリエンスに近づけるフォローアップの改善を出荷してきました。この統合により、コード、ビルド成果物、実行時コンテキストが接続されるため、環境に最も関連するセキュリティ リスクを追跡、優先順位付け、修復できるようになります。 Microsoft Defender for Cloud Defender を使用したコードとクラウドの相関..."
   },
-  "Task budgets": {
-    "zh": "任务预算",
-    "ja": "タスクの予算"
+  "We've added the level on Claude Opus 4.7.": {
+    "zh": "我们在 Claude Opus 4.7 上添加了该级别。",
+    "ja": "Claude Opus 4.7 にレベルを追加しました。"
   },
-  "Task budgets now support Claude Opus 4.8.": {
-    "zh": "任务预算现在支持 Claude Opus 4.8。",
-    "ja": "タスクの予算が Claude Opus 4.8 をサポートするようになりました。"
+  "We've added the level on Claude Opus 4.7. sits between and and is tuned for long-running agentic and coding tasks (over 30 minutes) with token budgets in the millions. No beta header is required.": {
+    "zh": "我们在 Claude Opus 4.7 上添加了该级别。位于 和 之间，针对代币预算数百万的长时间运行的代理和编码任务（超过 30 分钟）进行了调整。不需要 beta 标头。",
+    "ja": "Claude Opus 4.7 にレベルを追加しました。と の間に位置し、数百万単位のトークンバジェットを伴う長時間実行のエージェントおよびコーディングタスク (30 分以上) 向けに調整されています。ベータヘッダーは必要ありません。"
   },
-  "prompt caching": {
-    "zh": "提示缓存",
-    "ja": "プロンプトキャッシュ"
+  "Claude Opus 4.7 supports high-resolution image input, raising the maximum image resolution from 1568 to 2576 pixels on the long edge for improved performance on computer use, screenshot understanding, and document analysis. High-resolution support is automatic and requires no beta header; images may use up to approximately 3x more image tokens than on prior models.": {
+    "zh": "Claude Opus 4.7支持高分辨率图像输入，将长边最大图像分辨率从1568像素提高到2576像素，以提高计算机使用、屏幕截图理解和文档分析的性能。高分辨率支持是自动的，不需要 beta 标头；与之前的型号相比，图像可能使用最多大约 3 倍的图像标记。",
+    "ja": "Claude Opus 4.7 は高解像度の画像入力をサポートしており、長辺の最大画像解像度が 1568 ピクセルから 2576 ピクセルに引き上げられ、コンピューターの使用、スクリーンショットの理解、ドキュメント分析のパフォーマンスが向上します。高解像度のサポートは自動的に行われ、ベータ ヘッダーは必要ありません。画像では、以前のモデルに比べて最大約 3 倍多くのイメージ トークンが使用される可能性があります。"
   },
-  "On Claude Opus 4.8, the minimum cacheable prompt length for prompt caching is 1,024 tokens, lower than on Claude Opus 4.7.": {
-    "zh": "在 Claude Opus 4.8 上，提示缓存的最小可缓存提示长度为 1,024 个令牌，低于 Claude Opus 4.7。",
-    "ja": "Claude Opus 4.8 では、プロンプト キャッシュでキャッシュ可能なプロンプトの最小長は 1,024 トークンであり、Claude Opus 4.7 よりも短くなります。"
+  "task-budgets-2026-03-13": {
+    "zh": "任务预算-2026-03-13",
+    "ja": "タスク-予算-2026-03-13"
   },
-  "Fast mode": {
-    "zh": "快速模式",
-    "ja": "高速モード"
-  },
-  "Fast mode for Claude Opus 4.8 is available as a research preview on the Claude API only.": {
-    "zh": "Claude Opus 4.8 的快速模式仅作为 Claude API 上的研究预览提供。",
-    "ja": "Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用できます。"
-  },
-  "high": {
-    "zh": "高的",
-    "ja": "高い"
-  },
-  "On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API.": {
-    "zh": "在 Claude Opus 4.8 上，所有表面的工作量参数默认为高，包括 Claude Code 和消息 API。",
-    "ja": "Claude Opus 4.8 では、Claude Code やメッセージ API を含むすべてのサーフェスで、努力パラメータはデフォルトで高くなります。"
-  },
-  "Computer use": {
-    "zh": "电脑使用",
-    "ja": "コンピュータの使用"
-  },
-  "Computer use now supports Claude Opus 4.8.": {
-    "zh": "计算机使用现在支持Claude Opus 4.8。",
-    "ja": "コンピューターの使用が Claude Opus 4.8 をサポートするようになりました。"
-  },
-  "temperature": {
-    "zh": "温度",
-    "ja": "温度"
-  },
-  "Setting the sampling parameters temperature, top_p, or top_k to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the migration guide for details.": {
-    "zh": "将采样参数温度、top_p 或 top_k 设置为非默认值会在 Claude Opus 4.8 上返回 400 错误，与 Claude Opus 4.7 上相同。有关详细信息，请参阅迁移指南。",
-    "ja": "サンプリング パラメーターの温度、top_p、または top_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。"
-  },
-  "Claude Code documentation": {
-    "zh": "Claude Code 文档",
-    "ja": "Claude Code ドキュメント"
-  },
-  "In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the Claude Code documentation.": {
-    "zh": "在 Claude Code 中，我们将自动模式扩展到更多用户来执行长时间运行的任务。请参阅 Claude Code 文档。",
-    "ja": "Claude Code では、長時間実行タスクの自動モードをより多くのユーザーに拡張しました。 Claude Code のドキュメントを参照してください。"
+  "We've launched task budgets in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritize work and finish gracefully as the budget is consumed. Include the task-budgets-2026-03-13 beta header in your requests.": {
+    "zh": "我们在 Claude Opus 4.7 上推出了测试版任务预算。为 Claude 提供完整代理循环（思考、工具调用、工具结果和输出）的咨询代币预算，模型会看到正在运行的倒计时，使用它来确定工作的优先级，并在预算消耗时优雅地完成。在您的请求中包含 task-budgets-2026-03-13 beta 标头。",
+    "ja": "Claude Opus 4.7 のベータ版でタスク予算を開始しました。 Claude に完全なエージェント ループ (思考、ツール呼び出し、ツール結果、出力) のアドバイザリー トークン予算を与えると、モデルは実行中のカウントダウンを確認し、それを使用して作業に優先順位を付け、予算が消費されると正常に終了します。リクエストに task-budgets-2026-03-13 ベータ ヘッダーを含めます。"
   }
 }
