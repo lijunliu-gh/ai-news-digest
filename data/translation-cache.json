@@ -5116,7 +5116,8 @@
     "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。これは、そのユーザーのすべての Copilot アクティビティにわたるユーザーごとの合計です。このフィールドは、1 日 ( users-1-day ) と 28 日 ( users-28-day ) の両方で使用できます。"
   },
   "code_execution_20260120": {
-    "ja": "コード_実行_20260120"
+    "ja": "コード_実行_20260120",
+    "zh": "代码_执行_20260120"
   },
   "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120, the code execution tool version that adds REPL state persistence and is the minimum version for programmatic tool calling. To adopt it, set the tool's type to code_execution_20260120; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the model compatibility table.": {
     "zh": "Python、TypeScript、Go、Java、Ruby、PHP 和 C# SDK 现在包括对 code_execution_20260120 的支持，该代码执行工具版本添加了 REPL 状态持久性，并且是编程工具调用的最低版本。要采用它，请将工具的类型设置为code_execution_20260120；不需要 beta 标头。它适用于 Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 及更高版本以及 Claude Sonnet 4.5 及更高版本；请参阅型号兼容性表。",
@@ -5213,5 +5214,13 @@
   "Copilot code review now uses the built-in file exploration tools available in the Copilot CLI and SDK, significantly improving review cost efficiency with no change to your existing workflow. If you’re in the Medium analysis depth public preview, you’ll also see some new updates centered around configurability and visibility of review depth. Configure Medium analysis depth for your organization If you’re opted into the Medium review effort level public preview, you now get two updates: Medium...": {
     "zh": "Copilot 代码审查现在使用 Copilot CLI 和 SDK 中提供的内置文件探索工具，显着提高审查成本效率，而无需更改现有工作流程。如果您处于中等分析深度公共预览版中，您还会看到一些围绕评论深度的可配置性和可见性的新更新。为您的组织配置中等分析深度如果您选择进入中等审查工作级别公共预览版，您现在将获得两项更新：中等...",
     "ja": "Copilot コード レビューでは、Copilot CLI および SDK で利用可能な組み込みのファイル探索ツールが使用されるようになり、既存のワークフローを変更することなく、レビューのコスト効率が大幅に向上します。中程度の分析深さのパブリック プレビューを使用している場合は、レビュー深度の構成可能性と可視​​性を中心としたいくつかの新しい更新も表示されます。組織向けに中程度の分析深度を構成する 中程度のレビュー作業レベルのパブリック プレビューにオプトインしている場合は、次の 2 つの更新情報が表示されます。"
+  },
+  "GitHub Desktop 3.6: Worktrees and deeper Copilot integration": {
+    "zh": "GitHub 桌面 3.6：工作树和更深入的 Copilot 集成",
+    "ja": "GitHub デスクトップ 3.6: ワークツリーとより深い Copilot の統合"
+  },
+  "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The problem More and more development happens with the help of AI and coding agents, which raises the bar for the everyday Git moments in between. A few of those moments still pull you away from your flow: commit authoring needs more control and better alignment with repository standards, merge conflicts remain...": {
+    "zh": "GitHub Desktop 3.6 将更多的日常 Git 流程集中到一个地方，GitHub Copilot 现在支持提交创作和合并冲突解决，以及新的 Git 工作树支持。问题 越来越多的开发是在人工智能和编码代理的帮助下进行的，这提高了日常 Git 时刻的标准。其中一些时刻仍然会让您脱离流程：提交创作需要更多的控制并更好地与存储库标准保持一致，合并冲突仍然存在......",
+    "ja": "GitHub Desktop 3.6 は、GitHub Copilot により、日常の Git フローを 1 か所に集約し、コミット オーサリングとマージ競合解決を強化し、さらに新しい Git ワークツリーをサポートします。問題 AI やコーディング エージェントの助けを借りて開発が行われることが増えており、その間の日常的な Git のレベルが上がっています。これらの瞬間のいくつかは依然としてフローから離れてしまいます。コミットオーサリングにはより多くの制御とリポジトリ標準とのより適切な調整が必要であり、マージ競合は残ります..."
   }
 }
