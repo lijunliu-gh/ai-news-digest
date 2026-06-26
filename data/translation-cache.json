@@ -4575,14 +4575,6 @@
     "zh": "编者注（2026 年 6 月 1 日）：我们更新了这篇文章，以更正 GPT-5.2，而不是 GPT-5.2-Codex 为 Copilot 代码审查的例外情况。编者注（2026 年 5 月 29 日）：我们更新了这篇文章，将弃用日期从 2026 年 6 月 1 日更改为 2026 年 6 月 5 日。我们将在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型，但 GPT-5.2 除外Copilot 代码审查，2026 年 6 月 5 日：模型...",
     "ja": "編集者注 (2026 年 6 月 1 日): Copilot コード レビューの例外である GPT-5.2-Codex の代わりに、GPT-5.2 を修正するためにこの投稿を更新しました。編集者注 (2026 年 5 月 29 日): この投稿を更新して、非推奨日を 2026 年 6 月 1 日から 2026 年 6 月 5 日に変更しました。 Copilot コードレビュー、2026 年 6 月 5 日: モデル..."
   },
-  "Secret scanning pattern updates and product improvements": {
-    "zh": "秘密扫描模式更新和产品改进",
-    "ja": "シークレット スキャン パターンの更新と製品の改善"
-  },
-  "This week, we’re rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers. Detection coverage New Cloudflare detectors: Cloudflare is now a secret scanning partner. Push protection Forks for enterprise-managed users: User-owned forks in EMU enterprises now inherit push protection from their nearest licensed ancestor...": {
-    "zh": "本周，我们将对检测覆盖范围、API 和工作流程进行多项改进。这些改进加强了我们对秘密扫描功能的开发人员体验的持续投资。由开发人员构建，为开发人员服务。检测范围 新的 Cloudflare 探测器：Cloudflare 现在是秘密扫描合作伙伴。企业管理用户的推送保护分叉：EMU 企业中用户拥有的分叉现在继承了最近许可祖先的推送保护......",
-    "ja": "今週、検出範囲、API、ワークフローに対するいくつかの改善を展開します。これらの改善により、シークレット スキャン機能の開発者エクスペリエンスに対する継続的な投資が強化されます。開発者によって開発者のために構築されました。検出範囲 新しい Cloudflare 検出器: Cloudflare はシークレット スキャン パートナーになりました。エンタープライズ管理ユーザー向けのプッシュ保護フォーク: EMU エンタープライズ内のユーザー所有のフォークは、最も近いライセンスを取得した祖先からプッシュ保護を継承するようになりました。"
-  },
   "Copilot usage metrics now identify active and passive Copilot code review users": {
     "zh": "Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户",
     "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました"
@@ -5247,14 +5239,6 @@
     "zh": "在 Claude Opus 4.8 上，提示缓存的最小可缓存提示长度为 1,024 个令牌，低于 Claude Opus 4.7。",
     "ja": "Claude Opus 4.8 では、プロンプト キャッシュでキャッシュ可能なプロンプトの最小長は 1,024 トークンであり、Claude Opus 4.7 よりも短くなります。"
   },
-  "Fast mode": {
-    "zh": "快速模式",
-    "ja": "高速モード"
-  },
-  "Fast mode for Claude Opus 4.8 is available as a research preview on the Claude API only.": {
-    "zh": "Claude Opus 4.8 的快速模式仅作为 Claude API 上的研究预览提供。",
-    "ja": "Claude Opus 4.8 の高速モードは、Claude API のリサーチ プレビューとしてのみ利用できます。"
-  },
   "high": {
     "zh": "高的",
     "ja": "高い"
@@ -5294,5 +5278,53 @@
   "Anthropic is partnering with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility over the next four years.": {
     "zh": "Anthropic 正在与盖茨基金会合作，承诺在未来四年内为全球健康、生命科学、教育和经济流动性项目提供 2 亿美元的赠款资金、Claude 使用积分和技术支持。",
     "ja": "Anthropic はゲイツ財団と提携し、今後 4 年間で世界保健、ライフサイエンス、教育、経済流動性のプログラムに対する助成金、Claude 使用クレジット、および技術サポートに 2 億ドルを投入します。"
+  },
+  "rate limits": {
+    "zh": "速率限制",
+    "ja": "レート制限"
+  },
+  "We've raised rate limits across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizations move to a higher tier, no organization receives lower limits than before, and no action is required. You can view your tier and current limits in the Claude Console.": {
+    "zh": "我们提高了 Claude API 的速率限制。 Claude Sonnet 和 Claude Haiku 速率限制现在在每个使用层都与 Claude Opus 匹配，并且使用层已合并为三个：启动、构建和扩展。大多数组织都会迁移到更高的级别，没有组织收到比以前更低的限制，并且不需要采取任何操作。您可以在 Claude 控制台中查看您的等级和当前限制。",
+    "ja": "Claude API 全体のレート制限を引き上げました。 Claude Sonnet および Claude Haiku のレート制限は、すべての使用階層で Claude Opus と一致するようになり、使用階層は開始、ビルド、スケールの 3 つに統合されました。ほとんどの組織は上位層に移行し、以前よりも低い制限を受ける組織はなく、アクションは必要ありません。 Claude コンソールで層と現在の制限を表示できます。"
+  },
+  "Previewing GPT-5.6 Sol: a next-generation model": {
+    "zh": "预览 GPT-5.6 Sol：下一代模型",
+    "ja": "次世代モデル GPT-5.6 Sol をプレビュー"
+  },
+  "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.": {
+    "zh": "OpenAI 预览了 GPT-5.6 Sol，这是一种下一代模型，在编码、科学和网络安全方面具有更强的能力，并配有最先进的安全堆栈。",
+    "ja": "OpenAI は、コーディング、科学、サイバーセキュリティにおける強力な機能を備え、最先端の安全スタックと組み合わせた次世代モデルである GPT-5.6 Sol をプレビューします。"
+  },
+  "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise": {
+    "zh": "MAI-Code-1-Flash 适用于 Copilot 商业版和 Copilot 企业版",
+    "ja": "MAI-Code-1-Flash (Copilot Business および Copilot Enterprise)"
+  },
+  "MAI-Code-1-Flash, Microsoft AI’s in-house coding model, is now generally available for GitHub Copilot Business and Copilot Enterprise, building on its recent expansion across Copilot surfaces. Purpose-built for coding and optimized for GitHub Copilot, MAI-Code-1-Flash delivers fast, low-latency responses that make it well-suited for high-volume, iterative agentic coding workflows where speed and efficiency matter most. This model is billed at provider list pricing under usage-based billing. See...": {
+    "zh": "MAI-Code-1-Flash 是 Microsoft AI 的内部编码模型，基于其最近在 Copilot 表面上的扩展，现已普遍适用于 GitHub Copilot 商业版和 Copilot 企业版。 MAI-Code-1-Flash 专为编码而构建并针对 GitHub Copilot 进行了优化，可提供快速、低延迟的响应，非常适合速度和效率最为重要的大容量、迭代代理编码工作流程。此模型按照基于使用量的计费的提供商清单定价进行计费。看...",
+    "ja": "Microsoft AI の社内コーディング モデルである MAI-Code-1-Flash は、Copilot サーフェス全体にわたる最近の拡張に基づいて、GitHub Copilot Business および Copilot Enterprise で一般提供されるようになりました。コーディング専用に構築され、GitHub Copilot 用に最適化された MAI-Code-1-Flash は、高速で低遅延の応答を提供するため、速度と効率が最も重要となる大量の反復エージェント コーディング ワークフローに最適です。このモデルは、使用量ベースの請求に基づいてプロバイダー リストの価格で請求されます。見る..."
+  },
+  "claude-opus-4-7": {
+    "zh": "克劳德作品 4-7",
+    "ja": "クロード作品-4-7"
+  },
+  "We've deprecated fast mode for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to claude-opus-4-7 with speed: \"fast\" will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in Fast mode.": {
+    "zh": "我们已弃用 Claude Opus 4.7 的快速模式，并于 2026 年 7 月 24 日删除。删除后，使用 speed: \"fast\" 向 claude-opus-4-7 发出请求将返回错误。迁移到 Claude Opus 4.8 的快速模式。在快速模式下阅读更多内容。",
+    "ja": "Claude Opus 4.7 の高速モードは非推奨となり、2026 年 7 月 24 日に削除されました。削除後、speed: \"fast\" を指定した claude-opus-4-7 へのリクエストはエラーを返します。 Claude Opus 4.8 の高速モードに移行します。続きは高速モードでご覧ください。"
+  },
+  "GitHub Copilot app is now available in technical preview": {
+    "zh": "GitHub Copilot 应用程序现已提供技术预览版",
+    "ja": "GitHub Copilot アプリがテクニカル プレビューで利用可能になりました"
+  },
+  "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review. 🧭 Start from GitHub context Your work already lives in GitHub. Sessions start from those artifacts too. Open a session from real work. Start from an issue, pull request, prompt, or previous session. See what needs attention. Use your inbox to find issues and...": {
+    "zh": "GitHub Copilot 应用程序现已处于技术预览版。这是一种 GitHub 原生桌面体验，可以从您面前的工作开始代理开发，保持隔离，引导它进行，并通过拉取请求审查来实现更改。 🧭 从 GitHub 上下文开始您的工作已经存在于 GitHub 中。会话也从这些工件开始。从实际工作中打开一个会话。从问题、拉取请求、提示或之前的会话开始。看看有什么需要注意的。使用您的收件箱查找问题并...",
+    "ja": "GitHub Copilot アプリは現在テクニカル プレビュー段階にあります。 GitHub ネイティブのデスクトップ エクスペリエンスでは、目の前の作業からエージェント開発を開始し、それを分離した状態に保ち、進行に合わせて操作し、プル リクエストのレビューを通じて変更を完了します。 🧭 GitHub コンテキストから開始 あなたの作品はすでに GitHub にあります。セッションもそれらの成果物から始まります。実際の作業からセッションを開きます。イシュー、プル リクエスト、プロンプト、または前のセッションから開始します。注意が必要なものを確認してください。受信トレイを使用して問題を見つけたり..."
+  },
+  "Copilot organization custom instructions are generally available": {
+    "zh": "Copilot组织自定义指令普遍可用",
+    "ja": "Copilot 組織のカスタム手順が一般公開されました"
+  },
+  "Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available. With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions that guide Copilot’s behavior across all repositories in their organization. Organization custom instructions are applied across: Copilot Chat on github.com Copilot code review Copilot cloud agent To add custom instructions, navigate to your...": {
+    "zh": "GitHub Copilot 的组织自定义指令于 2025 年 4 月首次推出，现已全面发布。通过组织自定义指令，Copilot Business 和 Copilot Enterprise 组织管理员可以设置默认指令，指导 Copilot 在其组织中的所有存储库中的行为。组织自定义指令应用于： Copilot 在 github.com 上聊天 Copilot 代码审查 Copilot 云代理 要添加自定义指令，请导航到您的...",
+    "ja": "2025 年 4 月に初めて導入された GitHub Copilot の組織カスタム手順が一般公開されました。組織のカスタム命令を使用すると、Copilot Business および Copilot Enterprise の組織管理者は、組織内のすべてのリポジトリにわたる Copilot の動作をガイドするデフォルトの命令を設定できます。組織のカスタム命令は以下に適用されます。 Copilot github.com でのチャット Copilot コード レビュー Copilot クラウド エージェント カスタム命令を追加するには、次の場所に移動します。"
   }
 }
