@@ -5189,5 +5189,29 @@
   "We've launched task budgets in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritize work and finish gracefully as the budget is consumed. Include the task-budgets-2026-03-13 beta header in your requests.": {
     "zh": "我们在 Claude Opus 4.7 上推出了测试版任务预算。为 Claude 提供完整代理循环（思考、工具调用、工具结果和输出）的咨询代币预算，模型会看到正在运行的倒计时，使用它来确定工作的优先级，并在预算消耗时优雅地完成。在您的请求中包含 task-budgets-2026-03-13 beta 标头。",
     "ja": "Claude Opus 4.7 のベータ版でタスク予算を開始しました。 Claude に完全なエージェント ループ (思考、ツール呼び出し、ツール結果、出力) のアドバイザリー トークン予算を与えると、モデルは実行中のカウントダウンを確認し、それを使用して作業に優先順位を付け、予算が消費されると正常に終了します。リクエストに task-budgets-2026-03-13 ベータ ヘッダーを含めます。"
+  },
+  "GitHub Copilot for Jira is now generally available": {
+    "zh": "Jira 的 GitHub Copilot 现已全面可用",
+    "ja": "Jira の GitHub Copilot が一般提供になりました"
+  },
+  "GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira. Today’s release to general availability builds on that foundation with new capabilities designed to give you greater visibility and control over agent sessions. What’s new Streaming...": {
+    "zh": "Jira 的 GitHub Copilot 现已全面可用。自 2026 年 3 月推出公共预览版以来，我们根据您的反馈提供了一系列增强功能，包括模型选择、通过 MCP 的 Confluence 上下文、自定义代理、自定义字段、空间级指导以及 Jira 中的审核请求通知。今天正式发布的版本建立在该基础上，提供了新功能，旨在为您提供对代理会话的更大可见性和控制。流媒体有什么新内容...",
+    "ja": "Jira の GitHub Copilot が一般公開されました。 2026 年 3 月にパブリック プレビューを開始して以来、モデルの選択、MCP による Confluence コンテキスト、カスタム エージェント、カスタム フィールド、スペースレベルのガイダンス、Jira でのレビュー リクエスト通知など、皆様のフィードバックに基づいた一連の機能強化を出荷してきました。本日の一般公開リリースは、エージェント セッションの可視性と制御を向上させるために設計された新機能を基盤として構築されています。ストリーミングの新機能..."
+  },
+  "Enterprise-managed settings now support strictKnownMarketplaces in VS Code and GitHub Copilot CLI": {
+    "zh": "企业管理的设置现在支持 VS Code 和 GitHub Copilot CLI 中的 strictKnownMarketplaces",
+    "ja": "エンタープライズ管理の設定で、VS Code および GitHub Copilot CLI の strictKnownMarketplaces がサポートされるようになりました。"
+  },
+  "Enterprises can now control which plugins their users can install in GitHub Copilot CLI and VS Code. This setting is now available in public preview. Add strictKnownMarketplaces to your enterprise-managed settings.json, and Copilot will only allow plugins to be installed from the marketplaces you’ve explicitly defined. GitHub Copilot automatically pulls and applies these settings for users licensed through your Copilot Business or Copilot Enterprise account. This is a direct way to enforce your...": {
+    "zh": "企业现在可以控制用户可以在 GitHub Copilot CLI 和 VS Code 中安装哪些插件。此设置现已在公共预览版中提供。将 strictKnownMarketplaces 添加到企业管理的 settings.json 中，Copilot 将只允许从您明确定义的市场安装插件。 GitHub Copilot 自动为通过您的 Copilot 商业帐户或 Copilot 企业帐户获得许可的用户提取并应用这些设置。这是强制执行您的...的直接方法。",
+    "ja": "企業は、ユーザーが GitHub Copilot CLI および VS Code にどのプラグインをインストールできるかを制御できるようになりました。この設定はパブリック プレビューで利用できるようになりました。 strictKnownMarketplaces をエンタープライズ管理の settings.json に追加すると、Copilot により、明示的に定義したマーケットプレイスからのみプラグインをインストールできるようになります。 GitHub Copilot は、Copilot Business または Copilot Enterprise アカウントを通じてライセンスを取得したユーザーに対して、これらの設定を自動的に取得して適用します。これはあなたの権利を強制する直接的な方法です..."
+  },
+  "Copilot code review: Analysis depth and efficiency updates": {
+    "zh": "Copilot 代码审查：分析深度和效率更新",
+    "ja": "Copilot コード レビュー: 分析の深さと効率の更新"
+  },
+  "Copilot code review now uses the built-in file exploration tools available in the Copilot CLI and SDK, significantly improving review cost efficiency with no change to your existing workflow. If you’re in the Medium analysis depth public preview, you’ll also see some new updates centered around configurability and visibility of review depth. Configure Medium analysis depth for your organization If you’re opted into the Medium review effort level public preview, you now get two updates: Medium...": {
+    "zh": "Copilot 代码审查现在使用 Copilot CLI 和 SDK 中提供的内置文件探索工具，显着提高审查成本效率，而无需更改现有工作流程。如果您处于中等分析深度公共预览版中，您还会看到一些围绕评论深度的可配置性和可见性的新更新。为您的组织配置中等分析深度如果您选择进入中等审查工作级别公共预览版，您现在将获得两项更新：中等...",
+    "ja": "Copilot コード レビューでは、Copilot CLI および SDK で利用可能な組み込みのファイル探索ツールが使用されるようになり、既存のワークフローを変更することなく、レビューのコスト効率が大幅に向上します。中程度の分析深さのパブリック プレビューを使用している場合は、レビュー深度の構成可能性と可視​​性を中心としたいくつかの新しい更新も表示されます。組織向けに中程度の分析深度を構成する 中程度のレビュー作業レベルのパブリック プレビューにオプトインしている場合は、次の 2 つの更新情報が表示されます。"
   }
 }
