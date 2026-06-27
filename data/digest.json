@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-06-27",
   "windowMonths": 3,
   "items": [
     {
@@ -23,6 +23,32 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-26-github-2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+      "date": "2026-06-26",
+      "category": "github",
+      "title": {
+        "zh": "在企业和组织报告中按采用阶段跟踪合并总数",
+        "ja": "企業および組織のレポートで導入フェーズごとに合計マージを追跡します",
+        "en": "Track total merges by adoption phase in enterprise and organization reports"
+      },
+      "summary": {
+        "zh": "基于添加到 Copilot 使用指标 API 的 AI 采用阶段队列，组织和企业报告现在报告每个采用阶段合并的拉取请求总数。新变化 Totals_by_ai_adoption_phase 细分之前仅报告每个用户的平均值。现在，每个条目还包括拉取请求合并的总数：total_pull_requests_merged：该采用阶段的用户在当天合并的拉取请求总数。这补充了现有的...",
+        "ja": "Copilot 使用状況メトリクス API に追加された AI 導入フェーズ コホートに基づいて、組織およびエンタープライズ レポートは、各導入フェーズでマージされたプル リクエストの合計数を報告するようになりました。新機能 以前に報告された totals_by_ai_adoption_phase の内訳は、ユーザーごとの平均のみでした。各エントリには、プル リクエストのマージの合計も含まれるようになりました。 total_pull_requests_merged: その導入フェーズでユーザーによってその日にマージされたプル リクエストの合計数。これは既存のものを補完します...",
+        "en": "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption phase. What’s new The totals_by_ai_adoption_phase breakdown previously reported per-user averages only. Each entry now also includes a total for pull request merges: total_pull_requests_merged: The total number of pull requests merged on that day by users in that adoption phase. This complements the existing..."
+      },
+      "url": "https://github.blog/changelog/2026-06-26-track-total-merges-by-adoption-phase-in-enterprise-and-organization-reports",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-26-github-2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise",
@@ -8378,6 +8404,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-04-14-github-2026-04-14-secret-scanning-pattern-updates-and-product-improvements",
+      "date": "2026-04-14",
+      "category": "github",
+      "title": {
+        "zh": "秘密扫描模式更新和产品改进",
+        "ja": "シークレット スキャン パターンの更新と製品の改善",
+        "en": "Secret scanning pattern updates and product improvements"
+      },
+      "summary": {
+        "zh": "本周，我们将对检测覆盖范围、API 和工作流程进行多项改进。这些改进加强了我们对秘密扫描功能的开发人员体验的持续投资。由开发人员构建，为开发人员服务。检测范围 新的 Cloudflare 探测器：Cloudflare 现在是秘密扫描合作伙伴。企业管理用户的推送保护分叉：EMU 企业中用户拥有的分叉现在继承了最近许可祖先的推送保护......",
+        "ja": "今週、検出範囲、API、ワークフローに対するいくつかの改善を展開します。これらの改善により、シークレット スキャン機能の開発者エクスペリエンスに対する継続的な投資が強化されます。開発者によって開発者のために構築されました。検出範囲 新しい Cloudflare 検出器: Cloudflare はシークレット スキャン パートナーになりました。エンタープライズ管理ユーザー向けのプッシュ保護フォーク: EMU エンタープライズ内のユーザー所有のフォークは、最も近いライセンスを取得した祖先からプッシュ保護を継承するようになりました。",
+        "en": "This week, we’re rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers. Detection coverage New Cloudflare detectors: Cloudflare is now a secret scanning partner. Push protection Forks for enterprise-managed users: User-owned forks in EMU enterprises now inherit push protection from their nearest licensed ancestor..."
+      },
+      "url": "https://github.blog/changelog/2026-04-14-secret-scanning-pattern-updates-and-product-improvements",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-04-14-github-2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com",
       "date": "2026-04-14",
       "category": "github",
@@ -9814,150 +9864,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-03-26-google-gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
-      "date": "2026-03-26",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash Live：让音频AI更加自然可靠",
-        "ja": "Gemini 3.1 Flash Live: オーディオ AI をより自然で信頼性の高いものに",
-        "en": "Gemini 3.1 Flash Live: Making audio AI more natural and reliable"
-      },
-      "summary": {
-        "zh": "我们最新的语音模型提高了精度并降低了延迟，使语音交互更加流畅、自然和精确。",
-        "ja": "最新の音声モデルは精度が向上し、遅延が短くなり、音声インタラクションがより滑らかで自然かつ正確になりました。",
-        "en": "Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise."
-      },
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-26-github-whats-coming-to-our-github-actions-2026-security-roadmap",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "我们的 GitHub Actions 2026 安全路线图有哪些内容",
-        "ja": "GitHub Actions 2026 セキュリティ ロードマップの予定",
-        "en": "What’s coming to our GitHub Actions 2026 security roadmap"
-      },
-      "summary": {
-        "zh": "查看 GitHub Actions 的 2026 年路线图，概述了安全默认设置、策略控制和 CI/CD 可观察性如何端到端强化软件供应链。",
-        "ja": "GitHub Actions の 2026 年ロードマップを見て、安全なデフォルト、ポリシー制御、CI/CD の可観測性がどのようにソフトウェア サプライ チェーンをエンドツーエンドで強化するかを概説します。",
-        "en": "A look at GitHub Actions’ 2026 roadmap, outlining how secure defaults, policy controls, and CI/CD observability harden the software supply chain end to end."
-      },
-      "url": "https://github.blog/news-insights/product-news/whats-coming-to-our-github-actions-2026-security-roadmap",
-      "tags": [
-        "news-insights",
-        "product",
-        "ci-cd",
-        "github-actions",
-        "supply-chain-security",
-        "github"
-      ],
-      "source": "GitHub Product News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-03-26-github-2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "新的拉取请求仪表板已公开预览",
-        "ja": "新しいプル リクエスト ダッシュボードはパブリック プレビュー中です",
-        "en": "New pull requests dashboard is in public preview"
-      },
-      "summary": {
-        "zh": "更新后的拉取请求仪表板现已在 github.com/pulls 上提供公共预览，引入了新的拉取请求收件箱和保存的视图，以便您可以组织和优先处理需要您关注的拉取请求。 📥 收件箱 收件箱是您发现需要您关注的拉取请求的新家，包括您的审阅、需要修复的拉取请求以及准备合并的拉取请求。按存储库或拉取请求最近更新的时间进行过滤，以重点关注......",
-        "ja": "更新されたプル リクエスト ダッシュボードのパブリック プレビューが github.com/pulls で利用できるようになりました。これにより、新しいプル リクエストの受信トレイと保存されたビューが導入され、注意が必要なプル リクエストを整理して優先順位を付けることができます。 📥 Inbox Inbox は、レビュー、修正が必要なプル リクエスト、マージの準備ができているプル リクエストなど、注意が必要なプル リクエストを見つけるための新しい場所です。リポジトリ、またはプル リクエストが更新された最近の内容でフィルタリングして、何に焦点を当てるか...",
-        "en": "A public preview of the refreshed pull requests dashboard is now available at github.com/pulls, introducing a new pull request inbox and saved views so you can organize and prioritize the pull requests that need your attention. 📥 Inbox Inbox is your new home to discover the pull requests that need your attention, including your review, pull requests that need fixing, and pull requests that are ready to merge. Filter by repository or how recently a pull request was updated to focus on what..."
-      },
-      "url": "https://github.blog/changelog/2026-03-26-new-pull-requests-dashboard-is-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-26-github-2026-03-26-gemini-3-pro-deprecated",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3 Pro 已弃用",
-        "ja": "Gemini 3 Pro は非推奨になりました",
-        "en": "Gemini 3 Pro deprecated"
-      },
-      "summary": {
-        "zh": "我们已于今天（2026 年 3 月 26 日）弃用了所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中的 Gemini 3 Pro。 型号 弃用日期 建议替代方案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro 请更新您的使用受支持模型的工作流程和集成。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。作为管理员，您可以验证...",
-        "ja": "本日、2026 年 3 月 26 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で Gemini 3 Pro を非推奨にしました。 モデル 非推奨日 推奨される代替案 Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro サポートされているモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。管理者は次のことを確認できます...",
-        "en": "We have deprecated Gemini 3 Pro across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, March 26, 2026. Model Deprecation date Suggested alternative Gemini 3 Pro 2026-03-26 Gemini 3.1 Pro Please update your workflows and integrations to use supported models. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings. As an administrator, you can verify..."
-      },
-      "url": "https://github.blog/changelog/2026-03-26-gemini-3-pro-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-26-github-2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "请求 @copilot 解决拉取请求的合并冲突",
-        "ja": "@copilot にプル リクエストのマージ競合を解決するように依頼します",
-        "en": "Ask @copilot to resolve merge conflicts on pull requests"
-      },
-      "summary": {
-        "zh": "Copilot 编码代理现在可以解决拉取请求的合并冲突。要要求 Copilot 解决合并冲突，请在评论中提及 @copilot 并告诉它要做什么：@copilot 在 main 中合并并解决冲突。该代理在自己的基于云的开发环境中工作，可以在其中进行更改，检查构建和测试是否仍然通过，然后推送。 Copilot 编码代理还可以： 修复失败的 GitHub 操作工作流程： @copilot 修复失败的测试 解决代码审查意见...",
-        "ja": "Copilot コーディング エージェントは、プル リクエストのマージ競合を解決できるようになりました。 Copilot にマージの競合を解決するよう依頼するには、コメントで @copilot に言及し、その内容を指示します。 @copilot main でマージして競合を解決します。エージェントは独自のクラウドベースの開発環境で動作し、そこで変更を加え、ビルドとテストが合格することを確認してからプッシュできます。 Copilot コーディング エージェントは次のことも行うことができます。 失敗した GitHub を修正する アクション ワークフロー: @copilot 失敗したテストを修正する コード レビューのコメントに対処する...",
-        "en": "Copilot coding agent can now resolve merge conflicts on pull requests. To ask Copilot to resolve merge conflicts, mention @copilot in a comment and tell it what to do: @copilot Merge in main and resolve the conflicts. The agent works in its own cloud-based development environment where it can make the changes, check that the build and tests still pass, and then push. Copilot coding agent can also: Fix failing GitHub Actions workflows: @copilot Fix the failing tests Address code review comments..."
-      },
-      "url": "https://github.blog/changelog/2026-03-26-ask-copilot-to-resolve-merge-conflicts-on-pull-requests",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-03-26-github-2026-03-26-agent-activity-in-github-issues-and-projects",
-      "date": "2026-03-26",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 问题和项目中的代理活动",
-        "ja": "GitHub 問題とプロジェクトのエージェント アクティビティ",
-        "en": "Agent activity in GitHub Issues and Projects"
-      },
-      "summary": {
-        "zh": "今天，我们推出了两项新功能，可将座席活动直接带入您的规划工作流程中。 GitHub 问题中受让人下的代理会话 当编码代理（例如 Copilot、Claude 或 Codex）被分配给某个问题时，其会话现在直接显示在侧栏中的受让人下方。每个会话都会显示实时状态：“已排队”、“正在工作”、“等待审核”或“已完成”。单击任意会话可直接跳至会话日志。现在，这通常适用于所有人...",
-        "ja": "本日、エージェントのアクティビティを計画ワークフローに直接組み込む 2 つの新機能をリリースします。 GitHub 問題の担当者の下にあるエージェント セッション コーディング エージェント (Copilot、Claude、Codex など) が問題に割り当てられると、そのセッションがサイドバーの担当者の直下に表示されるようになりました。各セッションには、「キューに入っている」、「作業中」、「レビュー待ち」、「完了」などのライブ ステータスが表示されます。任意のセッションをクリックすると、セッション ログに直接ジャンプします。これは現在、すべてのユーザーに一般提供されています...",
-        "en": "Today, we’re shipping two new features that bring agent activity directly into your planning workflows. Agent sessions under assignees in GitHub Issues When a coding agent (e.g., Copilot, Claude, or Codex) is assigned to an issue, its session now appears directly under the assignee in the sidebar. Each session shows a live status: “queued”, “working”, “waiting for review”, or “completed”. Click any session to jump straight into the session logs. This is now generally available for all..."
-      },
-      "url": "https://github.blog/changelog/2026-03-26-agent-activity-in-github-issues-and-projects",
-      "tags": [
-        "release",
-        "projects-issues",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     }
   ]
 }

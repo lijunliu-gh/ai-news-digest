@@ -5326,5 +5326,21 @@
   "Organization custom instructions for GitHub Copilot, first introduced in April 2025, are now generally available. With organization custom instructions, Copilot Business and Copilot Enterprise organization administrators can set default instructions that guide Copilot’s behavior across all repositories in their organization. Organization custom instructions are applied across: Copilot Chat on github.com Copilot code review Copilot cloud agent To add custom instructions, navigate to your...": {
     "zh": "GitHub Copilot 的组织自定义指令于 2025 年 4 月首次推出，现已全面发布。通过组织自定义指令，Copilot Business 和 Copilot Enterprise 组织管理员可以设置默认指令，指导 Copilot 在其组织中的所有存储库中的行为。组织自定义指令应用于： Copilot 在 github.com 上聊天 Copilot 代码审查 Copilot 云代理 要添加自定义指令，请导航到您的...",
     "ja": "2025 年 4 月に初めて導入された GitHub Copilot の組織カスタム手順が一般公開されました。組織のカスタム命令を使用すると、Copilot Business および Copilot Enterprise の組織管理者は、組織内のすべてのリポジトリにわたる Copilot の動作をガイドするデフォルトの命令を設定できます。組織のカスタム命令は以下に適用されます。 Copilot github.com でのチャット Copilot コード レビュー Copilot クラウド エージェント カスタム命令を追加するには、次の場所に移動します。"
+  },
+  "Track total merges by adoption phase in enterprise and organization reports": {
+    "zh": "在企业和组织报告中按采用阶段跟踪合并总数",
+    "ja": "企業および組織のレポートで導入フェーズごとに合計マージを追跡します"
+  },
+  "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption phase. What’s new The totals_by_ai_adoption_phase breakdown previously reported per-user averages only. Each entry now also includes a total for pull request merges: total_pull_requests_merged: The total number of pull requests merged on that day by users in that adoption phase. This complements the existing...": {
+    "zh": "基于添加到 Copilot 使用指标 API 的 AI 采用阶段队列，组织和企业报告现在报告每个采用阶段合并的拉取请求总数。新变化 Totals_by_ai_adoption_phase 细分之前仅报告每个用户的平均值。现在，每个条目还包括拉取请求合并的总数：total_pull_requests_merged：该采用阶段的用户在当天合并的拉取请求总数。这补充了现有的...",
+    "ja": "Copilot 使用状況メトリクス API に追加された AI 導入フェーズ コホートに基づいて、組織およびエンタープライズ レポートは、各導入フェーズでマージされたプル リクエストの合計数を報告するようになりました。新機能 以前に報告された totals_by_ai_adoption_phase の内訳は、ユーザーごとの平均のみでした。各エントリには、プル リクエストのマージの合計も含まれるようになりました。 total_pull_requests_merged: その導入フェーズでユーザーによってその日にマージされたプル リクエストの合計数。これは既存のものを補完します..."
+  },
+  "Secret scanning pattern updates and product improvements": {
+    "zh": "秘密扫描模式更新和产品改进",
+    "ja": "シークレット スキャン パターンの更新と製品の改善"
+  },
+  "This week, we’re rolling out several improvements to our detection coverage, APIs, and workflows. These improvements strengthen our continued investment in the developer experience of our secret scanning features. Built by developers, for developers. Detection coverage New Cloudflare detectors: Cloudflare is now a secret scanning partner. Push protection Forks for enterprise-managed users: User-owned forks in EMU enterprises now inherit push protection from their nearest licensed ancestor...": {
+    "zh": "本周，我们将对检测覆盖范围、API 和工作流程进行多项改进。这些改进加强了我们对秘密扫描功能的开发人员体验的持续投资。由开发人员构建，为开发人员服务。检测范围 新的 Cloudflare 探测器：Cloudflare 现在是秘密扫描合作伙伴。企业管理用户的推送保护分叉：EMU 企业中用户拥有的分叉现在继承了最近许可祖先的推送保护......",
+    "ja": "今週、検出範囲、API、ワークフローに対するいくつかの改善を展開します。これらの改善により、シークレット スキャン機能の開発者エクスペリエンスに対する継続的な投資が強化されます。開発者によって開発者のために構築されました。検出範囲 新しい Cloudflare 検出器: Cloudflare はシークレット スキャン パートナーになりました。エンタープライズ管理ユーザー向けのプッシュ保護フォーク: EMU エンタープライズ内のユーザー所有のフォークは、最も近いライセンスを取得した祖先からプッシュ保護を継承するようになりました。"
   }
 }
