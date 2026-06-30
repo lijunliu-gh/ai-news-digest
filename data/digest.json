@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29",
+  "lastUpdated": "2026-06-30",
   "windowMonths": 3,
   "items": [
     {
@@ -71,6 +71,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-29-anthropic-fast-mode",
+      "date": "2026-06-29",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德作品 4-6",
+        "ja": "クロード作品-4-6",
+        "en": "claude-opus-4-6"
+      },
+      "summary": {
+        "zh": "我们已删除 Claude Opus 4.6 的快速模式。对 claude-opus-4-6 的请求速度：“快速”不再以快速或高价运行：它们以标准速度运行，按标准费率计费，并且不会返回错误。响应的 use.speed 字段报告所使用的速度。要继续使用快速模式，请迁移到 Claude Opus 4.8。在快速模式下阅读更多内容。",
+        "ja": "Claude Opus 4.6 の高速モードを削除しました。速度「高速」の claude-opus-4-6 へのリクエストは、高速またはプレミアム価格で実行されなくなりました。標準速度で実行され、標準料金で請求され、エラーは返されません。応答の use.speed フィールドは、使用された速度を報告します。高速モードを引き続き使用するには、Claude Opus 4.8 に移行してください。続きは高速モードでご覧ください。",
+        "en": "We've removed fast mode for Claude Opus 4.6. Requests to claude-opus-4-6 with speed: \"fast\" no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's usage.speed field reports the speed used. To continue using fast mode, migrate to Claude Opus 4.8. Read more in Fast mode."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "claude-opus-4-6",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-28-openai-hp-frontier-partnership",
@@ -309,29 +332,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-25-anthropic-fast-mode",
-      "date": "2026-06-25",
-      "category": "anthropic",
-      "title": {
-        "zh": "克劳德作品 4-7",
-        "ja": "クロード作品-4-7",
-        "en": "claude-opus-4-7"
-      },
-      "summary": {
-        "zh": "我们已弃用 Claude Opus 4.7 的快速模式，并于 2026 年 7 月 24 日删除。删除后，使用 speed: \"fast\" 向 claude-opus-4-7 发出请求将返回错误。迁移到 Claude Opus 4.8 的快速模式。在快速模式下阅读更多内容。",
-        "ja": "Claude Opus 4.7 の高速モードは非推奨となり、2026 年 7 月 24 日に削除されました。削除後、speed: \"fast\" を指定した claude-opus-4-7 へのリクエストはエラーを返します。 Claude Opus 4.8 の高速モードに移行します。続きは高速モードでご覧ください。",
-        "en": "We've deprecated fast mode for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to claude-opus-4-7 with speed: \"fast\" will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in Fast mode."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "claude-opus-4-7",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-24-openai-openai-broadcom-jalapeno-inference-chip",
@@ -4246,6 +4246,27 @@
         "openai"
       ],
       "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-27-anthropic-milan-office-opening",
+      "date": "2026-05-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
+        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
+      },
+      "summary": {
+        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+        "ja": "当社はヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
+        "en": "We're opening a new office in Milan, our sixth in Europe."
+      },
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
       "sourceType": "news"
     },
     {
@@ -9892,28 +9913,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-03-29-openai-helping-disaster-response-teams-asia",
-      "date": "2026-03-29",
-      "category": "openai",
-      "title": {
-        "zh": "帮助救灾团队将人工智能转化为亚洲各地的行动",
-        "ja": "災害対応チームがアジア全域で AI を活用できるよう支援",
-        "en": "Helping disaster response teams turn AI into action across Asia"
-      },
-      "summary": {
-        "zh": "亚洲救灾人工智能：与盖茨基金会合作的 OpenAI 研讨会",
-        "ja": "アジアにおける災害対応のための AI: ゲイツ財団との OpenAI ワークショップ",
-        "en": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation"
-      },
-      "url": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
     }
   ]
 }

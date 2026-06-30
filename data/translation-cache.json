@@ -5295,14 +5295,6 @@
     "zh": "MAI-Code-1-Flash 是 Microsoft AI 的内部编码模型，基于其最近在 Copilot 表面上的扩展，现已普遍适用于 GitHub Copilot 商业版和 Copilot 企业版。 MAI-Code-1-Flash 专为编码而构建并针对 GitHub Copilot 进行了优化，可提供快速、低延迟的响应，非常适合速度和效率最为重要的大容量、迭代代理编码工作流程。此模型按照基于使用量的计费的提供商清单定价进行计费。看...",
     "ja": "Microsoft AI の社内コーディング モデルである MAI-Code-1-Flash は、Copilot サーフェス全体にわたる最近の拡張に基づいて、GitHub Copilot Business および Copilot Enterprise で一般提供されるようになりました。コーディング専用に構築され、GitHub Copilot 用に最適化された MAI-Code-1-Flash は、高速で低遅延の応答を提供するため、速度と効率が最も重要となる大量の反復エージェント コーディング ワークフローに最適です。このモデルは、使用量ベースの請求に基づいてプロバイダー リストの価格で請求されます。見る..."
   },
-  "claude-opus-4-7": {
-    "zh": "克劳德作品 4-7",
-    "ja": "クロード作品-4-7"
-  },
-  "We've deprecated fast mode for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to claude-opus-4-7 with speed: \"fast\" will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in Fast mode.": {
-    "zh": "我们已弃用 Claude Opus 4.7 的快速模式，并于 2026 年 7 月 24 日删除。删除后，使用 speed: \"fast\" 向 claude-opus-4-7 发出请求将返回错误。迁移到 Claude Opus 4.8 的快速模式。在快速模式下阅读更多内容。",
-    "ja": "Claude Opus 4.7 の高速モードは非推奨となり、2026 年 7 月 24 日に削除されました。削除後、speed: \"fast\" を指定した claude-opus-4-7 へのリクエストはエラーを返します。 Claude Opus 4.8 の高速モードに移行します。続きは高速モードでご覧ください。"
-  },
   "GitHub Copilot app is now available in technical preview": {
     "zh": "GitHub Copilot 应用程序现已提供技术预览版",
     "ja": "GitHub Copilot アプリがテクニカル プレビューで利用可能になりました"
@@ -5366,5 +5358,21 @@
   "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters. This model is billed at provider list pricing under Usage Based Billing. Fast mode for Claude Opus 4.8 is offered at a reduced cost compared to previous fast modes, though it still costs more than standard...": {
     "zh": "Claude Opus 4.8（快速模式）现已在 GitHub Copilot 上推出预览版。快速模式提供显着更快的输出令牌速度，同时保持与 Claude Opus 4.8 相同的智能，使其非常适合响应性很重要的交互式编码和代理工作流程。此模型按照基于使用情况的计费下的提供商定价进行计费。与以前的快速模式相比，Claude Opus 4.8 的快速模式的成本较低，但其成本仍然高于标准模式...",
     "ja": "Claude Opus 4.8 (高速モード) は現在、GitHub Copilot でプレビュー版として公開されています。高速モードでは、Claude Opus 4.8 と同じインテリジェンスを維持しながら、出力トークンの速度が大幅に向上するため、応答性が重要な対話型コーディングやエージェント ワークフローに最適です。このモデルは、使用量ベースの請求に基づいてプロバイダーのリスト価格で請求されます。 Claude Opus 4.8 の高速モードは、以前の高速モードと比較して低コストで提供されますが、それでも標準より高価です..."
+  },
+  "claude-opus-4-6": {
+    "zh": "克劳德作品 4-6",
+    "ja": "クロード作品-4-6"
+  },
+  "We've removed fast mode for Claude Opus 4.6. Requests to claude-opus-4-6 with speed: \"fast\" no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's usage.speed field reports the speed used. To continue using fast mode, migrate to Claude Opus 4.8. Read more in Fast mode.": {
+    "zh": "我们已删除 Claude Opus 4.6 的快速模式。对 claude-opus-4-6 的请求速度：“快速”不再以快速或高价运行：它们以标准速度运行，按标准费率计费，并且不会返回错误。响应的 use.speed 字段报告所使用的速度。要继续使用快速模式，请迁移到 Claude Opus 4.8。在快速模式下阅读更多内容。",
+    "ja": "Claude Opus 4.6 の高速モードを削除しました。速度「高速」の claude-opus-4-6 へのリクエストは、高速またはプレミアム価格で実行されなくなりました。標準速度で実行され、標準料金で請求され、エラーは返されません。応答の use.speed フィールドは、使用された速度を報告します。高速モードを引き続き使用するには、Claude Opus 4.8 に移行してください。続きは高速モードでご覧ください。"
+  },
+  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
+    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
+  },
+  "We're opening a new office in Milan, our sixth in Europe.": {
+    "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+    "ja": "当社はヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
   }
 }
