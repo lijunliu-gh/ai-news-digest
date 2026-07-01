@@ -3756,14 +3756,6 @@
     "zh": "您现在可以将 GitHub 代理工作流程与 GitHub Actions 的内置 GITHUB_TOKEN 结合使用。这意味着您不再需要创建和存储个人访问令牌 (PAT)，从而消除了大规模自动化管理长期 PAT 的操作和安全风险。当您在组织拥有的存储库中运行的代理工作流中使用操作令牌时，代理工作流消耗的 AI 积分将直接向组织计费。配置组织计费...",
     "ja": "GitHub アクションの組み込み GITHUB_TOKEN で GitHub エージェント ワークフローを使用できるようになりました。つまり、パーソナル アクセス トークン (PAT) を作成して保存する必要がなくなり、大規模な自動化のために有効期間の長い PAT を管理する際の運用リスクやセキュリティ リスクが排除されます。組織所有のリポジ​​トリで実行されているエージェント ワークフローでアクション トークンを使用すると、エージェント ワークフローによって消費された AI クレジットが組織に直接請求されます。組織の請求を構成しています..."
   },
-  "Upcoming change to Copilot usage metrics report download URLs": {
-    "zh": "Copilot 使用指标报告下载 URL 即将发生变化",
-    "ja": "Copilot 使用状況メトリック レポートのダウンロード URL に対する今後の変更"
-  },
-  "We are migrating the download URLs for Copilot usage metrics reports from Azure Front Door domains to a stable, GitHub-owned custom domain. This change will improve URL stability and make firewall and proxy allowlist management easier for enterprise customers. What’s changing Starting May 20, 2026, Copilot usage metrics report download links—returned by the Copilot Usage Metrics API —will use the new domain copilot-reports.github.com instead of the current copilot-reports-*.b01.azurefd.net...": {
-    "zh": "我们正在将 Copilot 使用指标报告的下载 URL 从 Azure Front Door 域迁移到 GitHub 拥有的稳定自定义域。此更改将提高 URL 稳定性，并使企业客户更轻松地进行防火墙和代理白名单管理。变化内容 从 2026 年 5 月 20 日开始，Copilot 使用指标报告下载链接（由 Copilot 使用指标 API 返回）将使用新域 copilot-reports.github.com，而不是当前的 copilot-reports-*.b01.azurefd.net...",
-    "ja": "Copilot 使用状況メトリック レポートのダウンロード URL を、Azure Front Door ドメインから、GitHub が所有する安定したカスタム ドメインに移行しています。この変更により、URL の安定性が向上し、企業顧客にとってファイアウォールとプロキシの許可リストの管理が容易になります。変更点 2026 年 5 月 20 日以降、Copilot 使用状況メトリック API によって返される Copilot 使用状況メトリック レポートのダウンロード リンクでは、現在の copilot-reports-*.b01.azurefd.net の代わりに新しいドメイン copilot-reports.github.com が使用されます。"
-  },
   "GitHub CLI: Opt-out usage telemetry": {
     "zh": "GitHub CLI：选择退出使用遥测",
     "ja": "GitHub CLI: 使用状況テレメトリのオプトアウト"
@@ -3771,14 +3763,6 @@
   "With the release of v2.91.0, GitHub CLI sends pseudonymous usage telemetry to help us improve the product. We want you to understand what we send and why. Why we collect telemetry As adoption of GitHub CLI grows, we need visibility into how you use features in practice. We use this data to prioritize work and confirm whether features meet real user needs. For example, when we ship a new subcommand, we want to know whether you’re using it and how. If adoption is low, we’ll revisit the...": {
     "zh": "随着 v2.91.0 的发布，GitHub CLI 发送假名使用遥测数据来帮助我们改进产品。我们希望您了解我们发送的内容以及原因。为什么我们收集遥测数据随着 GitHub CLI 的采用不断增长，我们需要了解您在实践中如何使用功能。我们使用这些数据来确定工作的优先级并确认功能是否满足真实的用户需求。例如，当我们发布一个新的子命令时，我们想知道您是否正在使用它以及如何使用它。如果采用率较低，我们将重新审视...",
     "ja": "v2.91.0 のリリースでは、GitHub CLI は、製品の改善に役立つ匿名の使用状況テレメトリを送信します。私たちが送信する内容とその理由を理解していただきたいと考えています。テレメトリを収集する理由 GitHub CLI の採用が進むにつれて、機能が実際にどのように使用されているかを可視化する必要があります。このデータを使用して作業に優先順位を付け、機能が実際のユーザーのニーズを満たしているかどうかを確認します。たとえば、新しいサブコマンドを出荷するとき、私たちはそれを使用しているかどうか、またどのように使用しているかを知りたいと考えています。導入率が低い場合は、再検討します..."
-  },
-  "Copilot code review user counts now aggregate in usage metrics API": {
-    "zh": "Copilot 代码审查用户计数现在汇总在使用指标 API 中",
-    "ja": "Copilot コードレビューのユーザー数が使用状況メトリクス API に集計されるようになりました"
-  },
-  "Following the launch of Copilot code review active and passive user identification, enterprise and organization usage reports in the Copilot usage metrics API now include aggregated active and passive user counts for Copilot code review. Six new fields are available in both 1-day and 28-day reports at the enterprise and organization levels: Field Description daily_active_copilot_code_review_users Active users who used Copilot code review on that day daily_passive_copilot_code_review_users...": {
-    "zh": "在推出 Copilot 代码审查主动和被动用户识别之后，Copilot 使用指标 API 中的企业和组织使用情况报告现在包括 Copilot 代码审查的汇总主动和被动用户计数。企业和组织级别的 1 天和 28 天报告中提供了六个新字段： 字段 说明 daily_active_copilot_code_review_users 当天使用 Copilot 代码审查的活跃用户 daily_passive_copilot_code_review_users...",
-    "ja": "Copilot コード レビューのアクティブ ユーザーとパッシブ ユーザーの識別の開始に続き、Copilot 使用状況メトリクス API の企業および組織の使用状況レポートには、Copilot コード レビューのアクティブ ユーザー数とパッシブ ユーザー数の集計が含まれるようになりました。企業レベルと組織レベルの 1 日レポートと 28 日レポートの両方で 6 つの新しいフィールドが使用可能です。 フィールド 説明 daily_active_copilot_code_review_users その日に Copilot コード レビューを使用したアクティブ ユーザー daily_passive_copilot_code_review_users..."
   },
   "Hierarchy view in GitHub Projects is now generally available": {
     "zh": "GitHub 项目中的层次结构视图现已全面可用",
@@ -3994,14 +3978,6 @@
   "The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You’ll catch known vulnerabilities while you write code with MCP-compatible IDEs and AI coding agents. It’s now in public preview for repositories with Dependabot alerts enabled. How it works The dependency vulnerability scanning tools ship as part of the GitHub MCP Server’s dependabot toolset. Once enabled, your AI coding agent can run dependency vulnerability scanning...": {
     "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描您的代码更改以查找易受攻击的依赖项。当您使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时，您将发现已知的漏洞。现在，它已针对启用了 Dependabot 警报的存储库提供公共预览版。工作原理 依赖项漏洞扫描工具作为 GitHub MCP 服务器的 dependentabot 工具集的一部分提供。启用后，您的 AI 编码代理可以运行依赖性漏洞扫描...",
     "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、コードの変更をスキャンして脆弱な依存関係を見つけることができるようになりました。 MCP 互換の IDE と AI コーディング エージェントを使用してコードを作成するときに、既知の脆弱性を発見できます。現在、Dependabot アラートが有効になっているリポジトリのパブリック プレビュー段階にあります。仕組み 依存関係脆弱性スキャン ツールは、GitHub MCP サーバーの dependabot ツールセットの一部として出荷されます。有効にすると、AI コーディング エージェントは依存関係の脆弱性スキャンを実行できるようになります..."
-  },
-  "GitHub Copilot for Jira: Our latest enhancements": {
-    "zh": "Jira 的 GitHub Copilot：我们的最新增强功能",
-    "ja": "GitHub Copilot for Jira: 最新の機能強化"
-  },
-  "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how Copilot works within their existing Jira workflows. What’s new Custom agents You can now specify in the Jira ticket a custom agent from your GitHub repository to be used when fulfilling the task. This allows teams to tailor Copilot cloud agent’s behavior to their specific needs, directly from the...": {
-    "zh": "自上次更新以来，我们继续投资，使 Jira 集成的 GitHub Copilot 云代理更加强大和可定制。这些改进使团队能够更好地控制 Copilot 在现有 Jira 工作流程中的工作方式。新功能 自定义代理 您现在可以在 Jira 票证中指定 GitHub 存储库中的自定义代理，以便在完成任务时使用。这允许团队直接从...定制 Copilot 云代理的行为以满足他们的特定需求。",
-    "ja": "前回の更新以来、Jira 統合用の GitHub Copilot クラウド エージェントをより強力でカスタマイズ可能にするための投資を続けてきました。これらの改善により、チームは既存の Jira ワークフロー内で Copilot がどのように動作するかをより詳細に制御できるようになります。新機能 カスタム エージェント タスクを実行するときに使用する GitHub リポジトリのカスタム エージェントを Jira チケットで指定できるようになりました。これにより、チームは Copilot クラウド エージェントの動作を特定のニーズに合わせて、直接..."
   },
   "New pull requests dashboard is in public preview": {
     "zh": "新的拉取请求仪表板已公开预览",
@@ -5380,5 +5356,109 @@
   "The GitHub Copilot SDK is now available in public preview. This gives you the building blocks to embed Copilot’s agentic capabilities directly into your own applications, workflows, and platform services. The Copilot SDK exposes the same production-tested agent runtime that powers GitHub Copilot cloud agent and Copilot CLI. Instead of building your own AI orchestration layer, you get tool invocation, streaming, file operations, and multi-turn sessions out of the box. Now available in five...": {
     "zh": "GitHub Copilot SDK 现已提供公共预览版。这为您提供了将 Copilot 的代理功能直接嵌入到您自己的应用程序、工作流程和平台服务中的构建块。 Copilot SDK 公开了相同的经过生产测试的代理运行时，该运行时为 GitHub Copilot 云代理和 Copilot CLI 提供支持。您无需构建自己的 AI 编排层，而是可以开箱即用地获得工具调用、流式传输、文件操作和多轮会话。现在有五种...",
     "ja": "GitHub Copilot SDK がパブリック プレビューで利用できるようになりました。これにより、Copilot のエージェント機能を独自のアプリケーション、ワークフロー、プラットフォーム サービスに直接組み込むための構成要素が提供されます。 Copilot SDK は、GitHub Copilot クラウド エージェントおよび Copilot CLI を強化する、本番環境でテスト済みの同じエージェント ランタイムを公開します。独自の AI オーケストレーション レイヤーを構築する代わりに、ツールの呼び出し、ストリーミング、ファイル操作、マルチターン セッションをすぐに利用できます。現在 5 種類が用意されています..."
+  },
+  "Redeploying Claude Fable 5": {
+    "zh": "重新部署Claude寓言5",
+    "ja": "Claude の再デプロイ 寓話 5"
+  },
+  "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.": {
+    "zh": "在出口管制取消后，Anthropic 将从 7 月 1 日开始重新部署 Claude 《神鬼寓言 5》，并提供更新的网络安全保障措施和新的行业越狱框架。",
+    "ja": "Anthropic は、輸出規制の解除を受けて 7 月 1 日から、最新のサイバーセキュリティ保護策と新しい業界ジェイルブレイク フレームワークを備えた Claude Fable 5 を再展開しています。"
+  },
+  "Schedule and automate tasks with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理安排和自动执行任务",
+    "ja": "Copilot クラウド エージェントを使用してタスクをスケジュールし、自動化する"
+  },
+  "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the agent without any manual input. For example: Triage incoming issues: Automatically label new issues as bug, enhancement, or other based on their content. Fix failing tests nightly: Each night, check for failing tests on the main branch, attempt a fix, and open a draft pull request. Prepare weekly release notes...": {
+    "zh": "借助新的自动化功能，Copilot 云代理现在可以按计划自动运行或响应存储库事件。自动化让您可以将重复性任务交给客服人员，无需任何手动输入。例如： 对传入问题进行分类：根据新问题的内容自动将新问题标记为错误、增强或其他。每晚修复失败的测试：每天晚上，检查主分支上是否有失败的测试，尝试修复，并打开草稿拉取请求。准备每周发行说明...",
+    "ja": "新しい自動化機能により、Copilot クラウド エージェントは、スケジュールに従って、またはリポジトリ イベントに応じて自動的に実行できるようになりました。自動化を使用すると、手動入力を行わずに、反復的なタスクをエージェントに引き渡すことができます。例: 受信した問題の優先順位付け: 内容に基づいて、新しい問題にバグ、機能拡張、またはその他のラベルを自動的に付けます。失敗したテストを毎晩修正する: 毎晩、メイン ブランチで失敗したテストをチェックし、修正を試み、ドラフト プル リクエストを開きます。毎週のリリースノートを準備します..."
+  },
+  "Gain insights across your agent sessions with /chronicle": {
+    "zh": "通过 /chronicle 深入了解您的座席会话",
+    "ja": "/chronicle を使用してエージェント セッション全体にわたって洞察を得る"
+  },
+  "Every Copilot session you run (e.g., fixing a bug, reviewing code, spinning up a feature) builds a history only you can query. /chronicle turns that history into standup summaries, personalized tips, and custom instructions that make Copilot work better for you over time. Now, Chronicle has a more complete view of your Copilot sessions across GitHub and your IDEs, including sessions from Copilot cloud agent, Copilot code review, the GitHub Copilot app, VS Code, and JetBrains. This makes it...": {
+    "zh": "您运行的每个 Copilot 会话（例如，修复错误、审查代码、启动功能）都会构建只有您可以查询的历史记录。 /chronicle 将历史记录转化为站立摘要、个性化提示和自定义说明，让 Copilot 随着时间的推移更好地为您服务。现在，Chronicle 可以更完整地了解 GitHub 和 IDE 中的 Copilot 会话，包括来自 Copilot 云代理、Copilot 代码审查、GitHub Copilot 应用程序、VS Code 和 JetBrains 的会话。这使得它...",
+    "ja": "あなたが実行するすべての Copilot セッション (バグの修正、コードのレビュー、機能の起動など) によって、あなただけがクエリできる履歴が構築されます。 /chronicle は、その履歴をスタンドアップ サマリー、パーソナライズされたヒント、カスタム手順に変換し、Copilot が時間の経過とともにより効果的に機能するようにします。現在、Chronicle では、Copilot クラウド エージェント、Copilot コード レビュー、GitHub Copilot アプリ、VS Code、JetBrains からのセッションを含む、GitHub と IDE にわたる Copilot セッションをより完全に表示できるようになりました。これにより..."
+  },
+  "Copilot Memory supports user preferences for Business, Enterprise": {
+    "zh": "Copilot 内存支持商业、企业用户偏好",
+    "ja": "Copilot メモリはビジネス、エンタープライズ向けのユーザー設定をサポートします"
+  },
+  "Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for governance. Copilot Memory can now capture user-level preferences such as communication style, tool stack, or git conventions, applying them across repositories and Copilot experiences. These user-level preferences complement existing repository-level facts, which are applied to all collaborators but...": {
+    "zh": "继向 Copilot Pro 和 Pro+ 用户推出之后，Copilot Memory 正在为 Copilot Business 和 Copilot Enterprise 的公共预览版推出用户级别首选项，并提供新的治理管理控件。 Copilot 内存现在可以捕获用户级别的首选项，例如通信方式、工具堆栈或 git 约定，并将它们应用于存储库和 Copilot 体验。这些用户级首选项补充了现有的存储库级事实，这些事实适用于所有协作者，但是......",
+    "ja": "Copilot Pro および Pro+ ユーザーへの展開に続き、Copilot Memory は、ガバナンスのための新しい管理制御を備えた Copilot Business および Copilot Enterprise のパブリック プレビューでユーザー レベルの設定を展開しています。 Copilot メモリは、通信スタイル、ツール スタック、git 規約などのユーザーレベルの設定をキャプチャし、それらをリポジトリと Copilot エクスペリエンス全体に適用できるようになりました。これらのユーザーレベルの設定は、すべてのコラボレーターに適用される既存のリポジトリレベルの事実を補完します。"
+  },
+  "Team-level Copilot usage metrics now available via API": {
+    "zh": "团队级 Copilot 使用指标现在可通过 API 获取",
+    "ja": "チームレベルのCopilot使用状況メトリクスがAPI経由で利用可能に"
+  },
+  "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing per-user usage report, enterprise administrators and organization owners can produce team-level Copilot usage metrics for any team in their organization or enterprise. This includes elements such as active users, completions, chats, as well as breakdowns by language, IDE, feature, and model. How it works Two new...": {
+    "zh": "Copilot 使用指标 API 现在公开了一个新的用户团队报告，该报告将每个 Copilot 许可的用户映射到他们所属的团队。通过将用户团队报告与现有的每用户使用情况报告相结合，企业管理员和组织所有者可以为其组织或企业中的任何团队生成团队级 Copilot 使用情况指标。这包括活跃用户、完成情况、聊天等元素，以及按语言、IDE、功能和模型进行的细分。工作原理 两个新...",
+    "ja": "Copilot 使用状況メトリクス API は、Copilot ライセンスを取得した各ユーザーを、そのユーザーが所属するチームにマッピングする新しいユーザー チーム レポートを公開するようになりました。ユーザー チーム レポートを既存のユーザーごとの使用状況レポートと結合することにより、エンタープライズ管理者と組織の所有者は、組織または企業内の任意のチームについてチーム レベルの Copilot 使用状況メトリックを作成できます。これには、アクティブ ユーザー、完了、チャットなどの要素に加え、言語、IDE、機能、モデルごとの内訳が含まれます。仕組み 2 つの新しい..."
+  },
+  "GitHub Copilot app is now available in technical preview": {
+    "zh": "GitHub Copilot 应用程序现已提供技术预览版",
+    "ja": "GitHub Copilot アプリがテクニカル プレビューで利用可能になりました"
+  },
+  "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review. 🧭 Start from GitHub context Your work already lives in GitHub. Sessions start from those artifacts too. Open a session from real work. Start from an issue, pull request, prompt, or previous session. See what needs attention. Use your inbox to find issues and...": {
+    "zh": "GitHub Copilot 应用程序现已处于技术预览版。这是一种 GitHub 原生桌面体验，可以从您面前的工作开始代理开发，保持隔离，引导它进行，并通过拉取请求审查来实现更改。 🧭 从 GitHub 上下文开始您的工作已经存在于 GitHub 中。会话也从这些工件开始。从实际工作中打开一个会话。从问题、拉取请求、提示或之前的会话开始。看看有什么需要注意的。使用您的收件箱查找问题并...",
+    "ja": "GitHub Copilot アプリは現在テクニカル プレビュー段階にあります。 GitHub ネイティブのデスクトップ エクスペリエンスでは、目の前の作業からエージェント開発を開始し、それを分離した状態に保ち、進行に合わせて操作し、プル リクエストのレビューを通じて変更を完了します。 🧭 GitHub コンテキストから開始 あなたの作品はすでに GitHub にあります。セッションもそれらの成果物から始まります。実際の作業からセッションを開きます。イシュー、プル リクエスト、プロンプト、または前のセッションから開始します。注意が必要なものを確認してください。受信トレイを使用して問題を見つけたり..."
+  },
+  "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs": {
+    "zh": "JetBrains IDE 预览版中的内联代理模式以及 GitHub Copilot 中的更多内容",
+    "ja": "JetBrains IDE の GitHub Copilot のプレビューでのインライン エージェント モードなど"
+  },
+  "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs. New features Inline agent mode in public preview Inline agent mode is now available in public preview. This brings agent mode capabilities into the existing inline chat experience, making it possible...": {
+    "zh": "此更新在预览中引入了内联代理模式、对下一步编辑建议的增强、全局自动批准以及对终端命令和文件编辑的更灵活的控制。它还包括针对 JetBrains IDE 的 GitHub Copilot 的多项用户体验改进和质量改进。新功能 公共预览版中的内联代理模式 内联代理模式现已在公共预览版中提供。这将代理模式功能引入现有的内联聊天体验中，使其成为可能...",
+    "ja": "この更新では、プレビューでのインライン エージェント モード、次の編集候補の機能強化、グローバル自動承認、ターミナル コマンドとファイル編集のより柔軟な制御が導入されています。また、JetBrains IDE の GitHub Copilot 全体にわたるいくつかのユーザー エクスペリエンスの改良と品質の向上も含まれています。新機能 パブリック プレビューのインライン エージェント モード インライン エージェント モードがパブリック プレビューで利用できるようになりました。これにより、既存のインライン チャット エクスペリエンスにエージェント モード機能が導入され、次のことが可能になります。"
+  },
+  "Copilot Chat improvements for pull requests": {
+    "zh": "Copilot 针对拉取请求的聊天改进",
+    "ja": "Copilot プル リクエストのチャットの改善"
+  },
+  "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface. Public-preview-enabled users can also click the Copilot button on a diff to ask a series of questions to better understand the changes or the related pull request. New abilities Three new...": {
+    "zh": "GitHub Copilot 当您处理差异和拉取请求时，聊天现在提供更丰富的上下文和新功能。您可以通过在 github.com/copilot 中询问有关拉取请求的问题或通过全局 Copilot 导航来访问此功能，该导航允许您在任何 GitHub 表面上打开聊天。启用公共预览的用户还可以单击差异上的 Copilot 按钮来提出一系列问题，以更好地了解更改或相关的拉取请求。新能力 三个新...",
+    "ja": "GitHub Copilot Chat では、差分やプル リクエストを操作する際に、より豊富なコンテキストと新機能が提供されるようになりました。この機能にアクセスするには、github.com/copilot でプル リクエストについて質問するか、グローバル Copilot ナビゲーションを介してアクセスできます。これにより、任意の GitHub サーフェス上でチャットを開くことができます。パブリック プレビューが有効なユーザーは、差分の Copilot ボタンをクリックして一連の質問をして、変更内容や関連するプル リクエストをよりよく理解することもできます。新しい能力 3つの新しい..."
+  },
+  "Pausing new GitHub Copilot Pro trials": {
+    "zh": "暂停新的 GitHub Copilot Pro 试用",
+    "ja": "新しい GitHub Copilot Pro トライアルを一時停止します"
+  },
+  "April 13, 2026 update: All GitHub Copilot Pro trials, including existing trials, have been paused while our investigation continues. In the meantime, if you were on a Copilot trial, you can change your plan to Copilot Free or upgrade to either a Copilot Pro or Pro+ subscription. As GitHub Copilot continues to grow, we’ve seen a significant rise in abuse of our free trial system. To protect the experience and integrity of the platform for legitimate developers, we are pausing new GitHub Copilot...": {
+    "zh": "2026 年 4 月 13 日更新：在我们继续调查期间，所有 GitHub Copilot Pro 试验（包括现有试验）均已暂停。同时，如果您正在使用 Copilot 试用版，则可以将计划更改为 Copilot 免费版或升级到 Copilot Pro 或 Pro+ 订阅。随着 GitHub Copilot 的不断发展，我们发现滥用免费试用系统的情况显着增加。为了保护合法开发者的平台体验和完整性，我们暂停新的 GitHub Copilot...",
+    "ja": "2026 年 4 月 13 日更新: 調査が継続している間、既存のトライアルを含むすべての GitHub Copilot Pro トライアルが一時停止されました。それまでの間、Copilot トライアル版を利用していた場合は、プランを Copilot Free に変更するか、Copilot Pro または Pro+ サブスクリプションにアップグレードすることができます。 GitHub Copilot が成長を続ける中、無料トライアル システムの悪用が大幅に増加しています。正規の開発者のエクスペリエンスとプラットフォームの整合性を保護するために、新しい GitHub Copilot... を一時停止します。"
+  },
+  "Copilot CLI activity now included in usage metrics totals and feature breakdowns": {
+    "zh": "Copilot CLI 活动现在包含在使用指标总数和功能细分中",
+    "ja": "Copilot CLI アクティビティが使用状況メトリクスの合計と機能の内訳に含まれるようになりました"
+  },
+  "Previous CLI metrics releases added a standalone totals_by_cli section to the Copilot usage metrics API with session counts, request counts, and token usage. That section reported CLI activity separately from the rest of the report—top-level totals and dimensional breakdowns reflected IDE activity only. With this update, CLI activity is now integrated into the metrics you already use. What’s new Top-level totals now include CLI contributions. The following fields now represent IDE + CLI...": {
+    "zh": "以前的 CLI 指标版本在 Copilot 使用指标 API 中添加了一个独立的 Totals_by_cli 部分，其中包含会话计数、请求计数和令牌使用情况。该部分将 CLI 活动与报告的其余部分分开报告 - 顶级总计和维度细分仅反映 IDE 活动。通过此更新，CLI 活动现已集成到您已使用的指标中。新变化 顶级总计现在包括 CLI 贡献。以下字段现在代表 IDE + CLI...",
+    "ja": "以前の CLI メトリクス リリースでは、セッション数、リクエスト数、トークン使用量を含むスタンドアロン totals_by_cli セクションが Copilot 使用状況メトリクス API に追加されました。このセクションでは、CLI アクティビティをレポートの残りの部分とは別に報告しました。トップレベルの合計と次元の内訳は、IDE アクティビティのみを反映していました。この更新により、CLI アクティビティが既に使用しているメトリクスに統合されるようになりました。新機能 トップレベルの合計に CLI の寄与が含まれるようになりました。次のフィールドは IDE + CLI を表すようになりました..."
+  },
+  "npm trusted publishing now supports CircleCI": {
+    "zh": "npm 可信发布现在支持 CircleCI",
+    "ja": "npm Trusted Publishing が CircleCI をサポートするようになりました"
+  },
+  "npm trusted publishing now supports CircleCI as an OIDC provider, joining GitHub Actions and GitLab CI/CD. Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly through their CI/CD pipeline. With this expansion, trusted publishing now covers a large majority of npm publishers by CI provider. Configuration is available through the npm website and the npm trust CLI command. See the trusted publishing documentation for setup...": {
+    "zh": "npm 可信发布现在支持 CircleCI 作为 OIDC 提供商，加入 GitHub Actions 和 GitLab CI/CD。从 CircleCI 工作流程发布的维护者现在可以完全消除存储的凭据，并直接通过其 CI/CD 管道进行身份验证。通过这种扩展，可信发布现在覆盖了 CI 提供商的绝大多数 npm 发布者。可通过 npm 网站和 npm trust CLI 命令进行配置。请参阅受信任的发布文档进行设置...",
+    "ja": "npm Trusted Publishing は、OIDC プロバイダーとして CircleCI をサポートし、GitHub アクションと GitLab CI/CD に加わりました。 CircleCI ワークフローから公開するメンテナは、保存されている認証情報を完全に削除し、CI/CD パイプラインを通じて直接認証できるようになりました。この拡張により、信頼できるパブリッシングは、CI プロバイダーによる npm パブリッシャーの大部分をカバーするようになりました。構成は、npm Web サイトおよび npm trust CLI コマンドを通じて利用できます。セットアップについては、信頼できる公開ドキュメントを参照してください..."
+  },
+  "Copilot usage metrics now identify active and passive Copilot code review users": {
+    "zh": "Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户",
+    "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました"
+  },
+  "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement. Within the API response, CCR usage is represented by two fields at the user level: used_copilot_code_review_active: Set to true when a user intentionally engaged with Copilot...": {
+    "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级报告中了解用户如何参与 Copilot 代码审查，从而更清晰地了解 CCR 采用和参与情况。在 API 响应中，CCR 使用情况由用户级别的两个字段表示：used_copilot_code_review_active：当用户有意参与 Copilot 时设置为 true...",
+    "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザーレベルのレポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。 API 応答内では、CCR の使用状況はユーザー レベルの 2 つのフィールドで表されます。 used_copilot_code_review_active: ユーザーが意図的に Copilot を使用した場合に true に設定します。"
+  },
+  "Organization runner controls for Copilot cloud agent": {
+    "zh": "Copilot 云代理的组织运行器控制",
+    "ja": "Copilot クラウド エージェントの組織ランナー コントロール"
+  },
+  "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more. Until now, the runner was configured at the repository level with a copilot-setup-steps.yml file. This made it difficult to roll out consistent defaults or enforce...": {
+    "zh": "每次 Copilot 云代理执行任务时，它都会启动一个由 GitHub 操作支持的新开发环境。默认情况下，它在标准的 GitHub 托管运行器上运行，但团队还可以自定义代理环境以使用大型运行器或自托管运行器，以实现更快的性能、访问内部资源等。到目前为止，运行程序是使用 copilot-setup-steps.yml 文件在存储库级别配置的。这使得很难推出一致的默认值或强制执行......",
+    "ja": "Copilot クラウド エージェントがタスクを処理するたびに、GitHub アクションを利用した新しい開発環境が開始されます。デフォルトでは、これは標準の GitHub でホストされるランナーで実行されますが、チームはエージェント環境をカスタマイズして、より高速なパフォーマンスや内部リソースへのアクセスなどのために大規模なランナーや自己ホスト型ランナーを使用することもできます。これまで、ランナーは copilot-setup-steps.yml ファイルを使用してリポジトリ レベルで構成されていました。これにより、一貫したデフォルトを展開したり強制したりすることが困難になりました..."
   }
 }

@@ -1,7 +1,122 @@
 {
-  "lastUpdated": "2026-06-30",
+  "lastUpdated": "2026-07-01",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-03-31-openai-accelerating-the-next-phase-ai",
+      "date": "2026-03-31",
+      "category": "openai",
+      "title": {
+        "zh": "加速人工智能的下一阶段",
+        "ja": "AIの次のフェーズを加速する",
+        "en": "Accelerating the next phase of AI"
+      },
+      "summary": {
+        "zh": "OpenAI 筹集了 1220 亿美元的新资金，用于在全球范围内扩展前沿人工智能，投资下一代计算，并满足对 ChatGPT、Codex 和企业人工智能不断增长的需求。",
+        "ja": "OpenAI は、フロンティア AI を世界的に拡大し、次世代コンピューティングに投資し、ChatGPT、Codex、およびエンタープライズ AI に対する需要の高まりに応えるために、新たな資金で 1,220 億ドルを調達します。",
+        "en": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI."
+      },
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-31-github-2026-03-31-codeql-pull-requests-insights-on-security-overview-now-cover-all-protected-branches",
+      "date": "2026-03-31",
+      "category": "github",
+      "title": {
+        "zh": "CodeQL 拉取请求有关安全概述的见解现在涵盖所有受保护的分支",
+        "ja": "CodeQL プル リクエストのセキュリティ概要に関する洞察が、保護されたすべてのブランチをカバーするようになりました",
+        "en": "CodeQL pull requests insights on security overview now cover all protected branches"
+      },
+      "summary": {
+        "zh": "GitHub 安全概述中的 CodeQL 拉取请求洞察选项卡现在报告来自所有受保护分支（而不仅仅是默认分支）的 Copilot 自动修复和警报统计信息。这可以让您更全面地了解 Autofix 在整个代码库中提供的价值。新功能 现在，您可以在 CodeQL 拉取请求洞察选项卡上下载的所有九个洞察图块和 CSV 文件都会聚合来自所有受保护分支（而不仅仅是默认分支）的数据。你会看到更高、更多……",
+        "ja": "GitHub セキュリティ概要の CodeQL プル リクエストの洞察タブは、デフォルト ブランチだけでなく、すべての保護されたブランチからの Copilot 自動修正とアラートの統計をレポートするようになりました。これにより、Autofix がコードベース全体にもたらす価値のより完全な全体像が得られます。新機能 CodeQL プル リクエストの [洞察] タブでダウンロードできる 9 つの洞察タイルすべてと CSV ファイルは、デフォルトのブランチのみではなく、すべての保護されたブランチからのデータを集約するようになりました。もっと高く、もっと...",
+        "en": "The CodeQL pull request insights tab in GitHub security overview now reports Copilot Autofix and alert statistics from all protected branches, not just the default branch. This gives you a more complete picture of the value Autofix delivers across your entire codebase. What’s new All nine insight tiles and the CSV file you can download on the CodeQL pull requests insights tab now aggregate data from all protected branches instead of only the default branch. You’ll see higher, more..."
+      },
+      "url": "https://github.blog/changelog/2026-03-31-codeql-pull-requests-insights-on-security-overview-now-cover-all-protected-branches",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-31-anthropic-australia-mou",
+      "date": "2026-03-31",
+      "category": "anthropic",
+      "title": {
+        "zh": "澳大利亚政府与 Anthropic 签署人工智能安全和研究谅解备忘录",
+        "ja": "オーストラリア政府とAnthropicがAIの安全性と研究に関する覚書に署名",
+        "en": "Australian government and Anthropic sign MOU for AI safety and research"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/australia-MOU",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-03-30-github-2026-03-30-create-issues-from-slack-with-copilot",
+      "date": "2026-03-30",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 从 Slack 创建问题",
+        "ja": "Copilot を使用して Slack から課題を作成する",
+        "en": "Create issues from Slack with Copilot"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 Slack 的 GitHub 应用程序使用自然语言直接从 Slack 创建 GitHub 问题。在任何渠道中提及@GitHub，描述您需要跟踪的工作，应用程序会在您的存储库中创建结构化问题。该应用程序甚至可以创建具有适当层次结构的子问题。 Slack 应用程序以 Copilot 编码代理集成为基础，现在将问题创建带入聊天环境中，团队已经在其中讨论他们的工作。关键功能 自然语言问题创建...",
+        "ja": "Slack 用 GitHub アプリを使用して、自然言語を使用して Slack から直接 GitHub 問題を作成できるようになりました。任意のチャネルで @GitHub に言及し、追跡する必要がある作業について説明すると、アプリによって構造化された問題がリポジトリに作成されます。アプリは適切な階層を持つサブ問題を作成することもできます。 Copilot コーディング エージェントの統合に基づいて構築された Slack アプリでは、チームが既に作業について話し合っているチャット コンテキストに問題の作成が組み込まれるようになりました。主な機能 自然言語問題の作成...",
+        "en": "You can now create GitHub Issues directly from Slack using natural language with the GitHub app for Slack. Mention @GitHub in any channel, describe the work you need to track, and the app creates structured issues in your repository. The app can even create sub-issues with proper hierarchy. Building on the Copilot coding agent integration, the Slack app now brings issue creation into the chat context where teams already discuss their work. Key capabilities Natural language issue creation..."
+      },
+      "url": "https://github.blog/changelog/2026-03-30-create-issues-from-slack-with-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-03-30-anthropic-batch-processing",
+      "date": "2026-03-30",
+      "category": "anthropic",
+      "title": {
+        "zh": "最大令牌数",
+        "ja": "max_tokens",
+        "en": "max_tokens"
+      },
+      "summary": {
+        "zh": "我们已将 Claude Opus 4.6 和 Sonnet 4.6 的 Message Batches API 的 max_tokens 上限提高到 300k。包含 output-300k-2026-03-24 beta 标头，可为长格式内容、结构化数据和大型代码生成任务生成更长的单轮输出。",
+        "ja": "Claude Opus 4.6 および Sonnet 4.6 のメッセージ バッチ API の max_tokens の上限を 300k に引き上げました。長い形式のコンテンツ、構造化データ、および大規模なコード生成タスク用に、より長い 1 ターンの出力を生成するには、output-300k-2026-03-24 ベータ ヘッダーを含めます。",
+        "en": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing#extended-output-beta",
+      "tags": [
+        "max-tokens",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-03-29-openai-helping-disaster-response-teams-asia",
       "date": "2026-03-29",
