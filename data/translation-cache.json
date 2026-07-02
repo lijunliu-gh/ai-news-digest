@@ -4447,14 +4447,6 @@
     "zh": "GitHub Copilot 自动模型选择现已在 github.com 上的 Copilot Chat 和所有 Copilot 计划的 GitHub 移动应用程序中普遍提供。通过自动，Copilot 根据您请求的复杂性和当前型号的可用性代表您选择型号。使用 auto 可以让您更好地优化令牌使用，同时保持高质量的结果。工作原理 自动模型选择是动态的，根据实时可用性和请求的复杂性路由到模型。它...",
     "ja": "GitHub Copilot 自動モデル選択は、github.com の Copilot チャットおよびすべての Copilot プランの GitHub モバイル アプリで一般利用できるようになりました。自動の場合、Copilot は、リクエストの複雑さと現在のモデルの可用性に基づいて、ユーザーに代わってモデルを選択します。 auto を使用すると、高品質の結果を維持しながら、トークンの使用をより適切に最適化できます。仕組み 自動モデル選択は動的であり、リアルタイムの可用性とリクエストの複雑さに基づいてモデルにルーティングされます。それ..."
   },
-  "Agent finder for GitHub Copilot now available": {
-    "zh": "GitHub Copilot 的代理查找器现已可用",
-    "ja": "GitHub Copilot のエージェント ファインダーが利用可能になりました"
-  },
-  "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can now discover the right capability for a task on its own. Describe a task in plain language and agent finder searches an index of available AI resources, then returns ranked matches Copilot can pull in on demand from any catalog you point it at. Agents load what the work calls for instead of...": {
-    "zh": "GitHub 代理查找器现已可用。 GitHub Copilot 现在可以自行发现任务的正确功能，而不是手动连接每个代理应使用哪些 MCP 服务器、技能、画布、代理和工具，并在此过程中填充上下文窗口。用简单的语言描述任务，代理查找器搜索可用人工智能资源的索引，然后返回排名匹配的 Copilot 可以根据需要从您指向的任何目录中提取。代理加载工作所需的内容，而不是......",
-    "ja": "GitHub エージェント ファインダーが利用できるようになりました。各エージェントが使用する MCP サーバー、スキル、キャンバス、エージェント、ツールを手動で設定し、そのプロセスでコンテキスト ウィンドウを埋める代わりに、GitHub Copilot はタスクに適した機能を独自に検出できるようになりました。わかりやすい言葉でタスクを説明すると、エージェント ファインダーは利用可能な AI リソースのインデックスを検索し、ランク付けされた一致を返します。Copilot は、指定したカタログからオンデマンドで取得できます。エージェントは、代わりに作業に必要なものを読み込みます..."
-  },
   "Manage sub-issues, types, and dependencies from GitHub CLI": {
     "zh": "从 GitHub CLI 管理子问题、类型和依赖关系",
     "ja": "GitHub CLI からサブ問題、タイプ、依存関係を管理する"
@@ -5453,22 +5445,6 @@
     "zh": "Copilot Memory 现在支持 Copilot Pro 和 Copilot Pro+ 用户的早期访问中的用户级别首选项。 Copilot 现在可以存储有关您喜欢如何与其交互的陈述或推断的个人偏好。这些首选项可用于未来跨 Copilot 体验的 Copilot 交互。随着时间的推移，Copilot 会适应您的工作方式，自动提供适合您的风格和标准的结果。有何变化 以前，Copilot 内存仅将信息存储在...",
     "ja": "Copilot Memory は、Copilot Pro および Copilot Pro+ ユーザーの早期アクセスでユーザーレベルの設定をサポートするようになりました。 Copilot は、ユーザーがどのように操作したいかについて、明示または推測された個人的な好みを保存できるようになりました。これらの設定は、今後の Copilot エクスペリエンス全体の Copilot インタラクションで使用できます。時間の経過とともに、Copilot はユーザーの作業方法に適応し、ユーザーのスタイルと基準に合った結果を自動的に提供します。変更点 以前は、Copilot メモリには情報のみが保存されていました..."
   },
-  "More flexible secrets and variables for Copilot cloud agent": {
-    "zh": "Copilot 云代理更灵活的秘密和变量",
-    "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数"
-  },
-  "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers. Until now, these had to be configured one repository at a time, in a copilot environment under the repository’s Actions settings. That made it painful to roll out shared configuration (e.g., an internal package registry token or a common MCP...": {
-    "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。到目前为止，这些必须在存储库的操作设置下的副驾驶环境中一次配置一个存储库。这使得推出共享配置变得很痛苦（例如，内部包注册表令牌或常见的 MCP...",
-    "ja": "タスクを Copilot クラウド エージェントに委任すると、そのタスクは GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。これまでは、リポジトリのアクション設定にあるコパイロット環境で、一度に 1 つのリポジトリを構成する必要がありました。そのため、共有構成 (内部パッケージ レジストリ トークンや共通の MCP など) をロールアウトするのが困難になりました。"
-  },
-  "Notice about upcoming new format for GitHub App installation tokens": {
-    "zh": "关于 GitHub 应用程序安装令牌即将推出的新格式的通知",
-    "ja": "GitHub アプリ インストール トークンの今後の新しい形式に関するお知らせ"
-  },
-  "Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant and improving the reliability of our API surface. If your application expects or relies on installation tokens being exactly 40 characters long, it may not handle this new token format correctly. What is changing? We’re now supporting a new, stateless token format for GitHub App installation tokens that improves...": {
-    "zh": "从 2026 年 4 月 27 日开始，在接下来的几周内，我们将开始分阶段推出，更新新创建的 GitHub 应用程序安装令牌的格式，使其性能更高，并提高 API 表面的可靠性。如果您的应用程序期望或依赖长度恰好为 40 个字符的安装令牌，则它可能无法正确处理这种新的令牌格式。什么正在改变？我们现在支持 GitHub 应用程序安装令牌的新的无状态令牌格式，该格式改进了...",
-    "ja": "2026 年 4 月 27 日から数週間にわたって、新たに作成された GitHub アプリ インストール トークンの形式を更新する段階的なロールアウトを開始し、トークンのパフォーマンスを向上させ、API サーフェスの信頼性を向上させます。アプリケーションがインストール トークンの長さがちょうど 40 文字であることを期待または依存している場合、この新しいトークン形式を正しく処理できない可能性があります。何が変わっているのでしょうか？現在、GitHub アプリ インストール トークンの新しいステートレス トークン形式をサポートしており、改善されています..."
-  },
   "GPT-5.5 is generally available for GitHub Copilot": {
     "zh": "GPT-5.5 一般适用于 GitHub Copilot",
     "ja": "GPT-5.5 は GitHub Copilot で一般提供されています"
@@ -5556,5 +5532,21 @@
   "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see it and can’t start new usage. If you are an existing GitHub Models customer, nothing changes today. You can continue using the playground, API, and models as usual. We will share more details, including timelines, as we move toward full retirement. What’s changing New organizations and enterprises without existing GitHub...": {
     "zh": "我们即将退役 GitHub 模型。首先，新客户不能再使用它。如果您的组织或企业以前没有使用过 GitHub 模型，您将看不到它并且无法开始新的使用。如果您是 GitHub Models 的现有客户，那么今天没有任何变化。您可以像往常一样继续使用 Playground、API 和模型。当我们迈向全面退休时，我们将分享更多细节，包括时间表。发生了什么变化 没有现有 GitHub 的新组织和企业...",
     "ja": "GitHub モデルを廃止します。最初のステップとして、新規顧客は使用できなくなります。組織または企業がこれまでに GitHub モデルを使用したことがない場合、そのモデルは表示されず、新たに使用を開始することはできません。 GitHub モデルの既存の顧客の場合は、今日から何も変わりません。プレイグラウンド、API、モデルは通常どおり使用し続けることができます。完全退職に向けて、スケジュールなどの詳細については改めてお知らせいたします。何が変わるのか 既存の GitHub のない新しい組織や企業..."
+  },
+  "Per-user AI credit budgets available for cost centers": {
+    "zh": "可用于成本中心的每用户 AI 信用预算",
+    "ja": "コストセンターで利用可能なユーザーごとの AI クレジット予算"
+  },
+  "Enterprise admins can now set a cost center user-level budget: one per-user AI credit budget on a cost center that applies to every individual in it. As membership changes, the budget follows. Anyone added to the cost center, directly or through an enterprise team, picks up its per-user budget, and anyone removed is no longer covered by it. You do not reconfigure budgets monthly or when people move teams. This removes the need to create thousands of individual budgets to control spend across...": {
+    "zh": "企业管理员现在可以设置成本中心用户级预算：成本中心上的每用户 AI 信用预算适用于其中的每个人。随着成员资格的变化，预算也会随之变化。直接或通过企业团队添加到成本中心的任何人都会获得其每用户预算，而删除的任何人将不再受其覆盖。您无需每月或在人员调动团队时重新配置预算。这样就无需创建数千个单独的预算来控制各个方面的支出......",
+    "ja": "企業管理者は、コスト センターのユーザー レベルの予算を設定できるようになりました。つまり、コスト センターでユーザーごとに 1 つの AI クレジット予算を設定し、コスト センター内のすべての個人に適用されます。メンバーが変わると予算もそれに伴います。直接またはエンタープライズ チームを通じてコスト センターに追加された人はユーザーごとの予算を受け取り、削除された人はその対象から外されます。毎月、またはチームが異動したときに予算を再構成することはありません。これにより、全体にわたる支出を制御するために何千もの個別の予算を作成する必要がなくなります。"
+  },
+  "GitHub Copilot for Eclipse is open source": {
+    "zh": "Eclipse 的 GitHub Copilot 是开源的",
+    "ja": "Eclipse の GitHub Copilot はオープンソースです"
+  },
+  "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in the Eclipse ecosystem. By open sourcing the plugin, we’re inviting the community to explore, learn from, and contribute to how AI-powered developer experiences are built inside Eclipse. ✨ What’s new Why open source? Our primary motivation is community-driven innovation and increased transparency. Eclipse has...": {
+    "zh": "继我们之前的更新之后，Eclipse 的 GitHub Copilot 已开源，代码可在 MIT 许可证下的 GitHub 上获取。这标志着 GitHub Copilot 在 Eclipse 生态系统中的一个重要里程碑。通过开源该插件，我们邀请社区探索、学习并为如何在 Eclipse 中构建人工智能驱动的开发人员体验做出贡献。 ✨ 新内容 为什么要开源？我们的主要动机是社区驱动的创新和提高透明度。日食有...",
+    "ja": "以前の更新に続き、Eclipse の GitHub Copilot はオープン ソースとなり、コードは MIT ライセンスの下で GitHub で利用可能になります。これは、Eclipse エコシステムにおける GitHub Copilot にとって重要なマイルストーンとなります。プラグインをオープンソース化することで、Eclipse 内で AI を活用した開発者エクスペリエンスがどのように構築されるかを探索し、そこから学び、貢献するようコミュニティを招待します。 ✨ 新機能 なぜオープンソースなのか?私たちの主な動機は、コミュニティ主導のイノベーションと透明性の向上です。エクリプスには..."
   }
 }
