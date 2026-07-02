@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-07-03
+
+### Added
+- RSS feed output (`feed.xml`) generated on every refresh, discoverable via `<link rel="alternate">` in `index.html`
+- Fuzzy cross-source deduplication: entries from different sources (e.g. News vs Changelog) describing the same event within 2 days are merged, preferring the richer News source
+- Sentence-aware summary truncation that cuts at sentence boundaries instead of hard character limits
+- Changelog entries now keep only the first 1–2 sentences to reduce noise
+
+### Changed
+- Item sort order in `materialize()` now prioritizes News sources over Changelog/Release Notes sources before applying dedup
+
 ## [1.2.0] - 2026-04-19
 
 ### Added

@@ -97,6 +97,47 @@ def normalize_whitespace(text: str) -> str:
     return re.sub(r'\s+([,.;:!?])', r'\1', cleaned)
 
 
+# Words too common to be meaningful for similarity detection
+_SIMILARITY_STOP_WORDS = frozenset({
+    'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'being',
+    'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by', 'from', 'and',
+    'or', 'not', 'no', 'but', 'if', 'so', 'as', 'its', 'it', 'this',
+    'that', 'now', 'new', 'our', 'we', 'you', 'your', 'how', 'what',
+    'introducing', 'introduced', 'available', 'generally', 'public',
+    'preview', 'technical', 'update', 'updates', 'updated',
+})
+
+
+def _title_content_words(title: str) -> set[str]:
+    """Extract meaningful content words from a title for similarity comparison."""
+    cleaned = re.sub(r'[^a-z0-9\s]', '', title.lower())
+    return set(cleaned.split()) - _SIMILARITY_STOP_WORDS
+
+
+def _titles_are_similar(title_a: str, title_b: str, threshold: float = 0.7) -> bool:
+    """Check if two titles refer to the same event based on content word overlap."""
+    words_a = _title_content_words(title_a)
+    words_b = _title_content_words(title_b)
+    if not words_a or not words_b:
+        return False
+    overlap = len(words_a & words_b) / min(len(words_a), len(words_b))
+    return overlap >= threshold
+
+
+# Source priority for dedup: prefer richer content sources (lower = higher priority)
+_SOURCE_PRIORITY = {
+    'Anthropic News': 1,
+    'OpenAI News': 1,
+    'Google Blog': 1,
+    'Google DeepMind News': 1,
+    'GitHub Product News': 1,
+    'Anthropic Release Notes': 2,
+    'OpenAI API Changelog': 2,
+    'Google Cloud Release Notes': 2,
+    'GitHub Changelog': 2,
+}
+
+
 def slugify_text(value: str) -> str:
     return normalize_tag(value)
 
@@ -641,13 +682,52 @@ def slug_from_url(url: str) -> str:
     return slug or 'item'
 
 
+def _refine_summary(raw_summary: str, title: str, source_type: str) -> str:
+    """Clean and improve summary text with sentence-aware truncation."""
+    summary = normalize_whitespace(raw_summary)
+    if not summary:
+        return title
+
+    # If summary is just the title repeated, return the title as-is
+    if normalize_whitespace(summary.lower()) == normalize_whitespace(title.lower()):
+        return title
+
+    # For changelog entries, keep only the first 1-2 sentences (they tend to be noisy)
+    if source_type == 'changelog':
+        sentences = re.split(r'(?<=[.!?])\s+', summary)
+        summary = ' '.join(sentences[:2])
+
+    # Sentence-aware truncation instead of hard character cut
+    if len(summary) > SUMMARY_MAX_CHARS:
+        # Try to cut at a sentence boundary
+        truncated = summary[:SUMMARY_MAX_CHARS]
+        last_period = max(truncated.rfind('. '), truncated.rfind('! '), truncated.rfind('? '))
+        if last_period > SUMMARY_MAX_CHARS * 0.5:
+            summary = truncated[:last_period + 1]
+        else:
+            summary = truncated.rsplit(' ', 1)[0].rstrip('.,;:') + '...'
+
+    # Remove trailing fragments that repeat the title
+    if summary.endswith(title):
+        summary = summary[:-len(title)].rstrip(' -—:')
+
+    return summary or title
+
+
 def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], translator: TranslationService) -> list[dict]:
     items: list[dict] = []
     used_ids: set[str] = set()
     seen_urls: set[str] = set()
     seen_titles: set[str] = set()
+    # Track accepted entries per category for fuzzy cross-source dedup
+    accepted_by_category: dict[str, list[tuple[str, str, str]]] = {}  # category -> [(date, title, source)]
 
-    for entry in sorted(entries, key=lambda item: (item.date, item.url), reverse=True):
+    # Sort by source priority first (news before changelog), then date
+    def _entry_sort_key(item: FeedEntry) -> tuple:
+        priority = _SOURCE_PRIORITY.get(item.source, 5)
+        return (-priority, item.date, item.url)
+
+    for entry in sorted(entries, key=_entry_sort_key, reverse=True):
         normalized_url = normalize_url(entry.url)
         if normalized_url in seen_urls:
             continue
@@ -656,6 +736,23 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], tran
         if title_key in seen_titles:
             continue
         seen_titles.add(title_key)
+
+        # Fuzzy cross-source dedup: skip if a similar title from another source
+        # was already accepted within 2 days in the same category
+        entry_date = date.fromisoformat(entry.date)
+        is_fuzzy_dup = False
+        for accepted_date_str, accepted_title, accepted_source in accepted_by_category.get(entry.category, []):
+            if accepted_source == entry.source:
+                continue
+            accepted_date = date.fromisoformat(accepted_date_str)
+            if abs((entry_date - accepted_date).days) > 2:
+                continue
+            if _titles_are_similar(entry.title_en, accepted_title):
+                is_fuzzy_dup = True
+                break
+        if is_fuzzy_dup:
+            continue
+        accepted_by_category.setdefault(entry.category, []).append((entry.date, entry.title_en, entry.source))
         existing = existing_by_url.get(normalized_url)
         item_id = f"{entry.date}-{entry.category}-{slug_from_url(normalized_url)}"
         suffix = 2
@@ -665,11 +762,7 @@ def materialize(entries: list[FeedEntry], existing_by_url: dict[str, dict], tran
         used_ids.add(item_id)
         force_retranslate = entry.source == 'Google DeepMind News'
 
-        summary_en = entry.summary_en
-        if len(summary_en) > SUMMARY_MAX_CHARS:
-            summary_en = summary_en[:SUMMARY_MAX_CHARS].rsplit(' ', 1)[0].rstrip('.,;:') + '...'
-        if normalize_whitespace(summary_en.lower()) == normalize_whitespace(entry.title_en.lower()):
-            summary_en = entry.title_en
+        summary_en = _refine_summary(entry.summary_en, entry.title_en, entry.source_type)
 
         items.append({
             'id': item_id,
@@ -1218,6 +1311,56 @@ def emit_report(report: dict) -> None:
     write_json(report_path, report)
 
 
+FEED_PATH = ROOT / 'feed.xml'
+SITE_URL = 'https://lijunliu-gh.github.io/ai-news-digest'
+FEED_TITLE = 'AI News Digest'
+FEED_DESCRIPTION = 'Official AI product updates from Anthropic, OpenAI, Google, and GitHub'
+FEED_MAX_ITEMS = 50
+
+
+def generate_rss_feed(items: list[dict], today: date) -> None:
+    """Generate an RSS 2.0 feed from digest items."""
+    from xml.sax.saxutils import escape
+
+    rss_items = []
+    for item in items[:FEED_MAX_ITEMS]:
+        title = item.get('title', {}).get('en', '')
+        summary = item.get('summary', {}).get('en', '')
+        url = item.get('url', '')
+        item_date = item.get('date', '')
+        category = item.get('category', '')
+        source = item.get('source', '')
+
+        rss_items.append(
+            '    <item>\n'
+            f'      <title>{escape(title)}</title>\n'
+            f'      <link>{escape(url)}</link>\n'
+            f'      <description>{escape(summary)}</description>\n'
+            f'      <pubDate>{item_date}</pubDate>\n'
+            f'      <category>{escape(category)}</category>\n'
+            f'      <source url="{escape(SITE_URL)}">{escape(source)}</source>\n'
+            f'      <guid isPermaLink="true">{escape(url)}</guid>\n'
+            '    </item>'
+        )
+
+    items_xml = '\n'.join(rss_items)
+    feed_xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '  <channel>\n'
+        f'    <title>{escape(FEED_TITLE)}</title>\n'
+        f'    <link>{SITE_URL}</link>\n'
+        f'    <description>{escape(FEED_DESCRIPTION)}</description>\n'
+        f'    <lastBuildDate>{today.isoformat()}</lastBuildDate>\n'
+        f'    <atom:link href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+        f'{items_xml}\n'
+        '  </channel>\n'
+        '</rss>\n'
+    )
+    FEED_PATH.write_text(feed_xml, encoding='utf-8')
+    print(f'Generated RSS feed with {len(rss_items)} items.')
+
+
 def main() -> int:
     today = get_today()
     cutoff = subtract_months(today, WINDOW_MONTHS)
@@ -1314,6 +1457,8 @@ def main() -> int:
         'windowMonths': WINDOW_MONTHS,
         'items': archive_items,
     })
+
+    generate_rss_feed(fresh_digest, today)
 
     print(f'Updated digest with {len(fresh_digest)} active items and {len(archive_items)} archived items.')
     print('Source counts: ' + ', '.join(f"{name}={count}" for name, count in report['active']['sources'].items()))

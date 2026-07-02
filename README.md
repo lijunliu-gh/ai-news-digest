@@ -21,6 +21,8 @@
 - ♻️ **Automated Refresh** — GitHub Actions refreshes the digest five times a day using only free GitHub-native automation
 - 🗄️ **Rolling Window + Archive** — The homepage keeps only the latest 3 months while older items move to an archive dataset
 - 📱 **Responsive** — Works on desktop, tablet, and mobile (iOS & Android)
+- 📡 **RSS Feed** — Subscribe via `feed.xml` with any RSS reader; auto-generated on every refresh
+- 🧹 **Smart Deduplication** — Fuzzy title matching merges duplicate entries across News and Changelog sources automatically
 - ⚡ **No Frontend Build Step** — Pure HTML / CSS / JS frontend, with a small Python dependency only for the refresh script
 
 ## Project Structure
@@ -28,6 +30,7 @@
 ```
 ai-news-digest/
 ├── index.html          # Main page
+├── feed.xml            # RSS 2.0 feed (auto-generated)
 ├── css/
 │   └── style.css       # Styles (dark/light theme, responsive)
 ├── js/
@@ -132,6 +135,8 @@ GitHub Actions uses UTC internally; the workflow cron entries match the UTC colu
 - The translation cache lives in `data/translation-cache.json` and is committed so future runs reuse the same phrasing.
 - The homepage shows whether an item came from a news page, changelog, or release-notes surface.
 - Each GitHub Actions run publishes a job summary with total items, per-source counts, translation stats, validation config, and any validation issues.
+- Cross-source duplicates (same event reported in both News and Changelog) are automatically merged using fuzzy title matching, preferring the richer News source.
+- An RSS 2.0 feed (`feed.xml`) is regenerated on every refresh with the latest 50 items.
 
 ## Development
 
