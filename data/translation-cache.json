@@ -4071,22 +4071,6 @@
     "zh": "Copilot 代码审查现在支持存储库级 AGENTS.md 文件，并且可以更轻松地使用“请求”按钮向 Copilot 请求对草稿拉取请求进行审查。这些更改都是普遍可用的。 📝 AGENTS.md 支持 您现在可以在存储库的根目录中添加 AGENTS.md 文件，以帮助形成 Copilot 代码审查反馈。如果您的存储库已经有 AGENTS.md 文件，Copilot 代码审查现在将自动利用该上下文作为其工作流程的一部分。这使得更容易...",
     "ja": "Copilot コード レビューはリポジトリ レベルの AGENTS.md ファイルをサポートするようになり、リクエスト ボタンを使用してドラフト プル リクエストの Copilot からのレビューを簡単にリクエストできるようになりました。これらの変更はすべて一般公開されています。 📝 AGENTS.md のサポート AGENTS.md ファイルをリポジトリのルートに追加して、Copilot コード レビューのフィードバックを作成できるようになりました。リポジトリにすでに AGENTS.md ファイルがある場合、Copilot コード レビューはワークフローの一部としてそのコンテキストを自動的に利用するようになります。これにより、..."
   },
-  "GitHub Copilot app generally available": {
-    "zh": "GitHub Copilot 应用程序正式可用",
-    "ja": "GitHub Copilot アプリの一般提供が開始されました"
-  },
-  "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub. Download the GitHub Copilot app to start your first session. Start a session from an issue, pull request, or prompt. Run parallel sessions across repositories, each on its own branch and worktree. Review the diff, validate in the integrated terminal and browser, and open a pull request that uses your team’s existing checks and merge...": {
-    "zh": "GitHub Copilot 应用程序现已普遍适用于 macOS、Windows 和 Linux。它是代理驱动开发的桌面主页，原生构建于 GitHub 之上。下载 GitHub Copilot 应用程序开始您的第一个会话。从问题、拉取请求或提示开始会话。跨存储库运行并行会话，每个存储库都有自己的分支和工作树。检查差异，在集成终端和浏览器中进行验证，然后打开使用团队现有检查和合并的拉取请求...",
-    "ja": "GitHub Copilot アプリが macOS、Windows、Linux で一般提供されるようになりました。これは、GitHub にネイティブに構築された、エージェント駆動開発のためのデスクトップ ホームです。 GitHub Copilot アプリをダウンロードして、最初のセッションを開始します。イシュー、プルリクエスト、またはプロンプトからセッションを開始します。リポジトリ全体で、それぞれが独自のブランチとワークツリー上で並列セッションを実行します。差分を確認し、統合されたターミナルとブラウザで検証し、チームの既存のチェックとマージを使用するプル リクエストを開きます..."
-  },
-  "GitHub Models is no longer available to new customers": {
-    "zh": "GitHub 模型不再向新客户提供",
-    "ja": "GitHub モデルは新規顧客には利用できなくなりました"
-  },
-  "We are retiring GitHub Models. As a first step, new customers can no longer use it. If your organization or enterprise have not previously used GitHub Models, you won’t see it and can’t start new usage. If you are an existing GitHub Models customer, nothing changes today. You can continue using the playground, API, and models as usual. We will share more details, including timelines, as we move toward full retirement. What’s changing New organizations and enterprises without existing GitHub...": {
-    "zh": "我们即将退役 GitHub 模型。首先，新客户不能再使用它。如果您的组织或企业以前没有使用过 GitHub 模型，您将看不到它并且无法开始新的使用。如果您是 GitHub Models 的现有客户，那么今天没有任何变化。您可以像往常一样继续使用 Playground、API 和模型。当我们迈向全面退休时，我们将分享更多细节，包括时间表。发生了什么变化 没有现有 GitHub 的新组织和企业...",
-    "ja": "GitHub モデルを廃止します。最初のステップとして、新規顧客は使用できなくなります。組織または企業がこれまでに GitHub モデルを使用したことがない場合、それは表示されず、新たに使用を開始することはできません。 GitHub モデルの既存の顧客の場合は、今日から何も変わりません。プレイグラウンド、API、モデルは通常どおり使用し続けることができます。完全退職に向けて、スケジュールなどの詳細については改めてお知らせいたします。何が変わるのか 既存の GitHub のない新しい組織や企業..."
-  },
   "GitHub Code Quality generally available July 20, 2026": {
     "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
     "ja": "GitHub コード品質は 2026 年 7 月 20 日に一般公開されます"
@@ -4454,22 +4438,6 @@
   "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve). Add disableBypassPermissionsMode to.github-private/.github/copilot/settings.json. GitHub Copilot automatically pulls and applies these settings for...": {
     "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。将disableBypassPermissionsMode 添加到.github-private/.github/copilot/settings.json。 GitHub Copilot 自动提取并应用这些设置...",
     "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれる) を自動的にスキップしないようにできるようになりました。 disableBypassPermissionsMode を.github-private/.github/copilot/settings.json に追加します。 GitHub Copilot は、これらの設定を自動的に取得して適用します..."
-  },
-  "Copilot individual plan sign-ups are reopening": {
-    "zh": "Copilot 个人计划注册正在重新开放",
-    "ja": "Copilot 個別プランのサインアップが再開されます"
-  },
-  "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with Copilot, select the plan that fits your needs. If your preferred option isn’t available yet, check back soon. If you find that you’re using more than what’s included in your current plan, we’ve made some updates to help you get the best experience: Upgrade to unlock more included usage: When approaching your...": {
-    "zh": "我们将在接下来的几周内逐步为新订阅者重新开放 GitHub Copilot Student、Pro、Pro+ 和 Max 计划的注册。如果您一直在等待开始使用 Copilot，请选择适合您需求的计划。如果您的首选选项尚不可用，请尽快回来查看。如果您发现您的使用量超出了当前计划中包含的用量，我们进行了一些更新，以帮助您获得最佳体验：升级以解锁更多包含的使用量：当接近您的...",
-    "ja": "新規加入者向けに、GitHub Copilot Student、Pro、Pro+、Max プランへのサインアップを今後数週間かけて段階的に再開します。 Copilot の使用を開始するのを待っていた場合は、ニーズに合ったプランを選択してください。ご希望のオプションがまだ利用できない場合は、すぐにもう一度ご確認ください。現在のプランに含まれているものを超えて使用していることが判明した場合は、最高のエクスペリエンスを得るためにいくつかの更新を行いました: アップグレードして、より多くの含まれる使用量のロックを解除します: 使用量に近づくと..."
-  },
-  "Copilot CLI supports enterprise bring your own key (BYOK) models": {
-    "zh": "Copilot CLI 支持企业自带密钥 (BYOK) 模型",
-    "ja": "Copilot CLI はエンタープライズ Bring Your Own Key (BYOK) モデルをサポートします"
-  },
-  "Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily deploy custom models to developers. To learn more about how enterprise admins can configure models from external providers for use in GitHub Copilot, see Using your LLM provider API keys with Copilot. Separately, Copilot CLI also supports end users configuring local models and models from...": {
-    "zh": "由企业管理员配置的外部提供商的模型现在可以在 Copilot CLI 的 /model 选择器中使用，为企业开发人员提供更大的灵活性，并允许企业管理员更轻松地向开发人员部署自定义模型。要详细了解企业管理员如何配置来自外部提供商的模型以在 GitHub Copilot 中使用，请参阅将 LLM 提供商 API 密钥与 Copilot 一起使用。另外，Copilot CLI 还支持最终用户配置本地模型和来自...的模型",
-    "ja": "エンタープライズ管理者によって構成された外部プロバイダーのモデルが Copilot CLI の /model ピッカーで使用できるようになりました。これにより、エンタープライズ開発者はより柔軟になり、エンタープライズ管理者は開発者にカスタム モデルをより簡単にデプロイできるようになります。エンタープライズ管理者が GitHub Copilot で使用するために外部プロバイダーのモデルを構成する方法の詳細については、「Copilot での LLM プロバイダー API キーの使用」を参照してください。これとは別に、Copilot CLI は、ローカル モデルおよび...からのモデルを構成するエンド ユーザーもサポートします。"
   },
   "Auto mode in Copilot Chat available for all users": {
     "zh": "Copilot 聊天中的自动模式可供所有用户使用",
