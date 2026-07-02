@@ -5540,5 +5540,29 @@
   "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex, to analyze the vulnerability and open a draft pull request with a proposed fix. How it works From the Dependabot alert detail page, select Assign to Agent and then select your desired coding agent, including Copilot, Claude and Codex. The assigned agent will: Analyze the alert, including the...": {
     "zh": "一些依赖项漏洞需要的不仅仅是版本更新，它们还需要整个项目的代码更改。您现在可以将 Dependabot 警报分配给 AI 编码代理（包括 Copilot、Claude 和 Codex），以分析漏洞并打开包含建议修复方案的草稿拉取请求。工作原理 在 Dependabot 警报详细信息页面中，选择分配给代理，然后选择所需的编码代理，包括 Copilot、Claude 和 Codex。指定的代理将： 分析警报，包括...",
     "ja": "依存関係の脆弱性の中には、バージョンを上げるだけではなく、プロジェクト全体でコードを変更する必要があるものもあります。 Copilot、Claude、Codex などの AI コーディング エージェントに dependabot アラートを割り当てて、脆弱性を分析し、提案された修正を含むドラフト プル リクエストをオープンできるようになりました。仕組み dependabot アラートの詳細ページから、[エージェントに割り当て] を選択し、Copilot、Claude、Codex など、目的のコーディング エージェントを選択します。割り当てられたエージェントは次のことを行います。 アラートを分析します。"
+  },
+  "GitHub Models is being fully retired on July 30, 2026": {
+    "zh": "GitHub 模型将于 2026 年 7 月 30 日全面退役",
+    "ja": "GitHub モデルは 2026 年 7 月 30 日に完全に廃止されます"
+  },
+  "In June, we announced that we are retiring GitHub Models and closed it to new customers. We’re now sharing the timeline for the next step: GitHub Models will be fully retired on July 30, 2026. After that date, GitHub Models—including the playground, model catalog, inference API, and bring your own key (BYOK)—will no longer be available to any customer. This includes existing customers with active usage. What’s changing GitHub Models will be fully retired on July 30, 2026. After this date, the...": {
+    "zh": "6 月，我们宣布将停用 GitHub 模型，并向新客户关闭。我们现在分享下一步的时间表：GitHub 模型将于 2026 年 7 月 30 日完全退役。该日期之后，GitHub 模型（包括 Playground、模型目录、推理 API 和自带密钥 (BYOK)）将不再对任何客户可用。这包括活跃使用的现有客户。发生变化 GitHub 型号将于 2026 年 7 月 30 日完全退役。在此日期之后，...",
+    "ja": "6 月に、GitHub モデルを廃止し、新規顧客の受け入れを終了すると発表しました。現在、次のステップのタイムラインを共有しています。GitHub モデルは、2026 年 7 月 30 日に完全に廃止されます。その日以降、プレイグラウンド、モデル カタログ、推論 API、および Bring Your Own Key (BYOK) を含む GitHub モデルは、どの顧客も利用できなくなります。これには、アクティブに使用している既存の顧客も含まれます。変更点 GitHub モデルは 2026 年 7 月 30 日に完全に廃止されます。この日以降、..."
+  },
+  "Enterprises can default to auto model selection": {
+    "zh": "企业可以默认自动选型",
+    "ja": "企業はデフォルトで自動モデル選択を設定できる"
+  },
+  "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default. Users can still switch to a different model on a per-conversation basis. GitHub Copilot automatically pulls and applies these settings for...": {
+    "zh": "企业管理员现在可以在企业 Managed-settings.json 中将模型设置为自动，以使 Copilot 自动模型选择成为新对话的默认值。在源组织中将 auto 添加到.github-private/.github/copilot/managed-settings.json 以进行企业治理，以便新对话默认以 Copilot 自动模型选择开始。用户仍然可以根据每次对话切换到不同的模型。 GitHub Copilot 自动提取并应用这些设置...",
+    "ja": "エンタープライズ管理者は、エンタープライズ管理対象設定.json でモデルを auto に設定し、Copilot 自動モデル選択を新しい会話のデフォルトにできるようになりました。エンタープライズ ガバナンスのためにソース組織に auto to.github-private/.github/copilot/managed-settings.json を追加して、新しい会話がデフォルトで Copilot 自動モデル選択から始まるようにします。ユーザーは引き続き、会話ごとに別のモデルに切り替えることができます。 GitHub Copilot は、これらの設定を自動的に取得して適用します..."
+  },
+  "Enterprise managed-settings.json is generally available": {
+    "zh": "Enterprise Managed-settings.json 已全面可用",
+    "ja": "Enterprise 管理対象設定.json の一般提供が開始されました"
+  },
+  "GitHub Enterprise Cloud customers can configure AI standards through a managed-settings.json file maintained in a.github-private repository in a selected organization. This allows the enterprise to define new governance and extensibility flows that apply to Copilot clients such as VS Code or Copilot CLI. The configuration in managed-settings.json is in addition to the policies available in the AI Controls tab in enterprise settings. managed-settings.json takes precedence over file-based...": {
+    "zh": "GitHub 企业云客户可以通过选定组织的.github 私有存储库中维护的 Managed-settings.json 文件来配置 AI 标准。这允许企业定义适用于 Copilot 客户端（例如 VS Code 或 Copilot CLI）的新治理和可扩展性流程。 Managed-settings.json 中的配置是企业设置中“AI 控制”选项卡中可用策略的补充。 Managed-settings.json 优先于基于文件的...",
+    "ja": "GitHub Enterprise Cloud の顧客は、選択した組織の.github-private リポジトリに保持されている Managed-settings.json ファイルを通じて AI 標準を構成できます。これにより、企業は、VS Code や Copilot CLI などの Copilot クライアントに適用される新しいガバナンスおよび拡張性フローを定義できるようになります。 protected-settings.json の構成は、エンタープライズ設定の [AI コントロール] タブで使用できるポリシーに追加されます。管理対象設定.json はファイルベースよりも優先されます..."
   }
 }
