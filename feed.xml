@@ -4,8 +4,17 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-07-02</lastBuildDate>
+    <lastBuildDate>2026-07-03</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash</title>
+      <link>https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash</link>
+      <description>We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st, 2026: Model Deprecation date Suggested alternative Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash Please update your workflows and integrations to use the supported models before these dates.</description>
+      <pubDate>2026-07-02</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash</guid>
+    </item>
     <item>
       <title>Issue fields are now generally available</title>
       <link>https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available</link>
@@ -16,6 +25,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available</guid>
     </item>
     <item>
+      <title>Improved accuracy and coverage in Copilot usage metrics reports</title>
+      <link>https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports</link>
+      <description>We’ve made three improvements to the Copilot usage metrics API that make its reports more complete and accurate: GitHub Copilot CLI now reports suggested lines of code, users seen only through server-side telemetry now have their IDE identified, and AI credit consumption is now attributed more completely. What’s new GitHub Copilot CLI now reports suggested lines of code.</description>
+      <pubDate>2026-07-02</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports</guid>
+    </item>
+    <item>
       <title>Cost centers now support AI credit pools</title>
       <link>https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps</link>
       <description>You can now cap how much of your enterprise’s monthly included AI credits a cost center can use. This is available through the REST API today.</description>
@@ -23,6 +41,33 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps</guid>
+    </item>
+    <item>
+      <title>Copilot CLI no longer needs a personal access token in GitHub Actions</title>
+      <link>https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions</link>
+      <description>You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.</description>
+      <pubDate>2026-07-02</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions</guid>
+    </item>
+    <item>
+      <title>Copilot agent session streaming is now in public preview</title>
+      <link>https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview</link>
+      <description>GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data resident deployments on ghe.com GitHub Copilot CLI Visual Studio Code Visual Studio Partner IDEs, such as those provided by JetBrains and Eclipse This gives you direct visibility into agent session activity (e.g., prompts, responses, and tool calls) so you can manage AI usage across your enterprise.</description>
+      <pubDate>2026-07-02</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview</guid>
+    </item>
+    <item>
+      <title>More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
+      <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
+      <description>What is and isn't blocked by our cyber classifiers, and a first draft of our jailbreak severity framework</description>
+      <pubDate>2026-07-02</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
+      <guid isPermaLink="true">https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</guid>
     </item>
     <item>
       <title>The latest AI news we announced in June 2026</title>
@@ -410,51 +455,6 @@
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google DeepMind News</source>
       <guid isPermaLink="true">https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash</guid>
-    </item>
-    <item>
-      <title>Changes to model selection for Free and Student plans</title>
-      <link>https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans</link>
-      <description>Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing the need for manual choice.</description>
-      <pubDate>2026-06-24</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans</guid>
-    </item>
-    <item>
-      <title>How Omio is building the future of conversational travel</title>
-      <link>https://openai.com/index/omio</link>
-      <description>Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.</description>
-      <pubDate>2026-06-23</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/omio</guid>
-    </item>
-    <item>
-      <title>Helping build shared standards for advanced AI</title>
-      <link>https://openai.com/index/helping-build-shared-standards-for-advanced-ai</link>
-      <description>OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.</description>
-      <pubDate>2026-06-23</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/helping-build-shared-standards-for-advanced-ai</guid>
-    </item>
-    <item>
-      <title>Safety dashboard</title>
-      <link>https://developers.openai.com/api/docs/changelog#2026-06-23-feature-safety-dashboard</link>
-      <description>Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on safety_identifier values sent on requests to identify end users.</description>
-      <pubDate>2026-06-23</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
-      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-06-23-feature-safety-dashboard</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot app support for BYOK</title>
-      <link>https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok</link>
-      <description>The GitHub Copilot app now supports bring your own key (BYOK), so you can run agent sessions against your own model providers, including OpenAI, Azure OpenAI, Microsoft Foundry, Anthropic, LM Studio, Ollama, and any OpenAI-compatible endpoint. Add a provider in Settings → Model Providers with your endpoint and API key, or just a host for LM Studio or Ollama.</description>
-      <pubDate>2026-06-23</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-06-23-github-copilot-app-support-for-byok</guid>
     </item>
   </channel>
 </rss>
