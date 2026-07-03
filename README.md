@@ -5,7 +5,7 @@
 🌐 **Live Site:** [https://lijunliu-gh.github.io/ai-news-digest/](https://lijunliu-gh.github.io/ai-news-digest/)
 
 ![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-AGPL%20v3-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lijunliu-gh/ai-news-digest)
 ![GitHub release](https://img.shields.io/github/v/release/lijunliu-gh/ai-news-digest)
 ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/lijunliu-gh/ai-news-digest/update-digest.yml?label=digest%20refresh)
@@ -165,7 +165,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). See [LICENSE](LICENSE) for the full text.
 
 ---
 
