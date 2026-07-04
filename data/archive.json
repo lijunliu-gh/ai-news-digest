@@ -1,7 +1,126 @@
 {
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-04",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-03-google-release-notes",
+      "date": "2026-04-03",
+      "category": "google",
+      "title": {
+        "zh": "Gemma 4 26B A4B IT",
+        "ja": "Gemma 4 26B A4B IT",
+        "en": "Gemma 4 26B A4B IT"
+      },
+      "summary": {
+        "zh": "功能 Gemma 4 26B A4B IT 在 Model Garden 中作为实验性发布提供。这是由Google DeepMind构建的开放模型。 Gemma 4 个模型是多模式的，处理文本和图像输入并生成文本输出。 Gemma 4 26B A4B IT 在 Model Garden 中作为托管 API 提供。要了解更多信息，请参阅Gemma 4 26B A4B IT。功能 Vertex AI RAG Engine 无服务器模式 Vertex AI RAG Engine 无服务器模式现已推出公共预览版。",
+        "ja": "機能 Gemma 4 26B A4B IT は、Model Garden で実験的に開始することができます。これは、Google DeepMind によって構築されたオープン モデルです。 Gemma 4 つのモデルはマルチモーダルで、テキストと画像の入力を処理し、テキスト出力を生成します。 Gemma 4 26B A4B IT は、Model Garden のマネージド API として利用できます。詳細については、Gemma 4 26B A4B IT を参照してください。機能 Vertex AI RAG エンジン サーバーレス モード Vertex AI RAG エンジン サーバーレス モードがパブリック プレビューで利用できるようになりました。",
+        "en": "Feature Gemma 4 26B A4B IT is available as an experimental launch in Model Garden. This is an open model built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output. Gemma 4 26B A4B IT is available as a managed API in Model Garden. To learn more, see Gemma 4 26B A4B IT. Feature Vertex AI RAG Engine Serverless mode Vertex AI RAG Engine Serverless mode is now available in public preview."
+      },
+      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#April_03_2026-gemma-4-26b-a4b-it",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的组织运行器控制",
+        "ja": "Copilot クラウド エージェントの組織ランナー コントロール",
+        "en": "Organization runner controls for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "每次 Copilot 云代理执行任务时，它都会启动一个由 GitHub 操作支持的新开发环境。默认情况下，它在标准的 GitHub 托管运行器上运行，但团队还可以自定义代理环境以使用大型运行器或自托管运行器，以实现更快的性能、访问内部资源等。",
+        "ja": "Copilot クラウド エージェントがタスクを処理するたびに、GitHub アクションを利用した新しい開発環境が開始されます。デフォルトでは、これは標準の GitHub ホスト ランナーで実行されますが、チームはエージェント環境をカスタマイズして、パフォーマンスの高速化や内部リソースへのアクセスなどのために大規模なランナーや自己ホスト ランナーを使用することもできます。",
+        "en": "Each time Copilot cloud agent works on a task, it starts a new development environment powered by GitHub Actions. By default, this runs on a standard GitHub-hosted runner, but teams can also customize the agent environment to use large runners or self-hosted runners for faster performance, access to internal resources, and more."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-organization-runner-controls-for-copilot-cloud-agent",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的组织防火墙设置",
+        "ja": "Copilot クラウド エージェントの組織ファイアウォール設定",
+        "en": "Organization firewall settings for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "Copilot 云代理包括内置代理防火墙，用于控制 Copilot 的互联网访问并帮助防止提示注入和数据泄露。到目前为止，防火墙是由存储库管理员在存储库级别配置的。",
+        "ja": "Copilot クラウド エージェントには、Copilot のインターネット アクセスを制御し、プロンプト インジェクションやデータ漏洩から保護するためのエージェント ファイアウォールが組み込まれています。これまで、ファイアウォールはリポジトリ管理者によってリポジトリ レベルで設定されていました。",
+        "en": "Copilot cloud agent includes a built-in agent firewall to control Copilot’s internet access and help protect against prompt injection and data exfiltration. Until now, the firewall was configured at the repository level by repository admins."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-organization-firewall-settings-for-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max 和 GPT-5.1-Codex-Mini 已弃用",
+        "ja": "GPT-5.1、GPT-5.1 Codex、GPT-5.1-Codex-Max、および GPT-5.1-Codex-Mini は非推奨になりました",
+        "en": "GPT-5.1, GPT-5.1 Codex, GPT-5.1-Codex-Max, and GPT-5.1-Codex-Mini deprecated"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 4 月 15 日）：我们更新了这篇文章以包含有关弃用 GPT-5.1 的信息。我们已于 2026 年 4 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。",
+        "ja": "編集者注 (2026 年 4 月 15 日): この投稿を更新して、GPT-5.1 の非推奨に関する情報を追加しました。 2026 年 4 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。",
+        "en": "Editor’s note (April 15, 2026): We updated this post to include information about the deprecation of GPT-5.1. We have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on April 1, 2026."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-gpt-5-1-codex-gpt-5-1-codex-max-and-gpt-5-1-codex-mini-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-03-github-2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "date": "2026-04-03",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理签署其承诺",
+        "ja": "Copilot クラウド エージェントがコミットに署名します",
+        "en": "Copilot cloud agent signs its commits"
+      },
+      "summary": {
+        "zh": "Copilot 云代理现在会对它所做的每项提交进行签名。签名的提交在 GitHub 上显示为“已验证”，让您确信该提交是由代理真正做出的并且未被篡改。",
+        "ja": "Copilot クラウド エージェントは、作成するすべてのコミットに署名するようになりました。署名済みのコミットは GitHub で検証済みとして表示されるため、そのコミットがエージェントによって真正に作成され、改ざんされていないことが確信できます。",
+        "en": "Copilot cloud agent now signs every commit it makes. Signed commits appear as Verified on GitHub, giving you confidence that the commit was genuinely made by the agent and hasn’t been tampered with."
+      },
+      "url": "https://github.blog/changelog/2026-04-03-copilot-cloud-agent-signs-its-commits",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-04-02-openai-openai-acquires-tbpn",
       "date": "2026-04-02",
