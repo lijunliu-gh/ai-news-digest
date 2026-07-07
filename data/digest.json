@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-07",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-07-06-openai-changelog",
+      "date": "2026-07-06",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-Realtime-2.1、GPT-Realtime-2.1 迷你",
+        "ja": "GPT リアルタイム 2.1、GPT リアルタイム 2.1 ミニ",
+        "en": "GPT-Realtime-2.1, GPT-Realtime-2.1 mini"
+      },
+      "summary": {
+        "zh": "发布了 GPT-Realtime-2.1，这是一个更新的实时推理模型，具有改进的字母数字识别、静音和噪音处理以及中断行为。还发布了 GPT-Realtime-2.1 mini，这是一种用于实时语音应用的更快、成本更低的精炼推理模型。",
+        "ja": "GPT-Realtime-2.1 をリリースしました。これは、英数字認識、沈黙とノイズの処理、割り込み動作が改善された更新されたリアルタイム推論モデルです。また、リアルタイム音声アプリケーション向けの高速かつ低コストの蒸留推論モデルである GPT-Realtime-2.1 mini もリリースされました。",
+        "en": "Released GPT-Realtime-2.1, an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released GPT-Realtime-2.1 mini, a faster, lower-cost distilled reasoning model for realtime voice applications."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-07-06-feature-gpt-realtime-2-1-gpt-realtime-2-1-mini",
+      "tags": [
+        "gpt-realtime-2-1",
+        "gpt-realtime-2-1-mini",
+        "v1-realtime",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-07-06-anthropic-alberta-government-claude-cybersecurity",
       "date": "2026-07-06",
@@ -9984,98 +10010,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-06-openai-introducing-openai-safety-fellowship",
-      "date": "2026-04-06",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 安全研究奖学金启动",
-        "ja": "OpenAI Safety Fellowship を開始",
-        "en": "Announcing the OpenAI Safety Fellowship"
-      },
-      "summary": {
-        "zh": "支持独立安全和对准研究并培养下一代人才的试点计划",
-        "ja": "独立した安全性とアライメントの研究をサポートし、次世代の人材を育成するためのパイロット プログラム",
-        "en": "A pilot program to support independent safety and alignment research and develop the next generation of talent"
-      },
-      "url": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "tags": [
-        "safety",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-06-google-release-notes",
-      "date": "2026-04-06",
-      "category": "google",
-      "title": {
-        "zh": "RAG 引擎的元数据搜索",
-        "ja": "RAG エンジンのメタデータ検索",
-        "en": "Metadata search for RAG Engine"
-      },
-      "summary": {
-        "zh": "RAG 引擎的功能元数据搜索 在 Vertex AI RAG 引擎中使用基于模式的元数据搜索。您可以为语料库定义元数据架构，将元数据附加到该语料库中的文件，并在检索期间使用此元数据过滤上下文。有关详细信息，请参阅使用元数据搜索进行过滤。",
-        "ja": "機能 RAG エンジンのメタデータ検索 Vertex AI RAG エンジンでスキーマベースのメタデータ検索を使用します。コーパスのメタデータ スキーマを定義し、そのコーパス内のファイルにメタデータを添付し、取得中にこのメタデータを使用してコンテキストをフィルタリングできます。詳細については、「メタデータ検索によるフィルター」を参照してください。",
-        "en": "Feature Metadata search for RAG Engine Use schema-based metadata search in Vertex AI RAG Engine. You can define a metadata schema for a corpus, attach metadata to files within that corpus, and use this metadata to filter contexts during retrieval. For more information, see Filter with metadata search."
-      },
-      "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes#April_06_2026-metadata-search-for-rag-engine",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-06-github-2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
-      "date": "2026-04-06",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 使用指标现在可以识别主动和被动 Copilot 代码审查用户",
-        "ja": "Copilot 使用状況メトリクスにより、アクティブな Copilot コード レビュー ユーザーとパッシブな Copilot コード レビュー ユーザーが識別されるようになりました",
-        "en": "Copilot usage metrics now identify active and passive Copilot code review users"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标现在指示哪些用户具有 Copilot 代码审查 (CCR) 活动，以及该活动是主动的还是被动的。企业和组织管理员可以在每日和 28 天用户级报告中了解用户如何参与 Copilot 代码审查，从而更清楚地了解 CCR 采用和参与情况。",
-        "ja": "Copilot 使用状況メトリックは、どのユーザーが Copilot コード レビュー (CCR) アクティビティを行っているか、またそのアクティビティがアクティブであったかパッシブであったかを示すようになりました。企業および組織の管理者は、日次および 28 日間のユーザーレベルのレポートでユーザーが Copilot コード レビューにどのように関与しているかを確認できるため、CCR の導入と関与をより明確に把握できます。",
-        "en": "Copilot usage metrics now indicate which users have Copilot code review (CCR) activity, and whether that activity was active or passive. Enterprise and organization admins can see how users engage with Copilot code review on daily and 28-day user-level reports, enabling a clearer picture of CCR adoption and engagement."
-      },
-      "url": "https://github.blog/changelog/2026-04-06-copilot-usage-metrics-now-identify-active-and-passive-copilot-code-review-users",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-06-anthropic-google-broadcom-partnership-compute",
-      "date": "2026-04-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 扩大与 Google 和 Broadcom 的合作伙伴关系，以实现数千兆瓦的下一代计算",
-        "ja": "Anthropic は、数ギガワットの次世代コンピューティングを実現するために Google および Broadcom との提携を拡大します",
-        "en": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
