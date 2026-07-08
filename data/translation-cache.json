@@ -4510,10 +4510,6 @@
     "zh": "Kimi K2.7代码一般可在GitHub Copilot中找到",
     "ja": "Kim K2.7 コードは GitHub Copilot で一般公開されています"
   },
-  "Copilot vision is generally available": {
-    "zh": "Copilot 视力普遍可用",
-    "ja": "Copilot ビジョンが一般提供されました"
-  },
   "The latest AI news we announced in June 2026": {
     "zh": "我们在 2026 年 6 月公布的最新 AI 新闻",
     "ja": "2026年6月に発表したAI最新ニュース"
@@ -4609,10 +4605,6 @@
   "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows.": {
     "zh": "Kimi K2.7 Code 是一种开放重量模型，现已在 GitHub Copilot 中普遍提供。这是第一个在 Copilot 模型选择器中作为可选选项提供的开放权重模型，为您的编码工作流程提供更多选择和更低成本的选项。",
     "ja": "オープンウェイト モデルの Kim K2.7 コードが、GitHub Copilot で一般提供されるようになりました。これは、Copilot モデル ピッカーで選択可能なオプションとして提供される最初のオープンウェイト モデルであり、コーディング ワークフローにより多くの選択肢と低コストのオプションを提供します。"
-  },
-  "Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code.": {
-    "zh": "Copilot 愿景现已普遍可用。您可以将图像和 PDF 直接附加到聊天提示中，以便 Copilot 可以推断出它在代码旁边看到的内容。",
-    "ja": "Copilot ビジョンが一般公開されました。画像や PDF をチャット プロンプトに直接添付できるため、Copilot はコードと一緒に表示される内容を推論できます。"
   },
   "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.": {
     "zh": "编者注（2026 年 7 月 1 日）：更新了保费请求成本以引用 AI 积分。 GitHub Copilot 自动模型选择现在可以在 Copilot CLI 中路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。",
@@ -5621,5 +5613,45 @@
   "Note: We’ve recently renamed Copilot coding agent to Copilot cloud agent. We will be updating our data schema for all existing coding agent fields to reflect this change in the coming weeks, and new fields from now forward will reflect the name change.": {
     "zh": "注意：我们最近将 Copilot 编码代理重命名为 Copilot 云代理。我们将在未来几周内更新所有现有编码代理字段的数据架构，以反映这一变化，从现在开始，新字段将反映名称变化。",
     "ja": "注: 最近、Copilot コーディング エージェントの名前を Copilot クラウド エージェントに変更しました。今後数週間のうちに、すべての既存のコーディング エージェント フィールドのデータ スキーマを更新してこの変更を反映する予定です。今後の新しいフィールドには名前の変更が反映されます。"
+  },
+  "Add review cycles and time to adoption phases in the usage API": {
+    "zh": "在使用 API 中添加审核周期和采用阶段的时间",
+    "ja": "使用状況 API にレビュー サイクルと導入フェーズまでの時間を追加する"
+  },
+  "The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports. Alongside the existing per-phase merge time and merge counts, you can now compare how quickly pull requests are reviewed and how many review cycles they take across your adoption cohorts.": {
+    "zh": "Copilot 使用指标 API 现在为每个 AI 采用阶段报告两个额外的代码审查速度指标，扩展了企业和组织报告中可用的采用阶段群组字段。除了现有的每阶段合并时间和合并计数之外，您现在还可以比较拉取请求的审核速度以及它们在采用队列中占用的审核周期。",
+    "ja": "Copilot 使用状況メトリクス API は、AI 導入フェーズごとに 2 つの追加のコードレビュー速度メトリクスを報告するようになり、企業および組織のレポートで利用できる導入フェーズ コホート フィールドを拡張します。既存のフェーズごとのマージ時間とマージ数に加えて、プル リクエストのレビュー速度と導入コホート全体でのレビュー サイクルの数を比較できるようになりました。"
+  },
+  "Cost centers now support AI credit pools": {
+    "zh": "成本中心现在支持人工智能信用池",
+    "ja": "コストセンターが AI クレジットプールをサポートするようになりました"
+  },
+  "You can now cap how much of your enterprise’s monthly included AI credits a cost center can use. This is available through the REST API today.": {
+    "zh": "现在，您可以限制成本中心可以使用企业每月包含的 AI 积分的数量。现在可以通过 REST API 获得此功能。",
+    "ja": "コスト センターが使用できる、企業の毎月含まれる AI クレジットの量に上限を設定できるようになりました。これは現在、REST API を通じて利用できます。"
+  },
+  "Copilot Chat brings richer context to pull requests": {
+    "zh": "Copilot 聊天为拉取请求带来了更丰富的上下文",
+    "ja": "Copilot チャットはプル リクエストに豊富なコンテキストをもたらします"
+  },
+  "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license.": {
+    "zh": "当您在 github.com 上处理差异和拉取请求时，GitHub Copilot Chat 现在提供更丰富的上下文和新功能。此功能之前处于公共预览版，现在任何拥有 Copilot 许可证的人都可以使用。",
+    "ja": "GitHub Copilot Chat は、github.com で差分やプル リクエストを操作するときに、より豊富なコンテキストと新機能を提供するようになりました。この機能は以前はパブリック プレビュー段階にありましたが、現在は Copilot ライセンスを持つ誰でも一般利用できるようになりました。"
+  },
+  "GitHub App installation tokens: Per-request override header": {
+    "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
+    "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー"
+  },
+  "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand.": {
+    "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。",
+    "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。"
+  },
+  "Fix merge conflicts in three clicks with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
+    "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正"
+  },
+  "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts.": {
+    "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。",
+    "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。"
   }
 }

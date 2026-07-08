@@ -27,6 +27,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-08-github-2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
+      "date": "2026-07-08",
+      "category": "github",
+      "title": {
+        "zh": "在使用 API 中添加审核周期和采用阶段的时间",
+        "ja": "使用状況 API にレビュー サイクルと導入フェーズまでの時間を追加する",
+        "en": "Add review cycles and time to adoption phases in the usage API"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标 API 现在为每个 AI 采用阶段报告两个额外的代码审查速度指标，扩展了企业和组织报告中可用的采用阶段群组字段。除了现有的每阶段合并时间和合并计数之外，您现在还可以比较拉取请求的审核速度以及它们在采用队列中占用的审核周期。",
+        "ja": "Copilot 使用状況メトリクス API は、AI 導入フェーズごとに 2 つの追加のコードレビュー速度メトリクスを報告するようになり、企業および組織のレポートで利用できる導入フェーズ コホート フィールドを拡張します。既存のフェーズごとのマージ時間とマージ数に加えて、プル リクエストのレビュー速度と導入コホート全体でのレビュー サイクルの数を比較できるようになりました。",
+        "en": "The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports. Alongside the existing per-phase merge time and merge counts, you can now compare how quickly pull requests are reviewed and how many review cycles they take across your adoption cohorts."
+      },
+      "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-07-openai-mufg",
       "date": "2026-07-07",
       "category": "openai",
@@ -287,6 +313,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-02-github-2026-07-02-cost-centers-now-support-included-usage-caps",
+      "date": "2026-07-02",
+      "category": "github",
+      "title": {
+        "zh": "成本中心现在支持人工智能信用池",
+        "ja": "コストセンターが AI クレジットプールをサポートするようになりました",
+        "en": "Cost centers now support AI credit pools"
+      },
+      "summary": {
+        "zh": "现在，您可以限制成本中心可以使用企业每月包含的 AI 积分的数量。现在可以通过 REST API 获得此功能。",
+        "ja": "コスト センターが使用できる、企業の毎月含まれる AI クレジットの量に上限を設定できるようになりました。これは現在、REST API を通じて利用できます。",
+        "en": "You can now cap how much of your enterprise’s monthly included AI credits a cost center can use. This is available through the REST API today."
+      },
+      "url": "https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-02-github-2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
       "date": "2026-07-02",
       "category": "github",
@@ -535,30 +586,6 @@
         "client-apps",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-01-github-2026-07-01-copilot-vision-is-generally-available",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 视力普遍可用",
-        "ja": "Copilot ビジョンが一般提供されました",
-        "en": "Copilot vision is generally available"
-      },
-      "summary": {
-        "zh": "Copilot 愿景现已普遍可用。您可以将图像和 PDF 直接附加到聊天提示中，以便 Copilot 可以推断出它在代码旁边看到的内容。",
-        "ja": "Copilot ビジョンが一般公開されました。画像や PDF をチャット プロンプトに直接添付できるため、Copilot はコードと一緒に表示される内容を推論できます。",
-        "en": "Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -3601,6 +3628,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-04-github-2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 聊天为拉取请求带来了更丰富的上下文",
+        "ja": "Copilot チャットはプル リクエストに豊富なコンテキストをもたらします",
+        "en": "Copilot Chat brings richer context to pull requests"
+      },
+      "summary": {
+        "zh": "当您在 github.com 上处理差异和拉取请求时，GitHub Copilot Chat 现在提供更丰富的上下文和新功能。此功能之前处于公共预览版，现在任何拥有 Copilot 许可证的人都可以使用。",
+        "ja": "GitHub Copilot Chat は、github.com で差分やプル リクエストを操作するときに、より豊富なコンテキストと新機能を提供するようになりました。この機能は以前はパブリック プレビュー段階にありましたが、現在は Copilot ライセンスを持つ誰でも一般利用できるようになりました。",
+        "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-04-github-2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
       "date": "2026-06-04",
       "category": "github",
@@ -6208,6 +6259,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-16-github-2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "date": "2026-05-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
+        "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー",
+        "en": "GitHub App installation tokens: Per-request override header"
+      },
+      "summary": {
+        "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。",
+        "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。",
+        "en": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-github-app-installation-tokens-per-request-override-header",
+      "tags": [
+        "improvement",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-15-openai-personal-finance-chatgpt",
@@ -9477,6 +9552,30 @@
       "url": "https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-13-github-2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+      "date": "2026-04-13",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理单击三下即可修复合并冲突",
+        "ja": "Copilot クラウド エージェントを使用して 3 回のクリックでマージ競合を修正",
+        "en": "Fix merge conflicts in three clicks with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 github.com 上由 Copilot 云代理提供支持的新 Fix with Copilot 按钮，只需单击三下即可修复合并冲突。单击该按钮，评论框中会预先填充一条评论，要求 Copilot 解决冲突。",
+        "ja": "Copilot クラウド エージェントを利用して、github.com の新しい [Copilot で修正] ボタンを使用すると、マージの競合を 3 回のクリックで修正できるようになりました。ボタンをクリックすると、Copilot に競合を解決するよう求めるコメントがコメント ボックスに事前に入力されます。",
+        "en": "You can now fix merge conflicts in three clicks with the new Fix with Copilot button on github.com, powered by Copilot cloud agent. Click the button, and a comment is prepopulated in the comment box asking Copilot to resolve conflicts."
+      },
+      "url": "https://github.blog/changelog/2026-04-13-fix-merge-conflicts-in-three-clicks-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
