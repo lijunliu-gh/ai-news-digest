@@ -1,7 +1,151 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-07-github-2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "使用 Dynatrace 的运行时上下文确定安全警报的优先级",
+        "ja": "Dynatrace のランタイム コンテキストを使用してセキュリティ アラートに優先順位を付ける",
+        "en": "Prioritize security alerts with runtime context from Dynatrace"
+      },
+      "summary": {
+        "zh": "现在，您可以使用 Dynatrace 中的运行时上下文，根据 Kubernetes 环境中部署的工件和运行时风险来确定 GitHub 高级安全警报的优先级。当您将 Dynatrace 连接到 GitHub 时，您将看到 Dynatrace 映射到您的存储库的容器映像的部署上下文，以及运行时风险信号。",
+        "ja": "Dynatrace のランタイム コンテキストを使用して、Kubernetes 環境でデプロイされたアーティファクトとランタイム リスクに基づいて GitHub Advanced Security アラートに優先順位を付けることができるようになりました。 Dynatrace を GitHub に接続すると、Dynatrace がリポジトリにマップするコンテナ イメージのデプロイメント コンテキストと、実行時のリスク シグナルが表示されます。",
+        "en": "You can now use runtime context from Dynatrace to prioritize GitHub Advanced Security alerts based on deployed artifacts and runtime risk in your Kubernetes environment. When you connect Dynatrace to GitHub, you’ll see deployment context for container images that Dynatrace maps to your repositories, along with runtime risk signals."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-prioritize-security-alerts-with-runtime-context-from-dynatrace",
+      "tags": [
+        "release",
+        "application-security",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "Dependabot 警报现在可分配给 AI 代理进行修复",
+        "ja": "修復のために、Dependabot アラートを AI エージェントに割り当てられるようになりました",
+        "en": "Dependabot alerts are now assignable to AI agents for remediation"
+      },
+      "summary": {
+        "zh": "一些依赖项漏洞需要的不仅仅是版本更新，它们还需要整个项目的代码更改。您现在可以将 Dependabot 警报分配给 AI 编码代理（包括 Copilot、Claude 和 Codex），以分析漏洞并打开包含建议修复方案的草稿拉取请求。",
+        "ja": "依存関係の脆弱性の中には、バージョンを上げるだけではなく、プロジェクト全体でコードを変更する必要があるものもあります。 Copilot、Claude、Codex などの AI コーディング エージェントに dependabot アラートを割り当てて、脆弱性を分析し、提案された修正を含むドラフト プル リクエストをオープンできるようになりました。",
+        "en": "Some dependency vulnerabilities require more than a version bump—they need code changes across your project. You can now assign Dependabot alerts to AI coding agents, including Copilot, Claude, and Codex, to analyze the vulnerability and open a draft pull request with a proposed fix."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-dependabot-alerts-are-now-assignable-to-ai-agents-for-remediation",
+      "tags": [
+        "improvement",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 现在支持 BYOK 和本地模型",
+        "ja": "Copilot CLI が BYOK およびローカル モデルをサポートするようになりました",
+        "en": "Copilot CLI now supports BYOK and local models"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI 现在允许您连接自己的模型提供程序或运行完全本地模型，而不是使用 GitHub 托管的模型路由。这意味着您可以使用已经付费的模型和提供商，在隔离环境中运营，并保持对 LLM 支出的直接控制，同时保持相同的代理终端体验。",
+        "ja": "GitHub Copilot CLI では、GitHub でホストされるモデル ルーティングを使用する代わりに、独自のモデル プロバイダーに接続したり、完全にローカル モデルを実行したりできるようになりました。これは、同じエージェント端末エクスペリエンスを維持しながら、既に料金を支払っているモデルとプロバイダーを使用し、エアギャップ環境で運用し、LLM 支出を直接制御できることを意味します。",
+        "en": "GitHub Copilot CLI now lets you connect your own model provider or run fully local models instead of using GitHub-hosted model routing. This means you can use the models and providers you’re already paying for, operate in air-gapped environments, and maintain direct control over your LLM spend, all while keeping the same agentic terminal experience."
+      },
+      "url": "https://github.blog/changelog/2026-04-07-copilot-cli-now-supports-byok-and-local-models",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-github-2026-04-06-npm-trusted-publishing-now-supports-circleci",
+      "date": "2026-04-07",
+      "category": "github",
+      "title": {
+        "zh": "npm 可信发布现在支持 CircleCI",
+        "ja": "npm Trusted Publishing が CircleCI をサポートするようになりました",
+        "en": "npm trusted publishing now supports CircleCI"
+      },
+      "summary": {
+        "zh": "npm 可信发布现在支持 CircleCI 作为 OIDC 提供商，加入 GitHub Actions 和 GitLab CI/CD。从 CircleCI 工作流程发布的维护者现在可以完全消除存储的凭据，并直接通过其 CI/CD 管道进行身份验证。",
+        "ja": "npm Trusted Publishing は、OIDC プロバイダーとして CircleCI をサポートし、GitHub アクションと GitLab CI/CD に加わりました。 CircleCI ワークフローから公開するメンテナは、保存されている認証情報を完全に削除し、CI/CD パイプラインを通じて直接認証できるようになりました。",
+        "en": "npm trusted publishing now supports CircleCI as an OIDC provider, joining GitHub Actions and GitLab CI/CD. Maintainers publishing from CircleCI workflows can now eliminate stored credentials entirely and authenticate directly through their CI/CD pipeline."
+      },
+      "url": "https://github.blog/changelog/2026-04-06-npm-trusted-publishing-now-supports-circleci",
+      "tags": [
+        "improvement",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-07-anthropic-messages",
+      "date": "2026-04-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "消息API",
+        "ja": "メッセージAPI",
+        "en": "Messages API"
+      },
+      "summary": {
+        "zh": "Messages API 现已在 Amazon Bedrock 上作为研究预览版提供。 Amazon Bedrock 中位于 /anthropic/v1/messages 的新 Claude 端点使用与第一方 Claude API 相同的请求形状，并在 AWS 托管基础设施上运行，操作员访问权限为零。在 us-east-1 可用；请联系您的 Anthropic 客户经理以请求访问权限。在 Amazon Bedrock 中的 Claude 中了解更多信息。",
+        "ja": "Messages API は、リサーチプレビューとして Amazon Bedrock で利用できるようになりました。 /anthropic/v1/messages にある Amazon Bedrock エンドポイントの新しい Claude は、ファーストパーティの Claude API と同じリクエスト形式を使用し、オペレーターアクセスなしで AWS 管理のインフラストラクチャ上で実行されます。 us-east-1 で利用可能です。 Anthropic アカウント エグゼクティブに連絡してアクセスをリクエストしてください。詳細については、Amazon Bedrock のクロードをご覧ください。",
+        "en": "The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1; contact your Anthropic account executive to request access. Learn more in Claude in Amazon Bedrock."
+      },
+      "url": "https://platform.claude.com/docs/en/api/messages",
+      "tags": [
+        "messages-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-04-07-anthropic-glasswing",
+      "date": "2026-04-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 神话预览",
+        "ja": "クロード神話プレビュー",
+        "en": "Claude Mythos Preview"
+      },
+      "summary": {
+        "zh": "我们宣布 Claude Mythos Preview 作为 Glasswing 项目的一部分，作为防御性网络安全工作的封闭研究预览版提供。仅受邀请方可进入。",
+        "ja": "Claude Mythos Preview が、Project Glasswing の一環として防御サイバーセキュリティ作業のためのゲート型研究プレビューとして利用可能であると発表しました。アクセスは招待制です。",
+        "en": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only."
+      },
+      "url": "https://anthropic.com/glasswing",
+      "tags": [
+        "claude-mythos-preview",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-04-06-openai-introducing-openai-safety-fellowship",
       "date": "2026-04-06",
