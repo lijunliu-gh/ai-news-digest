@@ -5597,5 +5597,117 @@
   "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection.": {
     "zh": "从今天开始，在我们的 Copilot 学生计划中，我们将从模型选择器中删除 GPT-5.3-Codex。它仍然可以通过自动模型选择来使用。",
     "ja": "本日より、Copilot Student プランで、GPT-5.3-Codex をモデル ピッカーから削除します。自動車モデルの選択を通じて引き続き利用できます。"
+  },
+  "Kimi K2.7 now available for Copilot Business and Enterprise": {
+    "zh": "Kimi K2.7 现已适用于 Copilot 商业和企业",
+    "ja": "Kim K2.7 が Copilot Business および Enterprise で利用可能になりました"
+  },
+  "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise plans.": {
+    "zh": "2026 年 7 月 1 日，我们宣布 Kimi K2.7 将适用于 Copilot Pro、Pro+ 和 Max 计划。该模型现在还适用于 Copilot 商业版和 Copilot 企业版计划。",
+    "ja": "2026 年 7 月 1 日に、Copilot Pro、Pro+、および Max プランで Kim K2.7 が利用可能になると発表しました。このモデルは、Copilot Business プランと Copilot Enterprise プランでも追加で利用できるようになりました。"
+  },
+  "Per-user budgets for cost centers in the billing UI": {
+    "zh": "计费 UI 中成本中心的每用户预算",
+    "ja": "請求 UI のコストセンターのユーザーごとの予算"
+  },
+  "Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud.": {
+    "zh": "企业管理员现在可以直接在管理成本中心和预算的计费 UI 中创建成本中心用户级预算。此功能适用于 GitHub 企业云。",
+    "ja": "企業管理者は、コスト センターと予算を管理する請求 UI でコスト センターのユーザー レベルの予算を直接作成できるようになりました。この機能は GitHub Enterprise Cloud で利用できます。"
+  },
+  "Set AI credit session limits in Copilot CLI and SDK": {
+    "zh": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制",
+    "ja": "Copilot CLI および SDK で AI クレジット セッション制限を設定する"
+  },
+  "You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work.": {
+    "zh": "您现在可以在 Copilot CLI 和 GitHub Copilot SDK 中设置 AI 信用会话限制，以限制客服人员在会话中花费的金额。这对于自动化特别有用，因为没有人主动监控代理的工作。",
+    "ja": "Copilot CLI および GitHub Copilot SDK で AI クレジット セッション制限を設定して、エージェントがセッションで費やす金額を制限できるようになりました。これは、エージェントの作業を積極的に監視している人がいない自動化の場合に特に役立ちます。"
+  },
+  "Copilot CLI auto model selection routes based on task": {
+    "zh": "Copilot CLI 根据任务自动选择模型路线",
+    "ja": "Copilot タスクに基づいた CLI 自動モデル選択ルート"
+  },
+  "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.": {
+    "zh": "编者注（2026 年 7 月 1 日）：更新了保费请求成本以引用 AI 积分。 GitHub Copilot 自动模型选择现在可以在 Copilot CLI 中路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。",
+    "ja": "編集者注 (2026 年 7 月 1 日): AI クレジットを参照するためにプレミアム リクエストのコストを更新しました。 GitHub Copilot 自動モデル選択は、高品質で信頼性が高く、トークン効率の高いエクスペリエンスを実現するために、使用率とモデルの健全性メトリクスを使用して、Copilot CLI でタスクに最適なモデルにルーティングされるようになりました。"
+  },
+  "Browser tools for GitHub Copilot in VS Code are generally available": {
+    "zh": "VS Code 中 GitHub Copilot 的浏览器工具已普遍可用",
+    "ja": "VS Code の GitHub Copilot 用のブラウザ ツールが一般提供されました"
+  },
+  "Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are now generally available.": {
+    "zh": "编者注（2026 年 7 月 1 日）：添加了有关哪些权限受您控制以及现有网络域控制的更多详细信息。 VS Code 中的 GitHub Copilot 浏览器工具现已普遍可用。",
+    "ja": "編集者注記 (2026 年 7 月 1 日): どの権限がユーザーの制御下にあるのか、および既存のネットワーク ドメインの制御下にあるのかについての詳細を追加しました。 VS Code の GitHub Copilot 用のブラウザ ツールが一般公開されました。"
+  },
+  "Copilot CLI: New terminal interface is generally available": {
+    "zh": "Copilot CLI：新的终端界面正式可用",
+    "ja": "Copilot CLI: 新しいターミナル インターフェイスが一般提供されました"
+  },
+  "The redesigned terminal interface for GitHub Copilot CLI that we previewed at Microsoft Build 2026 is now generally available. You get a tabbed layout for working with GitHub directly from your terminal, a new experience for configuring your tools, and a cleaner, more accessible interface throughout.": {
+    "zh": "我们在 Microsoft Build 2026 上预览的重新设计的 GitHub Copilot CLI 终端界面现已正式发布。您将获得用于直接从终端使用 GitHub 的选项卡式布局、配置工具的新体验以及更干净、更易于访问的界面。",
+    "ja": "Microsoft Build 2026 でプレビューした GitHub Copilot CLI 用に再設計されたターミナル インターフェイスが一般公開されました。ターミナルから直接 GitHub を操作するためのタブ付きレイアウト、ツールを構成するための新しいエクスペリエンス、および全体的にクリーンでアクセスしやすいインターフェイスが得られます。"
+  },
+  "Copilot individual plan sign-ups are reopening": {
+    "zh": "Copilot 个人计划注册正在重新开放",
+    "ja": "Copilot 個別プランのサインアップが再開されます"
+  },
+  "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with Copilot, select the plan that fits your needs.": {
+    "zh": "我们将在接下来的几周内逐步为新订阅者重新开放 GitHub Copilot Student、Pro、Pro+ 和 Max 计划的注册。如果您一直在等待开始使用 Copilot，请选择适合您需求的计划。",
+    "ja": "新規加入者向けに、GitHub Copilot Student、Pro、Pro+、Max プランへのサインアップを今後数週間かけて段階的に再開します。 Copilot の使用を開始するのを待っていた場合は、ニーズに合ったプランを選択してください。"
+  },
+  "Agent finder for GitHub Copilot now available": {
+    "zh": "GitHub Copilot 的代理查找器现已可用",
+    "ja": "GitHub Copilot のエージェント ファインダーが利用可能になりました"
+  },
+  "GitHub agent finder is now available. Instead of hand-wiring which MCP servers, skills, canvases, agents, and tools each agent should use—and filling your context window in the process—GitHub Copilot can now discover the right capability for a task on its own.": {
+    "zh": "GitHub 代理查找器现已可用。 GitHub Copilot 现在可以自行发现任务的正确功能，而不是手动连接每个代理应使用哪些 MCP 服务器、技能、画布、代理和工具，并在此过程中填充上下文窗口。",
+    "ja": "GitHub エージェント ファインダーが利用できるようになりました。各エージェントが使用する MCP サーバー、スキル、キャンバス、エージェント、ツールを手動で設定し、そのプロセスでコンテキスト ウィンドウを埋める代わりに、GitHub Copilot はタスクに適した機能を独自に検出できるようになりました。"
+  },
+  "Issue fields are now in public preview for all organizations": {
+    "zh": "问题字段现已对所有组织提供公共预览版",
+    "ja": "問題フィールドは現在、すべての組織に対してパブリック プレビュー段階にあります"
+  },
+  "Issue fields are now available in public preview to all GitHub organizations on github.com and GitHub Enterprise Cloud with data residency. When you define typed metadata like Priority, Effort, or any custom field at the org level, and it automatically shows up on every issue, in every repository.": {
+    "zh": "问题字段现在可供 github.com 上的所有 GitHub 组织和具有数据驻留的 GitHub 企业云公开预览。当您在组织级别定义类型化元数据（例如优先级、工作量或任何自定义字段）时，它会自动显示在每个存储库中的每个问题上。",
+    "ja": "問題フィールドは、github.com およびデータ常駐の GitHub Enterprise Cloud 上のすべての GitHub 組織に対してパブリック プレビューで利用できるようになりました。組織レベルで優先度、工数、カスタム フィールドなどの型付きメタデータを定義すると、すべてのリポジトリのすべての課題に自動的に表示されます。"
+  },
+  "GitHub Copilot for Eclipse is open source": {
+    "zh": "Eclipse 的 GitHub Copilot 是开源的",
+    "ja": "Eclipse の GitHub Copilot はオープンソースです"
+  },
+  "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in the Eclipse ecosystem.": {
+    "zh": "继我们之前的更新之后，Eclipse 的 GitHub Copilot 已开源，代码可在 MIT 许可证下的 GitHub 上获取。这标志着 GitHub Copilot 在 Eclipse 生态系统中的一个重要里程碑。",
+    "ja": "以前の更新に続き、Eclipse の GitHub Copilot はオープン ソースとなり、コードは MIT ライセンスの下で GitHub で利用可能になります。これは、Eclipse エコシステムにおける GitHub Copilot にとって重要なマイルストーンとなります。"
+  },
+  "GitHub App installation tokens: Per-request override header": {
+    "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
+    "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー"
+  },
+  "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand.": {
+    "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。",
+    "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。"
+  },
+  "Grok Code Fast 1 deprecated": {
+    "zh": "Grok Code Fast 1 已弃用",
+    "ja": "Grok Code Fast 1 は非推奨になりました"
+  },
+  "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Please update your workflows and integrations to use supported models.": {
+    "zh": "今天，即 2026 年 5 月 15 日，我们已在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了 Grok Code Fast 1。 模型弃用日期 建议替代 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 请更新您的工作流程和集成以使用支持的模型。",
+    "ja": "本日、2026 年 5 月 15 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Grok Code Fast 1 を非推奨にしました。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 を更新してください。サポートされているモデルを使用するためのワークフローと統合。"
+  },
+  "Copilot Memory supports user preferences for Pro, Pro+ users": {
+    "zh": "Copilot 内存支持 Pro、Pro+ 用户的用户偏好",
+    "ja": "Copilot メモリは Pro、Pro+ ユーザーのユーザー設定をサポートします"
+  },
+  "Copilot Memory now supports user-level preferences in early access for Copilot Pro and Copilot Pro+ users. Copilot can now store stated or inferred personal preferences about how you like to interact with it.": {
+    "zh": "Copilot Memory 现在支持 Copilot Pro 和 Copilot Pro+ 用户的早期访问中的用户级别首选项。 Copilot 现在可以存储有关您喜欢如何与其交互的陈述或推断的个人偏好。",
+    "ja": "Copilot メモリは、Copilot Pro および Copilot Pro+ ユーザーの早期アクセスでユーザーレベルの設定をサポートするようになりました。 Copilot は、ユーザーがどのように操作したいかについて、明示または推測された個人的な好みを保存できるようになりました。"
+  },
+  "More flexible secrets and variables for Copilot cloud agent": {
+    "zh": "Copilot 云代理更灵活的秘密和变量",
+    "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数"
+  },
+  "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers.": {
+    "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。",
+    "ja": "タスクを Copilot クラウド エージェントに委任すると、GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。"
   }
 }

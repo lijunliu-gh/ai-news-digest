@@ -88,6 +88,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli</guid>
     </item>
     <item>
+      <title>Kimi K2.7 now available for Copilot Business and Enterprise</title>
+      <link>https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise</link>
+      <description>On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise plans.</description>
+      <pubDate>2026-07-08</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise</guid>
+    </item>
+    <item>
       <title>Codex as agent provider and agentic enhancements in JetBrains IDEs</title>
       <link>https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides</link>
       <description>This update brings Codex as a new agent provider in public preview, expands the Customizations editor with Hooks support and richer MCP server management, and introduces custom model support configured by GitHub Copilot Business and Enterprise administrators. It also adds approval settings for Copilot CLI sessions, permission modes selection and debug logs support for the Claude agent, and takes Inline Chat to general availability, alongside a set of performance and reliability improvements.</description>
@@ -131,6 +140,15 @@
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Blog</source>
       <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api</guid>
+    </item>
+    <item>
+      <title>Per-user budgets for cost centers in the billing UI</title>
+      <link>https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui</link>
+      <description>Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud.</description>
+      <pubDate>2026-07-07</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui</guid>
     </item>
     <item>
       <title>GitHub Copilot app available to all</title>
@@ -241,6 +259,15 @@
       <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026</guid>
     </item>
     <item>
+      <title>Set AI credit session limits in Copilot CLI and SDK</title>
+      <link>https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk</link>
+      <description>You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work.</description>
+      <pubDate>2026-07-01</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk</guid>
+    </item>
+    <item>
       <title>New C++ language server config skill for Copilot CLI</title>
       <link>https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli</link>
       <description>The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code.</description>
@@ -293,6 +320,24 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available</guid>
+    </item>
+    <item>
+      <title>Copilot CLI auto model selection routes based on task</title>
+      <link>https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task</link>
+      <description>Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.</description>
+      <pubDate>2026-07-01</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task</guid>
+    </item>
+    <item>
+      <title>Browser tools for GitHub Copilot in VS Code are generally available</title>
+      <link>https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available</link>
+      <description>Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are now generally available.</description>
+      <pubDate>2026-07-01</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available</guid>
     </item>
     <item>
       <title>our statement</title>
@@ -410,51 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
       <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/session-operations#listing-sessions</guid>
-    </item>
-    <item>
-      <title>Redeploying Claude Fable 5</title>
-      <link>https://www.anthropic.com/news/redeploying-fable-5</link>
-      <description>Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.</description>
-      <pubDate>2026-06-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/redeploying-fable-5</guid>
-    </item>
-    <item>
-      <title>event_deltas[]</title>
-      <link>https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas</link>
-      <description>Claude Managed Agents session event streams now support event deltas. Opt in with the event_deltas[] query parameter on GET /v1/sessions/{session_id}/events/stream. The event_start and event_delta events preview an agent message's text as it's generated, before the complete agent.message event arrives.</description>
-      <pubDate>2026-06-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas</guid>
-    </item>
-    <item>
-      <title>Introducing Claude Sonnet 5</title>
-      <link>https://www.anthropic.com/news/claude-sonnet-5</link>
-      <description>Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.</description>
-      <pubDate>2026-06-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-sonnet-5</guid>
-    </item>
-    <item>
-      <title>Claude Science, an AI workbench for scientists</title>
-      <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
-      <description>Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.</description>
-      <pubDate>2026-06-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-science-ai-workbench</guid>
-    </item>
-    <item>
-      <title>Mapping Europe’s AI Workforce Opportunity</title>
-      <link>https://openai.com/index/mapping-ai-jobs-transition-eu</link>
-      <description>A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.</description>
-      <pubDate>2026-06-29</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/mapping-ai-jobs-transition-eu</guid>
     </item>
   </channel>
 </rss>
