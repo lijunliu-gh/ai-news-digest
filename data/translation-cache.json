@@ -3627,10 +3627,6 @@
     "zh": "今天，我们推出了两项新功能，可将座席活动直接带入您的规划工作流程中。 GitHub 问题中受让人下的代理会话 当编码代理（例如 Copilot、Claude 或 Codex）被分配给某个问题时，其会话现在直接显示在侧栏中的受让人下方。每个会话都会显示实时状态：“已排队”、“正在工作”、“等待审核”或“已完成”。单击任意会话可直接跳至会话日志。现在，这通常适用于所有人...",
     "ja": "本日、エージェントのアクティビティを計画ワークフローに直接組み込む 2 つの新機能をリリースします。 GitHub 問題の担当者の下にあるエージェント セッション コーディング エージェント (Copilot、Claude、Codex など) が問題に割り当てられると、そのセッションがサイドバーの担当者の直下に表示されるようになりました。各セッションには、「キューに入っている」、「作業中」、「レビュー待ち」、「完了」などのライブ ステータスが表示されます。任意のセッションをクリックすると、セッション ログに直接ジャンプします。これは現在、すべてのユーザーに一般提供されています..."
   },
-  "Evaluation models in auto for individual plans": {
-    "zh": "汽车中针对个人计划的评估模型",
-    "ja": "個別プランの自動評価モデル"
-  },
   "Research, plan, and code with Copilot cloud agent": {
     "zh": "使用 Copilot 云代理进行研究、规划和编码",
     "ja": "Copilot クラウド エージェントを使用して調査、計画、コーディングする"
@@ -4266,10 +4262,6 @@
     "zh": "MCP 隧道（研究预览）：管理 API 从管理 API 上的 /v1/organizations/tunnels 移至 Claude API 上的 /v1/tunnels。新表面使用 anthropic-beta: mcp-tunnels-2026-06-22 标头和workspace:manage_tunnels WIF 范围。在迁移窗口期间，先前的表面仍然可用。请参阅隧道 API 参考。",
     "ja": "MCP トンネル (リサーチ プレビュー): 管理 API は、Admin API の /v1/organizations/tunnels から Claude API の /v1/tunnels に移動されました。新しいサーフェスは、anthropic-beta: mcp-tunnels-2026-06-22 ヘッダーと workspace:manage_tunnels WIF スコープを使用します。以前のサーフェスは、移行期間中も引き続き使用できます。トンネル API リファレンスを参照してください。"
   },
-  "Copilot cloud agent supports auto model selection": {
-    "zh": "Copilot云代理支持自动选型",
-    "ja": "Copilot クラウド エージェントは自動モデル選択をサポートします"
-  },
   "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs": {
     "zh": "在 JetBrains IDE 的 GitHub Copilot 中引入 Copilot CLI 代理和统一会话视图",
     "ja": "JetBrains IDE の Copilot CLI エージェントと GitHub Copilot の統合セッション ビューの導入"
@@ -4630,10 +4622,6 @@
     "zh": "从 2026 年 6 月 2 日开始，符合条件的容器会话将按分钟计费（最少 5 分钟），而不是按完整的 20 分钟会话费率计费。基本每分钟费率将保持不变。",
     "ja": "2026 年 6 月 2 日以降、対象となるコンテナ セッションは、20 分の完全なセッション料金ではなく、最低 5 分間の分単位で請求されます。基本的な 1 分あたりの料金は変わりません。"
   },
-  "GitHub Copilot offers access to evaluation models for individual non-enterprise users, and these models may be served in Copilot auto model selection. To disable use of evaluation models through Copilot auto model selection, visit your GitHub Copilot settings.": {
-    "zh": "GitHub Copilot 为个人非企业用户提供评估模型的访问，这些模型可以在 Copilot 自动模型选择中提供。要通过 Copilot 自动模型选择禁用评估模型，请访问您的 GitHub Copilot 设置。",
-    "ja": "GitHub Copilot は、企業以外の個々のユーザーに評価モデルへのアクセスを提供し、これらのモデルは Copilot 自動モデル選択で提供される場合があります。 Copilot 自動モデル選択による評価モデルの使用を無効にするには、GitHub Copilot 設定にアクセスしてください。"
-  },
   "OpenAI models are now available in Amazon Bedrock through an OpenAI-compatible Responses API endpoint. Supported models and features vary by AWS Region.": {
     "zh": "OpenAI 模型现在可通过 OpenAI 兼容的响应 API 终端节点在 Amazon Bedrock 中使用。支持的型号和功能因 AWS 区域而异。",
     "ja": "OpenAI モデルは、OpenAI 互換の Response API エンドポイントを通じて Amazon Bedrock で利用できるようになりました。サポートされるモデルと機能は AWS リージョンによって異なります。"
@@ -4673,10 +4661,6 @@
   "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review.": {
     "zh": "GitHub Copilot 应用程序现已处于技术预览版。这是一种 GitHub 原生桌面体验，可以从您面前的工作开始代理开发，保持隔离，引导它进行，并通过拉取请求审查来实现更改。",
     "ja": "GitHub Copilot アプリは現在テクニカル プレビュー段階にあります。 GitHub ネイティブのデスクトップ エクスペリエンスでは、目の前の作業からエージェント開発を開始し、それを分離した状態に保ち、進行に合わせて操作し、プル リクエストのレビューを通じて変更を完了します。"
-  },
-  "Copilot cloud agent now supports Copilot auto model selection. When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model performance.": {
-    "zh": "Copilot 云代理现在支持 Copilot 自动模型选择。当您在模型选择器中选择“自动”时，Copilot 会根据系统运行状况和模型性能智能地选择最佳可用模型。",
-    "ja": "Copilot クラウド エージェントは、Copilot 自動モデル選択をサポートするようになりました。モデル ピッカーで [自動] を選択すると、Copilot は、システムの健全性とモデルのパフォーマンスに基づいて、利用可能な最適なモデルをインテリジェントに選択します。"
   },
   "This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask question tool in agent mode, improves sign-in for GitHub Enterprise Server (GHES), adds global.agent.md support, and delivers several user experience improvements.": {
     "zh": "此更新将 Copilot CLI 代理引入 JetBrains IDE，并提供统一的会话视图，显示正在运行和排队的会话的实时状态。它还在代理模式下添加了提问工具，改进了 GitHub Enterprise Server (GHES) 的登录，添加了 global.agent.md 支持，并提供了多项用户体验改进。",
@@ -5242,14 +5226,6 @@
     "zh": "了解 OpenAI 如何处理政府和国家安全伙伴关系，以及负责任的人工智能使用、民主问责和公共安全的原则。",
     "ja": "OpenAI が、責任ある AI の使用、民主的な説明責任、公共の安全の原則に基づいて、政府と国家安全保障のパートナーシップにどのようにアプローチしているかを学びましょう。"
   },
-  "GitHub Mobile: Live notifications for Copilot CLI sessions": {
-    "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
-    "ja": "GitHub モバイル: Copilot CLI セッションのライブ通知"
-  },
-  "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed.": {
-    "zh": "GitHub Mobile 上的实时编码代理通知现在支持远程 Copilot CLI 会话，从而可以更轻松地与在 GitHub Mobile 之外启动的代理工作保持连接。当 Copilot CLI 会话远程运行时，GitHub Mobile 可以直接在您的手机上显示实时更新，以便您可以跟踪进度、了解代理何时需要您的输入，并在需要时跳回会话。",
-    "ja": "GitHub Mobile でのライブ コーディング エージェント通知は、リモート Copilot CLI セッションをサポートするようになり、GitHub Mobile の外部で開始されるエージェントの作業に簡単に接続できるようになりました。 Copilot CLI セッションがリモートで実行されている場合、GitHub Mobile はリアルタイムの更新を電話機に直接表示できるため、進行状況を追跡し、エージェントがいつ入力を必要とするかを把握し、必要に応じてセッションに戻ることができます。"
-  },
   "GitHub Mobile: Fix merge conflicts with Copilot cloud agent": {
     "zh": "GitHub Mobile：修复与 Copilot 云代理的合并冲突",
     "ja": "GitHub モバイル: Copilot クラウド エージェントとのマージ競合を修正"
@@ -5506,14 +5482,6 @@
     "zh": "编者注（2026 年 6 月 1 日）：我们更新了这篇文章，以更正 GPT-5.2，而不是 GPT-5.2-Codex 为 Copilot 代码审查的例外情况。编者注（2026 年 5 月 29 日）：我们更新了这篇文章，将弃用日期从 2026 年 6 月 1 日更改为 2026 年 6 月 5 日。",
     "ja": "編集者注 (2026 年 6 月 1 日): Copilot コード レビューの例外である GPT-5.2-Codex の代わりに、GPT-5.2 を修正するためにこの投稿を更新しました。編集者注 (2026 年 5 月 29 日): この投稿を更新して、非推奨日を 2026 年 6 月 1 日から 2026 年 6 月 5 日に変更しました。"
   },
-  "GitHub Copilot in Visual Studio — April update": {
-    "zh": "Visual Studio 中的 GitHub Copilot — 四月更新",
-    "ja": "Visual Studio の GitHub Copilot — 4 月の更新"
-  },
-  "The April 2026 update to Visual Studio centers on agentic workflows: cloud agent sessions launch directly from the IDE, custom agents gain user-level support, and a new Debugger agent validates fixes against live runtime behavior. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.": {
-    "zh": "Visual Studio 2026 年 4 月的更新以代理工作流程为中心：云代理会话直接从 IDE 启动，自定义代理获得用户级支持，新的调试器代理根据实时运行时行为验证修复。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
-    "ja": "Visual Studio の 2026 年 4 月の更新プログラムは、エージェント ワークフローに重点を置いています。クラウド エージェント セッションは IDE から直接起動され、カスタム エージェントはユーザー レベルのサポートを獲得し、新しいデバッガー エージェントはライブ ランタイム動作に対して修正を検証します。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。"
-  },
   "Copilot Student GPT-5.3-Codex removal from model picker": {
     "zh": "Copilot Student GPT-5.3-Codex 从模型选择器中删除",
     "ja": "Copilot Student GPT-5.3-Codex をモデル ピッカーから削除"
@@ -5753,5 +5721,65 @@
   "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports.": {
     "zh": "为了帮助您讲述更深入的 Copilot 采用故事，不仅包括哪些人活跃，还包括他们如何使用 Copilot，Copilot 使用指标 API 现在根据每个参与用户在 28 天滚动窗口内的 Copilot 产品使用情况，将其分类为 AI 采用阶段。用户级报告中提供了新的 ai_adoption_phase 字段，新的 Totals_by_ai_adoption_phase 数组可在企业级和组织级报告中显示每个阶段的指标。",
     "ja": "誰がアクティブであるかだけでなく、Copilot をどのように使用しているかなど、より深い Copilot 導入ストーリーを伝えるのに役立つように、Copilot 使用状況メトリクス API は、28 日間のローリング ウィンドウでの Copilot 製品の使用状況に基づいて、関与している各ユーザーを AI 導入フェーズに分類するようになりました。新しい ai_adoption_phase フィールドはユーザー レベルのレポートで使用でき、新しい totals_by_ai_adoption_phase 配列は企業レベルおよび組織レベルのレポートでフェーズごとのメトリクスを表示します。"
+  },
+  "UST is bringing Claude to physical AI": {
+    "zh": "UST 将 Claude 引入物理人工智能",
+    "ja": "UST は物理 AI に Claude を導入します"
+  },
+  "Never": {
+    "zh": "绝不",
+    "ja": "一度もない"
+  },
+  "You can now set an expiration when you create an API key or an Admin API key in the Claude Console. Choose a preset, a custom duration, or Never. For keys with a lifetime of at least 7 days, Anthropic emails the creator before expiration. Existing keys are unaffected. The Admin API reports each key's expiration in the expires_at field. See Authentication.": {
+    "zh": "现在，您可以在 Claude 控制台中创建 API 密钥或管理 API 密钥时设置过期时间。选择预设、自定义持续时间或从不。对于生命周期至少为 7 天的密钥，Anthropic 在到期前会向创建者发送电子邮件。现有密钥不受影响。管理 API 在 expires_at 字段中报告每个密钥的过期时间。请参阅身份验证。",
+    "ja": "Claude コンソールで API キーまたは管理 API キーを作成するときに、有効期限を設定できるようになりました。プリセット、カスタム期間、または「なし」を選択します。有効期間が少なくとも 7 日のキーの場合、有効期限が切れる前に Anthropic が作成者にメールを送信します。既存のキーは影響を受けません。 Admin API は、expires_at フィールドで各キーの有効期限を報告します。 「認証」を参照してください。"
+  },
+  "agent-memory-2026-07-22": {
+    "zh": "代理内存-2026-07-22",
+    "ja": "エージェント-メモリ-2026-07-22"
+  },
+  "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value.": {
+    "zh": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0) 和 CLI (1.16.0) SDK 现在在所有内存存储调用上发送 agent-memory-2026-07-22，而不是托管代理-2026-04-01。如果您的代码在内存存储调用上显式传递测试版，请将 Managed-agents-2026-04-01 替换为 agent-memory-2026-07-22，而不是添加第二个值。",
+    "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。"
+  },
+  "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash": {
+    "zh": "即将弃用 Gemini 2.5 Pro 和 Gemini 3 Flash",
+    "ja": "Gemini 2.5 Pro および Gemini 3 Flash の今後の非推奨"
+  },
+  "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st, 2026: Model Deprecation date Suggested alternative Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash Please update your workflows and integrations to use the supported models before these dates.": {
+    "zh": "我们将于 2026 年 7 月 31 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Gemini 2.5 Pro 和 Gemini 3 Flash： 模型弃用日期 建议替代方案 Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash 请在这些日期之前更新您的工作流程和集成以使用支持的模型。",
+    "ja": "Gemini 2.5 Pro および Gemini 3 Flash は、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で 2026 年 7 月 31 日に廃止されます。 モデルの廃止日 推奨される代替案 Gemini 2.5 Pro 2026 年 7 月 31 日 Gemini 3.1 Pro Gemini 3 Flash 2026 年 7 月 31 日 Gemini 3.5 Flash これらの日付より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。"
+  },
+  "MAI-Code-1-Flash available on more Copilot surfaces": {
+    "zh": "MAI-Code-1-Flash 可用于更多 Copilot 表面",
+    "ja": "MAI-Code-1-Flash は、より多くの Copilot サーフェスで利用可能です"
+  },
+  "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent.": {
+    "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 移动 JetBrains IDE Eclipse Xcode 上聊天 编者注：以上列表于 2026 年 6 月 24 日更新，包括Copilot 云代理。",
+    "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました: Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode エディターのメモ: 上記のリストは 6 月 24 日に更新されました。 2026 年、Copilot クラウド エージェントを含めます。"
+  },
+  "Manage sub-issues, types, and dependencies from GitHub CLI": {
+    "zh": "从 GitHub CLI 管理子问题、类型和依赖关系",
+    "ja": "GitHub CLI からサブ問題、タイプ、依存関係を管理する"
+  },
+  "GitHub CLI now exposes issue types, parent and sub-issue relationships, and issue dependencies directly from the terminal. This means you can structure and track work without dropping into the browser or writing raw gh api scripts.": {
+    "zh": "GitHub CLI 现在直接从终端公开问题类型、父问题和子问题关系以及问题依赖关系。这意味着您可以构建和跟踪工作，而无需进入浏览器或编写原始 gh api 脚本。",
+    "ja": "GitHub CLI は、課題タイプ、親課題とサブ課題の関係、課題の依存関係を端末から直接公開するようになりました。これは、ブラウザにドロップしたり、生の gh API スクリプトを記述したりせずに、作業を構造化して追跡できることを意味します。"
+  },
+  "Gemini 3.5 Flash is generally available for GitHub Copilot": {
+    "zh": "Gemini 3.5 Flash 通常可用于 GitHub Copilot",
+    "ja": "Gemini 3.5 Flash は GitHub Copilot で一般提供されています"
+  },
+  "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows.": {
+    "zh": "Gemini 3.5 Flash 是 Google 最新的 Flash 层模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，Gemini 3.5 Flash 以 Flash 级的速度和成本提供了接近 Pro 的编码质量，具有强大的工具使用、快速响应时间和高缓存效率，使其非常适合快速、迭代代理编码工作流程。",
+    "ja": "Google の最新の Flash 層モデルである Gemini 3.5 Flash は、GitHub Copilot で展開されています。初期のテストでは、Gemini 3.5 Flash は、強力なツールの使用、高速な応答時間、および高いキャッシュ効率により、Flash 層の速度とコストで、プロに近いコーディング品質を提供し、高速で反復的なエージェント コーディング ワークフローに適しています。"
+  },
+  "Easily apply Copilot code review feedback with Copilot cloud agent": {
+    "zh": "使用 Copilot 云代理轻松应用 Copilot 代码审查反馈",
+    "ja": "Copilot クラウド エージェントを使用して、Copilot コード レビューのフィードバックを簡単に適用"
+  },
+  "Copilot code review’s previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied. Now you can define what happens next and control how the fix should be applied.": {
+    "zh": "Copilot 代码审查之前的“实施建议”按钮现已重命名为“使用 Copilot 修复”，并更新为支持 UI 对话框，以便更好地控制建议的应用方式。现在您可以定义接下来会发生什么并控制如何应用修复。",
+    "ja": "Copilot コード レビューの以前の [提案を実装] ボタンは、[Copilot で修正] に名前が変更され、提案の適用方法をより詳細に制御するための UI ダイアログをサポートするように更新されました。これで、次に何が起こるかを定義し、修正をどのように適用するかを制御できるようになりました。"
   }
 }
