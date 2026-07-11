@@ -1212,6 +1212,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-01-github-2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "date": "2026-07-01",
+      "category": "github",
+      "title": {
+        "zh": "企业可以默认自动选型",
+        "ja": "企業はデフォルトで自動モデル選択を設定できる",
+        "en": "Enterprises can default to auto model selection"
+      },
+      "summary": {
+        "zh": "企业管理员现在可以在企业 Managed-settings.json 中将模型设置为自动，以使 Copilot 自动模型选择成为新对话的默认值。在源组织中将 auto 添加到.github-private/.github/copilot/managed-settings.json 以进行企业治理，以便新对话默认以 Copilot 自动模型选择开始。",
+        "ja": "エンタープライズ管理者は、エンタープライズ管理対象設定.json でモデルを auto に設定し、Copilot 自動モデル選択を新しい会話のデフォルトにできるようになりました。エンタープライズ ガバナンスのためにソース組織に auto to.github-private/.github/copilot/managed-settings.json を追加して、新しい会話がデフォルトで Copilot 自動モデル選択から始まるようにします。",
+        "en": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default."
+      },
+      "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-01-github-2026-07-01-enterprise-managed-settings-json-is-generally-available",
       "date": "2026-07-01",
       "category": "github",
@@ -2405,6 +2431,31 @@
       "tags": [
         "retired",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 操作结账的默认 pull_request_target 更安全",
+        "ja": "GitHub アクション チェックアウトのより安全な pull_request_target のデフォルト",
+        "en": "Safer pull_request_target defaults for GitHub Actions checkout"
+      },
+      "summary": {
+        "zh": "pull_request_target 事件是 GitHub 操作中最常被误用的触发器之一，导致工作流程中存在漏洞。由 pull_request_target 触发的工作流程使用基础存储库的 GITHUB_TOKEN、机密和默认分支缓存访问来运行。",
+        "ja": "pull_request_target イベントは、GitHub アクションで最もよく悪用されるトリガーの 1 つであり、ワークフローの脆弱性につながります。 pull_request_target によってトリガーされるワークフローは、ベース リポジトリの GITHUB_TOKEN、シークレット、およびデフォルト ブランチ キャッシュ アクセスを使用して実行されます。",
+        "en": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repository’s GITHUB_TOKEN, secrets, and default-branch cache access."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
+      "tags": [
+        "release",
+        "actions",
+        "supply-chain-security",
         "github",
         "changelog"
       ],
