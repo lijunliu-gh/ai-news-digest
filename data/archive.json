@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-11",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-10-openai-axios-developer-tool-compromise",
+      "date": "2026-04-10",
+      "category": "openai",
+      "title": {
+        "zh": "我们对 Axios 开发者工具妥协的回应",
+        "ja": "Axios 開発者ツールの侵害に対する当社の対応",
+        "en": "Our response to the Axios developer tool compromise"
+      },
+      "summary": {
+        "zh": "OpenAI 通过轮换 macOS 代码签名证书、更新应用程序并确认没有用户数据受到损害来响应 Axios 供应链攻击。",
+        "ja": "OpenAI は、macOS コード署名証明書をローテーションし、アプリを更新し、ユーザー データが侵害されていないことを確認することで、Axios サプライ チェーン攻撃に対応します。",
+        "en": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised."
+      },
+      "url": "https://openai.com/index/axios-developer-tool-compromise",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-10-github-2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理的验证工具现在速度提高了 20%",
+        "ja": "Copilot クラウド エージェントの検証ツールが 20% 高速になりました",
+        "en": "Copilot cloud agent’s validation tools are now 20% faster"
+      },
+      "summary": {
+        "zh": "当Copilot云代理编写代码时，它会自动运行GitHub的安全和质量验证工具，包括CodeQL、GitHub咨询数据库、秘密扫描和Copilot代码审查。如果发现任何问题，Copilot 会在完成工作并请求审核之前尝试解决它们。",
+        "ja": "Copilot クラウド エージェントがコードを記述すると、CodeQL、GitHub アドバイザリー データベース、シークレット スキャン、Copilot コード レビューなどの GitHub のセキュリティおよび品質検証ツールが自動的に実行されます。問題が見つかった場合、Copilot は作業を終了してレビューを要求する前に問題の解決を試みます。",
+        "en": "When Copilot cloud agent writes code, it automatically runs GitHub’s security and quality validation tools, including CodeQL, the GitHub Advisory Database, secret scanning, and Copilot code review. If any problems are found, Copilot attempts to resolve them before finishing work and requesting review."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-cloud-agents-validation-tools-are-now-20-faster",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-10-github-2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
+      "date": "2026-04-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 活动现在包含在使用指标总数和功能细分中",
+        "ja": "Copilot CLI アクティビティが使用状況メトリクスの合計と機能の内訳に含まれるようになりました",
+        "en": "Copilot CLI activity now included in usage metrics totals and feature breakdowns"
+      },
+      "summary": {
+        "zh": "以前的 CLI 指标版本在 Copilot 使用指标 API 中添加了一个独立的 Totals_by_cli 部分，其中包含会话计数、请求计数和令牌使用情况。该部分将 CLI 活动与报告的其余部分分开报告 - 顶级总计和维度细分仅反映 IDE 活动。",
+        "ja": "以前の CLI メトリクス リリースでは、セッション数、リクエスト数、トークン使用量を含むスタンドアロン totals_by_cli セクションが Copilot 使用状況メトリクス API に追加されました。このセクションでは、CLI アクティビティをレポートの残りの部分とは別に報告しました。トップレベルの合計と次元の内訳は、IDE アクティビティのみを反映していました。",
+        "en": "Previous CLI metrics releases added a standalone totals_by_cli section to the Copilot usage metrics API with session counts, request counts, and token usage. That section reported CLI activity separately from the rest of the report—top-level totals and dimensional breakdowns reflected IDE activity only."
+      },
+      "url": "https://github.blog/changelog/2026-04-10-copilot-cli-activity-now-included-in-usage-metrics-totals-and-feature-breakdowns",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-04-09-openai-cyberagent",
       "date": "2026-04-09",
