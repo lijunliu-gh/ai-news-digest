@@ -5058,14 +5058,6 @@
     "zh": "Copilot 商业和企业用户现在可以在 Visual Studio Code 中使用自带语言模型密钥 (BYOK)。 BYOK 允许团队重复使用其 API 密钥来访问来自 Anthropic、Gemini、OpenAI、OpenRouter 和 Azure 等提供商的模型，以及通过 Ollama 和 Foundry Local 本地运行的模型。",
     "ja": "Copilot Business および Enterprise ユーザーは、Visual Studio Code で独自の言語モデル キー (BYOK) を使用できるようになりました。 BYOK を使用すると、チームは API キーを再利用して、Anthropic、Gemini、OpenAI、OpenRouter、Azure などのプロバイダーのモデルにアクセスしたり、Ollama や Foundry Local を通じてローカルで実行されているモデルにアクセスしたりできます。"
   },
-  "Enterprise-managed OpenTelemetry export for VS Code and CLI": {
-    "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
-    "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート"
-  },
-  "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI.": {
-    "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
-    "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。"
-  },
   "Deploy managed Copilot settings via MDM in VS Code and CLI": {
     "zh": "通过 VS Code 和 CLI 中的 MDM 部署托管 Copilot 设置",
     "ja": "VS Code および CLI で MDM 経由で管理された Copilot 設定をデプロイする"
