@@ -96,6 +96,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-10-anthropic-dreams",
+      "date": "2026-07-10",
+      "category": "anthropic",
+      "title": {
+        "zh": "梦想",
+        "ja": "夢",
+        "en": "Dreams"
+      },
+      "summary": {
+        "zh": "Dreams（研究预览）现在支持 Claude Fable 5 和 Claude Sonnet 5。请参阅支持的型号。",
+        "ja": "Dreams (リサーチ プレビュー) は、Claude Fable 5 および Claude Sonnet 5 をサポートするようになりました。「サポートされるモデル」を参照してください。",
+        "en": "Dreams (research preview) now supports Claude Fable 5 and Claude Sonnet 5. See Supported models."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/dreams",
+      "tags": [
+        "dreams",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-07-10-anthropic-access-transparency",
       "date": "2026-07-10",
       "category": "anthropic",
@@ -545,6 +568,32 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-08-github-2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+      "date": "2026-07-08",
+      "category": "github",
+      "title": {
+        "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
+        "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート",
+        "en": "Enterprise-managed OpenTelemetry export for VS Code and CLI"
+      },
+      "summary": {
+        "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
+        "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。",
+        "en": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI."
+      },
+      "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -8228,29 +8277,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-05-06-anthropic-dreams",
-      "date": "2026-05-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "做梦-2026-04-21",
-        "ja": "夢を見る-2026-04-21",
-        "en": "dreaming-2026-04-21"
-      },
-      "summary": {
-        "zh": "Claude 托管代理的梦想现已作为研究预览提供。梦会读取现有的记忆存储以及过去的会话记录，并生成一个重新组织的输出记忆存储，其中合并了重复项，替换了陈旧的条目，并出现了新的见解。除了标准的 Managed-agents-2026-04-01 标头之外，Dreams 还需要 dreaming-2026-04-21 beta 标头。请求访问权限来尝试一下。",
-        "ja": "Dreams for Claude 管理対象エージェントがリサーチ プレビューとして利用できるようになりました。夢は、過去のセッションの記録とともに既存のメモリ ストアを読み取り、重複がマージされ、古いエントリが置き換えられ、新しい洞察が表面化した再編成された出力メモリ ストアを生成します。 Dream には、標準の manage-agents-2026-04-01 ヘッダーに加えて、dreaming-2026-04-21 ベータ ヘッダーが必要です。アクセスをリクエストして試してください。",
-        "en": "Dreams for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplicates merged, stale entries replaced, and new insights surfaced. Dreams require the dreaming-2026-04-21 beta header in addition to the standard managed-agents-2026-04-01 header. Request access to try it."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/dreams",
-      "tags": [
-        "dreaming-2026-04-21",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
