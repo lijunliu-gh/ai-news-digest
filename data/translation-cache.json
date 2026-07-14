@@ -4222,10 +4222,6 @@
     "zh": "在 JetBrains IDE 的 GitHub Copilot 中引入 Copilot CLI 代理和统一会话视图",
     "ja": "JetBrains IDE の Copilot CLI エージェントと GitHub Copilot の統合セッション ビューの導入"
   },
-  "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026": {
-    "zh": "GitHub Copilot 代码审查将于 2026 年 6 月 1 日开始消耗 GitHub 操作分钟数",
-    "ja": "GitHub Copilot コード レビューは、2026 年 6 月 1 日に GitHub アクション分の消費を開始します"
-  },
   "Copilot cloud agent starts 20% faster with Actions custom images": {
     "zh": "Copilot 云代理使用 Actions 自定义映像启动速度提高 20%",
     "ja": "Copilot アクション カスタム イメージを使用すると、クラウド エージェントの起動が 20% 高速化されます"
@@ -4545,10 +4541,6 @@
   "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client.": {
     "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。",
     "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。"
-  },
-  "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare.": {
-    "zh": "世界各地的开发人员和工程团队使用 GitHub Copilot 对每个拉取请求进行高质量、由代理支持的代码审查。我们知道任何变化对我们的客户都很重要，尤其是与计费相关的变化，因此我们提前分享此更新以帮助您进行计划和准备。",
-    "ja": "世界中の開発者とエンジニアリング チームは、すべてのプル リクエストでエージェントによる高品質のコード レビューを行うために GitHub Copilot を使用しています。特に請求に関する変更はお客様にとって重要であることを当社は理解しているため、お客様の計画と準備に役立つよう、この更新を早期に共有しています。"
   },
   "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task from the Agents tab, or mention @copilot in a pull request, the agent spins up a cloud-based environment to do its work.": {
     "zh": "由于使用 GitHub Actions 自定义映像构建了优化的运行器环境，Copilot 云代理现在的启动速度提高了 20% 以上。当您将问题分配给 Copilot、从“代理”选项卡启动任务或在拉取请求中提及 @copilot 时，代理会启动基于云的环境来完成其工作。",
@@ -5226,14 +5218,6 @@
     "zh": "企业管理员现在可以直接在管理成本中心和预算的计费 UI 中创建成本中心用户级预算。此功能适用于 GitHub 企业云。",
     "ja": "企業管理者は、コスト センターと予算を管理する請求 UI でコスト センターのユーザー レベルの予算を直接作成できるようになりました。この機能は GitHub Enterprise Cloud で利用できます。"
   },
-  "Set AI credit session limits in Copilot CLI and SDK": {
-    "zh": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制",
-    "ja": "Copilot CLI および SDK で AI クレジット セッション制限を設定する"
-  },
-  "You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work.": {
-    "zh": "您现在可以在 Copilot CLI 和 GitHub Copilot SDK 中设置 AI 信用会话限制，以限制客服人员在会话中花费的金额。这对于自动化特别有用，因为没有人主动监控代理的工作。",
-    "ja": "Copilot CLI および GitHub Copilot SDK で AI クレジット セッション制限を設定して、エージェントがセッションで費やす金額を制限できるようになりました。これは、エージェントの作業を積極的に監視している人がいない自動化の場合に特に役立ちます。"
-  },
   "Browser tools for GitHub Copilot in VS Code are generally available": {
     "zh": "VS Code 中 GitHub Copilot 的浏览器工具已普遍可用",
     "ja": "VS Code の GitHub Copilot 用のブラウザ ツールが一般提供されました"
@@ -5828,5 +5812,13 @@
   "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI.": {
     "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
     "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。"
+  },
+  "GitHub Code Quality license estimate in public preview": {
+    "zh": "GitHub 公共预览版中的代码质量许可证估算",
+    "ja": "GitHub パブリック プレビュー中のコード品質ライセンスの見積もり"
+  },
+  "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it becomes a paid product on July 20, 2026. Code Quality is free during the public preview, so this usage isn’t billed today.": {
+    "zh": "现在，您可以在整个企业中使用 GitHub Code Quality 查看存储库上的活跃提交者数量，从而在 2026 年 7 月 20 日成为付费产品之前估算您的 Code Quality 许可证成本。Code Quality 在公共预览期间是免费的，因此今天不会对这种使用进行计费。",
+    "ja": "企業全体で GitHub コード品質を使用しているリポジトリ上のアクティブなコミッターの数を確認できるようになり、2026 年 7 月 20 日に有料製品になる前にコード品質のライセンス コストを見積もることができます。 コード品質はパブリック プレビュー中は無料であるため、この使用量は現在請求されません。"
   }
 }
