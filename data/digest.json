@@ -3,6 +3,73 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-14-github-2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "date": "2026-07-14",
+      "category": "github",
+      "title": {
+        "zh": "安全审查现已在 GitHub Copilot 应用程序中提供",
+        "ja": "GitHub Copilot アプリでセキュリティ レビューが利用可能になりました",
+        "en": "Security reviews now available in the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "现在，您可以直接从 GitHub Copilot 应用程序对正在进行的代码更改进行安全审查。 /security-review 斜线命令以公共预览版形式发布，将 Copilot CLI 中已有的相同人工智能驱动的漏洞扫描引入您的日常编码工作流程中。",
+        "ja": "GitHub Copilot アプリから直接、実行中のコード変更に対するセキュリティ レビューを実行できるようになりました。 /security-review スラッシュ コマンドはパブリック プレビューで出荷され、Copilot CLI ですでに利用可能なものと同じ AI 主導の脆弱性スキャンを日常のコーディング ワークフローに導入します。",
+        "en": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow."
+      },
+      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "tags": [
+        "improvement",
+        "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-14-anthropic-claude-for-teachers",
+      "date": "2026-07-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "为教师介绍 Claude",
+        "ja": "教師向け Claude のご紹介",
+        "en": "Introducing Claude for Teachers"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-14-anthropic-canadian-ai-research",
+      "date": "2026-07-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 向加拿大人工智能研究投入 1000 万美元",
+        "ja": "Anthropic はカナダの AI 研究に 1,000 万ドルを寄付",
+        "en": "Anthropic commits $10 million to Canadian AI research"
+      },
+      "summary": {
+        "zh": "Anthropic 承诺向加拿大研究机构捐赠 1000 万美元，资助下一代人工智能研究。",
+        "ja": "Anthropic は、次世代の AI 研究に資金を提供するためにカナダの研究機関に 1,000 万ドルを寄付しています。",
+        "en": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research."
+      },
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-07-13-github-2026-07-13-github-code-quality-license-estimate-in-public-preview",
       "date": "2026-07-13",
       "category": "github",
@@ -114,6 +181,31 @@
       "tags": [
         "improvement",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-10-github-2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
+      "date": "2026-07-10",
+      "category": "github",
+      "title": {
+        "zh": "公共预览版中代码扫描警报的代理自动修复",
+        "ja": "パブリック プレビューでのコード スキャン アラートのエージェント自動修正",
+        "en": "Agentic autofix for code scanning alerts in public preview"
+      },
+      "summary": {
+        "zh": "代理自动修复现已推出代码扫描警报的公共预览版。它通过以开发人员的方式跨代码库工作来修复警报：它探索相关文件，提出修复方案，并重新运行 CodeQL 以确认修复关闭警报，然后再打开拉取请求以供您审核。",
+        "ja": "Agentic Autofix は現在、コード スキャン アラートのパブリック プレビュー段階にあります。開発者が行うのと同じようにコードベース全体で作業することでアラートを修復します。関連するファイルを調査し、修正を提案し、CodeQL を再実行して修正によってアラートが閉じられることを確認してから、レビューのプル リクエストを開きます。",
+        "en": "Agentic autofix is now in public preview for code scanning alerts. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review."
+      },
+      "url": "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
+      "tags": [
+        "release",
+        "application-security",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -325,30 +417,6 @@
       "tags": [
         "release",
         "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-09-github-2026-07-09-ask-copilot-for-a-repository-overview",
-      "date": "2026-07-09",
-      "category": "github",
-      "title": {
-        "zh": "向 Copilot 询问存储库概述",
-        "ja": "リポジトリの概要については Copilot に問い合わせてください",
-        "en": "Ask Copilot for a repository overview"
-      },
-      "summary": {
-        "zh": "现在，您可以向 GitHub Copilot 询问您第一次探索的任何存储库的高级概述。当您访问 github.com 上以前未曾贡献过的存储库的主页时，Copilot 会为您生成概述。",
-        "ja": "初めて探索するリポジトリの概要を GitHub Copilot に尋ねることができるようになりました。 github.com でこれまでに貢献したことのないリポジトリのホームページにアクセスすると、Copilot が概要を生成するよう提案します。",
-        "en": "You can now ask GitHub Copilot for a high-level overview of any repository you’re exploring for the first time. When you visit the home page of a repository you haven’t contributed to before on github.com, Copilot offers to generate an overview for you."
-      },
-      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
