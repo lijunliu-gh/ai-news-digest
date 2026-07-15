@@ -2682,9 +2682,9 @@
         "en": "Safer pull_request_target defaults for GitHub Actions checkout"
       },
       "summary": {
-        "zh": "pull_request_target 事件是 GitHub 操作中最常被误用的触发器之一，导致工作流程中存在漏洞。由 pull_request_target 触发的工作流程使用基础存储库的 GITHUB_TOKEN、机密和默认分支缓存访问来运行。",
-        "ja": "pull_request_target イベントは、GitHub アクションで最もよく悪用されるトリガーの 1 つであり、ワークフローの脆弱性につながります。 pull_request_target によってトリガーされるワークフローは、ベース リポジトリの GITHUB_TOKEN、シークレット、およびデフォルト ブランチ キャッシュ アクセスを使用して実行されます。",
-        "en": "The pull_request_target event is one of the most commonly misused triggers in GitHub Actions, leading to vulnerabilities in workflows. Workflows triggered by pull_request_target run with the base repository’s GITHUB_TOKEN, secrets, and default-branch cache access."
+        "zh": "编者注（2026 年 7 月 15 日）：我们更新了这篇文章以反映修订后的向后移植执行日期。向后移植版本的操作/结账的执行日期已从 2026 年 7 月 16 日移至 2026 年 7 月 20 日星期一。",
+        "ja": "編集者注 (2026 年 7 月 15 日): 修正されたバックポート施行日を反映するためにこの投稿を更新しました。アクション/チェックアウトのバックポート バージョンの適用は、2026 年 7 月 16 日から 2026 年 7 月 20 日月曜日に変更されました。",
+        "en": "Editor’s note (July 15, 2026): We updated this post to reflect a revised backport enforcement date. Enforcement for backported versions of actions/checkout has been moved from July 16, 2026 to Monday, July 20, 2026."
       },
       "url": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
       "tags": [
