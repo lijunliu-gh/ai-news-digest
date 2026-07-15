@@ -4,8 +4,17 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-07-14</lastBuildDate>
+    <lastBuildDate>2026-07-15</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GitHub Copilot in Visual Studio — June update</title>
+      <link>https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update</link>
+      <description>June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.</description>
+      <pubDate>2026-07-15</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update</guid>
+    </item>
     <item>
       <title>Security reviews now available in the GitHub Copilot app</title>
       <link>https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app</link>
@@ -14,6 +23,15 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app</guid>
+    </item>
+    <item>
+      <title>GitHub Copilot for JetBrains expands BYOK capabilities</title>
+      <link>https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities</link>
+      <description>This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software.</description>
+      <pubDate>2026-07-14</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities</guid>
     </item>
     <item>
       <title>Code scanning shows AI security detections on pull requests</title>
@@ -41,6 +59,15 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
       <guid isPermaLink="true">https://www.anthropic.com/news/canadian-ai-research</guid>
+    </item>
+    <item>
+      <title>Claude Enterprise</title>
+      <link>https://platform.claude.com/docs/en/api/admin</link>
+      <description>You can now manage the people in your Claude Enterprise (claude.ai) organization with the Admin API, in beta for all Claude Enterprise organizations: list members and look them up by email address, change a member's role, remove members, send and withdraw invites, manage groups and their membership, and read custom roles. Group and custom-role requests require the anthropic-beta: ce-user-management-2026-07-13 beta header; member and invite requests take no beta header.</description>
+      <pubDate>2026-07-14</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/api/admin</guid>
     </item>
     <item>
       <title>GitHub Code Quality license estimate in public preview</title>
@@ -86,15 +113,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types</guid>
-    </item>
-    <item>
-      <title>Agentic autofix for code scanning alerts in public preview</title>
-      <link>https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview</link>
-      <description>Agentic autofix is now in public preview for code scanning alerts. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview</guid>
     </item>
     <item>
       <title>Dreams</title>
@@ -376,15 +394,6 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui</guid>
     </item>
     <item>
-      <title>GitHub Copilot app available to all</title>
-      <link>https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all</link>
-      <description>The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop.</description>
-      <pubDate>2026-07-07</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all</guid>
-    </item>
-    <item>
       <title>Copilot Billing Preview app will be retired on August 3</title>
       <link>https://github.blog/changelog/2026-07-07-copilot-billing-preview-app-will-be-retired-on-august-3</link>
       <description>The Copilot Billing Preview app will be retired on August 3, 2026. If you use it to review your GitHub Copilot spend, you can get even greater visibility directly in your GitHub billing settings.</description>
@@ -446,15 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-cost-centers-now-support-included-usage-caps</guid>
-    </item>
-    <item>
-      <title>Copilot CLI no longer needs a personal access token in GitHub Actions</title>
-      <link>https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions</link>
-      <description>You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.</description>
-      <pubDate>2026-07-02</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions</guid>
     </item>
   </channel>
 </rss>
