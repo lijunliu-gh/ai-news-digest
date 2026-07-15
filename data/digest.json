@@ -2936,6 +2936,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-17-github-2026-06-17-github-copilot-app-generally-available",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序正式可用",
+        "ja": "GitHub Copilot アプリの一般提供が開始されました",
+        "en": "GitHub Copilot app generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 应用程序现已普遍适用于 macOS、Windows 和 Linux。它是代理驱动开发的桌面主页，原生构建于 GitHub 之上。",
+        "ja": "GitHub Copilot アプリが macOS、Windows、Linux で一般提供されるようになりました。これは、GitHub にネイティブに構築された、エージェント駆動開発のためのデスクトップ ホームです。",
+        "en": "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-github-copilot-app-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-17-github-2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
       "date": "2026-06-17",
       "category": "github",
@@ -2978,6 +3002,31 @@
       "url": "https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
       "tags": [
         "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 支持企业自带密钥 (BYOK) 模型",
+        "ja": "Copilot CLI はエンタープライズ Bring Your Own Key (BYOK) モデルをサポートします",
+        "en": "Copilot CLI supports enterprise bring your own key (BYOK) models"
+      },
+      "summary": {
+        "zh": "由企业管理员配置的外部提供商的模型现在可以在 Copilot CLI 的 /model 选择器中使用，为企业开发人员提供更大的灵活性，并允许企业管理员更轻松地向开发人员部署自定义模型。要详细了解企业管理员如何配置来自外部提供商的模型以在 GitHub Copilot 中使用，请参阅将 LLM 提供商 API 密钥与 Copilot 结合使用。",
+        "ja": "エンタープライズ管理者によって構成された外部プロバイダーのモデルが Copilot CLI の /model ピッカーで使用できるようになりました。これにより、エンタープライズ開発者はより柔軟になり、エンタープライズ管理者は開発者にカスタム モデルをより簡単にデプロイできるようになります。エンタープライズ管理者が GitHub Copilot で使用するために外部プロバイダーのモデルを構成する方法の詳細については、「Copilot での LLM プロバイダー API キーの使用」を参照してください。",
+        "en": "Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily deploy custom models to developers. To learn more about how enterprise admins can configure models from external providers for use in GitHub Copilot, see Using your LLM provider API keys with Copilot."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-copilot-cli-supports-enterprise-bring-your-own-key-byok-models",
+      "tags": [
+        "release",
+        "client-apps",
         "copilot",
         "github",
         "changelog"
@@ -3075,6 +3124,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-16-github-2026-06-16-github-models-is-no-longer-available-to-new-customers",
+      "date": "2026-06-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 模型不再向新客户提供",
+        "ja": "GitHub モデルは新規顧客には利用できなくなりました",
+        "en": "GitHub Models is no longer available to new customers"
+      },
+      "summary": {
+        "zh": "我们即将退役 GitHub 模型。首先，新客户不能再使用它。",
+        "ja": "GitHub モデルを廃止します。最初のステップとして、新規顧客は使用できなくなります。",
+        "en": "We are retiring GitHub Models. As a first step, new customers can no longer use it."
+      },
+      "url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+      "tags": [
+        "retired",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-16-github-2026-06-16-github-code-quality-generally-available-july-20-2026",
@@ -4438,6 +4511,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-04-github-2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 修复了 Pro、Pro+ 和 Max 中现在失败的操作",
+        "ja": "Pro、Pro+、Max で失敗したアクションを Copilot で修正しました",
+        "en": "Fix with Copilot for failing Actions now in Pro, Pro+, and Max"
+      },
+      "summary": {
+        "zh": "当 GitHub Actions 作业失败时，Copilot Pro、Pro+ 和 Max 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
+        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Pro、Pro+、および Max サブスクライバーは、Copilot クラウド エージェントにワンクリックで修正を依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。",
+        "en": "When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-04-github-2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
       "date": "2026-06-04",
       "category": "github",
@@ -4452,6 +4549,30 @@
         "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license."
       },
       "url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-04-github-2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
+      "date": "2026-06-04",
+      "category": "github",
+      "title": {
+        "zh": "代理任务 REST API 现在可用于 Copilot Pro、Pro+ 和 Max",
+        "ja": "エージェント タスク REST API が Copilot Pro、Pro+、および Max で利用可能になりました",
+        "en": "Agent tasks REST API now available for Copilot Pro, Pro+, and Max"
+      },
+      "summary": {
+        "zh": "Copilot Pro、Pro+ 和 Max 用户现在可以使用代理任务 REST API 以编程方式启动和跟踪 Copilot 云代理任务（在公共预览版中提供）。 Copilot 云代理在其自己的开发环境中在后台工作，可以在其中进行和验证代码更改，然后打开拉取请求。",
+        "ja": "Copilot Pro、Pro+、および Max ユーザーは、パブリック プレビューで利用可能なエージェント タスク REST API を使用して、Copilot クラウド エージェント タスクをプログラムで開始および追跡できるようになりました。 Copilot クラウド エージェントは、独自の開発環境のバックグラウンドで動作し、コードの変更を行って検証し、プル リクエストをオープンできます。",
+        "en": "Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request."
+      },
+      "url": "https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max",
       "tags": [
         "release",
         "copilot",
@@ -6816,6 +6937,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理一键修复失败的操作",
+        "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正",
+        "en": "One-click fixes for failing Actions with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
+        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。",
+        "en": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
       "date": "2026-05-18",
       "category": "github",
@@ -6840,6 +6985,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
+        "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル",
+        "en": "Copilot cloud agent: Fast, cost-efficient models for simple tasks"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用来完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。",
+        "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。",
+        "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
       "date": "2026-05-18",
       "category": "github",
@@ -6854,6 +7023,30 @@
         "en": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration."
       },
       "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-18-github-2026-05-18-ask-questions-in-context-with-copilot-on-web",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 Copilot 提问",
+        "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする",
+        "en": "Ask questions in context with Copilot on web"
+      },
+      "summary": {
+        "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。",
+        "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。",
+        "en": "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-ask-questions-in-context-with-copilot-on-web",
       "tags": [
         "release",
         "copilot",
@@ -8425,6 +8618,55 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-05-github-2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
+      "date": "2026-05-05",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
+        "ja": "GitHub MCP サーバーによる依存関係のスキャンはパブリック プレビュー中です",
+        "en": "Dependency scanning with GitHub MCP Server is in public preview"
+      },
+      "summary": {
+        "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描代码更改以查找易受攻击的依赖项。当您使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时，您将发现已知的漏洞。",
+        "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、コードの変更をスキャンして脆弱な依存関係を見つけることができるようになりました。 MCP 互換の IDE と AI コーディング エージェントを使用してコードを作成するときに、既知の脆弱性を発見できます。",
+        "en": "The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You’ll catch known vulnerabilities while you write code with MCP-compatible IDEs and AI coding agents."
+      },
+      "url": "https://github.blog/changelog/2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
+      "tags": [
+        "release",
+        "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-05-github-2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
+      "date": "2026-05-05",
+      "category": "github",
+      "title": {
+        "zh": "Microsoft Defender for Cloud 的代码到云风险可见性现已全面推出",
+        "ja": "Microsoft Defender for Cloud によるコードからクラウドへのリスクの可視化が一般提供になりました",
+        "en": "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available"
+      },
+      "summary": {
+        "zh": "此集成现已普遍可用。自进入公共预览版以来，我们收到了客户的宝贵反馈，并且我们已经进行了后续改进，使工件和运行时上下文更接近 GitHub 高级安全警报体验。",
+        "ja": "この統合は現在一般提供されています。パブリック プレビューに入って以来、お客様からの貴重なフィードバックを聞き、アーティファクトとランタイム コンテキストを GitHub Advanced Security アラート エクスペリエンスに近づけるフォローアップの改善を出荷してきました。",
+        "en": "This integration is now generally available. Since entering public preview, we’ve heard valuable feedback from customers, and we’ve shipped follow-up improvements that bring artifact and runtime context closer to the GitHub Advanced Security alert experience."
+      },
+      "url": "https://github.blog/changelog/2026-05-05-code-to-cloud-risk-visibility-with-microsoft-defender-for-cloud-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "supply-chain-security",
         "github",
         "changelog"
       ],
