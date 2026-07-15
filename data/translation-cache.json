@@ -4286,10 +4286,6 @@
     "zh": "问题字段现已普遍可用",
     "ja": "問題フィールドが一般利用可能になりました"
   },
-  "GitHub Models is no longer available to new customers": {
-    "zh": "GitHub 模型不再向新客户提供",
-    "ja": "GitHub モデルは新規顧客には利用できなくなりました"
-  },
   "Per-user AI credit budgets available for cost centers": {
     "zh": "可用于成本中心的每用户 AI 信用预算",
     "ja": "コストセンターで利用可能なユーザーごとの AI クレジット予算"
@@ -4341,10 +4337,6 @@
   "Workflow execution protections are now in public preview for GitHub Enterprise, organizations, and repositories. This new capability lets enterprise administrators define an allow list that controls who can trigger GitHub Actions workflows and which events are permitted to run them, giving you predictable, secure workflow execution.": {
     "zh": "工作流执行保护现已针对 GitHub 企业、组织和存储库提供公共预览版。这项新功能允许企业管理员定义一个允许列表，控制谁可以触发 GitHub 操作工作流以及允许哪些事件运行它们，从而为您提供可预测、安全的工作流执行。",
     "ja": "ワークフロー実行保護は、GitHub エンタープライズ、組織、リポジトリ向けにパブリック プレビュー段階にあります。この新機能により、エンタープライズ管理者は、GitHub アクション ワークフローをトリガーできるユーザーとその実行を許可するイベントを制御する許可リストを定義できるため、予測可能で安全なワークフローの実行が可能になります。"
-  },
-  "We are retiring GitHub Models. As a first step, new customers can no longer use it.": {
-    "zh": "我们即将退役 GitHub 模型。首先，新客户不能再使用它。",
-    "ja": "GitHub モデルを廃止します。最初のステップとして、新規顧客は使用できなくなります。"
   },
   "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside GitHub Actions.": {
     "zh": "GitHub Agentic Workflows 现已推出公共预览版。借助代理工作流程，您可以利用 GitHub 操作中的编码代理来自动执行基于推理的任务，例如问题分类、CI 故障分析和文档更新。",
@@ -4982,22 +4974,6 @@
     "zh": "2026 年 5 月带来了更清晰的工具，用于在 Visual Studio 2026 中使用 GitHub Copilot 规划、审查和管理工作。 亮点 以下是 Visual Studio 2026 中所有 GitHub Copilot 用户的新增功能。",
     "ja": "2026 年 5 月には、Visual Studio 2026 の GitHub Copilot を使用した作業の計画、レビュー、管理のためのより鮮明なツールが導入されました。 ハイライト Visual Studio 2026 のすべての GitHub Copilot ユーザーにとっての新機能は次のとおりです。"
   },
-  "Fix with Copilot for failing Actions now in Pro, Pro+, and Max": {
-    "zh": "使用 Copilot 修复了 Pro、Pro+ 和 Max 中现在失败的操作",
-    "ja": "Pro、Pro+、Max で失敗したアクションを Copilot で修正しました"
-  },
-  "When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done.": {
-    "zh": "当 GitHub Actions 作业失败时，Copilot Pro、Pro+ 和 Max 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
-    "ja": "GitHub アクション ジョブが失敗した場合、Copilot Pro、Pro+、および Max サブスクライバーは、Copilot クラウド エージェントにワンクリックで修正を依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。"
-  },
-  "Agent tasks REST API now available for Copilot Pro, Pro+, and Max": {
-    "zh": "代理任务 REST API 现在可用于 Copilot Pro、Pro+ 和 Max",
-    "ja": "エージェント タスク REST API が Copilot Pro、Pro+、および Max で利用可能になりました"
-  },
-  "Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.": {
-    "zh": "Copilot Pro、Pro+ 和 Max 用户现在可以使用代理任务 REST API 以编程方式启动和跟踪 Copilot 云代理任务（在公共预览版中提供）。 Copilot 云代理在其自己的开发环境中在后台工作，可以在其中进行和验证代码更改，然后打开拉取请求。",
-    "ja": "Copilot Pro、Pro+、および Max ユーザーは、パブリック プレビューで利用可能なエージェント タスク REST API を使用して、Copilot クラウド エージェント タスクをプログラムで開始および追跡できるようになりました。 Copilot クラウド エージェントは、独自の開発環境のバックグラウンドで動作し、コードの変更を行って検証し、プル リクエストを開くことができます。"
-  },
   "April reports are now available to prepare for usage-based billing": {
     "zh": "现已提供四月份报告，为基于使用情况的计费做好准备",
     "ja": "使用量ベースの請求に備えて 4 月のレポートが利用可能になりました"
@@ -5013,22 +4989,6 @@
   "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date.": {
     "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供商弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。",
     "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日までに、サポートされているモデルを使用するようにワークフローと統合を更新してください。"
-  },
-  "Dependency scanning with GitHub MCP Server is in public preview": {
-    "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
-    "ja": "GitHub MCP サーバーによる依存関係のスキャンはパブリック プレビュー中です"
-  },
-  "The GitHub MCP Server can now scan your code changes for vulnerable dependencies before you commit or open a pull request. You’ll catch known vulnerabilities while you write code with MCP-compatible IDEs and AI coding agents.": {
-    "zh": "GitHub MCP 服务器现在可以在提交或打开拉取请求之前扫描您的代码更改以查找易受攻击的依赖项。当您使用 MCP 兼容的 IDE 和 AI 编码代理编写代码时，您将发现已知的漏洞。",
-    "ja": "GitHub MCP サーバーは、プル リクエストをコミットまたはオープンする前に、コードの変更をスキャンして脆弱な依存関係を見つけることができるようになりました。 MCP 互換の IDE と AI コーディング エージェントを使用してコードを作成するときに、既知の脆弱性を発見できます。"
-  },
-  "Code-to-cloud risk visibility with Microsoft Defender for Cloud is now generally available": {
-    "zh": "Microsoft Defender for Cloud 的代码到云风险可见性现已全面推出",
-    "ja": "Microsoft Defender for Cloud によるコードからクラウドへのリスクの可視化が一般提供になりました"
-  },
-  "This integration is now generally available. Since entering public preview, we’ve heard valuable feedback from customers, and we’ve shipped follow-up improvements that bring artifact and runtime context closer to the GitHub Advanced Security alert experience.": {
-    "zh": "此集成现已普遍可用。自进入公共预览版以来，我们收到了客户的宝贵反馈，并且我们已经进行了后续改进，使工件和运行时上下文更接近 GitHub 高级安全警报体验。",
-    "ja": "この統合は現在一般提供されています。パブリック プレビューに入って以来、お客様からの貴重なフィードバックを聞き、アーティファクトとランタイム コンテキストを GitHub Advanced Security アラート エクスペリエンスに近づけるフォローアップの改善を出荷してきました。"
   },
   "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex": {
     "zh": "即将弃用 GPT-5.2 和 GPT-5.2-Codex",
@@ -5457,14 +5417,6 @@
     "zh": "GitHub 企业云客户可以通过选定组织的.github 私有存储库中维护的 Managed-settings.json 文件来配置 AI 标准。这允许企业定义适用于 Copilot 客户端（例如 VS Code 或 Copilot CLI）的新治理和可扩展性流程。",
     "ja": "GitHub Enterprise Cloud の顧客は、選択した組織の.github-private リポジトリに保持されている Managed-settings.json ファイルを通じて AI 標準を構成できます。これにより、企業は、VS Code や Copilot CLI などの Copilot クライアントに適用される新しいガバナンスおよび拡張性フローを定義できるようになります。"
   },
-  "GitHub Copilot app generally available": {
-    "zh": "GitHub Copilot 应用程序正式可用",
-    "ja": "GitHub Copilot アプリの一般提供が開始されました"
-  },
-  "The GitHub Copilot app is now generally available for macOS, Windows, and Linux. It’s the desktop home for agent-driven development, built natively on GitHub.": {
-    "zh": "GitHub Copilot 应用程序现已普遍适用于 macOS、Windows 和 Linux。它是代理驱动开发的桌面主页，原生构建于 GitHub 之上。",
-    "ja": "GitHub Copilot アプリが macOS、Windows、Linux で一般提供されるようになりました。これは、GitHub にネイティブに構築された、エージェント駆動開発のためのデスクトップ ホームです。"
-  },
   "Copilot individual plan sign-ups are reopening": {
     "zh": "Copilot 个人计划注册正在重新开放",
     "ja": "Copilot 個別プランのサインアップが再開されます"
@@ -5472,14 +5424,6 @@
   "We’re reopening sign-ups for GitHub Copilot Student, Pro, Pro+, and Max plans gradually over the next couple of weeks for new subscribers. If you’ve been waiting to get started with Copilot, select the plan that fits your needs.": {
     "zh": "我们将在接下来的几周内逐步为新订阅者重新开放 GitHub Copilot Student、Pro、Pro+ 和 Max 计划的注册。如果您一直在等待开始使用 Copilot，请选择适合您需求的计划。",
     "ja": "新規加入者向けに、GitHub Copilot Student、Pro、Pro+、Max プランへのサインアップを今後数週間かけて段階的に再開します。 Copilot の使用を開始するのを待っていた場合は、ニーズに合ったプランを選択してください。"
-  },
-  "Copilot CLI supports enterprise bring your own key (BYOK) models": {
-    "zh": "Copilot CLI 支持企业自带密钥 (BYOK) 模型",
-    "ja": "Copilot CLI はエンタープライズ Bring Your Own Key (BYOK) モデルをサポートします"
-  },
-  "Models from external providers configured by enterprise admins are now available in the /model picker in Copilot CLI, giving enterprise developers more flexibility and allowing enterprise admins to more easily deploy custom models to developers. To learn more about how enterprise admins can configure models from external providers for use in GitHub Copilot, see Using your LLM provider API keys with Copilot.": {
-    "zh": "由企业管理员配置的外部提供商的模型现在可以在 Copilot CLI 的 /model 选择器中使用，为企业开发人员提供更大的灵活性，并允许企业管理员更轻松地向开发人员部署自定义模型。要详细了解企业管理员如何配置来自外部提供商的模型以在 GitHub Copilot 中使用，请参阅将 LLM 提供商 API 密钥与 Copilot 一起使用。",
-    "ja": "エンタープライズ管理者によって構成された外部プロバイダーのモデルが Copilot CLI の /model ピッカーで使用できるようになりました。これにより、エンタープライズ開発者はより柔軟になり、エンタープライズ管理者は開発者にカスタム モデルをより簡単にデプロイできるようになります。エンタープライズ管理者が GitHub Copilot で使用するために外部プロバイダーのモデルを構成する方法の詳細については、「Copilot での LLM プロバイダー API キーの使用」を参照してください。"
   },
   "Dedicated security review command now available in Copilot CLI": {
     "zh": "Copilot CLI 中现已提供专用安全审查命令",
@@ -5512,30 +5456,6 @@
   "Following the rollout to Copilot Pro and Pro+ users, Copilot Memory is rolling out user-level preferences in public preview for Copilot Business and Copilot Enterprise, with new admin controls for governance. Copilot Memory can now capture user-level preferences such as communication style, tool stack, or git conventions, applying them across repositories and Copilot experiences.": {
     "zh": "继向 Copilot Pro 和 Pro+ 用户推出之后，Copilot Memory 正在为 Copilot Business 和 Copilot Enterprise 的公共预览版推出用户级别首选项，并提供新的治理管理控件。 Copilot 内存现在可以捕获用户级别的首选项，例如通信方式、工具堆栈或 git 约定，并将它们应用于存储库和 Copilot 体验。",
     "ja": "Copilot Pro および Pro+ ユーザーへの展開に続き、Copilot Memory は、ガバナンスのための新しい管理制御を備えた Copilot Business および Copilot Enterprise のパブリック プレビューでユーザー レベルの設定を展開しています。 Copilot メモリは、通信スタイル、ツール スタック、git 規約などのユーザーレベルの設定をキャプチャし、それらをリポジトリと Copilot エクスペリエンス全体に適用できるようになりました。"
-  },
-  "One-click fixes for failing Actions with Copilot cloud agent": {
-    "zh": "使用 Copilot 云代理一键修复失败的操作",
-    "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正"
-  },
-  "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done.": {
-    "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
-    "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。"
-  },
-  "Copilot cloud agent: Fast, cost-efficient models for simple tasks": {
-    "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
-    "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル"
-  },
-  "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options.": {
-    "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用来完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。",
-    "ja": "Copilot クラウド エージェントにタスクを委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポートされているモデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。"
-  },
-  "Ask questions in context with Copilot on web": {
-    "zh": "在网络上使用 Copilot 提问",
-    "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする"
-  },
-  "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching.": {
-    "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。",
-    "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。"
   },
   "Upcoming deprecation of GPT-4.1": {
     "zh": "即将弃用 GPT-4.1",
@@ -5840,5 +5760,61 @@
   "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client.": {
     "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。",
     "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。"
+  },
+  "Agentic autofix for code scanning alerts in public preview": {
+    "zh": "公共预览版中代码扫描警报的代理自动修复",
+    "ja": "パブリック プレビューでのコード スキャン アラートのエージェント自動修正"
+  },
+  "Agentic autofix is now in public preview for code scanning alerts. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review.": {
+    "zh": "代理自动修复现已推出代码扫描警报的公共预览版。它通过以开发人员的方式跨代码库工作来修复警报：它探索相关文件，提出修复方案，并重新运行 CodeQL 以确认修复关闭警报，然后再打开拉取请求以供您审核。",
+    "ja": "Agentic Autofix は現在、コード スキャン アラートのパブリック プレビュー段階にあります。開発者が行うのと同じようにコードベース全体で作業することでアラートを修復します。関連するファイルを調査し、修正を提案し、CodeQL を再実行して修正によってアラートが閉じられることを確認してから、レビューのプル リクエストを開きます。"
+  },
+  "GitHub Copilot app available to all": {
+    "zh": "GitHub Copilot 应用程序可供所有人使用",
+    "ja": "GitHub Copilot アプリは誰でも利用可能"
+  },
+  "The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop.": {
+    "zh": "GitHub Copilot 应用程序现在可用于每个 Copilot 计划。使用您的 GitHub 帐户登录，从桌面开始代理驱动的开发。",
+    "ja": "GitHub Copilot アプリは、すべての Copilot プランで利用できるようになりました。 GitHub アカウントでサインインして、デスクトップからエージェント駆動開発を開始します。"
+  },
+  "Copilot CLI: Configure everything from one place with /settings": {
+    "zh": "Copilot CLI：使用 /settings 从一处配置所有内容",
+    "ja": "Copilot CLI: /settings を使用して 1 か所からすべてを構成する"
+  },
+  "GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required manually editing your settings file into a single, discoverable surface.": {
+    "zh": "GitHub Copilot CLI 现在有一个统一的、模式驱动的配置主目录。新的 /settings 斜杠命令将 /theme、/streamer-mode 和 /experimental 等分散的命令与以前需要手动将设置文件编辑到单个可发现的界面中的选项结合起来。",
+    "ja": "GitHub Copilot CLI には、統合されたスキーマ駆動型の構成ホームが追加されました。新しい /settings スラッシュ コマンドは、/theme、/streamer-mode、/experimental などの分散コマンドと、以前は設定ファイルを手動で編集する必要があったオプションを組み合わせて、単一の検出可能なサーフェスにまとめます。"
+  },
+  "AI usage report updates": {
+    "zh": "AI 使用报告更新",
+    "ja": "AI使用状況レポートの更新"
+  },
+  "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount for the dollar amount.": {
+    "zh": "您的 AI 使用情况报告现在会在标准报告字段中反映 GitHub AI 积分的使用情况。要监控未来 AI 积分的使用情况，请使用 amount 作为 AI 积分数量，使用gross_amount 作为美元金额。",
+    "ja": "AI 使用状況レポートには、標準レポート フィールドの GitHub AI クレジットの使用状況が反映されるようになりました。今後の AI クレジットの使用状況を監視するには、AI クレジットの量に数量を使用し、ドルの金額に gross_amount を使用します。"
+  },
+  "Target Copilot models to organizations with model rules": {
+    "zh": "将 Copilot 模型定位到具有模型规则的组织",
+    "ja": "モデル ルールを使用して Copilot モデルを組織にターゲット設定する"
+  },
+  "Enterprise owners now have granular control over which GitHub Copilot models are available to each organization. With targeted model rules, you can allow specific models for specific organizations instead of relying on a single enterprise-wide setting.": {
+    "zh": "企业所有者现在可以精细控制每个组织可以使用哪些 GitHub Copilot 模型。通过有针对性的模型规则，您可以允许特定组织使用特定模型，而不是依赖于单个企业范围的设置。",
+    "ja": "企業所有者は、各組織でどの GitHub Copilot モデルを使用できるかをきめ細かく制御できるようになりました。対象を絞ったモデル ルールを使用すると、企業全体の単一の設定に依存するのではなく、特定の組織に対して特定のモデルを許可できます。"
+  },
+  "Copilot Memory has more controls for deletion, scope, and the Copilot CLI": {
+    "zh": "Copilot 内存对删除、范围和 Copilot CLI 有更多控制",
+    "ja": "Copilot メモリには、削除、スコープ、および Copilot CLI のためのより多くの制御機能があります"
+  },
+  "Copilot Memory now includes improved memory deletion, adds a repository-level off switch, and brings further memory controls into the Copilot CLI. Copilot Memory is in public preview and available to all paid Copilot plans.": {
+    "zh": "Copilot 内存现在包括改进的内存删除、添加存储库级关闭开关，并将进一步的内存控制引入 Copilot CLI。 Copilot 内存处于公共预览版，可供所有付费 Copilot 计划使用。",
+    "ja": "Copilot メモリには、改善されたメモリ削除機能が含まれ、リポジトリ レベルのオフ スイッチが追加され、Copilot CLI にさらなるメモリ制御が導入されました。 Copilot メモリはパブリック プレビュー段階にあり、すべての有料 Copilot プランで利用できます。"
+  },
+  "Team-level Copilot usage metrics now available via API": {
+    "zh": "团队级 Copilot 使用指标现在可通过 API 获取",
+    "ja": "チームレベルのCopilot使用状況メトリクスがAPI経由で利用可能に"
+  },
+  "The Copilot usage metrics API now exposes a new user-teams report that maps each Copilot-licensed user to the teams they belong to. By joining the user-teams report with the existing per-user usage report, enterprise administrators and organization owners can produce team-level Copilot usage metrics for any team in their organization or enterprise.": {
+    "zh": "Copilot 使用指标 API 现在公开了一个新的用户团队报告，该报告将每个 Copilot 许可的用户映射到他们所属的团队。通过将用户团队报告与现有的每用户使用情况报告相结合，企业管理员和组织所有者可以为其组织或企业中的任何团队生成团队级 Copilot 使用情况指标。",
+    "ja": "Copilot 使用状況メトリクス API は、Copilot ライセンスを取得した各ユーザーを、そのユーザーが所属するチームにマッピングする新しいユーザー チーム レポートを公開するようになりました。ユーザー チーム レポートを既存のユーザーごとの使用状況レポートと結合することにより、エンタープライズ管理者と組織の所有者は、組織または企業内の任意のチームについてチーム レベルの Copilot 使用状況メトリックを作成できます。"
   }
 }
