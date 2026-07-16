@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "windowMonths": 3,
   "items": [
     {
@@ -45,6 +45,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-07-15-github-2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+      "date": "2026-07-15",
+      "category": "github",
+      "title": {
+        "zh": "秘密扫描和公共监控的改进",
+        "ja": "シークレットスキャンとパブリックモニタリングの改善",
+        "en": "Improvements to secret scanning and public monitoring"
+      },
+      "summary": {
+        "zh": "本周，我们将对秘密扫描和公共监控进行多项改进：Resend 现在是 GitHub 秘密扫描合作伙伴。秘密扫描现在可以检测来自 APIclub 和 Resend 的新秘密类型。",
+        "ja": "今週、私たちはシークレット スキャンとパブリック モニタリングに対するいくつかの改善を展開します。Resend は GitHub シークレット スキャン パートナーになりました。シークレット スキャンは、APIclub と Resend からの新しいシークレット タイプを検出するようになりました。",
+        "en": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend."
+      },
+      "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-07-15-github-2026-07-14-github-copilot-in-visual-studio-june-update",
@@ -3513,30 +3537,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-11-github-2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
-      "date": "2026-06-11",
-      "category": "github",
-      "title": {
-        "zh": "如果获得批准，机器人创建的拉取请求可以运行工作流程",
-        "ja": "ボットが作成したプル リクエストは、承認されればワークフローを実行できます",
-        "en": "Bot-created pull requests can run workflows if approved"
-      },
-      "summary": {
-        "zh": "由 github-actions[bot] 创建的拉取请求现在可以在用户批准的情况下运行您的 CI/CD 工作流程。要求批准是一种安全措施，可确保生成的代码不会自动运行可能访问敏感信息的工作流程。",
-        "ja": "github-actions[bot] によって作成されたプル リクエストは、ユーザーの承認を得て CI/CD ワークフローを実行できるようになりました。承認を要求することは、生成されたコードが機密情報にアクセスする可能性のあるワークフローを自動的に実行しないようにするためのセキュリティ対策です。",
-        "en": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically run workflows which may have access to sensitive information."
-      },
-      "url": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
-      "tags": [
-        "improvement",
-        "actions",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-11-github-2026-06-11-ai-usage-report-updates",
       "date": "2026-06-11",
       "category": "github",
@@ -4360,32 +4360,6 @@
       "tags": [
         "retired",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-05-github-2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
-      "date": "2026-06-05",
-      "category": "github",
-      "title": {
-        "zh": "公共预览版 VS Code 中的企业管理插件",
-        "ja": "パブリック プレビュー中の VS Code のエンタープライズ管理プラグイン",
-        "en": "Enterprise-managed plugins in VS Code in public preview"
-      },
-      "summary": {
-        "zh": "上个月，我们推出了 Copilot CLI 的公共预览版，使企业管理员能够配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。 VS Code 发行版本 1.122 添加了对此企业管理功能的支持。",
-        "ja": "先月、Copilot CLI のパブリック プレビューを開始しました。これにより、エンタープライズ管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになります。 VS Code リリース バージョン 1.122 では、このエンタープライズ管理機能のサポートが追加されています。",
-        "en": "Last month we launched a public preview with Copilot CLI that allows enterprise administrators the ability to configure and distribute plugins to GitHub Copilot CLI users across their enterprise. VS Code release version 1.122 adds support for this enterprise-managed capability."
-      },
-      "url": "https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -10206,75 +10180,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-15-openai-the-next-evolution-of-the-agents-sdk",
-      "date": "2026-04-15",
-      "category": "openai",
-      "title": {
-        "zh": "Agents SDK 的下一步发展",
-        "ja": "エージェント SDK の次の進化",
-        "en": "The next evolution of the Agents SDK"
-      },
-      "summary": {
-        "zh": "OpenAI 通过本机沙箱执行和模型本机工具更新了 Agents SDK，帮助开发人员跨文件和工具构建安全、长期运行的代理。",
-        "ja": "OpenAI は、ネイティブ サンドボックス実行とモデル ネイティブ ハーネスを備えたエージェント SDK を更新し、開発者がファイルやツール全体で安全で長時間実行されるエージェントを構築できるようにします。",
-        "en": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools."
-      },
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-15-google-gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
-      "date": "2026-04-15",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash TTS：下一代富有表现力的人工智能语音",
-        "ja": "Gemini 3.1 Flash TTS: 次世代の表現力豊かな AI 音声",
-        "en": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech"
-      },
-      "summary": {
-        "zh": "我们最新的音频模型引入了精细的音频标签，让您可以精确控制直接 AI 语音，从而生成富有表现力的音频。",
-        "ja": "最新のオーディオ モデルには、表現力豊かなオーディオ生成のための AI 音声の指示を正確に制御できる粒度の高いオーディオ タグが導入されています。",
-        "en": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
-      },
-      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-15-github-2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
-      "date": "2026-04-15",
-      "category": "github",
-      "title": {
-        "zh": "通过自定义属性启用 Copilot 云代理",
-        "ja": "カスタム プロパティ経由で Copilot クラウド エージェントを有効にする",
-        "en": "Enable Copilot cloud agent via custom properties"
-      },
-      "summary": {
-        "zh": "您现在可以针对每个组织有选择地启用 GitHub Copilot 云代理 (CCA) 访问权限。以前，企业管理员和人工智能经理只能在各处启用代理、在各处禁用代理，或者让每个组织自行决定。",
-        "ja": "GitHub Copilot クラウド エージェント (CCA) アクセスを組織ごとに選択的に有効にできるようになりました。以前は、企業管理者と AI マネージャーは、どこでもエージェントを有効にするか、どこでも無効にするか、各組織に決定させることしかできませんでした。",
-        "en": "You can now selectively enable GitHub Copilot cloud agent (CCA) access on a per-organization basis. Previously, enterprise admins and AI managers could only enable the agent everywhere, disable it everywhere, or let each organization decide."
-      },
-      "url": "https://github.blog/changelog/2026-04-15-enable-copilot-cloud-agent-via-custom-properties",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     }
   ]
 }
