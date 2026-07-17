@@ -1,7 +1,189 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-16-openai-introducing-gpt-rosalind",
+      "date": "2026-04-16",
+      "category": "openai",
+      "title": {
+        "zh": "引入 GPT-Rosalind 用于生命科学研究",
+        "ja": "ライフサイエンス研究向けの GPT-Rosalind の紹介",
+        "en": "Introducing GPT-Rosalind for life sciences research"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了 GPT-Rosalind，这是一种前沿推理模型，旨在加速药物发现、基因组分析、蛋白质推理和科学研究工作流程。",
+        "ja": "OpenAI は、創薬、ゲノム解析、タンパク質推論、科学研究のワークフローを加速するために構築されたフロンティア推論モデルである GPT-Rosalind を紹介します。",
+        "en": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows."
+      },
+      "url": "https://openai.com/index/introducing-gpt-rosalind",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-openai-codex-for-almost-everything",
+      "date": "2026-04-16",
+      "category": "openai",
+      "title": {
+        "zh": "Codex 用于（几乎）所有内容",
+        "ja": "(ほぼ)すべてにCodex",
+        "en": "Codex for (almost) everything"
+      },
+      "summary": {
+        "zh": "适用于 macOS 和 Windows 的更新后的 Codex 应用程序增加了计算机使用、应用程序内浏览、图像生成、内存和插件，以加速开发人员工作流程。",
+        "ja": "macOS および Windows 用の更新された Codex アプリでは、コンピューターの使用、アプリ内ブラウジング、画像生成、メモリ、プラグインが追加され、開発者のワークフローが高速化されます。",
+        "en": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows."
+      },
+      "url": "https://openai.com/index/codex-for-almost-everything",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-openai-accelerating-cyber-defense-ecosystem",
+      "date": "2026-04-16",
+      "category": "openai",
+      "title": {
+        "zh": "加速保护我们所有人的网络防御生态系统",
+        "ja": "私たち全員を守るサイバー防御エコシステムを加速する",
+        "en": "Accelerating the cyber defense ecosystem that protects us all"
+      },
+      "summary": {
+        "zh": "领先的安全公司和企业加入 OpenAI 的网络可信访问，利用 GPT-5.4-Cyber​​ 和 1000 万美元的 API 拨款来加强全球网络防御。",
+        "ja": "大手セキュリティ企業や企業は、OpenAI の Trusted Access for Cyber​​ に参加し、GPT-5.4-Cyber​​ と 1,000 万ドルの API 助成金を活用して、世界的なサイバー防御を強化しています。",
+        "en": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense."
+      },
+      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-github-2026-04-16-manage-agent-skills-with-github-cli",
+      "date": "2026-04-16",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub CLI 管理代理技能",
+        "ja": "GitHub CLI を使用してエージェントのスキルを管理する",
+        "en": "Manage agent skills with GitHub CLI"
+      },
+      "summary": {
+        "zh": "代理技能正在重塑开发人员使用人工智能编码代理的方式。今天，我们推出 gh Skill，这是 GitHub CLI 中的一个新命令，可以轻松地从 GitHub 存储库发现、安装、管理和发布代理技能。",
+        "ja": "エージェント スキルは、開発者が AI コーディング エージェントと連携する方法を再構築しています。本日、GitHub CLI の新しいコマンドである gh skill を開始します。これにより、GitHub リポジトリからのエージェント スキルの検出、インストール、管理、公開が簡単になります。",
+        "en": "Agent skills are reshaping how developers work with AI coding agents. Today we’re launching gh skill, a new command in the GitHub CLI that makes it easy to discover, install, manage, and publish agent skills from GitHub repositories."
+      },
+      "url": "https://github.blog/changelog/2026-04-16-manage-agent-skills-with-github-cli",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-16-github-2026-04-16-copilot-cli-supports-custom-registry-based-mcp-allowlists",
+      "date": "2026-04-16",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 支持基于自定义注册表的 MCP 允许列表",
+        "ja": "Copilot CLI はカスタム レジストリ ベースの MCP ホワイトリストをサポートします",
+        "en": "Copilot CLI supports custom registry based MCP allowlists"
+      },
+      "summary": {
+        "zh": "企业和组织管理员现在可以携带自己的 MCP 注册表，并在 Copilot CLI 中强制执行许可名单策略。此功能已推出公共预览版，可为直接从 CLI 工作的开发人员带来 MCP 治理控制。",
+        "ja": "企業および組織の管理者は、独自の MCP レジストリを導入し、Copilot CLI で許可リスト ポリシーを適用できるようになりました。この機能はパブリック プレビュー段階にあり、CLI から直接作業する開発者に MCP ガバナンス制御をもたらします。",
+        "en": "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI."
+      },
+      "url": "https://github.blog/changelog/2026-04-16-copilot-cli-supports-custom-registry-based-mcp-allowlists",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-16-github-2026-04-16-claude-opus-4-7-is-generally-available",
+      "date": "2026-04-16",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 4.7 正式可用",
+        "ja": "Claude Opus 4.7 が一般提供されました",
+        "en": "Claude Opus 4.7 is generally available"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 5 月 1 日）：促销定价于 4 月 30 日结束，保费请求乘数更新为 15 倍。 Claude Opus 4.7 是 Anthropic 的最新 Opus 型号，现已在 GitHub Copilot 上推出。",
+        "ja": "編集者注 (2026 年 5 月 1 日): プロモーション価格は 4 月 30 日に終了し、プレミアム リクエスト倍率は 15 倍に更新されました。 Anthropic の最新の Opus モデルである Claude Opus 4.7 は、現在 GitHub Copilot で展開されています。",
+        "en": "Editor’s note (May 1, 2026): Promotional pricing ended on April 30th, and the premium request multiplier was updated to 15x. Claude Opus 4.7, Anthropic’s latest Opus model, is now rolling out on GitHub Copilot."
+      },
+      "url": "https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-16-anthropic-claude-opus-4-7",
+      "date": "2026-04-16",
+      "category": "anthropic",
+      "title": {
+        "zh": "介绍Claude Opus 4.7",
+        "ja": "Claude Opus 4.7 の紹介",
+        "en": "Introducing Claude Opus 4.7"
+      },
+      "summary": {
+        "zh": "我们的最新型号 Claude Opus 4.7 现已全面上市。 Opus 4.7 是 Opus 4.6 在高级软件工程方面的显着改进，在最困难的任务上有特别的进步。",
+        "ja": "最新モデル Claude Opus 4.7 が一般提供になりました。 Opus 4.7 は、高度なソフトウェア エンジニアリングにおける Opus 4.6 の顕著な改善であり、最も困難なタスクにおいて特に改善が見られます。",
+        "en": "Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks."
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-16-anthropic-claude-in-amazon-bedrock",
+      "date": "2026-04-16",
+      "category": "anthropic",
+      "title": {
+        "zh": "亚马逊基岩中的 Claude",
+        "ja": "Amazon Bedrock の Claude",
+        "en": "Claude in Amazon Bedrock"
+      },
+      "summary": {
+        "zh": "Amazon Bedrock 中的 Claude 现已向所有 Amazon Bedrock 客户开放。 Claude Opus 4.7 和 Claude Haiku 4.5 可通过位于 /anthropic/v1/messages 的 Messages API 端点从 Bedrock 控制台自助使用，在 27 个 AWS 区域具有全球和区域端点。",
+        "ja": "Amazon Bedrock の Claude は、すべての Amazon Bedrock 顧客に公開されました。 Claude Opus 4.7 および Claude Haiku 4.5 は、グローバル エンドポイントとリージョン エンドポイントを備えた 27 の AWS リージョンで、/anthropic/v1/messages にあるメッセージ API エンドポイントを介して Bedrock コンソールからセルフサービスで利用できます。",
+        "en": "Claude in Amazon Bedrock is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-serve from the Bedrock console through the Messages API endpoint at /anthropic/v1/messages, in 27 AWS regions with global and regional endpoints."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
+      "tags": [
+        "claude-in-amazon-bedrock",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-04-15-openai-the-next-evolution-of-the-agents-sdk",
       "date": "2026-04-15",
