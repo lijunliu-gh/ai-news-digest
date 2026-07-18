@@ -5928,5 +5928,61 @@
   "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix.": {
     "zh": "现在，您可以直接从 GitHub Mobile 中的 Copilot 代码审查拉取请求注释中选择使用 Copilot 修复。该按钮在拉取请求的主视图和个人审阅评论上均可用，为您提供多种方式来启动 Copilot 辅助修复。",
     "ja": "GitHub モバイルの Copilot コード レビュー プル リクエストのコメントから直接 [Copilot で修正] を選択できるようになりました。このボタンは、プル リクエストのメイン ビューと個々のレビュー コメントの両方で使用でき、Copilot による修正を開始する複数の方法を提供します。"
+  },
+  "Repository-level GitHub Copilot usage metrics generally available": {
+    "zh": "存储库级别 GitHub Copilot 使用指标普遍可用",
+    "ja": "リポジトリ レベルの GitHub Copilot 使用状況メトリクスが一般提供されました"
+  },
+  "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.": {
+    "zh": "Copilot 使用指标 REST API 现在报告存储库级别的活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、每个存储库的拉取请求活动细分。",
+    "ja": "Copilot 使用状況メトリック REST API は、リポジトリ レベルのアクティビティを報告するようになりました。 2 つの新しいエンドポイントは、Copilot コーディング エージェントと Copilot コード レビューのプル リクエスト アクティビティの毎日のリポジトリごとの内訳を返します。"
+  },
+  "GitHub Copilot app now available in the usage metrics API": {
+    "zh": "GitHub Copilot 应用程序现在可在使用指标 API 中使用",
+    "ja": "GitHub Copilot アプリが使用状況メトリクス API で利用可能になりました"
+  },
+  "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve.": {
+    "zh": "Copilot 使用情况指标 API 现在在企业和组织 1 天和 28 天报告中报告 GitHub Copilot 应用程序使用情况。这使企业和组织管理员可以了解应用程序的活动以及他们已检索的 IDE、聊天、代码审查和编码代理指标。",
+    "ja": "Copilot 使用状況メトリック API は、企業および組織の 1 日および 28 日のレポートで GitHub Copilot アプリの使用状況をレポートするようになりました。これにより、企業および組織の管理者は、すでに取得した IDE、チャット、コード レビュー、コーディング エージェントのメトリクスとともに、アプリのアクティビティを把握できるようになります。"
+  },
+  "Copilot code review: Customization and configurability improvements": {
+    "zh": "Copilot 代码审查：自定义和可配置性改进",
+    "ja": "Copilot コード レビュー: カスタマイズと構成可能性の改善"
+  },
+  "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation of custom instructions.": {
+    "zh": "Copilot 代码审查现在利用防火墙、自定义设置步骤和独立的运行程序配置。现在，它从头分支读取自定义指令，以便轻松测试和验证自定义指令。",
+    "ja": "Copilot コード レビューでは、ファイアウォール、カスタム セットアップ手順、および独立したランナー構成が利用されるようになりました。 head ブランチからカスタム命令を読み取るようになり、カスタム命令のテストと検証が簡単にできるようになりました。"
+  },
+  "Security reviews now available in the GitHub Copilot app": {
+    "zh": "安全审查现已在 GitHub Copilot 应用程序中提供",
+    "ja": "GitHub Copilot アプリでセキュリティ レビューが利用可能になりました"
+  },
+  "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.": {
+    "zh": "现在，您可以直接从 GitHub Copilot 应用程序对正在进行的代码更改进行安全审查。 /security-review 斜线命令以公共预览版形式发布，将 Copilot CLI 中已有的相同人工智能驱动的漏洞扫描引入您的日常编码工作流程中。",
+    "ja": "GitHub Copilot アプリから直接、実行中のコード変更に対するセキュリティ レビューを実行できるようになりました。 /security-review スラッシュ コマンドはパブリック プレビューで出荷されており、Copilot CLI ですでに利用可能なものと同じ AI 主導の脆弱性スキャンを日常のコーディング ワークフローに導入します。"
+  },
+  "Agentic workflows no longer need a personal access token": {
+    "zh": "代理工作流程不再需要个人访问令牌",
+    "ja": "エージェント ワークフローには個人用アクセス トークンが必要なくなりました"
+  },
+  "You can now use GitHub Agentic Workflows with GitHub Actions’s built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.": {
+    "zh": "您现在可以将 GitHub 代理工作流程与 GitHub Actions 的内置 GITHUB_TOKEN 结合使用。这意味着您不再需要创建和存储个人访问令牌 (PAT)，从而消除了大规模自动化管理长期 PAT 的操作和安全风险。",
+    "ja": "GitHub アクションの組み込み GITHUB_TOKEN で GitHub エージェント ワークフローを使用できるようになりました。つまり、パーソナル アクセス トークン (PAT) を作成して保存する必要がなくなり、大規模な自動化のために有効期間の長い PAT を管理する際の運用リスクやセキュリティ リスクが排除されます。"
+  },
+  "Copilot Spaces API now generally available": {
+    "zh": "Copilot Spaces API 现已全面可用",
+    "ja": "Copilot Spaces API の一般提供が開始されました"
+  },
+  "Copilot Spaces API is now generally available The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale.": {
+    "zh": "Copilot Spaces API 现已全面可用 GitHub Copilot Spaces API 现已全面可用。您可以直接从自己的应用程序以编程方式创建、读取、更新和删除空间，从而减少团队大规模管理上下文的手动开销。",
+    "ja": "Copilot Spaces API が一般利用可能になりました GitHub Copilot Spaces API が一般利用可能になりました。独自のアプリケーションからスペースをプログラムで直接作成、読み取り、更新、削除できるため、大規模なコンテキストを管理するチームの手動オーバーヘッドが削減されます。"
+  },
+  "Rubber Duck in GitHub Copilot CLI now supports more models": {
+    "zh": "GitHub Copilot CLI 中的橡皮鸭现在支持更多模型",
+    "ja": "GitHub Copilot CLI のラバーダックがより多くのモデルをサポートするようになりました"
+  },
+  "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we’ve upgraded the GPT model used to seek a second opinion.": {
+    "zh": "当您的会话使用 GPT 模型时，Rubber Duck 是 GitHub Copilot CLI 中的跨系列审核代理，现在可以使用 Claude 驱动的评论代理。对于使用 Claude 作为协调器的会话，我们升级了用于寻求第二意见的 GPT 模型。",
+    "ja": "GitHub Copilot CLI のクロスファミリー レビュー エージェントであるラバー ダックは、セッションで GPT モデルを使用している場合に、Claude を利用した批評家エージェントを使用して利用できるようになりました。オーケストレーターとして Claude を使用するセッションの場合、セカンドオピニオンを求めるために使用される GPT モデルをアップグレードしました。"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17",
+  "lastUpdated": "2026-07-18",
   "windowMonths": 3,
   "items": [
     {
@@ -25,6 +25,32 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-17-github-2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+      "date": "2026-07-17",
+      "category": "github",
+      "title": {
+        "zh": "存储库级别 GitHub Copilot 使用指标普遍可用",
+        "ja": "リポジトリ レベルの GitHub Copilot 使用状況メトリクスが一般提供されました",
+        "en": "Repository-level GitHub Copilot usage metrics generally available"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标 REST API 现在报告存储库级别的活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、每个存储库的拉取请求活动细分。",
+        "ja": "Copilot 使用状況メトリック REST API は、リポジトリ レベルのアクティビティを報告するようになりました。 2 つの新しいエンドポイントは、Copilot コーディング エージェントと Copilot コード レビューのプル リクエスト アクティビティの毎日のリポジトリごとの内訳を返します。",
+        "en": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review."
+      },
+      "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-17-github-2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
       "date": "2026-07-17",
       "category": "github",
@@ -42,6 +68,56 @@
       "tags": [
         "improvement",
         "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-17-github-2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+      "date": "2026-07-17",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序现在可在使用指标 API 中使用",
+        "ja": "GitHub Copilot アプリが使用状況メトリクス API で利用可能になりました",
+        "en": "GitHub Copilot app now available in the usage metrics API"
+      },
+      "summary": {
+        "zh": "Copilot 使用情况指标 API 现在在企业和组织 1 天和 28 天报告中报告 GitHub Copilot 应用程序使用情况。这使企业和组织管理员可以了解应用程序的活动以及他们已检索的 IDE、聊天、代码审查和编码代理指标。",
+        "ja": "Copilot 使用状況メトリック API は、企業および組織の 1 日および 28 日のレポートで GitHub Copilot アプリの使用状況をレポートするようになりました。これにより、企業および組織の管理者は、すでに取得した IDE、チャット、コード レビュー、コーディング エージェントのメトリクスとともに、アプリのアクティビティを把握できるようになります。",
+        "en": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve."
+      },
+      "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-17-github-2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+      "date": "2026-07-17",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：自定义和可配置性改进",
+        "ja": "Copilot コード レビュー: カスタマイズと構成可能性の改善",
+        "en": "Copilot code review: Customization and configurability improvements"
+      },
+      "summary": {
+        "zh": "Copilot 代码审查现在利用防火墙、自定义设置步骤和独立的运行程序配置。现在，它从头分支读取自定义指令，以便轻松测试和验证自定义指令。",
+        "ja": "Copilot コード レビューでは、ファイアウォール、カスタム セットアップ手順、および独立したランナー構成が利用されるようになりました。 head ブランチからカスタム命令を読み取るようになり、カスタム命令のテストと検証が簡単にできるようになりました。",
+        "en": "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation of custom instructions."
+      },
+      "url": "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -252,6 +328,31 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-14-github-2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "date": "2026-07-14",
+      "category": "github",
+      "title": {
+        "zh": "安全审查现已在 GitHub Copilot 应用程序中提供",
+        "ja": "GitHub Copilot アプリでセキュリティ レビューが利用可能になりました",
+        "en": "Security reviews now available in the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "现在，您可以直接从 GitHub Copilot 应用程序对正在进行的代码更改进行安全审查。 /security-review 斜线命令以公共预览版形式发布，将 Copilot CLI 中已有的相同人工智能驱动的漏洞扫描引入您的日常编码工作流程中。",
+        "ja": "GitHub Copilot アプリから直接、実行中のコード変更に対するセキュリティ レビューを実行できるようになりました。 /security-review スラッシュ コマンドはパブリック プレビューで出荷されており、Copilot CLI ですでに利用可能なものと同じ AI 主導の脆弱性スキャンを日常のコーディング ワークフローに導入します。",
+        "en": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow."
+      },
+      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "tags": [
+        "improvement",
+        "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-07-14-github-2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
@@ -3719,6 +3820,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-11-github-2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "date": "2026-06-11",
+      "category": "github",
+      "title": {
+        "zh": "代理工作流程不再需要个人访问令牌",
+        "ja": "エージェント ワークフローには個人用アクセス トークンが必要なくなりました",
+        "en": "Agentic workflows no longer need a personal access token"
+      },
+      "summary": {
+        "zh": "您现在可以将 GitHub 代理工作流程与 GitHub Actions 的内置 GITHUB_TOKEN 结合使用。这意味着您不再需要创建和存储个人访问令牌 (PAT)，从而消除了大规模自动化管理长期 PAT 的操作和安全风险。",
+        "ja": "GitHub アクションの組み込み GITHUB_TOKEN で GitHub エージェント ワークフローを使用できるようになりました。つまり、パーソナル アクセス トークン (PAT) を作成して保存する必要がなくなり、大規模な自動化のために有効期間の長い PAT を管理する際の運用リスクやセキュリティ リスクが排除されます。",
+        "en": "You can now use GitHub Agentic Workflows with GitHub Actions’s built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale."
+      },
+      "url": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-11-anthropic-web-search-tool",
       "date": "2026-06-11",
       "category": "anthropic",
@@ -7092,6 +7217,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
+      "date": "2026-05-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot Spaces API 现已全面可用",
+        "ja": "Copilot Spaces API の一般提供が開始されました",
+        "en": "Copilot Spaces API now generally available"
+      },
+      "summary": {
+        "zh": "Copilot Spaces API 现已全面可用 GitHub Copilot Spaces API 现已全面可用。您可以直接从自己的应用程序以编程方式创建、读取、更新和删除空间，从而减少团队大规模管理上下文的手动开销。",
+        "ja": "Copilot Spaces API が一般利用可能になりました GitHub Copilot Spaces API が一般利用可能になりました。独自のアプリケーションからスペースをプログラムで直接作成、読み取り、更新、削除できるため、大規模なコンテキストを管理するチームの手動オーバーヘッドが削減されます。",
+        "en": "Copilot Spaces API is now generally available The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale."
+      },
+      "url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
       "date": "2026-05-18",
       "category": "github",
@@ -8255,6 +8404,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-07-github-2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+      "date": "2026-05-07",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot CLI 中的橡皮鸭现在支持更多模型",
+        "ja": "GitHub Copilot CLI のラバーダックがより多くのモデルをサポートするようになりました",
+        "en": "Rubber Duck in GitHub Copilot CLI now supports more models"
+      },
+      "summary": {
+        "zh": "当您的会话使用 GPT 模型时，Rubber Duck 是 GitHub Copilot CLI 中的跨系列审核代理，现在可以使用 Claude 驱动的评论代理。对于使用 Claude 作为协调器的会话，我们升级了用于寻求第二意见的 GPT 模型。",
+        "ja": "GitHub Copilot CLI のクロスファミリー レビュー エージェントであるラバー ダックは、セッションで GPT モデルを使用している場合に、Claude を利用した批評家エージェントを使用して利用できるようになりました。オーケストレーターとして Claude を使用するセッションの場合、セカンドオピニオンを求めるために使用される GPT モデルをアップグレードしました。",
+        "en": "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we’ve upgraded the GPT model used to seek a second opinion."
+      },
+      "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-07-github-2026-05-07-claude-sonnet-4-deprecated",
@@ -10013,51 +10186,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-17-github-2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-      "date": "2026-04-17",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot CLI 现在支持 Copilot 自动模型选择",
-        "ja": "GitHub Copilot CLI が Copilot 自動モデル選択をサポートするようになりました",
-        "en": "GitHub Copilot CLI now supports Copilot auto model selection"
-      },
-      "summary": {
-        "zh": "Copilot 自动模型选择现在通常可在所有 Copilot 计划的 GitHub Copilot CLI 中使用。通过自动，Copilot 会代表您选择最高效的模型。",
-        "ja": "Copilot 自動モデル選択は、すべての Copilot プランの GitHub Copilot CLI で一般的に利用できるようになりました。 auto では、Copilot がユーザーに代わって最も効率的なモデルを選択します。",
-        "en": "Copilot auto model selection is now generally available in GitHub Copilot CLI for all Copilot plans. With auto, Copilot chooses the most efficient model on your behalf."
-      },
-      "url": "https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-17-anthropic-claude-design-anthropic-labs",
-      "date": "2026-04-17",
-      "category": "anthropic",
-      "title": {
-        "zh": "介绍 Anthropic 实验室设计的 Claude",
-        "ja": "Anthropic Labs による Claude デザインの紹介",
-        "en": "Introducing Claude Design by Anthropic Labs"
-      },
-      "summary": {
-        "zh": "今天，我们推出 Claude Design，这是 Anthropic Labs 的一款新产品，可让您与 Claude 合作创建精美的视觉作品，例如设计、原型、幻灯片、单页机等。",
-        "ja": "本日、私たちは Anthropic Labs の新しい製品である Claude Design を発表します。これにより、Claude と共同作業して、デザイン、プロトタイプ、スライド、概要資料などの洗練されたビジュアル作品を作成できるようになります。",
-        "en": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more."
-      },
-      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
       "tags": [
         "anthropic"
       ],
