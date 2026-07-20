@@ -3,6 +3,30 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-20-github-2026-07-20-github-code-quality-is-now-generally-available",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量现已普遍可用",
+        "ja": "GitHub コード品質が一般提供になりました",
+        "en": "GitHub Code Quality is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub 代码质量现已在 GitHub Enterprise Cloud 和 GitHub Team 上全面提供。它解决了软件开发的一个新兴挑战：人工智能加速代码输出，代码质量帮助团队交付他们信任的代码。",
+        "ja": "GitHub コード品質は、GitHub Enterprise Cloud および GitHub Team で一般提供されるようになりました。ソフトウェア開発の新たな課題を解決します。AI はコード出力を加速し、コード品質はチームが信頼できるコードを出荷するのに役立ちます。",
+        "en": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-17-openai-a-scorecard-for-the-ai-age",
       "date": "2026-07-17",
       "category": "openai",
@@ -276,30 +300,6 @@
       "tags": [
         "improvement",
         "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-15-github-2026-07-14-github-copilot-in-visual-studio-june-update",
-      "date": "2026-07-15",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio 中的 GitHub Copilot — 六月更新",
-        "ja": "Visual Studio の GitHub Copilot — 6 月の更新",
-        "en": "GitHub Copilot in Visual Studio — June update"
-      },
-      "summary": {
-        "zh": "2026 年 6 月是关于可见性和信任的主题，可以更清晰地了解 GitHub Copilot 使用情况、MCP 服务器的新信任层，以及现代化代理达到普遍可用性的第一个 C++ 场景。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
-        "ja": "2026 年 6 月は、GitHub Copilot の使用状況をより明確に表示する可視性と信頼性、MCP サーバーの新しい信頼レイヤー、および最新化エージェントの最初の C++ シナリオが一般提供される予定です。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。",
-        "en": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -2032,30 +2032,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-30-github-2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "date": "2026-06-30",
-      "category": "github",
-      "title": {
-        "zh": "Claude Sonnet 5 一般可用于 GitHub Copilot",
-        "ja": "Claude Sonnet 5 は GitHub Copilot で一般提供されています",
-        "en": "Claude Sonnet 5 is generally available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Sonnet 5 是 Anthropic 的最新 Sonnet 级型号，现已在 GitHub Copilot 中提供。它为日常开发和代理工作流程带来了强大的编码性能，为开发人员提供了跨 IDE 和 CLI 执行任务的新 Sonnet 类选项。",
-        "ja": "Claude Sonnet 5 は Anthropic の最新の Sonnet クラス モデルで、GitHub Copilot で利用可能になりました。日々の開発やエージェントワークフローに強力なコーディングパフォーマンスをもたらし、開発者に IDE と CLI にわたるタスクのための新しい Sonnet クラスのオプションを提供します。",
-        "en": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option for tasks across the IDE and CLI."
-      },
-      "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-30-anthropic-webhooks",
       "date": "2026-06-30",
       "category": "anthropic",
@@ -2976,31 +2952,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 操作结账的默认 pull_request_target 更安全",
-        "ja": "GitHub アクション チェックアウトのより安全な pull_request_target のデフォルト",
-        "en": "Safer pull_request_target defaults for GitHub Actions checkout"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 7 月 15 日）：我们更新了这篇文章以反映修订后的向后移植执行日期。向后移植版本的操作/结账的执行日期已从 2026 年 7 月 16 日移至 2026 年 7 月 20 日星期一。",
-        "ja": "編集者注 (2026 年 7 月 15 日): 修正されたバックポート施行日を反映するためにこの投稿を更新しました。アクション/チェックアウトのバックポート バージョンの適用は、2026 年 7 月 16 日から 2026 年 7 月 20 日月曜日に変更されました。",
-        "en": "Editor’s note (July 15, 2026): We updated this post to reflect a revised backport enforcement date. Enforcement for backported versions of actions/checkout has been moved from July 16, 2026 to Monday, July 20, 2026."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout",
-      "tags": [
-        "release",
-        "actions",
-        "supply-chain-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-github-2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
       "date": "2026-06-18",
       "category": "github",
@@ -3789,30 +3740,6 @@
       "tags": [
         "improvement",
         "actions",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-11-github-2026-06-11-ai-usage-report-updates",
-      "date": "2026-06-11",
-      "category": "github",
-      "title": {
-        "zh": "AI 使用报告更新",
-        "ja": "AI使用状況レポートの更新",
-        "en": "AI usage report updates"
-      },
-      "summary": {
-        "zh": "您的 AI 使用情况报告现在会在标准报告字段中反映 GitHub AI 积分的使用情况。要监控未来 AI 积分的使用情况，请使用 amount 作为 AI 积分数量，使用gross_amount 作为美元金额。",
-        "ja": "AI 使用状況レポートには、標準レポート フィールドの GitHub AI クレジットの使用状況が反映されるようになりました。今後の AI クレジットの使用状況を監視するには、AI クレジットの量に数量を使用し、ドルの金額に gross_amount を使用します。",
-        "en": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount for the dollar amount."
-      },
-      "url": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
-      "tags": [
-        "improvement",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -4814,30 +4741,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-04-github-2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
-      "date": "2026-06-04",
-      "category": "github",
-      "title": {
-        "zh": "使用 Copilot 修复了 Pro、Pro+ 和 Max 中现在失败的操作",
-        "ja": "Pro、Pro+、Max で失敗したアクションを Copilot で修正しました",
-        "en": "Fix with Copilot for failing Actions now in Pro, Pro+, and Max"
-      },
-      "summary": {
-        "zh": "当 GitHub Actions 作业失败时，Copilot Pro、Pro+ 和 Max 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
-        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Pro、Pro+、および Max サブスクライバーは、Copilot クラウド エージェントにワンクリックで修正を依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。",
-        "en": "When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done."
-      },
-      "url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-04-github-2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
       "date": "2026-06-04",
       "category": "github",
@@ -5239,30 +5142,6 @@
         "en": "With the new automations feature, Copilot cloud agent can now run automatically, on a schedule or in response to repository events. Automations let you hand off repetitive tasks to the agent without any manual input."
       },
       "url": "https://github.blog/changelog/2026-06-02-schedule-and-automate-tasks-with-copilot-cloud-agent",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-02-github-2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot",
-      "date": "2026-06-02",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1-Flash 现在可用于 GitHub Copilot",
-        "ja": "MAI-Code-1-Flash が GitHub Copilot で利用できるようになりました",
-        "en": "MAI-Code-1-Flash is now available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "MAI‑Code‑1‑Flash 是 Microsoft 最新的小型编码模型，现已从 VS Code 开始在 GitHub Copilot 中推出。 MAI‑Code‑1‑Flash 以其尺寸提供一流的质量，在早期测试中优于其他小型模型，使其非常适合轻量级编码工作流程。",
-        "ja": "Microsoft の最新の小規模階層コーディング モデルである MAI‑Code‑1‑Flash は、VS Code から GitHub Copilot で展開されています。 MAI‑Code‑1‑Flash は、そのサイズに対してクラス最高の品質を提供し、初期のテストで他の小型モデルを上回るパフォーマンスを示し、軽量のコーディング ワークフローに最適です。",
-        "en": "MAI‑Code‑1‑Flash, Microsoft’s latest small‑tier coding model, is now rolling out in GitHub Copilot starting with VS Code. MAI‑Code‑1‑Flash delivers best‑in‑class quality for its size, outperforming other small models in early testing, making it well‑suited for lightweight coding workflows."
-      },
-      "url": "https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot",
       "tags": [
         "release",
         "copilot",
@@ -7185,30 +7064,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-github-2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "使用 Copilot 云代理一键修复失败的操作",
-        "ja": "Copilot クラウド エージェントで失敗したアクションをワンクリックで修正",
-        "en": "One-click fixes for failing Actions with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
-        "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。",
-        "en": "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-one-click-fixes-for-failing-actions-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
