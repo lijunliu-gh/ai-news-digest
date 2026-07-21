@@ -4886,14 +4886,6 @@
     "zh": "Copilot Memory 现在支持 Copilot Pro 和 Copilot Pro+ 用户的早期访问中的用户级别首选项。 Copilot 现在可以存储有关您喜欢如何与其交互的陈述或推断的个人偏好。",
     "ja": "Copilot メモリは、Copilot Pro および Copilot Pro+ ユーザーの早期アクセスでユーザーレベルの設定をサポートするようになりました。 Copilot は、ユーザーがどのように操作したいかについて、明示または推測された個人的な好みを保存できるようになりました。"
   },
-  "More flexible secrets and variables for Copilot cloud agent": {
-    "zh": "Copilot 云代理更灵活的秘密和变量",
-    "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数"
-  },
-  "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers.": {
-    "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。",
-    "ja": "タスクを Copilot クラウド エージェントに委任すると、GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。"
-  },
   "A new way to reflect on how you use Claude": {
     "zh": "反思如何使用 Claude 的新方法",
     "ja": "Claude の使用方法を振り返る新しい方法"
@@ -6032,5 +6024,29 @@
   "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place.": {
     "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。",
     "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。"
+  },
+  "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber": {
+    "zh": "介绍 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash 网络",
+    "ja": "Gemini 3.6 Flash、3.5 Flash-Lite、および 3.5 Flash Cyber​​ の紹介"
+  },
+  "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.": {
+    "zh": "我们正在推出新的 Gemini 型号，包括 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​。",
+    "ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyber​​ などの新しい Gemini モデルを導入します。"
+  },
+  "Introducing Gemini 3.5 Flash Cyber": {
+    "zh": "Gemini 3.5 Flash 网络简介",
+    "ja": "Gemini 3.5 Flash サイバーの紹介"
+  },
+  "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.": {
+    "zh": "Google 推出了 Gemini 3.5 Flash Cyber​​，这是一种用于查找和修补漏洞的轻量级网络安全模型。",
+    "ja": "Google は、脆弱性を見つけてパッチを適用するための軽量サイバーセキュリティ モデルである Gemini 3.5 Flash Cyber​​ を導入しました。"
+  },
+  "Gemini 3.6 Flash is now available in GitHub Copilot": {
+    "zh": "Gemini 3.6 Flash 现在可在 GitHub Copilot 中使用",
+    "ja": "Gemini 3.6 Flash が GitHub Copilot で利用可能になりました"
+  },
+  "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.": {
+    "zh": "Gemini 3.6 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。它专为 Web 和应用程序开发、编码和长期代理任务而设计。",
+    "ja": "Google の最新の Flash モデルである Gemini 3.6 Flash は、GitHub Copilot で展開されています。 Web およびアプリの開発、コーディング、および長期的なエージェント タスク向けに設計されています。"
   }
 }
