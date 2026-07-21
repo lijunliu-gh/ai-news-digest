@@ -3,6 +3,50 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-21-openai-hugging-face-model-evaluation-security-incident",
+      "date": "2026-07-21",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
+        "ja": "OpenAI と Hugging Face が提携してモデル評価中のセキュリティ インシデントに対処",
+        "en": "OpenAI and Hugging Face partner to address security incident during model evaluation"
+      },
+      "summary": {
+        "zh": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
+        "ja": "OpenAI と Hugging Face は、AI モデルの評価中に発生したセキュリティ インシデントの初期の調査結果を共有し、高度なサイバー機能と防御者向けの教訓を強調しています。",
+        "en": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
+      },
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-21-openai-david-velez-robin-vince-join-openai-boards",
+      "date": "2026-07-21",
+      "category": "openai",
+      "title": {
+        "zh": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
+        "ja": "David Vélez と Robin Vince が OpenAI Foundation と OpenAI Group PBC の理事に加わりました",
+        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
+      },
+      "summary": {
+        "zh": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会，带来金融、技术和治理领域的全球领导力。",
+        "ja": "David Vélez と Robin Vince は、OpenAI Foundation と OpenAI Group PBC の役員に加わり、財務、テクノロジー、ガバナンスの分野で世界的なリーダーシップを発揮します。",
+        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
+      },
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-07-21-google-introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber",
       "date": "2026-07-21",
       "category": "google",
@@ -88,6 +132,32 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-20-github-2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 用户现在可以查看每个计费周期使用的 AI 积分",
+        "ja": "Copilot ユーザーは、請求サイクルごとに使用された AI クレジットを確認できるようになりました",
+        "en": "Copilot users can now see AI credits used per billing cycle"
+      },
+      "summary": {
+        "zh": "Copilot 商业和 Copilot 企业用户现在可以看到他们在这个计费周期中使用了多少 AI 积分，即使没有个人预算。在 GitHub 设置中的 GitHub Copilot 使用页面上找到此内容。",
+        "ja": "Copilot Business および Copilot Enterprise ユーザーは、個別の予算がなくても、この請求サイクルで使用した AI クレジットの数を確認できるようになりました。これは、GitHub 設定の GitHub Copilot 使用状況ページで見つけます。",
+        "en": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -8369,6 +8439,30 @@
       "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
       "tags": [
         "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理更灵活的秘密和变量",
+        "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数",
+        "en": "More flexible secrets and variables for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。",
+        "ja": "タスクを Copilot クラウド エージェントに委任すると、そのタスクは GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。",
+        "en": "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
