@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "windowMonths": 3,
   "items": [
     {
@@ -42,32 +42,6 @@
       "tags": [
         "release",
         "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 用户现在可以查看每个计费周期使用的 AI 积分",
-        "ja": "Copilot ユーザーは、請求サイクルごとに使用された AI クレジットを確認できるようになりました",
-        "en": "Copilot users can now see AI credits used per billing cycle"
-      },
-      "summary": {
-        "zh": "Copilot 商业和 Copilot 企业用户现在可以看到他们在这个计费周期中使用了多少 AI 积分，即使没有个人预算。在 GitHub 设置中的 GitHub Copilot 使用页面上找到此内容。",
-        "ja": "Copilot Business および Copilot Enterprise ユーザーは、個別の予算がなくても、この請求サイクルで使用した AI クレジットの数を確認できるようになりました。これは、GitHub 設定の GitHub Copilot の使用状況ページで見つかります。",
-        "en": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -1980,6 +1954,54 @@
         "en": "Copilot vision is now generally available. You can attach images and PDFs directly to your chat prompts so Copilot can reason about what it sees alongside your code."
       },
       "url": "https://github.blog/changelog/2026-07-01-copilot-vision-is-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-01-github-2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+      "date": "2026-07-01",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI 根据任务自动选择模型路线",
+        "ja": "Copilot タスクに基づいた CLI 自動モデル選択ルート",
+        "en": "Copilot CLI auto model selection routes based on task"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 7 月 1 日）：更新了保费请求成本以引用 AI 积分。 GitHub Copilot 自动模型选择现在可以在 Copilot CLI 中路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。",
+        "ja": "編集者注 (2026 年 7 月 1 日): AI クレジットを参照するためにプレミアム リクエストのコストを更新しました。 GitHub Copilot 自動モデル選択は、高品質で信頼性が高く、トークン効率の高いエクスペリエンスを実現するために、使用率とモデルの健全性メトリクスを使用して、Copilot CLI でタスクに最適なモデルにルーティングされるようになりました。",
+        "en": "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience."
+      },
+      "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-01-github-2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
+      "date": "2026-07-01",
+      "category": "github",
+      "title": {
+        "zh": "VS Code 中 GitHub Copilot 的浏览器工具已普遍可用",
+        "ja": "VS Code の GitHub Copilot 用のブラウザ ツールが一般提供されました",
+        "en": "Browser tools for GitHub Copilot in VS Code are generally available"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 7 月 1 日）：添加了有关哪些权限受您控制以及现有网络域控制的更多详细信息。 VS Code 中的 GitHub Copilot 浏览器工具现已普遍可用。",
+        "ja": "編集者注記 (2026 年 7 月 1 日): どのアクセス許可がユーザーの制御下にあるのか、および既存のネットワーク ドメインの制御下にあるのかについての詳細を追加しました。 VS Code の GitHub Copilot 用のブラウザ ツールが一般公開されました。",
+        "en": "Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are now generally available."
+      },
+      "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
       "tags": [
         "release",
         "copilot",
@@ -6214,6 +6236,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-28-github-2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
+      "date": "2026-05-28",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 4.8 一般可用于 GitHub Copilot",
+        "ja": "Claude Opus 4.8 は GitHub Copilot で一般提供されています",
+        "en": "Claude Opus 4.8 is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 4.8，Anthropic 的最新 Opus 型号，现已在 GitHub Copilot 中提供。在我们的早期测试中，Opus 4.8 在一系列实际编码任务中的代码理解和生成方面取得了明显的进步。",
+        "ja": "Anthropic の最新の Opus モデルである Claude Opus 4.8 が GitHub Copilot で利用できるようになりました。私たちの初期のテストでは、Opus 4.8 は、現実世界のさまざまなコーディング タスクにわたってコードの理解と生成において明確に前進していることを実証しました。",
+        "en": "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across a range of real-world coding tasks."
+      },
+      "url": "https://github.blog/changelog/2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-28-anthropic-vision",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -8949,6 +8995,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-05-github-2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "date": "2026-05-05",
+      "category": "github",
+      "title": {
+        "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+        "ja": "GitHub MCP サーバーによるシークレット スキャンが一般提供になりました",
+        "en": "Secret scanning with GitHub MCP Server is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。",
+        "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。",
+        "en": "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place."
+      },
+      "url": "https://github.blog/changelog/2026-05-05-secret-scanning-with-github-mcp-server-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-05-github-2026-05-05-dependency-scanning-with-github-mcp-server-is-in-public-preview",
       "date": "2026-05-05",
       "category": "github",
@@ -10192,73 +10262,6 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-20-openai-hyatt-advances-ai-with-chatgpt-enterprise",
-      "date": "2026-04-20",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 帮助凯悦在同事中推进人工智能",
-        "ja": "OpenAI は、ハイアットが同僚間で AI を推進するのに役立ちます",
-        "en": "OpenAI helps Hyatt advance AI among colleagues"
-      },
-      "summary": {
-        "zh": "凯悦在其全球员工中部署 ChatGPT Enterprise，使用 GPT-5.4 和 Codex 来提高生产力、运营和宾客体验。",
-        "ja": "ハイアットは、生産性、運用、ゲスト エクスペリエンスを向上させるために GPT-5.4 と Codex を使用して、世界中の従業員全体に ChatGPT Enterprise を展開しています。",
-        "en": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences."
-      },
-      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-20-github-2026-04-20-changes-to-github-copilot-plans-for-individuals",
-      "date": "2026-04-20",
-      "category": "github",
-      "title": {
-        "zh": "个人 GitHub Copilot 计划的变更",
-        "ja": "個人向けの GitHub Copilot プランの変更",
-        "en": "Changes to GitHub Copilot plans for individuals"
-      },
-      "summary": {
-        "zh": "正如我们在最近的博客文章中所分享的，我们正在对个人 Copilot 计划进行以下更改，作为我们持续努力的一部分，以确保所有用户的服务可靠性和可持续的 Copilot 体验。暂停 Pro、Pro+ 和 Student 的新注册为了优先考虑现有付费客户的服务质量，我们将暂停 Student、Pro 和 Pro+ 计划的新注册。",
-        "ja": "最近のブログ投稿で共有したように、すべてのユーザーにサービスの信頼性と持続可能な Copilot エクスペリエンスを確保するための継続的な取り組みの一環として、個人向けの Copilot プランに次の変更を加えます。 Pro、Pro+、Student の新規サインアップの一時停止 既存の有料顧客へのサービス品質を優先するため、Student、Pro、Pro+ プランの新規サインアップを一時停止します。",
-        "en": "As shared in our recent blog post, we’re making the following changes to Copilot plans for individuals as part of our ongoing efforts to ensure service reliability and a sustainable Copilot experience for all users. New signups paused for Pro, Pro+, and Student To prioritize service quality for existing paying customers, we will be pausing new signups for our Student, Pro, and Pro+ plans."
-      },
-      "url": "https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-20-anthropic-anthropic-amazon-compute",
-      "date": "2026-04-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 和 Amazon 扩大合作以实现高达 5 吉瓦的新计算",
-        "ja": "Anthropic と Amazon がコラボレーションを拡大し、最大 5 ギガワットの新しいコンピューティングを実現",
-        "en": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }

@@ -5921,14 +5921,6 @@
     "zh": "OpenAI 分享部署长期运行的人工智能模型的经验教训，强调新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
     "ja": "OpenAI は、長期実行 AI モデルの展開から得た教訓を共有し、新たな安全リスク、観察された障害、反復展開による安全対策の改善に焦点を当てています。"
   },
-  "Copilot users can now see AI credits used per billing cycle": {
-    "zh": "Copilot 用户现在可以查看每个计费周期使用的 AI 积分",
-    "ja": "Copilot ユーザーは、請求サイクルごとに使用された AI クレジットを確認できるようになりました"
-  },
-  "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.": {
-    "zh": "Copilot 商业和 Copilot 企业用户现在可以看到他们在这个计费周期中使用了多少 AI 积分，即使没有个人预算。在 GitHub 设置中的 GitHub Copilot 使用页面上找到此内容。",
-    "ja": "Copilot Business および Copilot Enterprise ユーザーは、個別の予算がなくても、この請求サイクルで使用した AI クレジットの数を確認できるようになりました。これは、GitHub 設定の GitHub Copilot の使用状況ページで見つかります。"
-  },
   "AI credit pools for cost centers in the billing UI": {
     "zh": "计费 UI 中成本中心的 AI 信用池",
     "ja": "請求 UI のコストセンターの AI クレジット プール"
@@ -6008,5 +6000,37 @@
   "When a GitHub Actions job fails, Copilot Business and Copilot Enterprise subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button on the workflow run logs page, and Copilot will investigate the failure, push a fix to your branch, and tag you for review when it’s done.": {
     "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
     "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。"
+  },
+  "Copilot CLI auto model selection routes based on task": {
+    "zh": "Copilot CLI 根据任务自动选择模型路线",
+    "ja": "Copilot タスクに基づいた CLI 自動モデル選択ルート"
+  },
+  "Editor’s note (July 1, 2026): Updated the premium request costs to reference AI credits. GitHub Copilot auto model selection now routes to the best model for your task in Copilot CLI, using utilization and model health metrics for a high quality, reliable, and token-efficient experience.": {
+    "zh": "编者注（2026 年 7 月 1 日）：更新了保费请求成本以引用 AI 积分。 GitHub Copilot 自动模型选择现在可以在 Copilot CLI 中路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。",
+    "ja": "編集者注 (2026 年 7 月 1 日): AI クレジットを参照するためにプレミアム リクエストのコストを更新しました。 GitHub Copilot 自動モデル選択は、高品質で信頼性が高く、トークン効率の高いエクスペリエンスを実現するために、使用率とモデルの健全性メトリクスを使用して、Copilot CLI でタスクに最適なモデルにルーティングされるようになりました。"
+  },
+  "Browser tools for GitHub Copilot in VS Code are generally available": {
+    "zh": "VS Code 中 GitHub Copilot 的浏览器工具已普遍可用",
+    "ja": "VS Code の GitHub Copilot 用のブラウザ ツールが一般提供されました"
+  },
+  "Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are now generally available.": {
+    "zh": "编者注（2026 年 7 月 1 日）：添加了有关哪些权限受您控制以及现有网络域控制的更多详细信息。 VS Code 中的 GitHub Copilot 浏览器工具现已普遍可用。",
+    "ja": "編集者注記 (2026 年 7 月 1 日): どのアクセス許可がユーザーの制御下にあるのか、および既存のネットワーク ドメインの制御下にあるのかについての詳細を追加しました。 VS Code の GitHub Copilot 用のブラウザ ツールが一般公開されました。"
+  },
+  "Claude Opus 4.8 is generally available for GitHub Copilot": {
+    "zh": "Claude Opus 4.8 一般可用于 GitHub Copilot",
+    "ja": "Claude Opus 4.8 は GitHub Copilot で一般提供されています"
+  },
+  "Claude Opus 4.8, Anthropic’s latest Opus model, is now available in GitHub Copilot. In our early testing, Opus 4.8 demonstrates a clear step forward in code understanding and generation across a range of real-world coding tasks.": {
+    "zh": "Claude Opus 4.8，Anthropic 的最新 Opus 型号，现已在 GitHub Copilot 中提供。在我们的早期测试中，Opus 4.8 在一系列实际编码任务中的代码理解和生成方面取得了明显的进步。",
+    "ja": "Anthropic の最新の Opus モデルである Claude Opus 4.8 が GitHub Copilot で利用できるようになりました。私たちの初期のテストでは、Opus 4.8 は、現実世界のさまざまなコーディング タスクにわたってコードの理解と生成において明確に前進していることを実証しました。"
+  },
+  "Secret scanning with GitHub MCP Server is now generally available": {
+    "zh": "使用 GitHub MCP 服务器进行秘密扫描现已普遍可用",
+    "ja": "GitHub MCP サーバーによるシークレット スキャンが一般提供になりました"
+  },
+  "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place.": {
+    "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。",
+    "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。"
   }
 }
