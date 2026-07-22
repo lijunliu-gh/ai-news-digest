@@ -4974,14 +4974,6 @@
     "zh": "正如我们在最近的博客文章中所宣布的，GitHub Copilot 的基于使用情况的计费现已对所有用户开放，Copilot 代码审查除了 GitHub AI 积分外，还会消耗 GitHub 操作分钟数。作为此版本的一部分，我们还推出了新的用户级预算控制并支持升级到 Copilot Max。",
     "ja": "最近のブログ投稿で発表したように、GitHub Copilot の使用量ベースの課金がすべてのユーザーに対して有効になり、Copilot コード レビューには GitHub AI クレジットに加えて GitHub アクション分が消費されます。このリリースの一環として、新しいユーザーレベルの予算管理も開始し、Copilot Max へのアップグレードが可能になります。"
   },
-  "Copilot usage metrics API adds cohorts for AI adoption": {
-    "zh": "Copilot 使用指标 API 添加了人工智能采用的队列",
-    "ja": "Copilot 使用状況メトリクス API が AI 導入のコホートを追加"
-  },
-  "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports.": {
-    "zh": "为了帮助您讲述更深入的 Copilot 采用故事，不仅包括哪些人活跃，还包括他们如何使用 Copilot，Copilot 使用指标 API 现在根据每个参与用户在 28 天滚动窗口内的 Copilot 产品使用情况，将其分类为 AI 采用阶段。用户级报告中提供了新的 ai_adoption_phase 字段，新的 Totals_by_ai_adoption_phase 数组可在企业级和组织级报告中显示每个阶段的指标。",
-    "ja": "誰がアクティブであるかだけでなく、Copilot をどのように使用しているかなど、より深い Copilot 導入ストーリーを伝えるのに役立つように、Copilot 使用状況メトリクス API は、28 日間のローリング ウィンドウでの Copilot 製品の使用状況に基づいて、関与している各ユーザーを AI 導入フェーズに分類するようになりました。新しい ai_adoption_phase フィールドはユーザー レベルのレポートで使用でき、新しい totals_by_ai_adoption_phase 配列は企業レベルおよび組織レベルのレポートでフェーズごとのメトリクスを表示します。"
-  },
   "UST is bringing Claude to physical AI": {
     "zh": "UST 将 Claude 引入物理人工智能",
     "ja": "UST は物理 AI に Claude を導入します"
@@ -5269,14 +5261,6 @@
     "zh": "GitHub 代码扫描现在直接在拉取请求上显示人工智能驱动的安全检测，将漏洞覆盖范围扩大到 CodeQL 目前不支持的语言和框架。这些检测可帮助团队识别并解决代码库中以前没有本机扫描覆盖范围的部分中的潜在问题，所有这些都是在代码合并之前进行的。",
     "ja": "GitHub コード スキャンにより、AI を利用したセキュリティ検出がプル リクエストで直接表示されるようになり、脆弱性の対象範囲が CodeQL で現在サポートされていない言語やフレームワークに拡大されます。これらの検出は、コードがマージされる前に、チームが以前はネイティブ スキャン範囲がなかったコードベースの部分の潜在的な問題を特定し、対処するのに役立ちます。"
   },
-  "Ask Copilot for a repository overview": {
-    "zh": "向 Copilot 询问存储库概述",
-    "ja": "リポジトリの概要については Copilot に問い合わせてください"
-  },
-  "You can now ask GitHub Copilot for a high-level overview of any repository you’re exploring for the first time. When you visit the home page of a repository you haven’t contributed to before on github.com, Copilot offers to generate an overview for you.": {
-    "zh": "现在，您可以向 GitHub Copilot 询问您第一次探索的任何存储库的高级概述。当您访问 github.com 上以前未曾贡献过的存储库的主页时，Copilot 会为您生成概述。",
-    "ja": "初めて探索するリポジトリの概要を GitHub Copilot に尋ねることができるようになりました。 github.com でこれまでに貢献したことのないリポジトリのホームページにアクセスすると、Copilot が概要を生成するよう提案します。"
-  },
   "The session.thread_* webhook events now include a session_thread_id field identifying the multiagent thread that triggered the event.": {
     "zh": "session.thread_* webhook 事件现在包含一个 session_thread_id 字段，用于标识触发该事件的多代理线程。",
     "ja": "session.thread_* webhook イベントには、イベントをトリガーしたマルチエージェント スレッドを識別する session_thread_id フィールドが含まれるようになりました。"
@@ -5408,14 +5392,6 @@
   "Copilot code review’s previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied. Now you can define what happens next and control how the fix should be applied.": {
     "zh": "Copilot 代码审查之前的“实施建议”按钮现已重命名为“使用 Copilot 修复”，并更新为支持 UI 对话框，以便更好地控制建议的应用方式。现在您可以定义接下来会发生什么并控制如何应用修复。",
     "ja": "Copilot コード レビューの以前の [提案を実装] ボタンは、[Copilot で修正] に名前が変更され、提案の適用方法をより詳細に制御するための UI ダイアログをサポートするように更新されました。これで、次に何が起こるかを定義し、修正をどのように適用するかを制御できるようになりました。"
-  },
-  "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview": {
-    "zh": "GitHub Copilot CLI 中的企业管理插件现已推出公共预览版",
-    "ja": "GitHub Copilot CLI のエンタープライズ管理プラグインがパブリック プレビュー段階になりました"
-  },
-  "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client.": {
-    "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。",
-    "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。"
   },
   "Agentic autofix for code scanning alerts in public preview": {
     "zh": "公共预览版中代码扫描警报的代理自动修复",
@@ -6088,5 +6064,45 @@
   "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million.": {
     "zh": "Anthropic 为“公共优先行动”额外捐款 2000 万美元，使我们的支持总额达到 4000 万美元。",
     "ja": "Anthropic は Public First Action にさらに 2,000 万ドルを寄付しており、支援総額は 4,000 万ドルになります。"
+  },
+  "Introducing OpenAI Presence": {
+    "zh": "介绍 OpenAI 存在",
+    "ja": "OpenAI プレゼンスの紹介"
+  },
+  "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.": {
+    "zh": "隆重推出 OpenAI Presence，这是一个经过验证的企业 AI 代理平台，可帮助组织为客户和内部工作流程部署可信的语音和聊天代理。",
+    "ja": "OpenAI Presence は、組織が顧客および内部のワークフロー向けに信頼できる音声およびチャット エージェントを導入するのに役立つ、実証済みのエンタープライズ AI エージェント プラットフォームです。"
+  },
+  "Building AI infrastructure with the Effingham County community": {
+    "zh": "与埃芬汉县社区一起建设人工智能基础设施",
+    "ja": "エフィンガム郡コミュニティと AI インフラストラクチャを構築する"
+  },
+  "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.": {
+    "zh": "OpenAI 宣布在佐治亚州埃芬汉县推出 Camellia 项目，承诺提供负责任的能源、社区投资、就业机会和 Codex 的使用权。",
+    "ja": "OpenAI は、責任あるエネルギー、コミュニティへの投資、雇用、Codex へのアクセスへの取り組みを目的として、ジョージア州エフィンガム郡でプロジェクト カメリアを発表します。"
+  },
+  "Advancing the next era of national science": {
+    "zh": "推进国家科学的下一个时代",
+    "ja": "国家科学の次の時代を前進させる"
+  },
+  "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.": {
+    "zh": "OpenAI 概述了其与美国能源部和国家实验室合作推进美国科学发展的承诺，利用前沿人工智能加速发现。",
+    "ja": "OpenAI は、米国エネルギー省および国立研究所と協力してフロンティア AI を使用して発見を加速する、米国科学の進歩への取り組みを概説しています。"
+  },
+  "3 Google updates from Galaxy Unpacked 2026": {
+    "zh": "Galaxy Unpacked 2026 的 3 项 Google 更新",
+    "ja": "Galaxy Unpacked 2026 からの 3 つの Google アップデート"
+  },
+  "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon.": {
+    "zh": "我们分享了三星用户如何提高工作效率并节省时间购买即将推出的新款可折叠设备、手表和眼镜。",
+    "ja": "Samsung ユーザーが生産性を向上させ、近々発売される新しい折りたたみ式時計、時計、メガネの使用時間を取り戻す方法について共有しました。"
+  },
+  "spend limits guide": {
+    "zh": "支出限额指南",
+    "ja": "支出制限ガイド"
+  },
+  "Added organization and project spend limits for the OpenAI API platform. Set monthly spend limits to monitor API costs, or enforce hard limits so API responses fail after an organization or project reaches its limit.": {
+    "zh": "添加了 OpenAI API 平台的组织和项目支出限制。设置每月支出限制以监控 API 成本，或实施硬限制，以便 API 响应在组织或项目达到其限制后失败。",
+    "ja": "OpenAI API プラットフォームに組織とプロジェクトの支出制限を追加しました。毎月の支出制限を設定して API コストを監視したり、組織またはプロジェクトが制限に達した後に API 応答が失敗するようにハード制限を適用したりできます。"
   }
 }
