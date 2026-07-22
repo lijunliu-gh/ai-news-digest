@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://openai.com/index/introducing-openai-presence</guid>
     </item>
     <item>
+      <title>How news organizations are using AI to advance their vital missions</title>
+      <link>https://openai.com/index/how-news-organizations-are-using-ai</link>
+      <description>News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/how-news-organizations-are-using-ai</guid>
+    </item>
+    <item>
       <title>Building AI infrastructure with the Effingham County community</title>
       <link>https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community</link>
       <description>OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.</description>
@@ -41,6 +50,78 @@
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Blog</source>
       <guid isPermaLink="true">https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026</guid>
+    </item>
+    <item>
+      <title>New Copilot usage metrics impact dashboard</title>
+      <link>https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard</link>
+      <description>We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard</guid>
+    </item>
+    <item>
+      <title>environment.*</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/webhooks#supported-event-types</link>
+      <description>Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four environment.* event types and three memory_store.* event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in Subscribe to webhooks.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/webhooks#supported-event-types</guid>
+    </item>
+    <item>
+      <title>initial_events</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/sessions#seed-the-session-with-initial-events</link>
+      <description>When creating a Claude Managed Agents session, you can now seed it with initial events. Pass initial_events on POST /v1/sessions with up to 50 user.message and user.define_outcome events. A non-empty list starts the agent loop in the same call, so you don't need a separate send-events request to start work.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/sessions#seed-the-session-with-initial-events</guid>
+    </item>
+    <item>
+      <title>GET /v1/sessions/{session_id}/threads/{thread_id}/stream</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas</link>
+      <description>Claude Managed Agents session thread event streams now support event deltas. GET /v1/sessions/{session_id}/threads/{thread_id}/stream accepts the same event_deltas[] query parameter as the session-level stream, so you can preview a subagent's text as the model generates it. A connection previews only the thread it's reading. See Preview session thread events.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas</guid>
+    </item>
+    <item>
+      <title>Supporting ambitious external research through the Anthropic Economic Futures Research Fund</title>
+      <link>https://www.anthropic.com/news/economic-futures-research-fund-agenda</link>
+      <description>We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
+      <guid isPermaLink="true">https://www.anthropic.com/news/economic-futures-research-fund-agenda</guid>
+    </item>
+    <item>
+      <title>The Anthropic Economic Index connector</title>
+      <link>https://www.anthropic.com/news/anthropic-economic-index-connector</link>
+      <description>We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-economic-index-connector</guid>
+    </item>
+    <item>
+      <title>effort</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/agent-setup#create-an-agent</link>
+      <description>You can now set an effort level on a Claude Managed Agents agent's model configuration. Pass effort inside the model object when you create the agent. See Effort levels for what each level does.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/agent-setup#create-an-agent</guid>
+    </item>
+    <item>
+      <title>version</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/agent-setup#update-an-agent</link>
+      <description>The version field is now optional when updating a Claude Managed Agents agent. Supply it for optimistic concurrency (a mismatch returns a 409 error), or omit it to apply the update unconditionally. See Update semantics.</description>
+      <pubDate>2026-07-22</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/agent-setup#update-an-agent</guid>
     </item>
     <item>
       <title>OpenAI and Hugging Face partner to address security incident during model evaluation</title>
@@ -374,87 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions</guid>
-    </item>
-    <item>
-      <title>CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection</title>
-      <link>https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection</link>
-      <description>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection</guid>
-    </item>
-    <item>
-      <title>Clearer names for secret scanning detector types</title>
-      <link>https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types</link>
-      <description>To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change only; detection behavior is exactly the same.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types</guid>
-    </item>
-    <item>
-      <title>Agentic autofix for code scanning alerts in public preview</title>
-      <link>https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview</link>
-      <description>Agentic autofix is now in public preview for all code scanning alerts. It remediates alerts generated by CodeQL and third-party scanning tools by working across your codebase the way a developer would—it explores relevant files, proposes a fix, and reruns the original analysis to confirm the fix closes the alert before opening a pull request for your review.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview</guid>
-    </item>
-    <item>
-      <title>Dreams</title>
-      <link>https://platform.claude.com/docs/en/managed-agents/dreams</link>
-      <description>Dreams (research preview) now supports Claude Fable 5 and Claude Sonnet 5. See Supported models.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/dreams</guid>
-    </item>
-    <item>
-      <title>cmek_preserve</title>
-      <link>https://platform.claude.com/docs/en/manage-claude/access-transparency</link>
-      <description>We've expanded the Access Transparency documentation of cmek_preserve events with a filter example, an example event payload, and two preservation reason codes ( policy_violation_investigation, csae_report ). The documentation now also clarifies that a preservation event is written whether the preservation was initiated by a human reviewer or an automated safety pipeline. See CMEK content preservation.</description>
-      <pubDate>2026-07-10</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/access-transparency</guid>
-    </item>
-    <item>
-      <title>GPT-5.6 is now the preferred model in Microsoft 365 Copilot</title>
-      <link>https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot</link>
-      <description>Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.</description>
-      <pubDate>2026-07-09</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot</guid>
-    </item>
-    <item>
-      <title>GPT-5.6: Frontier intelligence that scales with your ambition</title>
-      <link>https://openai.com/index/gpt-5-6</link>
-      <description>More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.</description>
-      <pubDate>2026-07-09</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/gpt-5-6</guid>
-    </item>
-    <item>
-      <title>ChatGPT is now a partner for your most ambitious work</title>
-      <link>https://openai.com/index/chatgpt-for-your-most-ambitious-work</link>
-      <description>ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.</description>
-      <pubDate>2026-07-09</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/chatgpt-for-your-most-ambitious-work</guid>
-    </item>
-    <item>
-      <title>GPT-5.6 model family</title>
-      <link>https://developers.openai.com/api/docs/changelog#2026-07-09-feature-gpt-5-6-model-family</link>
-      <description>Released the GPT-5.6 model family, including GPT-5.6 Sol for frontier capability, GPT-5.6 Terra for a balance of intelligence and cost, and GPT-5.6 Luna for efficient, high-volume workloads. The gpt-5.6 alias routes requests to gpt-5.6-sol.</description>
-      <pubDate>2026-07-09</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
-      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-07-09-feature-gpt-5-6-model-family</guid>
     </item>
   </channel>
 </rss>

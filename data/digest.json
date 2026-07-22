@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-22-openai-how-news-organizations-are-using-ai",
+      "date": "2026-07-22",
+      "category": "openai",
+      "title": {
+        "zh": "新闻机构如何利用人工智能来推进其重要使命",
+        "ja": "報道機関が重要な任務を推進するために AI をどのように活用しているか",
+        "en": "How news organizations are using AI to advance their vital missions"
+      },
+      "summary": {
+        "zh": "新闻机构正在利用人工智能来加强报道、扩大受众并改善业务运营，并通过 OpenAI 工具为全球记者和出版商提供支持。",
+        "ja": "報道機関は AI を活用して報道を強化し、視聴者を増やし、業務運営を改善しており、OpenAI ツールは世界中のジャーナリストや出版社をサポートしています。",
+        "en": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
+      },
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-07-22-openai-building-ai-infrastructure-with-the-effingham-county-community",
       "date": "2026-07-22",
       "category": "openai",
@@ -92,6 +114,189 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-07-22-github-2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+      "date": "2026-07-22",
+      "category": "github",
+      "title": {
+        "zh": "新的 Copilot 使用指标影响仪表板",
+        "ja": "新しい Copilot 使用状況指標がダッシュボードに影響を与える",
+        "en": "New Copilot usage metrics impact dashboard"
+      },
+      "summary": {
+        "zh": "我们为企业管理员和组织所有者发布了新的 Copilot 指标影响仪表板。此仪表板不仅分享活跃用户，还分享他们如何使用 Copilot，帮助您讲述更深入的 Copilot 影响故事。",
+        "ja": "エンタープライズ管理者と組織所有者向けに、新しい Copilot メトリクス影響ダッシュボードをリリースしました。このダッシュボードは、誰がアクティブであるかだけでなく、Copilot をどのように使用しているかを共有することで、Copilot のより深い影響ストーリーを伝えるのに役立ちます。",
+        "en": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot."
+      },
+      "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-22-anthropic-webhooks",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "环境。*",
+        "ja": "環境。*",
+        "en": "environment.*"
+      },
+      "summary": {
+        "zh": "Claude 托管代理的 Webhooks 现在涵盖环境和内存存储生命周期：四种environment.*事件类型和三种memory_store.*事件类型。您无需轮询即可对环境和内存存储生命周期更改做出反应。请参阅订阅 webhooks 中的环境事件和内存存储事件选项卡。",
+        "ja": "Claude 管理対象エージェントの Webhook は、環境とメモリ ストアのライフサイクル (4 つのenvironment.* イベント タイプと 3 つのmemory_store.* イベント タイプ) をカバーするようになりました。 You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in Subscribe to webhooks.",
+        "en": "Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four environment.* event types and three memory_store.* event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in Subscribe to webhooks."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/webhooks#supported-event-types",
+      "tags": [
+        "environment",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-22-anthropic-sessions",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "初始事件",
+        "ja": "初期イベント",
+        "en": "initial_events"
+      },
+      "summary": {
+        "zh": "创建 Claude 托管代理会话时，您现在可以使用初始事件为其播种。在 POST /v1/sessions 上传递initial_events，最多包含 50 个 user.message 和 user.define_outcome 事件。非空列表会在同一调用中启动代理循环，因此您不需要单独的发送事件请求来开始工作。",
+        "ja": "Claude 管理対象エージェント セッションを作成するときに、初期イベントをシードできるようになりました。 POST /v1/sessions で、最大 50 個の user.message および user.define_outcome イベントを含むinitial_events を渡します。空でないリストは同じ通話内でエージェント ループを開始するため、作業を開始するために別のイベント送信リクエストを行う必要はありません。",
+        "en": "When creating a Claude Managed Agents session, you can now seed it with initial events. Pass initial_events on POST /v1/sessions with up to 50 user.message and user.define_outcome events. A non-empty list starts the agent loop in the same call, so you don't need a separate send-events request to start work."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/sessions#seed-the-session-with-initial-events",
+      "tags": [
+        "initial-events",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-22-anthropic-events-and-streaming",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "GET /v1/sessions/{session_id}/threads/{thread_id}/stream",
+        "ja": "GET /v1/sessions/{session_id}/threads/{thread_id}/stream",
+        "en": "GET /v1/sessions/{session_id}/threads/{thread_id}/stream"
+      },
+      "summary": {
+        "zh": "Claude 托管代理会话线程事件流现在支持事件增量。 GET /v1/sessions/{session_id}/threads/{thread_id}/stream 接受与会话级流相同的 event_deltas[] 查询参数，因此您可以在模型生成子代理的文本时预览它。连接仅预览它正在读取的线程。请参阅预览会话线程事件。",
+        "ja": "Claude 管理対象エージェントのセッション スレッド イベント ストリームがイベント デルタをサポートするようになりました。 GET /v1/sessions/{session_id}/threads/{thread_id}/stream は、セッション レベルのストリームと同じevent_deltas[] クエリ パラメーターを受け入れるため、モデルが生成するサブエージェントのテキストをプレビューできます。接続では、読み取っているスレッドのみがプレビューされます。 「セッション スレッド イベントのプレビュー」を参照してください。",
+        "en": "Claude Managed Agents session thread event streams now support event deltas. GET /v1/sessions/{session_id}/threads/{thread_id}/stream accepts the same event_deltas[] query parameter as the session-level stream, so you can preview a subagent's text as the model generates it. A connection previews only the thread it's reading. See Preview session thread events."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas",
+      "tags": [
+        "get-v1-sessions-session-id-threads-thread-id-stream",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-22-anthropic-economic-futures-research-fund-agenda",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "通过 Anthropic 经济未来研究基金支持雄心勃勃的外部研究",
+        "ja": "Anthropic 経済先物研究基金を通じて野心的な外部研究を支援",
+        "en": "Supporting ambitious external research through the Anthropic Economic Futures Research Fund"
+      },
+      "summary": {
+        "zh": "我们承诺向 Anthropic 经济未来研究基金拨款 2 亿美元，以支持雄心勃勃的外部研究。",
+        "ja": "私たちは、野心的な外部研究を支援するために、Anthropic 経済先物研究基金に 2 億ドルを拠出しています。",
+        "en": "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research."
+      },
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-22-anthropic-anthropic-economic-index-connector",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 经济指数连接器",
+        "ja": "Anthropic 経済指標コネクタ",
+        "en": "The Anthropic Economic Index connector"
+      },
+      "summary": {
+        "zh": "我们正在为 Claude 推出 Anthropic 经济指数连接器，让任何人都可以直接探索数据。",
+        "ja": "Claude 用の Anthropic 経済指標コネクタをリリースします。これにより、誰でもデータを直接探索できるようになります。",
+        "en": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore the data directly."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-22-anthropic-agent-setup-2",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "努力",
+        "ja": "努力",
+        "en": "effort"
+      },
+      "summary": {
+        "zh": "您现在可以在 Claude Managed Agents 代理的模型配置上设置工作级别。创建代理时，将工作传递到模型对象内部。请参阅工作量级别了解每个级别的作用。",
+        "ja": "Claude 管理対象エージェント エージェントのモデル構成に作業レベルを設定できるようになりました。エージェントを作成するときに、モデル オブジェクト内にエフォートを渡します。各レベルの内容については、「努力レベル」を参照してください。",
+        "en": "You can now set an effort level on a Claude Managed Agents agent's model configuration. Pass effort inside the model object when you create the agent. See Effort levels for what each level does."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/agent-setup#create-an-agent",
+      "tags": [
+        "effort",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-22-anthropic-agent-setup",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "版本",
+        "ja": "バージョン",
+        "en": "version"
+      },
+      "summary": {
+        "zh": "更新 Claude Managed Agents 代理时，版本字段现在是可选的。提供它以实现乐观并发（不匹配会返回 409 错误），或者忽略它以无条件应用更新。请参阅更新语义。",
+        "ja": "Claude 管理対象エージェント エージェントを更新する場合、バージョン フィールドはオプションになりました。楽観的な同時実行のためにこれを指定するか (不一致がある場合は 409 エラーを返します)、更新を無条件に適用するために省略します。 「更新セマンティクス」を参照してください。",
+        "en": "The version field is now optional when updating a Claude Managed Agents agent. Supply it for optimistic concurrency (a mismatch returns a 409 error), or omit it to apply the update unconditionally. See Update semantics."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/agent-setup#update-an-agent",
+      "tags": [
+        "version",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-07-21-openai-hugging-face-model-evaluation-security-incident",
@@ -1226,6 +1431,30 @@
       "tags": [
         "release",
         "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-09-github-2026-07-09-ask-copilot-for-a-repository-overview",
+      "date": "2026-07-09",
+      "category": "github",
+      "title": {
+        "zh": "向 Copilot 询问存储库概述",
+        "ja": "リポジトリの概要については Copilot に問い合わせてください",
+        "en": "Ask Copilot for a repository overview"
+      },
+      "summary": {
+        "zh": "现在，您可以向 GitHub Copilot 询问您第一次探索的任何存储库的高级概述。当您访问 github.com 上以前未曾贡献过的存储库的主页时，Copilot 会为您生成概述。",
+        "ja": "初めて探索するリポジトリの概要を GitHub Copilot に尋ねることができるようになりました。 github.com でこれまでに貢献したことのないリポジトリのホームページにアクセスすると、Copilot が概要を生成するよう提案します。",
+        "en": "You can now ask GitHub Copilot for a high-level overview of any repository you’re exploring for the first time. When you visit the home page of a repository you haven’t contributed to before on github.com, Copilot offers to generate an overview for you."
+      },
+      "url": "https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -2443,29 +2672,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-30-anthropic-webhooks",
-      "date": "2026-06-30",
-      "category": "anthropic",
-      "title": {
-        "zh": "订阅网络钩子",
-        "ja": "Webhook を購読する",
-        "en": "Subscribe to webhooks"
-      },
-      "summary": {
-        "zh": "Claude 托管代理的 Webhook 现在涵盖代理、部署和部署运行生命周期。您可以对新发布的代理版本、暂停的部署或失败的计划运行做出反应，而无需轮询。请参阅订阅 webhooks 中的代理事件、部署事件和部署运行事件选项卡。",
-        "ja": "Claude 管理対象エージェントの Webhook は、エージェント、デプロイメント、およびデプロイメント実行のライフサイクルをカバーするようになりました。ポーリングを行わずに、新しく公開されたエージェントのバージョン、一時停止された展開、または失敗したスケジュールされた実行に対応できます。 「Webhook のサブスクライブ」の「エージェント イベント」、「デプロイメント イベント」、および「デプロイメント実行イベント」タブを参照してください。",
-        "en": "Webhooks for Claude Managed Agents now cover the agent, deployment, and deployment run lifecycle. You can react to a newly published agent version, a paused deployment, or a failed scheduled run without polling. See the Agent events, Deployment events, and Deployment run events tabs in Subscribe to webhooks."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/webhooks#supported-event-types",
-      "tags": [
-        "subscribe-to-webhooks",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-06-30-anthropic-vaults",
       "date": "2026-06-30",
       "category": "anthropic",
@@ -2554,29 +2760,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-30-anthropic-events-and-streaming",
-      "date": "2026-06-30",
-      "category": "anthropic",
-      "title": {
-        "zh": "event_deltas[]",
-        "ja": "イベントデルタ[]",
-        "en": "event_deltas[]"
-      },
-      "summary": {
-        "zh": "Claude 托管代理会话事件流现在支持事件增量。使用 GET /v1/sessions/{session_id}/events/stream 上的 event_deltas[] 查询参数选择加入。 event_start 和 event_delta 事件会在完整的 agent.message 事件到达之前预览生成的代理消息文本。",
-        "ja": "Claude 管理対象エージェントのセッション イベント ストリームがイベント デルタをサポートするようになりました。 GET /v1/sessions/{session_id}/events/stream で、event_deltas[] クエリ パラメーターを使用してオプトインします。 events_start およびevent_delta イベントは、完全なagent.message イベントが到着する前に、生成されたエージェント メッセージのテキストをプレビューします。",
-        "en": "Claude Managed Agents session event streams now support event deltas. Opt in with the event_deltas[] query parameter on GET /v1/sessions/{session_id}/events/stream. The event_start and event_delta events preview an agent message's text as it's generated, before the complete agent.message event arrives."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/events-and-streaming#event-deltas",
-      "tags": [
-        "event-deltas",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-30-anthropic-claude-sonnet-5",
@@ -3650,32 +3833,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-17-github-2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
-      "date": "2026-06-17",
-      "category": "github",
-      "title": {
-        "zh": "企业管理的设置现在支持绕过权限控制",
-        "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました",
-        "en": "Enterprise-managed settings now support bypass permission controls"
-      },
-      "summary": {
-        "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。",
-        "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれる) を自動的にスキップしないようにできるようになりました。",
-        "en": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve)."
-      },
-      "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-17-github-2026-06-17-copilot-individual-plan-sign-ups-are-reopening",
       "date": "2026-06-17",
       "category": "github",
@@ -3717,30 +3874,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-17-github-2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
-      "date": "2026-06-17",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 聊天中的自动模式可供所有用户使用",
-        "ja": "Copilot の自動モード チャットはすべてのユーザーが利用可能",
-        "en": "Auto mode in Copilot Chat available for all users"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 自动模型选择现已在 github.com 上的 Copilot Chat 和所有 Copilot 计划的 GitHub 移动应用程序中普遍提供。通过自动，Copilot 根据您请求的复杂性和当前型号的可用性代表您选择型号。",
-        "ja": "GitHub Copilot 自動モデル選択は、github.com の Copilot チャットおよびすべての Copilot プランの GitHub モバイル アプリで一般利用できるようになりました。自動の場合、Copilot は、リクエストの複雑さと現在のモデルの可用性に基づいて、ユーザーに代わってモデルを選択します。",
-        "en": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability."
-      },
-      "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -6137,30 +6270,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-01-github-2026-06-01-updates-to-github-copilot-billing-and-plans",
-      "date": "2026-06-01",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 账单和计划更新",
-        "ja": "GitHub Copilot の請求とプランの更新",
-        "en": "Updates to GitHub Copilot billing and plans"
-      },
-      "summary": {
-        "zh": "正如我们在最近的博客文章中所宣布的，GitHub Copilot 的基于使用情况的计费现已对所有用户开放，Copilot 代码审查除了 GitHub AI 积分外，还会消耗 GitHub 操作分钟数。作为此版本的一部分，我们还推出了新的用户级预算控制并支持升级到 Copilot Max。",
-        "ja": "最近のブログ投稿で発表したように、GitHub Copilot の使用量ベースの課金がすべてのユーザーに対して有効になり、Copilot コード レビューには GitHub AI クレジットに加えて GitHub アクション分が消費されます。このリリースの一環として、新しいユーザーレベルの予算管理も開始し、Copilot Max へのアップグレードが可能になります。",
-        "en": "As announced in our recent blog post, usage-based billing for GitHub Copilot is now live for all users and Copilot code review consumes GitHub Actions minutes, in addition to GitHub AI Credits. As part of this release, we’re also launching new user-level budget controls and enabling upgrades to Copilot Max."
-      },
-      "url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-01-github-2026-06-01-evaluation-models-in-auto-for-individual-plans",
       "date": "2026-06-01",
       "category": "github",
@@ -7420,11 +7529,11 @@
         "en": "agent_toolset"
       },
       "summary": {
-        "zh": "借助 Claude 托管代理，agent_toolset 和 MCP 工具超过 100K 令牌的大量输出现在会自动溢出到沙箱中的文件中。该模型会收到带有文件路径的截断预览，并可以从那里读取完整内容。",
-        "ja": "Claude 管理対象エージェントを使用すると、agent_toolset および MCP ツールからの 100K トークンを超える大規模な出力が、サンドボックス内のファイルに自動的に書き込まれるようになりました。モデルは、ファイル パスを含む切り詰められたプレビューを受け取り、そこから完全なコンテンツを読み取ることができます。",
-        "en": "With Claude Managed Agents, large outputs from agent_toolset and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there."
+        "zh": "借助 Claude 托管代理，agent_toolset 和 MCP 工具超过 100K 个字符（约 25K 个令牌）的大量输出现在会自动溢出到沙箱中的文件中。该模型会收到带有文件路径的截断预览，并可以从那里读取完整内容。",
+        "ja": "Claude 管理対象エージェントを使用すると、agent_toolset および MCP ツールからの 100,000 文字 (約 25,000 トークン) を超える大きな出力が、サンドボックス内のファイルに自動的に書き込まれるようになりました。モデルは、ファイル パスを含む切り詰められたプレビューを受け取り、そこから完全なコンテンツを読み取ることができます。",
+        "en": "With Claude Managed Agents, large outputs from agent_toolset and MCP tools exceeding 100K characters (about 25K tokens) are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#may-19-2026-with-claude-managed-agents-large-outputs-from-agent-toolset-and-mcp-tools-exceeding-100k-tokens-are-now-automatically-spilled-to-a-file-in-the-sandbox-the-model-receives-a-truncated-preview-with-the-file-path-and-can-read-the-full-content-from-there-agent-toolset",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#may-19-2026-with-claude-managed-agents-large-outputs-from-agent-toolset-and-mcp-tools-exceeding-100k-characters-about-25k-tokens-are-now-automatically-spilled-to-a-file-in-the-sandbox-the-model-receives-a-truncated-preview-with-the-file-path-and-can-read-the-full-content-from-there-agent-toolset",
       "tags": [
         "agent-toolset",
         "anthropic",
@@ -8074,30 +8183,6 @@
         "en": "Copilot cloud agent now supports Copilot auto model selection. When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model performance."
       },
       "url": "https://github.blog/changelog/2026-05-14-copilot-cloud-agent-supports-auto-model-selection",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-14-github-2026-05-13-introducing-copilot-cli-agent-and-unified-sessions-view-in-github-copilot-for-jetbrains-ides",
-      "date": "2026-05-14",
-      "category": "github",
-      "title": {
-        "zh": "在 JetBrains IDE 的 GitHub Copilot 中引入 Copilot CLI 代理和统一会话视图",
-        "ja": "JetBrains IDE の Copilot CLI エージェントと GitHub Copilot の統合セッション ビューの導入",
-        "en": "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs"
-      },
-      "summary": {
-        "zh": "此更新将 Copilot CLI 代理引入 JetBrains IDE，并提供统一的会话视图，显示正在运行和排队的会话的实时状态。它还在代理模式下添加了提问工具，改进了 GitHub Enterprise Server (GHES) 的登录，添加了 global.agent.md 支持，并提供了多项用户体验改进。",
-        "ja": "このアップデートにより、Copilot CLI エージェントが JetBrains IDE に導入されるとともに、実行中のセッションとキューに入れられたセッションのライブ ステータスを表示する統合セッション ビューが追加されました。また、エージェント モードでの質問ツールの追加、GitHub Enterprise Server (GHES) へのサインインの改善、global.agent.md サポートの追加、およびいくつかのユーザー エクスペリエンスの向上を実現します。",
-        "en": "This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask question tool in agent mode, improves sign-in for GitHub Enterprise Server (GHES), adds global.agent.md support, and delivers several user experience improvements."
-      },
-      "url": "https://github.blog/changelog/2026-05-13-introducing-copilot-cli-agent-and-unified-sessions-view-in-github-copilot-for-jetbrains-ides",
       "tags": [
         "improvement",
         "copilot",
@@ -8985,6 +9070,32 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-06-github-2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+      "date": "2026-05-06",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot CLI 中的企业管理插件现已推出公共预览版",
+        "ja": "GitHub Copilot CLI のエンタープライズ管理プラグインがパブリック プレビュー段階になりました",
+        "en": "Enterprise-managed plugins in GitHub Copilot CLI are now in public preview"
+      },
+      "summary": {
+        "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。",
+        "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。",
+        "en": "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client."
+      },
+      "url": "https://github.blog/changelog/2026-05-06-enterprise-managed-plugins-in-github-copilot-cli-are-now-in-public-preview",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
