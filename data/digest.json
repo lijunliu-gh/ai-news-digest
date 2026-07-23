@@ -4865,6 +4865,52 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-09-anthropic-thinking-steering-and-cost",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "思考：{“type”：“禁用”}",
+        "ja": "思考: {\"タイプ\": \"無効\"}",
+        "en": "thinking: {\"type\": \"disabled\"}"
+      },
+      "summary": {
+        "zh": "在Claude寓言5和Claude神话5上，自适应思维是唯一的思维模式：不支持thinking: {\"type\": \"disabled\"}，也不支持手动扩展思维预算和辅助预填（均返回400错误）。请参阅从 Claude Mythos 预览版迁移到 Claude Mythos 5。",
+        "ja": "Claude Fable 5 および Claude Mythos 5 では、適応的思考が唯一の思考モードです。 Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos プレビューから Claude Mythos 5 への移行」を参照してください。",
+        "en": "On Claude Fable 5 and Claude Mythos 5, adaptive thinking is the only thinking mode: thinking: {\"type\": \"disabled\"} is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See Migrating from Claude Mythos Preview to Claude Mythos 5."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost",
+      "tags": [
+        "thinking-type-disabled",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-06-09-anthropic-thinking",
+      "date": "2026-06-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "思考.展示",
+        "ja": "思考・表示",
+        "en": "thinking.display"
+      },
+      "summary": {
+        "zh": "在 Claude Fable 5 和 Claude Mythos 5 上，thinking.display 默认为“省略”，与 Claude Opus 4.8、Claude Opus 4.7 和 Claude Mythos Preview 相同；设置显示：“摘要”以接收可读的思维摘要。原始的思想链永远不会返回；在同一模型上的多轮对话中，传递思维块会保持不变。请参阅 Claude Fable 5 和 Claude Mythos 5 的思考输出。",
+        "ja": "Claude Fable 5 および Claude Mythos 5 では、 Thinking.display のデフォルトは、Claude Opus 4.8、Claude Opus 4.7、および Claude Mythos Preview と同じ「省略」になります。読みやすい思考の要約を受け取るには、display: \"summaryized\" を設定します。生の思考の連鎖は決して戻されません。同じモデルでの複数ターンの会話で、思考ブロックを変更せずに戻します。 Claude Fable 5 および Claude Mythos 5 に関する考察の出力を参照してください。",
+        "en": "On Claude Fable 5 and Claude Mythos 5, thinking.display defaults to \"omitted\", the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set display: \"summarized\" to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See Thinking output on Claude Fable 5 and Claude Mythos 5."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking#thinking-output-on-claude-fable-5-and-claude-mythos-5",
+      "tags": [
+        "thinking-display",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-06-09-anthropic-scheduled-deployments",
       "date": "2026-06-09",
       "category": "anthropic",
@@ -5017,52 +5063,6 @@
       "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements",
       "tags": [
         "model-specific-data-retention-requirements",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-06-09-anthropic-adaptive-thinking-2",
-      "date": "2026-06-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "思考：{“type”：“禁用”}",
-        "ja": "思考: {\"タイプ\": \"無効\"}",
-        "en": "thinking: {\"type\": \"disabled\"}"
-      },
-      "summary": {
-        "zh": "在Claude寓言5和Claude神话5上，自适应思维是唯一的思维模式：不支持thinking: {\"type\": \"disabled\"}，也不支持手动扩展思维预算和辅助预填（均返回400错误）。请参阅从 Claude Mythos 预览版迁移到 Claude Mythos 5。",
-        "ja": "Claude Fable 5 および Claude Mythos 5 では、適応的思考が唯一の思考モードです。 Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos プレビューから Claude Mythos 5 への移行」を参照してください。",
-        "en": "On Claude Fable 5 and Claude Mythos 5, adaptive thinking is the only thinking mode: thinking: {\"type\": \"disabled\"} is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See Migrating from Claude Mythos Preview to Claude Mythos 5."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking",
-      "tags": [
-        "thinking-type-disabled",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-06-09-anthropic-adaptive-thinking",
-      "date": "2026-06-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "思考.展示",
-        "ja": "思考・表示",
-        "en": "thinking.display"
-      },
-      "summary": {
-        "zh": "在 Claude Fable 5 和 Claude Mythos 5 上，thinking.display 默认为“省略”，与 Claude Opus 4.8、Claude Opus 4.7 和 Claude Mythos Preview 相同；设置显示：“摘要”以接收可读的思维摘要。原始的思想链永远不会返回；在同一模型上的多轮对话中，传递思维块会保持不变。请参阅 Claude Fable 5 和 Claude Mythos 5 的思考输出。",
-        "ja": "Claude Fable 5 および Claude Mythos 5 では、 Thinking.display のデフォルトは、Claude Opus 4.8、Claude Opus 4.7、および Claude Mythos Preview と同じ「省略」になります。読みやすい思考の要約を受け取るには、display: \"summaryized\" を設定します。生の思考の連鎖は決して戻されません。同じモデルでの複数ターンの会話で、思考ブロックを変更せずに戻します。 Claude Fable 5 および Claude Mythos 5 に関する考察の出力を参照してください。",
-        "en": "On Claude Fable 5 and Claude Mythos 5, thinking.display defaults to \"omitted\", the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set display: \"summarized\" to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See Thinking output on Claude Fable 5 and Claude Mythos 5."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking#thinking-output-on-claude-fable-5-and-claude-mythos-5",
-      "tags": [
-        "thinking-display",
         "anthropic",
         "release-notes"
       ],
@@ -7015,7 +7015,7 @@
         "ja": "Messages API の応答には、usage.output_tokens_details. Thinking_tokens が含まれるようになり、請求された出力トークンの数が拡張思考であったことを報告します。ストリーミング中、内訳は最後の message_delta イベントにのみ表示されます。ベータヘッダーは必要ありません。",
         "en": "The Messages API response now includes usage.output_tokens_details.thinking_tokens, reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final message_delta event. No beta header is required."
       },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#working-with-thinking-budgets",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking#budget-rules-and-tuning",
       "tags": [
         "usage-output-tokens-details-thinking-tokens",
         "anthropic",
