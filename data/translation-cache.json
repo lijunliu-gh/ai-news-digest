@@ -6046,14 +6046,6 @@
     "zh": "我们分享了三星用户如何提高工作效率并节省时间购买即将推出的新款可折叠设备、手表和眼镜。",
     "ja": "Samsung ユーザーが生産性を向上させ、近々発売される新しい折りたたみ式時計、時計、メガネの使用時間を取り戻す方法について共有しました。"
   },
-  "spend limits guide": {
-    "zh": "支出限额指南",
-    "ja": "支出制限ガイド"
-  },
-  "Added organization and project spend limits for the OpenAI API platform. Set monthly spend limits to monitor API costs, or enforce hard limits so API responses fail after an organization or project reaches its limit.": {
-    "zh": "添加了 OpenAI API 平台的组织和项目支出限制。设置每月支出限制以监控 API 成本，或实施硬限制，以便 API 响应在组织或项目达到其限制后失败。",
-    "ja": "OpenAI API プラットフォームに組織とプロジェクトの支出制限を追加しました。毎月の支出制限を設定して API コストを監視したり、組織またはプロジェクトが制限に達した後に API 応答が失敗するようにハード制限を適用したりできます。"
-  },
   "Supporting ambitious external research through the Anthropic Economic Futures Research Fund": {
     "zh": "通过 Anthropic 经济未来研究基金支持雄心勃勃的外部研究",
     "ja": "Anthropic 経済先物研究基金を通じて野心的な外部研究を支援"
@@ -6141,5 +6133,53 @@
   "Enterprise administrators can now configure and distribute plugins to GitHub Copilot CLI users across their enterprise. Set baseline standards for your enterprise and make them available in every user’s Copilot CLI client.": {
     "zh": "企业管理员现在可以配置插件并将其分发给整个企业的 GitHub Copilot CLI 用户。为您的企业设置基线标准，并使其在每个用户的 Copilot CLI 客户端中可用。",
     "ja": "企業管理者は、企業全体の GitHub Copilot CLI ユーザーにプラグインを構成して配布できるようになりました。企業のベースライン標準を設定し、それをすべてのユーザーの Copilot CLI クライアントで利用できるようにします。"
+  },
+  "NTT DATA Group cuts incident analysis to 30 minutes with Codex": {
+    "zh": "NTT DATA Group 通过 Codex 将事件分析时间缩短至 30 分钟",
+    "ja": "NTT データ グループ、Codex でインシデント分析を 30 分に短縮"
+  },
+  "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.": {
+    "zh": "NTT DATA Group 使用 ChatGPT Enterprise 和 Codex 帮助 9,000 名员工实现工作自动化，将事件分析时间缩短至 30 分钟，并扩大安全 AI 的采用。",
+    "ja": "NTT データ グループは、ChatGPT Enterprise と Codex を使用して、9,000 人の従業員が作業を自動化し、インシデント分析を 30 分に短縮し、安全な AI 導入を拡大できるように支援しています。"
+  },
+  "Enterprise-managed settings now support bypass permission controls": {
+    "zh": "企业管理的设置现在支持绕过权限控制",
+    "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました"
+  },
+  "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve).": {
+    "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。",
+    "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれる) を自動的にスキップしないようにできるようになりました。"
+  },
+  "Auto mode in Copilot Chat available for all users": {
+    "zh": "Copilot 聊天中的自动模式可供所有用户使用",
+    "ja": "Copilot の自動モード チャットはすべてのユーザーが利用可能"
+  },
+  "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability.": {
+    "zh": "GitHub Copilot 自动模型选择现已在 github.com 上的 Copilot Chat 和所有 Copilot 计划的 GitHub 移动应用程序中普遍提供。通过自动，Copilot 根据您请求的复杂性和当前型号的可用性代表您选择型号。",
+    "ja": "GitHub Copilot 自動モデル選択は、github.com の Copilot チャットおよびすべての Copilot プランの GitHub モバイル アプリで一般利用できるようになりました。自動の場合、Copilot は、リクエストの複雑さと現在のモデルの可用性に基づいて、ユーザーに代わってモデルを選択します。"
+  },
+  "Updates to GitHub Copilot billing and plans": {
+    "zh": "GitHub Copilot 账单和计划更新",
+    "ja": "GitHub Copilot の請求とプランの更新"
+  },
+  "As announced in our recent blog post, usage-based billing for GitHub Copilot is now live for all users and Copilot code review consumes GitHub Actions minutes, in addition to GitHub AI Credits. As part of this release, we’re also launching new user-level budget controls and enabling upgrades to Copilot Max.": {
+    "zh": "正如我们在最近的博客文章中所宣布的，GitHub Copilot 的基于使用情况的计费现已对所有用户开放，Copilot 代码审查除了 GitHub AI 积分外，还会消耗 GitHub 操作分钟数。作为此版本的一部分，我们还推出了新的用户级预算控制并支持升级到 Copilot Max。",
+    "ja": "最近のブログ投稿で発表したように、GitHub Copilot の使用量ベースの課金がすべてのユーザーに対して有効になり、Copilot コード レビューには GitHub AI クレジットに加えて GitHub アクション分が消費されます。このリリースの一環として、新しいユーザーレベルの予算管理も開始し、Copilot Max へのアップグレードが可能になります。"
+  },
+  "Copilot usage metrics API adds cohorts for AI adoption": {
+    "zh": "Copilot 使用指标 API 添加了人工智能采用的队列",
+    "ja": "Copilot 使用状況メトリクス API が AI 導入のコホートを追加"
+  },
+  "To help you tell a deeper Copilot adoption story—not just who is active, but how they’re using Copilot—the Copilot usage metrics API now classifies each engaged user into an AI adoption phase based on their Copilot product usage over a rolling 28-day window. A new ai_adoption_phase field is available on user-level reports, and a new totals_by_ai_adoption_phase array surfaces per-phase metrics on enterprise- and organization-level reports.": {
+    "zh": "为了帮助您讲述更深入的 Copilot 采用故事，不仅包括哪些人活跃，还包括他们如何使用 Copilot，Copilot 使用指标 API 现在根据每个参与用户在 28 天滚动窗口内的 Copilot 产品使用情况，将其分类为 AI 采用阶段。用户级报告中提供了新的 ai_adoption_phase 字段，新的 Totals_by_ai_adoption_phase 数组可在企业级和组织级报告中显示每个阶段的指标。",
+    "ja": "誰がアクティブであるかだけでなく、Copilot をどのように使用しているかなど、より深い Copilot 導入ストーリーを伝えるのに役立つように、Copilot 使用状況メトリクス API は、28 日間のローリング ウィンドウでの Copilot 製品の使用状況に基づいて、関与している各ユーザーを AI 導入フェーズに分類するようになりました。新しい ai_adoption_phase フィールドはユーザー レベルのレポートで使用でき、新しい totals_by_ai_adoption_phase 配列は企業レベルおよび組織レベルのレポートでフェーズごとのメトリクスを表示します。"
+  },
+  "Introducing Copilot CLI agent and unified sessions view in GitHub Copilot for JetBrains IDEs": {
+    "zh": "在 JetBrains IDE 的 GitHub Copilot 中引入 Copilot CLI 代理和统一会话视图",
+    "ja": "JetBrains IDE の Copilot CLI エージェントと GitHub Copilot の統合セッション ビューの導入"
+  },
+  "This update brings the Copilot CLI agent into JetBrains IDEs, along with a unified sessions view that shows live status for running and queued sessions. It also adds the ask question tool in agent mode, improves sign-in for GitHub Enterprise Server (GHES), adds global.agent.md support, and delivers several user experience improvements.": {
+    "zh": "此更新将 Copilot CLI 代理引入 JetBrains IDE，并提供统一的会话视图，显示正在运行和排队的会话的实时状态。它还在代理模式下添加了提问工具，改进了 GitHub Enterprise Server (GHES) 的登录，添加了 global.agent.md 支持，并提供了多项用户体验改进。",
+    "ja": "このアップデートにより、Copilot CLI エージェントが JetBrains IDE に導入されるとともに、実行中のセッションとキューに入れられたセッションのライブ ステータスを表示する統合セッション ビューが追加されました。また、エージェント モードでの質問ツールの追加、GitHub Enterprise Server (GHES) へのサインインの改善、global.agent.md サポートの追加、およびいくつかのユーザー エクスペリエンスの向上を実現します。"
   }
 }
