@@ -1,7 +1,222 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-23-openai-introducing-gpt-5-5",
+      "date": "2026-04-23",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.5 简介",
+        "ja": "GPT-5.5の紹介",
+        "en": "Introducing GPT-5.5"
+      },
+      "summary": {
+        "zh": "隆重推出 GPT-5.5，这是我们迄今为止最智能的模型，速度更快、功能更强大，专为跨工具编码、研究和数据分析等复杂任务而构建。",
+        "ja": "GPT-5.5 は、これまでで最もスマートなモデルであり、より高速かつ高機能で、複数のツールにわたるコーディング、調査、データ分析などの複雑なタスク向けに構築されています。",
+        "en": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools."
+      },
+      "url": "https://openai.com/index/introducing-gpt-5-5",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-23-openai-gpt-5-5-system-card",
+      "date": "2026-04-23",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.5系统卡",
+        "ja": "GPT-5.5 システムカード",
+        "en": "GPT-5.5 System Card"
+      },
+      "summary": {
+        "zh": "GPT-5.5系统卡",
+        "ja": "GPT-5.5 システムカード",
+        "en": "GPT-5.5 System Card"
+      },
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "查看和管理问题和项目中的代理会话",
+        "ja": "問題とプロジェクトからのエージェント セッションの表示と管理",
+        "en": "View and manage agent sessions from issues and projects"
+      },
+      "summary": {
+        "zh": "您现在可以直接从问题和项目中查看和引导云代理会话，从而无需离开工作流程即可更好地了解代理活动。关于问题的新会话药丸：关于问题的新标题药丸显示所有活动和已完成的代理会话一目了然。",
+        "ja": "クラウド エージェント セッションを問題やプロジェクトから直接表示および操作できるようになり、ワークフローを離れることなくエージェントのアクティビティをより正確に把握できるようになりました。新機能 問題に関するセッション ピル: 問題に関する新しいヘッダー ピルには、アクティブなエージェント セッションと完了したエージェント セッションが一目で表示されます。",
+        "en": "You can now view and steer cloud agent sessions directly from issues and projects, giving you better visibility into agent activity without leaving your workflow. What’s new Session pill on issues: A new header pill on issues shows all active and completed agent sessions at a glance."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-view-and-manage-agent-sessions-from-issues-and-projects",
+      "tags": [
+        "release",
+        "copilot",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理字段已添加到使用指标中",
+        "ja": "Copilot クラウド エージェント フィールドが使用状況メトリクスに追加されました",
+        "en": "Copilot cloud agent fields added to usage metrics"
+      },
+      "summary": {
+        "zh": "在将 Copilot 编码代理重命名为 Copilot 云代理之后，Copilot 使用指标 API 现在在用户级报告中包含一个新的used_copilot_cloud_agent 字段。此布尔字段反映更新后的产品名称下现有的used_copilot_coding_agent 标志。",
+        "ja": "Copilot コーディング エージェントから Copilot クラウド エージェントへの名前変更に続き、Copilot 使用状況メトリクス API には、ユーザー レベルのレポートに新しい used_copilot_cloud_agent フィールドが含まれるようになりました。このブール値フィールドは、更新された製品名の下にある既存の used_copilot_coding_agent フラグを反映します。",
+        "en": "Following the Copilot coding agent to Copilot cloud agent rename, the Copilot usage metrics API now includes a new used_copilot_cloud_agent field in user-level reports. This boolean field mirrors the existing used_copilot_coding_agent flag under the updated product name."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-copilot-cloud-agent-fields-added-to-usage-metrics",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 针对拉取请求的聊天改进",
+        "ja": "Copilot プル リクエストのチャットの改善",
+        "en": "Copilot Chat improvements for pull requests"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 当您处理差异和拉取请求时，聊天现在提供更丰富的上下文和新功能。您可以通过在 github.com/copilot 中询问有关拉取请求的问题或通过全局 Copilot 导航来访问此功能，该导航允许您在任何 GitHub 表面上打开聊天。",
+        "ja": "GitHub Copilot Chat では、差分やプル リクエストを操作する際に、より豊富なコンテキストと新機能が提供されるようになりました。この機能にアクセスするには、github.com/copilot でプル リクエストについて質問するか、グローバル Copilot ナビゲーションを介してアクセスできます。これにより、任意の GitHub サーフェス上でチャットを開くことができます。",
+        "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests. You can access this functionality by asking a question about a pull request in github.com/copilot, or via the global Copilot navigation, which allows you to open chat over any GitHub surface."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-copilot-chat-improvements-for-pull-requests",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
+        "ja": "Web 上の GitHub Copilot を使用したデバッグの改善",
+        "en": "Better debugging with GitHub Copilot on the web"
+      },
+      "summary": {
+        "zh": "GitHub Copilot github.com 中的聊天可帮助您在粘贴堆栈跟踪时更快地找到错误的根本原因。 Copilot 更可靠地识别堆栈跟踪，并将指导您使用堆栈跟踪和存储库的代码上下文进行结构化根本原因分析，帮助您从“崩溃的位置”转向“为什么会发生”。",
+        "ja": "GitHub Copilot github.com でのチャットは、スタック トレースを貼り付けるときに、エラーの根本原因をより迅速に特定するのに役立ちます。 Copilot はスタック トレースをより確実に認識し、スタック トレースとリポジトリのコード コンテキストを使用して構造化された根本原因分析をガイドし、「クラッシュした場所」から「クラッシュが発生した理由」に進むのに役立ちます。",
+        "en": "GitHub Copilot Chat in github.com helps you get to the root cause of an error faster when you paste a stack trace. Copilot recognizes stack traces more reliably and will guide you through a structured root-cause analysis using the stack trace plus your repository’s code context, helping you move from “where it crashed” to “why it happened”."
+      },
+      "url": "https://github.blog/changelog/2026-04-23-better-debugging-with-github-copilot-on-the-web",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "暂停 GitHub Copilot 业务的新自助注册",
+        "ja": "GitHub Copilot Business の新規セルフサービス サインアップを一時停止しています",
+        "en": "Pausing new self-serve signups for GitHub Copilot Business"
+      },
+      "summary": {
+        "zh": "作为我们持续努力确保为所有用户提供可靠且可持续的 Copilot 体验的一部分，我们正在暂停 GitHub 免费和 GitHub 团队计划组织的 GitHub Copilot 业务的新自助注册。现有 Copilot 企业客户不受影响，可以继续像往常一样添加席位和使用服务。",
+        "ja": "すべてのユーザーに信頼性が高く持続可能な Copilot エクスペリエンスを確保するための継続的な取り組みの一環として、GitHub Free および GitHub Team プランの組織向けの GitHub Copilot Business への新規セルフサービス サインアップを一時停止します。既存の Copilot Business 顧客は影響を受けず、シートを追加し、通常どおりサービスを使用し続けることができます。",
+        "en": "As part of our ongoing efforts to ensure a reliable and sustainable Copilot experience for all users, we are pausing new self-serve signups for GitHub Copilot Business for organizations on GitHub Free and GitHub Team plans. Existing Copilot Business customers are not affected and can continue adding seats and using the service as they normally would."
+      },
+      "url": "https://github.blog/changelog/2026-04-22-pausing-new-self-serve-signups-for-github-copilot-business",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-github-2026-04-22-github-copilot-for-jira-our-latest-enhancements",
+      "date": "2026-04-23",
+      "category": "github",
+      "title": {
+        "zh": "Jira 的 GitHub Copilot：我们的最新增强功能",
+        "ja": "GitHub Copilot for Jira: 最新の機能強化",
+        "en": "GitHub Copilot for Jira: Our latest enhancements"
+      },
+      "summary": {
+        "zh": "自上次更新以来，我们继续投资，使 Jira 集成的 GitHub Copilot 云代理更加强大和可定制。这些改进使团队能够更好地控制 Copilot 在现有 Jira 工作流程中的工作方式。",
+        "ja": "前回の更新以来、Jira 統合用の GitHub Copilot クラウド エージェントをより強力でカスタマイズ可能にするための投資を続けてきました。これらの改善により、チームは既存の Jira ワークフロー内で Copilot がどのように動作するかをより詳細に制御できるようになります。",
+        "en": "Since our last update, we’ve continued to invest in making the GitHub Copilot cloud agent for Jira integration more powerful and customizable. These improvements give teams greater control over how Copilot works within their existing Jira workflows."
+      },
+      "url": "https://github.blog/changelog/2026-04-22-github-copilot-for-jira-our-latest-enhancements",
+      "tags": [
+        "improvement",
+        "collaboration-tools",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-23-anthropic-memory",
+      "date": "2026-04-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "托管代理-2026-04-01",
+        "ja": "管理対象エージェント-2026-04-01",
+        "en": "managed-agents-2026-04-01"
+      },
+      "summary": {
+        "zh": "Claude Managed Agents 的内存现在处于标准 Managed-agents-2026-04-01 标头下的公开测试版。请参阅使用代理内存以获取完整的集成指南。",
+        "ja": "Claude 管理対象エージェントのメモリは、標準の manage-agents-2026-04-01 ヘッダーの下でパブリック ベータ版になりました。完全な統合ガイドについては、「エージェント メモリの使用」を参照してください。",
+        "en": "Memory for Claude Managed Agents is now in public beta under the standard managed-agents-2026-04-01 header. See Using agent memory for the full integration guide."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/memory",
+      "tags": [
+        "managed-agents-2026-04-01",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-04-22-openai-speeding-up-agentic-workflows-with-websockets",
       "date": "2026-04-22",

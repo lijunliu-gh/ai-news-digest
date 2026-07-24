@@ -4651,14 +4651,6 @@
     "zh": "了解 OpenAI 如何处理政府和国家安全伙伴关系，以及负责任的人工智能使用、民主问责和公共安全的原则。",
     "ja": "OpenAI が、責任ある AI の使用、民主的な説明責任、公共の安全の原則に基づいて、政府と国家安全保障のパートナーシップにどのようにアプローチしているかを学びましょう。"
   },
-  "GitHub Copilot in Visual Studio Code, June 2026 releases": {
-    "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布",
-    "ja": "Visual Studio Code、2026 年 6 月リリースの GitHub Copilot"
-  },
-  "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow.": {
-    "zh": "此变更日志涵盖 VS Code v1.123 至 v1.127，于 2026 年 6 月和 7 月初发布。最新的 VS Code 版本基于开发人员每天使用的 Copilot 体验，使管理代理工作、了解使用情况、选择正确的模型并保持流程更加轻松。",
-    "ja": "この変更ログは、2026 年 6 月から 7 月初旬にかけて出荷された VS Code v1.123 から v1.127 をカバーしています。最新の VS Code リリースは、開発者が毎日使用する Copilot エクスペリエンスに基づいて構築されており、エージェントの作業の管理、使用状況の理解、適切なモデルの選択、フローへの継続が容易になります。"
-  },
   "Codex as agent provider and agentic enhancements in JetBrains IDEs": {
     "zh": "Codex 作为代理提供商和 JetBrains IDE 中的代理增强功能",
     "ja": "エージェントプロバイダーとしての Codex と JetBrains IDE のエージェントの機能強化"
@@ -5814,14 +5806,6 @@
     "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。",
     "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。"
   },
-  "GitHub Code Quality is now generally available": {
-    "zh": "GitHub 代码质量现已普遍可用",
-    "ja": "GitHub コード品質が一般提供になりました"
-  },
-  "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.": {
-    "zh": "GitHub 代码质量现已在 GitHub Enterprise Cloud 和 GitHub Team 上全面提供。它解决了软件开发的一个新兴挑战：人工智能加速代码输出，代码质量帮助团队交付他们信任的代码。",
-    "ja": "GitHub コード品質は、GitHub Enterprise Cloud および GitHub Team で一般提供されるようになりました。ソフトウェア開発の新たな課題を解決します。AI はコード出力を加速し、コード品質はチームが信頼できるコードを出荷するのに役立ちます。"
-  },
   "Apply for Anthropic’s AI for Science rare disease research grants": {
     "zh": "申请 Anthropic 的 AI for Science 罕见病研究资助",
     "ja": "Anthropic の AI for Science の希少疾患研究助成金に申請する"
@@ -6193,5 +6177,45 @@
   "[dev] Claude for Creative Work": {
     "zh": "[dev] Claude 用于创意工作",
     "ja": "[dev] クリエイティブな仕事のための Claude"
+  },
+  "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent": {
+    "zh": "GitHub 移动版：使用 Copilot 云代理修复失败的操作检查",
+    "ja": "GitHub モバイル: Copilot クラウド エージェントによる失敗したアクション チェックを修正"
+  },
+  "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.": {
+    "zh": "现在，当 GitHub 操作检查对您的拉取请求失败时，您可以要求 Copilot 编码代理进行调查并直接从 GitHub Mobile 修复问题。从失败的检查中，选择使用 Copilot 修复以启动该过程。",
+    "ja": "プル リクエストで GitHub アクション チェックが失敗した場合、Copilot コーディング エージェントに調査を依頼し、GitHub モバイルから問題を直接修正できるようになりました。失敗したチェックから [Copilot で修正] を選択してプロセスを開始します。"
+  },
+  "GitHub MCP Server supports the next MCP specification": {
+    "zh": "GitHub MCP 服务器支持下一个 MCP 规范",
+    "ja": "GitHub MCP サーバーは次の MCP 仕様をサポートします"
+  },
+  "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale.": {
+    "zh": "MCP 协议将于 2026 年 7 月 28 日变为无状态，并且 GitHub MCP 服务器在正式发布之前支持最新规范。变化新的无状态核心意味着 MCP 部署现在可以轻松扩展。",
+    "ja": "MCP プロトコルは 2026 年 7 月 28 日にステートレスになり、GitHub MCP サーバーは正式リリースに先立って最新の仕様をサポートします。変更点 新しいステートレス コアにより、MCP デプロイメントの拡張が容易になりました。"
+  },
+  "Copilot cloud agent for Linear is now generally available": {
+    "zh": "Linear 的 Copilot 云代理现已全面上市",
+    "ja": "Linear 用の Copilot クラウド エージェントが一般提供になりました"
+  },
+  "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.": {
+    "zh": "您现在可以将 Linear 中的问题分配给 Copilot 云代理，即我们的异步自主后台代理。当您将线性问题分配给 Copilot 时，它将： 分析问题内容并打开草稿拉取请求。",
+    "ja": "Linear の問題を、非同期で自律的なバックグラウンド エージェントである Copilot クラウド エージェントに割り当てることができるようになりました。 Linear 問題を Copilot に割り当てると、次のことが行われます。 問題の内容を分析し、ドラフト プル リクエストをオープンします。"
+  },
+  "Agent automation controls in GitHub Issues in public preview": {
+    "zh": "GitHub 公共预览版中的代理自动化控制问题",
+    "ja": "GitHub のエージェント自動化コントロールのパブリック プレビューの問題"
+  },
+  "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.": {
+    "zh": "代理自动化越来越多地为您标记、键入、分配和关闭问题。 GitHub 问题现在显示每个更改背后的原因，并让您在应用之前对其进行审查，以便您决定自动化程度以及何时留在循环中。",
+    "ja": "エージェントの自動化により、問題のラベル付け、タイプ指定、割り当て、クローズが増えています。 GitHub 問題では、各変更の背後にある理由が表示され、適用前に変更を確認できるため、どこまで自動化するか、いつ最新情報を把握するかを決定できます。"
+  },
+  "GPT-5.5, GPT-5.5 Pro": {
+    "zh": "GPT-5.5、GPT-5.5 专业版",
+    "ja": "GPT-5.5、GPT-5.5プロ"
+  },
+  "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search.": {
+    "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。",
+    "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。"
   }
 }
