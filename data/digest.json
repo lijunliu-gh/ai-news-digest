@@ -3,6 +3,143 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-24-github-2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+      "date": "2026-07-24",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 5 现已在 GitHub Copilot 中可用",
+        "ja": "Claude Opus 5 は GitHub Copilot で利用可能になりました",
+        "en": "Claude Opus 5 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 5，Anthropic 的最新 Opus 型号，现已在 GitHub Copilot 中上市。它专为复杂、长时间运行的编码任务而设计，这些任务需要仔细推理、有效的工具使用以及跨多个步骤的可靠执行。",
+        "ja": "Anthropic の最新の Opus モデルである Claude Opus 5 が、GitHub Copilot で利用可能になりました。これは、慎重な推論、効果的なツールの使用、および複数のステップにわたる信頼性の高い実行を必要とする、複雑で長時間実行されるコーディング タスク向けに設計されています。",
+        "en": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps."
+      },
+      "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-24-anthropic-whats-new-opus-5",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "高的",
+        "ja": "高い",
+        "en": "high"
+      },
+      "summary": {
+        "zh": "在 Claude Opus 5 上，仅在努力程度较高或较低时才允许禁用思考：思考：{\"type\": \"disabled\"} 与努力 xhigh 或 max 返回 400 错误，这是 Claude Opus 4.8 的重大更改。请参阅 Claude Opus 5 中的新增功能。",
+        "ja": "Claude Opus 5 では、思考の無効化は、努力値が high 以下の場合にのみ許可されます。 Thinking: {\"type\": \"disabled\"} で、努力値 xhigh または max を指定すると、400 エラーが返されます。これは、Claude Opus 4.8 からの重大な変更です。 Claude Opus 5 の新機能を参照してください。",
+        "en": "On Claude Opus 5, disabling thinking is allowed only at effort high or below: thinking: {\"type\": \"disabled\"} with effort xhigh or max returns a 400 error, a breaking change from Claude Opus 4.8. See What's new in Claude Opus 5."
+      },
+      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5#behavior-changes",
+      "tags": [
+        "high",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-24-anthropic-refusals-and-fallback",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "后备措施",
+        "ja": "フォールバック",
+        "en": "fallbacks"
+      },
+      "summary": {
+        "zh": "Fallbacks 参数现在支持“默认”模式，该模式按拒绝类别应用​​ Anthropic 推荐的后备模型。服务器端回退处于测试阶段，“默认”模式需要 server-side-fallback-2026-07-01 beta 标头。请参阅拒绝和后备。",
+        "ja": "fallbacks パラメーターは、拒否カテゴリごとに Anthropic の推奨フォールバック モデルを適用する「デフォルト」モードをサポートするようになりました。サーバー側フォールバックはベータ版であり、「デフォルト」モードにはserver-side-fallback-2026-07-01 ベータヘッダーが必要です。 「拒否とフォールバック」を参照してください。",
+        "en": "The fallbacks parameter now supports a \"default\" mode, which applies Anthropic's recommended fallback models by refusal category. Server-side fallback is in beta, and the \"default\" mode requires the server-side-fallback-2026-07-01 beta header. See Refusals and fallback."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+      "tags": [
+        "fallbacks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-24-anthropic-overview",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "中期对话工具更改-2026-07-01",
+        "ja": "会話中-ツールの変更-2026-07-01",
+        "en": "mid-conversation-tool-changes-2026-07-01"
+      },
+      "summary": {
+        "zh": "对话中工具更改现已在 Claude Opus 5 上处于测试阶段：在对话轮次之间添加或删除工具，同时保留提示缓存。在您的请求中包含 mid-conversation-tool-changes-2026-07-01 beta 标头。",
+        "ja": "会話中のツールの変更は、Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
+        "en": "Mid-conversation tool changes are now in beta on Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "tags": [
+        "mid-conversation-tool-changes-2026-07-01",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-24-anthropic-effort",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "低的",
+        "ja": "低い",
+        "en": "low"
+      },
+      "summary": {
+        "zh": "Claude Opus 5 支持全部工作量阶梯（低、中、高、xhigh、最大），包括能力关键型工作的最大级别。",
+        "ja": "Claude Opus 5 は、能力が重要な作業の最大レベルを含む、フル エフォート ラダー ( l​​ow、medium、high、xhigh、max ) をサポートします。",
+        "en": "Claude Opus 5 supports the full effort ladder ( low, medium, high, xhigh, max ), including the max level for capability-critical work."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "tags": [
+        "low",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-24-anthropic-claude-opus-5",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "介绍Claude Opus 5",
+        "ja": "Claude Opus の紹介 5",
+        "en": "Introducing Claude Opus 5"
+      },
+      "summary": {
+        "zh": "Opus 5 是 Opus 层的一步变革改进，为长期运行的代理提供支持，同时改进编码和专业工作。",
+        "ja": "Opus 5 は、Opus 層を大幅に改善したもので、コーディングとプロフェッショナルな作業の改善を実現しながら、長期実行エージェントを強化します。",
+        "en": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work."
+      },
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-07-23-openai-health-in-chatgpt",
       "date": "2026-07-23",
       "category": "openai",
@@ -4985,7 +5122,7 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-06-09-anthropic-thinking-steering-and-cost",
+      "id": "2026-06-09-anthropic-thinking-2",
       "date": "2026-06-09",
       "category": "anthropic",
       "title": {
@@ -4998,7 +5135,7 @@
         "ja": "Claude Fable 5 および Claude Mythos 5 では、適応的思考が唯一の思考モードです。 Thinking: {\"type\": \"disabled\"} はサポートされておらず、手動の拡張思考バジェットとアシスタントの事前入力はサポートされていません (どちらも 400 エラーを返します)。 「Claude Mythos プレビューから Claude Mythos 5 への移行」を参照してください。",
         "en": "On Claude Fable 5 and Claude Mythos 5, adaptive thinking is the only thinking mode: thinking: {\"type\": \"disabled\"} is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See Migrating from Claude Mythos Preview to Claude Mythos 5."
       },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking",
       "tags": [
         "thinking-type-disabled",
         "anthropic",
@@ -5353,7 +5490,7 @@
         "ja": "Claude Opus 4.1 モデル ( claude-opus-4-1-20250805 ) の非推奨を発表し、Claude API は 2026 年 8 月 5 日に廃止される予定です。 Claude Opus 4.8 に移行することをお勧めします。詳細については、モデルの非推奨を参照してください。",
         "en": "We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to Claude Opus 4.8. Read more in model deprecations."
       },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-from-claude-opus-47",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
       "tags": [
         "claude-opus-4-1-20250805",
         "anthropic",
@@ -5708,48 +5845,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-03-anthropic-services-track-partner-hub",
-      "date": "2026-06-03",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
-        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
-        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
-      },
-      "summary": {
-        "zh": "三月份，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
-        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、お客様がこのエコシステムをナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
-        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
-      },
-      "url": "https://www.anthropic.com/news/services-track-partner-hub",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
-      "date": "2026-06-03",
-      "category": "anthropic",
-      "title": {
-        "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
-        "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと",
-        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats"
-      },
-      "summary": {
-        "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
-        "ja": "AI がサイバー攻撃の性質と背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。",
-        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
-      },
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-06-02-openai-travelers",
       "date": "2026-06-02",
       "category": "openai",
@@ -5977,30 +6072,6 @@
       "url": "https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides",
       "tags": [
         "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-02-github-2026-06-02-gpt-4-1-deprecated",
-      "date": "2026-06-02",
-      "category": "github",
-      "title": {
-        "zh": "GPT-4.1 已弃用",
-        "ja": "GPT-4.1 は非推奨になりました",
-        "en": "GPT-4.1 deprecated"
-      },
-      "summary": {
-        "zh": "我们已于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 GPT-4.1。 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请更新您的工作流程和集成以使用支持的模型。",
-        "ja": "2026 年 6 月 1 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で GPT-4.1 を非推奨にしました。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 ワークフローと統合を更新してください。サポートされているモデルを使用します。",
-        "en": "We have deprecated GPT-4.1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), June 1, 2026. Model Deprecation date Suggested alternative GPT-4.1 2026-06-01 GPT-5.5 Please update your workflows and integrations to use supported model."
-      },
-      "url": "https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated",
-      "tags": [
-        "retired",
         "copilot",
         "github",
         "changelog"
@@ -6277,27 +6348,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-06-02-anthropic-expanding-project-glasswing",
-      "date": "2026-06-02",
-      "category": "anthropic",
-      "title": {
-        "zh": "扩建项目Glasswing",
-        "ja": "プロジェクト Glasswing の拡張",
-        "en": "Expanding Project Glasswing"
-      },
-      "summary": {
-        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
-        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
-        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
-      },
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -6484,27 +6534,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-01-anthropic-confidential-draft-s1-sec",
-      "date": "2026-06-01",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 向 SEC 秘密提交 S-1 草案",
-        "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します",
-        "en": "Anthropic confidentially submits draft S-1 to the SEC"
-      },
-      "summary": {
-        "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
-        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
-        "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
-      },
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-29-openai-trustworthy-third-party-evaluations-foundations",
@@ -6856,27 +6885,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-28-anthropic-series-h",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
-        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
-        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
-        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
-        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
-      },
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -6893,52 +6901,6 @@
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
       "tags": [
         "prompt-caching",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-28-anthropic-migration-guide",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "温度",
-        "ja": "温度",
-        "en": "temperature"
-      },
-      "summary": {
-        "zh": "将采样参数温度、top_p 或 top_k 设置为非默认值会在 Claude Opus 4.8 上返回 400 错误，与 Claude Opus 4.7 上相同。有关详细信息，请参阅迁移指南。",
-        "ja": "サンプリング パラメーターの温度、top_p、または top_k をデフォルト以外の値に設定すると、Claude Opus 4.8 では Claude Opus 4.7 と同様に 400 エラーが返されます。詳細については、移行ガイドを参照してください。",
-        "en": "Setting the sampling parameters temperature, top_p, or top_k to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the migration guide for details."
-      },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
-      "tags": [
-        "temperature",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-28-anthropic-effort",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "高的",
-        "ja": "高い",
-        "en": "high"
-      },
-      "summary": {
-        "zh": "在 Claude Opus 4.8 上，所有表面的工作量参数默认为高，包括 Claude Code 和消息 API。",
-        "ja": "Claude Opus 4.8 では、Claude Code やメッセージ API を含むすべてのサーフェスで、努力パラメータがデフォルトで高くなります。",
-        "en": "On Claude Opus 4.8, the effort parameter defaults to high across all surfaces, including Claude Code and the Messages API."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
-      "tags": [
-        "high",
         "anthropic",
         "release-notes"
       ],
@@ -7101,27 +7063,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-27-anthropic-milan-office-opening",
-      "date": "2026-05-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
-        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
-      },
-      "summary": {
-        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-        "ja": "当社はヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
-        "en": "We're opening a new office in Milan, our sixth in Europe."
-      },
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -7240,27 +7181,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
-      "date": "2026-05-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
-        "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命",
-        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
-      },
-      "summary": {
-        "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
-        "ja": "KiYoung Choi は、ソウル事務所の開設に先立って、韓国代表取締役として Anthropic に加わります。",
-        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
-      },
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
       "date": "2026-05-25",
       "category": "openai",
@@ -7302,27 +7222,6 @@
         "openai"
       ],
       "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-05-25-anthropic-chris-olah-pope-leo-encyclical",
-      "date": "2026-05-25",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
-        "ja": "Anthropic 共同創設者クリス・オラーの教皇レオ 14 世の回勅「マニフィカ・ヒューマニタス」に関する発言",
-        "en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\""
-      },
-      "summary": {
-        "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
-        "ja": "AIに関するローマ法王の回勅に関するクリス・オラー氏の発言の全文。",
-        "en": "The full text of Chris Olah's remarks on the Pope's encyclical on AI."
-      },
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
       "sourceType": "news"
     },
     {
@@ -7694,27 +7593,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-19-anthropic-widening-conversation-ai",
-      "date": "2026-05-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "扩大前沿人工智能的对话",
-        "ja": "フロンティア AI に関する会話を広げる",
-        "en": "Widening the conversation on frontier AI"
-      },
-      "summary": {
-        "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。",
-        "ja": "過去数か月間、私たちは AI によって提起される問題に関連する活動や伝統を持つグループとの対話を組織してきました。",
-        "en": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
-      },
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-19-anthropic-overview-3",
       "date": "2026-05-19",
       "category": "anthropic",
@@ -7782,27 +7660,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-19-anthropic-anthropic-kpmg",
-      "date": "2026-05-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
-        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
@@ -8023,27 +7880,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
-      "date": "2026-05-18",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 收购不锈钢",
-        "ja": "Anthropic がステンレスを取得",
-        "en": "Anthropic acquires Stainless"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-17-google-simulate-real-world-places-with-project-genie-and-street-view",
@@ -8433,27 +8269,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
-      "date": "2026-05-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-        "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています",
-        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
@@ -9414,27 +9229,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-06-anthropic-higher-limits-spacex",
-      "date": "2026-05-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
-        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
-        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
-      },
-      "summary": {
-        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
-        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
-      },
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -9704,27 +9498,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
-      "date": "2026-05-04",
-      "category": "anthropic",
-      "title": {
-        "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
-        "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築",
-        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-01-github-2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
@@ -10322,48 +10095,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-24-anthropic-election-safeguards-update",
-      "date": "2026-04-24",
-      "category": "anthropic",
-      "title": {
-        "zh": "我们的选举保障措施的最新情况",
-        "ja": "選挙の保護措置に関する最新情報",
-        "en": "An update on our election safeguards"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/election-safeguards-update",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-24-anthropic-anthropic-nec",
-      "date": "2026-04-24",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 和 NEC 合作在日本大规模构建人工智能原生工程",
-        "ja": "Anthropic と NEC が提携し、日本で大規模な AI ネイティブ エンジニアリングを構築",
-        "en": "Anthropic and NEC partner to build AI-native engineering at scale in Japan"
-      },
-      "summary": {
-        "zh": "NEC 将向 30,000 名员工部署 Claude，并成为 Anthropic 的首个日本全球合作伙伴，共同开发面向金融、制造和政府​​的人工智能产品",
-        "ja": "NEC は Claude を 30,000 人の従業員に導入し、Anthropic の日本を拠点とする初のグローバル パートナーとなり、金融、製造、政府向けの AI 製品を共同開発します",
-        "en": "NEC will deploy Claude to 30,000 employees and become Anthropic's first Japan-based global partner, co-developing AI products for finance, manufacturing, and government"
-      },
-      "url": "https://www.anthropic.com/news/anthropic-nec",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }

@@ -7,6 +7,60 @@
     <lastBuildDate>2026-07-24</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Claude Opus 5 is now available in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot</link>
+      <description>Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot</guid>
+    </item>
+    <item>
+      <title>high</title>
+      <link>https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5#behavior-changes</link>
+      <description>On Claude Opus 5, disabling thinking is allowed only at effort high or below: thinking: {"type": "disabled"} with effort xhigh or max returns a 400 error, a breaking change from Claude Opus 4.8. See What's new in Claude Opus 5.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5#behavior-changes</guid>
+    </item>
+    <item>
+      <title>fallbacks</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback</link>
+      <description>The fallbacks parameter now supports a "default" mode, which applies Anthropic's recommended fallback models by refusal category. Server-side fallback is in beta, and the "default" mode requires the server-side-fallback-2026-07-01 beta header. See Refusals and fallback.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback</guid>
+    </item>
+    <item>
+      <title>mid-conversation-tool-changes-2026-07-01</title>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</link>
+      <description>Mid-conversation tool changes are now in beta on Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</guid>
+    </item>
+    <item>
+      <title>low</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/effort</link>
+      <description>Claude Opus 5 supports the full effort ladder ( low, medium, high, xhigh, max ), including the max level for capability-critical work.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/effort</guid>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 5</title>
+      <link>https://www.anthropic.com/news/claude-opus-5</link>
+      <description>Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-5</guid>
+    </item>
+    <item>
       <title>Launching Health in ChatGPT</title>
       <link>https://openai.com/index/health-in-chatgpt</link>
       <description>Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.</description>
@@ -401,60 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot in Visual Studio — June update</title>
-      <link>https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update</link>
-      <description>June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.</description>
-      <pubDate>2026-07-15</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update</guid>
-    </item>
-    <item>
-      <title>Mid-conversation system messages</title>
-      <link>https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages</link>
-      <description>Mid-conversation system messages are available on Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, on the Claude API, Claude in Amazon Bedrock, and Google Cloud. No beta header is required. This corrects earlier availability notes.</description>
-      <pubDate>2026-07-15</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages</guid>
-    </item>
-    <item>
-      <title>Security reviews now available in the GitHub Copilot app</title>
-      <link>https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app</link>
-      <description>You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.</description>
-      <pubDate>2026-07-14</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot for JetBrains expands BYOK capabilities</title>
-      <link>https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities</link>
-      <description>This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software.</description>
-      <pubDate>2026-07-14</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities</guid>
-    </item>
-    <item>
-      <title>Code scanning shows AI security detections on pull requests</title>
-      <link>https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests</link>
-      <description>GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and address potential issues in parts of the codebase that previously had no native scanning coverage, all before code is merged.</description>
-      <pubDate>2026-07-14</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests</guid>
-    </item>
-    <item>
-      <title>Introducing Claude for Teachers</title>
-      <link>https://www.anthropic.com/news/claude-for-teachers</link>
-      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-      <pubDate>2026-07-14</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-teachers</guid>
     </item>
   </channel>
 </rss>
