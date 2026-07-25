@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-04-24-openai-changelog",
+      "date": "2026-04-24",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-5.5、GPT-5.5 专业版",
+        "ja": "GPT-5.5、GPT-5.5プロ",
+        "en": "GPT-5.5, GPT-5.5 Pro"
+      },
+      "summary": {
+        "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。",
+        "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。",
+        "en": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-04-24-feature-gpt-5-5-gpt-5-5-pro",
+      "tags": [
+        "gpt-5-5",
+        "gpt-5-5-pro",
+        "v1-responses",
+        "v1-chat-completions",
+        "v1-batch",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-24-github-2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
+      "date": "2026-04-24",
+      "category": "github",
+      "title": {
+        "zh": "关于 GitHub 应用程序安装令牌即将推出的新格式的通知",
+        "ja": "GitHub アプリ インストール トークンの今後の新しい形式に関するお知らせ",
+        "en": "Notice about upcoming new format for GitHub App installation tokens"
+      },
+      "summary": {
+        "zh": "从 2026 年 4 月 27 日开始，在接下来的几周内，我们将开始分阶段推出，更新新创建的 GitHub 应用程序安装令牌的格式，使其性能更高，并提高 API 表面的可靠性。如果您的应用程序期望或依赖长度恰好为 40 个字符的安装令牌，则它可能无法正确处理这种新的令牌格式。",
+        "ja": "2026 年 4 月 27 日から数週間にわたって、新たに作成された GitHub アプリ インストール トークンの形式を更新する段階的なロールアウトを開始し、トークンのパフォーマンスを向上させ、API サーフェスの信頼性を向上させます。アプリケーションがインストール トークンの長さがちょうど 40 文字であることを期待または依存している場合、この新しいトークン形式を正しく処理できない可能性があります。",
+        "en": "Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant and improving the reliability of our API surface. If your application expects or relies on installation tokens being exactly 40 characters long, it may not handle this new token format correctly."
+      },
+      "url": "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
+      "tags": [
+        "improvement",
+        "actions",
+        "application-security",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-24-github-2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+      "date": "2026-04-24",
+      "category": "github",
+      "title": {
+        "zh": "JetBrains IDE 预览版中的内联代理模式以及 GitHub Copilot 中的更多内容",
+        "ja": "JetBrains IDE の GitHub Copilot のプレビューでのインライン エージェント モードなど",
+        "en": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs"
+      },
+      "summary": {
+        "zh": "此更新在预览中引入了内联代理模式、对下一步编辑建议的增强、全局自动批准以及对终端命令和文件编辑的更灵活的控制。它还包括针对 JetBrains IDE 的 GitHub Copilot 的多项用户体验改进和质量改进。",
+        "ja": "この更新では、プレビューでのインライン エージェント モード、次の編集提案の機能強化、グローバル自動承認、ターミナル コマンドとファイル編集のより柔軟な制御が導入されています。また、JetBrains IDE の GitHub Copilot 全体にわたるいくつかのユーザー エクスペリエンスの改良と品質の向上も含まれています。",
+        "en": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs."
+      },
+      "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-24-github-2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "date": "2026-04-24",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.5 一般适用于 GitHub Copilot",
+        "ja": "GPT-5.5 は GitHub Copilot で一般提供されています",
+        "en": "GPT-5.5 is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。",
+        "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。",
+        "en": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t."
+      },
+      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-04-24-anthropic-rate-limits-api",
+      "date": "2026-04-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "速率限制 API",
+        "ja": "レート制限 API",
+        "en": "Rate Limits API"
+      },
+      "summary": {
+        "zh": "我们发布了速率限制 API，允许管理员以编程方式查询为其组织和工作区配置的速率限制。",
+        "ja": "レート制限 API をリリースしました。これにより、管理者は組織やワークスペースに設定されたレート制限をプログラムでクエリできるようになります。",
+        "en": "We've released the Rate Limits API, allowing administrators to programmatically query the rate limits configured for their organization and workspaces."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/rate-limits-api",
+      "tags": [
+        "rate-limits-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-04-23-openai-introducing-gpt-5-5",
       "date": "2026-04-23",

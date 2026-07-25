@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-25",
   "windowMonths": 3,
   "items": [
     {
@@ -82,13 +82,36 @@
         "en": "mid-conversation-tool-changes-2026-07-01"
       },
       "summary": {
-        "zh": "对话中工具更改现已在 Claude Opus 5 上处于测试阶段：在对话轮次之间添加或删除工具，同时保留提示缓存。在您的请求中包含 mid-conversation-tool-changes-2026-07-01 beta 标头。",
-        "ja": "会話中のツールの変更は、Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
-        "en": "Mid-conversation tool changes are now in beta on Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
+        "zh": "对话中工具更改现已在 Claude Fable 5、Claude Mythos 5、Claude Opus 4.8 和 Claude Opus 5 上处于测试阶段：在对话轮次之间添加或删除工具，同时保留提示缓存。在您的请求中包含 mid-conversation-tool-changes-2026-07-01 beta 标头。",
+        "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
+        "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-24-anthropic-fast-mode",
+      "date": "2026-07-24",
+      "category": "anthropic",
+      "title": {
+        "zh": "克劳德作品 4-7",
+        "ja": "クロード作品-4-7",
+        "en": "claude-opus-4-7"
+      },
+      "summary": {
+        "zh": "我们已删除 Claude Opus 4.7 的快速模式。请求 claude-opus-4-7 的速度：“fast”现在返回错误；与 Claude Opus 4.6 不同，它们不会回落到标准速度。 Claude Opus 4.7 本身仍然可以以标准速度使用。要继续使用快速模式，请迁移到 Claude Opus 5 或 Claude Opus 4.8。在快速模式下阅读更多内容。",
+        "ja": "Claude Opus 4.7 の高速モードを削除しました。速度「fast」の claude-opus-4-7 へのリクエストはエラーを返すようになりました。 Claude Opus 4.6 とは異なり、標準速度に戻りません。 Claude Opus 4.7 自体は引き続き標準速度で利用できます。高速モードを引き続き使用するには、Claude Opus 5 または Claude Opus 4.8 に移行します。続きは高速モードでご覧ください。",
+        "en": "We've removed fast mode for Claude Opus 4.7. Requests to claude-opus-4-7 with speed: \"fast\" now return an error; unlike Claude Opus 4.6, they do not fall back to standard speed. Claude Opus 4.7 itself remains available at standard speed. To continue using fast mode, migrate to Claude Opus 5 or Claude Opus 4.8. Read more in Fast mode."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "claude-opus-4-7",
         "anthropic",
         "release-notes"
       ],
@@ -105,9 +128,9 @@
         "en": "low"
       },
       "summary": {
-        "zh": "Claude Opus 5 支持全部工作量阶梯（低、中、高、xhigh、最大），包括能力关键型工作的最大级别。",
-        "ja": "Claude Opus 5 は、能力が重要な作業の最大レベルを含む、フル エフォート ラダー ( l​​ow、medium、high、xhigh、max ) をサポートします。",
-        "en": "Claude Opus 5 supports the full effort ladder ( low, medium, high, xhigh, max ), including the max level for capability-critical work."
+        "zh": "努力是转向的主要控制Claude Opus 5：该模型支持完整的阶梯（低、中、高、xhigh、最大），最大用于能力关键型工作。",
+        "ja": "努力はステアリング Claude Opus 5 の主な制御です。モデルは完全なラダー ( l​​ow、medium、high、xhigh、max ) をサポートし、能力が重要な作業には max を使用します。",
+        "en": "Effort is the primary control for steering Claude Opus 5: the model supports the full ladder ( low, medium, high, xhigh, max ), with max for capability-critical work."
       },
       "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
       "tags": [
@@ -3129,29 +3152,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-29-anthropic-fast-mode",
-      "date": "2026-06-29",
-      "category": "anthropic",
-      "title": {
-        "zh": "克劳德作品 4-6",
-        "ja": "クロード作品-4-6",
-        "en": "claude-opus-4-6"
-      },
-      "summary": {
-        "zh": "我们已删除 Claude Opus 4.6 的快速模式。对 claude-opus-4-6 的请求速度：“快速”不再以快速或高价运行：它们以标准速度运行，按标准费率计费，并且不会返回错误。响应的 use.speed 字段报告所使用的速度。要继续使用快速模式，请迁移到 Claude Opus 4.8。在快速模式下阅读更多内容。",
-        "ja": "Claude Opus 4.6 の高速モードを削除しました。速度「高速」の claude-opus-4-6 へのリクエストは、高速またはプレミアム価格で実行されなくなりました。標準速度で実行され、標準料金で請求され、エラーは返されません。応答の use.speed フィールドは、使用された速度を報告します。高速モードを引き続き使用するには、Claude Opus 4.8 に移行してください。続きは高速モードでご覧ください。",
-        "en": "We've removed fast mode for Claude Opus 4.6. Requests to claude-opus-4-6 with speed: \"fast\" no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's usage.speed field reports the speed used. To continue using fast mode, migrate to Claude Opus 4.8. Read more in Fast mode."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "claude-opus-4-6",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-06-28-openai-hp-frontier-partnership",
       "date": "2026-06-28",
       "category": "openai",
@@ -5845,6 +5845,48 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-03-anthropic-services-track-partner-hub",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
+        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
+      },
+      "summary": {
+        "zh": "三月份，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、お客様がこのエコシステムをナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
+        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
+      },
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
+        "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと",
+        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats"
+      },
+      "summary": {
+        "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
+        "ja": "AI がサイバー攻撃の性質とその背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。",
+        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
+      },
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-openai-travelers",
       "date": "2026-06-02",
       "category": "openai",
@@ -6072,6 +6114,30 @@
       "url": "https://github.blog/changelog/2026-06-02-introducing-copilot-cli-and-agentic-capabilities-enhancements-in-jetbrains-ides",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-gpt-4-1-deprecated",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "GPT-4.1 已弃用",
+        "ja": "GPT-4.1 は非推奨になりました",
+        "en": "GPT-4.1 deprecated"
+      },
+      "summary": {
+        "zh": "我们已于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 GPT-4.1。 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请更新您的工作流程和集成以使用支持的模型。",
+        "ja": "2026 年 6 月 1 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で GPT-4.1 を非推奨にしました。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 ワークフローと統合を更新してください。サポートされているモデルを使用します。",
+        "en": "We have deprecated GPT-4.1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), June 1, 2026. Model Deprecation date Suggested alternative GPT-4.1 2026-06-01 GPT-5.5 Please update your workflows and integrations to use supported model."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-gpt-4-1-deprecated",
+      "tags": [
+        "retired",
         "copilot",
         "github",
         "changelog"
@@ -6348,6 +6414,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-02-anthropic-expanding-project-glasswing",
+      "date": "2026-06-02",
+      "category": "anthropic",
+      "title": {
+        "zh": "扩建项目Glasswing",
+        "ja": "プロジェクト Glasswing の拡張",
+        "en": "Expanding Project Glasswing"
+      },
+      "summary": {
+        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
+        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
+        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
+      },
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -6534,6 +6621,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-01-anthropic-confidential-draft-s1-sec",
+      "date": "2026-06-01",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 向 SEC 秘密提交 S-1 草案",
+        "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します",
+        "en": "Anthropic confidentially submits draft S-1 to the SEC"
+      },
+      "summary": {
+        "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
+        "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
+      },
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-29-openai-trustworthy-third-party-evaluations-foundations",
@@ -6885,6 +6993,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-28-anthropic-series-h",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
+        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+      },
+      "summary": {
+        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
+        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
+      },
+      "url": "https://www.anthropic.com/news/series-h",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -7063,6 +7192,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-27-anthropic-milan-office-opening",
+      "date": "2026-05-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
+        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
+      },
+      "summary": {
+        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+        "ja": "当社はヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
+        "en": "We're opening a new office in Milan, our sixth in Europe."
+      },
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -7222,6 +7372,27 @@
         "openai"
       ],
       "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-25-anthropic-chris-olah-pope-leo-encyclical",
+      "date": "2026-05-25",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
+        "ja": "Anthropic 共同創設者クリス・オラーの教皇レオ 14 世の回勅「マニフィカ・ヒューマニタス」に関する発言",
+        "en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\""
+      },
+      "summary": {
+        "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
+        "ja": "AIに関するローマ法王の回勅に関するクリス・オラー氏の発言の全文。",
+        "en": "The full text of Chris Olah's remarks on the Pope's encyclical on AI."
+      },
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
       "sourceType": "news"
     },
     {
@@ -7591,6 +7762,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-19-anthropic-widening-conversation-ai",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "扩大前沿人工智能的对话",
+        "ja": "フロンティア AI に関する会話を広げる",
+        "en": "Widening the conversation on frontier AI"
+      },
+      "summary": {
+        "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。",
+        "ja": "過去数か月間、私たちは AI によって提起される問題に関連する活動や伝統を持つグループとの対話を企画してきました。",
+        "en": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
+      },
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-19-anthropic-overview-3",
@@ -9969,132 +10161,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-04-24-openai-changelog",
-      "date": "2026-04-24",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-5.5、GPT-5.5 专业版",
-        "ja": "GPT-5.5、GPT-5.5プロ",
-        "en": "GPT-5.5, GPT-5.5 Pro"
-      },
-      "summary": {
-        "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。",
-        "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。",
-        "en": "Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-04-24-feature-gpt-5-5-gpt-5-5-pro",
-      "tags": [
-        "gpt-5-5",
-        "gpt-5-5-pro",
-        "v1-responses",
-        "v1-chat-completions",
-        "v1-batch",
-        "feature",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-24-github-2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-      "date": "2026-04-24",
-      "category": "github",
-      "title": {
-        "zh": "关于 GitHub 应用程序安装令牌即将推出的新格式的通知",
-        "ja": "GitHub アプリ インストール トークンの今後の新しい形式に関するお知らせ",
-        "en": "Notice about upcoming new format for GitHub App installation tokens"
-      },
-      "summary": {
-        "zh": "从 2026 年 4 月 27 日开始，在接下来的几周内，我们将开始分阶段推出，更新新创建的 GitHub 应用程序安装令牌的格式，使其性能更高，并提高 API 表面的可靠性。如果您的应用程序期望或依赖长度恰好为 40 个字符的安装令牌，则它可能无法正确处理这种新的令牌格式。",
-        "ja": "2026 年 4 月 27 日から数週間にわたって、新たに作成された GitHub アプリ インストール トークンの形式を更新する段階的なロールアウトを開始し、トークンのパフォーマンスを向上させ、API サーフェスの信頼性を向上させます。アプリケーションがインストール トークンの長さがちょうど 40 文字であることを期待または依存している場合、この新しいトークン形式を正しく処理できない可能性があります。",
-        "en": "Starting April 27th 2026 and over the coming weeks, we will begin a staged rollout that updates the format of newly minted GitHub App installation tokens, making them more performant and improving the reliability of our API surface. If your application expects or relies on installation tokens being exactly 40 characters long, it may not handle this new token format correctly."
-      },
-      "url": "https://github.blog/changelog/2026-04-24-notice-about-upcoming-new-format-for-github-app-installation-tokens",
-      "tags": [
-        "improvement",
-        "actions",
-        "application-security",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-24-github-2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
-      "date": "2026-04-24",
-      "category": "github",
-      "title": {
-        "zh": "JetBrains IDE 预览版中的内联代理模式以及 GitHub Copilot 中的更多内容",
-        "ja": "JetBrains IDE の GitHub Copilot のプレビューでのインライン エージェント モードなど",
-        "en": "Inline agent mode in preview and more in GitHub Copilot for JetBrains IDEs"
-      },
-      "summary": {
-        "zh": "此更新在预览中引入了内联代理模式、对下一步编辑建议的增强、全局自动批准以及对终端命令和文件编辑的更灵活的控制。它还包括针对 JetBrains IDE 的 GitHub Copilot 的多项用户体验改进和质量改进。",
-        "ja": "この更新では、プレビューでのインライン エージェント モード、次の編集提案の機能強化、グローバル自動承認、ターミナル コマンドとファイル編集のより柔軟な制御が導入されています。また、JetBrains IDE の GitHub Copilot 全体にわたるいくつかのユーザー エクスペリエンスの改良と品質の向上も含まれています。",
-        "en": "This update introduces inline agent mode in preview, enhancements to Next Edit Suggestions, global auto approve, and more flexible controls for terminal commands and file edits. It also includes several user experience refinements and quality improvements across GitHub Copilot for JetBrains IDEs."
-      },
-      "url": "https://github.blog/changelog/2026-04-24-inline-agent-mode-in-preview-and-more-in-github-copilot-for-jetbrains-ides",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-24-github-2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-      "date": "2026-04-24",
-      "category": "github",
-      "title": {
-        "zh": "GPT-5.5 一般适用于 GitHub Copilot",
-        "ja": "GPT-5.5 は GitHub Copilot で一般提供されています",
-        "en": "GPT-5.5 is generally available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "GPT-5.5 是 OpenAI 的最新 GPT 模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，GPT-5.5 在复杂的多步骤代理编码任务上提供了最强的性能，并解决了以前的 GPT 模型无法解决的现实世界编码挑战。",
-        "ja": "OpenAI の最新 GPT モデルである GPT-5.5 は、GitHub Copilot で展開されています。初期のテストでは、GPT-5.5 は複雑なマルチステップのエージェント コーディング タスクで最強のパフォーマンスを発揮し、以前の GPT モデルでは解決できなかった現実世界のコーディングの課題を解決しました。",
-        "en": "GPT-5.5, OpenAI’s latest GPT model, is now rolling out on GitHub Copilot. In our early testing, GPT-5.5 delivers its strongest performance on complex, multi-step agentic coding task and resolves real-world coding challenges previous GPT models couldn’t."
-      },
-      "url": "https://github.blog/changelog/2026-04-24-gpt-5-5-is-generally-available-for-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-24-anthropic-rate-limits-api",
-      "date": "2026-04-24",
-      "category": "anthropic",
-      "title": {
-        "zh": "速率限制 API",
-        "ja": "レート制限 API",
-        "en": "Rate Limits API"
-      },
-      "summary": {
-        "zh": "我们发布了速率限制 API，允许管理员以编程方式查询为其组织和工作区配置的速率限制。",
-        "ja": "レート制限 API をリリースしました。これにより、管理者は組織やワークスペースに設定されたレート制限をプログラムでクエリできるようになります。",
-        "en": "We've released the Rate Limits API, allowing administrators to programmatically query the rate limits configured for their organization and workspaces."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/rate-limits-api",
-      "tags": [
-        "rate-limits-api",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     }
   ]
 }

@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-07-24</lastBuildDate>
+    <lastBuildDate>2026-07-25</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Claude Opus 5 is now available in GitHub Copilot</title>
@@ -35,17 +35,26 @@
     </item>
     <item>
       <title>mid-conversation-tool-changes-2026-07-01</title>
-      <link>https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</link>
-      <description>Mid-conversation tool changes are now in beta on Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests.</description>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</link>
+      <description>Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests.</description>
       <pubDate>2026-07-24</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</guid>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/release-notes/overview#july-24-2026-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01</guid>
+    </item>
+    <item>
+      <title>claude-opus-4-7</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/fast-mode</link>
+      <description>We've removed fast mode for Claude Opus 4.7. Requests to claude-opus-4-7 with speed: "fast" now return an error; unlike Claude Opus 4.6, they do not fall back to standard speed. Claude Opus 4.7 itself remains available at standard speed. To continue using fast mode, migrate to Claude Opus 5 or Claude Opus 4.8. Read more in Fast mode.</description>
+      <pubDate>2026-07-24</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/fast-mode</guid>
     </item>
     <item>
       <title>low</title>
       <link>https://platform.claude.com/docs/en/build-with-claude/effort</link>
-      <description>Claude Opus 5 supports the full effort ladder ( low, medium, high, xhigh, max ), including the max level for capability-critical work.</description>
+      <description>Effort is the primary control for steering Claude Opus 5: the model supports the full ladder ( low, medium, high, xhigh, max ), with max for capability-critical work.</description>
       <pubDate>2026-07-24</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -446,15 +455,6 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/advancing-ai-safety-through-state-and-federal-action</guid>
-    </item>
-    <item>
-      <title>Improvements to secret scanning and public monitoring</title>
-      <link>https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring</link>
-      <description>This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend.</description>
-      <pubDate>2026-07-15</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring</guid>
     </item>
   </channel>
 </rss>
