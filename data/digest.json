@@ -1,7 +1,32 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-07-28-github-2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+      "date": "2026-07-28",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot for JetBrains 添加了改进的 OpenTelemetry 配置和模型管理",
+        "ja": "JetBrains の GitHub Copilot は、改善された OpenTelemetry 構成とモデル管理を追加します",
+        "en": "GitHub Copilot for JetBrains adds improved OpenTelemetry configuration and model management"
+      },
+      "summary": {
+        "zh": "此更新为 JetBrains 工作流程的 GitHub Copilot 带来更多控制和清晰度。您现在可以在 Claude 代理流中连接 MCP 服务器和自定义代理，针对高级场景调整遥测和令牌设置，并获得更清晰的聊天和模型选择体验。",
+        "ja": "このアップデートにより、JetBrains ワークフローの GitHub Copilot がさらに制御され、明確になりました。 Claude エージェント フローで MCP サーバーとカスタム エージェントを接続し、高度なシナリオに合わせてテレメトリとトークンの設定を調整し、よりクリーンなチャットとモデル選択エクスペリエンスを操作できるようになりました。",
+        "en": "This update brings more control and clarity to your GitHub Copilot for JetBrains workflows. You can now connect MCP servers and custom agents in Claude agent flows, tune telemetry and token settings for advanced scenarios, and work with a cleaner chat and model-selection experience."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+      "tags": [
+        "release",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-07-27-openai-how-ai-is-expanding-what-people-do-at-work",
       "date": "2026-07-27",
@@ -22,6 +47,79 @@
         "openai"
       ],
       "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-27-github-2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "使用专用策略管理 GitHub Copilot 应用程序访问",
+        "ja": "専用のポリシーを使用して GitHub Copilot アプリのアクセスを管理する",
+        "en": "Manage GitHub Copilot app access with a dedicated policy"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 应用程序现在有自己的策略，因此您可以控制谁有权在企业和组织级别访问它。到目前为止，对 Copilot 应用程序的访问取决于启用的 GitHub Copilot CLI 策略。",
+        "ja": "GitHub Copilot アプリには独自のポリシーが追加されたため、誰がアクセスできるかを企業レベルおよび組織レベルで制御できるようになりました。これまで、Copilot アプリへのアクセスは、GitHub Copilot CLI ポリシーが有効になっているかどうかに依存していました。",
+        "en": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-27-github-2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序和 Copilot 云代理中的企业托管设置",
+        "ja": "GitHub Copilot アプリおよび Copilot クラウド エージェントのエンタープライズ管理設定",
+        "en": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "您现在可以使用企业托管设置来管理 GitHub Copilot 应用程序和 Copilot 云代理，这与您用于控制整个企业的 Copilot 的集中管理策略相同。通过 Managed-settings.json 文件，企业所有者定义一组护栏，例如开发人员可以使用哪些插件和市场以及他们是否可以绕过批准提示。",
+        "ja": "GitHub Copilot アプリと Copilot クラウド エージェントを、企業全体で Copilot を制御するために使用するのと同じ集中管理ポリシーであるエンタープライズ管理設定で管理できるようになりました。企業所有者は、manded-settings.json ファイルを使用して、開発者が使用できるプラグインやマーケットプレイス、承認プロンプトをバイパスできるかどうかなど、一連のガードレールを定義します。",
+        "en": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-27-anthropic-position-open-weights-models",
+      "date": "2026-07-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们对开放重量模型的立场",
+        "ja": "オープンウェイトモデルに対する当社の立場",
+        "en": "Our position on open-weights models"
+      },
+      "summary": {
+        "zh": "Anthropic 首席执行官 Dario Amodei 谈开放重量模型",
+        "ja": "Anthropic CEO ダリオ・アモデイ氏が無差別ウェイトモデルについて語る",
+        "en": "Anthropic CEO Dario Amodei on open-weights models"
+      },
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
       "sourceType": "news"
     },
     {
@@ -4504,27 +4602,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-12-anthropic-anthropic-public-record",
-      "date": "2026-06-12",
-      "category": "anthropic",
-      "title": {
-        "zh": "第一个 Anthropic 公共记录的结果",
-        "ja": "最初の Anthropic 公開記録の結果",
-        "en": "Results from first Anthropic Public Record"
-      },
-      "summary": {
-        "zh": "Anthropic 公共记录是一项针对人工智能态度和观点的全国性调查。",
-        "ja": "Anthropic Public Record は、AI に対する態度と意見に関する全国調査です。",
-        "en": "Anthropic Public Record is a national survey of attitudes and opinions towards AI."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-public-record",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-06-11-openai-supporting-eu-trustworthy-ai-ecosystem",
       "date": "2026-06-11",
       "category": "openai",
@@ -6415,27 +6492,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-06-02-anthropic-expanding-project-glasswing",
-      "date": "2026-06-02",
-      "category": "anthropic",
-      "title": {
-        "zh": "扩建项目Glasswing",
-        "ja": "プロジェクト Glasswing の拡張",
-        "en": "Expanding Project Glasswing"
-      },
-      "summary": {
-        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
-        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
-        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
-      },
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -7310,27 +7366,6 @@
         "openai"
       ],
       "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-05-25-anthropic-chris-olah-pope-leo-encyclical",
-      "date": "2026-05-25",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
-        "ja": "Anthropic 共同創設者クリス・オラーの教皇レオ 14 世の回勅「マニフィカ・ヒューマニタス」に関する発言",
-        "en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\""
-      },
-      "summary": {
-        "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
-        "ja": "AIに関するローマ法王の回勅に関するクリス・オラー氏の発言の全文。",
-        "en": "The full text of Chris Olah's remarks on the Pope's encyclical on AI."
-      },
-      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
       "sourceType": "news"
     },
     {
@@ -9826,188 +9861,6 @@
         "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
       },
       "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-27-openai-openai-available-at-fedramp-moderate",
-      "date": "2026-04-27",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 在 FedRAMP 中等可用",
-        "ja": "OpenAI は FedRAMP Moderate で利用可能",
-        "en": "OpenAI available at FedRAMP Moderate"
-      },
-      "summary": {
-        "zh": "OpenAI 可在 FedRAMP 对 ChatGPT Enterprise 和 OpenAI API 进行适度授权，从而为美国联邦机构提供安全的 AI 采用。",
-        "ja": "OpenAI は、ChatGPT Enterprise および OpenAI API の FedRAMP Moderate 認証で利用可能であり、米国連邦機関の安全な AI 導入を可能にします。",
-        "en": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies."
-      },
-      "url": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-27-openai-open-source-codex-orchestration-symphony",
-      "date": "2026-04-27",
-      "category": "openai",
-      "title": {
-        "zh": "编排的开源规范：Symphony",
-        "ja": "オーケストレーションのオープンソース仕様: Symphony",
-        "en": "An open-source spec for orchestration: Symphony"
-      },
-      "summary": {
-        "zh": "了解 Symphony（Codex 编排的开源规范）如何将问题跟踪器转变为始终在线的代理系统，从而提高工程输出并减少上下文切换。",
-        "ja": "Codex オーケストレーションのオープンソース仕様である Symphony が、問題トラッカーを常時稼働のエージェント システムに変え、エンジニアリングの成果を高め、コンテキストの切り替えを減らす方法を学びましょう。",
-        "en": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching."
-      },
-      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "tags": [
-        "engineering",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-27-openai-next-phase-of-microsoft-partnership",
-      "date": "2026-04-27",
-      "category": "openai",
-      "title": {
-        "zh": "Microsoft OpenAI 合作伙伴关系的下一阶段",
-        "ja": "Microsoft OpenAI パートナーシップの次の段階",
-        "en": "The next phase of the Microsoft OpenAI partnership"
-      },
-      "summary": {
-        "zh": "OpenAI 和 Microsoft 宣布了一项修订后的协议，该协议简​​化了合作伙伴关系，增加了长期清晰度，并支持大规模的持续人工智能创新。",
-        "ja": "OpenAI と Microsoft は、パートナーシップを簡素化し、長期的な明確性を加え、大規模な AI イノベーションの継続をサポートする修正契約を発表しました。",
-        "en": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale."
-      },
-      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "tags": [
-        "company",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-27-openai-choco",
-      "date": "2026-04-27",
-      "category": "openai",
-      "title": {
-        "zh": "Choco 通过 AI 代理实现食品配送自动化",
-        "ja": "Choco は AI エージェントを使用して食品流通を自動化します",
-        "en": "Choco automates food distribution with AI agents"
-      },
-      "summary": {
-        "zh": "Choco 如何使用 OpenAI API 来简化食品配送、提高生产力并实现增长——关于现实世界人工智能影响的深入客户故事。",
-        "ja": "Choco が OpenAI API を使用して食品流通を合理化し、生産性を高め、成長を解き放つ方法 - 現実世界の AI への影響に関する詳細な顧客ストーリー。",
-        "en": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact."
-      },
-      "url": "https://openai.com/index/choco",
-      "tags": [
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-27-github-2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
-      "date": "2026-04-27",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 代码审查将于 2026 年 6 月 1 日开始消耗 GitHub 操作分钟数",
-        "ja": "GitHub Copilot コード レビューは、2026 年 6 月 1 日に GitHub アクション分の消費を開始します",
-        "en": "GitHub Copilot code review will start consuming GitHub Actions minutes on June 1, 2026"
-      },
-      "summary": {
-        "zh": "世界各地的开发人员和工程团队使用 GitHub Copilot 对每个拉取请求进行高质量、由代理支持的代码审查。我们知道任何变化对我们的客户都很重要，尤其是与计费相关的变化，因此我们提前分享此更新以帮助您进行计划和准备。",
-        "ja": "世界中の開発者とエンジニアリング チームは、すべてのプル リクエストでエージェントによる高品質のコード レビューを行うために GitHub Copilot を使用しています。特に請求に関する変更はお客様にとって重要であることを当社は理解しているため、お客様の計画と準備に役立つよう、この更新情報を早期に共有しています。",
-        "en": "Developers and engineering teams worldwide use GitHub Copilot for high-quality, agent-powered code reviews on every pull request. We understand that any change is significant to our customers, especially when it relates to billing, so we are sharing this update early to help you plan and prepare."
-      },
-      "url": "https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026",
-      "tags": [
-        "release",
-        "actions",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-27-github-2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-      "date": "2026-04-27",
-      "category": "github",
-      "title": {
-        "zh": "Copilot Student GPT-5.3-Codex 从模型选择器中删除",
-        "ja": "Copilot Student GPT-5.3-Codex をモデル ピッカーから削除",
-        "en": "Copilot Student GPT-5.3-Codex removal from model picker"
-      },
-      "summary": {
-        "zh": "从今天开始，在我们的 Copilot 学生计划中，我们将从模型选择器中删除 GPT-5.3-Codex。它仍然可以通过自动模型选择来使用。",
-        "ja": "本日より、Copilot Student プランで、GPT-5.3-Codex をモデル ピッカーから削除します。自動車モデルの選択を通じて引き続き利用できます。",
-        "en": "Starting today, in our Copilot Student plan, we are removing GPT-5.3-Codex from the model picker. It remains available through auto model selection."
-      },
-      "url": "https://github.blog/changelog/2026-04-27-copilot-student-gpt-5-3-codex-removal-from-model-picker",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-27-github-2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-      "date": "2026-04-27",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 云代理使用 Actions 自定义映像启动速度提高 20%",
-        "ja": "Copilot アクション カスタム イメージを使用すると、クラウド エージェントの起動が 20% 高速化されます",
-        "en": "Copilot cloud agent starts 20% faster with Actions custom images"
-      },
-      "summary": {
-        "zh": "由于使用 GitHub Actions 自定义映像构建了优化的运行器环境，Copilot 云代理现在的启动速度提高了 20% 以上。当您将问题分配给 Copilot、从“代理”选项卡启动任务或在拉取请求中提及 @copilot 时，代理会启动基于云的环境来完成其工作。",
-        "ja": "GitHub アクション カスタム イメージを使用して構築された最適化されたランナー環境のおかげで、Copilot クラウド エージェントの起動が 20% 以上高速になりました。問題を Copilot に割り当てるか、[エージェント] タブからタスクを開始するか、プル リクエストで @copilot に言及すると、エージェントはクラウドベースの環境を起動して作業を実行します。",
-        "en": "Copilot cloud agent now starts up over 20% faster, thanks to optimized runner environments built with GitHub Actions custom images. When you assign an issue to Copilot, start a task from the Agents tab, or mention @copilot in a pull request, the agent spins up a cloud-based environment to do its work."
-      },
-      "url": "https://github.blog/changelog/2026-04-27-copilot-cloud-agent-starts-20-faster-with-actions-custom-images",
-      "tags": [
-        "improvement",
-        "actions",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-04-27-anthropic-theo-hourmouzis-general-manager-australia-new-zealand",
-      "date": "2026-04-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 悉尼办事处",
-        "ja": "Anthropic シドニーオフィス",
-        "en": "Anthropic Sydney office"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
       "tags": [
         "anthropic"
       ],
