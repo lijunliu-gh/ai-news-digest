@@ -3,6 +3,52 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-28-google-expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "date": "2026-07-28",
+      "category": "google",
+      "title": {
+        "zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
+        "ja": "Gemini API 管理対象エージェント: 3.6 Flash、フックなど",
+        "en": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
+      },
+      "summary": {
+        "zh": "我们在 Gemini API 中的托管代理中宣布了更多新功能，以便开发人员可以构建可靠的、可用于生产的代理。",
+        "ja": "Gemini API の管理対象エージェントのさらに多くの新機能を発表することで、開発者は信頼性が高く実稼働対応のエージェントを構築できます。",
+        "en": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
+      "tags": [
+        "developer-tools",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-28-google-ai-mode-real-world-tips",
+      "date": "2026-07-28",
+      "category": "google",
+      "title": {
+        "zh": "搜索中的 AI 模式可帮助您享受现实世界的 5 种方式",
+        "ja": "検索の AI モードが現実世界を楽しむ 5 つの方法",
+        "en": "5 ways AI Mode in Search helps you enjoy the real world"
+      },
+      "summary": {
+        "zh": "这听起来可能有悖常理，但搜索的人工智能工具实际上可以帮助您充分利用离线时间，无论您是想预订音乐会门票还是寻找最佳选择……",
+        "ja": "直観に反するように聞こえるかもしれませんが、Search の AI ツールは、コンサートのチケットを予約したり、パフォーマンスを見つけたりする場合に、オフラインでの時間を最大限に活用するのに実際に役立ちます。",
+        "en": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…"
+      },
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "tags": [
+        "search",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-07-28-github-2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
       "date": "2026-07-28",
       "category": "github",
@@ -3575,30 +3621,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-24-github-2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "date": "2026-06-24",
-      "category": "github",
-      "title": {
-        "zh": "免费和学生计划的型号选择发生变化",
-        "ja": "無料プランと学生プランのモデル選択の変更",
-        "en": "Changes to model selection for Free and Student plans"
-      },
-      "summary": {
-        "zh": "Copilot 免费和学生计划现在将使用 Copilot 自动模型选择作为默认且唯一的模型选择体验。自动为每个任务动态选择最佳模型，无需手动选择。",
-        "ja": "Copilot Free プランと Student プランでは、Copilot 自動モデル選択がデフォルトの唯一のモデル選択エクスペリエンスとして使用されるようになります。自動では各タスクに最適なモデルが動的に選択されるため、手動で選択する必要がありません。",
-        "en": "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing the need for manual choice."
-      },
-      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-23-openai-omio",
       "date": "2026-06-23",
       "category": "openai",
@@ -4222,32 +4244,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-17-github-2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
-      "date": "2026-06-17",
-      "category": "github",
-      "title": {
-        "zh": "企业管理的设置现在支持绕过权限控制",
-        "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました",
-        "en": "Enterprise-managed settings now support bypass permission controls"
-      },
-      "summary": {
-        "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。",
-        "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれる) を自動的にスキップしないようにできるようになりました。",
-        "en": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve)."
-      },
-      "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -6857,30 +6853,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-29-google-gemini-omni-3-5-videos",
-      "date": "2026-05-29",
-      "category": "google",
-      "title": {
-        "zh": "Gemini Omni 和 Gemini 3.5 的 9 个演示",
-        "ja": "Gemini Omni および Gemini 3.5 の動作の 9 つのデモ",
-        "en": "9 demos of Gemini Omni and Gemini 3.5 in action"
-      },
-      "summary": {
-        "zh": "观看 9 个视频，展示 Google I/O 2026 上宣布的 Gemini Omni 和 Gemini 3.5 的功能。",
-        "ja": "Google I/O 2026 で発表された Gemini Omni と Gemini 3.5 の機能を示す 9 本のビデオをご覧ください。",
-        "en": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
-      },
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos",
-      "tags": [
-        "gemini-models",
-        "google-deepmind",
-        "ai",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-29-github-2026-05-29-copilot-usage-metrics-api-adds-cohorts-for-ai-adoption",
       "date": "2026-05-29",
       "category": "github",
@@ -6973,34 +6945,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-28-google-io-2026-keynote-moment-videos",
-      "date": "2026-05-28",
-      "category": "google",
-      "title": {
-        "zh": "追忆 2026 年 I/O 12 个重要时刻",
-        "ja": "2026 年の 12 の主要な I/O の瞬間をキャッチアップ",
-        "en": "Catch up on 12 major I/O 2026 moments"
-      },
-      "summary": {
-        "zh": "以下是 12 个最重要的 Google I/O 2026 主题演讲时刻，包括有关 Gemini Omni、Gemini 3.5 Flash 等的新闻。",
-        "ja": "Gemini Omni、Gemini 3.5 Flash などに関するニュースを含む、Google I/O 2026 の基調講演の最大の瞬間 12 件を紹介します。",
-        "en": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
-      },
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
-      "tags": [
-        "search",
-        "android",
-        "google-labs",
-        "shopping",
-        "ai",
-        "gemini-app",
-        "gemini-models",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-28-github-2026-05-28-claude-opus-4-8-is-generally-available-for-github-copilot",
       "date": "2026-05-28",
       "category": "github",
@@ -7069,27 +7013,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-28-anthropic-series-h",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
-        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
-        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
-        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
-        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
-      },
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-28-anthropic-prompt-caching",
