@@ -3,6 +3,55 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-07-28-openai-scientific-computing-agentic-ai",
+      "date": "2026-07-28",
+      "category": "openai",
+      "title": {
+        "zh": "代理人工智能时代的科学计算",
+        "ja": "エージェント型 AI 時代の科学コンピューティング",
+        "en": "Scientific computing in the age of agentic AI"
+      },
+      "summary": {
+        "zh": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
+        "ja": "新しいフィールドレポートでは、科学者が AI コーディング エージェントを使用して科学技術コンピューティングを最新化し、ゲノミクスやその他の分野でのソフトウェア開発と発見を加速する方法を示しています。",
+        "en": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond."
+      },
+      "url": "https://openai.com/index/scientific-computing-agentic-ai",
+      "tags": [
+        "publication",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-07-28-openai-changelog",
+      "date": "2026-07-28",
+      "category": "openai",
+      "title": {
+        "zh": "GPT 转录、GPT 实时转录",
+        "ja": "GPT 転写、GPT ライブ転写",
+        "en": "GPT Transcribe, GPT Live Transcribe"
+      },
+      "summary": {
+        "zh": "发布了 GPT Transcribe，用于准确的文件转录和承诺实时转的最终转录，以及用于低延迟流转录的 GPT Live Transcribe。两种模型都支持自由格式的转录上下文、关键字提示和多种预期输入语言。",
+        "ja": "正確なファイル トランスクリプションとコミットされたリアルタイム ターンの最終トランスクリプトを実現する GPT Transcribe と、低遅延ストリーミング トランスクリプションを実現する GPT Live Transcribe をリリースしました。どちらのモデルも、自由形式の書き起こしコンテキスト、キーワードのヒント、および予期される複数の入力言語をサポートしています。",
+        "en": "Released GPT Transcribe for accurate file transcription and final transcripts of committed Realtime turns, along with GPT Live Transcribe for low-latency streaming transcription. Both models support free-form transcription context, keyword hints, and multiple expected input languages."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-07-28-feature-gpt-transcribe-gpt-live-transcribe",
+      "tags": [
+        "gpt-transcribe",
+        "gpt-live-transcribe",
+        "v1-audio-transcriptions",
+        "v1-realtime",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-28-google-expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "date": "2026-07-28",
       "category": "google",
@@ -3621,6 +3670,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-24-github-2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "date": "2026-06-24",
+      "category": "github",
+      "title": {
+        "zh": "免费和学生计划的型号选择发生变化",
+        "ja": "無料プランと学生プランのモデル選択の変更",
+        "en": "Changes to model selection for Free and Student plans"
+      },
+      "summary": {
+        "zh": "Copilot 免费和学生计划现在将使用 Copilot 自动模型选择作为默认且唯一的模型选择体验。自动为每个任务动态选择最佳模型，无需手动选择。",
+        "ja": "Copilot Free プランと Student プランでは、Copilot 自動モデル選択がデフォルトの唯一のモデル選択エクスペリエンスとして使用されるようになります。自動では各タスクに最適なモデルが動的に選択されるため、手動で選択する必要がありません。",
+        "en": "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing the need for manual choice."
+      },
+      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-23-openai-omio",
       "date": "2026-06-23",
       "category": "openai",
@@ -4244,6 +4317,32 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-17-github-2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+      "date": "2026-06-17",
+      "category": "github",
+      "title": {
+        "zh": "企业管理的设置现在支持绕过权限控制",
+        "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました",
+        "en": "Enterprise-managed settings now support bypass permission controls"
+      },
+      "summary": {
+        "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。",
+        "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれます) を自動的にスキップしないようにできるようになりました。",
+        "en": "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve)."
+      },
+      "url": "https://github.blog/changelog/2026-06-17-enterprise-managed-settings-now-support-bypass-permission-controls",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -5982,6 +6081,27 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-03-anthropic-services-track-partner-hub",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
+        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
+      },
+      "summary": {
+        "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
+        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
+      },
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
       "date": "2026-06-03",
       "category": "anthropic",
@@ -6530,6 +6650,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-02-anthropic-expanding-project-glasswing",
+      "date": "2026-06-02",
+      "category": "anthropic",
+      "title": {
+        "zh": "扩建项目Glasswing",
+        "ja": "プロジェクト Glasswing の拡張",
+        "en": "Expanding Project Glasswing"
+      },
+      "summary": {
+        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
+        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
+        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
+      },
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -6716,6 +6857,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-01-anthropic-confidential-draft-s1-sec",
+      "date": "2026-06-01",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 向 SEC 秘密提交 S-1 草案",
+        "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します",
+        "en": "Anthropic confidentially submits draft S-1 to the SEC"
+      },
+      "summary": {
+        "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
+        "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
+      },
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-29-openai-trustworthy-third-party-evaluations-foundations",
@@ -7015,6 +7177,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-28-anthropic-series-h",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
+        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+      },
+      "summary": {
+        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
+        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
+      },
+      "url": "https://www.anthropic.com/news/series-h",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -7193,6 +7376,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-27-anthropic-milan-office-opening",
+      "date": "2026-05-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
+        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
+      },
+      "summary": {
+        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
+        "en": "We're opening a new office in Milan, our sixth in Europe."
+      },
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -7309,6 +7513,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
+      "date": "2026-05-26",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
+        "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命",
+        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
+      },
+      "summary": {
+        "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
+        "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。",
+        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
+      },
+      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -7834,6 +8059,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-19-anthropic-anthropic-kpmg",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
+        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
+        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
       "date": "2026-05-18",
       "category": "openai",
@@ -8052,6 +8298,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
+      "date": "2026-05-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 收购不锈钢",
+        "ja": "Anthropic がステンレスを取得",
+        "en": "Anthropic acquires Stainless"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-17-google-simulate-real-world-places-with-project-genie-and-street-view",
@@ -8441,6 +8708,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
+      "date": "2026-05-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
+        "ja": "PwC は、テクノロジーを構築し、取引を実行し、クライアント向けのエンタープライズ機能を再発明するために Claude を導入しています",
+        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
@@ -9401,6 +9689,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-06-anthropic-higher-limits-spacex",
+      "date": "2026-05-06",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
+        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
+        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
+      },
+      "summary": {
+        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
+        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
+        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
+      },
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -9670,6 +9979,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
+      "date": "2026-05-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
+        "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築",
+        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-01-github-2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
