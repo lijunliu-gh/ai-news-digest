@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "windowMonths": 3,
   "items": [
     {
@@ -96,6 +96,56 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-07-28-github-2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "date": "2026-07-28",
+      "category": "github",
+      "title": {
+        "zh": "Grok 4.5 现已在 GitHub Copilot 中提供",
+        "ja": "Grok 4.5 が GitHub Copilot で利用可能になりました",
+        "en": "Grok 4.5 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "xAI 的最新推理模型 Grok 4.5 现已在 GitHub Copilot 中推出。它专为快速、代理编码和复杂的多步骤工作流程而设计，具有最多 500,000 个标记的上下文窗口，支持文本和图像输入以及低、中、高推理工作。",
+        "ja": "xAI の最新推論モデルである Grok 4.5 は、GitHub Copilot で展開されています。高速なエージェント コーディングと複雑なマルチステップ ワークフロー向けに設計されており、最大 500,000 トークンのコンテキスト ウィンドウ、テキストと画像の入力のサポート、および低、中、高の推論労力を備えています。",
+        "en": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort."
+      },
+      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-28-github-2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+      "date": "2026-07-28",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序使用情况指标现在可跨报告汇总扩展",
+        "ja": "GitHub Copilot アプリの使用状況指標がレポートのロールアップ全体に拡張されるようになりました",
+        "en": "GitHub Copilot app usage metrics now expand across report rollups"
+      },
+      "summary": {
+        "zh": "Copilot 应用程序使用情况现在通过更多 Copilot 使用指标 API 进行报告。个人 Copilot 应用程序活动现在归因于企业用户和组织用户报告中的用户。",
+        "ja": "Copilot アプリの使用状況は、より多くの Copilot 使用状況メトリック API で報告されるようになりました。個々の Copilot アプリ アクティビティは、エンタープライズ ユーザー レポートおよび組織ユーザー レポートのユーザーに関連付けられるようになりました。",
+        "en": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports."
+      },
+      "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-07-28-github-2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
@@ -419,54 +469,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 移动版：使用 Copilot 云代理修复失败的操作检查",
-        "ja": "GitHub モバイル: Copilot クラウド エージェントによる失敗したアクション チェックを修正",
-        "en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "现在，当 GitHub 操作检查对您的拉取请求失败时，您可以要求 Copilot 编码代理进行调查并直接从 GitHub Mobile 修复问题。从失败的检查中，选择使用 Copilot 修复以启动该过程。",
-        "ja": "プル リクエストで GitHub アクション チェックが失敗した場合、Copilot コーディング エージェントに調査を依頼し、GitHub モバイルから問題を直接修正できるようになりました。失敗したチェックから [Copilot で修正] を選択してプロセスを開始します。",
-        "en": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub MCP 服务器支持下一个 MCP 规范",
-        "ja": "GitHub MCP サーバーは次の MCP 仕様をサポートします",
-        "en": "GitHub MCP Server supports the next MCP specification"
-      },
-      "summary": {
-        "zh": "MCP 协议将于 2026 年 7 月 28 日变为无状态，并且 GitHub MCP 服务器在正式发布之前支持最新规范。变化新的无状态核心意味着 MCP 部署现在可以轻松扩展。",
-        "ja": "MCP プロトコルは 2026 年 7 月 28 日にステートレスになり、GitHub MCP サーバーは正式リリースに先立って最新の仕様をサポートします。変更点 新しいステートレス コアにより、MCP デプロイメントの拡張が容易になりました。",
-        "en": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-23-github-2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
@@ -7177,27 +7179,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-28-anthropic-series-h",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
-        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
-        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
-        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
-        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
-      },
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -7376,27 +7357,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-27-anthropic-milan-office-opening",
-      "date": "2026-05-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
-        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
-      },
-      "summary": {
-        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
-        "en": "We're opening a new office in Milan, our sixth in Europe."
-      },
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -7513,27 +7473,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
-      "date": "2026-05-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
-        "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命",
-        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
-      },
-      "summary": {
-        "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
-        "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。",
-        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
-      },
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -8710,27 +8649,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
-      "date": "2026-05-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-        "ja": "PwC は、テクノロジーを構築し、取引を実行し、クライアント向けのエンタープライズ機能を再発明するために Claude を導入しています",
-        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
       "date": "2026-05-14",
       "category": "anthropic",
@@ -9689,27 +9607,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-06-anthropic-higher-limits-spacex",
-      "date": "2026-05-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
-        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
-        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
-      },
-      "summary": {
-        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
-        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
-      },
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -9981,27 +9878,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
-      "date": "2026-05-04",
-      "category": "anthropic",
-      "title": {
-        "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
-        "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築",
-        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-01-github-2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
       "date": "2026-05-01",
       "category": "github",
@@ -10159,71 +10035,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-04-28-openai-our-commitment-to-community-safety",
-      "date": "2026-04-28",
-      "category": "openai",
-      "title": {
-        "zh": "我们对社区安全的承诺",
-        "ja": "地域の安全に対する私たちの取り組み",
-        "en": "Our commitment to community safety"
-      },
-      "summary": {
-        "zh": "了解 OpenAI 如何通过模型保障、误用检测、策略执行以及与安全专家的合作来保护 ChatGPT 中的社区安全。",
-        "ja": "OpenAI が、モデルの保護、誤用の検出、ポリシーの施行、安全専門家との協力を通じて、ChatGPT のコミュニティの安全をどのように保護しているかを学びましょう。",
-        "en": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts."
-      },
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "tags": [
-        "safety",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-28-openai-openai-on-aws",
-      "date": "2026-04-28",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 模型、Codex 和托管代理来到 AWS",
-        "ja": "OpenAI モデル、Codex、およびマネージド エージェントが AWS に登場",
-        "en": "OpenAI models, Codex, and Managed Agents come to AWS"
-      },
-      "summary": {
-        "zh": "OpenAI GPT 模型、Codex 和托管代理现已在 AWS 上提供，使企业能够在其 AWS 环境中构建安全的 AI。",
-        "ja": "OpenAI GPT モデル、Codex、およびマネージド エージェントが AWS で利用できるようになり、企業は AWS 環境で安全な AI を構築できるようになります。",
-        "en": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments."
-      },
-      "url": "https://openai.com/index/openai-on-aws",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-04-28-anthropic-claude-for-creative-work",
-      "date": "2026-04-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 用于创意工作",
-        "ja": "クリエイティブな仕事のための Claude",
-        "en": "Claude for Creative Work"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/claude-for-creative-work",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
