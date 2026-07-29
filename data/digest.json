@@ -471,6 +471,54 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-23-github-2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+      "date": "2026-07-23",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 移动版：使用 Copilot 云代理修复失败的操作检查",
+        "ja": "GitHub モバイル: Copilot クラウド エージェントによるアクション チェックの失敗を修正",
+        "en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "现在，当 GitHub 操作检查对您的拉取请求失败时，您可以要求 Copilot 编码代理进行调查并直接从 GitHub Mobile 修复问题。从失败的检查中，选择使用 Copilot 修复以启动该过程。",
+        "ja": "プル リクエストで GitHub アクション チェックが失敗した場合、Copilot コーディング エージェントに調査を依頼し、GitHub モバイルから問題を直接修正できるようになりました。失敗したチェックから [Copilot で修正] を選択してプロセスを開始します。",
+        "en": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process."
+      },
+      "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-23-github-2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+      "date": "2026-07-23",
+      "category": "github",
+      "title": {
+        "zh": "GitHub MCP 服务器支持下一个 MCP 规范",
+        "ja": "GitHub MCP サーバーは次の MCP 仕様をサポートします",
+        "en": "GitHub MCP Server supports the next MCP specification"
+      },
+      "summary": {
+        "zh": "MCP 协议将于 2026 年 7 月 28 日变为无状态，并且 GitHub MCP 服务器在正式发布之前支持最新规范。变化新的无状态核心意味着 MCP 部署现在可以轻松扩展。",
+        "ja": "MCP プロトコルは 2026 年 7 月 28 日にステートレスになり、GitHub MCP サーバーは正式リリースに先立って最新の仕様をサポートします。変更点 新しいステートレス コアにより、MCP デプロイメントの拡張が容易になりました。",
+        "en": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale."
+      },
+      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-23-github-2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
       "date": "2026-07-23",
       "category": "github",
@@ -1111,32 +1159,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-17-github-2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-      "date": "2026-07-17",
-      "category": "github",
-      "title": {
-        "zh": "存储库级别 GitHub Copilot 使用指标普遍可用",
-        "ja": "リポジトリ レベルの GitHub Copilot 使用状況メトリクスが一般提供されました",
-        "en": "Repository-level GitHub Copilot usage metrics generally available"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标 REST API 现在报告存储库级别的活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、每个存储库的拉取请求活动细分。",
-        "ja": "Copilot 使用状況メトリック REST API は、リポジトリ レベルのアクティビティを報告するようになりました。 2 つの新しいエンドポイントは、Copilot コーディング エージェントと Copilot コード レビューのプル リクエスト アクティビティの毎日のリポジトリごとの内訳を返します。",
-        "en": "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review."
-      },
-      "url": "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-17-github-2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
       "date": "2026-07-17",
       "category": "github",
@@ -1154,32 +1176,6 @@
       "tags": [
         "improvement",
         "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-17-github-2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-      "date": "2026-07-17",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 应用程序现在可在使用指标 API 中使用",
-        "ja": "GitHub Copilot アプリが使用状況メトリクス API で利用可能になりました",
-        "en": "GitHub Copilot app now available in the usage metrics API"
-      },
-      "summary": {
-        "zh": "Copilot 使用情况指标 API 现在在企业和组织 1 天和 28 天报告中报告 GitHub Copilot 应用程序使用情况。这使企业和组织管理员可以了解应用程序的活动以及他们已检索的 IDE、聊天、代码审查和编码代理指标。",
-        "ja": "Copilot 使用状況メトリック API は、企業および組織の 1 日および 28 日のレポートで GitHub Copilot アプリの使用状況をレポートするようになりました。これにより、企業および組織の管理者は、すでに取得した IDE、チャット、コード レビュー、コーディング エージェントのメトリクスとともに、アプリのアクティビティを把握できるようになります。",
-        "en": "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve."
-      },
-      "url": "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -3551,31 +3547,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-25-github-2026-06-25-github-copilot-for-jira-is-now-generally-available",
-      "date": "2026-06-25",
-      "category": "github",
-      "title": {
-        "zh": "Jira 的 GitHub Copilot 现已全面可用",
-        "ja": "Jira の GitHub Copilot が一般提供になりました",
-        "en": "GitHub Copilot for Jira is now generally available"
-      },
-      "summary": {
-        "zh": "Jira 的 GitHub Copilot 现已全面可用。自 2026 年 3 月推出公共预览版以来，我们根据您的反馈提供了一系列增强功能，包括模型选择、通过 MCP 的 Confluence 上下文、自定义代理、自定义字段、空间级指导以及 Jira 中的审核请求通知。",
-        "ja": "Jira の GitHub Copilot が一般公開されました。 2026 年 3 月にパブリック プレビューを開始して以来、モデルの選択、MCP による Confluence コンテキスト、カスタム エージェント、カスタム フィールド、スペースレベルのガイダンス、Jira でのレビュー リクエスト通知など、皆様のフィードバックに基づいた一連の機能強化を出荷してきました。",
-        "en": "GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira."
-      },
-      "url": "https://github.blog/changelog/2026-06-25-github-copilot-for-jira-is-now-generally-available",
-      "tags": [
-        "improvement",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-06-25-github-2026-06-25-enterprise-managed-settings-now-support-strictknownmarketplaces-in-vs-code-and-the-cli",
@@ -7179,6 +7150,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-28-anthropic-series-h",
+      "date": "2026-05-28",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
+        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+      },
+      "summary": {
+        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
+        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
+      },
+      "url": "https://www.anthropic.com/news/series-h",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -7357,6 +7349,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-27-anthropic-milan-office-opening",
+      "date": "2026-05-27",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
+        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
+      },
+      "summary": {
+        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
+        "en": "We're opening a new office in Milan, our sixth in Europe."
+      },
+      "url": "https://www.anthropic.com/news/milan-office-opening",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -7473,6 +7486,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
+      "date": "2026-05-26",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
+        "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命",
+        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
+      },
+      "summary": {
+        "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
+        "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。",
+        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
+      },
+      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -8143,30 +8177,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
-        "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル",
-        "en": "Copilot cloud agent: Fast, cost-efficient models for simple tasks"
-      },
-      "summary": {
-        "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用来完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。",
-        "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。",
-        "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-18-github-2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
       "date": "2026-05-18",
       "category": "github",
@@ -8181,30 +8191,6 @@
         "en": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration."
       },
       "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-github-2026-05-18-ask-questions-in-context-with-copilot-on-web",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "在网络上使用 Copilot 提问",
-        "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする",
-        "en": "Ask questions in context with Copilot on web"
-      },
-      "summary": {
-        "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。",
-        "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。",
-        "en": "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-ask-questions-in-context-with-copilot-on-web",
       "tags": [
         "release",
         "copilot",
@@ -8647,6 +8633,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
+      "date": "2026-05-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
+        "ja": "PwC は、テクノロジーを構築し、取引を実行し、クライアント向けのエンタープライズ機能を再発明するために Claude を導入しています",
+        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
@@ -9102,30 +9109,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-08-github-2026-05-07-upcoming-deprecation-of-gpt-4-1",
-      "date": "2026-05-08",
-      "category": "github",
-      "title": {
-        "zh": "即将弃用 GPT-4.1",
-        "ja": "GPT-4.1 の今後の非推奨",
-        "en": "Upcoming deprecation of GPT-4.1"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
-        "ja": "2026 年 6 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 これらの前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。日付。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
-        "en": "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative GPT-4.1 2026-06-01 GPT-5.5 Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-05-07-upcoming-deprecation-of-gpt-4-1",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-07-openai-testing-ads-in-chatgpt",
       "date": "2026-05-07",
       "category": "openai",
@@ -9303,30 +9286,6 @@
       "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
       "tags": [
         "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-07-github-2026-05-07-claude-sonnet-4-deprecated",
-      "date": "2026-05-07",
-      "category": "github",
-      "title": {
-        "zh": "Claude Sonnet 4 已弃用",
-        "ja": "Claude Sonnet 4 は非推奨になりました",
-        "en": "Claude Sonnet 4 deprecated"
-      },
-      "summary": {
-        "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。",
-        "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。",
-        "en": "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models."
-      },
-      "url": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
-      "tags": [
-        "retired",
         "copilot",
         "github",
         "changelog"
@@ -9607,6 +9566,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-06-anthropic-higher-limits-spacex",
+      "date": "2026-05-06",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
+        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
+        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
+      },
+      "summary": {
+        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
+        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
+        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
+      },
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -9876,6 +9856,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
+      "date": "2026-05-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
+        "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築",
+        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-01-github-2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
