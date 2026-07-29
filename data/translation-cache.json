@@ -4910,14 +4910,6 @@
     "zh": "我们将在接下来的几周内逐步为新订阅者重新开放 GitHub Copilot Student、Pro、Pro+ 和 Max 计划的注册。如果您一直在等待开始使用 Copilot，请选择适合您需求的计划。",
     "ja": "新規加入者向けに、GitHub Copilot Student、Pro、Pro+、Max プランへのサインアップを今後数週間かけて段階的に再開します。 Copilot の使用を開始するのを待っていた場合は、ニーズに合ったプランを選択してください。"
   },
-  "Dedicated security review command now available in Copilot CLI": {
-    "zh": "Copilot CLI 中现已提供专用安全审查命令",
-    "ja": "専用のセキュリティレビューコマンドが Copilot CLI で利用可能になりました"
-  },
-  "You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview, giving you a fast, AI-driven way to catch security vulnerabilities before they reach production code.": {
-    "zh": "现在，您可以直接从 GitHub Copilot CLI 对代码更改运行安全审查。新的 /security-review 斜杠命令作为公共预览版中的实验性功能提供，为您提供一种快速、人工智能驱动的方法，在安全漏洞到达生产代码之前捕获它们。",
-    "ja": "コード変更のセキュリティ レビューを GitHub Copilot CLI から直接実行できるようになりました。新しい /security-review スラッシュ コマンドは、パブリック プレビューの実験機能として出荷されており、セキュリティの脆弱性が製品コードに到達する前に、AI 主導の高速な方法で検出できるようになります。"
-  },
   "GitHub Copilot in Eclipse: BYOK, skills, and chat updates": {
     "zh": "Eclipse 中的 GitHub Copilot：BYOK、技能和聊天更新",
     "ja": "Eclipse の GitHub Copilot: BYOK、スキル、チャットの更新"
@@ -4957,14 +4949,6 @@
   "Enterprise and organization administrators can now bring their own MCP registry and enforce allowlist policies in Copilot CLI. This feature is in public preview and brings MCP governance controls to developers working directly from the CLI.": {
     "zh": "企业和组织管理员现在可以携带自己的 MCP 注册表，并在 Copilot CLI 中强制执行许可名单策略。此功能已推出公共预览版，可为直接从 CLI 工作的开发人员带来 MCP 治理控制。",
     "ja": "企業および組織の管理者は、独自の MCP レジストリを導入し、Copilot CLI で許可リスト ポリシーを適用できるようになりました。この機能はパブリック プレビュー段階にあり、CLI から直接作業する開発者に MCP ガバナンス制御をもたらします。"
-  },
-  "Enterprises can default to auto model selection": {
-    "zh": "企业可以默认自动选型",
-    "ja": "企業はデフォルトで自動モデル選択を設定できる"
-  },
-  "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default.": {
-    "zh": "企业管理员现在可以在企业 Managed-settings.json 中将模型设置为自动，以使 Copilot 自动模型选择成为新对话的默认值。在源组织中将 auto 添加到.github-private/.github/copilot/managed-settings.json 以进行企业治理，以便新对话默认以 Copilot 自动模型选择开始。",
-    "ja": "エンタープライズ管理者は、エンタープライズ管理対象設定.json でモデルを auto に設定し、Copilot 自動モデル選択を新しい会話のデフォルトにできるようになりました。エンタープライズ ガバナンスのためにソース組織に auto to.github-private/.github/copilot/managed-settings.json を追加して、新しい会話がデフォルトで Copilot 自動モデル選択から始まるようにします。"
   },
   "Dreams": {
     "zh": "梦想",
@@ -5590,14 +5574,6 @@
     "zh": "Claude Sonnet 5 是 Anthropic 的最新 Sonnet 级型号，现已在 GitHub Copilot 中提供。它为日常开发和代理工作流程带来了强大的编码性能，为开发人员提供了跨 IDE 和 CLI 执行任务的新 Sonnet 类选项。",
     "ja": "Claude Sonnet 5 は Anthropic の最新の Sonnet クラス モデルで、GitHub Copilot で利用可能になりました。日々の開発やエージェントワークフローに強力なコーディングパフォーマンスをもたらし、開発者に IDE と CLI にわたるタスクのための新しい Sonnet クラスのオプションを提供します。"
   },
-  "Safer pull_request_target defaults for GitHub Actions checkout": {
-    "zh": "GitHub 操作结账的默认 pull_request_target 更安全",
-    "ja": "GitHub アクション チェックアウトのより安全な pull_request_target のデフォルト"
-  },
-  "Editor’s note (July 15, 2026): We updated this post to reflect a revised backport enforcement date. Enforcement for backported versions of actions/checkout has been moved from July 16, 2026 to Monday, July 20, 2026.": {
-    "zh": "编者注（2026 年 7 月 15 日）：我们更新了这篇文章以反映修订后的向后移植执行日期。向后移植版本的操作/结账的执行日期已从 2026 年 7 月 16 日移至 2026 年 7 月 20 日星期一。",
-    "ja": "編集者注 (2026 年 7 月 15 日): 修正されたバックポート施行日を反映するためにこの投稿を更新しました。アクション/チェックアウトのバックポート バージョンの適用は、2026 年 7 月 16 日から 2026 年 7 月 20 日月曜日に変更されました。"
-  },
   "AI usage report updates": {
     "zh": "AI 使用报告更新",
     "ja": "AI使用状況レポートの更新"
@@ -5918,22 +5894,6 @@
     "zh": "向聊天完成和响应 API 发布了适用于复杂专业工作的新前沿模型 GPT-5.5，并发布了用于响应 API 请求的 GPT-5.5 Pro，以解决从更多计算中受益的更棘手问题。 GPT-5.5 支持 1M 令牌上下文窗口、图像输入、结构化输出、函数调用、提示缓存、批处理、工具搜索、内置计算机使用、托管 shell、应用补丁、技能、MCP 和 Web 搜索。",
     "ja": "複雑な専門的作業のための新しいフロンティア モデルである GPT-5.5 をチャット完了および応答 API にリリースし、より多くのコンピューティングの恩恵を受けるより困難な問題に対する応答 API リクエスト用の GPT-5.5 Pro をリリースしました。 GPT-5.5 は、1M トークン コンテキスト ウィンドウ、画像入力、構造化出力、関数呼び出し、プロンプト キャッシュ、バッチ、ツール検索、組み込みコンピューターの使用、ホストされたシェル、パッチの適用、スキル、MCP、および Web 検索をサポートします。"
   },
-  "GitHub Code Quality is now generally available": {
-    "zh": "GitHub 代码质量现已普遍可用",
-    "ja": "GitHub コード品質が一般提供になりました"
-  },
-  "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.": {
-    "zh": "GitHub 代码质量现已在 GitHub Enterprise Cloud 和 GitHub Team 上全面提供。它解决了软件开发的一个新兴挑战：人工智能加速代码输出，代码质量帮助团队交付他们信任的代码。",
-    "ja": "GitHub コード品質は、GitHub Enterprise Cloud および GitHub Team で一般提供されるようになりました。ソフトウェア開発の新たな課題を解決します。AI はコード出力を加速し、コード品質はチームが信頼できるコードを出荷するのに役立ちます。"
-  },
-  "GitHub Copilot in Visual Studio Code, June 2026 releases": {
-    "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 6 月发布",
-    "ja": "Visual Studio Code、2026 年 6 月リリースの GitHub Copilot"
-  },
-  "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow.": {
-    "zh": "此变更日志涵盖 VS Code v1.123 至 v1.127，于 2026 年 6 月和 7 月初发布。最新的 VS Code 版本基于开发人员每天使用的 Copilot 体验，使管理代理工作、了解使用情况、选择正确的模型并保持流程更加轻松。",
-    "ja": "この変更ログでは、2026 年 6 月から 7 月初めにかけて出荷された VS Code v1.123 から v1.127 までをカバーしています。最新の VS Code リリースは、開発者が毎日使用する Copilot エクスペリエンスに基づいて構築されており、エージェントの作業の管理、使用状況の理解、適切なモデルの選択、フローへの継続が容易になります。"
-  },
   "Introducing Claude Opus 5": {
     "zh": "介绍Claude Opus 5",
     "ja": "Claude Opus の紹介 5"
@@ -6170,14 +6130,6 @@
     "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
     "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました"
   },
-  "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance": {
-    "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-    "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合"
-  },
-  "Anthropic acquires Stainless": {
-    "zh": "Anthropic 收购不锈钢",
-    "ja": "Anthropic がステンレスを取得"
-  },
   "GPT Transcribe, GPT Live Transcribe": {
     "zh": "GPT 转录、GPT 实时转录",
     "ja": "GPT 転写、GPT ライブ転写"
@@ -6226,38 +6178,6 @@
     "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
     "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。"
   },
-  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
-    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
-  },
-  "We're opening a new office in Milan, our sixth in Europe.": {
-    "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-    "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
-  },
-  "Anthropic appoints KiYoung Choi as Representative Director of Korea": {
-    "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
-    "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命"
-  },
-  "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.": {
-    "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
-    "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。"
-  },
-  "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients": {
-    "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-    "ja": "PwC は、テクノロジーを構築し、取引を実行し、クライアント向けのエンタープライズ機能を再発明するために Claude を導入しています"
-  },
-  "Higher usage limits for Claude and a compute deal with SpaceX": {
-    "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
-    "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約"
-  },
-  "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.": {
-    "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-    "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。"
-  },
-  "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs": {
-    "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
-    "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築"
-  },
   "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent": {
     "zh": "GitHub 移动版：使用 Copilot 云代理修复失败的操作检查",
     "ja": "GitHub モバイル: Copilot クラウド エージェントによるアクション チェックの失敗を修正"
@@ -6273,5 +6193,61 @@
   "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale.": {
     "zh": "MCP 协议将于 2026 年 7 月 28 日变为无状态，并且 GitHub MCP 服务器在正式发布之前支持最新规范。变化新的无状态核心意味着 MCP 部署现在可以轻松扩展。",
     "ja": "MCP プロトコルは 2026 年 7 月 28 日にステートレスになり、GitHub MCP サーバーは正式リリースに先立って最新の仕様をサポートします。変更点 新しいステートレス コアにより、MCP デプロイメントの拡張が容易になりました。"
+  },
+  "Repository-level GitHub Copilot usage metrics generally available": {
+    "zh": "存储库级别 GitHub Copilot 使用指标普遍可用",
+    "ja": "リポジトリ レベルの GitHub Copilot 使用状況メトリクスが一般提供されました"
+  },
+  "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.": {
+    "zh": "Copilot 使用指标 REST API 现在报告存储库级别的活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、每个存储库的拉取请求活动细分。",
+    "ja": "Copilot 使用状況メトリック REST API は、リポジトリ レベルのアクティビティを報告するようになりました。 2 つの新しいエンドポイントは、Copilot コーディング エージェントと Copilot コード レビューのプル リクエスト アクティビティの毎日のリポジトリごとの内訳を返します。"
+  },
+  "GitHub Copilot app now available in the usage metrics API": {
+    "zh": "GitHub Copilot 应用程序现在可在使用指标 API 中使用",
+    "ja": "GitHub Copilot アプリが使用状況メトリクス API で利用可能になりました"
+  },
+  "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve.": {
+    "zh": "Copilot 使用情况指标 API 现在在企业和组织 1 天和 28 天报告中报告 GitHub Copilot 应用程序使用情况。这使企业和组织管理员可以了解应用程序的活动以及他们已检索的 IDE、聊天、代码审查和编码代理指标。",
+    "ja": "Copilot 使用状況メトリック API は、企業および組織の 1 日および 28 日のレポートで GitHub Copilot アプリの使用状況をレポートするようになりました。これにより、企業および組織の管理者は、すでに取得した IDE、チャット、コード レビュー、コーディング エージェントのメトリクスとともに、アプリのアクティビティを可視化できるようになります。"
+  },
+  "GitHub Copilot for Jira is now generally available": {
+    "zh": "Jira 的 GitHub Copilot 现已全面可用",
+    "ja": "Jira の GitHub Copilot が一般提供になりました"
+  },
+  "GitHub Copilot for Jira is now generally available. Since launching the public preview in March 2026, we have shipped a series of enhancements based on your feedback, including model selection, Confluence context via MCP, custom agents, custom fields, space-level guidance, and review request notifications in Jira.": {
+    "zh": "Jira 的 GitHub Copilot 现已全面可用。自 2026 年 3 月推出公共预览版以来，我们根据您的反馈提供了一系列增强功能，包括模型选择、通过 MCP 的 Confluence 上下文、自定义代理、自定义字段、空间级指导以及 Jira 中的审核请求通知。",
+    "ja": "Jira の GitHub Copilot が一般公開されました。 2026 年 3 月にパブリック プレビューを開始して以来、モデルの選択、MCP を介した Confluence コンテキスト、カスタム エージェント、カスタム フィールド、スペースレベルのガイダンス、Jira でのレビュー リクエスト通知など、皆様のフィードバックに基づいた一連の機能強化を出荷してきました。"
+  },
+  "Copilot cloud agent: Fast, cost-efficient models for simple tasks": {
+    "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
+    "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル"
+  },
+  "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options.": {
+    "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用来完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。",
+    "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。"
+  },
+  "Ask questions in context with Copilot on web": {
+    "zh": "在网络上使用 Copilot 提问",
+    "ja": "ウェブ上で Copilot を使用してコンテキストに沿った質問をする"
+  },
+  "Copilot chat on the web now opens on the page you are viewing. This helps you get fast answers to your questions with reduced context switching.": {
+    "zh": "Copilot 网络聊天现在在您正在查看的页面上打开。这可以帮助您通过减少上下文切换来快速获得问题的答案。",
+    "ja": "Copilot ウェブ上のチャットが、表示しているページで開きます。これにより、コンテキストの切り替えを減らし、質問に対する回答を迅速に得ることができます。"
+  },
+  "Upcoming deprecation of GPT-4.1": {
+    "zh": "即将弃用 GPT-4.1",
+    "ja": "GPT-4.1 の今後の非推奨"
+  },
+  "We will deprecate the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on 6/1/2026: Model Deprecation date Suggested alternative GPT-4.1 2026-06-01 GPT-5.5 Please update your workflows and integrations to use supported models before these dates. Copilot Enterprise administrators may need to enable access to alternative models through their model policies in Copilot settings.": {
+    "zh": "我们将于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
+    "ja": "2026 年 6 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 これらの前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。日付。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。"
+  },
+  "Claude Sonnet 4 deprecated": {
+    "zh": "Claude Sonnet 4 已弃用",
+    "ja": "Claude Sonnet 4 は非推奨になりました"
+  },
+  "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models.": {
+    "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。",
+    "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。"
   }
 }
