@@ -3619,10 +3619,6 @@
     "zh": "OpenAI 通过 Appia 基金会帮助建立先进人工智能的共享标准，支持评估框架、安全实践和全球合作。",
     "ja": "OpenAI は、高度な AI の共有標準の構築を支援し、評価フレームワーク、安全慣行、および Appia Foundation を通じた世界的な協力をサポートします。"
   },
-  "Copilot Chat now sees your agent sessions": {
-    "zh": "Copilot 聊天现在可以看到您的代理会话",
-    "ja": "Copilot チャットにエージェント セッションが表示されるようになりました"
-  },
   "Prioritize security alerts with runtime context from Dynatrace": {
     "zh": "使用 Dynatrace 的运行时上下文确定安全警报的优先级",
     "ja": "Dynatrace のランタイム コンテキストを使用してセキュリティ アラートに優先順位を付ける"
@@ -4070,10 +4066,6 @@
   "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside GitHub Actions.": {
     "zh": "GitHub Agentic Workflows 现已推出公共预览版。借助代理工作流程，您可以利用 GitHub 操作中的编码代理来自动执行基于推理的任务，例如问题分类、CI 故障分析和文档更新。",
     "ja": "GitHub Agentic Workflows は現在パブリック プレビュー段階にあります。エージェント ワークフローを使用すると、GitHub アクション内のコーディング エージェントを利用して、問題のトリアージ、CI 障害分析、ドキュメントの更新などの推論ベースのタスクを自動化できます。"
-  },
-  "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat.": {
-    "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。",
-    "ja": "Web 上の Copilot Chat と Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。"
   },
   "Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before Claude Opus 4.7, the same text produces roughly 30% more tokens. The exact increase depends on the content and workload shape. Use the token counting API with model: \"claude-fable-5\" to measure your prompts under the new tokenizer.": {
     "zh": "Claude Fable 5 和 Claude Mythos 5 使用 Claude Opus 4.7 中引入的分词器。与 Claude Opus 4.7 之前的模型相比，相同的文本产生的标记大约多出 30%。确切的增长取决于内容和工作量形状。使用带有模型“claude-fable-5”的令牌计数 API 来测量新令牌生成器下的提示。",
@@ -5374,14 +5366,6 @@
     "zh": "正如 2026 年 3 月 18 日宣布的那样，GPT-5.3-Codex 现在是所有 Copilot 商业和 Copilot 企业组织的基本模型，取代了 GPT-4.1。当您的组织尚未通过其内部审核流程批准其他模型时，将使用基本模型。",
     "ja": "2026 年 3 月 18 日に発表されたように、GPT-5.3-Codex は、GPT-4.1 に代わって、すべての Copilot Business 組織および Copilot Enterprise 組織の基本モデルになりました。基本モデルは、組織が内部レビュー プロセスを通じて他のモデルをまだ承認していない場合に使用されます。"
   },
-  "GitHub App installation tokens: Per-request override header": {
-    "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
-    "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー"
-  },
-  "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand.": {
-    "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。",
-    "ja": "2026 年 4 月に発表されたように、GitHub は GitHub アプリ インストール トークンの新しいトークン形式を展開しています。ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。"
-  },
   "Grok Code Fast 1 deprecated": {
     "zh": "Grok Code Fast 1 已弃用",
     "ja": "Grok Code Fast 1 は非推奨になりました"
@@ -5645,14 +5629,6 @@
   "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.": {
     "zh": "Google 推出了 Gemini 3.5 Flash Cyber​​，这是一种用于查找和修补漏洞的轻量级网络安全模型。",
     "ja": "Google は、脆弱性を見つけてパッチを適用するための軽量サイバーセキュリティ モデルである Gemini 3.5 Flash Cyber​​ を導入しました。"
-  },
-  "Gemini 3.6 Flash is now available in GitHub Copilot": {
-    "zh": "Gemini 3.6 Flash 现在可在 GitHub Copilot 中使用",
-    "ja": "Gemini 3.6 Flash が GitHub Copilot で利用可能になりました"
-  },
-  "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.": {
-    "zh": "Gemini 3.6 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。它专为 Web 和应用程序开发、编码和长期代理任务而设计。",
-    "ja": "Google の最新の Flash モデルである Gemini 3.6 Flash は、GitHub Copilot で展開されています。 Web およびアプリの開発、コーディング、および長期的なエージェント タスク向けに設計されています。"
   },
   "OpenAI and Hugging Face partner to address security incident during model evaluation": {
     "zh": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
@@ -6277,5 +6253,117 @@
   "GitHub secret scanning in the GitHub MCP (Model Context Protocol) server is now generally available. When you use an MCP-compatible AI coding agent or IDE (like GitHub Copilot CLI or Visual Studio Code), you can scan your code for exposed secrets before you commit or open a pull request, so leaked credentials don’t make it into your repository in the first place.": {
     "zh": "GitHub MCP（模型上下文协议）服务器中的 GitHub 秘密扫描现已普遍可用。当您使用 MCP 兼容的 AI 编码代理或 IDE（例如 GitHub Copilot CLI 或 Visual Studio Code）时，您可以在提交或打开拉取请求之前扫描代码以查找暴露的机密，因此泄漏的凭据首先不会进入您的存储库。",
     "ja": "GitHub MCP (モデル コンテキスト プロトコル) サーバーでの GitHub シークレット スキャンが一般提供されるようになりました。 MCP 互換の AI コーディング エージェントまたは IDE (GitHub Copilot CLI や Visual Studio Code など) を使用すると、プル リクエストをコミットまたはオープンする前にコードをスキャンして、公開されたシークレットがないか確認できるため、そもそも漏洩した認証情報がリポジトリに侵入することはありません。"
+  },
+  "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration": {
+    "zh": "Gemini 机器人 ER 2：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
+    "ja": "Gemini Robotics ER 2: ビデオ理解、タスク オーケストレーション、および複数ロボットのコラボレーションによりロボティクスを強化"
+  },
+  "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.": {
+    "zh": "Gemini Robotics ER 2 帮助机器人推理、协作和解决现实世界的任务。它代表了机器人应用程序的视频理解、工具编排和多机器人协作方面的一步变化。",
+    "ja": "Gemini Robotics ER 2 は、ロボットが現実世界のタスクを推論し、協力し、解決するのに役立ちます。これは、ビデオの理解、ツールのオーケストレーション、ロボット アプリケーションのマルチロボット コラボレーションにおける大きな変化を表しています。"
+  },
+  "Gemini Robotics 2 brings whole body intelligence to robots": {
+    "zh": "Gemini Robotics 2 为机器人带来全身智能",
+    "ja": "Gemini Robotics 2 はロボットに全身知能をもたらします"
+  },
+  "Results from first Anthropic Public Record": {
+    "zh": "第一个 Anthropic 公共记录的结果",
+    "ja": "最初の Anthropic 公開記録の結果"
+  },
+  "Anthropic Public Record is a national survey of attitudes and opinions towards AI.": {
+    "zh": "Anthropic 公共记录是一项针对人工智能态度和观点的全国性调查。",
+    "ja": "Anthropic Public Record は、AI に対する態度と意見に関する全国調査です。"
+  },
+  "Introducing the Services Track and Partner Hub of the Claude Partner Network": {
+    "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+    "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介"
+  },
+  "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.": {
+    "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+    "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。"
+  },
+  "What we learned mapping a year’s worth of AI-enabled cyber threats": {
+    "zh": "我们在绘制一年的人工智能网络威胁地图时学到了什么",
+    "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと"
+  },
+  "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.": {
+    "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
+    "ja": "AI がサイバー攻撃の性質とその背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。"
+  },
+  "Expanding Project Glasswing": {
+    "zh": "扩建项目Glasswing",
+    "ja": "プロジェクト Glasswing の拡張"
+  },
+  "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries": {
+    "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
+    "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します"
+  },
+  "Anthropic confidentially submits draft S-1 to the SEC": {
+    "zh": "Anthropic 向 SEC 秘密提交 S-1 草案",
+    "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します"
+  },
+  "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission": {
+    "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+    "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました"
+  },
+  "Anthropic raises $65B in Series H funding at $965B post-money valuation": {
+    "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+    "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達"
+  },
+  "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.": {
+    "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+    "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。"
+  },
+  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
+    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
+  },
+  "We're opening a new office in Milan, our sixth in Europe.": {
+    "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
+    "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
+  },
+  "Anthropic appoints KiYoung Choi as Representative Director of Korea": {
+    "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
+    "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命"
+  },
+  "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.": {
+    "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
+    "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。"
+  },
+  "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"": {
+    "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
+    "ja": "Anthropic 共同創設者クリス・オラーの教皇レオ 14 世の回勅「マニフィカ・ヒューマニタス」に関する発言"
+  },
+  "The full text of Chris Olah's remarks on the Pope's encyclical on AI.": {
+    "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
+    "ja": "AIに関するローマ教皇の回勅に関するクリス・オラー氏の発言の全文。"
+  },
+  "Widening the conversation on frontier AI": {
+    "zh": "扩大前沿人工智能的对话",
+    "ja": "フロンティア AI に関する会話を広げる"
+  },
+  "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.": {
+    "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。",
+    "ja": "過去数か月間、私たちは AI によって提起される問題に関連する活動や伝統を持つグループとの対話を組織してきました。"
+  },
+  "Higher usage limits for Claude and a compute deal with SpaceX": {
+    "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
+    "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約"
+  },
+  "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.": {
+    "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
+    "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。"
+  },
+  "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs": {
+    "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
+    "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築"
+  },
+  "GitHub Copilot in Visual Studio — July update": {
+    "zh": "Visual Studio 中的 GitHub Copilot — 7 月更新",
+    "ja": "Visual Studio の GitHub Copilot — 7 月の更新"
+  },
+  "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.": {
+    "zh": "2026 年 7 月带来了基于 Copilot SDK 的新代理、来自.NET 和 Azure 团队的内置专业知识，以及更多根据您和您的团队的工作方式定制 GitHub Copilot 的方法。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
+    "ja": "2026 年 7 月には、Copilot SDK に基づく新しいエージェント、.NET チームと Azure チームからの組み込み専門知識、およびユーザーとチームの作業方法に合わせて GitHub Copilot を調整するためのさらなる方法が導入されました。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。"
   }
 }
