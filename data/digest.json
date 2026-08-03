@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-08-03-openai-continuous-voice-interaction-with-gpt-live",
+      "date": "2026-08-03",
+      "category": "openai",
+      "title": {
+        "zh": "我们如何在六个月内构建响应式语音 AI 实时系统",
+        "ja": "応答性の高い音声 AI のリアルタイム システムを 6 か月で構築した方法",
+        "en": "How we built a realtime system for responsive voice AI in six months"
+      },
+      "summary": {
+        "zh": "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+        "ja": "GPT-Live は、ターンレス音声モデルと低遅延アーキテクチャを使用して、AI との継続的な音声対話を可能にし、より高速で自然な会話を実現します。",
+        "en": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations."
+      },
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-08-01-openai-ten-advances-in-mathematics",
       "date": "2026-08-01",
       "category": "openai",
@@ -339,30 +361,6 @@
         "en": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
       },
       "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布",
-        "ja": "Visual Studio Code、2026 年 7 月リリースの GitHub Copilot",
-        "en": "GitHub Copilot in Visual Studio Code, July 2026 releases"
-      },
-      "summary": {
-        "zh": "此变更日志涵盖 VS Code v1.127 至 v1.131，于 2026 年 7 月发布。这些版本改进了您与代理合作、查看更改、使用聊天和导航 VS Code 的方式。",
-        "ja": "この変更ログは、2026 年 7 月を通じて出荷された VS Code v1.127 から v1.131 を対象としています。これらのリリースにより、エージェントとの連携、変更の確認、チャットの使用、および VS Code の操作方法が改善されます。",
-        "en": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
       "tags": [
         "release",
         "copilot",
@@ -4128,6 +4126,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-26-github-2026-06-26-cost-center-limit-increased-to-1000-per-enterprise",
+      "date": "2026-06-26",
+      "category": "github",
+      "title": {
+        "zh": "每个企业的成本中心限制增加至 1,000",
+        "ja": "コストセンターの制限が企業あたり 1,000 に増加",
+        "en": "Cost center limit increased to 1,000 per enterprise"
+      },
+      "summary": {
+        "zh": "现在，您可以为每个企业创建最多 1,000 个成本中心（从 500 个）。对数百或数千个业务单位、部门或产品组进行建模的企业现在可以在 GitHub 中表示完整的结构，而不是将使用数据导出到自行开发的系统中来填补空白。",
+        "ja": "企業ごとに 500 から最大 1,000 のコスト センターを作成できるようになりました。数百または数千のビジネス ユニット、部門、製品グループをモデル化する企業は、ギャップを埋めるために使用状況データを自社システムにエクスポートする代わりに、その完全な構造を GitHub で表現できるようになりました。",
+        "en": "You can now create up to 1,000 cost centers per enterprise, up from 500. Enterprises that model hundreds or thousands of business units, departments, or product groups can now represent that full structure in GitHub, instead of exporting usage data into a homegrown system to fill the gap."
+      },
+      "url": "https://github.blog/changelog/2026-06-26-cost-center-limit-increased-to-1000-per-enterprise",
+      "tags": [
+        "improvement",
+        "account-management",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-26-anthropic-rate-limits",
       "date": "2026-06-26",
       "category": "anthropic",
@@ -6637,6 +6660,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-03-github-2026-06-03-github-copilot-in-visual-studio-code-may-releases",
+      "date": "2026-06-03",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code 中的 GitHub Copilot，5 月发布",
+        "ja": "Visual Studio Code の GitHub Copilot、5 月リリース",
+        "en": "GitHub Copilot in Visual Studio Code, May releases"
+      },
+      "summary": {
+        "zh": "VS Code 继续每周发布稳定版。此变更日志涵盖 v1.120 至 v1.123 版本，这些版本是我们在 2026 年 5 月和 6 月初发布的版本。",
+        "ja": "VS Code は毎週の安定版リリースを継続します。この変更ログは、リリース v1.120 から v1.123 までをカバーしており、これらのリリースは 2026 年 5 月から 6 月上旬にかけて出荷されました。",
+        "en": "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026."
+      },
+      "url": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-02-openai-travelers",
       "date": "2026-06-02",
       "category": "openai",
@@ -8097,6 +8144,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-21-github-2026-05-21-github-copilot-for-eclipse-is-open-source",
+      "date": "2026-05-21",
+      "category": "github",
+      "title": {
+        "zh": "Eclipse 的 GitHub Copilot 是开源的",
+        "ja": "Eclipse の GitHub Copilot はオープンソースです",
+        "en": "GitHub Copilot for Eclipse is open source"
+      },
+      "summary": {
+        "zh": "继我们之前的更新之后，Eclipse 的 GitHub Copilot 是开源的，代码可在 MIT 许可证下的 GitHub 上获取。这标志着 GitHub Copilot 在 Eclipse 生态系统中的一个重要里程碑。",
+        "ja": "以前の更新に続き、Eclipse の GitHub Copilot はオープン ソースとなり、コードは MIT ライセンスの下で GitHub で利用可能になります。これは、Eclipse エコシステムにおける GitHub Copilot にとって重要なマイルストーンとなります。",
+        "en": "Following our previous updates, GitHub Copilot for Eclipse is open source, with the code available on GitHub under the MIT license. This marks an important milestone for GitHub Copilot in the Eclipse ecosystem."
+      },
+      "url": "https://github.blog/changelog/2026-05-21-github-copilot-for-eclipse-is-open-source",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-20-openai-the-next-phase-of-education-for-countries",
       "date": "2026-05-20",
       "category": "openai",
@@ -8841,6 +8912,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-15-github-2026-05-15-grok-code-fast-1-deprecated",
+      "date": "2026-05-15",
+      "category": "github",
+      "title": {
+        "zh": "Grok Code Fast 1 已弃用",
+        "ja": "Grok Code Fast 1 は非推奨になりました",
+        "en": "Grok Code Fast 1 deprecated"
+      },
+      "summary": {
+        "zh": "今天，即 2026 年 5 月 15 日，我们已在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了 Grok Code Fast 1。 模型弃用日期 建议替代 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 请更新您的工作流程和集成以使用支持的模型。",
+        "ja": "本日、2026 年 5 月 15 日、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Grok Code Fast 1 を非推奨にしました。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 更新してくださいサポートされているモデルを使用するためのワークフローと統合。",
+        "en": "We have deprecated Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, May 15, 2026. Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Please update your workflows and integrations to use supported models."
+      },
+      "url": "https://github.blog/changelog/2026-05-15-grok-code-fast-1-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-15-github-2026-05-15-copilot-memory-supports-user-preferences-for-pro-pro-users",
       "date": "2026-05-15",
       "category": "github",
@@ -9092,30 +9187,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-05-13-github-2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
-      "date": "2026-05-13",
-      "category": "github",
-      "title": {
-        "zh": "通过 REST API 启动 Copilot 云代理任务",
-        "ja": "REST API 経由で Copilot クラウド エージェント タスクを開始する",
-        "en": "Start Copilot cloud agent tasks via the REST API"
-      },
-      "summary": {
-        "zh": "Copilot 商业版和 Copilot 企业版用户可以使用公共预览版中提供的新代理任务 REST API 以编程方式启动 Copilot 云代理任务。 Copilot 云代理在其自己的开发环境中在后台工作，可以在其中进行和验证代码更改，然后打开拉取请求。",
-        "ja": "Copilot Business および Copilot Enterprise ユーザーは、パブリック プレビューで利用可能な新しいエージェント タスク REST API を使用して、Copilot クラウド エージェント タスクをプログラムで開始できます。 Copilot クラウド エージェントは、独自の開発環境のバックグラウンドで動作し、コードの変更を行って検証し、プル リクエストをオープンできます。",
-        "en": "Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request."
-      },
-      "url": "https://github.blog/changelog/2026-05-13-start-copilot-cloud-agent-tasks-via-the-rest-api",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-05-13-anthropic-claude-for-small-business",
@@ -9424,6 +9495,30 @@
       "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
       "tags": [
         "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 云代理更灵活的秘密和变量",
+        "ja": "Copilot クラウド エージェントのより柔軟なシークレットと変数",
+        "en": "More flexible secrets and variables for Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。",
+        "ja": "タスクを Copilot クラウド エージェントに委任すると、そのタスクは GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。",
+        "en": "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
