@@ -4753,6 +4753,32 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-19-github-2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+      "date": "2026-06-19",
+      "category": "github",
+      "title": {
+        "zh": "现在在 Copilot 使用指标 API 中每个用户消耗的 AI 积分",
+        "ja": "ユーザーごとに消費される AI クレジットが Copilot 使用状況メトリクス API に追加されました",
+        "en": "AI credits consumed per user now in the Copilot usage metrics API"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标 API 现在报告每个用户每天消耗的 AI 积分数，这些积分源自基于使用情况的计费 API 中使用的相同 AI 积分消耗数据。新功能 现在，用户级别报告中为每个用户添加了一个新的 ai_credits_used 字段，并指示用户消耗的总 AI 积分。",
+        "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。",
+        "en": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API. What’s new A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed."
+      },
+      "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+      "tags": [
+        "release",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-18-openai-improving-health-intelligence-in-chatgpt",
       "date": "2026-06-18",
       "category": "openai",
@@ -4797,6 +4823,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-18-github-2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "Opus 4.6 即将弃用（快速）",
+        "ja": "Opus 4.6 (高速) の今後の非推奨",
+        "en": "Upcoming deprecation of Opus 4.6 (fast)"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 6 月 29 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Opus 4.6（快速）： 模型弃用日期 建议替代 Opus 4.6（快速） 2026 年 6 月 29 日 Opus 4.8（快速） 请将您的工作流程和集成更新为在这些日期之前使用受支持的型号。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
+        "ja": "2026 年 6 月 29 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Opus 4.6 (高速) を非推奨とします。 モデルの非推奨日 推奨される代替品 Opus 4.6 (高速) 2026 年 6 月 29 日 Opus 4.8 (高速) を更新してください。これらの日付より前にサポートされているモデルを使用するには、ワークフローと統合が必要です。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
+        "en": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date Suggested alternative Opus 4.6 (fast) 6-29-2026 Opus 4.8 (fast) Please update your workflows and integrations to use the supported model before these dates. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
       "date": "2026-06-18",
       "category": "github",
@@ -4815,6 +4865,30 @@
         "release",
         "actions",
         "supply-chain-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-18-github-2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "MAI-Code-1-Flash 可用于更多 Copilot 表面",
+        "ja": "MAI-Code-1-Flash は、より多くの Copilot サーフェスで利用可能です",
+        "en": "MAI-Code-1-Flash available on more Copilot surfaces"
+      },
+      "summary": {
+        "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 移动 JetBrains IDE Eclipse Xcode 上聊天 编者注：以上列表于 2026 年 6 月 24 日更新，包括Copilot 云代理。",
+        "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました: Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode エディターの注: 上記のリストは 6 月 24 日に更新されました。 2026 年、Copilot クラウド エージェントを含めます。",
+        "en": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -4863,6 +4937,30 @@
       "tags": [
         "release",
         "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-18-github-2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：AGENTS.md 支持和 UI 改进",
+        "ja": "Copilot コード レビュー: AGENTS.md のサポートと UI の改善",
+        "en": "Copilot code review: AGENTS.md support and UI improvements"
+      },
+      "summary": {
+        "zh": "Copilot 代码审查现在支持存储库级别的 AGENTS.md 文件，并且可以更轻松地使用“请求”按钮向 Copilot 请求对草稿拉取请求进行审查。这些更改都是普遍可用的。",
+        "ja": "Copilot コード レビューはリポジトリ レベルの AGENTS.md ファイルをサポートするようになり、リクエスト ボタンを使用してドラフト プル リクエストの Copilot からのレビューを簡単にリクエストできるようになりました。これらの変更はすべて一般公開されています。",
+        "en": "Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally available."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -5495,6 +5593,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-11-github-2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+      "date": "2026-06-11",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Agentic Workflows 现已推出公共预览版",
+        "ja": "GitHub Agentic Workflows はパブリック プレビュー段階になりました",
+        "en": "GitHub Agentic Workflows is now in public preview"
+      },
+      "summary": {
+        "zh": "GitHub Agentic Workflows 现已推出公共预览版。借助代理工作流程，您可以利用 GitHub 操作中的编码代理来自动执行基于推理的任务，例如问题分类、CI 故障分析和文档更新。",
+        "ja": "GitHub Agentic Workflows は現在パブリック プレビュー段階にあります。エージェント ワークフローを使用すると、GitHub アクション内のコーディング エージェントを利用して、問題のトリアージ、CI 障害分析、ドキュメントの更新などの推論ベースのタスクを自動化できます。",
+        "en": "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside GitHub Actions."
+      },
+      "url": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+      "tags": [
+        "release",
+        "actions",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-11-github-2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings",
       "date": "2026-06-11",
       "category": "github",
@@ -5561,6 +5684,30 @@
       "tags": [
         "improvement",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-11-github-2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "date": "2026-06-11",
+      "category": "github",
+      "title": {
+        "zh": "代理工作流程不再需要个人访问令牌",
+        "ja": "エージェント ワークフローには個人用アクセス トークンが必要なくなりました",
+        "en": "Agentic workflows no longer need a personal access token"
+      },
+      "summary": {
+        "zh": "您现在可以将 GitHub 代理工作流程与 GitHub Actions 的内置 GITHUB_TOKEN 结合使用。这意味着您不再需要创建和存储个人访问令牌 (PAT)，从而消除了大规模自动化管理长期 PAT 的操作和安全风险。",
+        "ja": "GitHub アクションの組み込み GITHUB_TOKEN で GitHub エージェント ワークフローを使用できるようになりました。つまり、パーソナル アクセス トークン (PAT) を作成して保存する必要がなくなり、大規模な自動化のために有効期間の長い PAT を管理する際の運用リスクやセキュリティ リスクが排除されます。",
+        "en": "You can now use GitHub Agentic Workflows with GitHub Actions’s built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale."
+      },
+      "url": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -9438,6 +9585,27 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
+      "date": "2026-05-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
+        "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています",
+        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
       "date": "2026-05-14",
       "category": "anthropic",
@@ -9815,6 +9983,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-05-08-github-2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "date": "2026-05-08",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用 Grok Code Fast 1",
+        "ja": "Grok Code Fast 1 の今後の非推奨",
+        "en": "Upcoming deprecation of Grok Code Fast 1"
+      },
+      "summary": {
+        "zh": "我们将于 5 月 15 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Grok Code Fast 1： 模型弃用日期 建议替代 Grok Code Fast 1 2026 年 5 月 15 日 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1 弃用日期已提前由于模型提供者弃用。请在此日期之前更新您的工作流程和集成以使用支持的模型。",
+        "ja": "すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で、5 月 15 日に Grok Code Fast 1 を非推奨にします。 モデルの非推奨日 推奨される代替 Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 Grok Code Fast 1モデルプロバイダーの非推奨により、非推奨日が早まります。この日より前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。",
+        "en": "We will deprecate Grok Code Fast 1 across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 15th: Model Deprecation date Suggested alternative Grok Code Fast 1 2026-05-15 GPT-5 mini / Claude Haiku 4.5 The Grok Code Fast 1 deprecation date is accelerated due to the model provider deprecation. Please update your workflows and integrations to use supported models before this date."
+      },
+      "url": "https://github.blog/changelog/2026-05-08-upcoming-deprecation-of-grok-code-fast-1",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-05-08-github-2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent",
@@ -10372,6 +10564,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-05-06-anthropic-higher-limits-spacex",
+      "date": "2026-05-06",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
+        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
+        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
+      },
+      "summary": {
+        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
+        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
+        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
+      },
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -10641,6 +10854,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
+      "date": "2026-05-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司",
+        "ja": "Blackstone、Hellman & Friedman、Goldman Sachs と共同で新しいエンタープライズ AI サービス会社を構築",
+        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     }
   ]
 }
