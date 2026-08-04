@@ -4163,14 +4163,6 @@
     "zh": "我们的网络分类器阻止和未阻止什么，以及我们的越狱严重性框架的初稿",
     "ja": "サイバー分類子によってブロックされるものとブロックされないもの、およびジェイルブレイク重大度フレームワークの最初の草案"
   },
-  "GPT-5.2 and GPT-5.2-Codex deprecated": {
-    "zh": "GPT-5.2 和 GPT-5.2-Codex 已弃用",
-    "ja": "GPT-5.2 および GPT-5.2-Codex は非推奨になりました"
-  },
-  "As of today, June 5, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that GPT-5.2 is still available as part of Copilot code review.": {
-    "zh": "截至 2026 年 6 月 5 日，我们已在大多数 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。请注意，GPT-5.2 仍可作为 Copilot 代码审查的一部分使用。",
-    "ja": "本日、2026 年 6 月 5 日の時点で、ほとんどの GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 GPT-5.2 は Copilot コード レビューの一部として引き続き利用できることに注意してください。"
-  },
   "Better debugging with GitHub Copilot on the web": {
     "zh": "在网络上使用 GitHub Copilot 更好地进行调试",
     "ja": "Web 上の GitHub Copilot を使用したデバッグの改善"
@@ -4746,14 +4738,6 @@
     "zh": "梦想",
     "ja": "夢"
   },
-  "Enterprise-managed OpenTelemetry export for VS Code and CLI": {
-    "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
-    "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート"
-  },
-  "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI.": {
-    "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
-    "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。"
-  },
   "Set AI credit session limits in Copilot CLI and SDK": {
     "zh": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制",
     "ja": "Copilot CLI および SDK で AI クレジット セッション制限を設定する"
@@ -5001,14 +4985,6 @@
   "Enterprise admins can now set a cost center user-level budget: one per-user AI credit budget on a cost center that applies to every individual in it. As membership changes, the budget follows.": {
     "zh": "企业管理员现在可以设置成本中心用户级预算：成本中心上的每用户 AI 信用预算适用于其中的每个人。随着成员资格的变化，预算也会随之变化。",
     "ja": "企業管理者は、コスト センターのユーザー レベルの予算を設定できるようになりました。つまり、コスト センターのユーザーごとに 1 つの AI クレジット予算が設定され、コスト センター内のすべての個人に適用されます。メンバーが変わると予算もそれに伴います。"
-  },
-  "Copilot-authored pull requests now included in author searches": {
-    "zh": "Copilot 创作的拉取请求现已包含在作者搜索中",
-    "ja": "Copilot が作成したプル リクエストが作成者の検索に含まれるようになりました"
-  },
-  "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own pull requests and any pull requests Copilot opened at your direction.": {
-    "zh": "使用作者搜索拉取请求：现在显示由 Copilot 云代理代表用户打开的拉取请求。例如，在 github.com/pulls 上使用author:@me 进行搜索将返回您自己的拉取请求以及按照您的指示打开的任何拉取请求 Copilot。",
-    "ja": "author を使用したプル リクエストの検索: ユーザーに代わって Copilot クラウド エージェントによってオープンされたプル リクエストが表示されるようになりました。たとえば、github.com/pulls で author:@me で検索すると、自分のプル リクエストと、あなたの指示で開かれたプル リクエスト Copilot が返されます。"
   },
   "Remote control for Copilot CLI sessions now generally available on mobile, web, and VS Code": {
     "zh": "Copilot CLI 会话的远程控制现在普遍可在移动设备、Web 和 VS Code 上使用",
@@ -5502,22 +5478,6 @@
     "zh": "此更新为 JetBrains 工作流程的 GitHub Copilot 带来更多控制和清晰度。您现在可以在 Claude 代理流中连接 MCP 服务器和自定义代理，针对高级场景调整遥测和令牌设置，并获得更清晰的聊天和模型选择体验。",
     "ja": "このアップデートにより、JetBrains ワークフローの GitHub Copilot がさらに制御され、明確になりました。 Claude エージェント フローで MCP サーバーとカスタム エージェントを接続し、高度なシナリオに合わせてテレメトリとトークンの設定を調整し、よりクリーンなチャットとモデル選択エクスペリエンスを操作できるようになりました。"
   },
-  "Manage GitHub Copilot app access with a dedicated policy": {
-    "zh": "使用专用策略管理 GitHub Copilot 应用程序访问",
-    "ja": "専用のポリシーを使用して GitHub Copilot アプリのアクセスを管理する"
-  },
-  "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled.": {
-    "zh": "GitHub Copilot 应用程序现在有自己的策略，因此您可以控制谁有权在企业和组织级别访问它。到目前为止，对 Copilot 应用程序的访问取决于启用的 GitHub Copilot CLI 策略。",
-    "ja": "GitHub Copilot アプリには独自のポリシーが追加されたため、誰がアクセスできるかを企業レベルおよび組織レベルで制御できるようになりました。これまで、Copilot アプリへのアクセスは、GitHub Copilot CLI ポリシーが有効になっているかどうかに依存していました。"
-  },
-  "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent": {
-    "zh": "GitHub Copilot 应用程序和 Copilot 云代理中的企业托管设置",
-    "ja": "GitHub Copilot アプリおよび Copilot クラウド エージェントのエンタープライズ管理設定"
-  },
-  "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts.": {
-    "zh": "您现在可以使用企业托管设置来管理 GitHub Copilot 应用程序和 Copilot 云代理，这与您用于控制整个企业的 Copilot 的集中管理策略相同。通过 Managed-settings.json 文件，企业所有者定义一组护栏，例如开发人员可以使用哪些插件和市场以及他们是否可以绕过批准提示。",
-    "ja": "GitHub Copilot アプリと Copilot クラウド エージェントを、企業全体で Copilot を制御するために使用するのと同じ集中管理ポリシーであるエンタープライズ管理設定で管理できるようになりました。企業所有者は、manded-settings.json ファイルを使用して、開発者が使用できるプラグインやマーケットプレイス、承認プロンプトをバイパスできるかどうかなど、一連のガードレールを定義します。"
-  },
   "GitHub Code Quality license estimate in public preview": {
     "zh": "GitHub 公共预览版中的代码质量许可证估算",
     "ja": "GitHub パブリック プレビュー中のコード品質ライセンスの見積もり"
@@ -5846,14 +5806,6 @@
     "zh": "Copilot 代码审查现在使用 Copilot CLI 和 SDK 中提供的内置文件探索工具，显着提高审查成本效率，而无需更改现有工作流程。如果您处于中等分析深度公共预览版中，您还会看到一些围绕评论深度的可配置性和可见性的新更新。",
     "ja": "Copilot コード レビューでは、Copilot CLI および SDK で利用可能な組み込みのファイル探索ツールが使用されるようになり、既存のワークフローを変更することなくレビューのコスト効率が大幅に向上します。中程度の分析深度のパブリック プレビューを使用している場合は、レビュー深度の構成可能性と可視​​性を中心としたいくつかの新しい更新も表示されます。"
   },
-  "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues": {
-    "zh": "检测重复问题 – 公共预览和问题字段 MCP 支持 GitHub 问题",
-    "ja": "重複する問題の検出 – パブリック プレビューおよび問題フィールド GitHub 問題の MCP サポート"
-  },
-  "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this can take up hours every week.": {
-    "zh": "重复问题是维护人员最大的时间消耗之一：以多种方式对同一错误进行分类、关闭重复问题并链接回原始问题。对于大型存储库，这每周可能需要花费几个小时。",
-    "ja": "重複した問題は、メンテナにとって最大の時間を浪費するものの 1 つです。複数の方法でファイルされた同じバグを優先順位付けし、重複を閉じ、元のバグにリンクし直す必要があります。大規模なリポジトリの場合、これには毎週数時間かかる場合があります。"
-  },
   "GitHub Models is no longer available to new customers": {
     "zh": "GitHub 模型不再向新客户提供",
     "ja": "GitHub モデルは新規顧客には利用できなくなりました"
@@ -5941,14 +5893,6 @@
   "GitHub Copilot auto model selection now routes to the best model for your task, using utilization and model health metrics for a high quality, reliable, and token-efficient experience. How it works Auto weighs real-time model availability and reliability signals, then evaluates your task across several dimensions like reasoning, code generation complexity, bug diagnosis difficulty, and tool orchestration needs to select the optimal model.": {
     "zh": "GitHub Copilot 自动模型选择现在可以路由到最适合您任务的模型，使用利用率和模型运行状况指标来获得高质量、可靠且高效的体验。工作原理 自动权衡实时模型可用性和可靠性信号，然后从推理、代码生成复杂性、错误诊断难度和工具编排需要等多个维度评估您的任务，以选择最佳模型。",
     "ja": "GitHub Copilot 自動モデル選択は、高品質で信頼性が高く、トークン効率の高いエクスペリエンスを実現するために、使用率とモデルの健全性メトリクスを使用して、タスクに最適なモデルにルーティングされるようになりました。仕組み リアルタイムのモデルの可用性と信頼性の信号を自動的に比較検討し、推論、コード生成の複雑さ、バグ診断の難易度、最適なモデルを選択するためのツール オーケストレーションの必要性など、いくつかの側面にわたってタスクを評価します。"
-  },
-  "Gemini 3.5 Flash is generally available for GitHub Copilot": {
-    "zh": "Gemini 3.5 Flash 通常可用于 GitHub Copilot",
-    "ja": "Gemini 3.5 Flash は GitHub Copilot で一般提供されています"
-  },
-  "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows.": {
-    "zh": "Gemini 3.5 Flash 是 Google 最新的 Flash 层模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，Gemini 3.5 Flash 以 Flash 级的速度和成本提供了接近 Pro 的编码质量，具有强大的工具使用性、快速的响应时间和高缓存效率，使其非常适合快速、迭代代理编码工作流程。",
-    "ja": "Google の最新の Flash 層モデルである Gemini 3.5 Flash は、GitHub Copilot で展開されています。初期のテストでは、Gemini 3.5 Flash は、強力なツールの使用、高速な応答時間、および高いキャッシュ効率により、Flash 層の速度とコストで、プロに近いコーディング品質を実現し、高速で反復的なエージェント コーディング ワークフローに適しています。"
   },
   "Easily apply Copilot code review feedback with Copilot cloud agent": {
     "zh": "使用 Copilot 云代理轻松应用 Copilot 代码审查反馈",
@@ -6558,9 +6502,6 @@
     "zh": "github.com 上即将弃用 GitHub Spark",
     "ja": "GitHub Spark の今後の非推奨 (github.com)"
   },
-  "Beginning August 3, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.": {
-    "zh": "从 2026 年 8 月 3 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。"
-  },
   "Code coverage automatic enablement in Code Quality settings": {
     "zh": "代码质量设置中的代码覆盖率自动启用",
     "ja": "コード品質設定でのコードカバレッジの自動有効化"
@@ -6568,5 +6509,62 @@
   "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.": {
     "zh": "我们正在使代码覆盖率设置变得更快、更简单。现在，您将在存储库的代码质量设置中看到一个新选项，可让 GitHub 使用 AI 自动生成覆盖工作流程。",
     "ja": "コード カバレッジのセットアップをより迅速かつ簡単に行えるようにしています。 You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI."
+  },
+  "Tino Cuellar joins Anthropic as Chief Global Affairs Officer": {
+    "zh": "Tino Cuellar 加入 Anthropic 担任首席全球事务官",
+    "ja": "ティノ・クエヤル氏が最高国際問題責任者としてAnthropicに加わる"
+  },
+  "New ways to learn and teach with ChatGPT Work and Codex": {
+    "zh": "使用 ChatGPT 工作和 Codex 进行学习和教学的新方法",
+    "ja": "ChatGPT Work と Codex を使用した新しい学習方法と教える方法"
+  },
+  "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.": {
+    "zh": "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
+    "ja": "幼稚園から高等学校までの教師、大学の教育者、学生の学習、指導、研究、構築に役立つ ChatGPT Work および Codex の新しい教育プラグインを検討してください。"
+  },
+  "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission": {
+    "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+    "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました"
+  },
+  "Anthropic raises $65B in Series H funding at $965B post-money valuation": {
+    "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+    "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達"
+  },
+  "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.": {
+    "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+    "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。"
+  },
+  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
+    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
+    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
+  },
+  "We're opening a new office in Milan, our sixth in Europe.": {
+    "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
+  },
+  "Anthropic appoints KiYoung Choi as Representative Director of Korea": {
+    "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事"
+  },
+  "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance": {
+    "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合"
+  },
+  "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients": {
+    "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています"
+  },
+  "Higher usage limits for Claude and a compute deal with SpaceX": {
+    "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议"
+  },
+  "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.": {
+    "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
+    "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。"
+  },
+  "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.": {
+    "zh": "从 2026 年 8 月 4 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。"
+  },
+  "Retiring the Copilot Billing Preview app": {
+    "zh": "停用 Copilot 计费预览应用程序",
+    "ja": "Copilot Billing Preview アプリの廃止"
+  },
+  "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.": {
+    "ja": "GitHub Copilot Billing Preview アプリは廃止され、利用できなくなりました。 Copilot の支出は、GitHub の請求設定で直接確認および管理できます。"
   }
 }
