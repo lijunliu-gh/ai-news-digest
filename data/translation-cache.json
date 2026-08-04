@@ -4778,10 +4778,6 @@
     "zh": "梦想",
     "ja": "夢"
   },
-  "Dreams (research preview) now supports Claude Fable 5 and Claude Sonnet 5. See Supported models.": {
-    "zh": "Dreams（研究预览）现在支持 Claude Fable 5 和 Claude Sonnet 5。请参阅支持的型号。",
-    "ja": "Dreams (リサーチ プレビュー) は、Claude Fable 5 および Claude Sonnet 5 をサポートするようになりました。「サポートされるモデル」を参照してください。"
-  },
   "Enterprise-managed OpenTelemetry export for VS Code and CLI": {
     "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
     "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート"
@@ -5054,14 +5050,6 @@
     "zh": "Copilot CLI 会话的远程控制现在在 GitHub Mobile 和 github.com 上普遍可用，因此您可以在终端中开始工作并使其从任何地方移动。在此版本中，远程控制现在支持非 GitHub 存储库以及与存储库不关联的目录。",
     "ja": "Copilot CLI セッションのリモート コントロールが GitHub Mobile および github.com で一般提供されるようになりました。そのため、端末で作業を開始し、どこからでも作業を継続できます。このリリースでは、リモート コントロールは、非 GitHub リポジトリおよびリポジトリに関連付けられていないディレクトリをサポートするようになりました。"
   },
-  "GPT-5.3-Codex is now the base model for Copilot Business and Enterprise": {
-    "zh": "GPT-5.3-Codex 现在是 Copilot 商业和企业的基本模型",
-    "ja": "GPT-5.3-Codex は、Copilot Business および Enterprise の基本モデルになりました"
-  },
-  "As announced on March 18, 2026, GPT-5.3-Codex is now the base model for all Copilot Business and Copilot Enterprise organizations, replacing GPT-4.1. The base model is used when your organization hasn’t yet approved other models through its internal review process.": {
-    "zh": "正如 2026 年 3 月 18 日宣布的那样，GPT-5.3-Codex 现在是所有 Copilot 商业和 Copilot 企业组织的基本模型，取代了 GPT-4.1。当您的组织尚未通过其内部审核流程批准其他模型时，将使用基本模型。",
-    "ja": "2026 年 3 月 18 日に発表されたように、GPT-5.3-Codex は、GPT-4.1 に代わって、すべての Copilot Business 組織および Copilot Enterprise 組織の基本モデルになりました。基本モデルは、組織が内部レビュー プロセスを通じて他のモデルをまだ承認していない場合に使用されます。"
-  },
   "C++ code intelligence for GitHub Copilot CLI in public preview": {
     "zh": "公共预览版中 GitHub Copilot CLI 的 C++ 代码智能",
     "ja": "パブリック プレビュー中の GitHub Copilot CLI の C++ コード インテリジェンス"
@@ -5150,14 +5138,6 @@
     "zh": "GitHub 企业云客户可以通过选定组织的.github 私有存储库中维护的 Managed-settings.json 文件来配置 AI 标准。这允许企业定义适用于 Copilot 客户端（例如 VS Code 或 Copilot CLI）的新治理和可扩展性流程。",
     "ja": "GitHub Enterprise Cloud の顧客は、選択した組織の.github-private リポジトリに保持されている Managed-settings.json ファイルを通じて AI 標準を構成できます。これにより、企業は、VS Code や Copilot CLI などの Copilot クライアントに適用される新しいガバナンスおよび拡張性フローを定義できるようになります。"
   },
-  "Generated release notes credit you for Copilot pull requests": {
-    "zh": "生成的发行说明将 Copilot 拉取请求归功于您",
-    "ja": "生成されたリリース ノートには、Copilot プル リクエストの功績が認められます"
-  },
-  "When you generate release notes for a new release, the generated notes include a list of pull requests merged since the last release. For more information about automatically generating release notes, see our docs.": {
-    "zh": "当您为新版本生成发行说明时，生成的说明包含自上次版本以来合并的拉取请求列表。有关自动生成发行说明的更多信息，请参阅我们的文档。",
-    "ja": "新しいリリースのリリース ノートを生成すると、生成されたノートには、最後のリリース以降にマージされたプル リクエストのリストが含まれます。リリース ノートの自動生成の詳細については、ドキュメントを参照してください。"
-  },
   "Control who and what triggers GitHub Actions workflows": {
     "zh": "控制触发 GitHub 操作工作流程的人员和内容",
     "ja": "GitHub アクション ワークフローをトリガーする人および内容を制御する"
@@ -5165,14 +5145,6 @@
   "Workflow execution protections are now in public preview for GitHub Enterprise, organizations, and repositories. This new capability lets enterprise administrators define an allow list that controls who can trigger GitHub Actions workflows and which events are permitted to run them, giving you predictable, secure workflow execution.": {
     "zh": "工作流执行保护现已针对 GitHub 企业、组织和存储库提供公共预览版。这项新功能允许企业管理员定义一个允许列表，控制谁可以触发 GitHub 操作工作流以及允许哪些事件运行它们，从而为您提供可预测、安全的工作流执行。",
     "ja": "ワークフロー実行保護は、GitHub エンタープライズ、組織、リポジトリに対してパブリック プレビュー段階にあります。この新機能により、エンタープライズ管理者は、GitHub アクション ワークフローをトリガーできるユーザーとその実行を許可するイベントを制御する許可リストを定義できるため、予測可能で安全なワークフローの実行が可能になります。"
-  },
-  "Read remote repository content with GitHub CLI": {
-    "zh": "使用 GitHub CLI 读取远程存储库内容",
-    "ja": "GitHub CLI を使用してリモート リポジトリのコンテンツを読み取る"
-  },
-  "Explore repository content from your terminal without cloning by using two new commands: gh repo read-file and gh repo read-dir. What you can do Use gh repo read-file to read an individual file from a remote repository Use gh repo read-dir to browse a directory’s contents from a remote repository These commands work across public and private repositories you have access to, making it faster to inspect code, documentation, and configuration files from any repository.": {
-    "zh": "使用两个新命令从终端探索存储库内容，无需克隆：gh repo read-file 和 gh repo read-dir。您可以执行的操作 使用 gh repo read-file 从远程存储库读取单个文件 使用 gh repo read-dir 从远程存储库浏览目录内容 这些命令适用于您有权访问的公共和私有存储库，从而可以更快地检查任何存储库中的代码、文档和配置文件。",
-    "ja": "gh repo read-file と gh repo read-dir という 2 つの新しいコマンドを使用して、クローンを作成せずにターミナルからリポジトリのコンテンツを探索します。できること gh repo read-file を使用して、リモート リポジトリから個々のファイルを読み取ります。 gh repo read-dir を使用して、リモート リポジトリからディレクトリのコンテンツを参照します。 これらのコマンドは、アクセス権のあるパブリック リポジトリとプライベート リポジトリ全体で機能するため、任意のリポジトリからコード、ドキュメント、構成ファイルをより迅速に検査できるようになります。"
   },
   "Audit repository Copilot cloud agent configuration via the REST API": {
     "zh": "通过 REST API 审核存储库 Copilot 云代理配置",
@@ -5666,14 +5638,6 @@
     "zh": "Copilot 免费和学生计划现在将使用 Copilot 自动模型选择作为默认且唯一的模型选择体验。自动为每个任务动态选择最佳模型，无需手动选择。",
     "ja": "Copilot Free プランと Student プランでは、Copilot 自動モデル選択がデフォルトの唯一のモデル選択エクスペリエンスとして使用されるようになります。自動では各タスクに最適なモデルが動的に選択されるため、手動で選択する必要がありません。"
   },
-  "Enterprise-managed settings now support bypass permission controls": {
-    "zh": "企业管理的设置现在支持绕过权限控制",
-    "ja": "エンタープライズ管理の設定で権限制御のバイパスがサポートされるようになりました"
-  },
-  "We’re adding our first governance capability to the enterprise-managed settings configuration. Enterprise administrators can now set disableBypassPermissionsMode to \"disable\" in the enterprise-managed settings.json to prevent GitHub Copilot CLI and VS Code from automatically skipping permission prompts (also known as “yolo mode” or auto-approve).": {
-    "zh": "我们正在将第一个治理功能添加到企业管理的设置配置中。企业管理员现在可以在企业管理的settings.json 中将disableBypassPermissionsMode 设置为“禁用”，以防止 GitHub Copilot CLI 和 VS Code 自动跳过权限提示（也称为“yolo 模式”或自动批准）。",
-    "ja": "私たちは、エンタープライズ管理の設定構成に最初のガバナンス機能を追加しています。エンタープライズ管理者は、エンタープライズ管理の settings.json で disableBypassPermissionsMode を「無効」に設定して、GitHub Copilot CLI および VS Code がアクセス許可プロンプト (「yolo モード」または自動承認とも呼ばれます) を自動的にスキップしないようにできるようになりました。"
-  },
   "Grok 4.5 is now available in GitHub Copilot": {
     "zh": "Grok 4.5 现已在 GitHub Copilot 中提供",
     "ja": "Grok 4.5 が GitHub Copilot で利用可能になりました"
@@ -5826,14 +5790,6 @@
     "zh": "Gemini Robotics 2 为机器人带来全身智能",
     "ja": "Gemini Robotics 2 はロボットに全身知能をもたらします"
   },
-  "GitHub Copilot in Visual Studio — July update": {
-    "zh": "Visual Studio 中的 GitHub Copilot — 7 月更新",
-    "ja": "Visual Studio の GitHub Copilot — 7 月の更新"
-  },
-  "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.": {
-    "zh": "2026 年 7 月带来了基于 Copilot SDK 的新代理、来自.NET 和 Azure 团队的内置专业知识，以及更多根据您和您的团队的工作方式定制 GitHub Copilot 的方法。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
-    "ja": "2026 年 7 月には、Copilot SDK に基づく新しいエージェント、.NET チームと Azure チームからの組み込み専門知識、およびユーザーとチームの作業方法に合わせて GitHub Copilot を調整するためのさらなる方法が導入されました。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。"
-  },
   "Advancing the price-performance frontier with GPT-5.6": {
     "zh": "利用 GPT-5.6 推进性价比前沿",
     "ja": "GPT-5.6 で価格パフォーマンスの最前線を前進"
@@ -5841,14 +5797,6 @@
   "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.": {
     "zh": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
     "ja": "Luna と Terra の GPT‑5.6 の低価格設定と、OpenAI のより効率的なモデルが企業の大規模な AI ワークフローの展開にどのように役立つかを調べてください。"
-  },
-  "Stacked pull requests are now in public preview": {
-    "zh": "堆叠拉取请求现已提供公共预览版",
-    "ja": "スタックされたプル リクエストはパブリック プレビュー段階にあります"
-  },
-  "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change.": {
-    "zh": "堆叠的拉取请求将大的更改分解为小的、可审查的拉取请求。它们是一系列有序的拉取请求，每个拉取请求都代表变更的重点层。",
-    "ja": "スタックされたプル リクエストは、大きな変更をレビュー可能な小さなプル リクエストに分割します。これらは順序付けられた一連のプル リクエストであり、それぞれが変更の焦点を当てたレイヤーを表します。"
   },
   "Limit remote control to managed devices": {
     "zh": "限制对托管设备的远程控制",
@@ -5889,14 +5837,6 @@
   "We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions in chat.": {
     "zh": "我们改进了 Copilot Chat 和 Copilot 云代理之间的网络切换体验。我们还启用了新功能，允许您在聊天中搜索和查询过去的代理会话。",
     "ja": "Copilot Chat と Web 上の Copilot クラウド エージェント間のハンドオフ エクスペリエンスが改善されました。また、チャットで過去のエージェント セッションを検索およびクエリできる新機能も有効になりました。"
-  },
-  "GitHub App installation tokens: Per-request override header": {
-    "zh": "GitHub 应用程序安装令牌：每个请求覆盖标头",
-    "ja": "GitHub アプリ インストール トークン: リクエストごとのオーバーライド ヘッダー"
-  },
-  "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens. To help you validate your apps and workflows before the rollout reaches you, we’re providing a temporary request header that lets you force either token format on demand.": {
-    "zh": "正如 2026 年 4 月宣布的那样，GitHub 正在为 GitHub 应用程序安装令牌推出新的令牌格式。为了帮助您在发布之前验证您的应用程序和工作流程，我们提供了一个临时请求标头，可让您根据需要强制使用任一令牌格式。",
-    "ja": "As announced in April 2026, GitHub is rolling out a new token format for GitHub App installation tokens.ロールアウトが届く前にアプリとワークフローを検証できるように、オンデマンドでいずれかのトークン形式を強制できる一時的なリクエスト ヘッダーを提供しています。"
   },
   "Investigating three real-world incidents in our cybersecurity evaluations": {
     "zh": "在我们的网络安全评估中调查三个现实事件",
@@ -6017,22 +5957,6 @@
   "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization. ⚙️ Organization runner controls With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions.": {
     "zh": "借助新的组织运行程序控件、Copilot 内容排除支持以及取消存储库自定义指令的字符限制，Copilot 代码审查现在可以更轻松地根据存储库和组织内的需求进行定制。 ⚙️ 组织运行器控件随着 Copilot 代码审查代理架构的发布，我们宣布 Copilot 代码审查由 GitHub 操作提供支持。",
     "ja": "新しい組織ランナー コントロール、Copilot コンテンツ除外のサポート、リポジトリのカスタム命令の文字数制限の削除により、Copilot コード レビューをリポジトリや組織内のニーズに合わせて調整することが容易になりました。 ⚙️ 組織ランナー制御 Copilot コード レビューのエージェント アーキテクチャのリリースに伴い、Copilot コード レビューが GitHub アクションによって強化されることを発表しました。"
-  },
-  "Larger context windows and configurable reasoning levels for GitHub Copilot": {
-    "zh": "更大的上下文窗口和可配置的推理级别 GitHub Copilot",
-    "ja": "GitHub Copilot のより大きなコンテキスト ウィンドウと構成可能な推論レベル"
-  },
-  "GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. Leverage one-million-token context windows A one-million-token context window means users can now work across larger codebases, longer documents, and complex multi-file projects without losing context.": {
-    "zh": "GitHub Copilot 现在支持更大的上下文窗口和可配置的推理级别，以帮助您处理更深入、更复杂的工作。利用一百万个令牌上下文窗口一百万个令牌上下文窗口意味着用户现在可以跨更大的代码库、更长的文档和复杂的多文件项目工作，而不会丢失上下文。",
-    "ja": "GitHub Copilot は、より深く複雑な作業に取り組むのに役立つ、より大きなコンテキスト ウィンドウと構成可能な推論レベルをサポートするようになりました。 100 万トークンのコンテキスト ウィンドウの活用 100 万トークンのコンテキスト ウィンドウにより、ユーザーはコンテキストを失うことなく、より大規模なコードベース、長いドキュメント、および複雑な複数ファイル プロジェクトにまたがって作業できるようになります。"
-  },
-  "GitHub Copilot in Visual Studio — May update": {
-    "zh": "Visual Studio 中的 GitHub Copilot — 可能会更新",
-    "ja": "Visual Studio の GitHub Copilot — 5 月の更新"
-  },
-  "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual Studio 2026.": {
-    "zh": "2026 年 5 月带来了更清晰的工具，用于在 Visual Studio 2026 中使用 GitHub Copilot 规划、审查和管理工作。 亮点 以下是 Visual Studio 2026 中所有 GitHub Copilot 用户的新增功能。",
-    "ja": "2026 年 5 月には、Visual Studio 2026 の GitHub Copilot を使用した作業の計画、レビュー、管理のためのより鮮明なツールが導入されました。 ハイライト Visual Studio 2026 のすべての GitHub Copilot ユーザーにとっての新機能は次のとおりです。"
   },
   "Introducing Copilot CLI and agentic capabilities enhancements in JetBrains IDEs": {
     "zh": "介绍 JetBrains IDE 中的 Copilot CLI 和代理功能增强",
@@ -6425,5 +6349,117 @@
   "When you delegate a task to Copilot cloud agent, it works in the background in its own development environment powered by GitHub Actions. You can pass secrets and variables to the agent to give it access to private resources or to configure MCP servers.": {
     "zh": "当您将任务委托给 Copilot 云代理时，它会在由 GitHub 操作提供支持的自己的开发环境中在后台运行。您可以将机密和变量传递给代理，以使其能够访问私有资源或配置 MCP 服务器。",
     "ja": "タスクを Copilot クラウド エージェントに委任すると、そのタスクは GitHub アクションを利用した独自の開発環境でバックグラウンドで動作します。シークレットと変数をエージェントに渡して、エージェントにプライベート リソースへのアクセスを許可したり、__​​KEEP02__ サーバーを構成したりできます。"
+  },
+  "Circles powers telco personalization with OpenAI technology": {
+    "zh": "Circles 通过 OpenAI 技术为电信个性化提供支持"
+  },
+  "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.": {
+    "zh": "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，将客户流失率降低 9%，并提高开发效率。",
+    "ja": "Circles は、OpenAI API と Codex を使用して AI ネイティブの通信エクスペリエンスを強化し、ARPU を 22% 増加させ、解約率を 9% 削減し、開発効率を向上させています。"
+  },
+  "Statement on the US government directive to suspend access to Fable 5 and Mythos 5": {
+    "ja": "Fable 5 および Mythos 5 へのアクセスを一時停止するという米国政府の指示に関する声明"
+  },
+  "Results from first Anthropic Public Record": {
+    "ja": "最初の Anthropic 公開記録の結果"
+  },
+  "Anthropic Public Record is a national survey of attitudes and opinions towards AI.": {
+    "ja": "Anthropic Public Record は、AI に対する態度と意見に関する全国調査です。"
+  },
+  "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate.": {
+    "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+    "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。"
+  },
+  "What we learned mapping a year’s worth of AI-enabled cyber threats": {
+    "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
+    "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと"
+  },
+  "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.": {
+    "ja": "AI がサイバー攻撃の性質と背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。"
+  },
+  "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries": {
+    "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织"
+  },
+  "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission": {
+    "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案"
+  },
+  "Anthropic raises $65B in Series H funding at $965B post-money valuation": {
+    "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
+    "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達"
+  },
+  "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.": {
+    "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。"
+  },
+  "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.": {
+    "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。"
+  },
+  "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"": {
+    "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论"
+  },
+  "The full text of Chris Olah's remarks on the Pope's encyclical on AI.": {
+    "zh": "Chris Olah 对教皇人工智能通谕的评论全文。"
+  },
+  "Widening the conversation on frontier AI": {
+    "ja": "フロンティア AI に関する会話を広げる"
+  },
+  "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.": {
+    "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。"
+  },
+  "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance": {
+    "zh": "毕马威将Claude整合到其核心业务和超过276,000名员工的战略联盟中"
+  },
+  "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients": {
+    "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています"
+  },
+  "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.": {
+    "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。"
+  },
+  "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs": {
+    "zh": "与 Blackstone、Hellman & Friedman 和 Goldman Sachs 合作建立一家新的企业人工智能服务公司"
+  },
+  "Trigger Copilot automations with comments": {
+    "zh": "使用注释触发 Copilot 自动化",
+    "ja": "コメントを使用して Copilot オートメーションをトリガーする"
+  },
+  "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull request to automatically generate or update documentation based on your code changes.": {
+    "zh": "您现在可以创建 Copilot 云代理自动化，该自动化在创建问题评论或拉取请求评论时运行。常见用例包括： 生成文档：对拉取请求进行评论，以根据代码更改自动生成或更新文档。"
+  },
+  "Enterprise team specialization for managed settings": {
+    "zh": "托管设置的企业团队专业化"
+  },
+  "Enterprise administrators can now customize managed settings by targeting enterprise teams with itemized configuration files. Large enterprises can scale governance without bottlenecking every configuration change through central administrators or one-size-fits-all policies.": {
+    "ja": "エンタープライズ管理者は、項目化された構成ファイルを使用してエンタープライズ チームを対象にすることで、管理設定をカスタマイズできるようになりました。大企業は、中央管理者や万能のポリシーを通じて、あらゆる構成変更をボトルネックにすることなくガバナンスを拡張できます。"
+  },
+  "Customize the reasoning level for Copilot cloud agent": {
+    "zh": "自定义Copilot云代理的推理级别",
+    "ja": "Copilot クラウド エージェントの推論レベルをカスタマイズする"
+  },
+  "When you delegate a task to GitHub Copilot cloud agent, you can now set the reasoning level for models that support it. This allows you to control how much the model reasons before it responds.": {
+    "ja": "タスクを GitHub Copilot クラウド エージェントに委任するときに、それをサポートするモデルの推論レベルを設定できるようになりました。これにより、モデルが応答する前にどの程度推論するかを制御できます。"
+  },
+  "Dreams (research preview) now supports Claude Opus 5. See Supported models.": {
+    "ja": "Dreams (リサーチ プレビュー) は Claude Opus 5 をサポートするようになりました。「サポートされるモデル」を参照してください。"
+  },
+  "Upcoming August 2026 model deprecations in GitHub Copilot": {
+    "ja": "GitHub Copilot で予定されている 2026 年 8 月のモデルの非推奨"
+  },
+  "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude...": {
+    "ja": "2026 年 9 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3.1 Pro 2026 年 9 月 1 日 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude..."
+  },
+  "GitHub Copilot in Visual Studio Code, July 2026 releases": {
+    "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布",
+    "ja": "Visual Studio Code、2026 年 7 月リリースの GitHub Copilot"
+  },
+  "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code.": {
+    "ja": "この変更ログは、2026 年 7 月を通じて出荷された VS Code v1.127 から v1.131 を対象としています。これらのリリースにより、エージェントとの連携、変更の確認、チャットの使用、および VS Code の操作方法が改善されます。"
+  },
+  "GET /v1/compliance/activities": {
+    "zh": "获取/v1/合规性/活动"
+  },
+  "The Compliance API Activity Feed ( GET /v1/compliance/activities ) is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the ListComplianceActivities action that authorizes it.": {
+    "zh": "合规性 API 活动源 ( GET /v1/compliance/activities ) 现已在 AWS 上的 Claude 平台上提供。请参阅 AWS 上 Claude 平台的 IAM 操作，了解授权它的 ListComplianceActivities 操作。"
+  },
+  "Copilot Business and Copilot Enterprise users can programmatically start Copilot cloud agent tasks with the new Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.": {
+    "ja": "Copilot Business および Copilot Enterprise ユーザーは、パブリック プレビューで利用可能な新しいエージェント タスク REST API を使用して、Copilot クラウド エージェント タスクをプログラムで開始できます。 Copilot クラウド エージェントは、独自の開発環境のバックグラウンドで動作し、コードの変更を行って検証し、プル リクエストをオープンできます。"
   }
 }
