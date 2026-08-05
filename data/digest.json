@@ -465,6 +465,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-31-github-2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+      "date": "2026-07-31",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 中即将于 2026 年 8 月弃用的模型",
+        "ja": "GitHub Copilot で予定されている 2026 年 8 月のモデルの非推奨",
+        "en": "Upcoming August 2026 model deprecations in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 9 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
+        "ja": "2026 年 9 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3.1 Pro 2026 年 9 月 1 日 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude..."
+      },
+      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-31-github-2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
       "date": "2026-07-31",
       "category": "github",
@@ -1878,6 +1902,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-21-github-2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+      "date": "2026-07-21",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 3.6 Flash 现在可在 GitHub Copilot 中使用",
+        "ja": "Gemini 3.6 Flash が GitHub Copilot で利用可能になりました",
+        "en": "Gemini 3.6 Flash is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 3.6 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。它专为 Web 和应用程序开发、编码和长期代理任务而设计。",
+        "ja": "Google の最新の Flash モデルである Gemini 3.6 Flash は、GitHub Copilot で展開されています。 Web およびアプリの開発、コーディング、および長期的なエージェント タスク向けに設計されています。",
+        "en": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks."
+      },
+      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-21-anthropic-donation-public-first-action",
       "date": "2026-07-21",
       "category": "anthropic",
@@ -1962,6 +2010,31 @@
       "tags": [
         "improvement",
         "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "计费 UI 中成本中心的 AI 信用池",
+        "ja": "請求 UI のコストセンターの AI クレジット プール",
+        "en": "AI credit pools for cost centers in the billing UI"
+      },
+      "summary": {
+        "zh": "您现在可以直接在创建和编辑成本中心的计费 UI 中管理成本中心的 AI 信用池。以前，您只能通过 GitHub REST API 进行管理。",
+        "ja": "コスト センターを作成および編集する請求 UI で、コスト センターの AI クレジット プールを直接管理できるようになりました。以前は、GitHub REST API を介してのみこれを管理できました。",
+        "en": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
+      "tags": [
+        "improvement",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -2588,6 +2661,30 @@
       "tags": [
         "improvement",
         "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-10-github-2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+      "date": "2026-07-10",
+      "category": "github",
+      "title": {
+        "zh": "CodeQL 2.26.0 添加了 Kotlin 2.4.0 支持和 AI 提示注入检测",
+        "ja": "CodeQL 2.26.0 は Kotlin 2.4.0 サポートと AI プロンプト インジェクション検出を追加します",
+        "en": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection"
+      },
+      "summary": {
+        "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.26.0，它增加了对 Kotlin 2.4.0 的支持，引入了用于系统提示注入的 JavaScript 和 TypeScript 查询，并提高了跨多种语言的分析准确性。",
+        "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近、CodeQL 2.26.0 をリリースしました。これにより、Kotlin 2.4.0 のサポートが追加され、システム プロンプト インジェクション用の JavaScript および TypeScript クエリが導入され、複数の言語にわたる分析精度が向上しました。",
+        "en": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages."
+      },
+      "url": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+      "tags": [
+        "improvement",
+        "application-security",
         "github",
         "changelog"
       ],
@@ -5536,6 +5633,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-12-github-2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "date": "2026-06-12",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：新配置和控件",
+        "ja": "Copilot コード レビュー: 新しい構成とコントロール",
+        "en": "Copilot code review: New configurations and controls"
+      },
+      "summary": {
+        "zh": "借助新的组织运行程序控件、Copilot 内容排除支持以及取消存储库自定义指令的字符限制，Copilot 代码审查现在可以更轻松地根据存储库和组织内的需求进行定制。 ⚙️ 组织运行器控件随着 Copilot 代码审查代理架构的发布，我们宣布 Copilot 代码审查由 GitHub 操作提供支持。",
+        "ja": "新しい組織ランナー コントロール、Copilot コンテンツ除外のサポート、リポジトリのカスタム命令の文字制限の削除により、Copilot コード レビューをリポジトリや組織内のニーズに合わせて調整することが容易になりました。 ⚙️ 組織ランナー制御 Copilot コード レビューのエージェント アーキテクチャのリリースに伴い、Copilot コード レビューが GitHub アクションによって強化されることを発表しました。",
+        "en": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization. ⚙️ Organization runner controls With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions."
+      },
+      "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-12-anthropic-tcs-anthropic-partnership",
       "date": "2026-06-12",
       "category": "anthropic",
@@ -6985,6 +7106,48 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-03-anthropic-services-track-partner-hub",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
+        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
+      },
+      "summary": {
+        "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
+        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
+      },
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们在绘制一年的人工智能网络威胁地图时学到了什么",
+        "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと",
+        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats"
+      },
+      "summary": {
+        "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
+        "ja": "AI がサイバー攻撃の性質とその背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。",
+        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
+      },
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-openai-travelers",
       "date": "2026-06-02",
       "category": "openai",
@@ -7512,6 +7675,27 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-02-anthropic-expanding-project-glasswing",
+      "date": "2026-06-02",
+      "category": "anthropic",
+      "title": {
+        "zh": "扩建项目Glasswing",
+        "ja": "プロジェクト Glasswing の拡張",
+        "en": "Expanding Project Glasswing"
+      },
+      "summary": {
+        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
+        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
+        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
+      },
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -7715,6 +7899,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-01-anthropic-confidential-draft-s1-sec",
+      "date": "2026-06-01",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 向 SEC 秘密提交 S-1 草案",
+        "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します",
+        "en": "Anthropic confidentially submits draft S-1 to the SEC"
+      },
+      "summary": {
+        "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
+        "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
+      },
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-29-openai-trustworthy-third-party-evaluations-foundations",
