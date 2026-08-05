@@ -3,6 +3,55 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-08-05-openai-changelog",
+      "date": "2026-08-05",
+      "category": "openai",
+      "title": {
+        "zh": "快速模式，定价详情",
+        "ja": "高速モード、価格の詳細",
+        "en": "Fast mode, pricing details"
+      },
+      "summary": {
+        "zh": "快速模式现在支持 GPT-5.6 Sol、GPT-5.6 Terra 和 GPT-5.6 Luna 的长上下文请求。截至目前，超过 272K 令牌的长上下文提示可以在快速模式下运行，速度比标准层快 2.5 倍。",
+        "ja": "高速モードは、GPT-5.6 Sol、GPT-5.6 Terra、および GPT-5.6 Luna のロングコンテキスト リクエストをサポートするようになりました。現在、272K トークンを超えるロングコンテキスト プロンプトは高速モードで実行でき、標準レベルよりも最大 2.5 倍の速度を実現します。",
+        "en": "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode, delivering speeds up to 2.5× faster than the Standard tier."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-08-05-update-fast-mode-pricing-details",
+      "tags": [
+        "gpt-5-6-sol",
+        "gpt-5-6-terra",
+        "gpt-5-6-luna",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-05-anthropic-compliance-activity-feed",
+      "date": "2026-08-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "推理钩子",
+        "ja": "推論フック",
+        "en": "Inference hooks"
+      },
+      "summary": {
+        "zh": "推理挂钩现在针对 Claude 企业组织处于测试阶段。将 Claude 指向您组织的 AI 安全服务器，claude.ai、Cowork 和 Claude Code 中的每个受管提示都会在推理继续之前保留，以供服务器做出允许或拒绝的判决。请求已签名，故障处理可配置，并且每次拒绝都记录在合规活动源中。请参阅推理挂钩。",
+        "ja": "推論フックは、Claude Enterprise 組織向けにベータ版になりました。組織の AI セキュリティ サーバーに Claude を指定すると、claude.ai、Cowork、Claude Code にわたる各管理されたプロンプトが、推論が進む前にサーバーの許可または拒否の判定が保留されます。リクエストは署名され、失敗処理は構成可能で、すべての拒否はコンプライアンス アクティビティ フィードに記録されます。 「推論フック」を参照してください。",
+        "en": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed",
+      "tags": [
+        "inference-hooks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-08-04-openai-third-party-cyber-evaluations-involving-openai-models",
       "date": "2026-08-04",
       "category": "openai",
@@ -7911,7 +7960,7 @@
       },
       "summary": {
         "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
-        "ja": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
+        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
         "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
       },
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
@@ -8395,27 +8444,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-27-anthropic-milan-office-opening",
-      "date": "2026-05-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
-        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
-      },
-      "summary": {
-        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
-        "en": "We're opening a new office in Milan, our sixth in Europe."
-      },
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -8532,27 +8560,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
-      "date": "2026-05-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-        "ja": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
-      },
-      "summary": {
-        "zh": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.",
-        "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。",
-        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
-      },
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -9078,27 +9085,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-19-anthropic-anthropic-kpmg",
-      "date": "2026-05-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
-        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
       "date": "2026-05-18",
       "category": "openai",
@@ -9317,27 +9303,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
-      "date": "2026-05-18",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic acquires Stainless",
-        "ja": "Anthropic がステンレスを取得",
-        "en": "Anthropic acquires Stainless"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-17-google-simulate-real-world-places-with-project-genie-and-street-view",
@@ -9727,27 +9692,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
-      "date": "2026-05-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-        "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています",
-        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
@@ -10706,27 +10650,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-06-anthropic-higher-limits-spacex",
-      "date": "2026-05-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "Higher usage limits for Claude and a compute deal with SpaceX",
-        "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約",
-        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
-      },
-      "summary": {
-        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
-        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
-      },
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",

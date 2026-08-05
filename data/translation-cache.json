@@ -6587,7 +6587,8 @@
     "ja": "Anthropic は S-1 草案を秘密裏に SEC に提出します"
   },
   "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission": {
-    "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案"
+    "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
+    "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました"
   },
   "Anthropic raises $65B in Series H funding at $965B post-money valuation": {
     "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
@@ -6596,17 +6597,6 @@
   "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.": {
     "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
     "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。"
-  },
-  "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
-    "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-    "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設"
-  },
-  "We're opening a new office in Milan, our sixth in Europe.": {
-    "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-    "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。"
-  },
-  "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.": {
-    "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。"
   },
   "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"": {
     "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
@@ -6624,22 +6614,20 @@
     "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。",
     "ja": "過去数か月間、私たちは AI によって提起される問題に関連する活動や伝統を持つグループとの対話を組織してきました。"
   },
-  "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance": {
-    "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-    "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合"
+  "Inference hooks": {
+    "zh": "推理钩子",
+    "ja": "推論フック"
   },
-  "Anthropic acquires Stainless": {
-    "ja": "Anthropic がステンレスを取得"
+  "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.": {
+    "zh": "推理挂钩现在针对 Claude 企业组织处于测试阶段。将 Claude 指向您组织的 AI 安全服务器，claude.ai、Cowork 和 Claude Code 中的每个受管提示都会在推理继续之前保留，以供服务器做出允许或拒绝的判决。请求已签名，故障处理可配置，并且每次拒绝都记录在合规活动源中。请参阅推理挂钩。",
+    "ja": "推論フックは、Claude Enterprise 組織向けにベータ版になりました。組織の AI セキュリティ サーバーに Claude を指定すると、claude.ai、Cowork、Claude Code にわたる各管理されたプロンプトが、推論が進む前にサーバーの許可または拒否の判定が保留されます。リクエストは署名され、失敗処理は構成可能で、すべての拒否はコンプライアンス アクティビティ フィードに記録されます。 「推論フック」を参照してください。"
   },
-  "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients": {
-    "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-    "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています"
+  "Fast mode, pricing details": {
+    "zh": "快速模式，定价详情",
+    "ja": "高速モード、価格の詳細"
   },
-  "Higher usage limits for Claude and a compute deal with SpaceX": {
-    "ja": "Claude の使用制限の引き上げと SpaceX とのコンピューティング契約"
-  },
-  "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.": {
-    "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-    "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。"
+  "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode, delivering speeds up to 2.5× faster than the Standard tier.": {
+    "zh": "快速模式现在支持 GPT-5.6 Sol、GPT-5.6 Terra 和 GPT-5.6 Luna 的长上下文请求。截至目前，超过 272K 令牌的长上下文提示可以在快速模式下运行，速度比标准层快 2.5 倍。",
+    "ja": "高速モードは、GPT-5.6 Sol、GPT-5.6 Terra、および GPT-5.6 Luna のロングコンテキスト リクエストをサポートするようになりました。現在、272K トークンを超えるロングコンテキスト プロンプトは高速モードで実行でき、標準レベルよりも最大 2.5 倍の速度を実現します。"
   }
 }
