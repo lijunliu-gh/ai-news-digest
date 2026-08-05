@@ -1,7 +1,95 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-05-04-openai-openai-pwc-finance-collaboration",
+      "date": "2026-05-04",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 和普华永道合作重新构想首席财务官办公室",
+        "ja": "OpenAI と PwC が協力して CFO のオフィスを再考します",
+        "en": "OpenAI and PwC collaborate to reimagine the office of the CFO"
+      },
+      "summary": {
+        "zh": "OpenAI 和普华永道正在合作，帮助企业使用人工智能代理实现财务工作流程自动化、改进预测、加强控制以及实现 CFO 职能现代化。",
+        "ja": "OpenAI と PwC は提携して、企業が AI エージェントを使用して財務ワークフローを自動化し、予測を改善し、管理を強化し、CFO 機能を最新化できるよう支援します。",
+        "en": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function."
+      },
+      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-04-openai-delivering-low-latency-voice-ai-at-scale",
+      "date": "2026-05-04",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 如何大规模提供低延迟语音 AI",
+        "ja": "OpenAI が低遅延の音声 AI を大規模に実現する方法",
+        "en": "How OpenAI delivers low-latency voice AI at scale"
+      },
+      "summary": {
+        "zh": "OpenAI 如何重建其 WebRTC 堆栈，以低延迟、全球规模和无缝对话轮流为实时语音 AI 提供支持。",
+        "ja": "OpenAI が WebRTC スタックを再構築して、低遅延、グローバル スケール、シームレスな会話交代を備えたリアルタイム音声 AI を強化する方法。",
+        "en": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking."
+      },
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-04-anthropic-workload-identity-federation",
+      "date": "2026-05-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "工作负载身份联合",
+        "ja": "Workload Identity フェデレーション",
+        "en": "Workload Identity Federation"
+      },
+      "summary": {
+        "zh": "工作负载身份联合现已普遍可用。使用来自您自己的身份提供商（AWS IAM、Google Cloud、GitHub Actions、Kubernetes、Microsoft Entra ID、Okta、SPIFFE 等）的短期 OIDC 令牌（而不是长期静态 API 密钥）对 Claude API 的工作负载进行身份验证。在 Claude 控制台中配置发行者和联合规则，SDK 会自动处理令牌交换和刷新。请参阅身份验证。",
+        "ja": "Workload Identity Federation が一般提供されるようになりました。有効期間の長い静的 API キーではなく、独自のアイデンティティ プロバイダー (AWS IAM、Google Cloud、GitHub アクション、Kubernetes、Microsoft Entra ID、Okta、SPIFFE など) からの有効期間の短い OIDC トークンを使用して、Claude API に対してワークロードを認証します。 Claude コンソールで発行者とフェデレーション ルールを構成すると、SDK がトークンの交換と更新を自動的に処理します。 「認証」を参照してください。",
+        "en": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentication."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation",
+      "tags": [
+        "workload-identity-federation",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
+      "date": "2026-05-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+        "ja": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-05-01-github-2026-05-01-upcoming-deprecation-of-gpt-5-2-and-gpt-5-2-codex",
       "date": "2026-05-01",

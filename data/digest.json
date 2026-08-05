@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-08-04-openai-third-party-cyber-evaluations-involving-openai-models",
+      "date": "2026-08-04",
+      "category": "openai",
+      "title": {
+        "zh": "涉及OpenAI模型的第三方网络评估",
+        "ja": "OpenAI モデルを含むサードパーティのサイバー評価",
+        "en": "Third-party cyber evaluations involving OpenAI models"
+      },
+      "summary": {
+        "zh": "OpenAI 解释了最近的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+        "ja": "OpenAI では、最近のサードパーティによるサイバーセキュリティ評価インシデントについて説明し、AI モデルのテストと評価を強化するための新しい安全対策の概要を説明します。",
+        "en": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
+      },
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-08-04-openai-learn-teach-chatgpt-work-codex",
       "date": "2026-08-04",
@@ -63,7 +85,7 @@
       },
       "summary": {
         "zh": "从 2026 年 8 月 4 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。",
-        "ja": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
+        "ja": "2026 年 8 月 4 日以降、GitHub Spark は新規ユーザーの受け入れ、または新規アプリの作成を許可しなくなりました。既存のユーザーは、2026 年 8 月 31 日まで引き続き GitHub Spark にアクセスし、作成済みのアプリをエクスポートできます。",
         "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
       },
       "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
@@ -87,7 +109,7 @@
         "en": "Retiring the Copilot Billing Preview app"
       },
       "summary": {
-        "zh": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.",
+        "zh": "我们已停用 GitHub Copilot 计费预览应用程序，并且不再可用。您可以直接在 GitHub 结算设置中查看和管理您的 Copilot 支出。",
         "ja": "GitHub Copilot Billing Preview アプリは廃止され、利用できなくなりました。 Copilot の支出は、GitHub の請求設定で直接確認および管理できます。",
         "en": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings."
       },
@@ -441,30 +463,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-31-github-2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "date": "2026-07-31",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 中即将于 2026 年 8 月弃用的模型",
-        "ja": "GitHub Copilot で予定されている 2026 年 8 月のモデルの非推奨",
-        "en": "Upcoming August 2026 model deprecations in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 9 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
-        "ja": "2026 年 9 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3.1 Pro 2026 年 9 月 1 日 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
-        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude..."
-      },
-      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-31-github-2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
@@ -1121,6 +1119,58 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-07-27-github-2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "使用专用策略管理 GitHub Copilot 应用程序访问",
+        "ja": "専用のポリシーを使用して GitHub Copilot アプリのアクセスを管理する",
+        "en": "Manage GitHub Copilot app access with a dedicated policy"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 应用程序现在有自己的策略，因此您可以控制谁有权在企业和组织级别访问它。到目前为止，对 Copilot 应用程序的访问取决于启用的 GitHub Copilot CLI 策略。",
+        "ja": "GitHub Copilot アプリには独自のポリシーが設定されたため、誰がアクセスできるかを企業レベルおよび組織レベルで制御できるようになりました。これまで、Copilot アプリへのアクセスは、GitHub Copilot CLI ポリシーが有効になっているかどうかに依存していました。",
+        "en": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-27-github-2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序和 Copilot 云代理中的企业托管设置",
+        "ja": "GitHub Copilot アプリおよび Copilot クラウド エージェントのエンタープライズ管理設定",
+        "en": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "您现在可以使用企业托管设置来管理 GitHub Copilot 应用程序和 Copilot 云代理，这与您用于控制整个企业的 Copilot 的集中管理策略相同。通过 Managed-settings.json 文件，企业所有者定义一组护栏，例如开发人员可以使用哪些插件和市场以及他们是否可以绕过批准提示。",
+        "ja": "GitHub Copilot アプリと Copilot クラウド エージェントを、企業全体で Copilot を制御するために使用するのと同じ集中管理ポリシーであるエンタープライズ管理設定で管理できるようになりました。企業所有者は、manded-settings.json ファイルを使用して、開発者が使用できるプラグインやマーケットプレイス、承認プロンプトをバイパスできるかどうかなど、一連のガードレールを定義します。",
+        "en": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-07-27-anthropic-position-open-weights-models",
@@ -1828,30 +1878,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-21-github-2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "date": "2026-07-21",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3.6 Flash 现在可在 GitHub Copilot 中使用",
-        "ja": "Gemini 3.6 Flash が GitHub Copilot で利用可能になりました",
-        "en": "Gemini 3.6 Flash is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 3.6 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。它专为 Web 和应用程序开发、编码和长期代理任务而设计。",
-        "ja": "Google の最新の Flash モデルである Gemini 3.6 Flash は、GitHub Copilot で展開されています。 Web およびアプリの開発、コーディング、および長期的なエージェント タスク向けに設計されています。",
-        "en": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks."
-      },
-      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-21-anthropic-donation-public-first-action",
       "date": "2026-07-21",
       "category": "anthropic",
@@ -1936,31 +1962,6 @@
       "tags": [
         "improvement",
         "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "计费 UI 中成本中心的 AI 信用池",
-        "ja": "請求 UI のコストセンターの AI クレジット プール",
-        "en": "AI credit pools for cost centers in the billing UI"
-      },
-      "summary": {
-        "zh": "您现在可以直接在创建和编辑成本中心的计费 UI 中管理成本中心的 AI 信用池。以前，您只能通过 GitHub REST API 进行管理。",
-        "ja": "コスト センターを作成および編集する請求 UI で、コスト センターの AI クレジット プールを直接管理できるようになりました。以前は、GitHub REST API を介してのみこれを管理できました。",
-        "en": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "tags": [
-        "improvement",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -2594,30 +2595,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-10-github-2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
-      "date": "2026-07-10",
-      "category": "github",
-      "title": {
-        "zh": "CodeQL 2.26.0 增加了 Kotlin 2.4.0 支持和 AI 提示注入检测",
-        "ja": "CodeQL 2.26.0 は Kotlin 2.4.0 サポートと AI プロンプト インジェクション検出を追加します",
-        "en": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection"
-      },
-      "summary": {
-        "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.26.0，它增加了对 Kotlin 2.4.0 的支持，引入了用于系统提示注入的 JavaScript 和 TypeScript 查询，并提高了跨多种语言的分析准确性。",
-        "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近、CodeQL 2.26.0 をリリースしました。これにより、Kotlin 2.4.0 のサポートが追加され、システム プロンプト インジェクション用の JavaScript および TypeScript クエリが導入され、複数の言語にわたる分析精度が向上しました。",
-        "en": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages."
-      },
-      "url": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-10-github-2026-07-10-clearer-names-for-secret-scanning-detector-types",
       "date": "2026-07-10",
       "category": "github",
@@ -3116,6 +3093,32 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-08-github-2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+      "date": "2026-07-08",
+      "category": "github",
+      "title": {
+        "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
+        "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート",
+        "en": "Enterprise-managed OpenTelemetry export for VS Code and CLI"
+      },
+      "summary": {
+        "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
+        "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。",
+        "en": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI."
+      },
+      "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -5012,6 +5015,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-18-github-2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "检测重复问题 – 公共预览和问题字段 MCP 支持 GitHub 问题",
+        "ja": "重複する問題の検出 – パブリック プレビューおよび問題フィールド GitHub 問題の MCP サポート",
+        "en": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues"
+      },
+      "summary": {
+        "zh": "重复问题是维护人员最大的时间消耗之一：以多种方式对同一错误进行分类、关闭重复问题并链接回原始问题。对于大型存储库，这每周可能需要花费几个小时。",
+        "ja": "重複した問題は、メンテナーにとって最大の時間を浪費するものの 1 つです。複数の方法でファイルされた同じバグを優先順位付けし、重複を閉じ、元のバグにリンクし直す必要があります。大規模なリポジトリの場合、これには毎週数時間かかる場合があります。",
+        "en": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this can take up hours every week."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
+      "tags": [
+        "release",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-18-github-2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
       "date": "2026-06-18",
       "category": "github",
@@ -5028,6 +5055,32 @@
       "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
       "tags": [
         "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-18-github-2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+      "date": "2026-06-18",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 创作的拉取请求现已包含在作者搜索中",
+        "ja": "Copilot が作成したプル リクエストが作成者の検索に含まれるようになりました",
+        "en": "Copilot-authored pull requests now included in author searches"
+      },
+      "summary": {
+        "zh": "使用作者搜索拉取请求：现在显示由 Copilot 云代理代表用户打开的拉取请求。例如，在 github.com/pulls 上使用author:@me 进行搜索将返回您自己的拉取请求以及按照您的指示打开的任何拉取请求 Copilot。",
+        "ja": "author を使用したプル リクエストの検索: ユーザーに代わって Copilot クラウド エージェントによってオープンされたプル リクエストが表示されるようになりました。たとえば、github.com/pulls で author:@me で検索すると、自分のプル リクエストと、あなたの指示で開かれたプル リクエスト Copilot が返されます。",
+        "en": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own pull requests and any pull requests Copilot opened at your direction."
+      },
+      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "collaboration-tools",
         "copilot",
         "github",
         "changelog"
@@ -5481,30 +5534,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-12-github-2026-06-12-copilot-code-review-new-configurations-and-controls",
-      "date": "2026-06-12",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 代码审查：新配置和控件",
-        "ja": "Copilot コード レビュー: 新しい構成とコントロール",
-        "en": "Copilot code review: New configurations and controls"
-      },
-      "summary": {
-        "zh": "借助新的组织运行程序控件、Copilot 内容排除支持以及取消存储库自定义指令的字符限制，Copilot 代码审查现在可以更轻松地根据存储库和组织内的需求进行定制。 ⚙️ 组织运行器控件随着 Copilot 代码审查代理架构的发布，我们宣布 Copilot 代码审查由 GitHub 操作提供支持。",
-        "ja": "新しい組織ランナー コントロール、Copilot コンテンツ除外のサポート、リポジトリのカスタム命令の文字数制限の削除により、Copilot コード レビューをリポジトリや組織内のニーズに合わせて調整することが容易になりました。 ⚙️ 組織ランナー制御 Copilot コード レビューのエージェント アーキテクチャのリリースに伴い、Copilot コード レビューが GitHub アクションによって強化されることを発表しました。",
-        "en": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization. ⚙️ Organization runner controls With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions."
-      },
-      "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-06-12-anthropic-tcs-anthropic-partnership",
@@ -6460,7 +6489,7 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-08-openai-economic-research-exchange",
+      "id": "2026-06-08-openai-introducing-the-openai-economic-research-exchange",
       "date": "2026-06-08",
       "category": "openai",
       "title": {
@@ -6473,7 +6502,7 @@
         "ja": "OpenAI は、AI が雇用、生産性、経済に与える影響を研究するために、Economic Research Exchange を立ち上げます。厳選された研究プロジェクトへの応募が受付中です。",
         "en": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects."
       },
-      "url": "https://openai.com/index/economic-research-exchange",
+      "url": "https://openai.com/index/introducing-the-openai-economic-research-exchange",
       "tags": [
         "company",
         "openai"
@@ -6536,6 +6565,30 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-05-github-2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated",
+      "date": "2026-06-05",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.2 和 GPT-5.2-Codex 已弃用",
+        "ja": "GPT-5.2 および GPT-5.2-Codex は非推奨になりました",
+        "en": "GPT-5.2 and GPT-5.2-Codex deprecated"
+      },
+      "summary": {
+        "zh": "截至 2026 年 6 月 5 日，我们已在大多数 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。请注意，GPT-5.2 仍可作为 Copilot 代码审查的一部分使用。",
+        "ja": "本日、2026 年 6 月 5 日の時点で、ほとんどの GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 GPT-5.2 は Copilot コード レビューの一部として引き続き利用できることに注意してください。",
+        "en": "As of today, June 5, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that GPT-5.2 is still available as part of Copilot code review."
+      },
+      "url": "https://github.blog/changelog/2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-05-github-2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
@@ -6930,48 +6983,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-03-anthropic-services-track-partner-hub",
-      "date": "2026-06-03",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
-        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
-        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
-      },
-      "summary": {
-        "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
-        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
-        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
-      },
-      "url": "https://www.anthropic.com/news/services-track-partner-hub",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
-      "date": "2026-06-03",
-      "category": "anthropic",
-      "title": {
-        "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
-        "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと",
-        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats"
-      },
-      "summary": {
-        "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
-        "ja": "AI がサイバー攻撃の性質と背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その質問に答えようとしています。",
-        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
-      },
-      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-06-02-openai-travelers",
@@ -7501,27 +7512,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-06-02-anthropic-expanding-project-glasswing",
-      "date": "2026-06-02",
-      "category": "anthropic",
-      "title": {
-        "zh": "扩建项目Glasswing",
-        "ja": "プロジェクト Glasswing の拡張",
-        "en": "Expanding Project Glasswing"
-      },
-      "summary": {
-        "zh": "我们正在将 Glasswing 项目扩展到超过 15 个国家/地区的约 150 个新组织",
-        "ja": "プロジェクト Glasswing を 15 か国以上の約 150 の新しい組織に拡張します",
-        "en": "We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries"
-      },
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-06-02-anthropic-advisor-tool",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -7725,27 +7715,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-01-anthropic-confidential-draft-s1-sec",
-      "date": "2026-06-01",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic confidentially submits draft S-1 to the SEC",
-        "ja": "Anthropic confidentially submits draft S-1 to the SEC",
-        "en": "Anthropic confidentially submits draft S-1 to the SEC"
-      },
-      "summary": {
-        "zh": "Anthropic 已秘密向美国证券交易委员会提交了 S-1 注册声明草案",
-        "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました",
-        "en": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission"
-      },
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-29-openai-trustworthy-third-party-evaluations-foundations",
@@ -8022,27 +7991,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-28-anthropic-series-h",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
-        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
-        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
-        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
-        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
-      },
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -8221,27 +8169,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-27-anthropic-milan-office-opening",
-      "date": "2026-05-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
-        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
-      },
-      "summary": {
-        "zh": "We're opening a new office in Milan, our sixth in Europe.",
-        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
-        "en": "We're opening a new office in Milan, our sixth in Europe."
-      },
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -8358,27 +8285,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
-      "date": "2026-05-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
-        "ja": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
-        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
-      },
-      "summary": {
-        "zh": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.",
-        "ja": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.",
-        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
-      },
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -8766,6 +8672,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-19-github-2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+      "date": "2026-05-19",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 3.5 Flash 通常可用于 GitHub Copilot",
+        "ja": "Gemini 3.5 Flash は GitHub Copilot で一般提供されています",
+        "en": "Gemini 3.5 Flash is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 3.5 Flash 是 Google 最新的 Flash 层模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，Gemini 3.5 Flash 以 Flash 级的速度和成本提供了接近 Pro 的编码质量，具有强大的工具使用性、快速的响应时间和高缓存效率，使其非常适合快速、迭代代理编码工作流程。",
+        "ja": "Google の最新の Flash 層モデルである Gemini 3.5 Flash は、GitHub Copilot で展開されています。初期のテストでは、Gemini 3.5 Flash は、強力なツールの使用、高速な応答時間、および高いキャッシュ効率により、Flash 層の速度とコストで、プロに近いコーディング品質を実現し、高速で反復的なエージェント コーディング ワークフローに適しています。",
+        "en": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows."
+      },
+      "url": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-05-19-github-2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
       "date": "2026-05-19",
       "category": "github",
@@ -8878,27 +8808,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-19-anthropic-anthropic-kpmg",
-      "date": "2026-05-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
-        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
-        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
@@ -9119,27 +9028,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
-      "date": "2026-05-18",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic acquires Stainless",
-        "ja": "Anthropic acquires Stainless",
-        "en": "Anthropic acquires Stainless"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-17-google-simulate-real-world-places-with-project-genie-and-street-view",
@@ -9529,27 +9417,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
-      "date": "2026-05-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
-        "ja": "PwC は、テクノロジーを構築し、取引を実行し、顧客向けにエンタープライズ機能を再発明するために Claude を導入しています",
-        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
@@ -10510,27 +10377,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-06-anthropic-higher-limits-spacex",
-      "date": "2026-05-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 的更高使用限制以及与 SpaceX 的计算协议",
-        "ja": "Higher usage limits for Claude and a compute deal with SpaceX",
-        "en": "Higher usage limits for Claude and a compute deal with SpaceX"
-      },
-      "summary": {
-        "zh": "我们提高了 Claude 的使用限制，并与 SpaceX 达成了新的计算合作伙伴关系，这将在短期内大幅提高我们的容量。",
-        "ja": "私たちは Claude の使用制限を引き上げ、SpaceX との新しいコンピューティング パートナーシップに合意しました。これにより、短期的には容量が大幅に増加します。",
-        "en": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term."
-      },
-      "url": "https://www.anthropic.com/news/higher-limits-spacex",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-05-openai-new-ways-to-buy-chatgpt-ads",
       "date": "2026-05-05",
       "category": "openai",
@@ -10728,94 +10574,6 @@
         "en": "We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations."
       },
       "url": "https://www.anthropic.com/news/finance-agents",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-05-04-openai-openai-pwc-finance-collaboration",
-      "date": "2026-05-04",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 和普华永道合作重新构想首席财务官办公室",
-        "ja": "OpenAI と PwC が協力して CFO のオフィスを再考します",
-        "en": "OpenAI and PwC collaborate to reimagine the office of the CFO"
-      },
-      "summary": {
-        "zh": "OpenAI 和普华永道正在合作，帮助企业使用人工智能代理实现财务工作流程自动化、改进预测、加强控制以及实现 CFO 职能现代化。",
-        "ja": "OpenAI と PwC は提携して、企業が AI エージェントを使用して財務ワークフローを自動化し、予測を改善し、管理を強化し、CFO 機能を最新化できるよう支援します。",
-        "en": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function."
-      },
-      "url": "https://openai.com/index/openai-pwc-finance-collaboration",
-      "tags": [
-        "global-affairs",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-05-04-openai-delivering-low-latency-voice-ai-at-scale",
-      "date": "2026-05-04",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 如何大规模提供低延迟语音 AI",
-        "ja": "OpenAI が低遅延の音声 AI を大規模に実現する方法",
-        "en": "How OpenAI delivers low-latency voice AI at scale"
-      },
-      "summary": {
-        "zh": "OpenAI 如何重建其 WebRTC 堆栈，以低延迟、全球规模和无缝对话轮流为实时语音 AI 提供支持。",
-        "ja": "OpenAI が WebRTC スタックを再構築して、低遅延、グローバル スケール、シームレスな会話交代を備えたリアルタイム音声 AI を強化する方法。",
-        "en": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking."
-      },
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "tags": [
-        "engineering",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-05-04-anthropic-workload-identity-federation",
-      "date": "2026-05-04",
-      "category": "anthropic",
-      "title": {
-        "zh": "工作负载身份联合",
-        "ja": "Workload Identity フェデレーション",
-        "en": "Workload Identity Federation"
-      },
-      "summary": {
-        "zh": "工作负载身份联合现已普遍可用。使用来自您自己的身份提供商（AWS IAM、Google Cloud、GitHub Actions、Kubernetes、Microsoft Entra ID、Okta、SPIFFE 等）的短期 OIDC 令牌（而不是长期静态 API 密钥）对 Claude API 的工作负载进行身份验证。在 Claude 控制台中配置发行者和联合规则，SDK 会自动处理令牌交换和刷新。请参阅身份验证。",
-        "ja": "Workload Identity Federation が一般提供されるようになりました。有効期間の長い静的 API キーではなく、独自のアイデンティティ プロバイダー (AWS IAM、Google Cloud、GitHub アクション、Kubernetes、Microsoft Entra ID、Okta、SPIFFE など) からの有効期間の短い OIDC トークンを使用して、Claude API に対してワークロードを認証します。 Claude コンソールで発行者とフェデレーション ルールを構成すると、SDK がトークンの交換と更新を自動的に処理します。 「認証」を参照してください。",
-        "en": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentication."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/workload-identity-federation",
-      "tags": [
-        "workload-identity-federation",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-04-anthropic-enterprise-ai-services-company",
-      "date": "2026-05-04",
-      "category": "anthropic",
-      "title": {
-        "zh": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-        "ja": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-        "en": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
       "tags": [
         "anthropic"
       ],
