@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-08-07-openai-responding-next-frontier-critical-cyber-capabilities",
+      "date": "2026-08-07",
+      "category": "openai",
+      "title": {
+        "zh": "应对关键网络能力的下一个前沿",
+        "ja": "重要なサイバー機能の次のフロンティアへの対応",
+        "en": "Responding to the next frontier of critical cyber capabilities"
+      },
+      "summary": {
+        "zh": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
+        "ja": "OpenAI は、Astra の予備的なサイバーセキュリティ評価と、セーフガードとセキュリティ管理を強化するために当社が講じている手順を共有しています。",
+        "en": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls."
+      },
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-08-07-openai-hsp-gruppe",
       "date": "2026-08-07",
       "category": "openai",
@@ -24,6 +46,151 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-08-07-github-2026-08-07-secret-scanning-coverage-updates",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "秘密扫描覆盖范围更新",
+        "ja": "秘密スキャン範囲の更新",
+        "en": "Secret scanning coverage updates"
+      },
+      "summary": {
+        "zh": "此版本扩大了秘密扫描的覆盖范围，通过推送保护阻止了更多秘密、一个新的秘密扫描合作伙伴以及更丰富的警报元数据。秘密扫描合作伙伴计划 Lovable Labs 现已成为 GitHub 秘密扫描合作伙伴。",
+        "ja": "このリリースでは、プッシュ保護によってブロックされるシークレットの数が増え、新しいシークレット スキャン パートナーが 1 つ追加され、アラートのメタデータが豊富になり、シークレット スキャンの対象範囲が拡張されます。シークレット スキャン パートナーシップ プログラム Lovable Labs は、GitHub シークレット スキャン パートナーになりました。",
+        "en": "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is now a GitHub secret scanning partner."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量不再添加 Copilot 作为审阅者",
+        "ja": "GitHub コード品質では、Copilot がレビュー担当者として追加されなくなりました",
+        "en": "GitHub Code Quality no longer adds Copilot as a reviewer"
+      },
+      "summary": {
+        "zh": "在存储库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有该规则集的存储库中，我们关闭了启用的设置。",
+        "ja": "リポジトリで GitHub コード品質を有効にしても、プル リクエストで GitHub Copilot からのコード レビューを自動的に要求するルールセットは作成されなくなりました。すでにそのルールセットがあるリポジトリでは、有効にした設定をオフにしました。",
+        "en": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
+      "tags": [
+        "retired",
+        "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标 API 添加代理应用程序活动",
+        "ja": "Copilot 使用状況メトリクス API によりエージェント アプリのアクティビティが追加される",
+        "en": "Copilot usage metrics API adds agent app activity"
+      },
+      "summary": {
+        "zh": "自从代理应用程序到达 GitHub 以来，团队就能够直接在其 GitHub 工作流程中运行来自 Claude 和 Codex 等合作伙伴的代理。 Copilot 使用指标 API 现在报告该活动，按单个代理进行细分。",
+        "ja": "エージェント アプリが GitHub に登場して以来、チームは Claude や Codex などのパートナーからのエージェントを GitHub ワークフローで直接実行できるようになりました。 Copilot 使用状況メトリクス API は、個々のエージェントごとにそのアクティビティを報告するようになりました。",
+        "en": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "企业托管设置中的 MCP 允许名单",
+        "ja": "エンタープライズ管理設定の MCP 許可リスト",
+        "en": "MCP allowlists in enterprise managed settings"
+      },
+      "summary": {
+        "zh": "企业所有者现在可以通过在企业托管设置中使用新的 allowedMcpServers 和 DeniedMcpServers 键来集中控制允许运行哪些模型上下文协议 (MCP) 服务器 GitHub Copilot 客户端。批准您的开发人员依赖的 MCP 服务器，并阻止整个企业中不受信任或不合规的服务器。",
+        "ja": "エンタープライズ所有者は、エンタープライズ管理設定の新しい allowedMcpServers キーと DeniedMcpServers キーを使用して、どのモデル コンテキスト プロトコル (MCP) サーバー GitHub Copilot クライアントの実行を許可するかを一元的に制御できるようになりました。開発者が依存する MCP サーバーを承認し、信頼できないサーバーや準拠していないサーバーを企業全体でブロックします。",
+        "en": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise."
+      },
+      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-anthropic-skills",
+      "date": "2026-08-07",
+      "category": "anthropic",
+      "title": {
+        "zh": ".克劳德/技能",
+        "ja": ".クロード/スキル",
+        "en": ".claude/skills"
+      },
+      "summary": {
+        "zh": "Claude 托管代理会话现在可以从 GitHub 存储库加载技能。当会话装载存储库时，其 root.claude/skills 目录中的任何技能都会在会话启动时自动发现，并可供该会话的代理使用。",
+        "ja": "Claude 管理対象エージェント セッションは、GitHub リポジトリからスキルをロードできるようになりました。セッションがリポジトリをマウントすると、root.claude/skills ディレクトリ内のスキルはセッション開始時に自動的に検出され、そのセッションのエージェントが使用できるようになります。",
+        "en": "Claude Managed Agents sessions can now load skills from a GitHub repository. When a session mounts a repository, any skills in its root.claude/skills directory are discovered automatically at session start and available to the agent for that session."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/skills#load-skills-from-a-github-repository",
+      "tags": [
+        "claude-skills",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-07-anthropic-multiagent-orchestration",
+      "date": "2026-08-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "{“类型”：“顾问”}",
+        "ja": "{\"タイプ\": \"アドバイザー\"}",
+        "en": "{\"type\": \"advisor\"}"
+      },
+      "summary": {
+        "zh": "现在，您可以为 Claude 托管代理会话提供一个顾问：一个至少与代理自己的模型一样强大的模型，会话的主线程可以在中途咨询以获取战略指导。将其配置为代理多代理名册中的 {\"type\": \"advisor\"} 条目，命名要咨询的模型。请参阅为会议提供顾问。",
+        "ja": "Claude 管理対象エージェント セッションにアドバイザーを与えることができるようになりました。これは、セッションのプライマリ スレッドがターン中に戦略的なガイダンスを参照できる、少なくともエージェント自身と同等の能力を持つモデルです。これをエージェントのマルチエージェント名簿の {\"type\": \"advisor\"} エントリとして構成し、参照するモデルに名前を付けます。 「セッションにアドバイザーを付ける」を参照してください。",
+        "en": "You can now give a Claude Managed Agents session an advisor: a model at least as capable as the agent's own that the session's primary thread can consult mid-turn for strategic guidance. Configure it as a {\"type\": \"advisor\"} entry in the agent's multiagent roster, naming the model to consult. See Give the session an advisor."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#give-the-session-an-advisor",
+      "tags": [
+        "type-advisor",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-08-07-anthropic-improving-fable-5-s-biology-safeguards",
       "date": "2026-08-07",
       "category": "anthropic",
@@ -43,6 +210,52 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-08-07-anthropic-budgets",
+      "date": "2026-08-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "已达到预算",
+        "ja": "予算に達しました",
+        "en": "budget_reached"
+      },
+      "summary": {
+        "zh": "您现在可以为 Claude 托管代理会话设置预算：会话支出的硬性上限，按公开列表价格定价。达到预算的会话会因budget_reached停止原因而暂停，而不是启动新的模型请求；更改或删除预算可恢复预算。部署接受相同的预算并将其应用于它们启动的每个会话。请参阅会议预算。",
+        "ja": "Claude 管理対象エージェント セッションに予算を設定できるようになりました。これは、セッションの支出に対するハード キャップであり、公開リスト料金で価格設定されます。予算に達したセッションは、新しいモデルリクエストを開始する代わりに、budget_reached の停止理由で一時停止します。予算を変更または削除すると、予算が再開されます。デプロイメントは同じバジェットを受け入れ、それを開始する各セッションに適用します。 「セッションの予算」を参照してください。",
+        "en": "You can now set a budget on a Claude Managed Agents session: a hard cap on the session's spend, priced at public list rates. A session that reaches its budget pauses with the budget_reached stop reason instead of starting new model requests; changing or removing the budget resumes it. Deployments accept the same budget and apply it to each session they start. See Session budgets."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/budgets",
+      "tags": [
+        "budget-reached",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-07-anthropic-agent-setup",
+      "date": "2026-08-07",
+      "category": "anthropic",
+      "title": {
+        "zh": "推理地理",
+        "ja": "推論_地理",
+        "en": "inference_geo"
+      },
+      "summary": {
+        "zh": "您现在可以控制 Claude Managed Agents 代理的模型推理运行位置。创建代理时在模型对象内设置 inference_geo，或在单个会话中覆盖它。请参阅数据驻留以了解可用的地理位置和定价。",
+        "ja": "Claude 管理対象エージェント エージェントに対してモデル推論を実行する場所を制御できるようになりました。エージェントの作成時にモデル オブジェクト内に inference_geo を設定するか、単一セッションに対してそれをオーバーライドします。利用可能な地域と料金については、「データ所在地」を参照してください。",
+        "en": "You can now control where model inference runs for a Claude Managed Agents agent. Set inference_geo inside the model object when you create the agent, or override it for a single session. See Data residency for the available geos and pricing."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/agent-setup#create-an-agent",
+      "tags": [
+        "inference-geo",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-06-openai-openai-and-apa-partner-to-advance-responsible-ai",
@@ -439,6 +652,30 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-08-03-github-2026-08-03-trigger-copilot-automations-with-comments",
+      "date": "2026-08-03",
+      "category": "github",
+      "title": {
+        "zh": "使用注释触发 Copilot 自动化",
+        "ja": "コメントを使用して Copilot オートメーションをトリガーする",
+        "en": "Trigger Copilot automations with comments"
+      },
+      "summary": {
+        "zh": "您现在可以创建 Copilot 云代理自动化，该自动化在创建问题评论或拉取请求评论时运行。常见用例包括： 生成文档：对拉取请求进行评论，以根据代码更改自动生成或更新文档。",
+        "ja": "課題コメントまたはプル リクエスト コメントが作成されたときに実行される Copilot クラウド エージェント オートメーションを作成できるようになりました。一般的な使用例は次のとおりです。 ドキュメントの生成: プル リクエストにコメントして、コードの変更に基づいてドキュメントを自動的に生成または更新します。",
+        "en": "You can now create Copilot cloud agent automations that run when an issue comment or pull request comment is created. Common use cases include: Generate documentation: Comment on a pull request to automatically generate or update documentation based on your code changes."
+      },
+      "url": "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-08-03-github-2026-08-03-enterprise-team-specialization-for-managed-settings",
@@ -1945,29 +2182,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-22-anthropic-agent-setup-2",
-      "date": "2026-07-22",
-      "category": "anthropic",
-      "title": {
-        "zh": "努力",
-        "ja": "努力",
-        "en": "effort"
-      },
-      "summary": {
-        "zh": "您现在可以在 Claude Managed Agents 代理的模型配置上设置工作级别。创建代理时，将工作传递到模型对象内部。请参阅工作量级别了解每个级别的作用。",
-        "ja": "Claude 管理対象エージェント エージェントのモデル構成に作業レベルを設定できるようになりました。エージェントを作成するときに、モデル オブジェクト内にエフォートを渡します。各レベルの内容については、「努力レベル」を参照してください。",
-        "en": "You can now set an effort level on a Claude Managed Agents agent's model configuration. Pass effort inside the model object when you create the agent. See Effort levels for what each level does."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/agent-setup#create-an-agent",
-      "tags": [
-        "effort",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-07-22-anthropic-agent-setup",
@@ -5673,6 +5887,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-16-github-2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "date": "2026-06-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
+        "ja": "GitHub コード品質は 2026 年 7 月 20 日に一般公開されます",
+        "en": "GitHub Code Quality generally available July 20, 2026"
+      },
+      "summary": {
+        "zh": "超过 10,000 家企业已使用 GitHub 代码质量公共预览版来检测可维护性和可靠性问题、实施质量关卡并跟踪代码覆盖率。 2026 年 7 月 20 日，代码质量从公共预览版转变为可购买产品的普遍可用性。",
+        "ja": "10,000 社以上の企業が GitHub コード品質パブリック プレビューを使用して、保守性と信頼性の問題を検出し、品質ゲートを適用し、コード カバレッジを追跡しています。 2026 年 7 月 20 日に、コード品質はパブリック プレビューから購入可能な製品としての一般提供に移行します。",
+        "en": "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code Quality moves from public preview to general availability as a purchasable product."
+      },
+      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "tags": [
+        "release",
+        "application-security",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-15-github-2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
       "date": "2026-06-15",
       "category": "github",
@@ -5824,6 +6063,27 @@
         "en": "The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States."
       },
       "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-12-anthropic-anthropic-public-record",
+      "date": "2026-06-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "第一个 Anthropic 公共记录的结果",
+        "ja": "最初の Anthropic 公開記録の結果",
+        "en": "Results from first Anthropic Public Record"
+      },
+      "summary": {
+        "zh": "Anthropic 公共记录是一项针对人工智能态度和观点的全国性调查。",
+        "ja": "Anthropic Public Record は、AI に対する態度と意見に関する全国調査です。",
+        "en": "Anthropic Public Record is a national survey of attitudes and opinions towards AI."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
       "tags": [
         "anthropic"
       ],
@@ -7217,6 +7477,48 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-03-anthropic-services-track-partner-hub",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 合作伙伴网络的服务轨道和合作伙伴中心简介",
+        "ja": "Claude パートナー ネットワークのサービス トラックとパートナー ハブの紹介",
+        "en": "Introducing the Services Track and Partner Hub of the Claude Partner Network"
+      },
+      "summary": {
+        "zh": "今年 3 月，我们推出了 Claude 合作伙伴网络，这是一项针对帮助企业将 Claude 投入生产的公司的计划。今天，我们宣布推出两个新组件，使客户能够更轻松地驾驭这个生态系统。",
+        "ja": "3 月に、企業による Claude の運用導入を支援する企業向けプログラムである Claude パートナー ネットワークを立ち上げました。本日、このエコシステムを顧客がナビゲートしやすくする 2 つの新しいコンポーネントを発表します。",
+        "en": "In March, we launched the Claude Partner Network, a program for the firms that help enterprises put Claude into production.. Today, we’re announcing two new components that make this ecosystem easier for customers to navigate."
+      },
+      "url": "https://www.anthropic.com/news/services-track-partner-hub",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-03-anthropic-ai-enabled-cyber-threats-mitre-attack",
+      "date": "2026-06-03",
+      "category": "anthropic",
+      "title": {
+        "zh": "我们在绘制一年的人工智能网络威胁中学到了什么",
+        "ja": "1 年分の AI を活用したサイバー脅威のマッピングから学んだこと",
+        "en": "What we learned mapping a year’s worth of AI-enabled cyber threats"
+      },
+      "summary": {
+        "zh": "随着人工智能改变网络攻击的性质和方法，安全社区使用的技术和框架的效果如何？在一份新报告中，我们试图回答这个问题。",
+        "ja": "AI がサイバー攻撃の性質とその背後にある手法を変革する中、セキュリティ コミュニティが使用する技術とフレームワークはどの程度耐えられるでしょうか?新しいレポートでは、その疑問に答えようとしています。",
+        "en": "As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question."
+      },
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-06-02-openai-travelers",
       "date": "2026-06-02",
       "category": "openai",
@@ -7500,6 +7802,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-02-github-2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "Azure Repos 的 GitHub Copilot 代码审查现已处于技术预览版",
+        "ja": "Azure Repos の GitHub Copilot コード レビューがテクニカル プレビューになりました",
+        "en": "GitHub Copilot code review for Azure Repos is now in technical preview"
+      },
+      "summary": {
+        "zh": "Azure Repos 的 GitHub Copilot 代码审查现已在技术预览版中提供，将按需拉取请求审查直接引入到 Azure DevOps 工作流程中。工作原理 一旦在组织和存储库级别启用，用户可以直接从 Azure Repos 中的拉取请求请求 Copilot 代码审查。",
+        "ja": "Azure Repos の GitHub Copilot コード レビューがテクニカル プレビューで利用可能になり、オンデマンドのプル リクエスト レビューを Azure DevOps ワークフローに直接導入できます。仕組み組織レベルとリポジトリ レベルの両方で有効にすると、ユーザーは Azure Repos のプル リクエストから直接 Copilot コード レビューをリクエストできるようになります。",
+        "en": "GitHub Copilot code review for Azure Repos is now available in technical preview, bringing on demand pull request reviews directly into your Azure DevOps workflow. How it works Once enabled at both the organization and repository level, users can request a Copilot code review directly from a pull request in Azure Repos."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-github-copilot-code-review-for-azure-repos-is-now-in-technical-preview",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-02-github-2026-06-02-gemini-models-in-copilot-cli-cloud-agent-and-the-copilot-app",
       "date": "2026-06-02",
       "category": "github",
@@ -7664,6 +7990,32 @@
         "release",
         "client-apps",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 的云和本地沙箱现已提供公共预览版",
+        "ja": "GitHub Copilot のクラウドおよびローカル サンドボックスがパブリック プレビュー中",
+        "en": "Cloud and local sandboxes for GitHub Copilot now in public preview"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 现在可以在安全、隔离的沙箱内运行，无论是在本地计算机上还是在云中。沙盒 Copilot 体验为 Copilot 工具在本地执行提供隔离环境，以及由 GitHub 托管的完全隔离的云沙箱。",
+        "ja": "GitHub Copilot は、マシン上のローカルとクラウドの両方で、安全で隔離されたサンドボックス内で実行できるようになりました。サンドボックス化された Copilot エクスペリエンスは、Copilot のツールをローカルで実行するための分離環境と、GitHub によってホストされる完全に分離されたクラウド サンドボックスを提供します。",
+        "en": "GitHub Copilot can now run inside secure, isolated sandboxes, both locally on your machine and in the cloud. Sandboxed Copilot experiences provide isolated environments for Copilot’s tool execution locally as well as fully isolated cloud sandboxes hosted by GitHub."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+      "tags": [
+        "release",
+        "application-security",
+        "copilot",
+        "platform-governance",
         "github",
         "changelog"
       ],
@@ -8513,6 +8865,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-05-25-anthropic-chris-olah-pope-leo-encyclical",
+      "date": "2026-05-25",
+      "category": "anthropic",
+      "title": {
+        "zh": "Anthropic 联合创始人 Chris Olah 对教皇利奥十四世通谕《Magnifica humanitas》的评论",
+        "ja": "Anthropic 共同創設者クリス・オラーの教皇レオ 14 世の回勅「マニフィカ・ヒューマニタス」に関する発言",
+        "en": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\""
+      },
+      "summary": {
+        "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
+        "ja": "AIに関するローマ法王の回勅に関するクリス・オラー氏の発言の全文。",
+        "en": "The full text of Chris Olah's remarks on the Pope's encyclical on AI."
+      },
+      "url": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-05-22-openai-virgin-atlantic",
       "date": "2026-05-22",
       "category": "openai",
@@ -8879,6 +9252,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-19-anthropic-widening-conversation-ai",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "扩大前沿人工智能的对话",
+        "ja": "フロンティア AI に関する会話を広げる",
+        "en": "Widening the conversation on frontier AI"
+      },
+      "summary": {
+        "zh": "在过去的几个月里，我们一直在组织与那些工作和传统与人工智能提出的问题有关的团体的对话。",
+        "ja": "過去数か月間、私たちは AI によって提起される問題に関連する活動や伝統を持つグループとの対話を企画してきました。",
+        "en": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
+      },
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-05-19-anthropic-overview-3",
@@ -9479,6 +9873,55 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-14-github-2026-05-14-github-copilot-app-is-now-available-in-technical-preview",
+      "date": "2026-05-14",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 应用程序现已提供技术预览版",
+        "ja": "GitHub Copilot アプリがテクニカル プレビューで利用可能になりました",
+        "en": "GitHub Copilot app is now available in technical preview"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 应用程序现已处于技术预览版。这是一种 GitHub 原生桌面体验，可以从您面前的工作开始代理开发，保持隔离，引导它进行，并通过拉取请求审查来实现更改。",
+        "ja": "GitHub Copilot アプリは現在テクニカル プレビュー段階にあります。 GitHub ネイティブのデスクトップ エクスペリエンスでは、目の前の作業からエージェント開発を開始し、それを分離した状態に保ち、進行に合わせて操作し、プル リクエストのレビューを通じて変更を完了します。",
+        "en": "The GitHub Copilot app is now in technical preview. It’s a GitHub-native desktop experience to start agentic development from the work in front of you, keep it isolated, steer it as it goes, and land the change through pull request review."
+      },
+      "url": "https://github.blog/changelog/2026-05-14-github-copilot-app-is-now-available-in-technical-preview",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-14-github-2026-05-14-copilot-cloud-agent-supports-auto-model-selection",
+      "date": "2026-05-14",
+      "category": "github",
+      "title": {
+        "zh": "Copilot云代理支持自动选型",
+        "ja": "Copilot クラウド エージェントは自動モデル選択をサポートします",
+        "en": "Copilot cloud agent supports auto model selection"
+      },
+      "summary": {
+        "zh": "Copilot 云代理现在支持 Copilot 自动模型选择。当您在模型选择器中选择“自动”时，Copilot 会根据系统运行状况和模型性能智能地选择最佳可用模型。",
+        "ja": "Copilot クラウド エージェントは、Copilot 自動モデル選択をサポートするようになりました。モデル ピッカーで [自動] を選択すると、Copilot は、システムの健全性とモデルのパフォーマンスに基づいて、利用可能な最適なモデルをインテリジェントに選択します。",
+        "en": "Copilot cloud agent now supports Copilot auto model selection. When you select Auto in the model picker, Copilot intelligently selects the best available model based on system health and model performance."
+      },
+      "url": "https://github.blog/changelog/2026-05-14-copilot-cloud-agent-supports-auto-model-selection",
+      "tags": [
+        "improvement",
+        "copilot",
         "github",
         "changelog"
       ],
