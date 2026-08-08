@@ -1,7 +1,194 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-08",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-05-07-openai-simplex",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "Simplex 使用 Codex 重新思考软件开发",
+        "ja": "Simplex は Codex でソフトウェア開発を再考します",
+        "en": "Simplex rethinks software development with Codex"
+      },
+      "summary": {
+        "zh": "Simplex 通过 ChatGPT Enterprise 和 Codex 促进软件开发，减少设计、构建和测试时间，同时扩展人工智能驱动的工作流程。",
+        "ja": "Simplex は、ChatGPT Enterprise および Codex を使用してソフトウェア開発を促進し、AI 主導のワークフローを拡張しながら、設計、構築、テストの時間を短縮します。",
+        "en": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows."
+      },
+      "url": "https://openai.com/index/simplex",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-07-openai-introducing-trusted-contact-in-chatgpt",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "在 ChatGPT 中引入可信联系人",
+        "ja": "ChatGPT に信頼できる連絡先を導入",
+        "en": "Introducing Trusted Contact in ChatGPT"
+      },
+      "summary": {
+        "zh": "在 ChatGPT 中引入可信联系人，这是一项可选的安全功能，如果检测到严重的自残问题，它会通知您信任的人。",
+        "ja": "ChatGPT に信頼できる連絡先が導入されました。これは、深刻な自傷行為の懸念が検出された場合に信頼できる人に通知するオプションの安全機能です。",
+        "en": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected."
+      },
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-07-openai-gpt-5-5-with-trusted-access-for-cyber",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "使用 GPT-5.5 和 GPT-5.5-Cyber​​ 扩展网络的可信访问",
+        "ja": "GPT-5.5 および GPT-5.5-Cyber​​ によるサイバー向けの信頼されたアクセスの拡張",
+        "en": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber"
+      },
+      "summary": {
+        "zh": "OpenAI 通过 GPT-5.5 和 GPT-5.5-Cyber​​ 扩展了网络可信访问，帮助经过验证的防御者加速漏洞研究并保护关键基础设施。",
+        "ja": "OpenAI は、GPT-5.5 および GPT-5.5-Cyber​​ を使用してサイバーの信頼されたアクセスを拡張し、検証済みの防御者が脆弱性調査を加速し、重要なインフラストラクチャを保護できるようにします。",
+        "en": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure."
+      },
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-07-openai-changelog-2",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-实时-2、GPT-实时-翻译",
+        "ja": "GPT リアルタイム 2、GPT リアルタイム翻訳",
+        "en": "GPT-Realtime-2, GPT-Realtime-Translate"
+      },
+      "summary": {
+        "zh": "发布了 GPT-Realtime-2，这是一种新的实时语音模型，可为语音到语音代理提供可配置的推理，以及用于流式语音翻译的 GPT-Realtime-Translate 和用于流式语音到文本的 GPT-Realtime-Whisper。更新了实时和音频指南，添加了专用的实时翻译指南，刷新了流转录本的实时转录，并将实时提示指南移至使用实时模型。",
+        "ja": "ストリーミング音声翻訳の GPT-Realtime-Translate およびストリーミング音声テキスト化の GPT-Realtime-Whisper とともに、音声合成エージェントの構成可能な推論を備えた新しいリアルタイム音声モデルである GPT-Realtime-2 をリリースしました。リアルタイムおよびオーディオ ガイドを更新し、専用のリアルタイム翻訳ガイドを追加し、ストリーミング トランスクリプトのリアルタイム トランスクリプションを更新し、リアルタイム プロンプト ガイダンスを「リアルタイム モデルの使用」に移動しました。",
+        "en": "Released GPT-Realtime-2, a new realtime voice model with configurable reasoning for speech-to-speech agents, along with GPT-Realtime-Translate for streaming speech translation and GPT-Realtime-Whisper for streaming speech-to-text. Updated the Realtime and audio guide, added a dedicated Realtime translation guide, refreshed Realtime transcription for streaming transcripts, and moved realtime prompting guidance into Using realtime models."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-gpt-realtime-2-gpt-realtime-translate",
+      "tags": [
+        "gpt-realtime-2",
+        "gpt-realtime-translate",
+        "gpt-realtime-whisper",
+        "v1-realtime",
+        "v1-realtime-translations",
+        "v1-realtime-transcription-sessions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-07-openai-changelog",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI Codex 的开发者插件",
+        "ja": "OpenAI Codex 用の開発者プラグイン",
+        "en": "OpenAI Developers plugin for Codex"
+      },
+      "summary": {
+        "zh": "发布了 Codex 的 OpenAI 开发者插件。这可以帮助您通过 OpenAI 平台访问和 OpenAI API 设置指南在 Codex 中构建 AI 应用程序和代理。",
+        "ja": "Codex 用の OpenAI 開発者プラグインをリリースしました。これは、OpenAI プラットフォーム アクセスと OpenAI API セットアップ ガイダンスを備えた Codex で AI アプリケーションとエージェントを構築するのに役立ちます。",
+        "en": "Released the OpenAI Developers plugin for Codex. This helps you build AI applications and agents in Codex with OpenAI Platform access and OpenAI API setup guidance."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-07-feature-openai-developers-plugin-for-codex",
+      "tags": [
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-07-openai-advancing-voice-intelligence-with-new-models-in-the-api",
+      "date": "2026-05-07",
+      "category": "openai",
+      "title": {
+        "zh": "利用 API 中的新模型推进语音智能",
+        "ja": "API の新しいモデルによる音声インテリジェンスの進化",
+        "en": "Advancing voice intelligence with new models in the API"
+      },
+      "summary": {
+        "zh": "在 OpenAI API 中探索新的实时语音模型，该模型可以推理、翻译和转录语音，从而实现更自然、更智能的语音体验。",
+        "ja": "OpenAI API の新しいリアルタイム音声モデルを探索して、音声を推論、翻訳、文字起こしすることで、より自然でインテリジェントな音声エクスペリエンスを実現します。",
+        "en": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences."
+      },
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-07-github-2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+      "date": "2026-05-07",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot CLI 中的橡皮鸭现在支持更多模型",
+        "ja": "GitHub Copilot CLI のラバーダックがより多くのモデルをサポートするようになりました",
+        "en": "Rubber Duck in GitHub Copilot CLI now supports more models"
+      },
+      "summary": {
+        "zh": "当您的会话使用 GPT 模型时，现在可以使用 Claude 驱动的批评家代理使用 GitHub Copilot CLI 中的跨系列审核代理 Rubber Duck。对于使用 Claude 作为协调器的会话，我们升级了用于寻求第二意见的 GPT 模型。",
+        "ja": "GitHub Copilot CLI のクロスファミリー レビュー エージェントであるラバー ダックは、セッションが GPT モデルを使用している場合に、Claude を利用した批評家エージェントを使用して利用できるようになりました。オーケストレーターとして Claude を使用するセッションの場合、セカンドオピニオンを求めるために使用される GPT モデルをアップグレードしました。",
+        "en": "Rubber Duck, the cross-family review agent in GitHub Copilot CLI, is now available using a Claude-powered critic agent when your session is using a GPT model. For sessions using Claude as their orchestrator, we’ve upgraded the GPT model used to seek a second opinion."
+      },
+      "url": "https://github.blog/changelog/2026-05-07-rubber-duck-in-github-copilot-cli-now-supports-more-models",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-07-github-2026-05-07-claude-sonnet-4-deprecated",
+      "date": "2026-05-07",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 4 已弃用",
+        "ja": "Claude Sonnet 4 は非推奨になりました",
+        "en": "Claude Sonnet 4 deprecated"
+      },
+      "summary": {
+        "zh": "我们已于 2026 年 5 月 6 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。 模型弃用日期 建议替代方案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 请更新您的工作流程和集成以使用支持的模型。",
+        "ja": "2026 年 5 月 6 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 モデルの非推奨日 推奨される代替案 Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 ワークフローと統合を次のように更新してください。サポートされているモデルを使用してください。",
+        "en": "We have deprecated the following model across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on May 6, 2026. Model Deprecation date Suggested alternative Claude Sonnet 4 2026-05-06 Claude Sonnet 4.6 Please update your workflows and integrations to use supported models."
+      },
+      "url": "https://github.blog/changelog/2026-05-07-claude-sonnet-4-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-05-06-openai-uber",
       "date": "2026-05-06",

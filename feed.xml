@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-08-07</lastBuildDate>
+    <lastBuildDate>2026-08-08</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Responding to the next frontier of critical cyber capabilities</title>
@@ -34,6 +34,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-08-07-secret-scanning-coverage-updates</guid>
     </item>
     <item>
+      <title>GitHub Copilot weekly releases — August 3</title>
+      <link>https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3</link>
+      <description>This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot app Auto now shows which model handled each completed request, plus AI credit and cache details when they’re available.</description>
+      <pubDate>2026-08-07</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3</guid>
+    </item>
+    <item>
       <title>GitHub Code Quality no longer adds Copilot as a reviewer</title>
       <link>https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer</link>
       <description>Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled.</description>
@@ -50,6 +59,24 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity</guid>
+    </item>
+    <item>
+      <title>Copilot impact dashboard adds a return on investment section</title>
+      <link>https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section</link>
+      <description>The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”).</description>
+      <pubDate>2026-08-07</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section</guid>
+    </item>
+    <item>
+      <title>Copilot code review effort levels are generally available</title>
+      <link>https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available</link>
+      <description>Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.</description>
+      <pubDate>2026-08-07</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available</guid>
     </item>
     <item>
       <title>MCP allowlists in enterprise managed settings</title>
@@ -340,24 +367,6 @@
       <guid isPermaLink="true">https://openai.com/index/advancing-responsible-ai-across-europe</guid>
     </item>
     <item>
-      <title>Upcoming August 2026 model deprecations in GitHub Copilot</title>
-      <link>https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot</link>
-      <description>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude...</description>
-      <pubDate>2026-07-31</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot</guid>
-    </item>
-    <item>
-      <title>Gemini 2.5 Pro and Gemini 3 Flash deprecated</title>
-      <link>https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated</link>
-      <description>As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 2.5 Pro 2026-07-31 Gemini 3.1 Pro (Preview) Gemini 3 Flash 2026-07-31 Gemini 3.6 Flash Please update your workflows and integrations to use supported models.</description>
-      <pubDate>2026-07-31</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated</guid>
-    </item>
-    <item>
       <title>Enterprise teams model policy targeting in public preview</title>
       <link>https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview</link>
       <description>You can now take advantage of user-based model policy targeting for GitHub Enterprise customers with Copilot Business or Copilot Enterprise licenses. This feature empowers AI administrators to set a baseline of models for the entire enterprise and then grant additional models to specific enterprise teams.</description>
@@ -446,15 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases</guid>
-    </item>
-    <item>
-      <title>Investigating three real-world incidents in our cybersecurity evaluations</title>
-      <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
-      <description>In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations. Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to perform similar reviews.</description>
-      <pubDate>2026-07-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</guid>
     </item>
   </channel>
 </rss>
