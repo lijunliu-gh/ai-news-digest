@@ -3,6 +3,52 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-08-10-openai-responsible-ai-infrastructure-texas",
+      "date": "2026-08-10",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信",
+        "ja": "テキサス州の責任ある AI インフラストラクチャに関するOpenAI からアボット知事への手紙",
+        "en": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas"
+      },
+      "summary": {
+        "zh": "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持可靠、透明的增长，有利于德克萨斯人。",
+        "ja": "OpenAI は、テキサス州の責任ある AI インフラストラクチャへの取り組みを概説する手紙をグレッグ アボット知事に送りました。この書簡は、テキサス人に利益をもたらす信頼性の高い透明性のある成長を支持しています。",
+        "en": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans."
+      },
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-10-github-2026-08-10-copilot-on-web-expands-conversation-controls",
+      "date": "2026-08-10",
+      "category": "github",
+      "title": {
+        "zh": "网络上的 Copilot 扩展了对话控制",
+        "ja": "Web 上の Copilot は会話コントロールを拡張します",
+        "en": "Copilot on web expands conversation controls"
+      },
+      "summary": {
+        "zh": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.",
+        "ja": "github.com の Copilot Chat を改良し、使いやすくしました。これらには、チャットでの最近の会話への簡単なアクセス、チャット ウィンドウを最小化して進行中の会話に戻る機能、Copilot トークンの支出を追跡するのに役立つインジケーターが含まれます。",
+        "en": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend."
+      },
+      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-07-openai-responding-next-frontier-critical-cyber-capabilities",
       "date": "2026-08-07",
       "category": "openai",
@@ -185,30 +231,6 @@
         "en": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request."
       },
       "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-07-github-2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
-      "date": "2026-08-07",
-      "category": "github",
-      "title": {
-        "zh": "企业托管设置中的 MCP 允许名单",
-        "ja": "エンタープライズ管理設定の MCP 許可リスト",
-        "en": "MCP allowlists in enterprise managed settings"
-      },
-      "summary": {
-        "zh": "企业所有者现在可以通过在企业托管设置中使用新的 allowedMcpServers 和 DeniedMcpServers 键来集中控制允许运行哪些模型上下文协议 (MCP) 服务器 GitHub Copilot 客户端。批准您的开发人员依赖的 MCP 服务器，并阻止整个企业中不受信任或不合规的服务器。",
-        "ja": "エンタープライズ所有者は、エンタープライズ管理設定の新しい allowedMcpServers キーと DeniedMcpServers キーを使用して、どのモデル コンテキスト プロトコル (MCP) サーバー GitHub Copilot クライアントの実行を許可するかを一元的に制御できるようになりました。開発者が依存する MCP サーバーを承認し、信頼できないサーバーや準拠していないサーバーを企業全体でブロックします。",
-        "en": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise."
-      },
-      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
       "tags": [
         "release",
         "copilot",
@@ -4230,54 +4252,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-01-github-2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "Copilot CLI 的新 C++ 语言服务器配置技能",
-        "ja": "Copilot CLI 用の新しい C++ 言語サーバー構成スキル",
-        "en": "New C++ language server config skill for Copilot CLI"
-      },
-      "summary": {
-        "zh": "Microsoft C++ 语言服务器现已作为插件在 Copilot 插件市场上提供。它包含新的内置设置技能，可帮助自动化项目设置，从而更轻松地生成和维护语言服务器理解代码所需的compile_commands.json 文件。",
-        "ja": "Microsoft C++ Language Server は、Copilot Plugins マーケットプレイスでプラグインとして入手できるようになりました。これには、プロジェクトのセットアップの自動化に役立つ新しい組み込みセットアップ スキルが含まれており、言語サーバーがコードを理解するために必要なcompile_commands.json ファイルの生成と保守が容易になります。",
-        "en": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-01-github-2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "Kimi K2.7代码一般可在GitHub Copilot中找到",
-        "ja": "Kim K2.7 コードは GitHub Copilot で一般公開されています",
-        "en": "Kimi K2.7 Code is generally available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Kimi K2.7 Code 是一种开放重量模型，现已在 GitHub Copilot 中普遍提供。这是第一个在 Copilot 模型选择器中作为可选选项提供的开放权重模型，为您的编码工作流程提供更多选择和更低成本的选项。",
-        "ja": "オープンウェイト モデルの Kim K2.7 コードが、GitHub Copilot で一般提供されるようになりました。これは、Copilot モデル ピッカーで選択可能なオプションとして提供される最初のオープンウェイト モデルであり、コーディング ワークフローにより多くの選択肢と低コストのオプションを提供します。",
-        "en": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-01-github-2026-07-01-github-models-is-being-fully-retired-on-july-30-2026",
       "date": "2026-07-01",
       "category": "github",
@@ -5460,30 +5434,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-18-github-2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "Opus 4.6 即将弃用（快速）",
-        "ja": "Opus 4.6 (高速) の今後の非推奨",
-        "en": "Upcoming deprecation of Opus 4.6 (fast)"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 6 月 29 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Opus 4.6（快速）： 模型弃用日期 建议替代 Opus 4.6（快速） 2026 年 6 月 29 日 Opus 4.8（快速） 请将您的工作流程和集成更新为在这些日期之前使用受支持的型号。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
-        "ja": "2026 年 6 月 29 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Opus 4.6 (高速) を非推奨とします。 モデルの非推奨日 推奨される代替品 Opus 4.6 (高速) 2026 年 6 月 29 日 Opus 4.8 (高速) を更新してください。これらの日付より前にサポートされているモデルを使用するには、ワークフローと統合が必要です。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
-        "en": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date Suggested alternative Opus 4.6 (fast) 6-29-2026 Opus 4.8 (fast) Please update your workflows and integrations to use the supported model before these dates. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
       "date": "2026-06-18",
       "category": "github",
@@ -5502,30 +5452,6 @@
         "release",
         "actions",
         "supply-chain-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-18-github-2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1-Flash 可用于更多 Copilot 表面",
-        "ja": "MAI-Code-1-Flash は、より多くの Copilot サーフェスで利用可能です",
-        "en": "MAI-Code-1-Flash available on more Copilot surfaces"
-      },
-      "summary": {
-        "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 移动 JetBrains IDE Eclipse Xcode 上聊天 编者注：以上列表于 2026 年 6 月 24 日更新，包括Copilot 云代理。",
-        "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました: Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode エディターの注: 上記のリストは 6 月 24 日に更新されました。 2026 年、Copilot クラウド エージェントを含めます。",
-        "en": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -6750,30 +6676,6 @@
       "tags": [
         "improvement",
         "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-09-github-2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
-      "date": "2026-06-09",
-      "category": "github",
-      "title": {
-        "zh": "Claude 《神鬼寓言 5》一般可用于 GitHub Copilot",
-        "ja": "Claude Fable 5 は GitHub Copilot で一般提供されています",
-        "en": "Claude Fable 5 is generally available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 7 月 1 日）：从今天起，Anthropic 的 Claude 《神鬼寓言 5》现已重新启用，并在 GitHub Copilot 中普遍提供。编者注（2026 年 6 月 12 日）：继 Anthropic 发布声明后，自即日起，所有 GitHub Copilot 体验中对 Claude 《神鬼寓言 5》的访问已暂停。",
-        "ja": "編集者注記 (2026 年 7 月 1 日): 本日より、Anthropic の Claude Fable 5 が再度有効になり、GitHub Copilot で一般提供されるようになりました。編集者注 (2026 年 6 月 12 日): Anthropic の発表を受けて、本日より、Claude Fable 5 へのアクセスがすべての GitHub Copilot エクスペリエンスで一時停止されました。",
-        "en": "Editor’s Note (July 1, 2026): Effective today, Anthropic’s Claude Fable 5 is now re-enabled and generally available in GitHub Copilot. Editor’s Note (June 12, 2026): Following Anthropic’s announcement, effective today, access to Claude Fable 5 has been suspended across all GitHub Copilot experiences."
-      },
-      "url": "https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -8641,27 +8543,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-28-anthropic-series-h",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元",
-        "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
-        "en": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
-      },
-      "summary": {
-        "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
-        "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。",
-        "en": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital."
-      },
-      "url": "https://www.anthropic.com/news/series-h",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-28-anthropic-prompt-caching",
       "date": "2026-05-28",
       "category": "anthropic",
@@ -8840,27 +8721,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-05-27-anthropic-milan-office-opening",
-      "date": "2026-05-27",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
-        "ja": "Anthropic がイタリアの企業、研究、開発者をサポートするためにミラノ オフィスを開設",
-        "en": "Anthropic opens Milan office to support Italian enterprise, research, and developers"
-      },
-      "summary": {
-        "zh": "我们将在米兰开设一个新办事处，这是我们在欧洲的第六个办事处。",
-        "ja": "当社は、ヨーロッパで 6 番目となる新しいオフィスをミラノに開設します。",
-        "en": "We're opening a new office in Milan, our sixth in Europe."
-      },
-      "url": "https://www.anthropic.com/news/milan-office-opening",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-27-anthropic-extended-thinking",
       "date": "2026-05-27",
       "category": "anthropic",
@@ -8977,27 +8837,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-26-anthropic-kiyoung-choi-representative-director-anthropic-korea",
-      "date": "2026-05-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 任命 KiYoung Choi 为韩国代表董事",
-        "ja": "Anthropic、KiYoung Choi を韓国代表取締役に任命",
-        "en": "Anthropic appoints KiYoung Choi as Representative Director of Korea"
-      },
-      "summary": {
-        "zh": "KiYoung Choi 将在首尔办事处开业之前加入Anthropic，担任韩国代表董事。",
-        "ja": "KiYoung Choi は、ソウル事務所の開設に先立ち、Anthropic に韓国代表取締役として加わります。",
-        "en": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office."
-      },
-      "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-25-openai-grupo-folha-grupo-uol-partnership",
@@ -9523,27 +9362,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-05-19-anthropic-anthropic-kpmg",
-      "date": "2026-05-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
-        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
-        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
       "date": "2026-05-18",
       "category": "openai",
@@ -9644,30 +9462,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-05-18-github-2026-05-18-copilot-spaces-api-now-generally-available",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot Spaces API 现已全面可用",
-        "ja": "Copilot Spaces API の一般提供が開始されました",
-        "en": "Copilot Spaces API now generally available"
-      },
-      "summary": {
-        "zh": "Copilot Spaces API 现已全面可用 GitHub Copilot Spaces API 现已全面可用。您可以直接从自己的应用程序以编程方式创建、读取、更新和删除空间，从而减少团队大规模管理上下文的手动开销。",
-        "ja": "Copilot Spaces API が一般利用可能になりました GitHub Copilot Spaces API が一般利用可能になりました。独自のアプリケーションからスペースをプログラムで直接作成、読み取り、更新、削除できるため、大規模なコンテキストを管理するチームの手動オーバーヘッドが削減されます。",
-        "en": "Copilot Spaces API is now generally available The GitHub Copilot Spaces API is now generally available. You can programmatically create, read, update, and delete Spaces directly from your own applications, reducing manual overhead for teams managing context at scale."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-copilot-spaces-api-now-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-05-18-github-2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
       "date": "2026-05-18",
       "category": "github",
@@ -9682,30 +9476,6 @@
         "en": "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options."
       },
       "url": "https://github.blog/changelog/2026-05-18-copilot-cloud-agent-fast-cost-efficient-models-for-simple-tasks",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-github-2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
-      "date": "2026-05-18",
-      "category": "github",
-      "title": {
-        "zh": "通过 REST API 审核存储库 Copilot 云代理配置",
-        "ja": "REST API を介したリポジトリ Copilot クラウド エージェント構成の監査",
-        "en": "Audit repository Copilot cloud agent configuration via the REST API"
-      },
-      "summary": {
-        "zh": "现在，您可以使用存储库 REST API 的新 Get Copilot 云代理配置以编程方式审核存储库的 Copilot 云代理配置（公共预览版中提供）。新的 API 返回有关存储库的 Copilot 云代理设置的详细信息，包括其 MCP 服务器配置、启用的工具、GitHub 操作工作流策略和防火墙配置。",
-        "ja": "パブリック プレビューで利用可能なリポジトリ REST API の新しい Get Copilot クラウド エージェント構成を使用して、リポジトリの Copilot クラウド エージェント構成をプログラムで監査できるようになりました。新しい API は、MCP サーバー構成、有効なツール、GitHub アクション ワークフロー ポリシー、ファイアウォール構成など、リポジトリの Copilot クラウド エージェント セットアップに関する詳細を返します。",
-        "en": "You can now programmatically audit a repository’s Copilot cloud agent configuration with the new Get Copilot cloud agent configuration for a repository REST API, available in public preview. The new API returns details about a repository’s Copilot cloud agent setup, including its MCP server configuration, enabled tools, GitHub Actions workflow policy, and firewall configuration."
-      },
-      "url": "https://github.blog/changelog/2026-05-18-audit-repository-copilot-cloud-agent-configuration-via-the-rest-api",
       "tags": [
         "release",
         "copilot",
@@ -9762,27 +9532,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-18-anthropic-anthropic-acquires-stainless",
-      "date": "2026-05-18",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 收购不锈钢",
-        "ja": "Anthropic がステンレスを取得",
-        "en": "Anthropic acquires Stainless"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-17-google-simulate-real-world-places-with-project-genie-and-street-view",
@@ -10172,27 +9921,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-05-14-anthropic-pwc-expanded-partnership",
-      "date": "2026-05-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "普华永道正在部署 Claude 来为客户构建技术、执行交易和重塑企业功能",
-        "ja": "PwC は、テクノロジーを構築し、取引を実行し、クライアント向けのエンタープライズ機能を再発明するために Claude を導入しています",
-        "en": "PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients"
-      },
-      "summary": {
-        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
-        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
-        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
-      },
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-05-14-anthropic-gates-foundation-partnership",
