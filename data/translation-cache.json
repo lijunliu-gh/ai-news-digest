@@ -4355,14 +4355,6 @@
     "zh": "GitHub Copilot 应用程序现在支持自带密钥 (BYOK)，因此您可以针对自己的模型提供程序运行代理会话，包括 OpenAI、Azure OpenAI、Microsoft Foundry、Anthropic、LM Studio、Ollama 以及任何 OpenAI 兼容终结点。使用您的端点和 API 密钥在“设置”→“模型提供程序”中添加提供程序，或者仅添加 LM Studio 或 Ollama 的主机。",
     "ja": "GitHub Copilot アプリは、Bring Your Own Key (BYOK) をサポートするようになりました。そのため、OpenAI、Azure OpenAI、Microsoft Foundry、Anthropic、LM Studio、Ollama、および OpenAI 互換エンドポイントを含む独自のモデル プロバイダーに対してエージェント セッションを実行できます。 「設定」→「モデルプロバイダー」で、エンドポイントと API キーを使用してプロバイダーを追加するか、LM Studio または Ollama のホストのみを追加します。"
   },
-  "New features and Claude as agent provider preview in JetBrains IDEs": {
-    "zh": "新功能和 Claude 作为 JetBrains IDE 中的代理提供程序预览",
-    "ja": "JetBrains IDE のエージェント プロバイダー プレビューとしての新機能と Claude"
-  },
-  "This update adds support for organization and enterprise agents from GitHub, lets you queue and steer messages in Copilot CLI sessions, introduces a new agent debug logs summary view, and brings Claude as agent provider into public preview in GitHub Copilot for JetBrains IDEs. It also includes model picker enhancements, a per-turn AI credits indicator, and a set of user experience and reliability improvements.": {
-    "zh": "此更新添加了对 GitHub 的组织和企业代理的支持，允许您在 Copilot CLI 会话中对消息进行排队和引导，引入新的代理调试日志摘要视图，并将 Claude 作为代理提供程序引入 JetBrains IDE 的 GitHub Copilot 中的公共预览版。它还包括模型选择器增强功能、每回合人工智能积分指示器以及一系列用户体验和可靠性改进。",
-    "ja": "この更新では、GitHub から組織およびエンタープライズ エージェントのサポートが追加され、Copilot CLI セッションでメッセージをキューに入れて操作できるようになり、新しいエージェント デバッグ ログの概要ビューが導入され、JetBrains IDE の GitHub Copilot でエージェント プロバイダーとして Claude がパブリック プレビューになりました。また、モデル ピッカーの機能強化、ターンごとの AI クレジット インジケーター、一連のユーザー エクスペリエンスと信頼性の向上も含まれています。"
-  },
   "Upcoming deprecation of GPT-5.2 and GPT-5.2-Codex": {
     "zh": "即将弃用 GPT-5.2 和 GPT-5.2-Codex",
     "ja": "GPT-5.2 および GPT-5.2-Codex の今後の非推奨"
@@ -4773,14 +4765,6 @@
   "The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop.": {
     "zh": "GitHub Copilot 应用程序现在可用于每个 Copilot 计划。使用您的 GitHub 帐户登录，从桌面开始代理驱动的开发。",
     "ja": "GitHub Copilot アプリは、すべての Copilot プランで利用できるようになりました。 GitHub アカウントでサインインして、デスクトップからエージェント駆動開発を開始します。"
-  },
-  "Agent tasks REST API now available for Copilot Pro, Pro+, and Max": {
-    "zh": "代理任务 REST API 现在可用于 Copilot Pro、Pro+ 和 Max",
-    "ja": "エージェント タスク REST API が Copilot Pro、Pro+、および Max で利用可能になりました"
-  },
-  "Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works in the background in its own development environment, where it can make and validate code changes, then open a pull request.": {
-    "zh": "Copilot Pro、Pro+ 和 Max 用户现在可以使用代理任务 REST API 以编程方式启动和跟踪 Copilot 云代理任务（在公共预览版中提供）。 Copilot 云代理在其自己的开发环境中在后台工作，可以在其中进行和验证代码更改，然后打开拉取请求。",
-    "ja": "Copilot Pro、Pro+、および Max ユーザーは、パブリック プレビューで利用可能なエージェント タスク REST API を使用して、Copilot クラウド エージェント タスクをプログラムで開始および追跡できるようになりました。 Copilot クラウド エージェントは、独自の開発環境のバックグラウンドで動作し、コードの変更を行って検証し、プル リクエストをオープンできます。"
   },
   "Dependency scanning with GitHub MCP Server is in public preview": {
     "zh": "使用 GitHub MCP 服务器进行依赖关系扫描处于公共预览版",
@@ -5910,14 +5894,6 @@
     "zh": "当 GitHub 操作作业失败时，Copilot Business 和 Copilot Enterprise 订阅者现在可以要求 Copilot 云代理一键修复它。单击工作流运行日志页面上的“使用 Copilot 修复”按钮，Copilot 将调查故障，将修复推送到您的分支，并在完成后标记您以供审核。",
     "ja": "GitHub アクション ジョブが失敗した場合、Copilot Business および Copilot Enterprise サブスクライバーは、Copilot クラウド エージェントにワンクリックで問題を修正するよう依頼できるようになりました。ワークフロー実行ログ ページの [Copilot で修正] ボタンをクリックすると、Copilot が障害を調査し、修正をブランチにプッシュし、完了時にレビュー用のタグを付けます。"
   },
-  "Copilot cloud agent: Fast, cost-efficient models for simple tasks": {
-    "zh": "Copilot 云代理：适用于简单任务的快速、经济高效的模型",
-    "ja": "Copilot クラウド エージェント: 単純なタスク向けの高速でコスト効率の高いモデル"
-  },
-  "When you delegate a task to Copilot cloud agent, you can pick the model it uses to do its work. Today, we’re expanding the list of supported models to include faster, more cost-efficient options.": {
-    "zh": "当您将任务委托给 Copilot 云代理时，您可以选择它用来完成工作的模型。今天，我们正在扩大支持的型号列表，以包括更快、更具成本效益的选项。",
-    "ja": "タスクを Copilot クラウド エージェントに委任する場合、その作業を実行するために使用するモデルを選択できます。現在、サポート対象モデルのリストを拡大し、より高速でコスト効率の高いオプションを追加しています。"
-  },
   "Ten advances in mathematics and theoretical computer science": {
     "zh": "数学和理论计算机科学的十大进展",
     "ja": "数学と理論的コンピューターサイエンスにおける 10 の進歩"
@@ -6386,14 +6362,6 @@
     "zh": "您现在可以控制 Claude Managed Agents 代理的模型推理运行位置。创建代理时在模型对象内设置 inference_geo，或在单个会话中覆盖它。请参阅数据驻留以了解可用的地理位置和定价。",
     "ja": "Claude 管理対象エージェント エージェントに対してモデル推論を実行する場所を制御できるようになりました。エージェントの作成時にモデル オブジェクト内に inference_geo を設定するか、単一セッションに対してそれをオーバーライドします。利用可能な地域と料金については、「データ所在地」を参照してください。"
   },
-  "Secret scanning coverage updates": {
-    "zh": "秘密扫描覆盖范围更新",
-    "ja": "秘密スキャン範囲の更新"
-  },
-  "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is now a GitHub secret scanning partner.": {
-    "zh": "此版本扩大了秘密扫描的覆盖范围，通过推送保护阻止了更多秘密、一个新的秘密扫描合作伙伴以及更丰富的警报元数据。秘密扫描合作伙伴计划 Lovable Labs 现已成为 GitHub 秘密扫描合作伙伴。",
-    "ja": "このリリースでは、プッシュ保護によってブロックされるシークレットの数が増え、新しいシークレット スキャン パートナーが 1 つ追加され、アラートのメタデータが豊富になり、シークレット スキャンの対象範囲が拡張されます。シークレット スキャン パートナーシップ プログラム Lovable Labs は、GitHub シークレット スキャン パートナーになりました。"
-  },
   "Copilot usage metrics API adds agent app activity": {
     "zh": "Copilot 使用指标 API 添加代理应用程序活动",
     "ja": "Copilot 使用状況メトリクス API によりエージェント アプリのアクティビティが追加される"
@@ -6861,5 +6829,13 @@
   "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled.": {
     "zh": "在存储库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有该规则集的存储库中，我们关闭了启用的设置。",
     "ja": "リポジトリで GitHub コード品質を有効にしても、プル リクエストで GitHub Copilot からのコード レビューを自動的に要求するルールセットは作成されなくなりました。すでにそのルールセットがあるリポジトリでは、有効にした設定をオフにしました。"
+  },
+  "Per-model token breakdown in the usage report": {
+    "zh": "使用报告中按型号的令牌细分",
+    "ja": "使用状況レポートのモデルごとのトークンの内訳"
+  },
+  "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed.": {
+    "zh": "现在，您可以在使用报告中查看 AI 积分背后的代币的每个模型细分。对于每个模型，AI 使用情况报告显示输入、输出、缓存读取和缓存写入令牌以及其消耗的 AI 积分。",
+    "ja": "使用状況レポートで、AI クレジットの背後にあるトークンのモデルごとの内訳を確認できるようになりました。 AI 使用状況レポートには、各モデルの入力、出力、キャッシュ読み取り、およびキャッシュ書き込みトークンが消費された AI クレジットとともに表示されます。"
   }
 }
