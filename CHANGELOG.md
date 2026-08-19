@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-08-19
+
+### Fixed
+- Updated the Anthropic Release Notes parser to tolerate heading markup changes that caused scheduled digest refreshes to fail validation
+
 ## [1.3.0] - 2026-07-03
 
 ### Added
