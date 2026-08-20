@@ -1,7 +1,233 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-05-19-openai-introducing-openai-for-singapore",
+      "date": "2026-05-19",
+      "category": "openai",
+      "title": {
+        "zh": "新加坡推出OpenAI",
+        "ja": "シンガポール向け OpenAI のご紹介",
+        "en": "Introducing OpenAI for Singapore"
+      },
+      "summary": {
+        "zh": "OpenAI 为新加坡启动了一项多年的人工智能合作伙伴关系，以扩大部署、培养本地人才，并通过人工智能支持企业和公共服务。",
+        "ja": "シンガポールの OpenAI は、導入を拡大し、地元の人材を育成し、AI を使用してビジネスと公共サービスをサポートするために、複数年にわたる AI パートナーシップを開始します。",
+        "en": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI."
+      },
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-19-openai-changelog",
+      "date": "2026-05-19",
+      "category": "openai",
+      "title": {
+        "zh": "保护 MCP 隧道",
+        "ja": "MCP トンネルを保護する",
+        "en": "Secure MCP Tunnel"
+      },
+      "summary": {
+        "zh": "为企业客户发布安全MCP隧道。安全 MCP 隧道允许受支持的 OpenAI 产品（包括 ChatGPT web、Codex、Responses API 和 AgentKit）通过客户托管的隧道客户端连接到私有或本地 MCP 服务器，而无需将这些服务器暴露到公共互联网。",
+        "ja": "企業顧客向けに Secure MCP トンネルをリリースしました。安全な MCP トンネルを使用すると、サポートされている OpenAI 製品 (ChatGPT Web、Codex、Responses API、AgentKit など) が、プライベートまたはオンプレミスの MCP サーバーをパブリック インターネットに公開することなく、顧客がホストするトンネル クライアント経由で接続できます。",
+        "en": "Released Secure MCP Tunnel for enterprise customers. Secure MCP Tunnel lets supported OpenAI products including ChatGPT web, Codex, Responses API, and AgentKit connect to private or on-prem MCP servers through a customer-hosted tunnel-client without exposing those servers to the public internet."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-05-19-feature-secure-mcp-tunnel",
+      "tags": [
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-19-openai-advancing-content-provenance",
+      "date": "2026-05-19",
+      "category": "openai",
+      "title": {
+        "zh": "推进内容来源，打造更安全、更透明的人工智能生态系统",
+        "ja": "より安全で透明性の高い AI エコシステムを実現するためのコンテンツ来歴の進歩",
+        "en": "Advancing content provenance for a safer, more transparent AI ecosystem"
+      },
+      "summary": {
+        "zh": "OpenAI 通过内容凭证、SynthID 和验证工具推进 AI 内容来源，帮助人们识别和信任 AI 生成的媒体。",
+        "ja": "OpenAI は、コンテンツ認証情報、SynthID、検証ツールを使用して AI コンテンツの来歴を進歩させ、人々が AI で生成されたメディアを識別して信頼できるようにします。",
+        "en": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media."
+      },
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-19-github-2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+      "date": "2026-05-19",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 3.5 Flash 通常可用于 GitHub Copilot",
+        "ja": "Gemini 3.5 Flash は GitHub Copilot で一般提供されています",
+        "en": "Gemini 3.5 Flash is generally available for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 3.5 Flash 是 Google 最新的 Flash 层模型，现已在 GitHub Copilot 上推出。在我们的早期测试中，Gemini 3.5 Flash 以 Flash 级的速度和成本提供了接近 Pro 的编码质量，具有强大的工具使用性、快速的响应时间和高缓存效率，使其非常适合快速、迭代代理编码工作流程。",
+        "ja": "Google の最新の Flash 層モデルである Gemini 3.5 Flash は、GitHub Copilot で展開されています。初期のテストでは、Gemini 3.5 Flash は、強力なツールの使用、高速な応答時間、および高いキャッシュ効率により、Flash 層の速度とコストで、プロに近いコーディング品質を実現し、高速で反復的なエージェント コーディング ワークフローに適しています。",
+        "en": "Gemini 3.5 Flash, Google’s latest Flash-tier model, is now rolling out on GitHub Copilot. In our early testing, Gemini 3.5 Flash delivers near-Pro coding quality at Flash-tier speed and cost with strong tool use, fast response times, and high cache efficiency that make it well-suited for fast, iterative agentic coding workflows."
+      },
+      "url": "https://github.blog/changelog/2026-05-19-gemini-3-5-flash-is-generally-available-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-19-github-2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
+      "date": "2026-05-19",
+      "category": "github",
+      "title": {
+        "zh": "使用 Copilot 云代理轻松应用 Copilot 代码审查反馈",
+        "ja": "Copilot クラウド エージェントを使用して、Copilot コード レビューのフィードバックを簡単に適用",
+        "en": "Easily apply Copilot code review feedback with Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "Copilot 代码审查之前的“实施建议”按钮现已重命名为“使用 Copilot 修复”，并更新为支持 UI 对话框，以便更好地控制建议的应用方式。现在您可以定义接下来会发生什么并控制如何应用修复。",
+        "ja": "Copilot コード レビューの以前の [提案を実装] ボタンは、[Copilot で修正] に名前が変更され、提案の適用方法をより詳細に制御するための UI ダイアログをサポートするように更新されました。これで、次に何が起こるかを定義し、修正をどのように適用するかを制御できるようになりました。",
+        "en": "Copilot code review’s previous Implement suggestion button has now been renamed to Fix with Copilot and updated to support a UI dialog for more control over how suggestions are applied. Now you can define what happens next and control how the fix should be applied."
+      },
+      "url": "https://github.blog/changelog/2026-05-19-easily-apply-copilot-code-review-feedback-with-copilot-cloud-agent",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-05-19-anthropic-widening-conversation-ai",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "Widening the conversation on frontier AI",
+        "ja": "フロンティア AI に関する会話を広げる",
+        "en": "Widening the conversation on frontier AI"
+      },
+      "summary": {
+        "zh": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
+        "ja": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.",
+        "en": "Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI."
+      },
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-05-19-anthropic-overview-3",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "MCP 隧道",
+        "ja": "MCP トンネル",
+        "en": "MCP tunnels"
+      },
+      "summary": {
+        "zh": "MCP 隧道现已作为研究预览版提供，因此您可以连接到专用网络中的 MCP 服务器。",
+        "ja": "MCP トンネルがリサーチ プレビューとして利用可能になり、プライベート ネットワーク内の MCP サーバーに接続できるようになりました。",
+        "en": "MCP tunnels is now available as a research preview, so you can connect to MCP servers in your private network."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview",
+      "tags": [
+        "mcp-tunnels",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-19-anthropic-overview-2",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "代理工具集",
+        "ja": "エージェントツールセット",
+        "en": "agent_toolset"
+      },
+      "summary": {
+        "zh": "借助 Claude 托管代理，agent_toolset 和 MCP 工具超过 100K 个字符（约 25K 个令牌）的大量输出现在会自动溢出到沙箱中的文件中。该模型会收到带有文件路径的截断预览，并可以从那里读取完整内容。",
+        "ja": "Claude 管理対象エージェントを使用すると、agent_toolset および MCP ツールからの 100,000 文字 (約 25,000 トークン) を超える大きな出力が、サンドボックス内のファイルに自動的に書き込まれるようになりました。モデルは、ファイル パスを含む切り詰められたプレビューを受け取り、そこから完全なコンテンツを読み取ることができます。",
+        "en": "With Claude Managed Agents, large outputs from agent_toolset and MCP tools exceeding 100K characters (about 25K tokens) are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#may-19-2026-with-claude-managed-agents-large-outputs-from-agent-toolset-and-mcp-tools-exceeding-100k-characters-about-25k-tokens-are-now-automatically-spilled-to-a-file-in-the-sandbox-the-model-receives-a-truncated-preview-with-the-file-path-and-can-read-the-full-content-from-there-agent-toolset",
+      "tags": [
+        "agent-toolset",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-19-anthropic-overview",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "通过 Claude 托管代理，您现在可以更新代理的 MCP 服务器",
+        "ja": "Claude 管理対象エージェントを使用すると、エージェントの MCP サーバーを更新できるようになりました",
+        "en": "With Claude Managed Agents, you can now update the agent's MCP server"
+      },
+      "summary": {
+        "zh": "通过 Claude 托管代理，您现在可以更新与活动会话关联的代理的 MCP 服务器和工具配置。",
+        "ja": "Claude 管理対象エージェントを使用すると、アクティブなセッションに関連付けられたエージェントの MCP サーバーとツールの構成を更新できるようになりました。",
+        "en": "With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#may-19-2026-with-claude-managed-agents-you-can-now-update-the-agent-s-mcp-server-and-tool-configurations-associated-with-an-active-session-with-claude-managed-agents-you-can-now-update-the-agent-s-mcp-server",
+      "tags": [
+        "with-claude-managed-agents-you-can-now-update-the-agent-s-mcp-server",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-05-19-anthropic-anthropic-kpmg",
+      "date": "2026-05-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "毕马威将 Claude 整合到其核心业务和超过 276,000 名员工中，形成战略联盟",
+        "ja": "KPMG は戦略的提携により中核事業と 276,000 人以上の従業員全体にわたって Claude を統合",
+        "en": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-05-18-openai-dell-codex-enterprise-partnership",
       "date": "2026-05-18",
