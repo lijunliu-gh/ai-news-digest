@@ -3,6 +3,27 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-08-20-openai-stampli",
+      "date": "2026-08-20",
+      "category": "openai",
+      "title": {
+        "zh": "How ChatGPT Work helps Stampli move ideas to market",
+        "ja": "Stampli がアイデアを市場に出すのに役立つ ChatGPT Work の仕組み",
+        "en": "How ChatGPT Work helps Stampli move ideas to market"
+      },
+      "summary": {
+        "zh": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+        "ja": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+        "en": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+      },
+      "url": "https://openai.com/index/stampli",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-08-19-openai-offering-zero-data-retention-for-frontier-models",
       "date": "2026-08-19",
       "category": "openai",
@@ -25,22 +46,206 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-19-anthropic-playground",
+      "id": "2026-08-19-anthropic-tools",
       "date": "2026-08-19",
       "category": "anthropic",
       "title": {
-        "zh": "操场",
-        "ja": "遊び場",
-        "en": "Playground"
+        "zh": "web_search",
+        "ja": "ウェブ検索",
+        "en": "web_search"
       },
       "summary": {
-        "zh": "Workbench 现在是 Claude 控制台中的 Playground。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
-        "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。",
-        "en": "Workbench is now Playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground."
+        "zh": "您现在可以限制 Claude Managed Agents 代理的 web_search 和 web_fetch 工具可以访问哪些站点。在agent_toolset_20260401 configs数组中的工具条目上设置allowed_domains或blocked_domains； web_fetch 还接受 max_content_tokens，web_search 接受 user_location。",
+        "ja": "Claude 管理対象エージェント エージェントの web_search および web_fetch ツールがアクセスできるサイトを制限できるようになりました。 Agent_toolset_20260401 構成配列内のツールのエントリに allowed_domains または blocked_domains を設定します。 web_fetch は max_content_tokens も受け入れ、web_search は user_location も受け入れます。",
+        "en": "You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location."
       },
-      "url": "https://platform.claude.com/playground",
+      "url": "https://platform.claude.com/docs/en/managed-agents/tools#restrict-web-search-and-web-fetch-domains",
       "tags": [
-        "playground",
+        "web-search",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-self-hosted-sandboxes",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "挂载路径",
+        "ja": "マウントパス",
+        "en": "mount_path"
+      },
+      "summary": {
+        "zh": "在自托管沙箱中运行的 Claude 托管代理会话现在可以附加内存存储。 Python、TypeScript 和 Go SDK 工作人员将每个附加存储下载到沙箱的 mount_path 中，并将代理的更改同步回存储。请参阅使用内存存储。",
+        "ja": "Claude セルフホスト型サンドボックスで実行される管理対象エージェント セッションは、メモリ ストアを接続できるようになりました。 Python、TypeScript、および Go SDK ワーカーは、接続された各ストアをその mount_path にあるサンドボックスにダウンロードし、エージェントの変更をストアに同期させます。 「メモリ ストアの使用」を参照してください。",
+        "en": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
+      "tags": [
+        "mount-path",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-overview-2",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "代理技巧",
+        "ja": "エージェントのスキル",
+        "en": "Agent Skills"
+      },
+      "summary": {
+        "zh": "代理技能和技能 API ( /v1/skills ) 现在在 Claude API 上普遍可用。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。",
+        "ja": "エージェント スキルとスキル API ( /v1/skills ) が Claude API で一般提供されるようになりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。",
+        "en": "Agent Skills and the Skills API ( /v1/skills ) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+      "tags": [
+        "agent-skills",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-overview",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "这两个工具集均可用于 Claude Fable 5、Claude Mythos 5、Claude",
+        "ja": "どちらのツールセットも、Claude Fable 5、Claude Mythos 5、Claude で使用できます。",
+        "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude"
+      },
+      "summary": {
+        "zh": "这两个工具集均可用于 Claude API 上的 Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5 和 Claude Opus 4.8。",
+        "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
+        "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#august-19-2026-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "tags": [
+        "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-files",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "文件API",
+        "ja": "ファイルAPI",
+        "en": "Files API"
+      },
+      "summary": {
+        "zh": "The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files.",
+        "ja": "ファイル API が Claude API で一般提供されるようになりました。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストは、GA 応答形式を使用します。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。",
+        "en": "The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/files",
+      "tags": [
+        "files-api",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-events-and-streaming",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "Console observability",
+        "ja": "Console observability",
+        "en": "Console observability"
+      },
+      "summary": {
+        "zh": "Claude 控制台中的会话查看器经过重新设计，包含时间线小地图、按模型请求分组的记录以及用于显示会话详细信息和成本、原始事件、每个工具统计信息、已安装资源和每个线程活动的检查器面板。请参阅控制台可观察性。",
+        "ja": "Claude コンソールのセッション ビューアは、タイムライン ミニマップ、モデル リクエストごとにグループ化されたトランスクリプト、およびセッションの詳細とコスト、生のイベント、ツールごとの統計、マウントされたリソース、およびスレッドごとのアクティビティを表示するインスペクター パネルを備えて再設計されました。 「コンソールの可観測性」を参照してください。",
+        "en": "The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Console observability."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/events-and-streaming#console-observability",
+      "tags": [
+        "console-observability",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-computer-use-tool",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "Computer_toolset_20260801",
+        "ja": "computer_toolset_20260801",
+        "en": "computer_toolset_20260801"
+      },
+      "summary": {
+        "zh": "计算机使用工具现在在 Claude API 上作为 Computer_toolset_20260801 工具集普遍可用：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
+        "ja": "コンピューター使用ツールは、Claude API でcomputer_toolset_20260801 ツールセットとして一般公開されました。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。",
+        "en": "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "tags": [
+        "computer-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-browser-use-tool",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "browser_toolset_20260801",
+        "ja": "ブラウザツールセット_20260801",
+        "en": "browser_toolset_20260801"
+      },
+      "summary": {
+        "zh": "我们推出了浏览器使用工具 ( browser_toolset_20260801 )，这是一个用于驱动应用程序托管的浏览器的客户端工具集。它在浏览器视口而不是整个桌面内工作，读取页面本身（其可访问性树、元素、表单和选项卡）并在屏幕截图和单击控件之上添加元素引用、表单输入、选项卡管理、下载报告和选择加入文件上传。",
+        "ja": "アプリケーションがホストするブラウザーを駆動するためのクライアント ツールセットであるブラウザー使用ツール (browser_toolset_20260801) をリリースしました。これはデスクトップ全体ではなくブラウザーのビューポート内で動作し、ページ自体 (アクセシビリティ ツリー、要素、フォーム、タブ) を読み取り、要素参照、フォーム入力、タブ管理、ダウンロード レポート、スクリーンショット アンド クリック コントロールの上にオプトイン ファイル アップロードを追加します。",
+        "en": "We've launched the browser use tool ( browser_toolset_20260801 ), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms, and tabs) and adding element references, form input, tab management, download reporting, and opt-in file upload on top of screenshot-and-click control."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool",
+      "tags": [
+        "browser-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-19-anthropic-admin",
+      "date": "2026-08-19",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude 企业",
+        "ja": "Claude エンタープライズ",
+        "en": "Claude Enterprise"
+      },
+      "summary": {
+        "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点现已普遍可用。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。",
+        "ja": "Claude Enterprise (claude.ai) 組織 (メンバー、招待、グループ、カスタム ロール) の Admin API ユーザー管理エンドポイントが一般提供になりました。 anthropic-beta: ce-user-management-2026-07-13 ヘッダーは、グループおよびカスタムロールのリクエストでは必要なくなりました。まだ送信するリクエストは変更されずに受け入れられます。 「ユーザー管理」を参照してください。",
+        "en": "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management."
+      },
+      "url": "https://platform.claude.com/docs/en/api/admin",
+      "tags": [
+        "claude-enterprise",
         "anthropic",
         "release-notes"
       ],
@@ -225,6 +430,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-08-18-anthropic-playground",
+      "date": "2026-08-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "操场",
+        "ja": "遊び場",
+        "en": "Playground"
+      },
+      "summary": {
+        "zh": "Workbench 现在是 Claude 控制台中的 Playground。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
+        "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。",
+        "en": "Workbench is now Playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground."
+      },
+      "url": "https://platform.claude.com/playground",
+      "tags": [
+        "playground",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-08-17-openai-the-defenders-window",
       "date": "2026-08-17",
       "category": "openai",
@@ -330,30 +558,6 @@
         "en": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows."
       },
       "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-14-github-2026-08-13-github-copilot-weekly-releases-august-10",
-      "date": "2026-08-14",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 每周发布 — 8 月 10 日",
-        "ja": "GitHub Copilot 毎週のリリース — 8 月 10 日",
-        "en": "GitHub Copilot weekly releases — August 10"
-      },
-      "summary": {
-        "zh": "从新模型和便携式插件到更流畅的代理工作流程，本周的更新使 GitHub Copilot 在编辑器、命令行和 Copilot 应用程序中更加灵活。 GitHub Copilot，通用 Kimi K3 正在推出 Copilot Pro、Pro+、Max、Business 和 Enterprise 计划。",
-        "ja": "新しいモデルやポータブル プラグインから、よりスムーズなエージェント ワークフローに至るまで、今週の更新により、エディター、コマンド ライン、Copilot アプリ全体で GitHub Copilot の柔軟性が向上しました。 GitHub Copilot、一般的な Kim K3 は、Copilot Pro、Pro+、Max、Business、Enterprise プランに展開されます。",
-        "en": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans."
-      },
-      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
       "tags": [
         "release",
         "copilot",
@@ -602,31 +806,6 @@
       "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
       "tags": [
         "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-per-model-token-breakdown-in-the-usage-report",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "使用报告中按型号的令牌细分",
-        "ja": "使用状況レポートのモデルごとのトークンの内訳",
-        "en": "Per-model token breakdown in the usage report"
-      },
-      "summary": {
-        "zh": "现在，您可以在使用报告中查看 AI 积分背后的代币的每个模型细分。对于每个模型，AI 使用情况报告显示输入、输出、缓存读取和缓存写入令牌以及其消耗的 AI 积分。",
-        "ja": "使用状況レポートで、AI クレジットの背後にあるトークンのモデルごとの内訳を確認できるようになりました。 AI 使用状況レポートには、各モデルの入力、出力、キャッシュ読み取り、およびキャッシュ書き込みトークンが消費された AI クレジットとともに表示されます。",
-        "en": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
-      "tags": [
-        "improvement",
-        "account-management",
         "copilot",
         "github",
         "changelog"
@@ -904,30 +1083,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-10-github-2026-08-10-copilot-on-web-expands-conversation-controls",
-      "date": "2026-08-10",
-      "category": "github",
-      "title": {
-        "zh": "网络上的 Copilot 扩展了对话控制",
-        "ja": "Web 上の Copilot は会話コントロールを拡張します",
-        "en": "Copilot on web expands conversation controls"
-      },
-      "summary": {
-        "zh": "我们对 github.com 上的 Copilot Chat 进行了改进，使其更易于使用。其中包括更轻松地访问最近的聊天对话、最小化聊天窗口并返回正在进行的对话的能力，以及帮助您跟踪 Copilot 代币支出的指示器。",
-        "ja": "github.com の Copilot Chat を改良し、使いやすくしました。これらには、チャットでの最近の会話への簡単なアクセス、チャット ウィンドウを最小化して進行中の会話に戻る機能、Copilot トークンの支出を追跡するのに役立つインジケーターが含まれます。",
-        "en": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend."
-      },
-      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-10-anthropic-pricing",
@@ -2889,30 +3044,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-23-github-2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 移动版：使用 Copilot 云代理修复失败的操作检查",
-        "ja": "GitHub モバイル: Copilot クラウド エージェントによるアクション チェックの失敗を修正",
-        "en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "现在，当 GitHub 操作检查对您的拉取请求失败时，您可以要求 Copilot 编码代理进行调查并直接从 GitHub Mobile 修复问题。从失败的检查中，选择使用 Copilot 修复以启动该过程。",
-        "ja": "プル リクエストで GitHub アクション チェックが失敗した場合、Copilot コーディング エージェントに調査を依頼し、GitHub モバイルから問題を直接修正できるようになりました。失敗したチェックから [Copilot で修正] を選択してプロセスを開始します。",
-        "en": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-23-github-2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
       "date": "2026-07-23",
       "category": "github",
@@ -2954,32 +3085,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 公共预览版中的代理自动化控制问题",
-        "ja": "GitHub のエージェント自動化コントロールのパブリック プレビューの問題",
-        "en": "Agent automation controls in GitHub Issues in public preview"
-      },
-      "summary": {
-        "zh": "代理自动化越来越多地为您标记、键入、分配和关闭问题。 GitHub 问题现在显示每个更改背后的原因，并让您在应用之前对其进行审查，以便您决定自动化程度以及何时留在循环中。",
-        "ja": "エージェントの自動化により、問題のラベル付け、タイプ指定、割り当て、クローズが増えています。 GitHub 問題では、各変更の背後にある理由が表示され、適用前に変更を確認できるため、どこまで自動化するか、いつ最新情報を把握するかを決定できます。",
-        "en": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "projects-issues",
         "github",
         "changelog"
       ],
@@ -4043,29 +4148,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-14-anthropic-admin",
-      "date": "2026-07-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 企业",
-        "ja": "Claude エンタープライズ",
-        "en": "Claude Enterprise"
-      },
-      "summary": {
-        "zh": "现在，您可以使用管理 API 管理 Claude Enterprise (claude.ai) 组织中的人员（所有 Claude Enterprise 组织均处于测试版）：列出成员并通过电子邮件地址查找成员、更改成员角色、删除成员、发送和撤回邀请、管理群组及其成员资格以及读取自定义角色。组和自定义角色请求需要 anthropic-beta: ce-user-management-2026-07-13 beta 标头；成员和邀请请求不采用 beta 标头。",
-        "ja": "すべての Claude Enterprise 組織向けのベータ版である Claude Enterprise (claude.ai) 組織内のユーザーを管理できるようになりました。メンバーのリストと電子メール アドレスによる検索、メンバーの役割の変更、メンバーの削除、招待の送信と取り消し、グループとそのメンバーシップの管理、カスタム ロールの読み取りが可能です。グループおよびカスタムロールのリクエストには、anthropic-beta: ce-user-management-2026-07-13 beta ヘッダーが必要です。メンバーリクエストと招待リクエストにはベータヘッダーがありません。",
-        "en": "You can now manage the people in your Claude Enterprise (claude.ai) organization with the Admin API, in beta for all Claude Enterprise organizations: list members and look them up by email address, change a member's role, remove members, send and withdraw invites, manage groups and their membership, and read custom roles. Group and custom-role requests require the anthropic-beta: ce-user-management-2026-07-13 beta header; member and invite requests take no beta header."
-      },
-      "url": "https://platform.claude.com/docs/en/api/admin",
-      "tags": [
-        "claude-enterprise",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-07-13-github-2026-07-13-github-code-quality-license-estimate-in-public-preview",
       "date": "2026-07-13",
       "category": "github",
@@ -4110,30 +4192,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-10-github-2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
-      "date": "2026-07-10",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 移动版：改进了 Copilot 会话的过滤器和排序",
-        "ja": "GitHub モバイル: Copilot セッションのフィルターと並べ替えが改善されました",
-        "en": "GitHub Mobile: Improved filters and sorting for Copilot sessions"
-      },
-      "summary": {
-        "zh": "GitHub Mobile 现在包括改进的 Copilot 会话过滤器和排序，使您可以在会话列表增长时更轻松地找到合适的会话。现在，您可以使用专为移动设备设计的轻量级过滤器来缩小会话列表范围，包括： 活动（非存档）状态 存储库类型 代理排序 这些控件可帮助您快速查找活动的、已完成的、需要您注意的或与特定存储库或会话类型关联的会话。",
-        "ja": "GitHub Mobile には、改良されたフィルターと Copilot セッションの並べ替えが含まれるようになり、セッション リストが増加しても適切なセッションを簡単に見つけられるようになりました。モバイル向けに設計された次のような軽量フィルターを使用してセッション リストを絞り込むことができるようになりました。 アクティブ (非アーカイブ) ステータス リポジトリ タイプ エージェントの並べ替え これらのコントロールは、アクティブなセッション、完了したセッション、注意が必要なセッション、または特定のリポジトリまたはセッション タイプに関連付けられているセッションをすばやく見つけるのに役立ちます。",
-        "en": "GitHub Mobile now includes improved filters and sorting for Copilot sessions, making it easier to find the right session as your session list grows. You can now narrow your session list using lightweight filters designed for mobile, including: Active (non-archived) Status Repository Type Agent Sort These controls help you quickly find sessions that are active, completed, need your attention, or are associated with a specific repository or session type."
-      },
-      "url": "https://github.blog/changelog/2026-07-10-github-mobile-improved-filters-and-sorting-for-copilot-sessions",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-10-github-2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
@@ -4347,54 +4405,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-09-github-2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
-      "date": "2026-07-09",
-      "category": "github",
-      "title": {
-        "zh": "OpenAI 的 GPT-5.6 Sol、Terra 和 Luna 现已在 GitHub Copilot 中提供",
-        "ja": "OpenAI の GPT-5.6 Sol、Terra、および Luna が GitHub Copilot で利用可能になりました",
-        "en": "OpenAI’s GPT-5.6 Sol, Terra, and Luna are now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "OpenAI 的 GPT-5.6 系列现已在 GitHub Copilot 中推出。 GPT-5.6 提供三种变体：Sol、Terra 和 Luna，因此您可以将模型与工作相匹配，无论是对大型代码库进行推理、日常代理编码，还是快速、经济高效的帮助。",
-        "ja": "OpenAI の GPT-5.6 ファミリは、GitHub Copilot で展開されています。 GPT-5.6 には Sol、Terra、Luna の 3 つのバージョンがあるため、大規模なコードベースの推論、日常のエージェント コーディング、高速でコスト効率の高い支援など、ジョブにモデルを適合させることができます。",
-        "en": "OpenAI’s GPT-5.6 family is now rolling out in GitHub Copilot. GPT-5.6 comes in three variants, Sol, Terra, and Luna, so you can match the model to the job, whether that’s reasoning over a large codebase, everyday agentic coding, or fast, cost-efficient assistance."
-      },
-      "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-09-github-2026-07-09-new-pull-requests-dashboard-is-now-generally-available",
-      "date": "2026-07-09",
-      "category": "github",
-      "title": {
-        "zh": "新的拉取请求仪表板现已普遍可用",
-        "ja": "新しいプル リクエスト ダッシュボードが一般公開されました",
-        "en": "New pull requests dashboard is now generally available"
-      },
-      "summary": {
-        "zh": "刷新后的拉取请求仪表板现已在 github.com/pulls 上公开发布。它为您提供了一个单一的家来跟踪、确定优先级并根据需要您关注的拉取请求采取行动，无论您是个人贡献者还是跨多个团队和项目工作的经理。",
-        "ja": "更新されたプル リクエスト ダッシュボードは、github.com/pulls で一般公開されました。個人の寄稿者であっても、多くのチームやプロジェクトにまたがって作業するマネージャーであっても、注意が必要なプル リクエストを追跡し、優先順位を付け、対処するための単一のホームを提供します。",
-        "en": "The refreshed pull requests dashboard is now generally available at github.com/pulls. It gives you a single home to track, prioritize, and act on the pull requests that need your attention, whether you’re an individual contributor or a manager working across many teams and projects."
-      },
-      "url": "https://github.blog/changelog/2026-07-09-new-pull-requests-dashboard-is-now-generally-available",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-09-github-2026-07-09-ask-copilot-for-a-repository-overview",
@@ -6413,32 +6423,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-19-github-2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
-      "date": "2026-06-19",
-      "category": "github",
-      "title": {
-        "zh": "现在在 Copilot 使用指标 API 中每个用户消耗的 AI 积分",
-        "ja": "ユーザーごとに消費される AI クレジットが Copilot 使用状況メトリクス API に追加されました",
-        "en": "AI credits consumed per user now in the Copilot usage metrics API"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标 API 现在报告每个用户每天消耗的 AI 积分数，这些积分源自基于使用情况的计费 API 中使用的相同 AI 积分消耗数据。新功能 现在，用户级别报告中为每个用户添加了一个新的 ai_credits_used 字段，并指示用户消耗的总 AI 积分。",
-        "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。",
-        "en": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API. What’s new A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed."
-      },
-      "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-openai-improving-health-intelligence-in-chatgpt",
       "date": "2026-06-18",
       "category": "openai",
@@ -6481,30 +6465,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-18-github-2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "Opus 4.6 即将弃用（快速）",
-        "ja": "Opus 4.6 (高速) の今後の非推奨",
-        "en": "Upcoming deprecation of Opus 4.6 (fast)"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 6 月 29 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Opus 4.6（快速）： 模型弃用日期 建议替代 Opus 4.6（快速） 2026 年 6 月 29 日 Opus 4.8（快速） 请将您的工作流程和集成更新为在这些日期之前使用受支持的型号。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
-        "ja": "2026 年 6 月 29 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Opus 4.6 (高速) を非推奨にします。 モデルの非推奨日 推奨される代替品 Opus 4.6 (高速) 2026 年 6 月 29 日 Opus 4.8 (高速) を更新してください。これらの日付より前にサポートされているモデルを使用するには、ワークフローと統合が必要です。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
-        "en": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date Suggested alternative Opus 4.6 (fast) 6-29-2026 Opus 4.8 (fast) Please update your workflows and integrations to use the supported model before these dates. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
@@ -6958,6 +6918,55 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-16-github-2026-06-16-github-models-is-no-longer-available-to-new-customers",
+      "date": "2026-06-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 模型不再向新客户提供",
+        "ja": "GitHub モデルは新規顧客には利用できなくなりました",
+        "en": "GitHub Models is no longer available to new customers"
+      },
+      "summary": {
+        "zh": "我们即将退役 GitHub 模型。首先，新客户不能再使用它。",
+        "ja": "GitHub モデルを廃止します。最初のステップとして、新規顧客は使用できなくなります。",
+        "en": "We are retiring GitHub Models. As a first step, new customers can no longer use it."
+      },
+      "url": "https://github.blog/changelog/2026-06-16-github-models-is-no-longer-available-to-new-customers",
+      "tags": [
+        "retired",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-16-github-2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "date": "2026-06-16",
+      "category": "github",
+      "title": {
+        "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
+        "ja": "GitHub コード品質は 2026 年 7 月 20 日に一般公開されます",
+        "en": "GitHub Code Quality generally available July 20, 2026"
+      },
+      "summary": {
+        "zh": "超过 10,000 家企业已使用 GitHub 代码质量公共预览版来检测可维护性和可靠性问题、实施质量关卡并跟踪代码覆盖率。 2026 年 7 月 20 日，代码质量从公共预览版转变为可购买产品的普遍可用性。",
+        "ja": "10,000 社以上の企業が GitHub コード品質パブリック プレビューを使用して、保守性と信頼性の問題を検出し、品質ゲートを適用し、コード カバレッジを追跡しています。 2026 年 7 月 20 日に、コード品質はパブリック プレビューから購入可能な製品としての一般提供に移行します。",
+        "en": "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code Quality moves from public preview to general availability as a purchasable product."
+      },
+      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
+      "tags": [
+        "release",
+        "application-security",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-15-github-2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
@@ -7527,29 +7536,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-10-anthropic-self-hosted-sandboxes",
-      "date": "2026-06-10",
-      "category": "anthropic",
-      "title": {
-        "zh": "获取 /v1/environments/{id}/work",
-        "ja": "GET /v1/environments/{id}/work",
-        "en": "GET /v1/environments/{id}/work"
-      },
-      "summary": {
-        "zh": "GET /v1/environments/{id}/work 端点列出了自托管沙箱的待处理工作，现已在 AWS 上的 Claude 平台上提供。请参阅 AWS 上 Claude 平台的 IAM 操作，了解授权它的 GetEnvironment 操作。",
-        "ja": "自己ホスト型サンドボックスの保留中の作業をリストする GET /v1/environments/{id}/work エンドポイントが、AWS の Claude プラットフォームで利用できるようになりました。これを承認する GetEnvironment アクションについては、AWS の Claude プラットフォームの IAM アクションを参照してください。",
-        "en": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
-      "tags": [
-        "get-v1-environments-id-work",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-09-openai-notion",
@@ -8940,6 +8926,57 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-06-02-github-2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI：改进的 UI、橡皮鸭、提示调度和语音输入",
+        "ja": "Copilot CLI: UI、ラバーダック、プロンプトスケジュール、および音声入力の改善",
+        "en": "Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice input"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI 在 Microsoft Build 2026 上进行了重大更新。橡皮鸭和语音输入现已普遍可用，提示调度和新的实验性终端界面（包括用于处理问题、拉取请求和要点的选项卡）可通过 /experimental 进行尝试。",
+        "ja": "GitHub Copilot CLI は Microsoft Build 2026 で大幅に更新されます。ラバーダックと音声入力は現在一般提供されており、プロンプト スケジューリングと新しい実験的なターミナル インターフェイス (問題、プル リクエスト、要点を操作するためのタブを含む) の両方を /experimental 経由で試すことができます。",
+        "en": "GitHub Copilot CLI is getting a major refresh at Microsoft Build 2026. Rubber duck and voice input are generally available today, and both prompt scheduling and a new experimental terminal interface —including tabs for working with issues, pull requests, and gists—are available to try via /experimental."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-02-github-2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+      "date": "2026-06-02",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 的云和本地沙箱现已提供公共预览版",
+        "ja": "Cloud and local sandboxes for GitHub Copilot now in public preview",
+        "en": "Cloud and local sandboxes for GitHub Copilot now in public preview"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 现在可以在安全、隔离的沙箱内运行，无论是在本地计算机上还是在云中。沙盒 Copilot 体验为 Copilot 工具在本地执行提供隔离环境，以及由 GitHub 托管的完全隔离的云沙箱。",
+        "ja": "GitHub Copilot は、マシン上のローカルとクラウドの両方で、安全で隔離されたサンドボックス内で実行できるようになりました。サンドボックス化された Copilot エクスペリエンスは、Copilot のツールをローカルで実行するための分離環境と、GitHub によってホストされる完全に分離されたクラウド サンドボックスを提供します。",
+        "en": "GitHub Copilot can now run inside secure, isolated sandboxes, both locally on your machine and in the cloud. Sandboxed Copilot experiences provide isolated environments for Copilot’s tool execution locally as well as fully isolated cloud sandboxes hosted by GitHub."
+      },
+      "url": "https://github.blog/changelog/2026-06-02-cloud-and-local-sandboxes-for-github-copilot-now-in-public-preview",
+      "tags": [
+        "release",
+        "application-security",
+        "copilot",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-02-anthropic-handle-streaming-refusals",
       "date": "2026-06-02",
       "category": "anthropic",
@@ -9544,29 +9581,6 @@
       "url": "https://code.claude.com/docs",
       "tags": [
         "claude-code-documentation",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-05-28-anthropic-computer-use-tool",
-      "date": "2026-05-28",
-      "category": "anthropic",
-      "title": {
-        "zh": "电脑使用",
-        "ja": "コンピュータの使用",
-        "en": "Computer use"
-      },
-      "summary": {
-        "zh": "计算机使用现在支持Claude Opus 4.8。",
-        "ja": "コンピューターの使用が Claude Opus 4.8 をサポートするようになりました。",
-        "en": "Computer use now supports Claude Opus 4.8."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
-      "tags": [
-        "computer-use",
         "anthropic",
         "release-notes"
       ],
