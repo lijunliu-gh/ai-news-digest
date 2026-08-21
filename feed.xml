@@ -7,6 +7,24 @@
     <lastBuildDate>2026-08-21</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The new GitHub Copilot experience in Slack</title>
+      <link>https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack</link>
+      <description>The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.</description>
+      <pubDate>2026-08-21</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack</guid>
+    </item>
+    <item>
+      <title>Shared agentic work with GitHub Copilot in Microsoft Teams</title>
+      <link>https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams</link>
+      <description>Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.</description>
+      <pubDate>2026-08-21</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams</guid>
+    </item>
+    <item>
       <title>Stampli cuts launch hours by 68% using ChatGPT Work</title>
       <link>https://openai.com/index/stampli</link>
       <description>With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.</description>
@@ -23,6 +41,24 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-08-20-update-image-generation-guide</guid>
+    </item>
+    <item>
+      <title>pricing details</title>
+      <link>https://developers.openai.com/api/docs/changelog#2026-08-20-update-pricing-details</link>
+      <description>GPT-5.6 Sol now costs $4 per million input tokens and $20 per million output tokens, representing 20% lower input pricing and 33% lower output pricing. GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.</description>
+      <pubDate>2026-08-20</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-08-20-update-pricing-details</guid>
+    </item>
+    <item>
+      <title>v1.0 of the Python SDK</title>
+      <link>https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python</link>
+      <description>We've released v1.0 of the Python SDK. The SDK's HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx.</description>
+      <pubDate>2026-08-20</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python</guid>
     </item>
     <item>
       <title>Offering Zero Data Retention for frontier models</title>
@@ -54,7 +90,7 @@
     <item>
       <title>Agent Skills</title>
       <link>https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview</link>
-      <description>Agent Skills and the Skills API ( /v1/skills ) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.</description>
+      <description>Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.</description>
       <pubDate>2026-08-19</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -72,7 +108,7 @@
     <item>
       <title>Files API</title>
       <link>https://platform.claude.com/docs/en/build-with-claude/files</link>
-      <description>The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files.</description>
+      <description>The Files API is out of beta on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the current response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files.</description>
       <pubDate>2026-08-19</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -90,7 +126,7 @@
     <item>
       <title>computer_toolset_20260801</title>
       <link>https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool</link>
-      <description>The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.</description>
+      <description>The computer use tool is out of beta on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.</description>
       <pubDate>2026-08-19</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -108,7 +144,7 @@
     <item>
       <title>Claude Enterprise</title>
       <link>https://platform.claude.com/docs/en/api/admin</link>
-      <description>The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.</description>
+      <description>The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are out of beta. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.</description>
       <pubDate>2026-08-19</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -419,42 +455,6 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/responsible-ai-infrastructure-texas</guid>
-    </item>
-    <item>
-      <title>Putting frontier cyber models in more trusted hands</title>
-      <link>https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands</link>
-      <description>Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.</description>
-      <pubDate>2026-08-10</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands</guid>
-    </item>
-    <item>
-      <title>Premium seats are coming to ChatGPT Business</title>
-      <link>https://openai.com/index/premium-seats-chatgpt-business</link>
-      <description>Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.</description>
-      <pubDate>2026-08-10</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/premium-seats-chatgpt-business</guid>
-    </item>
-    <item>
-      <title>Expanding Daybreak as the Cyber Defense Window Narrows</title>
-      <link>https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows</link>
-      <description>Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.</description>
-      <pubDate>2026-08-10</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows</guid>
-    </item>
-    <item>
-      <title>Virgin Atlantic sharpens customer journeys with ChatGPT Work</title>
-      <link>https://openai.com/index/virgin-atlantic/chatgpt-work</link>
-      <description>Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.</description>
-      <pubDate>2026-08-10</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/virgin-atlantic/chatgpt-work</guid>
     </item>
   </channel>
 </rss>

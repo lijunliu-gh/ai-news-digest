@@ -6844,21 +6844,9 @@
     "zh": "文件API",
     "ja": "ファイルAPI"
   },
-  "The Files API is now generally available on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the GA response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files.": {
-    "ja": "ファイル API が Claude API で一般提供されるようになりました。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストは、GA 応答形式を使用します。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。",
-    "zh": "文件 API 现在在 Claude API 上普遍可用。对 /v1/files 端点的请求以及引用上传文件的消息 API 请求不再需要 files-api-2025-04-14 beta 标头。不带标头发送的请求使用 GA 响应格式：文件过期（上传文件时设置 expires_in_seconds；文件对象报告 expires_at ），以及列出文件时的 page 和 next_page 分页以及 ids[] 过滤器。"
-  },
-  "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.": {
-    "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点现已普遍可用。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。",
-    "ja": "Claude Enterprise (claude.ai) 組織 (メンバー、招待、グループ、カスタム ロール) の Admin API ユーザー管理エンドポイントが一般提供になりました。 anthropic-beta: ce-user-management-2026-07-13 ヘッダーは、グループおよびカスタムロールのリクエストでは必要なくなりました。まだ送信するリクエストは変更されずに受け入れられます。 「ユーザー管理」を参照してください。"
-  },
   "computer_toolset_20260801": {
     "zh": "Computer_toolset_20260801",
     "ja": "コンピューターツールセット_20260801"
-  },
-  "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.": {
-    "zh": "计算机使用工具现在在 Claude API 上作为 Computer_toolset_20260801 工具集普遍可用：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
-    "ja": "コンピューター使用ツールは、Claude API でcomputer_toolset_20260801 ツールセットとして一般公開されました。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。"
   },
   "browser_toolset_20260801": {
     "ja": "ブラウザツールセット_20260801"
@@ -6870,10 +6858,6 @@
   "Agent Skills": {
     "zh": "代理技巧",
     "ja": "エージェントのスキル"
-  },
-  "Agent Skills and the Skills API ( /v1/skills ) are now generally available on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.": {
-    "zh": "代理技能和技能 API ( /v1/skills ) 现在在 Claude API 上普遍可用。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。",
-    "ja": "エージェント スキルとスキル API ( /v1/skills ) が Claude API で一般提供されるようになりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。"
   },
   "GitHub Models is no longer available to new customers": {
     "zh": "GitHub 模型不再向新客户提供",
@@ -7128,10 +7112,12 @@
     "ja": "Anthropic は、S-1 登録届出書の草案を秘密裏に証券取引委員会に提出しました"
   },
   "Anthropic raises $65B in Series H funding at $965B post-money valuation": {
-    "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達"
+    "ja": "Anthropic はシリーズ H 資金調達で 9,650 億ドルのポストマネー評価で 650 億ドルを調達",
+    "zh": "Anthropic 在 H 系列融资中筹集了 65B 美元，投后估值为 965B 美元"
   },
   "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.": {
-    "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。"
+    "zh": "Anthropic 已在 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投的 H 轮融资中筹集了 650 亿美元。",
+    "ja": "Anthropic は、Altimeter Capital、Dragoneer、Greenoaks、Sequoia Capital が主導するシリーズ H 資金調達で 650 億ドルを調達しました。"
   },
   "Anthropic opens Milan office to support Italian enterprise, research, and developers": {
     "zh": "Anthropic 开设米兰办事处以支持意大利企业、研究和开发人员",
@@ -7156,5 +7142,46 @@
   "The full text of Chris Olah's remarks on the Pope's encyclical on AI.": {
     "zh": "Chris Olah 对教皇人工智能通谕的评论全文。",
     "ja": "AIに関するローマ法王の回勅に関するクリス・オラー氏の発言の全文。"
+  },
+  "The new GitHub Copilot experience in Slack": {
+    "zh": "Slack 中的新 GitHub Copilot 体验",
+    "ja": "Slack の新しい GitHub Copilot エクスペリエンス"
+  },
+  "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.": {
+    "zh": "Slack 中的 GitHub 集成现在将 GitHub Copilot CLI 和 GitHub Copilot 应用程序的代理功能引入 Slack 的公共预览版中。您可以与@GitHub 一起计划变更、调查问题并从团队协调工作的对话中移交编码任务。",
+    "ja": "Slack の GitHub 統合により、GitHub Copilot CLI と GitHub Copilot アプリのエージェント機能がパブリック プレビューで Slack に導入されました。 @GitHub と協力して、変更を計画し、問題を調査し、チームが作業を調整する会話からコーディング タスクを引き継ぐことができます。"
+  },
+  "Shared agentic work with GitHub Copilot in Microsoft Teams": {
+    "zh": "与 Microsoft Teams 中的 GitHub Copilot 共享代理工作",
+    "ja": "Microsoft Teams の GitHub Copilot によるエージェント作業の共有"
+  },
+  "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.": {
+    "zh": "将 Microsoft Teams 讨论转变为每个人都可以看到并帮助指导的协作代理会话。在频道、话题或直接消息中提及 @GitHub 以启动 GitHub Copilot 云代理会话。"
+  },
+  "v1.0 of the Python SDK": {
+    "zh": "Python SDK v1.0",
+    "ja": "Python SDK の v1.0"
+  },
+  "We've released v1.0 of the Python SDK. The SDK's HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx.": {
+    "zh": "我们发布了 Python SDK v1.0。 SDK 的 HTTP 层从 httpx 移动到 httpx2，这是一个维护的、与 API 兼容的分支：从 httpx2 构建自定义 http_client、Timeout 和传输对象（DefaultHttpxClient 帮助程序保持不变），如果您依赖于修补 httpx 的跟踪或模拟库，则在启动时调用 httpx2.alias_httpx() 。",
+    "ja": "Python SDK v1.0 をリリースしました。 SDK の HTTP レイヤーは、httpx から、維持されている API 互換フォークである httpx2 に移行します。httpx2 からカスタム http_client、Timeout、およびトランスポート オブジェクトを構築し (DefaultHttpxClient ヘルパーは変更されていません)、httpx にパッチを適用するライブラリのトレースまたはモックに依存する場合は、起動時に httpx2.alias_httpx() を呼び出します。"
+  },
+  "GPT-5.6 Sol now costs $4 per million input tokens and $20 per million output tokens, representing 20% lower input pricing and 33% lower output pricing. GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.": {
+    "zh": "GPT-5.6 Sol 现在每百万输入代币的成本为 4 美元，每百万输出代币的成本为 20 美元，这意味着输入定价降低了 20%，输出定价降低了 33%。 GPT-5.6 Sol 的促销价格至少在 2026 年 11 月 21 日之前有效。",
+    "ja": "GPT-5.6 Sol のコストは、入力トークン 100 万あたり 4 ドル、出力トークン 100 万あたり 20 ドルとなり、入力価格が 20%、出力価格が 33% 低くなります。 GPT-5.6 Sol のプロモーション価格は、少なくとも 2026 年 11 月 21 日までご利用いただけます。"
+  },
+  "The Files API is out of beta on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the current response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files.": {
+    "zh": "文件 API 在 Claude API 上已结束测试版。对 /v1/files 端点的请求以及引用上传文件的消息 API 请求不再需要 files-api-2025-04-14 beta 标头。不带标头发送的请求使用当前响应格式：文件过期（上传文件时设置 expires_in_seconds；文件对象报告 expires_at ），以及列出文件时的 page 和 next_page 分页以及 ids[] 过滤器。",
+    "ja": "ファイル API は、Claude API のベータ版ではありません。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストでは、現在の応答形式が使用されます。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。"
+  },
+  "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are out of beta. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.": {
+    "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点已结束测试。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。"
+  },
+  "The computer use tool is out of beta on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.": {
+    "zh": "计算机使用工具在 Claude API 上作为 Computer_toolset_20260801 工具集完成 Beta 版：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
+    "ja": "コンピューター使用ツールは、コンピューターツールセット_20260801 ツールセットとして Claude API のベータ版から外れています。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。"
+  },
+  "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.": {
+    "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。"
   }
 }
