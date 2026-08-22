@@ -7156,7 +7156,8 @@
     "ja": "Microsoft Teams の GitHub Copilot によるエージェント作業の共有"
   },
   "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.": {
-    "zh": "将 Microsoft Teams 讨论转变为每个人都可以看到并帮助指导的协作代理会话。在频道、话题或直接消息中提及 @GitHub 以启动 GitHub Copilot 云代理会话。"
+    "zh": "将 Microsoft Teams 讨论转变为每个人都可以看到并帮助指导的协作代理会话。在频道、话题或直接消息中提及 @GitHub 以启动 GitHub Copilot 云代理会话。",
+    "ja": "Microsoft Teams のディスカッションを、誰もが確認して指示できる共同エージェント セッションに変えます。 GitHub Copilot クラウド エージェント セッションを開始するには、チャネル、スレッド、またはダイレクト メッセージで @GitHub に言及します。"
   },
   "v1.0 of the Python SDK": {
     "zh": "Python SDK v1.0",
@@ -7175,13 +7176,15 @@
     "ja": "ファイル API は、Claude API のベータ版ではありません。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストでは、現在の応答形式が使用されます。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。"
   },
   "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are out of beta. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.": {
-    "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点已结束测试。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。"
+    "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点已结束测试。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。",
+    "ja": "Claude Enterprise (claude.ai) 組織 (メンバー、招待、グループ、カスタム ロール) の Admin API ユーザー管理エンドポイントはベータ版ではありません。 anthropic-beta: ce-user-management-2026-07-13 ヘッダーは、グループおよびカスタムロールのリクエストでは必要なくなりました。まだ送信するリクエストは変更されずに受け入れられます。 「ユーザー管理」を参照してください。"
   },
   "The computer use tool is out of beta on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.": {
     "zh": "计算机使用工具在 Claude API 上作为 Computer_toolset_20260801 工具集完成 Beta 版：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
     "ja": "コンピューター使用ツールは、コンピューターツールセット_20260801 ツールセットとして Claude API のベータ版から外れています。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。"
   },
   "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.": {
-    "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。"
+    "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。",
+    "zh": "代理技能和技能 API ( /v1/skills ) 在 Claude API 上已经过测试版。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。"
   }
 }
