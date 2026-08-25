@@ -1,7 +1,29 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-08-24-openai-gpt-5-6-in-kiro",
+      "date": "2026-08-24",
+      "category": "openai",
+      "title": {
+        "zh": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "ja": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "en": "Advancing price-performance for developers with GPT‑5.6 in Kiro"
+      },
+      "summary": {
+        "zh": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+        "ja": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+        "en": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+      },
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
     {
       "id": "2026-08-21-openai-changelog",
       "date": "2026-08-21",
@@ -1791,7 +1813,7 @@
         "ja": "Claude Opus 4.1 モデル ( claude-opus-4-1-20250805 ) を廃止しました。 Claude API でのこのモデルへのすべてのリクエストはエラーを返すようになります。 Claude Opus 5 にアップグレードすることをお勧めします。研究者は、外部研究者アクセス プログラムを通じて継続的なアクセスをリクエストできます。",
         "en": "We've retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this model on the Claude API will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program."
       },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/overview#latest-models-comparison",
+      "url": "https://platform.claude.com/docs/en/models/overview#latest-models-comparison",
       "tags": [
         "claude-opus-4-1-20250805",
         "anthropic",
@@ -3097,7 +3119,7 @@
         "ja": "Claude Opus 5 では、思考の無効化は、努力値が high 以下の場合にのみ許可されます。 Thinking: {\"type\": \"disabled\"} で、努力値 xhigh または max を指定すると、400 エラーが返されます。これは、Claude Opus 4.8 からの重大な変更です。 Claude Opus 5 の新機能を参照してください。",
         "en": "On Claude Opus 5, disabling thinking is allowed only at effort high or below: thinking: {\"type\": \"disabled\"} with effort xhigh or max returns a 400 error, a breaking change from Claude Opus 4.8. See What's new in Claude Opus 5."
       },
-      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5#behavior-changes",
+      "url": "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5#behavior-changes",
       "tags": [
         "high",
         "anthropic",
