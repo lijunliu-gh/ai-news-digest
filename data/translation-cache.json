@@ -6635,14 +6635,6 @@
     "zh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
     "ja": "OpenAI と AWS は、エンタープライズ セキュリティ ワークフローをサポートするために、Amazon Bedrock を通じて Daybreak サイバーセキュリティ機能を利用できるようにしています。"
   },
-  "Playground": {
-    "zh": "操场",
-    "ja": "遊び場"
-  },
-  "Workbench is now Playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.": {
-    "zh": "Workbench 现在是 Claude 控制台中的 Playground。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
-    "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。"
-  },
   "Enterprise managed settings in GitHub Copilot for JetBrains": {
     "zh": "JetBrains GitHub Copilot 中的企业托管设置",
     "ja": "JetBrains の GitHub Copilot のエンタープライズ管理設定"
@@ -7174,10 +7166,6 @@
   "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are out of beta. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.": {
     "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点已结束测试。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。",
     "ja": "Claude Enterprise (claude.ai) 組織 (メンバー、招待、グループ、カスタム ロール) の Admin API ユーザー管理エンドポイントはベータ版ではありません。 anthropic-beta: ce-user-management-2026-07-13 ヘッダーは、グループおよびカスタムロールのリクエストでは必要なくなりました。まだ送信するリクエストは変更されずに受け入れられます。 「ユーザー管理」を参照してください。"
-  },
-  "The computer use tool is out of beta on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124.": {
-    "zh": "计算机使用工具在 Claude API 上作为 Computer_toolset_20260801 工具集完成 Beta 版：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
-    "ja": "コンピューター使用ツールは、コンピューターツールセット_20260801 ツールセットとして Claude API のベータ版から外れています。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。"
   },
   "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.": {
     "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。",

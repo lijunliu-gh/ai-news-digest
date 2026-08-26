@@ -303,6 +303,29 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-08-20-anthropic-computer-use-tool",
+      "date": "2026-08-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "Computer_toolset_20260801",
+        "ja": "コンピューターツールセット_20260801",
+        "en": "computer_toolset_20260801"
+      },
+      "summary": {
+        "zh": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
+        "ja": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
+        "en": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "tags": [
+        "computer-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-08-19-openai-offering-zero-data-retention-for-frontier-models",
       "date": "2026-08-19",
       "category": "openai",
@@ -456,29 +479,6 @@
       "url": "https://platform.claude.com/docs/en/managed-agents/events-and-streaming#console-observability",
       "tags": [
         "console-observability",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-computer-use-tool",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "Computer_toolset_20260801",
-        "ja": "コンピューターツールセット_20260801",
-        "en": "computer_toolset_20260801"
-      },
-      "summary": {
-        "zh": "计算机使用工具在 Claude API 上作为 Computer_toolset_20260801 工具集完成 Beta 版：无 Beta 标头、批处理操作（一轮中的多个操作）、默认启用缩放以及通过配置对每个成员进行配置。早期的测试版仍然可用。升级现有集成会改变请求形式和工具处理；请参阅从计算机迁移_20251124。",
-        "ja": "コンピューター使用ツールは、コンピューターツールセット_20260801 ツールセットとして Claude API のベータ版から外れています。ベータ ヘッダーなし、バッチ アクション (1 回のターンで複数のアクション)、デフォルトで有効になっているズーム、構成によるメンバーごとの構成。以前のベータ版は引き続き利用可能です。既存の統合をアップグレードすると、リクエストの形状とツールの処理が変更されます。 「computer_20251124 からの移行」を参照してください。",
-        "en": "The computer use tool is out of beta on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
-      "tags": [
-        "computer-toolset-20260801",
         "anthropic",
         "release-notes"
       ],
@@ -713,14 +713,14 @@
       "date": "2026-08-18",
       "category": "anthropic",
       "title": {
-        "zh": "操场",
-        "ja": "遊び場",
-        "en": "Playground"
+        "zh": "playground",
+        "ja": "playground",
+        "en": "playground"
       },
       "summary": {
-        "zh": "Workbench 现在是 Claude 控制台中的 Playground。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
-        "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。",
-        "en": "Workbench is now Playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground."
+        "zh": "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.",
+        "ja": "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.",
+        "en": "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground."
       },
       "url": "https://platform.claude.com/playground",
       "tags": [
