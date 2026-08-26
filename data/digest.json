@@ -24,6 +24,140 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-08-26-openai-learning-never-stops",
+      "date": "2026-08-26",
+      "category": "openai",
+      "title": {
+        "zh": "Learning never stops: How AI makes learning continuous",
+        "ja": "Learning never stops: How AI makes learning continuous",
+        "en": "Learning never stops: How AI makes learning continuous"
+      },
+      "summary": {
+        "zh": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+        "ja": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+        "en": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom."
+      },
+      "url": "https://openai.com/index/learning-never-stops",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-26-openai-hugging-face-incident-and-the-road-ahead",
+      "date": "2026-08-26",
+      "category": "openai",
+      "title": {
+        "zh": "The Hugging Face incident and the road ahead",
+        "ja": "The Hugging Face incident and the road ahead",
+        "en": "The Hugging Face incident and the road ahead"
+      },
+      "summary": {
+        "zh": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+        "ja": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+        "en": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment."
+      },
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-26-openai-bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "date": "2026-08-26",
+      "category": "openai",
+      "title": {
+        "zh": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "ja": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "en": "Bringing ChatGPT for Teachers to more U.S. school districts"
+      },
+      "summary": {
+        "zh": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "ja": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+        "en": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff."
+      },
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-26-google-intelligent-transcription-with-gemini-3-5-transcribe",
+      "date": "2026-08-26",
+      "category": "google",
+      "title": {
+        "zh": "Intelligent transcription with Gemini 3.5 Transcribe",
+        "ja": "Intelligent transcription with Gemini 3.5 Transcribe",
+        "en": "Intelligent transcription with Gemini 3.5 Transcribe"
+      },
+      "summary": {
+        "zh": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+        "ja": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+        "en": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe."
+      },
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-26-anthropic-python",
+      "date": "2026-08-26",
+      "category": "anthropic",
+      "title": {
+        "zh": "Python SDK v1.0",
+        "ja": "Python SDK の v1.0",
+        "en": "v1.0 of the Python SDK"
+      },
+      "summary": {
+        "zh": "我们发布了 Python SDK v1.0。 SDK 的 HTTP 层从 httpx 移动到 httpx2，这是一个维护的、与 API 兼容的分支：从 httpx2 构建自定义 http_client、Timeout 和传输对象（DefaultHttpxClient 帮助程序保持不变），如果您依赖于修补 httpx 的跟踪或模拟库，则在启动时调用 httpx2.alias_httpx() 。",
+        "ja": "Python SDK v1.0 をリリースしました。 SDK の HTTP レイヤーは、httpx から、維持されている API 互換フォークである httpx2 に移行します。httpx2 からカスタム http_client、Timeout、およびトランスポート オブジェクトを構築し (DefaultHttpxClient ヘルパーは変更されていません)、httpx にパッチを適用するライブラリのトレースまたはモックに依存する場合は、起動時に httpx2.alias_httpx() を呼び出します。",
+        "en": "We've released v1.0 of the Python SDK. The SDK's HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx."
+      },
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python",
+      "tags": [
+        "v1-0-of-the-python-sdk",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-26-anthropic-computer-use-tool",
+      "date": "2026-08-26",
+      "category": "anthropic",
+      "title": {
+        "zh": "Computer_toolset_20260801",
+        "ja": "コンピューターツールセット_20260801",
+        "en": "computer_toolset_20260801"
+      },
+      "summary": {
+        "zh": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
+        "ja": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
+        "en": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "tags": [
+        "computer-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-08-25-openai-the-full-stack-behind-abundant-intelligence",
       "date": "2026-08-25",
       "category": "openai",
@@ -278,52 +412,6 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-20-anthropic-python",
-      "date": "2026-08-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "Python SDK v1.0",
-        "ja": "Python SDK の v1.0",
-        "en": "v1.0 of the Python SDK"
-      },
-      "summary": {
-        "zh": "我们发布了 Python SDK v1.0。 SDK 的 HTTP 层从 httpx 移动到 httpx2，这是一个维护的、与 API 兼容的分支：从 httpx2 构建自定义 http_client、Timeout 和传输对象（DefaultHttpxClient 帮助程序保持不变），如果您依赖于修补 httpx 的跟踪或模拟库，则在启动时调用 httpx2.alias_httpx() 。",
-        "ja": "Python SDK v1.0 をリリースしました。 SDK の HTTP レイヤーは、httpx から、維持されている API 互換フォークである httpx2 に移行します。httpx2 からカスタム http_client、Timeout、およびトランスポート オブジェクトを構築し (DefaultHttpxClient ヘルパーは変更されていません)、httpx にパッチを適用するライブラリのトレースまたはモックに依存する場合は、起動時に httpx2.alias_httpx() を呼び出します。",
-        "en": "We've released v1.0 of the Python SDK. The SDK's HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx."
-      },
-      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python",
-      "tags": [
-        "v1-0-of-the-python-sdk",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-20-anthropic-computer-use-tool",
-      "date": "2026-08-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "Computer_toolset_20260801",
-        "ja": "コンピューターツールセット_20260801",
-        "en": "computer_toolset_20260801"
-      },
-      "summary": {
-        "zh": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
-        "ja": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.",
-        "en": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
-      "tags": [
-        "computer-toolset-20260801",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-19-openai-offering-zero-data-retention-for-frontier-models",
