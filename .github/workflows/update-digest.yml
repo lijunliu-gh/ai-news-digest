@@ -148,6 +148,7 @@ jobs:
           name: digest-report
           path: .digest-report.json
           retention-days: 7
+          include-hidden-files: true
         env:
           FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 

@@ -61,7 +61,7 @@ ai-news-digest/
 | OpenAI API Changelog | https://developers.openai.com/api/docs/changelog |
 | Google Blog | https://blog.google/innovation-and-ai/technology/ai/rss/ |
 | Google DeepMind News | https://deepmind.google/blog/rss.xml |
-| Google Cloud Release Notes | https://docs.cloud.google.com/vertex-ai/generative-ai/docs/release-notes |
+| Google Cloud Release Notes | https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes |
 | GitHub Product News | https://github.blog/news-insights/product-news/ |
 | GitHub Changelog | https://github.blog/changelog/feed/ |
 

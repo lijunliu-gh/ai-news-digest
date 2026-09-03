@@ -963,7 +963,7 @@ def parse_google_deepmind_entries(cutoff: date) -> list[FeedEntry]:
 
 def parse_google_release_entries(cutoff: date) -> list[FeedEntry]:
     entries: list[FeedEntry] = []
-    for entry in parse_atom('https://docs.cloud.google.com/feeds/generative-ai-on-vertex-ai-release-notes.xml'):
+    for entry in parse_atom('https://docs.cloud.google.com/feeds/gemini-enterprise-agent-platform-release-notes.xml'):
         published = parse_pub_date(entry.findtext('atom:updated', default='', namespaces=ATOM_NS))
         if not within_window(published, cutoff):
             continue
