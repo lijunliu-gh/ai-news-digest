@@ -3600,14 +3600,6 @@
     "zh": "一篇新的 OpenAI 研究论文展示了人工智能代理如何改变工作方式，实现更长、更复杂的任务，并提高跨角色的生产力。",
     "ja": "新しい OpenAI 研究論文では、AI エージェントがどのように仕事を変革し、より長く複雑なタスクを可能にし、役割を越えて生産性を拡大しているかを示しています。"
   },
-  "code_execution_20260120": {
-    "ja": "コード_実行_20260120",
-    "zh": "代码_执行_20260120"
-  },
-  "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120, the code execution tool version that adds REPL state persistence and is the minimum version for programmatic tool calling. To adopt it, set the tool's type to code_execution_20260120; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the model compatibility table.": {
-    "zh": "Python、TypeScript、Go、Java、Ruby、PHP 和 C# SDK 现在包括对 code_execution_20260120 的支持，该代码执行工具版本添加了 REPL 状态持久性，并且是编程工具调用的最低版本。要采用它，请将工具的类型设置为code_execution_20260120；不需要 beta 标头。它适用于 Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 及更高版本以及 Claude Sonnet 4.5 及更高版本；请参阅型号兼容性表。",
-    "ja": "Python、TypeScript、Go、Java、Ruby、PHP、および C# SDK には、REPL 状態の永続性を追加し、プログラムによるツール呼び出しの最小バージョンであるコード実行ツールのバージョンである code_execution_20260120 のサポートが含まれるようになりました。これを採用するには、ツールのタイプを code_execution_20260120 に設定します。ベータヘッダーは必要ありません。これは、Claude Fable 5、Claude Mythos 5、Claude Opus 4.5 以降、および Claude Sonnet 4.5 以降で利用できます。モデル互換性表を参照してください。"
-  },
   "Claude Tag is a new way for teams to work with Claude.": {
     "zh": "Claude 标签是团队使用 Claude 的一种新方式。",
     "ja": "Claude タグは、チームが Claude を操作するための新しい方法です。"
@@ -3899,18 +3891,6 @@
   "Organization runner controls for Copilot cloud agent": {
     "zh": "Copilot 云代理的组织运行器控制",
     "ja": "Copilot クラウド エージェントの組織ランナー コントロール"
-  },
-  "The latest AI news we announced in June 2026": {
-    "zh": "我们在 2026 年 6 月公布的最新 AI 新闻",
-    "ja": "2026年6月に発表したAI最新ニュース"
-  },
-  "Here are Google’s latest AI updates from June 2026.": {
-    "zh": "以下是 Google 自 2026 年 6 月起最新的 AI 更新。",
-    "ja": "2026 年 6 月の Google の最新 AI アップデートは次のとおりです。"
-  },
-  "Claude Fable 5 requires 30-day data retention and is not available under zero data retention. See Model-specific data retention requirements.": {
-    "zh": "Claude 《神鬼寓言 5》需要 30 天的数据保留，并且在零数据保留下不可用。请参阅特定于型号的数据保留要求。",
-    "ja": "Claude Fable 5 は 30 日間のデータ保持を必要とし、データ保持がゼロの場合は利用できません。 「モデル固有のデータ保持要件」を参照してください。"
   },
   "Gemini models in Copilot CLI, cloud agent, and the Copilot app": {
     "zh": "Copilot CLI、云代理和 Copilot 应用程序中的 Gemini 模型",
@@ -4646,10 +4626,6 @@
   "Multiagent orchestration and Outcomes are now in public beta under the standard managed-agents-2026-04-01 beta header.": {
     "zh": "多代理编排和结果现在处于标准 Managed-agents-2026-04-01 Beta 标头下的公开测试版。",
     "ja": "マルチエージェント オーケストレーションとアウトカムは現在、標準の manage-agents-2026-04-01 ベータ ヘッダーの下でパブリック ベータ版です。"
-  },
-  "Claude Enterprise": {
-    "zh": "Claude 企业",
-    "ja": "Claude エンタープライズ"
   },
   "GitHub Copilot for JetBrains expands BYOK capabilities": {
     "zh": "GitHub Copilot for JetBrains 扩展了 BYOK 功能",
@@ -6667,13 +6643,6 @@
     "zh": "我们已将 anthropic-workspace-id 响应标头添加到 Claude API。它携带请求的 API 密钥或访问令牌解析到的工作区的 wrkspc_ 前缀 ID，包括您组织的默认工作区。请参阅识别 API 响应背后的工作区。",
     "ja": "anthropic-workspace-id 応答ヘッダーを Claude API に追加しました。これには、組織のデフォルト ワークスペースを含む、リクエストの API キーまたはアクセス トークンが解決されたワークスペースの wrkspc_ という接頭辞付きの ID が含まれます。 「API 応答の背後にあるワークスペースを特定する」を参照してください。"
   },
-  "GET /v1/compliance/apps/sessions/local": {
-    "zh": "获取 /v1/compliance/apps/sessions/local"
-  },
-  "The Compliance API now returns transcripts of Cowork and Claude Code sessions that run on your users' machines, in beta for Claude Enterprise organizations. GET /v1/compliance/apps/sessions/local lists sessions across your organization, GET /v1/compliance/apps/sessions/local/{session_id} retrieves one session's metadata, and GET /v1/compliance/apps/sessions/local/{session_id}/messages returns its transcript, all with your existing Compliance Access Key and the read:compliance_user_data scope.": {
-    "zh": "合规性 API 现在返回在用户计算机上运行的 Cowork 和 Claude Code 会话的记录，这是 Claude 企业组织的测试版。 GET /v1/compliance/apps/sessions/local 列出整个组织中的会话，GET /v1/compliance/apps/sessions/local/{session_id} 检索一个会话的元数据，GET /v1/compliance/apps/sessions/local/{session_id}/messages 返回其记录，所有这些都包含您现有的合规性访问密钥和 read:compliance_user_data 范围。",
-    "ja": "Compliance API は、Claude Enterprise 組織向けのベータ版で、ユーザーのマシン上で実行される Cowork および Claude Code セッションのトランスクリプトを返すようになりました。 GET /v1/compliance/apps/sessions/local は組織全体のセッションをリストし、GET /v1/compliance/apps/sessions/local/{session_id} は 1 つのセッションのメタデータを取得し、GET /v1/compliance/apps/sessions/local/{session_id}/messages はそのトランスクリプトを返します。これらはすべて、既存のコンプライアンス アクセス キーと read:compliance_user_data スコープを使用して行われます。"
-  },
   "Upcoming deprecation of MAI-Code-1-Flash": {
     "zh": "即将弃用 MAI-Code-1-Flash",
     "ja": "MAI-Code-1-Flash の今後の非推奨"
@@ -7163,14 +7132,6 @@
     "zh": "文件 API 在 Claude API 上已结束测试版。对 /v1/files 端点的请求以及引用上传文件的消息 API 请求不再需要 files-api-2025-04-14 beta 标头。不带标头发送的请求使用当前响应格式：文件过期（上传文件时设置 expires_in_seconds；文件对象报告 expires_at ），以及列出文件时的 page 和 next_page 分页以及 ids[] 过滤器。",
     "ja": "ファイル API は、Claude API のベータ版ではありません。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストでは、現在の応答形式が使用されます。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。"
   },
-  "The Admin API user-management endpoints for Claude Enterprise (claude.ai) organizations (members, invites, groups, and custom roles) are out of beta. The anthropic-beta: ce-user-management-2026-07-13 header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See User management.": {
-    "zh": "Claude Enterprise (claude.ai) 组织（成员、邀请、组和自定义角色）的 Admin API 用户管理端点已结束测试。组和自定义角色请求不再需要 anthropic-beta: ce-user-management-2026-07-13 标头；仍然发送它的请求将被原封不动地接受。请参阅用户管理。",
-    "ja": "Claude Enterprise (claude.ai) 組織 (メンバー、招待、グループ、カスタム ロール) の Admin API ユーザー管理エンドポイントはベータ版ではありません。 anthropic-beta: ce-user-management-2026-07-13 ヘッダーは、グループおよびカスタムロールのリクエストでは必要なくなりました。まだ送信するリクエストは変更されずに受け入れられます。 「ユーザー管理」を参照してください。"
-  },
-  "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API.": {
-    "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。",
-    "zh": "代理技能和技能 API ( /v1/skills ) 在 Claude API 上已经过测试版。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。"
-  },
   "Jalapeño’s first results show industry-leading speed and efficiency in AI inference": {
     "zh": "Jalapeo 的首批结果显示了人工智能推理行业领先的速度和效率",
     "ja": "Halapeño の最初の結果は、AI 推論における業界をリードする速度と効率を示しています"
@@ -7216,10 +7177,558 @@
     "ja": "ChatGPT Business ではプレミアム シートをご利用いただけるようになりました。使用回数が 5 倍になり、5 時間の使用制限がなく、すべてのチームメイトに柔軟なシート オプションが提供されます。"
   },
   "GitHub Copilot app Customize tab is generally available": {
-    "zh": "GitHub Copilot 应用程序“自定义”选项卡已全面可用"
+    "zh": "GitHub Copilot 应用程序“自定义”选项卡已全面可用",
+    "ja": "GitHub Copilot アプリの [カスタマイズ] タブが正式に利用可能になりました"
   },
   "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.": {
     "zh": "当 GitHub Copilot 与您的团队已经依赖的工具、知识和工作流程配合使用时，它会更有用。 GitHub Copilot 应用程序中的新“自定义”选项卡将 MCP 服务器、插件、技能和画布集中到一处。",
     "ja": "GitHub Copilot は、チームがすでに依存しているツール、知識、ワークフローと連携する場合にさらに便利です。 GitHub Copilot アプリの新しい [カスタマイズ] タブでは、MCP サーバー、プラグイン、スキル、キャンバスが 1 か所にまとめられています。"
+  },
+  "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT": {
+    "zh": "ATV Big Air Tour 通过 ChatGPT 将 3 天的工作变成 3 小时",
+    "ja": "ATV ビッグ エア ツアーは、ChatGPT を使用して 3 日間の作業を 3 時間に短縮しました"
+  },
+  "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.": {
+    "zh": "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。",
+    "ja": "ATV ビッグ エア ツアーでは、ChatGPT Work を使用して、マーケティングやマーチャンダイジングなどをスピードアップします。商品の写真を 15 分で在庫 Web サイトに変えることもできました。"
+  },
+  "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber": {
+    "zh": "介绍 Gemini 3.8 Flash 和 3.8 Flash Cyber",
+    "ja": "Gemini 3.8 Flash および 3.8 Flash Cyber​​ の紹介"
+  },
+  "Proactive cyber defense for governments and enterprises": {
+    "zh": "政府和企业的主动网络防御",
+    "ja": "政府および企業向けのプロアクティブなサイバー防御"
+  },
+  "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.": {
+    "zh": "Fairwind 计划是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们的网络防御工具。",
+    "ja": "Fairwind プログラムは、政府および信頼できるパートナーが当社のサイバー防御ツールを使用するための限定アクセス プログラムです。"
+  },
+  "Developing Enterprise Frontier Safeguards with our customers": {
+    "zh": "与客户一起制定企业前沿保障措施",
+    "ja": "お客様と協力してエンタープライズ フロンティア セーフガードを開発する"
+  },
+  "Path to Astra: critical capabilities and frontier safeguards": {
+    "zh": "通往阿斯特拉之路：关键能力和边境保障",
+    "ja": "アストラへの道: 重要な能力とフロンティアの安全対策"
+  },
+  "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.": {
+    "zh": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
+    "ja": "Astra は、準備フレームワークに基づく重要なサイバーセキュリティ機能のしきい値を満たした最初の OpenAI モデルであり、リリースのためのより強力な保護手段が備えられています。"
+  },
+  "How law firm Gilbert + Tobin governs and scales AI with OpenAI": {
+    "zh": "Gilbert + Tobin 律师事务所如何通过 OpenAI 管理和扩展人工智能",
+    "ja": "法律事務所ギルバート + トービンが OpenAI を使用して AI を管理および拡張する方法"
+  },
+  "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.": {
+    "zh": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
+    "ja": "Gilbert + Tobin が CEO 主導のコミットメント、厳格なガバナンス、人間の説明責任をどのように組み合わせて、ChatGPT Enterprise と Codex を会社全体に拡大するかをご覧ください。"
+  },
+  "Healthcare organizations can now connect EHR and additional industry data to ChatGPT": {
+    "zh": "医疗保健组织现在可以将 EHR 和其他行业数据连接到 ChatGPT",
+    "ja": "医療機関は EHR と追加の業界データを ChatGPT に接続できるようになりました"
+  },
+  "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.": {
+    "zh": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
+    "ja": "ChatGPT は信頼できる医療データに接続できるようになり、臨床医が患者のコンテキストや医学研究などに安全にアクセスできるようになります。"
+  },
+  "Introducing agentic video understanding with Gemini": {
+    "zh": "使用 Gemini 引入代理视频理解",
+    "ja": "Gemini によるエージェントによるビデオ理解の導入"
+  },
+  "The latest AI news we announced in August 2026": {
+    "zh": "我们于 2026 年 8 月公布的最新 AI 新闻",
+    "ja": "2026年8月に発表したAI最新ニュース"
+  },
+  "Here are Google’s latest AI updates from August 2026": {
+    "zh": "以下是 Google 自 2026 年 8 月起最新的 AI 更新",
+    "ja": "2026 年 8 月の Google の最新 AI アップデートは次のとおりです"
+  },
+  "Improving our alignment and security practices": {
+    "zh": "改进我们的一致性和安全实践",
+    "ja": "連携とセキュリティ慣行の改善"
+  },
+  "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.": {
+    "zh": "7 月 30 日，我们报告了三起 Claude 模型未经授权访问真实计算机系统的事件。我们正在对这两起事件进行深入分析，并计划与 METR 合作进行独立审查。与此同时，我们正在分享我们在过去一个月中所做的一些更改。",
+    "ja": "7 月 30 日、Claude モデルが実際のコンピュータ システムに不正にアクセスした 3 件のインシデントを報告しました。私たちは両方の事件について詳細な分析を行っており、独立した調査のために METR と協力する予定です。それまでの間、先月に加えた変更の一部を共有します。"
+  },
+  "OpenAI supports California’s bill to advance youth AI safety": {
+    "zh": "OpenAI 支持加州促进青少年人工智能安全的法案",
+    "ja": "OpenAI は、青少年の AI の安全性を推進するカリフォルニア州の法案を支持します"
+  },
+  "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.": {
+    "zh": "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+    "ja": "OpenAI は、California SB 1119 をサポートし、学習、創造、探索の機会を維持しながら、10 代の若者向けに年齢に応じた強力な AI 保護措置を推進します。"
+  },
+  "Polimill builds Japan's next-generation public AI infrastructure": {
+    "zh": "Polimill 打造日本下一代公共人工智能基础设施",
+    "ja": "Polimill が日本の次世代公共 AI インフラストラクチャを構築"
+  },
+  "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.": {
+    "zh": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速发展。",
+    "ja": "Polimill は、OpenAI GPT モデルと Codex を使用して、自治体が開発を加速しながら管理知識を検索して使用できるように支援します。"
+  },
+  "A milestone in expanding access to AI": {
+    "zh": "扩大人工智能应用范围的里程碑",
+    "ja": "AI へのアクセス拡大におけるマイルストーン"
+  },
+  "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.": {
+    "zh": "ChatGPT 广告年化收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。",
+    "ja": "ChatGPT 広告は年間収益ランレートで 10 億ドルに達し、世界中に拡大し、無料かつ手頃な価格のオプションを通じて AI への幅広いアクセスをサポートしています。"
+  },
+  "Supporting Thailand’s next generation of AI startups": {
+    "zh": "支持泰国下一代人工智能初创公司",
+    "ja": "タイの次世代AIスタートアップを支援"
+  },
+  "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.": {
+    "zh": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
+    "ja": "OpenAI とタイの MHESI は、健康、ウェルネス、教育関連のスタートアップ 10 社が AI プロトタイプを信頼できる製品に変えるのを支援する 8 週間のアクセラレーターを開始します。"
+  },
+  "Our decision on Cursor following its acquisition by SpaceX": {
+    "zh": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
+    "ja": "SpaceXによるCursor買収後の当社の決定"
+  },
+  "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.": {
+    "zh": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
+    "ja": "SpaceX による買収を受けて、Cursor に OpenAI モデルを提供する契約を終了するという決定を下しました。"
+  },
+  "Previewing the Model Hardware Standard": {
+    "zh": "预览模型硬件标准",
+    "ja": "モデルのハードウェア標準のプレビュー"
+  },
+  "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.": {
+    "zh": "Anthropic 正在向第一批科学研究实验室和先进制造商开放模型硬件标准 (MHS) 的研究预览，这是人工智能代理安全操作物理设备的共享规范。",
+    "ja": "Anthropic は、AI エージェントが物理デバイスを安全に操作するための共有仕様であるモデル ハードウェア スタンダード (MHS) のリサーチ プレビューを、科学研究機関と先進メーカーの最初のグループに公開します。"
+  },
+  "Expanding our support for scientists": {
+    "zh": "扩大我们对科学家的支持",
+    "ja": "科学者への支援を拡大する"
+  },
+  "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training": {
+    "zh": "更好的答案，更广泛的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
+    "ja": "より良い答え、より広い思考: ChatGPT と批判的思考トレーニングから学生が得られるもの"
+  },
+  "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.": {
+    "zh": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
+    "ja": "1,000 人を超える学生を対象としたランダム化研究では、ChatGPT、批判的思考、独創性、実際の大学の課題における学生のパフォーマンスが調査されています。"
+  },
+  "Expanding OpenAI’s presence in Brazil": {
+    "zh": "扩大 OpenAI 在巴西的业务",
+    "ja": "ブラジルでのOpenAIの存在感を拡大"
+  },
+  "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.": {
+    "zh": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在全国的采用。",
+    "ja": "OpenAI はブラジルでの存在感を拡大し、開発者、企業、コミュニティとの関わりを深め、ブラジル全土での AI 導入をサポートしています。"
+  },
+  "Gemini Omni 1.1 Flash lets you build with more control": {
+    "zh": "Gemini Omni 1.1 Flash 让您可以更好地控制构建",
+    "ja": "Gemini Omni 1.1 Flash を使用すると、より詳細に制御して構築できます"
+  },
+  "3 new ways to plan and book travel in Search": {
+    "zh": "在搜索中计划和预订旅行的 3 种新方式",
+    "ja": "検索で旅行を計画および予約する 3 つの新しい方法"
+  },
+  "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.": {
+    "zh": "预订酒店、跟踪机票价格，以及使用 Google 搜索中的 AI 模式查看里程和奖励。",
+    "ja": "ホテルの予約や航空運賃の追跡に加え、Google 検索の AI モードでマイルや特典を確認できます。"
+  },
+  "How loveholidays is making everyone a builder with Codex": {
+    "zh": "loveholidays 如何让每个人都成为 Codex 的建设者",
+    "ja": "loveholidays はどのようにして誰もが Codex のビルダーになれるのか"
+  },
+  "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.": {
+    "zh": "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
+    "ja": "loveholidays が OpenAI Codex を使用して、ビジネス全体でソフトウェア開発にアクセスできるようにし、チームがアイデアをより迅速に製品にできるようにする方法をご覧ください。"
+  },
+  "Learning never stops: How AI makes learning continuous": {
+    "zh": "学习永不停歇：人工智能如何让学习持续进行",
+    "ja": "学習は決して止まらない: AI が学習を継続的に行う方法"
+  },
+  "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.": {
+    "zh": "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加持续，并提供超越课堂的支持。",
+    "ja": "OpenAI の新しいレポートでは、学生と教育者が ChatGPT をどのように使用して、教室を超えたサポートを受けて学習をより継続的に行うかを調査しています。"
+  },
+  "The Hugging Face incident and the road ahead": {
+    "zh": "抱脸事件与未来之路",
+    "ja": "ハグフェイス事件とこれからの道のり"
+  },
+  "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.": {
+    "zh": "OpenAI 分享 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
+    "ja": "OpenAI は、Hugging Face セキュリティ インシデントの調査結果と、AI モデルのセキュリティ、監視、調整を強化するために当社が講じている手順を共有します。"
+  },
+  "Bringing ChatGPT for Teachers to more U.S. school districts": {
+    "zh": "将 ChatGPT for Teachers 带到更多美国学区",
+    "ja": "教師向けの ChatGPT を米国のより多くの学区に導入"
+  },
+  "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.": {
+    "zh": "ChatGPT for Teachers 正在扩展到美国 55 个学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
+    "ja": "ChatGPT for Teachers は米国の 55 の学校システムに拡大し、安全な AI ツール、トレーニング、サポートを 100,000 人以上の教育者とスタッフに提供しています。"
+  },
+  "Intelligent transcription with Gemini 3.5 Transcribe": {
+    "zh": "使用 Gemini 3.5 转录进行智能转录",
+    "ja": "Gemini 3.5 転写によるインテリジェントな転写"
+  },
+  "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.": {
+    "zh": "现在，您可以使用 Gemini 3.5 Transcribe 获得更智能的语音到文本转录。",
+    "ja": "Gemini 3.5 Transcribe を使用すると、よりインテリジェントな音声からテキストへの文字起こしが可能になります。"
+  },
+  "Enterprise-managed settings support any default model": {
+    "zh": "企业管理的设置支持任何默认模型",
+    "ja": "エンタープライズ管理の設定は、あらゆるデフォルト モデルをサポートします"
+  },
+  "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.": {
+    "zh": "现在，您可以通过企业管理的设置将首选 GitHub Copilot 模型设置为新对话的默认模型。这使您可以选择最适合您的工作流程的默认模型。",
+    "ja": "エンタープライズ管理の設定を通じて、好みの GitHub Copilot モデルを新しい会話のデフォルトとして設定できるようになりました。これにより、ワークフローに最適なデフォルト モデルを選択できます。"
+  },
+  "Content exclusions generally available in Copilot app and CLI": {
+    "zh": "内容排除通常在 Copilot 应用程序和 CLI 中可用",
+    "ja": "Copilot アプリと CLI で一般的に利用できるコンテンツの除外"
+  },
+  "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.": {
+    "zh": "GitHub Copilot 应用程序和 Copilot CLI 现在遵循企业、组织和存储库管理员配置的内容排除策略。 Copilot 不会使用排除的文件作为上下文，帮助您跨代理工作流程保护敏感代码。",
+    "ja": "GitHub Copilot アプリと Copilot CLI は、企業、組織、およびリポジトリの管理者によって構成されたコンテンツ除外ポリシーを尊重するようになりました。 Copilot は除外されたファイルをコンテキストとして使用しないため、エージェント ワークフロー全体で機密コードを保護できます。"
+  },
+  "Updated API errors so applications can distinguish traffic that increases too quickly from temporary model overload.": {
+    "zh": "更新了 API 错误，以便应用程序可以区分增长过快的流量和临时模型过载。",
+    "ja": "API エラーを更新して、アプリケーションが急速に増加するトラフィックと一時的なモデルの過負荷を区別できるようにしました。"
+  },
+  "Updated API errors so applications can distinguish traffic that increases too quickly from temporary model overload. Traffic that increases too quickly can return a 429 error with the slow_down code.": {
+    "zh": "更新了 API 错误，以便应用程序可以区分增长过快的流量和临时模型过载。流量增长过快可能会返回带有 Slow_down 代码的 429 错误。",
+    "ja": "API エラーを更新して、アプリケーションが急速に増加するトラフィックと一時的なモデルの過負荷を区別できるようにしました。トラフィックが急激に増加すると、slow_down コードで 429 エラーが返される可能性があります。"
+  },
+  "Like Claude Fable 5, both models require 30-day data retention and aren't available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.": {
+    "zh": "与 Claude 《神鬼寓言 5》一样，这两种型号都需要 30 天的数据保留，并且在零数据保留下不可用，除非得到 Anthropic 明确授权。请参阅特定于型号的数据保留要求。",
+    "ja": "Claude Fable 5 と同様に、どちらのモデルも 30 日間のデータ保持が必要であり、Anthropic によって明示的に許可されない限り、データ保持ゼロでは使用できません。 「モデル固有のデータ保持要件」を参照してください。"
+  },
+  "thinking.display accepts a third value, \"updates\", in beta ( thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls.": {
+    "zh": "think.display 接受第三个值“updates”，处于测试版（thinking-display-updates-2026-08-18 标头）。推理返回时会出现一个空思维域，如“省略”所示，并且 Claude Fable 5.1、Claude Mythos 5.1 和 Claude Fable 5 在工具调用之间写入的短暂进度更新会以文本形式返回，最多在工具调用之前出现一个思维块。请参阅工具调用之间的进度更新。",
+    "ja": "Thinking.display はベータ版で 3 番目の値「updates」を受け入れます ( Thinking-display-updates-2026-08-18 ヘッダー)。 「省略」の下にあるように、推論は空の思考フィールドとともに返され、Claude Fable 5.1、Claude Mythos 5.1、および Claude Fable 5 がツール呼び出しの間に書き込む短い進行状況の更新が、ツール呼び出しの前に最大 1 つの思考ブロックとしてテキストとして返されます。 「ツール呼び出し間の進行状況の更新」を参照してください。"
+  },
+  "system": {
+    "zh": "系统",
+    "ja": "システム"
+  },
+  "Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can't read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models.": {
+    "zh": "由 Claude Fable 5.1 和 Claude Mythos 5.1 生成的思维块仅针对生成它们的模型或较新的模型保留：较早的模型无法读取它们，并且 API 会删除重放到较早模型的一个。 Claude Fable 5.1 接受 Claude Opus 5、Claude Fable 5、Claude Mythos 5 和早期 Claude 模型的思维块。",
+    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 によって生成された思考ブロックは、それらを生成したモデルまたは新しいモデルに対してのみ保存されます。以前のモデルはそれらを読み取ることができず、API は再生されたブロックを以前のモデルにドロップします。 Claude Fable 5.1 は、Claude Opus 5、Claude Fable 5、Claude Mythos 5、および以前の Claude モデルからの思考ブロックを受け入れます。"
+  },
+  "mid-conversation-system-clear-at-2026-08-21": {
+    "zh": "中期对话系统清除 at-2026-08-21",
+    "ja": "会話中-システムクリア-at-2026-08-21"
+  },
+  "Turn-scoped system messages are in beta ( mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don't accumulate and don't invalidate the prompt cache or later thinking blocks.": {
+    "zh": "回合范围系统消息处于测试阶段（mid-conversation-system-clear-at-2026-08-21 标头）。在对话中角色：“system”消息上设置clear_at：“next_user_message”，它仅在当前回合呈现，然后保留在历史记录中，无需令牌成本。每回合提醒不会累积，也不会使提示缓存或稍后的思考块失效。",
+    "ja": "ターンスコープのシステム メッセージはベータ版です (mid-conversation-system-clear-at-2026-08-21 ヘッダー)。会話中の role: \"system\" メッセージに clear_at: \"next_user_message\" を設定すると、現在のターンのみレンダリングされ、トークンコストなしで履歴に残ります。ターンごとのリマインダーは蓄積されず、プロンプト キャッシュや後の思考ブロックが無効になることもありません。"
+  },
+  "role: \"system\"": {
+    "zh": "角色：“系统”",
+    "ja": "役割：「システム」"
+  },
+  "Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: \"system\" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort.": {
+    "zh": "每条消息的工作量更改在 Claude Fable 5.1、Claude Mythos 5.1 和 Claude API 上的 Claude Opus 5 上处于测试阶段。添加一个角色：“system”消息，并在消息内包含output_config.effort，以更改稍后的工作量，同时保留提示缓存。在您的请求中包含 mid-conversation-output-config-2026-07-01 beta 标头。请参阅每条消息的工作量。",
+    "ja": "メッセージごとの作業量の変更は、Claude Fable 5.1、Claude Mythos 5.1、および Claude API の Claude Opus 5 でベータ版です。プロンプトのキャッシュを保持しながら、後のターンのエフォートを変更するには、メッセージ内に output_config.effort を含む role: \"system\" メッセージを追加します。リクエストにmid-conversation-output-config-2026-07-01 betaヘッダーを含めます。 「メッセージごとの労力」を参照してください。"
+  },
+  "Claude Fable 5.1": {
+    "zh": "Claude 寓言 5.1",
+    "ja": "Claude 寓話 5.1"
+  },
+  "We've launched Claude Fable 5.1 ( claude-fable-5-1 ), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 ( claude-mythos-5-1 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok.": {
+    "zh": "我们推出了 Claude Fable 5.1 ( claude-fable-5-1 )，它是 Claude Fable 5 的后继版本，用于长期运行的代理编码、知识工作和研究，同时还为 Glasswing 项目参与者推出了 Claude Mythos 5.1 ( claude-mythos-5-1 )。两种模型都默认支持 1M 令牌上下文窗口、最大 128k 输出令牌和始终在线的自适应思维，每 MTok 价格为 10 美元/50 美元，与 Claude Fable 5 相同，缓存读取削减至每 MTok 0.25 美元。",
+    "ja": "プロジェクト Glasswing 参加者向けの Claude Mythos 5.1 (claude-mythos-5-1) と並行して、長期間実行されるエージェントティック コーディング、ナレッジ ワーク、および研究向けに Claude Fable 5 の後継となる Claude Fable 5.1 ( claude-fable-5-1 ) をリリースしました。どちらのモデルも、デフォルトで 1M のトークン コンテキスト ウィンドウ、最大 128,000 の出力トークン、および常時オンの適応型思考をサポートしており、MTok あたり $10 / $50 USD (Claude Fable 5 と同じ) で、キャッシュ読み取りは MTok あたり $0.25 に削減されます。"
+  },
+  "anthropic-version": {
+    "zh": "人择版",
+    "ja": "人間版"
+  },
+  "The guides for the Claude Enterprise endpoints of the Admin API ( user management and spend limits ), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.": {
+    "zh": "管理 API（用户管理和支出限制）、Claude 企业分析 API 和合规性 API 的 Claude 企业端点的指南现在显示 anthropic-version 标头；在对这些端点的每个请求上发送它，就像在 Claude API 的其余部分中一样。请参阅 API 版本。",
+    "ja": "Admin API (ユーザー管理と支出制限)、Claude Enterprise Analytics API、および Compliance API の Claude Enterprise エンドポイントのガイドには、anthropic-version ヘッダーが表示されるようになりました。残りの Claude API と同様に、これらのエンドポイントへのリクエストごとにそれを送信します。 API バージョンを参照してください。"
+  },
+  "tool_choice": {
+    "zh": "工具选择",
+    "ja": "ツールの選択"
+  },
+  "On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren't supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs.": {
+    "zh": "在 Claude Fable 5.1 和 Claude Mythos 5.1 上，不支持 tool_choice 类型 any 和 tool 并返回 400 错误。 auto 和 none 不变。为了保证工具输入符合模式，请严格使用工具或结构化输出。",
+    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 では、tool_choice タイプ any および tools はサポートされておらず、400 エラーが返されます。 auto と none は変更されません。スキーマに準拠したツール入力を保証するには、ツールを厳密に使用するか、構造化された出力を使用します。"
+  },
+  "code execution tool": {
+    "zh": "代码执行工具",
+    "ja": "コード実行ツール"
+  },
+  "Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic's text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling.": {
+    "zh": "Claude Fable 5.1 和 Claude Mythos 5.1 生成的文本带有 Anthropic 的文本水印，并且当您通过 Claude API 上的文件 API 检索它们时，Claude 通过代码执行工具生成的受支持图像、视频和音频文件带有 C2PA 内容凭证。标记不需要更改您的请求或响应处理。",
+    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 によって生成されたテキストには Anthropic のテキスト ウォーターマークが含まれており、Claude がコード実行ツールを通じて生成するサポートされている画像、ビデオ、およびオーディオ ファイルには、Claude API のファイル API を通じて取得するときに C2PA コンテンツ資格情報が含まれます。マークを付けるには、リクエストやレスポンスの処理を変更する必要はありません。"
+  },
+  "Prompt caching pricing": {
+    "zh": "提示缓存定价",
+    "ja": "即時キャッシュの価格設定"
+  },
+  "Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See Prompt caching pricing.": {
+    "zh": "Claude Fable 5.1 和 Claude Mythos 5.1 上的提示缓存读取每百万代币成本为 0.25 美元：是基本输入价格的 0.025 倍，而其他型号为 0.1 倍。缓存写入未更改。请参阅提示缓存定价。",
+    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 でのプロンプト キャッシュ読み取りのコストは、100 万トークンあたり 0.25 米ドルです。これは、他のモデルの 0.1 倍と比較して、基本入力価格の 0.025 倍です。キャッシュ書き込みは変更されません。 「プロンプト キャッシュの料金設定」を参照してください。"
+  },
+  "Set an expiration date for individual user budgets": {
+    "zh": "为个人用户预算设置到期日期",
+    "ja": "個々のユーザーの予算に有効期限を設定する"
+  },
+  "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available.": {
+    "zh": "您现在可以为单个用户预算设置可选的到期日期，并且 GitHub 会删除该日期的预算。此功能通常可用。",
+    "ja": "個々のユーザーの予算にオプションの有効期限を設定できるようになり、GitHub によってその日付の予算が削除されます。この機能は一般提供されています。"
+  },
+  "GitHub CLI: Media in issues, pull requests, and comments": {
+    "zh": "GitHub CLI：问题、拉取请求和评论中的媒体",
+    "ja": "GitHub CLI: 問題、プルリクエスト、コメント内のメディア"
+  },
+  "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now generally available to all users on GitHub across all plans.": {
+    "zh": "GitHub CLI 现在有一个可重复的 --attach 标志，用于上传本地图像或视频并在问题、拉取请求或评论正文中内联引用它。现在，所有计划的 GitHub 上的所有用户都可以使用此功能。",
+    "ja": "GitHub CLI には、ローカルの画像またはビデオをアップロードし、問題、プル リクエスト、またはコメント本文でインラインで参照する反復可能な --attach フラグが追加されました。これは、すべてのプランの GitHub のすべてのユーザーが一般提供されるようになりました。"
+  },
+  "Copilot code review can now approve pull requests": {
+    "zh": "Copilot 代码审查现在可以批准拉取请求",
+    "ja": "Copilot コードレビューでプルリクエストを承認できるようになりました"
+  },
+  "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level.": {
+    "zh": "Copilot 现在会告诉您拉取请求何时准备好批准，并且管理员可以授权它在批准后签字。默认情况下，Copilot 的批准功能处于关闭状态，并且可以在企业、组织和存储库级别进行配置。",
+    "ja": "Copilot は、プル リクエストを承認する準備ができたことを通知し、管理者は承認時にサインオフすることを承認できるようになりました。 Copilot による承認機能はデフォルトではオフになっており、企業、組織、およびリポジトリ レベルで構成可能です。"
+  },
+  "Claude Fable 5.1 is generally available in GitHub Copilot": {
+    "zh": "Claude 《神鬼寓言 5.1》一般在 GitHub Copilot 中提供",
+    "ja": "Claude Fable 5.1 は GitHub Copilot で一般提供されています"
+  },
+  "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.": {
+    "zh": "Claude Anthropic 的《神鬼寓言 5.1》现已在 GitHub Copilot 中提供。 Anthropic Mythos 类中的最新模型 Claude Fable 5.1 专为长期、自主编码和知识工作任务而设计。",
+    "ja": "Claude Anthropic の Fable 5.1 が GitHub Copilot で利用できるようになりました。 Anthropic の Mythos クラスの最新モデルである Claude Fable 5.1 は、長期にわたる自律的なコーディングおよび知識作業タスク向けに設計されています。"
+  },
+  "Selected GitHub Copilot models deprecated": {
+    "zh": "已弃用选定的 GitHub Copilot 型号",
+    "ja": "選択された GitHub Copilot モデルは非推奨になりました"
+  },
+  "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.": {
+    "zh": "截至 2026 年 9 月 1 日，我们已在大多数 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。请注意，Claude Sonnet 4.6 仍然可供按年度计划的个人 GitHub Copilot 订户使用。",
+    "ja": "本日、2026 年 9 月 1 日の時点で、ほとんどの GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 Claude Sonnet 4.6 は、年間プランの個​​々の GitHub Copilot サブスクライバーが引き続き利用できることに注意してください。"
+  },
+  "GitHub Copilot in VS Code, August 2026 releases": {
+    "zh": "VS Code 中的 GitHub Copilot，2026 年 8 月发布",
+    "ja": "VS Code の GitHub Copilot、2026 年 8 月リリース"
+  },
+  "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations.": {
+    "zh": "此变更日志涵盖 VS Code v1.132 至 v1.135，于 2026 年 8 月发布。这些版本使组织代理会话、审查更改和导航长时间对话变得更加容易。",
+    "ja": "この変更ログには、2026 年 8 月を通じて出荷された VS Code v1.132 から v1.135 が含まれています。これらのリリースにより、エージェント セッションの編成、変更の確認、および長い会話のナビゲートが容易になります。"
+  },
+  "Copilot model access update for GitHub Team plans": {
+    "zh": "GitHub 团队计划的 Copilot 模型访问更新",
+    "ja": "GitHub チーム プランの Copilot モデル アクセスの更新"
+  },
+  "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage.": {
+    "zh": "我们更新了如何确定在多个组织中拥有席位的 Copilot 用户的模型访问权限。为了保持计费和治理同步，您的模型访问权限现在仅由为您的使用付费的组织决定。",
+    "ja": "複数の組織でシートを保持している Copilot ユーザーのモデル アクセスを決定する方法を更新しました。請求とガバナンスの同期を保つために、モデルへのアクセスは、使用料を支払っている組織によってのみ決定されるようになりました。"
+  },
+  "Gemini 3.1 Flash Image and Gemini 3 Pro Image updates": {
+    "zh": "Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像更新",
+    "ja": "Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの更新"
+  },
+  "Feature Gemini 3.1 Flash Image and Gemini 3 Pro Image updates This release introduces feature updates and expanded endpoint availability for Gemini 3.1 Flash Image and Gemini 3 Pro Image: Multi-region endpoint support: Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is now available on US ( us ) and EU ( eu ) multi-region endpoints for model availability, ML processing, Provisioned Throughput, and PayGo Standard.": {
+    "zh": "功能 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像更新 此版本引入了 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像的功能更新和扩展端点可用性：多区域端点支持：Gemini 3.1 Flash 映像 (gemini-3.1-flash-image) 现已推出在美国 ( us ) 和欧盟 ( eu ) 多区域端点上实现模型可用性、ML 处理、预配置吞吐量和 PayGo 标准。",
+    "ja": "機能 Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの更新 このリリースでは、Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの機能更新とエンドポイントの可用性の拡張が導入されています: マルチリージョン エンドポイントのサポート: Gemini 3.1 Flash イメージ ( gemini-3.1-flash-image )モデルの可用性、ML 処理、プロビジョンド スループット、PayGo Standard については、米国 ( us ) と欧州 ( eu ) のマルチリージョン エンドポイントで利用できるようになりました。"
+  },
+  "Upcoming changes to GitHub Copilot policies and billing": {
+    "zh": "GitHub Copilot 政策和计费即将发生的变化",
+    "ja": "GitHub Copilot ポリシーと請求に対する今後の変更"
+  },
+  "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.": {
+    "zh": "为了提供强大、一致的 Copilot 体验，我们即将对 Copilot 政策和计费进行三项单独的更改。请查看即将发布的更新，了解可能对您产生影响的内容。",
+    "ja": "強力で一貫した Copilot エクスペリエンスを提供するために、Copilot ポリシーと請求に対して 3 つの個別の変更を今後行う予定です。今後のアップデートを確認して、影響を受ける可能性のあるものを理解してください。"
+  },
+  "GitHub Copilot weekly releases — August 24": {
+    "zh": "GitHub Copilot 每周发布 — 8 月 24 日",
+    "ja": "GitHub Copilot 毎週のリリース — 8 月 24 日"
+  },
+  "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in Slack and Microsoft Teams Turn team conversations into shared agent sessions.": {
+    "zh": "本周的更新让您可以更好地控制 Copilot 的运行方式，从 Slack 和 Teams 中的团队会话到跨应用程序、CLI 和 IDE 的自定义。 Slack 和 Microsoft Teams 中的 GitHub Copilot 将团队对话转变为共享代理会话。",
+    "ja": "今週の更新により、Slack や Teams のチーム セッションからアプリ、CLI、IDE にわたるカスタマイズに至るまで、Copilot の実行方法をより詳細に制御できるようになります。 Slack と Microsoft Teams の GitHub Copilot チームの会話を共有エージェント セッションに変えます。"
+  },
+  "GitHub Copilot in Visual Studio — August update": {
+    "zh": "Visual Studio 中的 GitHub Copilot — 8 月更新",
+    "ja": "Visual Studio の GitHub Copilot — 8 月の更新"
+  },
+  "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.": {
+    "zh": "2026 年 8 月，对 GitHub Copilot 原因、您使用的模型、团队如何共享专业代理以及何时请求代码审查有了更多控制。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
+    "ja": "2026 年 8 月には、GitHub Copilot の理由、使用するモデル、チームが専門エージェントを共有する方法、コード レビューをいつ依頼するかについて、より詳細に制御できるようになりました。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。"
+  },
+  "client.beta.files": {
+    "zh": "客户端.beta.文件"
+  },
+  "In Python SDK 1.2.0, TypeScript SDK 0.122.0, Go SDK 1.68.0, Java SDK 2.59.0, Ruby SDK 1.67.0, and C# SDK 12.44.0, client.beta.files and client.beta.skills no longer send the files-api-2025-04-14 and skills-2025-10-02 beta headers and return the same shapes as client.files and client.skills. With this change, client.beta.skills.delete() deletes a Skill together with all of its versions, and the beta Messages type BetaSkill (the container Skill reference) is renamed BetaContainerSkill.": {
+    "zh": "在 Python SDK 1.2.0、TypeScript SDK 0.122.0、Go SDK 1.68.0、Java SDK 2.59.0、Ruby SDK 1.67.0 和 C# SDK 12.44.0 中，client.beta.files 和 client.beta.skills 不再发送 files-api-2025-04-14 和 Skills-2025-10-02 beta 标头并返回与 client.files 和 client.skills 的形状相同。通过此更改，client.beta.skills.delete() 会删除技能及其所有版本，并且 beta 消息类型 BetaSkill（容器技能引用）被重命名为 BetaContainerSkill。",
+    "ja": "Python SDK 1.2.0、TypeScript SDK 0.122.0、Go SDK 1.68.0、Java SDK 2.59.0、Ruby SDK 1.67.0、および C# SDK 12.44.0 では、client.beta.files と client.beta.skills は files-api-2025-04-14 とskill-2025-10-02 ベータ ヘッダーを作成し、client.files および client.skills と同じ形状を返します。この変更により、 client.beta.skills.delete() はスキルをそのすべてのバージョンとともに削除し、ベータ版のメッセージ タイプ BetaSkill (コンテナーのスキル参照) の名前が BetaContainerSkill に変更されました。"
+  },
+  "Copilot code review: Resolution reasons and expanded capabilities": {
+    "zh": "Copilot 代码审查：解决原因和扩展功能",
+    "ja": "Copilot コード レビュー: 解決策の理由と拡張された機能"
+  },
+  "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large pull requests Additionally, you can now submit the reason for why you’re resolving a particular Copilot code review comment.": {
+    "zh": "Copilot 代码审查现在可以审查以前未涵盖的两种类型的拉取请求： 对机器人编写的拉取请求自动请求的审查，包括 Copilot 云代理 非常大的拉取请求 此外，您现在可以提交解决特定 Copilot 代码审查评论的原因。",
+    "ja": "Copilot コード レビューでは、以前はカバーしていなかった 2 種類のプル リクエストをレビューできるようになりました。 Copilot クラウド エージェントを含む、ボットによって作成されたプル リクエストで自動的にリクエストされたレビュー 非常に大規模なプル リクエスト さらに、特定の Copilot コード レビュー コメントを解決する理由を送信できるようになりました。"
+  },
+  "Enterprise-managed settings now support autoUpdate for plugin marketplaces": {
+    "zh": "企业管理的设置现在支持插件市场的自动更新",
+    "ja": "エンタープライズ管理の設定でプラグイン マーケットプレイスの自動更新がサポートされるようになりました"
+  },
+  "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.": {
+    "zh": "现在，您可以通过在企业管理设置中的 extraKnownMarketplaces 条目上设置 autoUpdate: true 来选择单个插件市场自动更新。支持的客户端会自动检查市场并更新来自市场的已安装插件，从而减少组织自定义的手动维护。",
+    "ja": "エンタープライズ管理設定の extraKnownMarketplaces エントリで autoUpdate: true を設定することで、個々のプラグイン マーケットプレイスの自動更新を選択できるようになりました。サポートされているクライアントは自動的にマーケットプレイスをチェックし、そこから入手したインストール済みのプラグインを更新するため、組織のカスタマイズのための手動メンテナンスが軽減されます。"
+  },
+  "CodeMender updates": {
+    "zh": "CodeMender 更新",
+    "ja": "CodeMender のアップデート"
+  },
+  "Feature CodeMender updates This release introduces updates to CodeMender: Model support: Support for Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.7 Flash ( gemini-3.7-flash, default). Unrestricted verification: Added the --unrestricted flag to cm verify to bypass command policy restrictions during exploit verification in isolated environments. Bug fixes: Improved reliability of long sessions. Improved shell resolution across operating environments.": {
+    "zh": "功能 CodeMender 更新 此版本引入了 CodeMender 的更新： 模型支持：支持 Gemini 3.6 Flash (gemini-3.6-flash) 和 Gemini 3.7 Flash (gemini-3.7-flash，默认)。无限制验证：向 cm verify 添加了 --unrestricted 标志，以在隔离环境中进行漏洞利用验证时绕过命令策略限制。错误修复：提高了长时间会话的可靠性。改进了跨操作环境的 shell 分辨率。",
+    "ja": "CodeMender の更新機能 このリリースでは、CodeMender に次の更新が導入されています。 モデルのサポート: Gemini 3.6 Flash ( gemini-3.6-flash ) および Gemini 3.7 Flash ( gemini-3.7-flash 、デフォルト) のサポート。無制限の検証: 隔離された環境でのエクスプロイト検証中にコマンド ポリシー制限をバイパスするために、 --unrestricted フラグを cm verify に追加しました。バグ修正: 長時間セッションの信頼性が向上しました。オペレーティング環境全体でシェルの解像度が向上しました。"
+  },
+  "Compliance API": {
+    "zh": "合规API",
+    "ja": "コンプライアンスAPI"
+  },
+  "The Compliance API session endpoints are out of beta for Cowork and Claude Code sessions. See Retrieve session transcripts.": {
+    "zh": "Cowork 和 Claude Code 会话的合规性 API 会话端点已经过测试版。请参阅检索会话记录。",
+    "ja": "Compliance API セッション エンドポイントは、Cowork セッションおよび Claude Code セッションではベータ版ではありません。 「セッショントランスクリプトの取得」を参照してください。"
+  },
+  "Global model policy generally available": {
+    "zh": "全球模型政策普遍可用",
+    "ja": "グローバル モデル ポリシーの一般提供が開始されました"
+  },
+  "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises.": {
+    "zh": "7 月，我们宣布了针对 Copilot 商业版和 Copilot 企业版计划中普遍可用的 GitHub Copilot 型号的默认型号政策。从今天开始，我们将逐步推出该政策的执行期限至9月1日，因此针对不同企业的实施时间会有所不同。",
+    "ja": "7 月に、Copilot Business プランおよび Copilot Enterprise プランで一般提供される GitHub Copilot モデルのデフォルト モデル ポリシーを発表しました。本日より、9 月 1 日までこのポリシーの施行を段階的に展開していくため、企業ごとに異なるタイミングで発効することになります。"
+  },
+  "gpt-live-transcribe, gpt-transcribe": {
+    "zh": "gpt 实时转录、gpt 转录",
+    "ja": "gpt-live-transcribe、gpt-transcribe"
+  },
+  "Announced the deprecation of whisper-1, gpt-4o-transcribe, gpt-4o-mini-transcribe, and gpt-4o-transcribe-diarize. These models will shut down on February 26, 2027.": {
+    "zh": "宣布弃用 Whisper-1、gpt-4o-transcribe、gpt-4o-mini-transcribe 和 gpt-4o-transcribe-diarize。这些型号将于 2027 年 2 月 26 日停产。",
+    "ja": "Whisper-1、gpt-4o-transcribe、gpt-4o-mini-transcribe、および gpt-4o-transcribe-diarize の非推奨を発表しました。これらのモデルは 2027 年 2 月 26 日に終了します。"
+  },
+  "Copilot harness generally available in Copilot for JetBrains": {
+    "zh": "Copilot 线束通常在 JetBrains 的 Copilot 中提供",
+    "ja": "JetBrains の Copilot ハーネスは Copilot で一般提供されています"
+  },
+  "This update brings Copilot harness to generally availability. You also get more stable account, model, and MCP experiences.": {
+    "zh": "此更新使 Copilot 安全带全面可用。您还可以获得更稳定的帐户、模型和MCP体验。",
+    "ja": "このアップデートにより、Copilot ハーネスが一般提供されるようになります。また、より安定したアカウント、モデル、MCP エクスペリエンスも得られます。"
+  },
+  "xAI's Grok 4.6": {
+    "zh": "xAI 的 Grok 4.6",
+    "ja": "xAI の Grok 4.6"
+  },
+  "Feature xAI's Grok 4.6 Grok 4.6 is available in Preview in Model Garden.": {
+    "zh": "功能 xAI 的 Grok 4.6 Grok 4.6 已在 Model Garden 中提供预览版。",
+    "ja": "機能 xAI の Grok 4.6 Grok 4.6 は、Model Garden のプレビューで入手できます。"
+  },
+  "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API.": {
+    "zh": "计算机使用和浏览器使用工具集（computer_toolset_20260801 和 browser_toolset_20260801 ）现在可在 Google Cloud 上用于 Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5 和 Claude Opus 4.8。请求使用与 Claude API 上相同的工具条目。",
+    "ja": "コンピューター使用およびブラウザー使用のツールセット (computer_toolset_20260801 および browser_toolset_20260801 ) が、Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 の Google Cloud で利用できるようになりました。リクエストでは、Claude API と同じツール エントリを使用します。"
+  },
+  "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. To move an existing integration off the header, see Migrate from skills-2025-10-02.": {
+    "zh": "代理技能和技能 API ( /v1/skills ) 在 Claude API 上已经过测试版。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。要将现有集成移出标题，请参阅从技能迁移-2025-10-02。",
+    "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。既存の統合をヘッダーから移動するには、「スキル 2025-10-02 からの移行」を参照してください。"
+  },
+  "playground": {
+    "zh": "操场",
+    "ja": "遊び場"
+  },
+  "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.": {
+    "zh": "工作台现在是 Claude 控制台中的游乐场。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
+    "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。"
+  },
+  "CodeMender updates: Model support": {
+    "zh": "CodeMender 更新：模型支持",
+    "ja": "CodeMender の更新: モデルのサポート"
+  },
+  "Feature CodeMender updates: Model support This release introduces updates to CodeMender: Gemini 3 Flash removal: Gemini 3 Flash ( gemini-3-flash-preview ) is no longer supported as a model backend for CodeMender. CodeMender supports Gemini 3.5 Flash (default) and Gemini 3.1 Pro Preview. For more information, see Specifying the model.": {
+    "zh": "功能 CodeMender 更新：模型支持 此版本引入了 CodeMender 更新：Gemini 3 Flash 删除：Gemini 3 Flash (gemini-3-flash-preview) 不再支持作为 CodeMender 的模型后端。 CodeMender 支持 Gemini 3.5 Flash （默认）和 Gemini 3.1 专业预览版。有关详细信息，请参阅指定模型。",
+    "ja": "機能 CodeMender の更新: モデルのサポート このリリースでは、CodeMender に更新が導入されています: Gemini 3 Flash の削除: Gemini 3 Flash ( gemini-3-flash-preview ) は、CodeMender のモデル バックエンドとしてサポートされなくなりました。 CodeMender は、Gemini 3.5 Flash (デフォルト) および Gemini 3.1 Pro プレビューをサポートします。詳細については、「モデルの指定」を参照してください。"
+  },
+  "Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired": {
+    "zh": "Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用",
+    "ja": "Gemini 3.1 Flash 画像プレビューと 3 Pro 画像プレビューは廃止されました"
+  },
+  "Breaking Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired The Nano Banana preview models gemini-3.1-flash-image-preview and gemini-3-pro-image-preview have been retired and are no longer accessible. Update your code to use either gemini-3.1-flash-image or gemini-3-flash-image instead.": {
+    "zh": "重大 Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用 Nano Banana 预览模型 gemini-3.1-flash-image-preview 和 gemini-3-pro-image-preview 已停用，不再可访问。更新您的代码以使用gemini-3.1-flash-image 或gemini-3-flash-image 代替。",
+    "ja": "Gemini 3.1 Flash Image Preview および 3 Pro Image Preview の廃止 Nano Banana プレビュー モデル gemini-3.1-flash-image-preview および gemini-3-pro-image-preview は廃止され、アクセスできなくなりました。代わりに gemini-3.1-flash-image または gemini-3-flash-image を使用するようにコードを更新します。"
+  },
+  "Retirement for preview models for 2.5 Flash, 2.5 Flash-Lite, and 3.1 Flash-Lite": {
+    "zh": "2.5 Flash、2.5 Flash-Lite 和 3.1 Flash-Lite 预览模型的停用",
+    "ja": "2.5 Flash、2.5 Flash-Lite、および 3.1 Flash-Lite のプレビュー モデルの廃止"
+  },
+  "Feature Retirement for preview models for 2.5 Flash, 2.5 Flash-Lite, and 3.1 Flash-Lite The following preview model endpoints have been retired and are no longer accessible: gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-preview See Migrate to the latest Google models for information on how to migrate your project.": {
+    "zh": "2.5 Flash、2.5 Flash-Lite 和 3.1 Flash-Lite 预览模型的功能停用 以下预览模型端点已停用，无法再访问： gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-preview 请参阅迁移到最新的 Google 模型，了解有关如何迁移项目的信息。",
+    "ja": "2.5 Flash、2.5 Flash-Lite、および 3.1 Flash-Lite のプレビュー モデルの機能の廃止 次のプレビュー モデルのエンドポイントは廃止され、アクセスできなくなりました: gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-previewプロジェクトの移行方法については、最新の Google モデルへの移行をご覧ください。"
+  },
+  "Grok 4.1 models deprecation": {
+    "zh": "Grok 4.1 模型弃用",
+    "ja": "Grok 4.1 モデルの非推奨"
+  },
+  "Deprecated Grok 4.1 models deprecation The Grok 4.1 model family (including xai/grok-4.1-fast-reasoning and xai/grok-4.1-fast-non-reasoning ) on the Gemini Enterprise Agent Platform is deprecated and will be shut down on August 20, 2026. After this date, Google Agent Platform Model as a Service (MaaS) will no longer serve these models.": {
+    "zh": "已弃用的 Grok 4.1 模型 弃用 Gemini 企业代理平台上的 Grok 4.1 模型系列（包括 xai/grok-4.1-fast-reasoning 和 xai/grok-4.1-fast-non-reasoning ）已弃用，并将于 2026 年 8 月 20 日关闭。在此日期之后，Google 代理平台模型即服务 (MaaS) 将不再为这些模型提供服务。",
+    "ja": "非推奨の Grok 4.1 モデルの非推奨 Gemini Enterprise Agent Platform 上の Grok 4.1 モデル ファミリ ( xai/grok-4.1-fast-reasoning および xai/grok-4.1-fast-non-reasoning を含む) は非推奨となり、2026 年 8 月 20 日にシャットダウンされます。この日以降、Google Agent Platform Model as a Service (MaaS) はこれらのモデルを提供しなくなります。"
+  },
+  "AlphaGenome released for Gemini Enterprise Agent Platform": {
+    "zh": "AlphaGenome 为 Gemini 企业代理平台发布",
+    "ja": "AlphaGenome が Gemini Enterprise Agent Platform 用にリリースされました"
+  },
+  "Feature AlphaGenome released for Gemini Enterprise Agent Platform AlphaGenome, Google DeepMind's state-of-the-art genomics foundation model, is now available for deployment and use with Gemini Enterprise Agent Platform. Designed to decipher the functional regulatory code of the human genome, AlphaGenome analyzes large-scale DNA sequences at single-base resolution to predict how genetic variations affect molecular and biological mechanisms like gene expression, chromatin accessibility, and RNA...": {
+    "zh": "为 Gemini 企业代理平台发布的功能 AlphaGenome AlphaGenome 是 Google DeepMind 最先进的基因组学基础模型，现已可与 Gemini 企业代理平台一起部署和使用。 AlphaGenome 旨在破译人类基因组的功能调控密码，以单碱基分辨率分析大规模 DNA 序列，以预测遗传变异如何影响基因表达、染色质可及性和 RNA 等分子和生物机制……",
+    "ja": "Gemini Enterprise Agent Platform 用にリリースされた機能 AlphaGenome Google DeepMind の最先端のゲノミクス基盤モデルである AlphaGenome が、Gemini Enterprise Agent Platform で展開して使用できるようになりました。ヒトゲノムの機能制御コードを解読するように設計された AlphaGenome は、大規模な DNA 配列を 1 塩基の解像度で分析し、遺伝的変異が遺伝子発現、クロマチンへのアクセス性、RNA などの分子および生物学的メカニズムにどのような影響を与えるかを予測します..."
+  },
+  "Gemini 3.5 Flash default model for Memory Bank": {
+    "zh": "Gemini 3.5 Flash 存储库默认模型",
+    "ja": "Gemini 3.5 Flash メモリ バンクのデフォルト モデル"
+  },
+  "Feature Gemini 3.5 Flash default model for Memory Bank The default model used for Memory Bank generation is now Gemini 3.5 Flash instead of Gemini 2.5 Flash. For information, see Set up Memory Bank. Feature Semantic Governance Policies available in Public Preview Semantic governance policies and the policy engine are now available in Preview.": {
+    "zh": "功能 Gemini 3.5 Flash 存储体默认模型 用于存储体生成的默认模型现在是 Gemini 3.5 Flash 而不是 Gemini 2.5 Flash。有关信息，请参阅设置内存库。公共预览版中提供的功能语义治理策略 语义治理策略和策略引擎现已在预览版中提供。",
+    "ja": "機能 Gemini 3.5 Flash メモリ バンクのデフォルト モデル メモリ バンクの生成に使用されるデフォルト モデルは、Gemini 2.5 Flash ではなく、Gemini 3.5 Flash になりました。詳細については、「メモリ バンクのセットアップ」を参照してください。機能セマンティック ガバナンス ポリシーがパブリック プレビューで利用可能になりました。セマンティック ガバナンス ポリシーとポリシー エンジンがプレビューで利用できるようになりました。"
+  },
+  "Administrative correction to Gemini Online Inference API on Gemini Enterprise Agent Platform SLA": {
+    "zh": "对 Gemini 企业代理平台 SLA 上的 Gemini 在线推理 API 进行管理更正",
+    "ja": "Gemini Enterprise Agent Platform SLA の Gemini オンライン推論 API に対する管理上の修正"
+  },
+  "Announcement Administrative correction to Gemini Online Inference API on Gemini Enterprise Agent Platform SLA We made an administrative correction to the Gemini Online Inference API on Gemini Enterprise Agent Platform Service Level Agreement (SLA), addressing a clerical issue.": {
+    "zh": "公告 对 Gemini 企业代理平台 SLA 上的 Gemini 在线推理 API 进行了行政更正 我们对 Gemini 企业代理平台服务级别协议 (SLA) 上的 Gemini 在线推理 API 进行了行政更正，解决了文书问题。",
+    "ja": "お知らせ Gemini Enterprise Agent プラットフォーム SLA の Gemini オンライン推論 API に対する管理上の修正 Gemini Enterprise Agent プラットフォームのサービス レベル アグリーメント (SLA) 上の Gemini オンライン推論 API に管理上の修正を加え、事務的な問題に対処しました。"
+  },
+  "AI security findings in Agent Platform": {
+    "zh": "Agent Platform 中的 AI 安全发现",
+    "ja": "エージェント プラットフォームにおける AI セキュリティの調査結果"
+  },
+  "Feature AI security findings in Agent Platform Viewing AI security findings and posture management summaries in Gemini Enterprise Agent Platform is generally available. With this release, the Security dashboard introduces the Top security findings widget.": {
+    "zh": "在代理平台中提供 AI 安全结果 在 Gemini 企业代理平台中查看 AI 安全结果和状态管理摘要现已普遍可用。在此版本中，安全仪表板引入了顶级安全结果小部件。",
+    "ja": "Agent Platform での AI セキュリティの調査結果の機能 Gemini での AI セキュリティの調査結果とポスチャ管理の概要の表示 Enterprise Agent Platform は一般提供されています。このリリースでは、セキュリティ ダッシュボードにトップ セキュリティ検出結果ウィジェットが導入されました。"
+  },
+  "Supervised fine-tuning available for Gemini 3.1 Flash Lite and Gemini 3.5 Flash in Public Preview": {
+    "zh": "公共预览版中的 Gemini 3.1 Flash Lite 和 Gemini 3.5 Flash 可进行监督微调",
+    "ja": "パブリック プレビュー中の Gemini 3.1 Flash Lite および Gemini 3.5 Flash で監視付き微調整が利用可能"
+  },
+  "Change Supervised fine-tuning available for Gemini 3.1 Flash Lite and Gemini 3.5 Flash in Public Preview Supervised fine-tuning is now available for the gemini-3.1-flash-lite and gemini-3.5-flash models in Preview. Model tuning for Gemini 3.1 Flash Lite and Gemini 3.5 Flash is restricted to us-central1 and europe-west4 and tuned model serving is restricted to the us and eu multi-region endpoints. See About supervised fine-tuning for more information.": {
+    "zh": "更改公共预览版中Gemini 3.1 Flash Lite 和Gemini 3.5 Flash 的监督微调现在可用于预览版中的gemini-3.1-flash-lite 和gemini-3.5-flash 型号。 Gemini 3.1 Flash Lite 和 Gemini 3.5 Flash 的模型调整仅限于 us-central1 和 europe-west4，调整后的模型服务仅限于美国和欧盟多区域端点。有关更多信息，请参阅关于监督微调。",
+    "ja": "パブリック プレビューで監視付き微調整が Gemini 3.1 Flash Lite および Gemini 3.5 Flash で利用可能に変更 監視付き微調整がプレビューの gemini-3.1-flash-lite および gemini-3.5-flash モデルで利用できるようになりました。 Gemini 3.1 Flash Lite および Gemini 3.5 Flash のモデル チューニングは us-central1 と europe-west4 に制限され、調整されたモデルの提供は us と eu のマルチリージョン エンドポイントに制限されます。詳細については、「監視付き微調整について」を参照してください。"
+  },
+  "Agent Gateway in General Availability": {
+    "zh": "代理网关全面可用",
+    "ja": "エージェント ゲートウェイの一般提供が開始されました"
+  },
+  "Feature Agent Gateway in General Availability Agent Gateway is the networking component of the Gemini Enterprise Agent Platform ecosystem. It secures and governs connectivity for all agentic interactions, whether they occur between users and agents, agents and tools, or among agents themselves. For details, see Agent Gateway overview.": {
+    "zh": "通用可用性中的功能代理网关 代理网关是 Gemini 企业代理平台生态系统的网络组件。它保护和管理所有代理交互的连接，无论这些交互发生在用户和代理之间、代理和工具之间，还是代理本身之间。有关详细信息，请参阅代理网关概述。",
+    "ja": "一般提供の機能 Agent Gateway Agent Gateway は、Gemini Enterprise Agent Platform エコシステムのネットワーク コンポーネントです。これは、ユーザーとエージェント間、エージェントとツール間、またはエージェント同士の間で発生するかどうかに関係なく、すべてのエージェントの対話の接続を保護し、管理します。詳細については、「エージェント ゲートウェイの概要」を参照してください。"
+  },
+  "Reinforcement Learning fine-tuning is available for Gemini 3.5 Flash in Public Preview": {
+    "zh": "强化学习微调可用于公共预览版中的 Gemini 3.5 Flash",
+    "ja": "強化学習の微調整はパブリック プレビューの Gemini 3.5 Flash で利用可能です"
+  },
+  "Feature Reinforcement Learning fine-tuning is available for Gemini 3.5 Flash in Public Preview Reinforcement Learning fine-tuning is now available for the gemini-3.5-flash models in Preview. Model tuning for Gemini 3.5 Flash is restricted to us-central1 and europe-west4, and tuned model serving is restricted to the us and eu multi-region endpoints. See About reinforcement learning fine-tuning for more information.": {
+    "zh": "功能强化学习微调可用于公共预览版中的 Gemini 3.5 Flash 强化学习微调现在可用于预览版中的 gemini-3.5-flash 模型。 Gemini 3.5 Flash 的模型调整仅限于 us-central1 和 europe-west4，调整后的模型服务仅限于美国和欧盟多区域端点。有关更多信息，请参阅关于强化学习微调。",
+    "ja": "機能強化学習の微調整が、パブリック プレビューの Gemini 3.5 Flash で利用可能になりました。 強化学習の微調整が、プレビューの gemini-3.5-flash モデルで利用できるようになりました。 Gemini 3.5 Flash のモデル チューニングは us-central1 と europe-west4 に制限され、調整されたモデルの提供は us と eu のマルチリージョン エンドポイントに制限されます。詳細については、「強化学習の微調整について」を参照してください。"
   }
 }
