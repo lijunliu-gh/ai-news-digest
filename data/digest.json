@@ -3,6 +3,98 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-09-03-openai-safety-overview-gpt-6-astra",
+      "date": "2026-09-03",
+      "category": "openai",
+      "title": {
+        "zh": "安全概述：GPT-6 Astra",
+        "ja": "安全性の概要: GPT-6 アストラ",
+        "en": "Safety overview: GPT-6 Astra"
+      },
+      "summary": {
+        "zh": "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
+        "ja": "GPT-6 Astra は、当社の最も高性能で広範囲に導入されたモデルであり、当社の準備フレームワークの下でサイバーセキュリティ機能のクリティカル レベルに到達した最初のモデルです。",
+        "en": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework."
+      },
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-03-openai-daybreak-for-frontline-defenders",
+      "date": "2026-09-03",
+      "category": "openai",
+      "title": {
+        "zh": "前线捍卫者的黎明：10 亿美元保护基本服务",
+        "ja": "最前線の防御者のための夜明け: 重要なサービスの保護に 10 億ドル",
+        "en": "Daybreak for Frontline Defenders: $1B to protect essential services"
+      },
+      "summary": {
+        "zh": "OpenAI 为前线防御者引入了黎明。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
+        "ja": "OpenAI は、最前線のディフェンダー向けの Daybreak を導入します。 10 億ドルのコミットメントにより、最先端のサイバー AI、トレーニング、必須サービスへのアクセスが拡大されます。",
+        "en": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+      },
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-03-openai-changelog",
+      "date": "2026-09-03",
+      "category": "openai",
+      "title": {
+        "zh": "在响应 API 中添加了用于长时间运行 GPT-6 Astra 的新控件：",
+        "ja": "Responses API で GPT-6 Astra を使用した長時間実行作業用の新しいコントロールを追加しました。",
+        "en": "Added new controls for long-running work with GPT-6 Astra in the Responses API:"
+      },
+      "summary": {
+        "zh": "在响应 API 中添加了用于长时间运行 GPT-6 Astra 的新控件： 异步工具调用：让模型在应用程序运行函数或自定义工具时继续工作，然后在结果可用时返回结果。中途转向：在通过 WebSocket 进行响应时发送附加指令，以便模型可以包含更正或更改的要求。",
+        "ja": "Responses API で GPT-6 Astra を使用した長時間実行作業用の新しいコントロールを追加しました。 非同期ツール呼び出し: アプリケーションが関数またはカスタム ツールを実行している間もモデルが動作し続け、結果が利用可能になったときに結果を返します。ミッドターンステアリング: 応答の進行中に WebSocket 経由で追加の指示を送信することで、モデルに修正や要件の変更を組み込むことができます。",
+        "en": "Added new controls for long-running work with GPT-6 Astra in the Responses API: Async tool calling: Let the model continue working while your application runs function or custom tools, then return results as they become available. Mid-turn steering: Send additional instructions while a response is in progress over WebSockets, so the model can incorporate corrections or changing requirements."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-09-03-feature-added-new-controls-for-long-running-work-with-gpt-6-astra-in-the-responses-api",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-03-github-2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "date": "2026-09-03",
+      "category": "github",
+      "title": {
+        "zh": "即将弃用选定的 GitHub Copilot 型号",
+        "ja": "選択された GitHub Copilot モデルの今後の廃止予定",
+        "en": "Upcoming deprecation of selected GitHub Copilot models"
+      },
+      "summary": {
+        "zh": "我们将于 2026 年 10 月 2 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 代码 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5 请更新您的工作流程和集成以使用在此日期之前支持的型号。",
+        "ja": "2026 年 10 月 2 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash キミ K2.7 コード 2026-10-02 キミ K3 Claude Opus 4.7 2026-10-02 Claude Opus 5 使用するワークフローと統合を更新してください。この日付より前にサポートされていたモデル。",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date Suggested alternative Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 Code 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5 Please update your workflows and integrations to use the supported models before this date."
+      },
+      "url": "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-03-github-2026-09-03-reopening-copilot-business-and-enterprise-signups",
       "date": "2026-09-03",
       "category": "github",
@@ -20,6 +112,30 @@
       "tags": [
         "release",
         "account-management",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-03-github-2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "date": "2026-09-03",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 3.8 Flash 现在可在 GitHub Copilot 中使用",
+        "ja": "Gemini 3.8 Flash が GitHub Copilot で利用可能になりました",
+        "en": "Gemini 3.8 Flash is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 3.8 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中提供。在我们的早期测试中，Gemini 3.8 Flash 在复杂的基于终端的编码任务上表现出色，并展示了严格的验证和从可操作故障中的持久恢复。",
+        "ja": "Google の最新の Flash モデルである Gemini 3.8 Flash が GitHub Copilot で利用できるようになりました。初期のテストでは、Gemini 3.8 Flash は複雑なターミナルベースのコーディング タスクで強力にパフォーマンスを発揮し、厳密な検証と実用的な障害からの永続的な回復を実証しました。",
+        "en": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous validation and persistent recovery from actionable failures."
+      },
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -279,103 +395,6 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-09-01-github-2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "为个人用户预算设置到期日期",
-        "ja": "個々のユーザーの予算に有効期限を設定する",
-        "en": "Set an expiration date for individual user budgets"
-      },
-      "summary": {
-        "zh": "您现在可以为单个用户预算设置可选的到期日期，并且 GitHub 会删除该日期的预算。此功能通常可用。",
-        "ja": "個々のユーザーの予算にオプションの有効期限を設定できるようになり、GitHub によってその日付の予算が削除されます。この機能は一般提供されています。",
-        "en": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-01-github-2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "GitHub CLI：问题、拉取请求和评论中的媒体",
-        "ja": "GitHub CLI: 問題、プルリクエスト、コメント内のメディア",
-        "en": "GitHub CLI: Media in issues, pull requests, and comments"
-      },
-      "summary": {
-        "zh": "GitHub CLI 现在有一个可重复的 --attach 标志，用于上传本地图像或视频并在问题、拉取请求或评论正文中内联引用它。现在，所有计划的 GitHub 上的所有用户都可以使用此功能。",
-        "ja": "GitHub CLI には、ローカルの画像またはビデオをアップロードし、問題、プル リクエスト、またはコメント本文でインラインで参照する反復可能な --attach フラグが追加されました。これは、すべてのプランの GitHub のすべてのユーザーが一般提供されるようになりました。",
-        "en": "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now generally available to all users on GitHub across all plans."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-01-github-2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 代码审查现在可以批准拉取请求",
-        "ja": "Copilot コードレビューでプルリクエストを承認できるようになりました",
-        "en": "Copilot code review can now approve pull requests"
-      },
-      "summary": {
-        "zh": "Copilot 现在会告诉您拉取请求何时准备好批准，并且管理员可以授权它在批准后签字。默认情况下，Copilot 的批准功能处于关闭状态，并且可以在企业、组织和存储库级别进行配置。",
-        "ja": "Copilot は、プル リクエストを承認する準備ができたことを通知し、管理者は承認時にサインオフすることを承認できるようになりました。 Copilot による承認機能はデフォルトではオフになっており、企業、組織、およびリポジトリ レベルで構成可能です。",
-        "en": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-01-github-2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "Claude 《神鬼寓言 5.1》一般在 GitHub Copilot 中提供",
-        "ja": "Claude Fable 5.1 は GitHub Copilot で一般提供されています",
-        "en": "Claude Fable 5.1 is generally available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Anthropic 的《神鬼寓言 5.1》现已在 GitHub Copilot 中提供。 Anthropic Mythos 类中的最新模型 Claude Fable 5.1 专为长期、自主编码和知识工作任务而设计。",
-        "ja": "Claude Anthropic の Fable 5.1 が GitHub Copilot で利用できるようになりました。 Anthropic の Mythos クラスの最新モデルである Claude Fable 5.1 は、長期にわたる自律的なコーディングおよび知識作業タスク向けに設計されています。",
-        "en": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-01-anthropic-thinking-2",
@@ -694,29 +713,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-31-google-release-notes",
-      "date": "2026-08-31",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像更新",
-        "ja": "Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの更新",
-        "en": "Gemini 3.1 Flash Image and Gemini 3 Pro Image updates"
-      },
-      "summary": {
-        "zh": "功能 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像更新 此版本引入了 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像的功能更新和扩展端点可用性：多区域端点支持：Gemini 3.1 Flash 映像 (gemini-3.1-flash-image) 现已推出在美国 ( us ) 和欧盟 ( eu ) 多区域端点上实现模型可用性、ML 处理、预配置吞吐量和 PayGo 标准。",
-        "ja": "機能 Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの更新 このリリースでは、Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの機能更新とエンドポイントの可用性の拡張が導入されています: マルチリージョン エンドポイントのサポート: Gemini 3.1 Flash イメージ ( gemini-3.1-flash-image )モデルの可用性、ML 処理、プロビジョンド スループット、PayGo Standard については、米国 ( us ) と欧州 ( eu ) のマルチリージョン エンドポイントで利用できるようになりました。",
-        "en": "Feature Gemini 3.1 Flash Image and Gemini 3 Pro Image updates This release introduces feature updates and expanded endpoint availability for Gemini 3.1 Flash Image and Gemini 3 Pro Image: Multi-region endpoint support: Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is now available on US ( us ) and EU ( eu ) multi-region endpoints for model availability, ML processing, Provisioned Throughput, and PayGo Standard."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_31_2026-gemini-3-1-flash-image-and-gemini-3-pro-image-updates",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-08-31-github-2026-08-31-github-copilot-in-vs-code-august-2026-releases",
       "date": "2026-08-31",
       "category": "github",
@@ -920,29 +916,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-27-google-release-notes",
-      "date": "2026-08-27",
-      "category": "google",
-      "title": {
-        "zh": "CodeMender 更新",
-        "ja": "CodeMender のアップデート",
-        "en": "CodeMender updates"
-      },
-      "summary": {
-        "zh": "功能 CodeMender 更新 此版本引入了 CodeMender 的更新： 模型支持：支持 Gemini 3.6 Flash (gemini-3.6-flash) 和 Gemini 3.7 Flash (gemini-3.7-flash，默认)。无限制验证：向 cm verify 添加了 --unrestricted 标志，以在隔离环境中进行漏洞利用验证时绕过命令策略限制。错误修复：提高了长时间会话的可靠性。改进了跨操作环境的 shell 分辨率。",
-        "ja": "CodeMender の更新機能 このリリースでは、CodeMender に次の更新が導入されています。 モデルのサポート: Gemini 3.6 Flash ( gemini-3.6-flash ) および Gemini 3.7 Flash ( gemini-3.7-flash 、デフォルト) のサポート。無制限の検証: 隔離された環境でのエクスプロイト検証中にコマンド ポリシー制限をバイパスするために、 --unrestricted フラグを cm verify に追加しました。バグ修正: 長時間セッションの信頼性が向上しました。オペレーティング環境全体でシェルの解像度が向上しました。",
-        "en": "Feature CodeMender updates This release introduces updates to CodeMender: Model support: Support for Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.7 Flash ( gemini-3.7-flash, default). Unrestricted verification: Added the --unrestricted flag to cm verify to bypass command policy restrictions during exploit verification in isolated environments. Bug fixes: Improved reliability of long sessions. Improved shell resolution across operating environments."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_27_2026-codemender-updates",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-27-google-gemini-omni-1-1-flash-lets-you-build-with-more-control",
@@ -1358,54 +1331,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-25-github-2026-08-25-github-copilot-app-customize-tab-is-generally-available",
-      "date": "2026-08-25",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 应用程序“自定义”选项卡已全面可用",
-        "ja": "GitHub Copilot アプリの [カスタマイズ] タブが正式に利用可能になりました",
-        "en": "GitHub Copilot app Customize tab is generally available"
-      },
-      "summary": {
-        "zh": "当 GitHub Copilot 与您的团队已经依赖的工具、知识和工作流程配合使用时，它会更有用。 GitHub Copilot 应用程序中的新“自定义”选项卡将 MCP 服务器、插件、技能和画布集中到一处。",
-        "ja": "GitHub Copilot は、チームがすでに依存しているツール、知識、ワークフローと連携する場合にさらに便利です。 GitHub Copilot アプリの新しい [カスタマイズ] タブでは、MCP サーバー、プラグイン、スキル、キャンバスが 1 か所にまとめられています。",
-        "en": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place."
-      },
-      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-25-github-2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
-      "date": "2026-08-25",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 线束通常在 JetBrains 的 Copilot 中提供",
-        "ja": "JetBrains の Copilot ハーネスは Copilot で一般提供されています",
-        "en": "Copilot harness generally available in Copilot for JetBrains"
-      },
-      "summary": {
-        "zh": "此更新使 Copilot 安全带全面可用。您还可以获得更稳定的帐户、模型和MCP体验。",
-        "ja": "このアップデートにより、Copilot ハーネスが一般提供されるようになります。また、より安定したアカウント、モデル、MCP エクスペリエンスも得られます。",
-        "en": "This update brings Copilot harness to generally availability. You also get more stable account, model, and MCP experiences."
-      },
-      "url": "https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-25-anthropic-wellbeing-research-grants",
       "date": "2026-08-25",
       "category": "anthropic",
@@ -1470,54 +1395,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-21-google-release-notes",
-      "date": "2026-08-21",
-      "category": "google",
-      "title": {
-        "zh": "xAI 的 Grok 4.6",
-        "ja": "xAI の Grok 4.6",
-        "en": "xAI's Grok 4.6"
-      },
-      "summary": {
-        "zh": "功能 xAI 的 Grok 4.6 Grok 4.6 已在 Model Garden 中提供预览版。",
-        "ja": "機能 xAI の Grok 4.6 Grok 4.6 は、Model Garden のプレビューで入手できます。",
-        "en": "Feature xAI's Grok 4.6 Grok 4.6 is available in Preview in Model Garden."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_21_2026-xai-s-grok-4-6",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-21-github-2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "date": "2026-08-21",
-      "category": "github",
-      "title": {
-        "zh": "与 Microsoft Teams 中的 GitHub Copilot 共享代理工作",
-        "ja": "Microsoft Teams の GitHub Copilot によるエージェント作業の共有",
-        "en": "Shared agentic work with GitHub Copilot in Microsoft Teams"
-      },
-      "summary": {
-        "zh": "将 Microsoft Teams 讨论转变为每个人都可以看到并帮助指导的协作代理会话。在频道、话题或直接消息中提及 @GitHub 以启动 GitHub Copilot 云代理会话。",
-        "ja": "Microsoft Teams のディスカッションを、誰もが確認して指示できる共同エージェント セッションに変えます。 GitHub Copilot クラウド エージェント セッションを開始するには、チャネル、スレッド、またはダイレクト メッセージで @GitHub に言及します。",
-        "en": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session."
-      },
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -1949,29 +1826,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-18-google-release-notes",
-      "date": "2026-08-18",
-      "category": "google",
-      "title": {
-        "zh": "CodeMender 更新：模型支持",
-        "ja": "CodeMender の更新: モデルのサポート",
-        "en": "CodeMender updates: Model support"
-      },
-      "summary": {
-        "zh": "功能 CodeMender 更新：模型支持 此版本引入了 CodeMender 更新：Gemini 3 Flash 删除：Gemini 3 Flash (gemini-3-flash-preview) 不再支持作为 CodeMender 的模型后端。 CodeMender 支持 Gemini 3.5 Flash （默认）和 Gemini 3.1 专业预览版。有关详细信息，请参阅指定模型。",
-        "ja": "機能 CodeMender の更新: モデルのサポート このリリースでは、CodeMender に更新が導入されています: Gemini 3 Flash の削除: Gemini 3 Flash ( gemini-3-flash-preview ) は、CodeMender のモデル バックエンドとしてサポートされなくなりました。 CodeMender は、Gemini 3.5 Flash (デフォルト) および Gemini 3.1 Pro プレビューをサポートします。詳細については、「モデルの指定」を参照してください。",
-        "en": "Feature CodeMender updates: Model support This release introduces updates to CodeMender: Gemini 3 Flash removal: Gemini 3 Flash ( gemini-3-flash-preview ) is no longer supported as a model backend for CodeMender. CodeMender supports Gemini 3.5 Flash (default) and Gemini 3.1 Pro Preview. For more information, see Specifying the model."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_18_2026-codemender-updates-model-support",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-18-github-2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
@@ -2845,31 +2699,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-07-github-2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "date": "2026-08-07",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 代码质量不再添加 Copilot 作为审阅者",
-        "ja": "GitHub コード品質では、Copilot がレビュー担当者として追加されなくなりました",
-        "en": "GitHub Code Quality no longer adds Copilot as a reviewer"
-      },
-      "summary": {
-        "zh": "在存储库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有该规则集的存储库中，我们关闭了启用的设置。",
-        "ja": "リポジトリで GitHub コード品質を有効にしても、プル リクエストで GitHub Copilot からのコード レビューを自動的に要求するルールセットは作成されなくなりました。すでにそのルールセットがあるリポジトリでは、有効にした設定をオフにしました。",
-        "en": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled."
-      },
-      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "tags": [
-        "retired",
-        "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-07-github-2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
       "date": "2026-08-07",
       "category": "github",
@@ -2896,20 +2725,46 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-07-github-2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "id": "2026-08-07-github-2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
       "date": "2026-08-07",
       "category": "github",
       "title": {
-        "zh": "企业托管设置中的 MCP 允许名单",
-        "ja": "エンタープライズ管理設定の MCP 許可リスト",
-        "en": "MCP allowlists in enterprise managed settings"
+        "zh": "Copilot 影响仪表板添加了投资回报部分",
+        "ja": "Copilot インパクト ダッシュボードに投資収益率セクションが追加されました",
+        "en": "Copilot impact dashboard adds a return on investment section"
       },
       "summary": {
-        "zh": "企业所有者现在可以通过在企业托管设置中使用新的 allowedMcpServers 和 DeniedMcpServers 键来集中控制允许运行哪些模型上下文协议 (MCP) 服务器 GitHub Copilot 客户端。批准您的开发人员依赖的 MCP 服务器，并阻止整个企业中不受信任或不合规的服务器。",
-        "ja": "エンタープライズ所有者は、エンタープライズ管理設定の新しい allowedMcpServers キーと DeniedMcpServers キーを使用して、どのモデル コンテキスト プロトコル (MCP) サーバー GitHub Copilot クライアントの実行を許可するかを一元的に制御できるようになりました。開発者が依存する MCP サーバーを承認し、信頼できないサーバーや準拠していないサーバーを企業全体でブロックします。",
-        "en": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise."
+        "zh": "Copilot 影响仪表板现在包括一个“潜在投资回报”部分，它将您在 Copilot 上的支出与您获得的拉取请求输出联系起来。新变化两张卡根据开发人员采用 Copilot 的深度进行比较：主要从事聊天和代码完成工作的开发人员（即“被动用户”和“第一阶段”）与代理优先的开发人员（即“第二阶段”和“阶段 3”）。",
+        "ja": "Copilot インパクト ダッシュボードには、Copilot に費やした金額と返されるプル リクエストの出力を結び付ける「潜在的な投資収益率」セクションが追加されました。新機能 2 つのカードは、Copilot をどの程度深く採用しているかによって開発者を比較しています。主にチャットとコード補完に取り組んでいる開発者 (つまり、「パッシブ ユーザー」と「フェーズ 1」) と、エージェントファーストの開発者 (つまり、「フェーズ 2」と「フェーズ 3」) です。",
+        "en": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”)."
       },
-      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查工作级别通常可用",
+        "ja": "Copilot コード レビュー作業レベルが一般提供されました",
+        "en": "Copilot code review effort levels are generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot 代码审查的精简和平衡工作级别现已普遍可用。它们使您可以将审查的深度与拉取请求的复杂性和风险相匹配。",
+        "ja": "GitHub Copilot コード レビューのライトおよびバランスのとれた作業レベルが一般提供されるようになりました。これにより、レビューの深さをプル リクエストの複雑さとリスクに合わせることができます。",
+        "en": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
       "tags": [
         "release",
         "copilot",
@@ -3099,30 +2954,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-06-github-2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "date": "2026-08-06",
-      "category": "github",
-      "title": {
-        "zh": "Kimi K3 现已在 GitHub Copilot 中上市",
-        "ja": "キミ K3 が GitHub Copilot で利用可能になりました",
-        "en": "Kimi K3 is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 8 月 6 日）：我们已在 GitHub Copilot 中恢复推出 Kimi K3。此模型按照基于使用量的计费的提供商清单定价进行计费。",
-        "ja": "編集者注記 (2026 年 8 月 6 日): GitHub Copilot で Kim K3 のロールアウトを再開しました。このモデルは、使用量ベースの請求に基づいてプロバイダー リストの価格で請求されます。",
-        "en": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing."
-      },
-      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-05-openai-changelog",
       "date": "2026-08-05",
       "category": "openai",
@@ -3265,56 +3096,6 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "github.com 上即将弃用 GitHub Spark",
-        "ja": "GitHub Spark の今後の非推奨 (github.com)",
-        "en": "Upcoming deprecation of GitHub Spark on github.com"
-      },
-      "summary": {
-        "zh": "从 2026 年 8 月 4 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。",
-        "ja": "2026 年 8 月 4 日以降、GitHub Spark は新規ユーザーの受け入れ、または新規アプリの作成を許可しなくなりました。既存のユーザーは、2026 年 8 月 31 日まで引き続き GitHub Spark にアクセスし、作成済みのアプリをエクスポートできます。",
-        "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "tags": [
-        "retired",
-        "copilot",
-        "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-retiring-the-copilot-billing-preview-app",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "停用 Copilot 计费预览应用程序",
-        "ja": "Copilot Billing Preview アプリの廃止",
-        "en": "Retiring the Copilot Billing Preview app"
-      },
-      "summary": {
-        "zh": "我们已停用 GitHub Copilot 计费预览应用程序，并且不再可用。您可以直接在 GitHub 结算设置中查看和管理您的 Copilot 支出。",
-        "ja": "GitHub Copilot Billing Preview アプリは廃止され、利用できなくなりました。 Copilot の支出は、GitHub の請求設定で直接確認および管理できます。",
-        "en": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-      "tags": [
-        "retired",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
@@ -3823,54 +3604,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-30-github-2026-07-30-stacked-pull-requests-are-now-in-public-preview",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "堆叠拉取请求现已提供公共预览版",
-        "ja": "スタックされたプルリクエストはパブリックプレビュー中です",
-        "en": "Stacked pull requests are now in public preview"
-      },
-      "summary": {
-        "zh": "堆叠的拉取请求将大的更改分解为小的、可审查的拉取请求。它们是一系列有序的拉取请求，每个拉取请求都代表变更的重点层。",
-        "ja": "スタックされたプル リクエストは、大きな変更をレビュー可能な小さなプル リクエストに分割します。これらは順序付けられた一連のプル リクエストであり、それぞれが変更の焦点を当てたレイヤーを表します。",
-        "en": "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-limit-remote-control-to-managed-devices",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "限制对托管设备的远程控制",
-        "ja": "リモート制御を管理対象デバイスに限定する",
-        "en": "Limit remote control to managed devices"
-      },
-      "summary": {
-        "zh": "企业和组织现在可以限制哪些设备有资格托管远程控制的 Copilot 会话，从而使管理员可以对允许远程控制访问的位置进行细粒度控制。新的remoteControl企业托管设置使管理员能够准确定义远程控制在托管设备上的工作方式，无论这意味着需要特定组织的SSO授权还是基于每个设备定制访问权限。",
-        "ja": "企業や組織は、リモート制御された Copilot セッションをホストできるデバイスを制限できるようになり、管理者はリモート制御アクセスを許可する場所をきめ細かく制御できるようになりました。新しい RemoteControl エンタープライズ管理設定により、管理者は、特定の組織に SSO 認証を要求するか、デバイスごとにアクセスを調整するかにかかわらず、管理対象デバイス上でリモート コントロールがどのように機能するかを正確に定義できるようになります。",
-        "en": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-30-github-2026-07-30-github-models-is-now-retired",
       "date": "2026-07-30",
       "category": "github",
@@ -3888,54 +3621,6 @@
       "tags": [
         "retired",
         "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-july-update",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio 中的 GitHub Copilot — 7 月更新",
-        "ja": "Visual Studio の GitHub Copilot — 7 月の更新",
-        "en": "GitHub Copilot in Visual Studio — July update"
-      },
-      "summary": {
-        "zh": "2026 年 7 月带来了基于 Copilot SDK 的新代理、来自.NET 和 Azure 团队的内置专业知识，以及更多根据您和您的团队的工作方式定制 GitHub Copilot 的方法。亮点 以下是 Visual Studio 2026 中 GitHub Copilot 的新增功能。",
-        "ja": "2026 年 7 月には、Copilot SDK に基づく新しいエージェント、.NET チームと Azure チームからの組み込み専門知識、およびユーザーとチームの作業方法に合わせて GitHub Copilot を調整するためのさらなる方法が導入されました。ハイライト Visual Studio 2026 の GitHub Copilot の新機能は次のとおりです。",
-        "en": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布",
-        "ja": "Visual Studio Code、2026 年 7 月リリースの GitHub Copilot",
-        "en": "GitHub Copilot in Visual Studio Code, July 2026 releases"
-      },
-      "summary": {
-        "zh": "此变更日志涵盖 VS Code v1.127 至 v1.131，于 2026 年 7 月发布。这些版本改进了您与代理合作、查看更改、使用聊天和导航 VS Code 的方式。",
-        "ja": "この変更ログは、2026 年 7 月を通じて出荷された VS Code v1.127 から v1.131 を対象としています。これらのリリースにより、エージェントとの連携、変更の確認、チャットの使用、および VS Code の操作方法が改善されます。",
-        "en": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -4073,54 +3758,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-29-github-2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
-      "date": "2026-07-29",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 商业和企业的默认模型启用",
-        "ja": "Copilot Business および Enterprise のデフォルト モデルの有効化",
-        "en": "Default model enablement for Copilot Business and Enterprise"
-      },
-      "summary": {
-        "zh": "我们正在为 Copilot 商业版和 Copilot 企业版计划中普遍可用的 Copilot 型号引入全球默认启用策略。不再要求管理员在每个新模型发布时手动打开它，而是普遍可用的模型现在将默认打开。",
-        "ja": "Copilot Business プランおよび Copilot Enterprise プランで一般提供されている Copilot モデルに対して、グローバルなデフォルト有効化ポリシーを導入します。新しいモデルが出荷されるたびに管理者が手動でオンにする必要がなく、一般提供されるモデルはデフォルトでオンになるようになりました。",
-        "en": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default."
-      },
-      "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-29-github-2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
-      "date": "2026-07-29",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 代码审查：代理技能和 MCP 现已普遍可用",
-        "ja": "Copilot コード レビュー: エージェント スキルと MCP が一般公開されました",
-        "en": "Copilot code review: Agent skills and MCP now generally available"
-      },
-      "summary": {
-        "zh": "对代理技能和 MCP 服务器的 Copilot 代码审查支持现已普遍适用于所有 Copilot Pro、Pro+、Business 和 Enterprise 用户。这些功能之前已在公共预览版中宣布，可让您将团队的工具、标准和外部上下文直接带入每次代码审查中。",
-        "ja": "エージェント スキルと MCP サーバーの Copilot コード レビュー サポートが、すべての Copilot Pro、Pro+、Business、および Enterprise ユーザーに一般提供されるようになりました。以前にパブリック プレビューで発表されたこれらの機能により、チームのツール、標準、外部コンテキストをすべてのコード レビューに直接取り込むことができます。",
-        "en": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities let you bring your team’s tools, standards, and external context directly into every code review."
-      },
-      "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-28-openai-scientific-computing-agentic-ai",
@@ -5279,29 +4916,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-17-google-release-notes",
-      "date": "2026-07-17",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用",
-        "ja": "Gemini 3.1 Flash 画像プレビューと 3 Pro 画像プレビューは廃止されました",
-        "en": "Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired"
-      },
-      "summary": {
-        "zh": "重大 Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用 Nano Banana 预览模型 gemini-3.1-flash-image-preview 和 gemini-3-pro-image-preview 已停用，不再可访问。更新您的代码以使用gemini-3.1-flash-image 或gemini-3-flash-image 代替。",
-        "ja": "Gemini 3.1 Flash Image Preview および 3 Pro Image Preview の廃止 Nano Banana プレビュー モデル gemini-3.1-flash-image-preview および gemini-3-pro-image-preview は廃止され、アクセスできなくなりました。代わりに gemini-3.1-flash-image または gemini-3-flash-image を使用するようにコードを更新します。",
-        "en": "Breaking Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired The Nano Banana preview models gemini-3.1-flash-image-preview and gemini-3-pro-image-preview have been retired and are no longer accessible. Update your code to use either gemini-3.1-flash-image or gemini-3-flash-image instead."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#July_17_2026-gemini-3-1-flash-image-preview-and-3-pro-image-preview-are-retired",
-      "tags": [
-        "breaking",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-07-17-google-introducing-gemini-3-5-flash-cyber",
       "date": "2026-07-17",
       "category": "google",
@@ -5675,31 +5289,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-07-14-github-2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "date": "2026-07-14",
-      "category": "github",
-      "title": {
-        "zh": "安全审查现已在 GitHub Copilot 应用程序中提供",
-        "ja": "GitHub Copilot アプリでセキュリティ レビューが利用可能になりました",
-        "en": "Security reviews now available in the GitHub Copilot app"
-      },
-      "summary": {
-        "zh": "现在，您可以直接从 GitHub Copilot 应用程序对正在进行的代码更改进行安全审查。 /security-review 斜线命令以公共预览版形式发布，将 Copilot CLI 中已有的相同人工智能驱动的漏洞扫描引入您的日常编码工作流程中。",
-        "ja": "GitHub Copilot アプリから直接、実行中のコード変更に対するセキュリティ レビューを実行できるようになりました。 /security-review スラッシュ コマンドはパブリック プレビューで出荷されており、Copilot CLI ですでに利用可能なものと同じ AI 主導の脆弱性スキャンを日常のコーディング ワークフローに導入します。",
-        "en": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "tags": [
-        "improvement",
-        "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-14-github-2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
       "date": "2026-07-14",
       "category": "github",
@@ -5788,31 +5377,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-13-github-2026-07-13-github-code-quality-license-estimate-in-public-preview",
-      "date": "2026-07-13",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 公共预览版中的代码质量许可证估算",
-        "ja": "GitHub パブリック プレビュー中のコード品質ライセンスの見積もり",
-        "en": "GitHub Code Quality license estimate in public preview"
-      },
-      "summary": {
-        "zh": "现在，您可以在整个企业中使用 GitHub Code Quality 查看存储库上的活跃提交者数量，从而在 2026 年 7 月 20 日成为付费产品之前估算您的 Code Quality 许可证成本。Code Quality 在公共预览期间是免费的，因此今天不收取此使用费。",
-        "ja": "企業全体で GitHub コード品質を使用しているリポジトリ上のアクティブなコミッターの数を確認できるようになり、2026 年 7 月 20 日に有料製品になる前にコード品質のライセンス コストを見積もることができます。 コード品質はパブリック プレビュー中は無料であるため、この使用量は現在請求されません。",
-        "en": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it becomes a paid product on July 20, 2026. Code Quality is free during the public preview, so this usage isn’t billed today."
-      },
-      "url": "https://github.blog/changelog/2026-07-13-github-code-quality-license-estimate-in-public-preview",
-      "tags": [
-        "release",
-        "account-management",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-10-openai-deutsche-telekom",
@@ -6023,29 +5587,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-09-google-release-notes",
-      "date": "2026-07-09",
-      "category": "google",
-      "title": {
-        "zh": "2.5 Flash、2.5 Flash-Lite 和 3.1 Flash-Lite 预览模型的停用",
-        "ja": "2.5 Flash、2.5 Flash-Lite、および 3.1 Flash-Lite のプレビュー モデルの廃止",
-        "en": "Retirement for preview models for 2.5 Flash, 2.5 Flash-Lite, and 3.1 Flash-Lite"
-      },
-      "summary": {
-        "zh": "2.5 Flash、2.5 Flash-Lite 和 3.1 Flash-Lite 预览模型的功能停用 以下预览模型端点已停用，无法再访问： gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-preview 请参阅迁移到最新的 Google 模型，了解有关如何迁移项目的信息。",
-        "ja": "2.5 Flash、2.5 Flash-Lite、および 3.1 Flash-Lite のプレビュー モデルの機能の廃止 次のプレビュー モデルのエンドポイントは廃止され、アクセスできなくなりました: gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-previewプロジェクトの移行方法については、最新の Google モデルへの移行をご覧ください。",
-        "en": "Feature Retirement for preview models for 2.5 Flash, 2.5 Flash-Lite, and 3.1 Flash-Lite The following preview model endpoints have been retired and are no longer accessible: gemini-2.5-flash-lite-preview-09-2025 gemini-2.5-flash-preview-05-2025 gemini-3.1-flash-lite-preview See Migrate to the latest Google models for information on how to migrate your project."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#July_09_2026-retirement-for-preview-models-for-2-5-flash-2-5-flash-lite-and-3-1-flash-lite",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-07-09-github-2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -6292,77 +5833,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-08-google-release-notes",
-      "date": "2026-07-08",
-      "category": "google",
-      "title": {
-        "zh": "Grok 4.1 模型弃用",
-        "ja": "Grok 4.1 モデルの非推奨",
-        "en": "Grok 4.1 models deprecation"
-      },
-      "summary": {
-        "zh": "已弃用的 Grok 4.1 模型 弃用 Gemini 企业代理平台上的 Grok 4.1 模型系列（包括 xai/grok-4.1-fast-reasoning 和 xai/grok-4.1-fast-non-reasoning ）已弃用，并将于 2026 年 8 月 20 日关闭。在此日期之后，Google 代理平台模型即服务 (MaaS) 将不再为这些模型提供服务。",
-        "ja": "非推奨の Grok 4.1 モデルの非推奨 Gemini Enterprise Agent Platform 上の Grok 4.1 モデル ファミリ ( xai/grok-4.1-fast-reasoning および xai/grok-4.1-fast-non-reasoning を含む) は非推奨となり、2026 年 8 月 20 日にシャットダウンされます。この日以降、Google Agent Platform Model as a Service (MaaS) はこれらのモデルを提供しなくなります。",
-        "en": "Deprecated Grok 4.1 models deprecation The Grok 4.1 model family (including xai/grok-4.1-fast-reasoning and xai/grok-4.1-fast-non-reasoning ) on the Gemini Enterprise Agent Platform is deprecated and will be shut down on August 20, 2026. After this date, Google Agent Platform Model as a Service (MaaS) will no longer serve these models."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#July_08_2026-grok-4-1-models-deprecation",
-      "tags": [
-        "deprecated",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
-        "ja": "GitHub モバイル: Copilot CLI セッションのライブ通知",
-        "en": "GitHub Mobile: Live notifications for Copilot CLI sessions"
-      },
-      "summary": {
-        "zh": "GitHub Mobile 上的实时编码代理通知现在支持远程 Copilot CLI 会话，从而可以更轻松地与在 GitHub Mobile 之外启动的代理工作保持连接。当 Copilot CLI 会话远程运行时，GitHub Mobile 可以直接在您的手机上显示实时更新，以便您可以跟踪进度、了解代理何时需要您的输入，并在需要时跳回会话。",
-        "ja": "GitHub Mobile でのライブ コーディング エージェント通知は、リモート Copilot CLI セッションをサポートするようになり、GitHub Mobile の外部で開始されるエージェントの作業に簡単に接続できるようになりました。 Copilot CLI セッションがリモートで実行されている場合、GitHub Mobile はリアルタイムの更新を電話機に直接表示できるため、進行状況を追跡し、エージェントがいつ入力を必要とするかを把握し、必要に応じてセッションに戻ることができます。",
-        "en": "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Mobile：修复与 Copilot 云代理的合并冲突",
-        "ja": "GitHub モバイル: Copilot クラウド エージェントとのマージ競合を修正",
-        "en": "GitHub Mobile: Fix merge conflicts with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "GitHub Mobile 现在支持修复与 Copilot 云代理的拉取请求合并冲突，让您在旅途中更轻松地解锁拉取请求。当拉取请求存在合并冲突时，您现在可以直接从移动设备上的拉取请求合并框启动 Copilot 工作流程。",
-        "ja": "GitHub モバイルは、Copilot クラウド エージェントとのプル リクエストのマージ競合の修正をサポートするようになり、外出中でもプル リクエストのブロックを簡単に解除できるようになりました。プル リクエストにマージ競合がある場合、モバイル上のプル リクエスト マージ ボックスから直接 Copilot ワークフローを開始できるようになりました。",
-        "en": "GitHub Mobile now supports fixing pull request merge conflicts with Copilot cloud agent, making it easier to unblock pull requests while you’re on the go. When a pull request has merge conflicts, you can now start the Copilot workflow directly from the pull request merge box on mobile."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-08-github-2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
       "date": "2026-07-08",
       "category": "github",
@@ -6430,80 +5900,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "Kimi K2.7 现已适用于 Copilot 商业和企业",
-        "ja": "Kim K2.7 が Copilot Business および Enterprise で利用可能になりました",
-        "en": "Kimi K2.7 now available for Copilot Business and Enterprise"
-      },
-      "summary": {
-        "zh": "2026 年 7 月 1 日，我们宣布 Kimi K2.7 将适用于 Copilot Pro、Pro+ 和 Max 计划。该模型现在还适用于 Copilot 商业版和 Copilot 企业版计划。",
-        "ja": "2026 年 7 月 1 日に、Copilot Pro、Pro+、および Max プランで Kim K2.7 が利用可能になると発表しました。このモデルは、Copilot Business プランと Copilot Enterprise プランでも追加で利用できるようになりました。",
-        "en": "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise plans."
-      },
-      "url": "https://github.blog/changelog/2026-07-07-kimi-k2-7-now-available-for-copilot-business-and-enterprise",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "Codex 作为代理提供商和 JetBrains IDE 中的代理增强功能",
-        "ja": "エージェントプロバイダーとしての Codex と JetBrains IDE のエージェントの機能強化",
-        "en": "Codex as agent provider and agentic enhancements in JetBrains IDEs"
-      },
-      "summary": {
-        "zh": "此更新将 Codex 作为公共预览版中的新代理提供程序引入，通过 Hooks 支持和更丰富的 MCP 服务器管理扩展了自定义编辑器，并引入了由 GitHub Copilot 业务和企业管理员配置的自定义模型支持。它还添加了 Copilot CLI 会话的审批设置、权限模式选择和对 Claude 代理的调试日志支持，并使内联聊天全面可用，同时还进行了一系列性能和可靠性改进。",
-        "ja": "この更新では、パブリック プレビューの新しいエージェント プロバイダーとして Codex が導入され、フック サポートとより充実した MCP サーバー管理を備えたカスタマイズ エディターが拡張され、GitHub Copilot Business および Enterprise 管理者によって構成されたカスタム モデル サポートが導入されています。また、Copilot CLI セッションの承認設定、Claude エージェントの権限モード選択およびデバッグ ログのサポートが追加され、一連のパフォーマンスと信頼性の向上とともにインライン チャットが一般提供されます。",
-        "en": "This update brings Codex as a new agent provider in public preview, expands the Customizations editor with Hooks support and richer MCP server management, and introduces custom model support configured by GitHub Copilot Business and Enterprise administrators. It also adds approval settings for Copilot CLI sessions, permission modes selection and debug logs support for the Claude agent, and takes Inline Chat to general availability, alongside a set of performance and reliability improvements."
-      },
-      "url": "https://github.blog/changelog/2026-07-07-codex-as-agent-provider-and-agentic-enhancements-in-jetbrains-ides",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "在使用 API 中添加审核周期和采用阶段的时间",
-        "ja": "使用状況 API にレビュー サイクルと導入フェーズまでの時間を追加する",
-        "en": "Add review cycles and time to adoption phases in the usage API"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标 API 现在为每个 AI 采用阶段报告两个额外的代码审查速度指标，扩展了企业和组织报告中可用的采用阶段群组字段。除了现有的每阶段合并时间和合并计数之外，您现在还可以比较拉取请求的审核速度以及它们在采用队列中占用的审核周期。",
-        "ja": "Copilot 使用状況メトリクス API は、AI 導入フェーズごとに 2 つの追加のコードレビュー速度メトリクスを報告するようになり、企業および組織のレポートで利用できる導入フェーズ コホート フィールドを拡張します。既存のフェーズごとのマージ時間とマージ数に加えて、プル リクエストのレビュー速度と導入コホート全体でのレビュー サイクルの数を比較できるようになりました。",
-        "en": "The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports. Alongside the existing per-phase merge time and merge counts, you can now compare how quickly pull requests are reviewed and how many review cycles they take across your adoption cohorts."
-      },
-      "url": "https://github.blog/changelog/2026-07-07-add-review-cycles-and-time-to-adoption-phases-in-the-usage-api",
-      "tags": [
-        "improvement",
-        "account-management",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -6601,31 +5997,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-07-github-2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
-      "date": "2026-07-07",
-      "category": "github",
-      "title": {
-        "zh": "计费 UI 中成本中心的每用户预算",
-        "ja": "請求 UI のコストセンターのユーザーごとの予算",
-        "en": "Per-user budgets for cost centers in the billing UI"
-      },
-      "summary": {
-        "zh": "企业管理员现在可以直接在管理成本中心和预算的计费 UI 中创建成本中心用户级预算。此功能适用于 GitHub 企业云。",
-        "ja": "企業管理者は、コスト センターと予算を管理する請求 UI でコスト センターのユーザー レベルの予算を直接作成できるようになりました。この機能は GitHub Enterprise Cloud で利用できます。",
-        "en": "Enterprise admins can now create cost center user-level budgets directly in the billing UI where you manage cost centers and budgets. This feature is available for GitHub Enterprise Cloud."
-      },
-      "url": "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-07-github-2026-07-07-github-copilot-app-available-to-all",
       "date": "2026-07-07",
       "category": "github",
@@ -6699,29 +6070,6 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-06-google-release-notes",
-      "date": "2026-07-06",
-      "category": "google",
-      "title": {
-        "zh": "AlphaGenome 为 Gemini 企业代理平台发布",
-        "ja": "AlphaGenome が Gemini Enterprise Agent Platform 用にリリースされました",
-        "en": "AlphaGenome released for Gemini Enterprise Agent Platform"
-      },
-      "summary": {
-        "zh": "为 Gemini 企业代理平台发布的功能 AlphaGenome AlphaGenome 是 Google DeepMind 最先进的基因组学基础模型，现已可与 Gemini 企业代理平台一起部署和使用。 AlphaGenome 旨在破译人类基因组的功能调控密码，以单碱基分辨率分析大规模 DNA 序列，以预测遗传变异如何影响基因表达、染色质可及性和 RNA 等分子和生物机制……",
-        "ja": "Gemini Enterprise Agent Platform 用にリリースされた機能 AlphaGenome Google DeepMind の最先端のゲノミクス基盤モデルである AlphaGenome が、Gemini Enterprise Agent Platform で展開して使用できるようになりました。ヒトゲノムの機能制御コードを解読するように設計された AlphaGenome は、大規模な DNA 配列を 1 塩基の解像度で分析し、遺伝的変異が遺伝子発現、クロマチンへのアクセス性、RNA などの分子および生物学的メカニズムにどのような影響を与えるかを予測します...",
-        "en": "Feature AlphaGenome released for Gemini Enterprise Agent Platform AlphaGenome, Google DeepMind's state-of-the-art genomics foundation model, is now available for deployment and use with Gemini Enterprise Agent Platform. Designed to decipher the functional regulatory code of the human genome, AlphaGenome analyzes large-scale DNA sequences at single-base resolution to predict how genetic variations affect molecular and biological mechanisms like gene expression, chromatin accessibility, and RNA..."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#July_06_2026-alphagenome-released-for-gemini-enterprise-agent-platform",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-07-06-anthropic-alberta-government-claude-cybersecurity",
@@ -8214,32 +7562,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-19-github-2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
-      "date": "2026-06-19",
-      "category": "github",
-      "title": {
-        "zh": "现在在 Copilot 使用指标 API 中每个用户消耗的 AI 积分",
-        "ja": "ユーザーごとに消費される AI クレジットが Copilot 使用状況メトリクス API に追加されました",
-        "en": "AI credits consumed per user now in the Copilot usage metrics API"
-      },
-      "summary": {
-        "zh": "Copilot 使用指标 API 现在报告每个用户每天消耗的 AI 积分数，这些积分源自基于使用情况的计费 API 中使用的相同 AI 积分消耗数据。新功能 现在，用户级别报告中为每个用户添加了一个新的 ai_credits_used 字段，并指示用户消耗的总 AI 积分。",
-        "ja": "Copilot 使用状況メトリクス API は、使用量ベースの請求 API で使用されるのと同じ AI クレジット消費データから導出された、各ユーザーが 1 日に消費した AI クレジット数を報告するようになりました。新機能 新しい ai_credits_used フィールドがユーザー レベルのレポートに各ユーザーに含まれるようになり、ユーザーが消費した AI クレジットの合計を示します。",
-        "en": "The Copilot usage metrics API now reports how many AI credits each user consumed per day, derived from the same AI credits consumption data used in the usage-based billing API. What’s new A new ai_credits_used field is now included for each user in the user-level reports and indicates the total AI credits a user consumed."
-      },
-      "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-openai-improving-health-intelligence-in-chatgpt",
       "date": "2026-06-18",
       "category": "openai",
@@ -8307,30 +7629,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-06-18-github-2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "Opus 4.6 即将弃用（快速）",
-        "ja": "Opus 4.6 (高速) の今後の非推奨",
-        "en": "Upcoming deprecation of Opus 4.6 (fast)"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 6 月 29 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用 Opus 4.6（快速）： 模型弃用日期 建议替代 Opus 4.6（快速） 2026 年 6 月 29 日 Opus 4.8（快速） 请将您的工作流程和集成更新为在这些日期之前使用受支持的型号。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
-        "ja": "2026 年 6 月 29 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、およびコード補完を含む) で Opus 4.6 (高速) を非推奨にします。 モデルの非推奨日 推奨される代替品 Opus 4.6 (高速) 2026 年 6 月 29 日 Opus 4.8 (高速) を更新してください。これらの日付より前にサポートされているモデルを使用するには、ワークフローと統合が必要です。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
-        "en": "We will deprecate Opus 4.6 (fast) across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on June 29th, 2026: Model Deprecation date Suggested alternative Opus 4.6 (fast) 6-29-2026 Opus 4.8 (fast) Please update your workflows and integrations to use the supported model before these dates. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-github-2026-06-18-safer-pull-request-target-defaults-for-github-actions-checkout",
       "date": "2026-06-18",
       "category": "github",
@@ -8356,30 +7654,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-06-18-github-2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1-Flash 可用于更多 Copilot 表面",
-        "ja": "MAI-Code-1-Flash は、より多くの Copilot サーフェスで利用可能です",
-        "en": "MAI-Code-1-Flash available on more Copilot surfaces"
-      },
-      "summary": {
-        "zh": "MAI‑Code‑1‑Flash 是 Microsoft 专门构建的小型编码模型，现在可在其他 GitHub Copilot 表面上使用。 MAI‑Code‑1‑Flash 现在可用于： Copilot CLI Copilot 云代理 GitHub Copilot 应用程序 Copilot 在 GitHub Visual Studio GitHub 移动 JetBrains IDE Eclipse Xcode 上聊天 编者注：以上列表于 2026 年 6 月 24 日更新，包括Copilot 云代理。",
-        "ja": "Microsoft の専用の小規模コーディング モデルである MAI‑Code‑1‑Flash が、追加の GitHub Copilot サーフェスで利用できるようになりました。 MAI‑Code‑1‑Flash は以下で使用できるようになりました: Copilot CLI Copilot クラウド エージェント GitHub Copilot アプリ Copilot GitHub でのチャット Visual Studio GitHub Mobile JetBrains IDE Eclipse Xcode エディターの注: 上記のリストは 6 月 24 日に更新されました。 2026 年、Copilot クラウド エージェントを含めます。",
-        "en": "MAI‑Code‑1‑Flash, Microsoft’s purpose‑built small coding model, is now available across additional GitHub Copilot surfaces. MAI‑Code‑1‑Flash can now be used in: Copilot CLI Copilot cloud agent GitHub Copilot app Copilot Chat on GitHub Visual Studio GitHub Mobile JetBrains IDEs Eclipse Xcode Editor’s note: The above list was updated on June 24, 2026, to include Copilot cloud agent."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-18-github-2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
       "date": "2026-06-18",
       "category": "github",
@@ -8396,80 +7670,6 @@
       "url": "https://github.blog/changelog/2026-06-18-generated-release-notes-credit-you-for-copilot-pull-requests",
       "tags": [
         "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-18-github-2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "检测重复问题 – 公共预览和问题字段 MCP 支持 GitHub 问题",
-        "ja": "重複する問題の検出 – パブリック プレビューおよび問題フィールド GitHub 問題の MCP サポート",
-        "en": "Detecting Duplicate Issues – Public Preview and issue fields MCP support for GitHub Issues"
-      },
-      "summary": {
-        "zh": "重复问题是维护人员最大的时间消耗之一：以多种方式对同一错误进行分类、关闭重复问题并链接回原始问题。对于大型存储库，这每周可能需要花费几个小时。",
-        "ja": "重複した問題は、メンテナーにとって最大の時間を浪費するものの 1 つです。複数の方法でファイルされた同じバグを優先順位付けし、重複を閉じ、元のバグにリンクし直す必要があります。大規模なリポジトリの場合、これには毎週数時間かかる場合があります。",
-        "en": "Duplicate issues are one of the biggest time sinks for maintainers: triaging the same bug filed multiple ways, closing duplicates, and linking back to the original. For large repositories, this can take up hours every week."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-duplicate-detection-and-issue-fields-mcp-support-for-github-issues",
-      "tags": [
-        "release",
-        "projects-issues",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-18-github-2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 代码审查：AGENTS.md 支持和 UI 改进",
-        "ja": "Copilot コード レビュー: AGENTS.md のサポートと UI の改善",
-        "en": "Copilot code review: AGENTS.md support and UI improvements"
-      },
-      "summary": {
-        "zh": "Copilot 代码审查现在支持存储库级别的 AGENTS.md 文件，并且可以更轻松地使用“请求”按钮向 Copilot 请求对草稿拉取请求进行审查。这些更改都是普遍可用的。",
-        "ja": "Copilot コード レビューはリポジトリ レベルの AGENTS.md ファイルをサポートするようになり、リクエスト ボタンを使用してドラフト プル リクエストの Copilot からのレビューを簡単にリクエストできるようになりました。これらの変更はすべて一般公開されています。",
-        "en": "Copilot code review now supports repository-level AGENTS.md files, and it’s easier to request a review from Copilot on draft pull requests with the Request button. These changes are all generally available."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-copilot-code-review-agents-md-support-and-ui-improvements",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-18-github-2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "date": "2026-06-18",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 创作的拉取请求现已包含在作者搜索中",
-        "ja": "Copilot が作成したプル リクエストが作成者の検索に含まれるようになりました",
-        "en": "Copilot-authored pull requests now included in author searches"
-      },
-      "summary": {
-        "zh": "使用作者搜索拉取请求：现在显示由 Copilot 云代理代表用户打开的拉取请求。例如，在 github.com/pulls 上使用author:@me 进行搜索将返回您自己的拉取请求以及按照您的指示打开的任何拉取请求 Copilot。",
-        "ja": "author を使用したプル リクエストの検索: ユーザーに代わって Copilot クラウド エージェントによってオープンされたプル リクエストが表示されるようになりました。たとえば、github.com/pulls で author:@me で検索すると、自分のプル リクエストと、あなたの指示で開かれたプル リクエスト Copilot が返されます。",
-        "en": "Searching for pull requests using author: now shows pull requests opened by Copilot cloud agent on the user’s behalf. For example, searching with author:@me on github.com/pulls will return your own pull requests and any pull requests Copilot opened at your direction."
-      },
-      "url": "https://github.blog/changelog/2026-06-18-copilot-authored-pull-requests-now-included-in-author-searches",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "collaboration-tools",
         "copilot",
         "github",
         "changelog"
@@ -9854,6 +9054,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-05-github-2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated",
+      "date": "2026-06-05",
+      "category": "github",
+      "title": {
+        "zh": "GPT-5.2 和 GPT-5.2-Codex 已弃用",
+        "ja": "GPT-5.2 および GPT-5.2-Codex は非推奨になりました",
+        "en": "GPT-5.2 and GPT-5.2-Codex deprecated"
+      },
+      "summary": {
+        "zh": "截至 2026 年 6 月 5 日，我们已在大多数 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。请注意，GPT-5.2 仍可作为 Copilot 代码审查的一部分使用。",
+        "ja": "本日、2026 年 6 月 5 日の時点で、ほとんどの GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 GPT-5.2 は Copilot コード レビューの一部として引き続き利用できることに注意してください。",
+        "en": "As of today, June 5, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that GPT-5.2 is still available as part of Copilot code review."
+      },
+      "url": "https://github.blog/changelog/2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-05-github-2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview",
       "date": "2026-06-05",
       "category": "github",
@@ -9994,54 +9218,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-04-github-2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot",
-      "date": "2026-06-04",
-      "category": "github",
-      "title": {
-        "zh": "更大的上下文窗口和可配置的推理级别 GitHub Copilot",
-        "ja": "GitHub Copilot のより大きなコンテキスト ウィンドウと構成可能な推論レベル",
-        "en": "Larger context windows and configurable reasoning levels for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 现在支持更大的上下文窗口和可配置的推理级别，以帮助您处理更深入、更复杂的工作。利用一百万个令牌上下文窗口一百万个令牌上下文窗口意味着用户现在可以跨更大的代码库、更长的文档和复杂的多文件项目工作，而不会丢失上下文。",
-        "ja": "GitHub Copilot は、より深く複雑な作業に取り組むのに役立つ、より大きなコンテキスト ウィンドウと構成可能な推論レベルをサポートするようになりました。 100 万トークンのコンテキスト ウィンドウの活用 100 万トークンのコンテキスト ウィンドウにより、ユーザーはコンテキストを失うことなく、より大規模なコードベース、長いドキュメント、および複雑な複数ファイル プロジェクトにまたがって作業できるようになります。",
-        "en": "GitHub Copilot now supports larger context windows and configurable reasoning levels to help you tackle deeper, more complex work. Leverage one-million-token context windows A one-million-token context window means users can now work across larger codebases, longer documents, and complex multi-file projects without losing context."
-      },
-      "url": "https://github.blog/changelog/2026-06-04-larger-context-windows-and-configurable-reasoning-levels-for-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-04-github-2026-06-04-github-copilot-in-visual-studio-may-update",
-      "date": "2026-06-04",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio 中的 GitHub Copilot — 可能会更新",
-        "ja": "Visual Studio の GitHub Copilot — 5 月の更新",
-        "en": "GitHub Copilot in Visual Studio — May update"
-      },
-      "summary": {
-        "zh": "2026 年 5 月带来了更清晰的工具，用于在 Visual Studio 2026 中使用 GitHub Copilot 规划、审查和管理工作。 亮点 以下是 Visual Studio 2026 中所有 GitHub Copilot 用户的新增功能。",
-        "ja": "2026 年 5 月には、Visual Studio 2026 の GitHub Copilot を使用した作業の計画、レビュー、管理のためのより鮮明なツールが導入されました。 ハイライト Visual Studio 2026 のすべての GitHub Copilot ユーザーにとっての新機能は次のとおりです。",
-        "en": "May 2026 brought sharper tooling for planning, reviewing, and managing your work with GitHub Copilot in Visual Studio 2026. Highlights Here’s what’s new for all GitHub Copilot users in Visual Studio 2026."
-      },
-      "url": "https://github.blog/changelog/2026-06-04-github-copilot-in-visual-studio-may-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-04-github-2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
       "date": "2026-06-04",
       "category": "github",
@@ -10058,30 +9234,6 @@
       "url": "https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max",
       "tags": [
         "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-04-github-2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
-      "date": "2026-06-04",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 聊天为拉取请求带来了更丰富的上下文",
-        "ja": "Copilot チャットはプル リクエストに豊富なコンテキストをもたらします",
-        "en": "Copilot Chat brings richer context to pull requests"
-      },
-      "summary": {
-        "zh": "当您在 github.com 上处理差异和拉取请求时，GitHub Copilot Chat 现在提供更丰富的上下文和新功能。此功能之前处于公共预览版，现在任何拥有 Copilot 许可证的人都可以使用。",
-        "ja": "GitHub Copilot Chat は、github.com で差分やプル リクエストを操作するときに、より豊富なコンテキストと新機能を提供するようになりました。この機能は以前はパブリック プレビュー段階にありましたが、現在は Copilot ライセンスを持つ誰でも一般利用できるようになりました。",
-        "en": "GitHub Copilot Chat now provides richer context and new capabilities when you’re working with diffs and pull requests on github.com. This feature was previously in public preview and is now generally available to anyone with a Copilot license."
-      },
-      "url": "https://github.blog/changelog/2026-06-04-copilot-chat-brings-richer-context-to-pull-requests",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -10221,30 +9373,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-03-github-2026-06-03-github-copilot-in-visual-studio-code-may-releases",
-      "date": "2026-06-03",
-      "category": "github",
-      "title": {
-        "zh": "Visual Studio Code 中的 GitHub Copilot，5 月发布",
-        "ja": "Visual Studio Code の GitHub Copilot、5 月リリース",
-        "en": "GitHub Copilot in Visual Studio Code, May releases"
-      },
-      "summary": {
-        "zh": "VS Code 继续每周发布稳定版。此变更日志涵盖 v1.120 至 v1.123 版本，这些版本是我们在 2026 年 5 月和 6 月初发布的版本。",
-        "ja": "VS Code は毎週の安定版リリースを継続します。この変更ログは、リリース v1.120 から v1.123 までをカバーしており、これらのリリースは 2026 年 5 月から 6 月上旬にかけて出荷されました。",
-        "en": "VS Code continues with weekly stable releases. This changelog covers releases v1.120 through v1.123, the releases we shipped throughout May and early June 2026."
-      },
-      "url": "https://github.blog/changelog/2026-06-03-github-copilot-in-visual-studio-code-may-releases",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
