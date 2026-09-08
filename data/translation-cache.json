@@ -7115,14 +7115,6 @@
     "zh": "Copilot 代码审查现在可以审查以前未涵盖的两种类型的拉取请求： 对机器人编写的拉取请求自动请求的审查，包括 Copilot 云代理 非常大的拉取请求 此外，您现在可以提交解决特定 Copilot 代码审查评论的原因。",
     "ja": "Copilot コード レビューでは、以前はカバーしていなかった 2 種類のプル リクエストをレビューできるようになりました。 Copilot クラウド エージェントを含む、ボットによって作成されたプル リクエストで自動的にリクエストされたレビュー 非常に大規模なプル リクエスト さらに、特定の Copilot コード レビュー コメントを解決する理由を送信できるようになりました。"
   },
-  "Enterprise-managed settings now support autoUpdate for plugin marketplaces": {
-    "zh": "企业管理的设置现在支持插件市场的自动更新",
-    "ja": "エンタープライズ管理の設定でプラグイン マーケットプレイスの自動更新がサポートされるようになりました"
-  },
-  "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.": {
-    "zh": "现在，您可以通过在企业管理设置中的 extraKnownMarketplaces 条目上设置 autoUpdate: true 来选择单个插件市场自动更新。支持的客户端会自动检查市场并更新来自市场的已安装插件，从而减少组织自定义的手动维护。",
-    "ja": "エンタープライズ管理設定の extraKnownMarketplaces エントリで autoUpdate: true を設定することで、個々のプラグイン マーケットプレイスの自動更新を選択できるようになりました。サポートされているクライアントは自動的にマーケットプレイスをチェックし、そこから入手したインストール済みのプラグインを更新するため、組織のカスタマイズのための手動メンテナンスが軽減されます。"
-  },
   "Compliance API": {
     "zh": "合规API",
     "ja": "コンプライアンスAPI"
@@ -7398,14 +7390,6 @@
   "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages.": {
     "zh": "CodeQL 是 GitHub 代码扫描背后的静态分析引擎，它可以查找并修复代码中的安全问题。我们最近发布了 CodeQL 2.26.0，它增加了对 Kotlin 2.4.0 的支持，引入了用于系统提示注入的 JavaScript 和 TypeScript 查询，并提高了跨多种语言的分析准确性。",
     "ja": "CodeQL は、GitHub コード スキャンの背後にある静的分析エンジンで、コード内のセキュリティ問題を検出して修正します。最近、CodeQL 2.26.0 をリリースしました。これにより、Kotlin 2.4.0 のサポートが追加され、システム プロンプト インジェクション用の JavaScript および TypeScript クエリが導入され、複数の言語にわたる分析精度が向上しました。"
-  },
-  "Clearer names for secret scanning detector types": {
-    "zh": "秘密扫描探测器类型的更清晰名称",
-    "ja": "秘密スキャン検出器タイプのわかりやすい名前"
-  },
-  "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change only; detection behavior is exactly the same.": {
-    "ja": "シークレット スキャンを理解しやすくするために、検出器タイプに使用する名前を更新して、それぞれがどのようにシークレットを検出するかをより適切に反映しています。これは名前の変更のみです。検出動作はまったく同じです。",
-    "zh": "为了使秘密扫描更容易理解，我们正在更新探测器类型的名称，以更好地反映每个探测器如何发现秘密。这只是命名更改；检测行为完全相同。"
   },
   "GitHub Mobile: Live notifications for Copilot CLI sessions": {
     "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
@@ -7834,5 +7818,21 @@
   "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.": {
     "zh": "探索功能更强大、价格更实惠的人工智能如何扩大人们和企业可以完成的工作，并使增长更加经济。",
     "ja": "より高性能で手頃な価格の AI によって、人々や企業が達成できる仕事がどのように拡大し、より経済的に成長できるかを探ってください。"
+  },
+  "Funding grants for new research into AI and teen development": {
+    "zh": "为人工智能和青少年发展的新研究提供资助",
+    "ja": "AI と青少年の発達に関する新しい研究への助成金の提供"
+  },
+  "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.": {
+    "zh": "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式人工智能如何影响青少年发展、福祉和安全的独立研究。",
+    "ja": "生成 AI が 10 代の発達、幸福、安全にどのような影響を与えるかに関する独立した研究を支援する OpenAI の 500 万ドルの助成プログラムに今すぐ申請してください。"
+  },
+  "OpenAI expands initiatives to support journalism from classrooms to newsrooms": {
+    "zh": "OpenAI 将支持新闻业的举措从课堂扩展到新闻编辑室",
+    "ja": "OpenAI は、教室からニュース編集室までジャーナリズムをサポートする取り組みを拡大します"
+  },
+  "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.": {
+    "zh": "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。",
+    "ja": "OpenAI は、学生、教育者、ジャーナリスト、報道機関向けのツール、トレーニング、パートナーシップを通じてジャーナリズムのサポートを拡大しています。"
   }
 }
