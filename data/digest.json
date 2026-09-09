@@ -511,6 +511,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-03-github-2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "date": "2026-09-03",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 3.8 Flash 现在可在 GitHub Copilot 中使用",
+        "ja": "Gemini 3.8 Flash が GitHub Copilot で利用可能になりました",
+        "en": "Gemini 3.8 Flash is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 3.8 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中提供。在我们的早期测试中，Gemini 3.8 Flash 在复杂的基于终端的编码任务上表现出色，并展示了严格的验证和从可操作故障中的持久恢复。",
+        "ja": "Google の最新の Flash モデルである Gemini 3.8 Flash が GitHub Copilot で利用できるようになりました。初期のテストでは、Gemini 3.8 Flash は、複雑なターミナルベースのコーディング タスクで強力にパフォーマンスを発揮し、厳密な検証と実用的な障害からの永続的な回復を実証しました。",
+        "en": "Gemini 3.8 Flash, Google’s latest Flash model, is now available in GitHub Copilot. In our early testing, Gemini 3.8 Flash performed strongly on complex terminal-based coding tasks and demonstrated rigorous validation and persistent recovery from actionable failures."
+      },
+      "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-03-anthropic-apply",
       "date": "2026-09-03",
       "category": "anthropic",
@@ -3729,6 +3753,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-08-06-github-2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+      "date": "2026-08-06",
+      "category": "github",
+      "title": {
+        "zh": "Kimi K3 现已在 GitHub Copilot 中上市",
+        "ja": "キミ K3 が GitHub Copilot で利用可能になりました",
+        "en": "Kimi K3 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "编者注（2026 年 8 月 6 日）：我们已在 GitHub Copilot 中恢复推出 Kimi K3。此模型按照基于使用量的计费的提供商清单定价进行计费。",
+        "ja": "編集者注 (2026 年 8 月 6 日): GitHub Copilot で Kim K3 のロールアウトを再開しました。このモデルは、使用量ベースの請求に基づいてプロバイダー リストの価格で請求されます。",
+        "en": "Editor’s note (August 6, 2026): We have resumed rolling out Kimi K3 in GitHub Copilot. This model is billed at provider list pricing under usage-based billing."
+      },
+      "url": "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-05-openai-changelog",
       "date": "2026-08-05",
       "category": "openai",
@@ -4453,6 +4501,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-30-github-2026-07-30-limit-remote-control-to-managed-devices",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "限制对托管设备的远程控制",
+        "ja": "リモート制御を管理対象デバイスに限定する",
+        "en": "Limit remote control to managed devices"
+      },
+      "summary": {
+        "zh": "企业和组织现在可以限制哪些设备有资格托管远程控制的 Copilot 会话，从而使管理员能够对允许远程控制访问的位置进行细粒度控制。新的remoteControl企业托管设置使管理员能够准确定义远程控制在托管设备上的工作方式，无论这意味着需要特定组织的SSO授权还是基于每个设备定制访问权限。",
+        "ja": "企業や組織は、リモート制御された Copilot セッションをホストできるデバイスを制限できるようになり、管理者はリモート制御アクセスを許可する場所をきめ細かく制御できるようになりました。新しい RemoteControl エンタープライズ管理設定により、管理者は、特定の組織に SSO 認証を要求するか、デバイスごとにアクセスを調整するかにかかわらず、管理対象デバイス上でリモート コントロールがどのように機能するかを正確に定義できます。",
+        "en": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-30-github-2026-07-30-github-models-is-now-retired",
       "date": "2026-07-30",
       "category": "github",
@@ -4491,6 +4563,30 @@
         "en": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
       },
       "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "Visual Studio Code 中的 GitHub Copilot，2026 年 7 月发布",
+        "ja": "Visual Studio Code、2026 年 7 月リリースの GitHub Copilot",
+        "en": "GitHub Copilot in Visual Studio Code, July 2026 releases"
+      },
+      "summary": {
+        "zh": "此变更日志涵盖 VS Code v1.127 至 v1.131，于 2026 年 7 月发布。这些版本改进了您与代理合作、查看更改、使用聊天和导航 VS Code 的方式。",
+        "ja": "この変更ログは、2026 年 7 月を通じて出荷された VS Code v1.127 から v1.131 をカバーしています。これらのリリースにより、エージェントとの連携、変更の確認、チャットの使用、および VS Code の操作方法が改善されます。",
+        "en": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
       "tags": [
         "release",
         "copilot",
@@ -8524,6 +8620,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-06-24-github-2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "date": "2026-06-24",
+      "category": "github",
+      "title": {
+        "zh": "免费和学生计划的型号选择发生变化",
+        "ja": "無料プランと学生プランのモデル選択の変更",
+        "en": "Changes to model selection for Free and Student plans"
+      },
+      "summary": {
+        "zh": "Copilot 免费和学生计划现在将使用 Copilot 自动模型选择作为默认且唯一的模型选择体验。自动为每个任务动态选择最佳模型，无需手动选择。",
+        "ja": "Copilot Free プランと Student プランでは、Copilot 自動モデル選択がデフォルトの唯一のモデル選択エクスペリエンスとして使用されるようになります。自動では各タスクに最適なモデルが動的に選択されるため、手動で選択する必要がありません。",
+        "en": "Copilot Free and Student plans will now use Copilot auto model selection as the default and only model selection experience. Auto dynamically selects the best model for each task, removing the need for manual choice."
+      },
+      "url": "https://github.blog/changelog/2026-06-24-changes-to-model-selection-for-free-and-student-plans",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-23-openai-omio",
       "date": "2026-06-23",
       "category": "openai",
@@ -9415,6 +9535,32 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-06-15-github-2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "date": "2026-06-15",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 使用指标现在包括更多的活跃用户",
+        "ja": "Copilot 使用状況指標には、より多くのアクティブ ユーザーが含まれるようになりました",
+        "en": "Copilot usage metrics now include more of your active users"
+      },
+      "summary": {
+        "zh": "Copilot 使用指标报告现在除了客户端信号之外还利用服务器端遥测，因此更多的活跃 Copilot 用户会显示在报告中。 Copilot 使用指标 API 返回的企业使用情况报告现在可以显示仅客户端遥测会错过的活跃用户，从而让您更完整、一致地了解谁在使用 Copilot。",
+        "ja": "Copilot 使用状況メトリクス レポートは、クライアント信号に加えてサーバー側のテレメトリも利用するようになったため、より多くのアクティブな Copilot ユーザーがレポートに表示されます。 Copilot 使用状況メトリクス API によって返されるエンタープライズ使用状況レポートにより、クライアント側のテレメトリだけでは見逃していたアクティブ ユーザーが明らかになり、誰が Copilot を使用しているかについて、より完全で一貫した全体像が得られます。",
+        "en": "Copilot usage metrics reports now draw on server-side telemetry in addition to client signals, so more of your active Copilot users show up in reports. Enterprise usage reports returned by the Copilot usage metrics API now surface active users that client-side telemetry alone would have missed, giving you a more complete and consistent picture of who is using Copilot."
+      },
+      "url": "https://github.blog/changelog/2026-06-15-copilot-usage-metrics-now-include-more-of-your-active-users",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-06-14-openai-introducing-openai-partner-network",
       "date": "2026-06-14",
       "category": "openai",
@@ -9456,6 +9602,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-06-12-github-2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "date": "2026-06-12",
+      "category": "github",
+      "title": {
+        "zh": "Copilot 代码审查：新配置和控件",
+        "ja": "Copilot コード レビュー: 新しい構成とコントロール",
+        "en": "Copilot code review: New configurations and controls"
+      },
+      "summary": {
+        "zh": "借助新的组织运行程序控件、Copilot 内容排除支持以及取消存储库自定义指令的字符限制，Copilot 代码审查现在可以更轻松地根据您的存储库和组织内的需求进行定制。 ⚙️ 组织运行器控件随着 Copilot 代码审查代理架构的发布，我们宣布 Copilot 代码审查由 GitHub 操作提供支持。",
+        "ja": "新しい組織ランナー コントロール、Copilot コンテンツ除外のサポート、リポジトリのカスタム命令の文字数制限の削除により、Copilot コード レビューをリポジトリや組織内のニーズに合わせて調整することが容易になりました。 ⚙️ 組織ランナー制御 Copilot コード レビューのエージェント アーキテクチャのリリースに伴い、Copilot コード レビューが GitHub アクションによって強化されることを発表しました。",
+        "en": "With new organization runner controls, Copilot content exclusion support, and the removal of the character limit on repository custom instructions, Copilot code review is now easier to tailor to your needs within your repository and organization. ⚙️ Organization runner controls With the release of Copilot code review’s agentic architecture, we announced that Copilot code review is powered by GitHub Actions."
+      },
+      "url": "https://github.blog/changelog/2026-06-12-copilot-code-review-new-configurations-and-controls",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-06-12-anthropic-tcs-anthropic-partnership",
