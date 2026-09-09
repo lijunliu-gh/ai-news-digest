@@ -7,6 +7,24 @@
     <lastBuildDate>2026-09-09</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Paul Christiano joins OpenAI Foundation Board</title>
+      <link>https://openai.com/index/paul-christiano-joins-openai-foundation-board</link>
+      <description>Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.</description>
+      <pubDate>2026-09-09</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/paul-christiano-joins-openai-foundation-board</guid>
+    </item>
+    <item>
+      <title>Remediate Code Quality findings with agentic autofix</title>
+      <link>https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</link>
+      <description>Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the whole set to Copilot in one action.</description>
+      <pubDate>2026-09-09</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</guid>
+    </item>
+    <item>
       <title>Enterprise-managed sandbox in Copilot for JetBrains</title>
       <link>https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains</link>
       <description>This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.</description>
@@ -187,15 +205,6 @@
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-09-03-feature-added-new-controls-for-long-running-work-with-gpt-6-astra-in-the-responses-api</guid>
     </item>
     <item>
-      <title>Upcoming deprecation of selected GitHub Copilot models</title>
-      <link>https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</link>
-      <description>We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 2nd, 2026: Model Deprecation date Suggested alternative Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 Code 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5 Please update your workflows and integrations to use the supported models before this date.</description>
-      <pubDate>2026-09-03</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models</guid>
-    </item>
-    <item>
       <title>Reopening Copilot Business and Enterprise signups</title>
       <link>https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups</link>
       <description>We’re gradually reopening sign-ups for Copilot Business and Copilot Enterprise customers paying by credit card or PayPal over the next couple of weeks. If you’ve been waiting to get started with Copilot, select the plan that fits your needs.</description>
@@ -212,6 +221,15 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot</guid>
+    </item>
+    <item>
+      <title>mid-conversation-output-config-2026-07-01</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/effort#change-effort-mid-conversation-beta</link>
+      <description>Per-message effort changes, in beta, are also available on Google Cloud for Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5, with the same mid-conversation-output-config-2026-07-01 beta header.</description>
+      <pubDate>2026-09-03</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/effort#change-effort-mid-conversation-beta</guid>
     </item>
     <item>
       <title>ant</title>
@@ -412,15 +430,6 @@
       <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
     </item>
     <item>
-      <title>role: "system"</title>
-      <link>https://platform.claude.com/docs/en/build-with-claude/effort#change-effort-mid-conversation-beta</link>
-      <description>Per-message effort changes are in beta on Claude Fable 5.1, Claude Mythos 5.1, and Claude Opus 5 on the Claude API. Add a role: "system" message with output_config.effort inside messages to change effort for later turns while preserving the prompt cache. Include the mid-conversation-output-config-2026-07-01 beta header in your requests. See Per-message effort.</description>
-      <pubDate>2026-09-01</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/effort#change-effort-mid-conversation-beta</guid>
-    </item>
-    <item>
       <title>Claude Fable 5.1</title>
       <link>https://platform.claude.com/docs/en/build-with-claude/context-windows</link>
       <description>We've launched Claude Fable 5.1 ( claude-fable-5-1 ), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 ( claude-mythos-5-1 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok.</description>
@@ -446,15 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
       <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements</guid>
-    </item>
-    <item>
-      <title>anthropic-version</title>
-      <link>https://platform.claude.com/docs/en/api/admin</link>
-      <description>The guides for the Claude Enterprise endpoints of the Admin API ( user management and spend limits ), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions.</description>
-      <pubDate>2026-09-01</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/api/admin</guid>
     </item>
   </channel>
 </rss>
