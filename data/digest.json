@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-10-openai-introducing-the-agents-api",
+      "date": "2026-09-10",
+      "category": "openai",
+      "title": {
+        "zh": "Introducing the Agents API",
+        "ja": "Introducing the Agents API",
+        "en": "Introducing the Agents API"
+      },
+      "summary": {
+        "zh": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "ja": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+        "en": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use."
+      },
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-09-10-openai-introducing-gpt-live-1-in-the-api",
       "date": "2026-09-10",
       "category": "openai",
@@ -39,6 +61,28 @@
         "en": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support."
       },
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-10-openai-introducing-chatgpt-financial-services",
+      "date": "2026-09-10",
+      "category": "openai",
+      "title": {
+        "zh": "Introducing ChatGPT for Financial Services",
+        "ja": "Introducing ChatGPT for Financial Services",
+        "en": "Introducing ChatGPT for Financial Services"
+      },
+      "summary": {
+        "zh": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+        "ja": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+        "en": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials."
+      },
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
       "tags": [
         "product",
         "openai"
@@ -116,6 +160,76 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-10-github-2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "date": "2026-09-10",
+      "category": "github",
+      "title": {
+        "zh": "AI Scan for pull request APIs in public preview",
+        "ja": "AI Scan for pull request APIs in public preview",
+        "en": "AI Scan for pull request APIs in public preview"
+      },
+      "summary": {
+        "zh": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
+        "ja": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
+        "en": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI."
+      },
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-10-anthropic-sessions-connect",
+      "date": "2026-09-10",
+      "category": "anthropic",
+      "title": {
+        "zh": "蚂蚁",
+        "ja": "アリ",
+        "en": "ant"
+      },
+      "summary": {
+        "zh": "The ant CLI adds ant beta:sessions connect, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass --web to serve the Claude Console's session viewer locally and open the session there instead. See Connect to a Managed Agents session from your terminal.",
+        "ja": "The ant CLI adds ant beta:sessions connect, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass --web to serve the Claude Console's session viewer locally and open the session there instead. See Connect to a Managed Agents session from your terminal.",
+        "en": "The ant CLI adds ant beta:sessions connect, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass --web to serve the Claude Console's session viewer locally and open the session there instead. See Connect to a Managed Agents session from your terminal."
+      },
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/cli/sessions-connect",
+      "tags": [
+        "ant",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-09-10-anthropic-permission-policies",
+      "date": "2026-09-10",
+      "category": "anthropic",
+      "title": {
+        "zh": "auto",
+        "ja": "auto",
+        "en": "auto"
+      },
+      "summary": {
+        "zh": "Claude Managed Agents permission policies now include auto: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission. See Let the server evaluate each call with auto.",
+        "ja": "Claude Managed Agents permission policies now include auto: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission. See Let the server evaluate each call with auto.",
+        "en": "Claude Managed Agents permission policies now include auto: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission. See Let the server evaluate each call with auto."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/permission-policies#let-the-server-evaluate-each-call-with-auto",
+      "tags": [
+        "auto",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-09-09-openai-paul-christiano-joins-openai-foundation-board",
@@ -2578,7 +2692,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_84b6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_84j6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -5422,7 +5536,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_88b6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_88j6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -6368,7 +6482,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89b6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89j6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -7815,7 +7929,7 @@
         "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。",
         "en": "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8br6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8c36aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
       "tags": [
         "agent-memory-2026-07-22",
         "anthropic",
