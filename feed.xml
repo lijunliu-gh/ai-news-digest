@@ -34,6 +34,15 @@
       <guid isPermaLink="true">https://openai.com/index/ai-policy-window</guid>
     </item>
     <item>
+      <title>Computer Use and Shell sandboxes are generally available</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_09_2026-computer-use-and-shell-sandboxes-are-generally-available</link>
+      <description>Feature Computer Use and Shell sandboxes are generally available Computer Use and Shell sandboxes in Gemini Enterprise Agent Platform are now generally available (GA). This release also includes the following new features for Agent Platform sandboxes: Shell sandboxes: Run untrusted shell commands, install packages, and manipulate files in an isolated Linux container using direct API /exec calls. For more information, see the Shell sandbox quickstart.</description>
+      <pubDate>2026-09-09</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_09_2026-computer-use-and-shell-sandboxes-are-generally-available</guid>
+    </item>
+    <item>
       <title>Remediate Code Quality findings with agentic autofix</title>
       <link>https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</link>
       <description>Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the whole set to Copilot in one action.</description>
@@ -446,15 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
       <guid isPermaLink="true">https://platform.claude.com/docs/en/about-claude/pricing#prompt-caching</guid>
-    </item>
-    <item>
-      <title>mid-conversation-system-clear-at-2026-08-21</title>
-      <link>https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#turn-scoped-system-messages</link>
-      <description>Turn-scoped system messages are in beta ( mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: "next_user_message" on a mid-conversation role: "system" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don't accumulate and don't invalidate the prompt cache or later thinking blocks.</description>
-      <pubDate>2026-09-01</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#turn-scoped-system-messages</guid>
     </item>
   </channel>
 </rss>
