@@ -5103,14 +5103,6 @@
     "zh": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
     "ja": "Luna と Terra の GPT‑5.6 の低価格設定と、OpenAI のより効率的なモデルが企業の大規模な AI ワークフローの展開にどのように役立つかを調べてください。"
   },
-  "GitHub Models is now retired": {
-    "zh": "GitHub 模型现已退役",
-    "ja": "GitHub モデルは廃止されました"
-  },
-  "As of July 30, 2026, GitHub Models is now retired. The playground, model catalog, inference API, and bring your own key (BYOK) are no longer available to any customer, including existing customers with active usage.": {
-    "zh": "自 2026 年 7 月 30 日起，GitHub 模型现已退役。任何客户（包括活跃使用的现有客户）都不再可以使用 Playground、模型目录、推理 API 和自带密钥 (BYOK)。",
-    "ja": "2026 年 7 月 30 日の時点で、GitHub モデルは廃止されました。プレイグラウンド、モデル カタログ、推論 API、および Bring Your Own Key (BYOK) は、アクティブに使用している既存の顧客を含むすべての顧客が利用できなくなりました。"
-  },
   "pricing details": {
     "zh": "定价详情",
     "ja": "価格の詳細"
@@ -7247,14 +7239,6 @@
     "zh": "存储库管理员现在可以将问题创建限制为具有写入权限的协作者。这使您可以更好地控制谁可以打开问题，并有助于减少不必要的问题创建，同时使问题工作流程可供积极维护和为项目做出贡献的人员使用。",
     "ja": "リポジトリ管理者は、書き込みアクセス権を持つ共同作業者に課題の作成を制限できるようになりました。これにより、問題をオープンできるユーザーをより詳細に制御できるようになり、不要な問題の作成を減らすと同時に、プロジェクトを積極的に保守および貢献する人々が問題のワークフローを利用できるようになります。"
   },
-  "Track total merges by adoption phase in enterprise and organization reports": {
-    "zh": "在企业和组织报告中按采用阶段跟踪合并总数",
-    "ja": "企業および組織のレポートで導入フェーズごとに合計マージを追跡します"
-  },
-  "Building on the AI adoption phase cohorts added to the Copilot usage metrics API, organization and enterprise reports now report the total number of pull requests merged by each adoption phase. What’s new The totals_by_ai_adoption_phase breakdown previously reported per-user averages only.": {
-    "zh": "基于添加到 Copilot 使用指标 API 的 AI 采用阶段群组，组织和企业报告现在报告每个采用阶段合并的拉取请求总数。新变化 Totals_by_ai_adoption_phase 细分之前仅报告每个用户的平均值。",
-    "ja": "Copilot 使用状況メトリクス API に追加された AI 導入フェーズ コホートに基づいて、組織およびエンタープライズ レポートは、各導入フェーズでマージされたプル リクエストの合計数を報告するようになりました。新機能 以前に報告された totals_by_ai_adoption_phase の内訳は、ユーザーごとの平均のみでした。"
-  },
   "Dedicated security review command now available in Copilot CLI": {
     "zh": "Copilot CLI 中现已提供专用安全审查命令",
     "ja": "専用のセキュリティレビューコマンドが Copilot CLI で利用可能になりました"
@@ -7758,5 +7742,8 @@
   "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel.": {
     "zh": "您现在可以构建一次插件并在所有兼容的代理客户端上使用它。我们于 8 月 6 日与 AWS、Anysphere、Microsoft、OpenAI 和 Vercel 一起发布了代理插件 1.0。",
     "ja": "プラグインを一度構築すれば、互換性のあるすべてのエージェント クライアントで使用できるようになりました。 8 月 6 日に、AWS、Anysphere、Microsoft、OpenAI、および Vercel を使用してエージェント プラグイン 1.0 を公開しました。"
+  },
+  "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed.": {
+    "ja": "使用状況レポートで、AI クレジットの背後にあるトークンのモデルごとの内訳を確認できるようになりました。 AI 使用状況レポートには、各モデルの入力、出力、キャッシュ読み取り、およびキャッシュ書き込みトークンが消費された AI クレジットとともに表示されます。"
   }
 }
