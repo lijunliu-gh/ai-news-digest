@@ -16,6 +16,24 @@
       <guid isPermaLink="true">https://openai.com/index/scaling-storage-one-billion-users-part-one</guid>
     </item>
     <item>
+      <title>Auto-resolution and analysis updates in Copilot code review</title>
+      <link>https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review</link>
+      <description>Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.</description>
+      <pubDate>2026-09-11</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review</guid>
+    </item>
+    <item>
+      <title>Add VS Code Agents to Copilot usage metrics</title>
+      <link>https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics</link>
+      <description>GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.</description>
+      <pubDate>2026-09-11</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics</guid>
+    </item>
+    <item>
       <title>Now everyone can put data to work</title>
       <link>https://openai.com/index/put-data-to-work</link>
       <description>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</description>
@@ -160,15 +178,6 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix</guid>
     </item>
     <item>
-      <title>Enterprise managed permissions for GitHub Copilot agent operations</title>
-      <link>https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations</link>
-      <description>If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains.</description>
-      <pubDate>2026-09-09</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations</guid>
-    </item>
-    <item>
       <title>Enterprise-managed sandbox in Copilot for JetBrains</title>
       <link>https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains</link>
       <description>This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.</description>
@@ -239,6 +248,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-09-08-feature-prompt-cache-diagnostics</guid>
+    </item>
+    <item>
+      <title>trusted-access program</title>
+      <link>https://developers.openai.com/api/docs/changelog#2026-09-08-feature-trusted-access-program</link>
+      <description>GPT-Rosalind ( gpt-rosalind-research ) is now generally available through the trusted-access program for approved internal life sciences research. Standard pricing is $5 per 1M input tokens, $0.50 per 1M cached input tokens, and $25 per 1M output tokens.</description>
+      <pubDate>2026-09-08</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-09-08-feature-trusted-access-program</guid>
     </item>
     <item>
       <title>1Password increases engineering productivity 21% with Codex</title>
@@ -437,24 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model</guid>
-    </item>
-    <item>
-      <title>Content exclusions generally available in Copilot app and CLI</title>
-      <link>https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli</link>
-      <description>The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.</description>
-      <pubDate>2026-09-02</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli</guid>
-    </item>
-    <item>
-      <title>Path to Astra: critical capabilities and frontier safeguards</title>
-      <link>https://openai.com/index/path-to-astra</link>
-      <description>Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.</description>
-      <pubDate>2026-09-01</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/path-to-astra</guid>
     </item>
   </channel>
 </rss>

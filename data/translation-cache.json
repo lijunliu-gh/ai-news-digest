@@ -7687,14 +7687,6 @@
     "zh": "在测试版中，每条消息的工作量更改也可在 Google Cloud 上用于 Claude Fable 5.1、Claude Mythos 5.1 和 Claude Opus 5，具有相同的 mid-conversation-output-config-2026-07-01 beta 标头。",
     "ja": "ベータ版のメッセージごとの作業量の変更は、同じ Mid-conversation-output-config-2026-07-01 ベータ ヘッダーを使用して、Claude Fable 5.1、Claude Mythos 5.1、および Claude Opus 5 の Google Cloud でも利用できます。"
   },
-  "Enterprise managed permissions for GitHub Copilot agent operations": {
-    "zh": "GitHub Copilot 代理操作的企业管理权限",
-    "ja": "GitHub Copilot エージェント操作に対するエンタープライズ管理のアクセス許可"
-  },
-  "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains.": {
-    "zh": "如果您管理 GitHub Copilot Business 或 GitHub Copilot Enterprise，您现在可以集中控制哪些代理操作被阻止、需要人工批准或可以在没有提示的情况下继续。托管权限涵盖 shell 命令、文件读取和编辑以及网络域。",
-    "ja": "GitHub Copilot Business または GitHub Copilot Enterprise を管理する場合、ブロックされるエージェントの操作を一元的に制御したり、人間の承認を必要としたり、プロンプトなしで続行したりできるようになりました。管理された権限には、シェル コマンド、ファイルの読み取りと編集、ネットワーク ドメインが含まれます。"
-  },
   "Upcoming deprecation of selected GitHub Copilot models": {
     "zh": "即将弃用选定的 GitHub Copilot 型号",
     "ja": "選択された GitHub Copilot モデルの今後の廃止予定"
@@ -8009,5 +8001,61 @@
   "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.": {
     "zh": "您现在可以在组织和存储库级别使用 REST API 端点管理 GitHub 代码扫描的 AI 扫描以实现拉取请求启用。此公开预览版为团队提供了一种编程方式，可以针对选定存储库中的拉取请求推出人工智能驱动的安全检测，而无需在 GitHub UI 中手动配置每个设置。",
     "ja": "GitHub コード スキャンの AI スキャンを管理して、組織レベルおよびリポジトリ レベルで REST API エンドポイントを使用したプル リクエストの有効化を管理できるようになりました。このパブリック プレビューにより、GitHub UI の各設定を手動で構成することなく、選択したリポジトリ全体でプル リクエストに対する AI を活用したセキュリティ検出をプログラムで展開できるようになります。"
+  },
+  "Auto-resolution and analysis updates in Copilot code review": {
+    "zh": "Copilot 代码审查中的自动解析和分析更新",
+    "ja": "Copilot コードレビューの自動解決と分析の更新"
+  },
+  "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.": {
+    "zh": "现在，一旦您处理了注释，Copilot 代码审查就会解决它们自己的注释，并在您应用其代码建议时为您编写智能提交消息。在幕后，Copilot 现在使用更广泛的 shell 工具集来验证其审查的代码，并且一组代理在 Lite 工作级别内进行更彻底的审查。",
+    "ja": "Copilot コード レビューは、コメントに対処すると独自のコメントを解決し、コード提案を適用するときにスマート コミット メッセージを書き込むようになりました。 Copilot は舞台裏で、より広範なシェル ツール セットを使用してレビューするコードを検証し、エージェントのアンサンブルが Lite 作業レベル内でより徹底的なレビューを生成します。"
+  },
+  "Add VS Code Agents to Copilot usage metrics": {
+    "zh": "将 VS Code 代理添加到 Copilot 使用指标",
+    "ja": "VS Code エージェントを Copilot 使用状況メトリクスに追加する"
+  },
+  "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.": {
+    "zh": "GitHub Copilot 使用指标报告现在包括专用 VS Code Agents 窗口中活动的常用指标，帮助您衡量企业和组织的采用率和参与度。新功能 1 天和 28 天期间的企业和组织汇总报告现在包括： daily_active_vscode_agent_users：每天 VS Code Agents 窗口中活跃的唯一用户的可选计数。",
+    "ja": "GitHub Copilot 使用状況メトリクス レポートには、専用の VS Code エージェント ウィンドウでのアクティビティに関する一般的に利用可能なメトリクスが含まれるようになり、企業や組織全体での導入とエンゲージメントの測定に役立ちます。新機能 1 日と 28 日の両方の企業および組織の集計レポートに、以下が含まれるようになりました。 daily_active_vscode_agent_users: 毎日 VS Code Agents ウィンドウでアクティブなユニーク ユーザーのオプションの数。"
+  },
+  "trusted-access program": {
+    "zh": "可信访问程序",
+    "ja": "信頼できるアクセス プログラム"
+  },
+  "GPT-Rosalind ( gpt-rosalind-research ) is now generally available through the trusted-access program for approved internal life sciences research. Standard pricing is $5 per 1M input tokens, $0.50 per 1M cached input tokens, and $25 per 1M output tokens.": {
+    "zh": "GPT-Rosalind ( gpt-rosalind-research ) 现在可通过可信访问计划普遍用于经批准的内部生命科学研究。标准定价为每 100 万个输入代币 5 美元，每 100 万个缓存输入代币 0.50 美元，每 100 万个输出代币 25 美元。",
+    "ja": "GPT-Rosalind ( gpt-rosalind-research ) は、承認された社内ライフ サイエンス研究向けの信頼されたアクセス プログラムを通じて一般提供されるようになりました。標準価格は、100 万の入力トークンあたり 5 ドル、キャッシュされた入力トークン 100 万あたり 0.50 ドル、100 万の出力トークンあたり 25 ドルです。"
+  },
+  "Gemini 3.7 Flash is now available in GitHub Copilot": {
+    "zh": "Gemini 3.7 Flash 现在可在 GitHub Copilot 中使用",
+    "ja": "Gemini 3.7 Flash が GitHub Copilot で利用可能になりました"
+  },
+  "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version.": {
+    "zh": "Gemini 3.7 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。从我们的早期测试来看，该模型在 Web 和应用程序开发以及代理编码工作流程方面比之前的版本进行了改进。",
+    "ja": "Google の最新の Flash モデルである Gemini 3.7 Flash は、GitHub Copilot で展開されています。初期のテストから、このモデルは以前のバージョンに比べて、Web およびアプリの開発とエージェント コーディングのワークフローが改善されました。"
+  },
+  "Stacked pull requests are now in public preview": {
+    "zh": "堆叠拉取请求现已提供公共预览版",
+    "ja": "スタックされたプル リクエストはパブリック プレビュー段階にあります"
+  },
+  "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change.": {
+    "zh": "堆叠的拉取请求将大的更改分解为小的、可审查的拉取请求。它们是一系列有序的拉取请求，每个拉取请求都代表变更的重点层。",
+    "ja": "スタックされたプル リクエストは、大きな変更をレビュー可能な小さなプル リクエストに分割します。これらは順序付けられた一連のプル リクエストであり、それぞれが変更の焦点を当てたレイヤーを表します。"
+  },
+  "GitHub Mobile: Live notifications for Copilot CLI sessions": {
+    "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
+    "ja": "GitHub モバイル: Copilot CLI セッションのライブ通知"
+  },
+  "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed.": {
+    "zh": "GitHub Mobile 上的实时编码代理通知现在支持远程 Copilot CLI 会话，从而可以更轻松地与在 GitHub Mobile 之外启动的代理工作保持连接。当 Copilot CLI 会话远程运行时，GitHub Mobile 可以直接在您的手机上显示实时更新，以便您可以跟踪进度、了解代理何时需要您的输入，并在需要时跳回会话。",
+    "ja": "GitHub Mobile のライブ コーディング エージェント通知は、リモート Copilot CLI セッションをサポートするようになり、GitHub Mobile の外部で開始されるエージェントの作業に簡単に接続できるようになりました。 Copilot CLI セッションがリモートで実行されている場合、GitHub Mobile はリアルタイムの更新を電話機に直接表示できるため、進行状況を追跡し、エージェントがいつ入力を必要とするかを把握し、必要に応じてセッションに戻ることができます。"
+  },
+  "GitHub Code Quality generally available July 20, 2026": {
+    "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
+    "ja": "GitHub コード品質は 2026 年 7 月 20 日に一般公開されます"
+  },
+  "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code Quality moves from public preview to general availability as a purchasable product.": {
+    "zh": "超过 10,000 家企业已使用 GitHub 代码质量公共预览版来检测可维护性和可靠性问题、实施质量关卡并跟踪代码覆盖率。 2026 年 7 月 20 日，代码质量从公共预览版转变为可购买产品的普遍可用性。",
+    "ja": "10,000 社以上の企業が GitHub コード品質パブリック プレビューを使用して、保守性と信頼性の問題を検出し、品質ゲートを適用し、コード カバレッジを追跡しています。 2026 年 7 月 20 日に、コード品質はパブリック プレビューから購入可能な製品としての一般提供に移行します。"
   }
 }
