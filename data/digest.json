@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-09-11-openai-scaling-storage-one-billion-users-part-one",
+      "date": "2026-09-11",
+      "category": "openai",
+      "title": {
+        "zh": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户",
+        "ja": "オンライン ストレージを迅速に拡張して 10 億人を超える ChatGPT ユーザーにサービスを提供",
+        "en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+      },
+      "summary": {
+        "zh": "了解 OpenAI 如何将 Habitat 从 Python 库发展成为一个全球分布式存储平台，为 10 亿 ChatGPT 用户和每秒 2200 万个请求提供服务。",
+        "ja": "OpenAI が Habitat を Python ライブラリから、10 億の ChatGPT ユーザーと 1 秒あたり 2,200 万のリクエストに対応するグローバル分散ストレージ プラットフォームにどのように進化させたかを学びましょう。",
+        "en": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second."
+      },
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-09-10-openai-put-data-to-work",
       "date": "2026-09-10",
       "category": "openai",
@@ -162,17 +184,41 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-10-github-2026-09-10-github-copilot-weekly-releases-september-7",
+      "date": "2026-09-10",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot 每周发布 — 9 月 7 日",
+        "ja": "GitHub Copilot 毎週のリリース — 9 月 7 日",
+        "en": "GitHub Copilot weekly releases — September 7"
+      },
+      "summary": {
+        "zh": "本周，GitHub Copilot 介绍了 Copilot 应用程序中的 Jira 集成以及 Copilot CLI 中与 Project HydraFusion 的自适应模型编排。我们还在 Visual Studio Code 中引入了新的代理自动化，并扩展了 JetBrains 中 Copilot 的企业控件。",
+        "ja": "今週の GitHub Copilot では、Copilot アプリでの Jira 統合と、Copilot CLI での Project HydraFusion によるアダプティブ モデル オーケストレーションを紹介します。また、Visual Studio Code に新しいエージェント自動化を導入し、JetBrains の Copilot のエンタープライズ コントロールを拡張しました。",
+        "en": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains."
+      },
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-10-github-2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "date": "2026-09-10",
       "category": "github",
       "title": {
-        "zh": "AI Scan for pull request APIs in public preview",
-        "ja": "AI Scan for pull request APIs in public preview",
+        "zh": "AI 扫描公共预览版中的拉取请求 API",
+        "ja": "パブリック プレビュー中のプル リクエスト API の AI スキャン",
         "en": "AI Scan for pull request APIs in public preview"
       },
       "summary": {
-        "zh": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
-        "ja": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
+        "zh": "您现在可以在组织和存储库级别使用 REST API 端点管理 GitHub 代码扫描的 AI 扫描以实现拉取请求启用。此公开预览版为团队提供了一种编程方式，可以针对选定存储库中的拉取请求推出人工智能驱动的安全检测，而无需在 GitHub UI 中手动配置每个设置。",
+        "ja": "GitHub コード スキャンの AI スキャンを管理して、組織レベルおよびリポジトリ レベルで REST API エンドポイントを使用したプル リクエストの有効化を管理できるようになりました。このパブリック プレビューにより、GitHub UI の各設定を手動で構成することなく、選択したリポジトリ全体でプル リクエストに対する AI を活用したセキュリティ検出をプログラムで展開できるようになります。",
         "en": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI."
       },
       "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
@@ -3220,30 +3266,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-13-github-2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "date": "2026-08-13",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3.7 Flash 现在可在 GitHub Copilot 中使用",
-        "ja": "Gemini 3.7 Flash が GitHub Copilot で利用可能になりました",
-        "en": "Gemini 3.7 Flash is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 3.7 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。从我们的早期测试来看，该模型在 Web 和应用程序开发以及代理编码工作流程方面比之前的版本进行了改进。",
-        "ja": "Google の最新の Flash モデルである Gemini 3.7 Flash は、GitHub Copilot で展開されています。初期のテストから、このモデルでは、Web およびアプリの開発とエージェント コーディングのワークフローが以前のバージョンに比べて改善されました。",
-        "en": "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version."
-      },
-      "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-12-openai-ringcentral",
       "date": "2026-08-12",
       "category": "openai",
@@ -4843,30 +4865,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-stacked-pull-requests-are-now-in-public-preview",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "堆叠拉取请求现已提供公共预览版",
-        "ja": "スタックされたプル リクエストはパブリック プレビュー段階にあります",
-        "en": "Stacked pull requests are now in public preview"
-      },
-      "summary": {
-        "zh": "堆叠的拉取请求将大的更改分解为小的、可审查的拉取请求。它们是一系列有序的拉取请求，每个拉取请求都代表变更的重点层。",
-        "ja": "スタックされたプル リクエストは、大きな変更をレビュー可能な小さなプル リクエストに分割します。これらは順序付けられた一連のプル リクエストであり、それぞれが変更の焦点を当てたレイヤーを表します。",
-        "en": "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-30-github-2026-07-30-limit-remote-control-to-managed-devices",
@@ -7361,30 +7359,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-07-08-github-2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
-        "ja": "GitHub モバイル: Copilot CLI セッションのライブ通知",
-        "en": "GitHub Mobile: Live notifications for Copilot CLI sessions"
-      },
-      "summary": {
-        "zh": "GitHub Mobile 上的实时编码代理通知现在支持远程 Copilot CLI 会话，从而可以更轻松地与在 GitHub Mobile 之外启动的代理工作保持连接。当 Copilot CLI 会话远程运行时，GitHub Mobile 可以直接在您的手机上显示实时更新，以便您可以跟踪进度、了解代理何时需要您的输入，并在需要时跳回会话。",
-        "ja": "GitHub Mobile のライブ コーディング エージェント通知は、リモート Copilot CLI セッションをサポートするようになり、GitHub Mobile の外部で開始されるエージェントの作業に簡単に接続できるようになりました。 Copilot CLI セッションがリモートで実行されている場合、GitHub Mobile はリアルタイムの更新を電話機に直接表示できるため、進行状況を追跡し、エージェントがいつ入力を必要とするかを把握し、必要に応じてセッションに戻ることができます。",
-        "en": "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-github-mobile-live-notifications-for-copilot-cli-sessions",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-08-github-2026-07-08-github-mobile-fix-merge-conflicts-with-copilot-cloud-agent",
       "date": "2026-07-08",
       "category": "github",
@@ -9801,31 +9775,6 @@
       "tags": [
         "retired",
         "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-16-github-2026-06-16-github-code-quality-generally-available-july-20-2026",
-      "date": "2026-06-16",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
-        "ja": "GitHub コード品質は 2026 年 7 月 20 日に一般公開されます",
-        "en": "GitHub Code Quality generally available July 20, 2026"
-      },
-      "summary": {
-        "zh": "超过 10,000 家企业已使用 GitHub 代码质量公共预览版来检测可维护性和可靠性问题、实施质量关卡并跟踪代码覆盖率。 2026 年 7 月 20 日，代码质量从公共预览版转变为可购买产品的普遍可用性。",
-        "ja": "10,000 社以上の企業が GitHub コード品質パブリック プレビューを使用して、保守性と信頼性の問題を検出し、品質ゲートを適用し、コード カバレッジを追跡しています。 2026 年 7 月 20 日に、コード品質はパブリック プレビューから購入可能な製品としての一般提供に移行します。",
-        "en": "More than 10,000 enterprises have used the GitHub Code Quality public preview to detect maintainability and reliability issues, enforce quality gates, and track code coverage. On July 20, 2026, Code Quality moves from public preview to general availability as a purchasable product."
-      },
-      "url": "https://github.blog/changelog/2026-06-16-github-code-quality-generally-available-july-20-2026",
-      "tags": [
-        "release",
-        "application-security",
-        "platform-governance",
         "github",
         "changelog"
       ],
