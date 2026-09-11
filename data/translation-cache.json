@@ -7989,5 +7989,33 @@
   "GPT-Live 1 is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools.": {
     "zh": "GPT-Live 1 现已在 API 中全面可用。构建可以在后端模型或代理处理推理和工具时继续进行的全双工语音对话。",
     "ja": "GPT-Live 1 が API で一般提供されるようになりました。バックエンド モデルまたはエージェントが推論とツールを処理している間も継続できる全二重音声会話を構築します。"
+  },
+  "Introducing the Agents API": {
+    "zh": "代理 API 简介",
+    "ja": "エージェント API の紹介"
+  },
+  "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.": {
+    "zh": "使用代理 API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
+    "ja": "Agents API を使用してクラウド エージェントを構築および起動します。これは、オーケストレーション、長時間実行セッション、およびツールの使用のための Codex ハーネスを利用したマネージド サービスです。"
+  },
+  "Introducing ChatGPT for Financial Services": {
+    "zh": "金融服务领域引入 ChatGPT",
+    "ja": "金融サービス向けの ChatGPT の紹介"
+  },
+  "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.": {
+    "zh": "推出用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
+    "ja": "金融サービス向けの ChatGPT を導入し、組み込みの財務データと GPT-6 Astra を組み合わせて、研究、モデリング、クライアント対応資料を提供します。"
+  },
+  "auto": {
+    "zh": "汽车",
+    "ja": "自動"
+  },
+  "Claude Managed Agents permission policies now include auto: the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission. See Let the server evaluate each call with auto.": {
+    "zh": "Claude 托管代理权限策略现在包括自动：服务器评估每个代理或 MCP 工具调用并运行它、拒绝它或暂停以供您批准。 agent.tool_use 和agent.mcp_tool_use 事件报告如何在评估字段中评估每个调用以及evaluate_permission。请参阅让服务器使用 auto 评估每个调用。",
+    "ja": "Claude 管理対象エージェントの権限ポリシーに自動が含まれるようになりました。サーバーは各エージェントまたは MCP ツール呼び出しを評価し、実行、拒否、または承認のために一時停止します。 Agent.tool_use イベントと Agent.mcp_tool_use イベントは、evaluated_permission と並んで評価フィールドで各呼び出しがどのように評価されたかを報告します。 「サーバーに auto を使用して各呼び出しを評価させる」を参照してください。"
+  },
+  "The ant CLI adds ant beta:sessions connect, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass --web to serve the Claude Console's session viewer locally and open the session there instead. See Connect to a Managed Agents session from your terminal.": {
+    "zh": "ant CLI 添加了 ant beta:sessions connect，它将您的终端连接到 Claude Managed Agents 会话。您可以实时关注会话、发送消息以及允许或拒绝等待批准的工具调用。传递 --web 以在本地为 Claude 控制台的会话查看器提供服务，并在那里打开会话。请参阅从终端连接到托管代理会话。",
+    "ja": "ant CLI は、ant beta:sessions connect を追加します。これにより、端末が Claude 管理対象エージェント セッションに接続されます。セッションをライブでフォローしたり、メッセージを送信したり、承認待ちのツール呼び出しを許可または拒否したりできます。 --web を渡して Claude コンソールのセッション ビューアをローカルで提供し、代わりにそこでセッションを開きます。 「端末から管理対象エージェント セッションに接続する」を参照してください。"
   }
 }
