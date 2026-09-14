@@ -1276,6 +1276,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "date": "2026-09-02",
+      "category": "github",
+      "title": {
+        "zh": "Content exclusions generally available in Copilot app and CLI",
+        "ja": "Content exclusions generally available in Copilot app and CLI",
+        "en": "Content exclusions generally available in Copilot app and CLI"
+      },
+      "summary": {
+        "zh": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
+        "ja": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
+        "en": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows."
+      },
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-01-openai-path-to-astra",
       "date": "2026-09-01",
       "category": "openai",
@@ -4526,30 +4550,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "代码质量设置中的代码覆盖率自动启用",
-        "ja": "コード品質設定でのコードカバレッジの自動有効化",
-        "en": "Code coverage automatic enablement in Code Quality settings"
-      },
-      "summary": {
-        "zh": "我们正在使代码覆盖率设置更快、更简单。现在，您将在存储库的代码质量设置中看到一个新选项，可让 GitHub 使用 AI 自动生成覆盖工作流程。",
-        "ja": "コード カバレッジのセットアップをより迅速かつ簡単に行えるようにしています。リポジトリのコード品質設定に、GitHub が AI を使用してカバレッジ ワークフローを自動的に生成できる新しいオプションが表示されます。",
-        "en": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-04-anthropic-tino-cuellar",
       "date": "2026-08-04",
       "category": "anthropic",
@@ -6029,31 +6029,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-22-google-galaxy-unpacked-2026",
-      "date": "2026-07-22",
-      "category": "google",
-      "title": {
-        "zh": "Galaxy Unpacked 2026 的 3 项 Google 更新",
-        "ja": "Galaxy Unpacked 2026 からの 3 つの Google アップデート",
-        "en": "3 Google updates from Galaxy Unpacked 2026"
-      },
-      "summary": {
-        "zh": "我们分享了三星用户如何提高工作效率并节省时间购买即将推出的新款可折叠设备、手表和眼镜。",
-        "ja": "Samsung ユーザーが生産性を向上させ、近々発売される新しい折りたたみ式時計、時計、メガネの使用時間を取り戻す方法について共有しました。",
-        "en": "We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
-      },
-      "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026",
-      "tags": [
-        "gemini-app",
-        "android",
-        "gemini-notebook",
-        "ai",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-07-22-github-2026-07-22-new-copilot-usage-metrics-impact-dashboard",
       "date": "2026-07-22",
       "category": "github",
@@ -6854,30 +6829,6 @@
       "tags": [
         "improvement",
         "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-14-github-2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-      "date": "2026-07-14",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot for JetBrains 扩展了 BYOK 功能",
-        "ja": "JetBrains の GitHub Copilot は BYOK 機能を拡張します",
-        "en": "GitHub Copilot for JetBrains expands BYOK capabilities"
-      },
-      "summary": {
-        "zh": "此更新为 JetBrains IDE 的所有 GitHub Copilot 层带来了自定义和模型提供程序灵活性方面的重大进步。凭借更丰富的插件和提供商体验、改进的对话交互以及更强的可靠性，团队可以更自信地根据他们构建软件的方式定制 Copilot。",
-        "ja": "このアップデートにより、JetBrains IDE の GitHub Copilot のすべての層のカスタマイズとモデル プロバイダーの柔軟性が大幅に向上しました。より豊富なプラグインとプロバイダーのエクスペリエンス、改善された会話対話、より強力な信頼性により、チームは自信を持ってソフトウェアの構築方法に合わせて Copilot を調整できます。",
-        "en": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
