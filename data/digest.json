@@ -3,6 +3,51 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-09-15-google-release-notes",
+      "date": "2026-09-15",
+      "category": "google",
+      "title": {
+        "zh": "Reinforcement learning fine-tuning in the Google Cloud console (Preview)",
+        "ja": "Reinforcement learning fine-tuning in the Google Cloud console (Preview)",
+        "en": "Reinforcement learning fine-tuning in the Google Cloud console (Preview)"
+      },
+      "summary": {
+        "zh": "Feature Reinforcement learning fine-tuning in the Google Cloud console (Preview) You can create, monitor, and test reinforcement learning fine-tuning jobs for Gemini models in the Google Cloud console ( Preview ). From the Models > Tuning page, you can configure Python code or model-based reward functions, test reward logic against sample prompts before launching a job, track training and evaluation metrics in real time, and test tuned checkpoints in Agent Studio.",
+        "ja": "Feature Reinforcement learning fine-tuning in the Google Cloud console (Preview) You can create, monitor, and test reinforcement learning fine-tuning jobs for Gemini models in the Google Cloud console ( Preview ). From the Models > Tuning page, you can configure Python code or model-based reward functions, test reward logic against sample prompts before launching a job, track training and evaluation metrics in real time, and test tuned checkpoints in Agent Studio.",
+        "en": "Feature Reinforcement learning fine-tuning in the Google Cloud console (Preview) You can create, monitor, and test reinforcement learning fine-tuning jobs for Gemini models in the Google Cloud console ( Preview ). From the Models > Tuning page, you can configure Python code or model-based reward functions, test reward logic against sample prompts before launching a job, track training and evaluation metrics in real time, and test tuned checkpoints in Agent Studio."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_15_2026-reinforcement-learning-fine-tuning-in-the-google-cloud-console-preview",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-09-15-google-introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "date": "2026-09-15",
+      "category": "google",
+      "title": {
+        "zh": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "ja": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+      },
+      "summary": {
+        "zh": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "ja": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "en": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-09-14-openai-perplexity-improving-accuracy-with-astra",
       "date": "2026-09-14",
       "category": "openai",
@@ -71,6 +116,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-14-anthropic-compaction",
+      "date": "2026-09-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "compact-2026-09-04",
+        "ja": "compact-2026-09-04",
+        "en": "compact-2026-09-04"
+      },
+      "summary": {
+        "zh": "The Messages API can now compact a conversation on demand on the Claude API, in beta with the compact-2026-09-04 beta header. Send the top-level compaction parameter, and the API returns a signed compaction block that summarizes the messages you sent. On later requests, send that block first, in place of those messages. You choose when to compact, the request can run in the background, and you can keep recent turns word for word after the summary.",
+        "ja": "The Messages API can now compact a conversation on demand on the Claude API, in beta with the compact-2026-09-04 beta header. Send the top-level compaction parameter, and the API returns a signed compaction block that summarizes the messages you sent. On later requests, send that block first, in place of those messages. You choose when to compact, the request can run in the background, and you can keep recent turns word for word after the summary.",
+        "en": "The Messages API can now compact a conversation on demand on the Claude API, in beta with the compact-2026-09-04 beta header. Send the top-level compaction parameter, and the API returns a signed compaction block that summarizes the messages you sent. On later requests, send that block first, in place of those messages. You choose when to compact, the request can run in the background, and you can keep recent turns word for word after the summary."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction#compact-on-demand-with-the-compaction-parameter",
+      "tags": [
+        "compact-2026-09-04",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-09-11-openai-scaling-storage-one-billion-users-part-one",
@@ -2903,7 +2971,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8536aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_85j6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -4660,31 +4728,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-03-google-ai-agents-intensive-recap-2026",
-      "date": "2026-08-03",
-      "category": "google",
-      "title": {
-        "zh": "深入了解我们 353,000 人的氛围编码课程",
-        "ja": "353,000 人が受講するバイブコーディング コースの内部",
-        "en": "Inside our 353,000-person vibe coding course"
-      },
-      "summary": {
-        "zh": "Kaggle 与 Google 合作的人工智能代理强化课程将学习者聚集在一起参加免费课程，以构建和部署人工智能的下一个前沿领域。",
-        "ja": "Kaggle の AI Agents Intensive with Google では、AI の次のフロンティアを構築してデプロイするための無料コースに学習者が集まりました。",
-        "en": "Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI."
-      },
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026",
-      "tags": [
-        "gemini-models",
-        "google-cloud",
-        "developer-tools",
-        "ai",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-08-03-github-2026-08-03-trigger-copilot-automations-with-comments",
       "date": "2026-08-03",
       "category": "github",
@@ -5427,29 +5470,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-28-google-expanding-managed-agents-gemini-api-3-6-flash-hooks",
-      "date": "2026-07-28",
-      "category": "google",
-      "title": {
-        "zh": "Gemini API 托管代理：3.6 Flash、挂钩等",
-        "ja": "Gemini API 管理対象エージェント: 3.6 Flash、フックなど",
-        "en": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
-      },
-      "summary": {
-        "zh": "我们在 Gemini API 中的托管代理中宣布了更多新功能，以便开发人员可以构建可靠的、可用于生产的代理。",
-        "ja": "Gemini API の管理対象エージェントのさらに多くの新機能を発表することで、開発者は信頼性が高く実稼働対応のエージェントを構築できます。",
-        "en": "We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
-      },
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
-      "tags": [
-        "developer-tools",
-        "ai",
-        "google"
-      ],
-      "source": "Google Blog",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-07-28-github-2026-07-28-grok-4-5-is-now-available-in-github-copilot",
       "date": "2026-07-28",
       "category": "github",
@@ -5724,7 +5744,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8936aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89j6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -5861,6 +5881,30 @@
         "en": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale."
       },
       "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-23-github-2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+      "date": "2026-07-23",
+      "category": "github",
+      "title": {
+        "zh": "Copilot cloud agent for Linear is now generally available",
+        "ja": "Copilot cloud agent for Linear is now generally available",
+        "en": "Copilot cloud agent for Linear is now generally available"
+      },
+      "summary": {
+        "zh": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
+        "ja": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
+        "en": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request."
+      },
+      "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
       "tags": [
         "release",
         "copilot",
@@ -6621,7 +6665,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8a36aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8aj6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -6735,6 +6779,30 @@
       "tags": [
         "improvement",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-15-github-2026-07-14-github-copilot-in-visual-studio-june-update",
+      "date": "2026-07-15",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot in Visual Studio — June update",
+        "ja": "GitHub Copilot in Visual Studio — June update",
+        "en": "GitHub Copilot in Visual Studio — June update"
+      },
+      "summary": {
+        "zh": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
+        "ja": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
+        "en": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
+      },
+      "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -8021,7 +8089,7 @@
         "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。",
         "en": "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8cj6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8d36aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
       "tags": [
         "agent-memory-2026-07-22",
         "anthropic",
@@ -8142,6 +8210,32 @@
       "tags": [
         "retired",
         "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-01-github-2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "date": "2026-07-01",
+      "category": "github",
+      "title": {
+        "zh": "Enterprises can default to auto model selection",
+        "ja": "Enterprises can default to auto model selection",
+        "en": "Enterprises can default to auto model selection"
+      },
+      "summary": {
+        "zh": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default.",
+        "ja": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default.",
+        "en": "Enterprise administrators can now set model to auto in the enterprise managed-settings.json to make Copilot auto model selection the default for new conversations. Add auto to.github-private/.github/copilot/managed-settings.json in your source organization for enterprise governance so new conversations start with Copilot auto model selection by default."
+      },
+      "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -9209,29 +9303,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-22-google-release-notes",
-      "date": "2026-06-22",
-      "category": "google",
-      "title": {
-        "zh": "公共预览版中的 Gemini 3.1 Flash Lite 和 Gemini 3.5 Flash 可进行监督微调",
-        "ja": "パブリック プレビュー中の Gemini 3.1 Flash Lite および Gemini 3.5 Flash で監視付き微調整が利用可能",
-        "en": "Supervised fine-tuning available for Gemini 3.1 Flash Lite and Gemini 3.5 Flash in Public Preview"
-      },
-      "summary": {
-        "zh": "更改公共预览版中Gemini 3.1 Flash Lite 和Gemini 3.5 Flash 的监督微调现在可用于预览版中的gemini-3.1-flash-lite 和gemini-3.5-flash 型号。 Gemini 3.1 Flash Lite 和 Gemini 3.5 Flash 的模型调整仅限于 us-central1 和 europe-west4，调整后的模型服务仅限于美国和欧盟多区域端点。有关更多信息，请参阅关于监督微调。",
-        "ja": "パブリック プレビューで監視付き微調整が Gemini 3.1 Flash Lite および Gemini 3.5 Flash で利用可能に変更 監視付き微調整がプレビューの gemini-3.1-flash-lite および gemini-3.5-flash モデルで利用できるようになりました。 Gemini 3.1 Flash Lite および Gemini 3.5 Flash のモデル チューニングは us-central1 と europe-west4 に制限され、調整されたモデルの提供は us と eu のマルチリージョン エンドポイントに制限されます。詳細については、「監視付き微調整について」を参照してください。",
-        "en": "Change Supervised fine-tuning available for Gemini 3.1 Flash Lite and Gemini 3.5 Flash in Public Preview Supervised fine-tuning is now available for the gemini-3.1-flash-lite and gemini-3.5-flash models in Preview. Model tuning for Gemini 3.1 Flash Lite and Gemini 3.5 Flash is restricted to us-central1 and europe-west4 and tuned model serving is restricted to the us and eu multi-region endpoints. See About supervised fine-tuning for more information."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#June_22_2026-supervised-fine-tuning-available-for-gemini-3-1-flash-lite-and-gemini-3-5-flash-in-public-preview",
-      "tags": [
-        "change",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-22-github-2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
