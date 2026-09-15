@@ -48,6 +48,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-15-github-2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "date": "2026-09-15",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot suggests custom properties definitions",
+        "ja": "GitHub Copilot suggests custom properties definitions",
+        "en": "GitHub Copilot suggests custom properties definitions"
+      },
+      "summary": {
+        "zh": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans.",
+        "ja": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans.",
+        "en": "GitHub Copilot can now suggest allowed values when you create a custom property for repositories in your organization. This feature is in public preview for GitHub Copilot Business and Copilot Enterprise plans."
+      },
+      "url": "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+      "tags": [
+        "release",
+        "copilot",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-14-openai-perplexity-improving-accuracy-with-astra",
       "date": "2026-09-14",
       "category": "openai",
@@ -857,54 +882,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-08-github-2026-09-08-new-customer-portal-help-github-com",
-      "date": "2026-09-08",
-      "category": "github",
-      "title": {
-        "zh": "新客户门户 help.github.com",
-        "ja": "新規顧客ポータル help.github.com",
-        "en": "New customer portal help.github.com"
-      },
-      "summary": {
-        "zh": "支持门户已重新设计并移至新家：help.github.com。它将支持、文档、学习、社区和帐户资源集中到一处，并通过 Copilot 支持的搜索对所有这些资源进行搜索。",
-        "ja": "サポート ポータルは再設計され、help.github.com の新しいホームに移動されました。サポート、ドキュメント、学習、コミュニティ、アカウントのリソースを 1 か所にまとめ、Copilot を活用した検索でそれらすべてを検索できます。",
-        "en": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search across all of them."
-      },
-      "url": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-      "tags": [
-        "release",
-        "account-management",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-08-github-2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "date": "2026-09-08",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Enterprise Server 3.22 现已全面发布",
-        "ja": "GitHub Enterprise Server 3.22 が一般提供になりました",
-        "en": "GitHub Enterprise Server 3.22 is now generally available"
-      },
-      "summary": {
-        "zh": "GitHub Enterprise Server (GHES) 3.22 现已推出，并在整个平台上引入了新功能。以下是 3.22 版本中的一些亮点： 管理员可以配置 Copilot CLI 以便与在断开连接或气隙环境中运行而无需连接到 GitHub 云的企业的 GHES 配合使用。",
-        "ja": "GitHub Enterprise Server (GHES) 3.22 が利用可能になり、プラットフォーム全体に新機能が導入されました。 3.22 リリースのハイライトをいくつか紹介します。 管理者は、GitHub クラウドに接続せずに、切断された環境またはエアギャップ環境で運用する企業向けに、GHES と連携するように Copilot CLI を構成できます。",
-        "en": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to work with GHES for enterprises that operate in disconnected or air-gapped environments without connectivity to GitHub Cloud."
-      },
-      "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-07-openai-supporting-independent-journalism-in-ukraine",
       "date": "2026-09-07",
       "category": "openai",
@@ -1506,30 +1483,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-01-github-2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "GitHub CLI：问题、拉取请求和评论中的媒体",
-        "ja": "GitHub CLI: 問題、プルリクエスト、コメント内のメディア",
-        "en": "GitHub CLI: Media in issues, pull requests, and comments"
-      },
-      "summary": {
-        "zh": "GitHub CLI 现在有一个可重复的 --attach 标志，用于上传本地图像或视频并在问题、拉取请求或评论正文中内联引用它。现在，所有计划的 GitHub 上的所有用户都可以使用此功能。",
-        "ja": "GitHub CLI には、ローカルの画像またはビデオをアップロードし、問題、プル リクエスト、またはコメント本文でインラインで参照する反復可能な --attach フラグが追加されました。これは、すべてのプランの GitHub のすべてのユーザーが一般提供されるようになりました。",
-        "en": "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now generally available to all users on GitHub across all plans."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-01-github-2026-09-01-copilot-code-review-can-now-approve-pull-requests",
       "date": "2026-09-01",
       "category": "github",
@@ -1942,31 +1895,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-31-github-2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "date": "2026-08-31",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 团队计划的 Copilot 模型访问更新",
-        "ja": "GitHub チーム プランの Copilot モデル アクセスの更新",
-        "en": "Copilot model access update for GitHub Team plans"
-      },
-      "summary": {
-        "zh": "我们更新了如何确定在多个组织中拥有席位的 Copilot 用户的模型访问权限。为了保持计费和治理同步，您的模型访问权限现在仅由为您的使用付费的组织决定。",
-        "ja": "複数の組織でシートを保持している Copilot ユーザーのモデル アクセスを決定する方法を更新しました。請求とガバナンスの同期を保つために、モデルへのアクセスは、使用料を支払っている組織によってのみ決定されるようになりました。",
-        "en": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage."
-      },
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-31-anthropic-improving-alignment-security-efforts",
       "date": "2026-08-31",
       "category": "anthropic",
@@ -2234,32 +2162,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-27-github-2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "date": "2026-08-27",
-      "category": "github",
-      "title": {
-        "zh": "企业管理的设置现在支持插件市场的自动更新",
-        "ja": "エンタープライズ管理の設定でプラグイン マーケットプレイスの自動更新がサポートされるようになりました",
-        "en": "Enterprise-managed settings now support autoUpdate for plugin marketplaces"
-      },
-      "summary": {
-        "zh": "现在，您可以通过在企业管理设置中的 extraKnownMarketplaces 条目上设置 autoUpdate: true 来选择单个插件市场自动更新。支持的客户端会自动检查市场并更新来自市场的已安装插件，从而减少组织自定义的手动维护。",
-        "ja": "エンタープライズ管理設定の extraKnownMarketplaces エントリで autoUpdate: true を設定することで、個々のプラグイン マーケットプレイスの自動更新を選択できるようになりました。サポートされているクライアントは自動的にマーケットプレイスをチェックし、そこから入手したインストール済みのプラグインを更新するため、組織のカスタマイズのための手動メンテナンスが軽減されます。",
-        "en": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations."
-      },
-      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -4933,30 +4835,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-31-github-2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "date": "2026-07-31",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 中即将于 2026 年 8 月弃用的模型",
-        "ja": "GitHub Copilot で予定されている 2026 年 8 月のモデルの非推奨",
-        "en": "Upcoming August 2026 model deprecations in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "我们将于 2026 年 9 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8 或 Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
-        "ja": "2026 年 9 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、およびコード補完を含む) で次のモデルを廃止します。 モデルの廃止日 推奨される代替案 Gemini 3.1 Pro 2026 年 9 月 1 日 Gemini 3.6 Flash Claude Opus 4.5 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Opus 4.6 2026 年 9 月 1 日 Claude Opus 4.7、Claude Opus 4.8、または Claude Opus 5 Claude Sonnet 4.5 2026 年 9 月 1 日 Claude Sonnet 5 Claude Sonnet 4.6* 2026 年 9 月 1 日 Claude...",
-        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude..."
-      },
-      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-31-github-2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
       "date": "2026-07-31",
       "category": "github",
@@ -6299,30 +6177,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-21-github-2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "date": "2026-07-21",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3.6 Flash 现在可在 GitHub Copilot 中使用",
-        "ja": "Gemini 3.6 Flash が GitHub Copilot で利用可能になりました",
-        "en": "Gemini 3.6 Flash is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 3.6 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。它专为 Web 和应用程序开发、编码和长期代理任务而设计。",
-        "ja": "Google の最新の Flash モデルである Gemini 3.6 Flash は、GitHub Copilot で展開されています。 Web およびアプリの開発、コーディング、および長期的なエージェント タスク向けに設計されています。",
-        "en": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks."
-      },
-      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-21-anthropic-donation-public-first-action",
       "date": "2026-07-21",
       "category": "anthropic",
@@ -6407,31 +6261,6 @@
       "tags": [
         "improvement",
         "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "计费 UI 中成本中心的 AI 信用池",
-        "ja": "請求 UI のコストセンターの AI クレジット プール",
-        "en": "AI credit pools for cost centers in the billing UI"
-      },
-      "summary": {
-        "zh": "您现在可以直接在创建和编辑成本中心的计费 UI 中管理成本中心的 AI 信用池。以前，您只能通过 GitHub REST API 进行管理。",
-        "ja": "コスト センターを作成および編集する請求 UI で、コスト センターの AI クレジット プールを直接管理できるようになりました。以前は、GitHub REST API を介してのみこれを管理できました。",
-        "en": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "tags": [
-        "improvement",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -7593,32 +7422,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-08-github-2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "用于 VS Code 和 CLI 的企业管理 OpenTelemetry 导出",
-        "ja": "VS Code および CLI 用のエンタープライズ管理の OpenTelemetry エクスポート",
-        "en": "Enterprise-managed OpenTelemetry export for VS Code and CLI"
-      },
-      "summary": {
-        "zh": "组织现在可以强制 GitHub Copilot 在何处发送 OpenTelemetry (OTel) 数据，因此遥测数据会流向经过批准的收集器，而无需每个开发人员设置 OTEL_* 环境变量。配置通过企业管理设置中的遥测块进行传递，并适用于 VS Code 中的 Copilot 聊天扩展以及支持 Copilot CLI 的代理主机进程。",
-        "ja": "組織は、GitHub Copilot が OpenTelemetry (OTel) データを送信する場所を指定できるようになりました。これにより、各開発者が OTEL_* 環境変数を設定しなくても、承認されたコレクターにテレメトリが送信されます。この構成は、エンタープライズ管理設定のテレメトリ ブロックを通じて配信され、VS Code の Copilot チャット拡張機能と、Copilot CLI を強化するエージェント ホスト プロセスの両方に適用されます。",
-        "en": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-08-github-2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
       "date": "2026-07-08",
       "category": "github",
@@ -8120,31 +7923,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-01-github-2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "在 Copilot CLI 和 SDK 中设置 AI 信用会话限制",
-        "ja": "Copilot CLI および SDK で AI クレジット セッション制限を設定する",
-        "en": "Set AI credit session limits in Copilot CLI and SDK"
-      },
-      "summary": {
-        "zh": "您现在可以在 Copilot CLI 和 GitHub Copilot SDK 中设置 AI 信用会话限制，以限制客服人员在会话中花费的金额。这对于自动化特别有用，因为没有人主动监控代理的工作。",
-        "ja": "Copilot CLI および GitHub Copilot SDK で AI クレジット セッション制限を設定して、エージェントがセッションで費やす金額を制限できるようになりました。これは、エージェントの作業を積極的に監視している人がいない自動化の場合に特に役立ちます。",
-        "en": "You can now set AI credit session limits in Copilot CLI and the GitHub Copilot SDK to cap the amount an agent spends in a session. This is especially useful for automation, where no one is actively monitoring the agent’s work."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-set-ai-credit-session-limits-in-copilot-cli-and-sdk",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-01-github-2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
       "date": "2026-07-01",
       "category": "github",
@@ -8309,30 +8087,6 @@
       "url": "https://github.blog/changelog/2026-07-01-copilot-cli-auto-model-selection-routes-based-on-task",
       "tags": [
         "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-01-github-2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "VS Code 中 GitHub Copilot 的浏览器工具已普遍可用",
-        "ja": "VS Code の GitHub Copilot 用のブラウザ ツールが一般提供されました",
-        "en": "Browser tools for GitHub Copilot in VS Code are generally available"
-      },
-      "summary": {
-        "zh": "编者注（2026 年 7 月 1 日）：添加了有关哪些权限受您控制以及现有网络域控制的更多详细信息。 VS Code 中的 GitHub Copilot 浏览器工具现已普遍可用。",
-        "ja": "編集者注記 (2026 年 7 月 1 日): どのアクセス許可がユーザーの制御下にあるのか、および既存のネットワーク ドメインの制御下にあるのかについての詳細を追加しました。 VS Code の GitHub Copilot 用のブラウザ ツールが一般公開されました。",
-        "en": "Editor’s note (July 1, 2026): Added more detail about which permissions stay under your control and the existing network domain controls. Browser tools for GitHub Copilot in VS Code are now generally available."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-browser-tools-for-github-copilot-in-vs-code-are-generally-available",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -9799,30 +9553,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-17-github-2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
-      "date": "2026-06-17",
-      "category": "github",
-      "title": {
-        "zh": "Copilot 聊天中的自动模式可供所有用户使用",
-        "ja": "Copilot の自動モード チャットはすべてのユーザーが利用可能",
-        "en": "Auto mode in Copilot Chat available for all users"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 自动模型选择现已在 github.com 上的 Copilot Chat 和所有 Copilot 计划的 GitHub 移动应用程序中普遍提供。通过自动，Copilot 根据您请求的复杂性和当前型号的可用性代表您选择型号。",
-        "ja": "GitHub Copilot 自動モデル選択は、github.com の Copilot チャットおよびすべての Copilot プランの GitHub モバイル アプリで一般利用できるようになりました。自動の場合、Copilot は、リクエストの複雑さと現在のモデルの可用性に基づいて、ユーザーに代わってモデルを選択します。",
-        "en": "GitHub Copilot auto model selection is now generally available in Copilot Chat on github.com and the GitHub mobile app for all Copilot plans. With auto, Copilot chooses a model on your behalf based on the complexity of your request and current model availability."
-      },
-      "url": "https://github.blog/changelog/2026-06-17-auto-mode-in-copilot-chat-available-for-all-users",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
