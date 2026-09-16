@@ -7758,10 +7758,6 @@
     "zh": "Claude 托管代理权限策略现在包括自动：服务器评估每个代理或 MCP 工具调用并运行它、拒绝它或暂停以供您批准。 agent.tool_use 和agent.mcp_tool_use 事件报告如何在评估字段中评估每个调用以及evaluate_permission。请参阅让服务器使用 auto 评估每个调用。",
     "ja": "Claude 管理対象エージェントの権限ポリシーに自動が含まれるようになりました。サーバーは各エージェントまたは MCP ツール呼び出しを評価し、実行、拒否、または承認のために一時停止します。 Agent.tool_use イベントと Agent.mcp_tool_use イベントは、evaluated_permission と並んで評価フィールドで各呼び出しがどのように評価されたかを報告します。 「サーバーに auto を使用して各呼び出しを評価させる」を参照してください。"
   },
-  "The ant CLI adds ant beta:sessions connect, which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send messages, and allow or deny tool calls that are waiting for approval. Pass --web to serve the Claude Console's session viewer locally and open the session there instead. See Connect to a Managed Agents session from your terminal.": {
-    "zh": "ant CLI 添加了 ant beta:sessions connect，它将您的终端连接到 Claude Managed Agents 会话。您可以实时关注会话、发送消息以及允许或拒绝等待批准的工具调用。传递 --web 以在本地为 Claude 控制台的会话查看器提供服务，并在那里打开会话。请参阅从终端连接到托管代理会话。",
-    "ja": "ant CLI は、ant beta:sessions connect を追加します。これにより、端末が Claude 管理対象エージェント セッションに接続されます。セッションをライブでフォローしたり、メッセージを送信したり、承認待ちのツール呼び出しを許可または拒否したりできます。 --web を渡して Claude コンソールのセッション ビューアをローカルで提供し、代わりにそこでセッションを開きます。 「端末から管理対象エージェント セッションに接続する」を参照してください。"
-  },
   "Rapidly scaling online storage to serve over 1 billion ChatGPT users": {
     "zh": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户",
     "ja": "オンライン ストレージを迅速に拡張して 10 億人を超える ChatGPT ユーザーにサービスを提供"
