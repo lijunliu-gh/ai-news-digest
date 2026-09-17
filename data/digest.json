@@ -3,6 +3,50 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-09-18-anthropic-compliance-api",
+      "date": "2026-09-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "product_surface",
+        "ja": "product_surface",
+        "en": "product_surface"
+      },
+      "summary": {
+        "zh": "The Compliance API local session endpoints now also return transcripts of Claude in Chrome sessions ( product_surface value claude_in_chrome ), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the read:compliance_user_data scope. See Sessions on users' machines.",
+        "ja": "The Compliance API local session endpoints now also return transcripts of Claude in Chrome sessions ( product_surface value claude_in_chrome ), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the read:compliance_user_data scope. See Sessions on users' machines.",
+        "en": "The Compliance API local session endpoints now also return transcripts of Claude in Chrome sessions ( product_surface value claude_in_chrome ), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the read:compliance_user_data scope. See Sessions on users' machines."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-api",
+      "tags": [
+        "product-surface",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-09-17-anthropic-life-sciences-verification-program",
+      "date": "2026-09-17",
+      "category": "anthropic",
+      "title": {
+        "zh": "Introducing the Life Sciences Verification Program",
+        "ja": "Introducing the Life Sciences Verification Program",
+        "en": "Introducing the Life Sciences Verification Program"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-09-16-openai-unlocking-new-ways-of-working",
       "date": "2026-09-16",
       "category": "openai",
@@ -407,32 +451,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-11-github-2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "date": "2026-09-11",
-      "category": "github",
-      "title": {
-        "zh": "将 VS Code 代理添加到 Copilot 使用指标",
-        "ja": "VS Code エージェントを Copilot 使用状況メトリクスに追加する",
-        "en": "Add VS Code Agents to Copilot usage metrics"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 使用指标报告现在包括专用 VS Code Agents 窗口中活动的常用指标，帮助您衡量企业和组织的采用率和参与度。新功能 1 天和 28 天期间的企业和组织汇总报告现在包括： daily_active_vscode_agent_users：每天 VS Code Agents 窗口中活跃的唯一用户的可选计数。",
-        "ja": "GitHub Copilot 使用状況メトリクス レポートには、専用の VS Code エージェント ウィンドウでのアクティビティに関する一般的に利用可能なメトリクスが含まれるようになり、企業や組織全体での導入とエンゲージメントの測定に役立ちます。新機能 1 日と 28 日の両方の企業および組織の集計レポートに、以下が含まれるようになりました。 daily_active_vscode_agent_users: 毎日 VS Code Agents ウィンドウでアクティブなユニーク ユーザーのオプションの数。",
-        "en": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day."
-      },
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -2262,30 +2280,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-28-github-2026-08-28-github-copilot-weekly-releases-august-24",
-      "date": "2026-08-28",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 每周发布 — 8 月 24 日",
-        "ja": "GitHub Copilot 毎週のリリース — 8 月 24 日",
-        "en": "GitHub Copilot weekly releases — August 24"
-      },
-      "summary": {
-        "zh": "本周的更新让您可以更好地控制 Copilot 的运行方式，从 Slack 和 Teams 中的团队会话到跨应用程序、CLI 和 IDE 的自定义。 Slack 和 Microsoft Teams 中的 GitHub Copilot 将团队对话转变为共享代理会话。",
-        "ja": "今週の更新により、Slack や Teams のチーム セッションからアプリ、CLI、IDE にわたるカスタマイズに至るまで、Copilot の実行方法をより詳細に制御できるようになります。 Slack と Microsoft Teams の GitHub Copilot チームの会話を共有エージェント セッションに変えます。",
-        "en": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in Slack and Microsoft Teams Turn team conversations into shared agent sessions."
-      },
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-28-github-2026-08-28-github-copilot-in-visual-studio-august-update-2",
       "date": "2026-08-28",
       "category": "github",
@@ -2699,29 +2693,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-26-anthropic-compliance-api",
-      "date": "2026-08-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "合规API",
-        "ja": "コンプライアンスAPI",
-        "en": "Compliance API"
-      },
-      "summary": {
-        "zh": "Cowork 和 Claude Code 会话的合规性 API 会话端点已经过测试版。请参阅检索会话记录。",
-        "ja": "Compliance API セッション エンドポイントは、Cowork セッションおよび Claude Code セッションではベータ版ではありません。 「セッショントランスクリプトの取得」を参照してください。",
-        "en": "The Compliance API session endpoints are out of beta for Cowork and Claude Code sessions. See Retrieve session transcripts."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-api",
-      "tags": [
-        "compliance-api",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-25-openai-the-full-stack-behind-abundant-intelligence",
@@ -3177,7 +3148,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_85j6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_85r6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -5951,7 +5922,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89j6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89r6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -6872,7 +6843,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8aj6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8ar6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -8296,7 +8267,7 @@
         "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。",
         "en": "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8d36aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8db6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
       "tags": [
         "agent-memory-2026-07-22",
         "anthropic",
