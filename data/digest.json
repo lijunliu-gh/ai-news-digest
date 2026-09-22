@@ -346,32 +346,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-17-github-2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "date": "2026-09-17",
-      "category": "github",
-      "title": {
-        "zh": "Agentic CLI customizations now in the usage metrics API",
-        "ja": "Agentic CLI customizations now in the usage metrics API",
-        "en": "Agentic CLI customizations now in the usage metrics API"
-      },
-      "summary": {
-        "zh": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
-        "ja": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
-        "en": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports."
-      },
-      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-17-anthropic-life-sciences-verification-program",
       "date": "2026-09-17",
       "category": "anthropic",
@@ -1212,6 +1186,32 @@
       "tags": [
         "release",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-09-github-2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+      "date": "2026-09-09",
+      "category": "github",
+      "title": {
+        "zh": "Enterprise managed permissions for GitHub Copilot agent operations",
+        "ja": "Enterprise managed permissions for GitHub Copilot agent operations",
+        "en": "Enterprise managed permissions for GitHub Copilot agent operations"
+      },
+      "summary": {
+        "zh": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains.",
+        "ja": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains.",
+        "en": "If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed permissions cover shell commands, file reads and edits, and network domains."
+      },
+      "url": "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
