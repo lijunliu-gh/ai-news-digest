@@ -25,30 +25,71 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-22-openai-changelog",
+      "id": "2026-09-22-openai-introducing-gpt-6-sol-and-luna",
       "date": "2026-09-22",
       "category": "openai",
       "title": {
-        "zh": "GPT-6 Sol, GPT-6 Luna",
-        "ja": "GPT-6 Sol, GPT-6 Luna",
-        "en": "GPT-6 Sol, GPT-6 Luna"
+        "zh": "Introducing GPT-6 Sol and Luna",
+        "ja": "Introducing GPT-6 Sol and Luna",
+        "en": "Introducing GPT-6 Sol and Luna"
       },
       "summary": {
-        "zh": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.",
-        "ja": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.",
-        "en": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs."
+        "zh": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "ja": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+        "en": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost."
       },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-09-22-feature-gpt-6-sol-gpt-6-luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
       "tags": [
-        "gpt-6-sol",
-        "gpt-6-luna",
-        "v1-responses",
-        "v1-chat-completions",
-        "feature",
-        "openai",
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-22-openai-better-prompt-caching-for-gpt-6",
+      "date": "2026-09-22",
+      "category": "openai",
+      "title": {
+        "zh": "Better prompt caching for GPT-6",
+        "ja": "Better prompt caching for GPT-6",
+        "en": "Better prompt caching for GPT-6"
+      },
+      "summary": {
+        "zh": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+        "ja": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+        "en": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs."
+      },
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "tags": [
+        "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-22-github-2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+      "date": "2026-09-22",
+      "category": "github",
+      "title": {
+        "zh": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+        "ja": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available",
+        "en": "OpenAI’s GPT-6 Sol and GPT-6 Luna now available"
+      },
+      "summary": {
+        "zh": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the model that best fits your task, whether that’s everyday agentic coding or fast, cost-efficient assistance.",
+        "ja": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the model that best fits your task, whether that’s everyday agentic coding or fast, cost-efficient assistance.",
+        "en": "OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the model that best fits your task, whether that’s everyday agentic coding or fast, cost-efficient assistance."
+      },
+      "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
         "changelog"
       ],
-      "source": "OpenAI API Changelog",
+      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -257,30 +298,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-09-18-github-2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
-      "date": "2026-09-18",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
-        "ja": "Upcoming deprecation of selected GitHub Copilot models in mid-October",
-        "en": "Upcoming deprecation of selected GitHub Copilot models in mid-October"
-      },
-      "summary": {
-        "zh": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date Suggested alternative Gemini 3.7 Flash 2026-10-19 Gemini 3.8 Flash GPT-5.5 2026-10-19 GPT-5.6 Sol GPT-5.4 2026-10-19 GPT-5.6 Sol GPT-5.4 mini 2026-10-19 GPT-5.6 Luna GPT-5 mini 2026-10-19 GPT-5.6 Luna Grok 4.5 2026-10-19 Grok 4.6 Please update your workflows and integrations to use the...",
-        "ja": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date Suggested alternative Gemini 3.7 Flash 2026-10-19 Gemini 3.8 Flash GPT-5.5 2026-10-19 GPT-5.6 Sol GPT-5.4 2026-10-19 GPT-5.6 Sol GPT-5.4 mini 2026-10-19 GPT-5.6 Luna GPT-5 mini 2026-10-19 GPT-5.6 Luna Grok 4.5 2026-10-19 Grok 4.6 Please update your workflows and integrations to use the...",
-        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on October 19th, 2026: Model Deprecation date Suggested alternative Gemini 3.7 Flash 2026-10-19 Gemini 3.8 Flash GPT-5.5 2026-10-19 GPT-5.6 Sol GPT-5.4 2026-10-19 GPT-5.6 Sol GPT-5.4 mini 2026-10-19 GPT-5.6 Luna GPT-5 mini 2026-10-19 GPT-5.6 Luna Grok 4.5 2026-10-19 Grok 4.6 Please update your workflows and integrations to use the..."
-      },
-      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-18-github-2026-09-18-github-copilot-weekly-releases-september-14",
       "date": "2026-09-18",
       "category": "github",
@@ -437,32 +454,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-09-17-github-2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "date": "2026-09-17",
-      "category": "github",
-      "title": {
-        "zh": "Copilot impact dashboard now shows feature engagement",
-        "ja": "Copilot impact dashboard now shows feature engagement",
-        "en": "Copilot impact dashboard now shows feature engagement"
-      },
-      "summary": {
-        "zh": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement.",
-        "ja": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement.",
-        "en": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement."
-      },
-      "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-17-github-2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
@@ -1104,30 +1095,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-10-github-2026-09-10-mai-code-1-flash-deprecated",
-      "date": "2026-09-10",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1-Flash deprecated",
-        "ja": "MAI-Code-1-Flash deprecated",
-        "en": "MAI-Code-1-Flash deprecated"
-      },
-      "summary": {
-        "zh": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model.",
-        "ja": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model.",
-        "en": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model."
-      },
-      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -3414,56 +3381,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-08-21-github-2026-08-21-the-new-github-copilot-experience-in-slack",
-      "date": "2026-08-21",
-      "category": "github",
-      "title": {
-        "zh": "The new GitHub Copilot experience in Slack",
-        "ja": "The new GitHub Copilot experience in Slack",
-        "en": "The new GitHub Copilot experience in Slack"
-      },
-      "summary": {
-        "zh": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.",
-        "ja": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.",
-        "en": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work."
-      },
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-21-github-2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "date": "2026-08-21",
-      "category": "github",
-      "title": {
-        "zh": "与 Microsoft Teams 中的 GitHub Copilot 共享代理工作",
-        "ja": "Microsoft Teams の GitHub Copilot との共有エージェント作業",
-        "en": "Shared agentic work with GitHub Copilot in Microsoft Teams"
-      },
-      "summary": {
-        "zh": "将 Microsoft Teams 讨论转变为每个人都可以看到并帮助指导的协作代理会话。在频道、话题或直接消息中提及 @GitHub 以启动 GitHub Copilot 云代理会话。",
-        "ja": "Microsoft Teams のディスカッションを、誰もが確認して指示できる共同エージェント セッションに変えます。 GitHub Copilot クラウド エージェント セッションを開始するには、チャネル、スレッド、またはダイレクト メッセージで @GitHub に言及します。",
-        "en": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session."
-      },
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-20-openai-stampli",
       "date": "2026-08-20",
       "category": "openai",
@@ -5598,54 +5515,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-31-github-2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "date": "2026-07-31",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming August 2026 model deprecations in GitHub Copilot",
-        "ja": "Upcoming August 2026 model deprecations in GitHub Copilot",
-        "en": "Upcoming August 2026 model deprecations in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude...",
-        "ja": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude...",
-        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions), on September 1st, 2026: Model Deprecation date Suggested alternative Gemini 3.1 Pro 9-1-2026 Gemini 3.6 Flash Claude Opus 4.5 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Opus 4.6 9-1-2026 Claude Opus 4.7, Claude Opus 4.8, or Claude Opus 5 Claude Sonnet 4.5 9-1-2026 Claude Sonnet 5 Claude Sonnet 4.6* 9-1-2026 Claude..."
-      },
-      "url": "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-31-github-2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
-      "date": "2026-07-31",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
-        "ja": "Gemini 2.5 Pro and Gemini 3 Flash deprecated",
-        "en": "Gemini 2.5 Pro and Gemini 3 Flash deprecated"
-      },
-      "summary": {
-        "zh": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 2.5 Pro 2026-07-31 Gemini 3.1 Pro (Preview) Gemini 3 Flash 2026-07-31 Gemini 3.6 Flash Please update your workflows and integrations to use supported models.",
-        "ja": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 2.5 Pro 2026-07-31 Gemini 3.1 Pro (Preview) Gemini 3 Flash 2026-07-31 Gemini 3.6 Flash Please update your workflows and integrations to use supported models.",
-        "en": "As of today, July 31, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 2.5 Pro 2026-07-31 Gemini 3.1 Pro (Preview) Gemini 3 Flash 2026-07-31 Gemini 3.6 Flash Please update your workflows and integrations to use supported models."
-      },
-      "url": "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-31-github-2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview",
       "date": "2026-07-31",
       "category": "github",
@@ -7402,30 +7271,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-15-github-2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "date": "2026-07-15",
-      "category": "github",
-      "title": {
-        "zh": "秘密扫描和公共监控的改进",
-        "ja": "シークレットスキャンとパブリックモニタリングの改善",
-        "en": "Improvements to secret scanning and public monitoring"
-      },
-      "summary": {
-        "zh": "本周，我们将对秘密扫描和公共监控进行多项改进：Resend 现在是 GitHub 秘密扫描合作伙伴。秘密扫描现在可以检测来自 APIclub 和 Resend 的新秘密类型。",
-        "ja": "今週、私たちはシークレット スキャンとパブリック モニタリングに対するいくつかの改善を展開します。Resend は GitHub シークレット スキャン パートナーになりました。シークレット スキャンは、APIclub と Resend からの新しいシークレット タイプを検出するようになりました。",
-        "en": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend."
-      },
-      "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-15-github-2026-07-14-github-copilot-in-visual-studio-june-update",
