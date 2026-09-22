@@ -3,6 +3,125 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-09-22-openai-priorities-principles-third-party-assessments",
+      "date": "2026-09-22",
+      "category": "openai",
+      "title": {
+        "zh": "Priorities and principles for effective third party assessments",
+        "ja": "Priorities and principles for effective third party assessments",
+        "en": "Priorities and principles for effective third party assessments"
+      },
+      "summary": {
+        "zh": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+        "ja": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+        "en": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards."
+      },
+      "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-09-22-openai-changelog",
+      "date": "2026-09-22",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-6 Sol, GPT-6 Luna",
+        "ja": "GPT-6 Sol, GPT-6 Luna",
+        "en": "GPT-6 Sol, GPT-6 Luna"
+      },
+      "summary": {
+        "zh": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.",
+        "ja": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs.",
+        "en": "Released GPT-6 Sol ( gpt-6-sol ) and GPT-6 Luna ( gpt-6-luna ). These reasoning models accept text and image inputs and generate text through the Responses and Chat Completions APIs."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-09-22-feature-gpt-6-sol-gpt-6-luna",
+      "tags": [
+        "gpt-6-sol",
+        "gpt-6-luna",
+        "v1-responses",
+        "v1-chat-completions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-22-github-2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "date": "2026-09-22",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 5.5 is now available in GitHub Copilot",
+        "ja": "Claude Opus 5.5 is now available in GitHub Copilot",
+        "en": "Claude Opus 5.5 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work.",
+        "ja": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work.",
+        "en": "Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work."
+      },
+      "url": "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-22-anthropic-effort",
+      "date": "2026-09-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "思考：{“type”：“禁用”}",
+        "ja": "思考: {\"タイプ\": \"無効\"}",
+        "en": "thinking: {\"type\": \"disabled\"}"
+      },
+      "summary": {
+        "zh": "On Claude Opus 5.5, thinking can't be disabled: thinking: {\"type\": \"disabled\"} and thinking: {\"type\": \"enabled\",...} return a 400 error. Omit the thinking field and control thinking depth with the effort parameter. tool_choice types any and tool also return a 400 error, as on Claude Fable 5.1; use auto with strict tool use.",
+        "ja": "On Claude Opus 5.5, thinking can't be disabled: thinking: {\"type\": \"disabled\"} and thinking: {\"type\": \"enabled\",...} return a 400 error. Omit the thinking field and control thinking depth with the effort parameter. tool_choice types any and tool also return a 400 error, as on Claude Fable 5.1; use auto with strict tool use.",
+        "en": "On Claude Opus 5.5, thinking can't be disabled: thinking: {\"type\": \"disabled\"} and thinking: {\"type\": \"enabled\",...} return a 400 error. Omit the thinking field and control thinking depth with the effort parameter. tool_choice types any and tool also return a 400 error, as on Claude Fable 5.1; use auto with strict tool use."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "tags": [
+        "thinking-type-disabled",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-09-22-anthropic-context-windows",
+      "date": "2026-09-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Opus 5.5",
+        "ja": "Claude Opus 5.5",
+        "en": "Claude Opus 5.5"
+      },
+      "summary": {
+        "zh": "We've launched Claude Opus 5.5 ( claude-opus-5-5 ), a model for long-running agentic coding and knowledge work. It has a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry.",
+        "ja": "We've launched Claude Opus 5.5 ( claude-opus-5-5 ), a model for long-running agentic coding and knowledge work. It has a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry.",
+        "en": "We've launched Claude Opus 5.5 ( claude-opus-5-5 ), a model for long-running agentic coding and knowledge work. It has a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $4 / $20 USD per MTok (Claude Opus 5 is $5 / $25). Claude Opus 5.5 is available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "tags": [
+        "claude-opus-5-5",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-09-21-openai-expanding-openai-academy-with-new-learning-paths",
       "date": "2026-09-21",
       "category": "openai",
@@ -334,6 +453,32 @@
         "en": "The Copilot impact dashboard now shows how many active users regularly use key Copilot features. Enterprise administrators can quickly see which experiences are widely adopted and which may need more enablement."
       },
       "url": "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-17-github-2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+      "date": "2026-09-17",
+      "category": "github",
+      "title": {
+        "zh": "Agentic CLI customizations now in the usage metrics API",
+        "ja": "Agentic CLI customizations now in the usage metrics API",
+        "en": "Agentic CLI customizations now in the usage metrics API"
+      },
+      "summary": {
+        "zh": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
+        "ja": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
+        "en": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports."
+      },
+      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
       "tags": [
         "improvement",
         "account-management",
@@ -2307,29 +2452,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-01-anthropic-context-windows",
-      "date": "2026-09-01",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude 寓言 5.1",
-        "ja": "Claude 寓話 5.1",
-        "en": "Claude Fable 5.1"
-      },
-      "summary": {
-        "zh": "我们推出了 Claude Fable 5.1 ( claude-fable-5-1 )，它是 Claude Fable 5 的后继版本，用于长期运行的代理编码、知识工作和研究，同时还为 Glasswing 项目参与者推出了 Claude Mythos 5.1 ( claude-mythos-5-1 )。两种模型都默认支持 1M 令牌上下文窗口、最大 128k 输出令牌和始终在线的自适应思维，每 MTok 价格为 10 美元/50 美元，与 Claude Fable 5 相同，缓存读取削减至每 MTok 0.25 美元。",
-        "ja": "プロジェクト Glasswing 参加者向けの Claude Mythos 5.1 (claude-mythos-5-1) と並行して、長期間実行されるエージェントティック コーディング、ナレッジ ワーク、および研究向けに Claude Fable 5 の後継となる Claude Fable 5.1 ( claude-fable-5-1 ) をリリースしました。どちらのモデルも、デフォルトで 1M のトークン コンテキスト ウィンドウ、最大 128,000 の出力トークン、および常時オンの適応型思考をサポートしており、MTok あたり $10 / $50 USD (Claude Fable 5 と同じ) で、キャッシュ読み取りは MTok あたり $0.25 に削減されます。",
-        "en": "We've launched Claude Fable 5.1 ( claude-fable-5-1 ), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 ( claude-mythos-5-1 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
-      "tags": [
-        "claude-fable-5-1",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-09-01-anthropic-code-execution-tool",
       "date": "2026-09-01",
       "category": "anthropic",
@@ -3541,7 +3663,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_85v6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_86f6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -6287,7 +6409,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_89v6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8af6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -6313,29 +6435,6 @@
       "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
       "tags": [
         "claude-opus-4-7",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-07-24-anthropic-effort",
-      "date": "2026-07-24",
-      "category": "anthropic",
-      "title": {
-        "zh": "低的",
-        "ja": "低い",
-        "en": "low"
-      },
-      "summary": {
-        "zh": "努力是转向的主要控制Claude Opus 5：该模型支持完整的阶梯（低、中、高、xhigh、最大），最大用于能力关键型工作。",
-        "ja": "努力はステアリング Claude Opus 5 の主な制御です。モデルは完全なラダー ( l​​ow、medium、high、xhigh、max ) をサポートし、能力が重要な作業には max を使用します。",
-        "en": "Effort is the primary control for steering Claude Opus 5: the model supports the full ladder ( low, medium, high, xhigh, max ), with max for capability-critical work."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
-      "tags": [
-        "low",
         "anthropic",
         "release-notes"
       ],
@@ -6909,6 +7008,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-20-github-2026-07-20-github-code-quality-is-now-generally-available",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Code Quality is now generally available",
+        "ja": "GitHub Code Quality is now generally available",
+        "en": "GitHub Code Quality is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
+        "ja": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
+        "en": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-20-github-2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
       "date": "2026-07-20",
       "category": "github",
@@ -7184,7 +7307,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8av6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8bf6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -8608,7 +8731,7 @@
         "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。",
         "en": "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8df6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8dv6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
       "tags": [
         "agent-memory-2026-07-22",
         "anthropic",
@@ -9194,29 +9317,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-06-29-google-release-notes",
-      "date": "2026-06-29",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.5 Flash 存储库默认模型",
-        "ja": "Gemini 3.5 Flash メモリ バンクのデフォルト モデル",
-        "en": "Gemini 3.5 Flash default model for Memory Bank"
-      },
-      "summary": {
-        "zh": "功能 Gemini 3.5 Flash 存储体默认模型 用于存储体生成的默认模型现在是 Gemini 3.5 Flash 而不是 Gemini 2.5 Flash。有关信息，请参阅设置内存库。公共预览版中提供的功能语义治理策略 语义治理策略和策略引擎现已在预览版中提供。",
-        "ja": "機能 Gemini 3.5 Flash メモリ バンクのデフォルト モデル メモリ バンクの生成に使用されるデフォルト モデルは、Gemini 2.5 Flash ではなく、Gemini 3.5 Flash になりました。詳細については、「メモリ バンクのセットアップ」を参照してください。機能セマンティック ガバナンス ポリシーがパブリック プレビューで利用可能になりました。セマンティック ガバナンス ポリシーとポリシー エンジンがプレビューで利用できるようになりました。",
-        "en": "Feature Gemini 3.5 Flash default model for Memory Bank The default model used for Memory Bank generation is now Gemini 3.5 Flash instead of Gemini 2.5 Flash. For information, see Set up Memory Bank. Feature Semantic Governance Policies available in Public Preview Semantic governance policies and the policy engine are now available in Preview."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#June_29_2026-gemini-3-5-flash-default-model-for-memory-bank",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-06-29-github-2026-06-29-restrict-issue-creation-to-collaborators-only",

@@ -4799,10 +4799,6 @@
     "zh": "Fallbacks 参数现在支持“默认”模式，该模式按拒绝类别应用​​ Anthropic 推荐的后备模型。服务器端回退处于测试阶段，“默认”模式需要 server-side-fallback-2026-07-01 beta 标头。请参阅拒绝和后备。",
     "ja": "fallbacks パラメーターは、拒否カテゴリごとに Anthropic の推奨フォールバック モデルを適用する「デフォルト」モードをサポートするようになりました。サーバー側フォールバックはベータ版であり、「デフォルト」モードにはserver-side-fallback-2026-07-01 ベータヘッダーが必要です。 「拒否とフォールバック」を参照してください。"
   },
-  "low": {
-    "zh": "低的",
-    "ja": "低い"
-  },
   "On Claude Opus 5, disabling thinking is allowed only at effort high or below: thinking: {\"type\": \"disabled\"} with effort xhigh or max returns a 400 error, a breaking change from Claude Opus 4.8. See What's new in Claude Opus 5.": {
     "zh": "在 Claude Opus 5 上，仅在努力程度较高或较低时才允许禁用思考：思考：{\"type\": \"disabled\"} 与努力 xhigh 或 max 返回 400 错误，这是 Claude Opus 4.8 的重大更改。请参阅 Claude Opus 5 中的新增功能。",
     "ja": "Claude Opus 5 では、思考の無効化は、努力値が high 以下の場合にのみ許可されます。 Thinking: {\"type\": \"disabled\"} で、努力値 xhigh または max を指定すると、400 エラーが返されます。これは、Claude Opus 4.8 からの重大な変更です。 Claude Opus 5 の新機能を参照してください。"
@@ -4818,10 +4814,6 @@
   "We've removed fast mode for Claude Opus 4.7. Requests to claude-opus-4-7 with speed: \"fast\" now return an error; unlike Claude Opus 4.6, they do not fall back to standard speed. Claude Opus 4.7 itself remains available at standard speed. To continue using fast mode, migrate to Claude Opus 5 or Claude Opus 4.8. Read more in Fast mode.": {
     "zh": "我们已删除 Claude Opus 4.7 的快速模式。请求 claude-opus-4-7 的速度：“fast”现在返回错误；与 Claude Opus 4.6 不同，它们不会回落到标准速度。 Claude Opus 4.7 本身仍然可以以标准速度使用。要继续使用快速模式，请迁移到 Claude Opus 5 或 Claude Opus 4.8。在快速模式下阅读更多内容。",
     "ja": "Claude Opus 4.7 の高速モードを削除しました。速度「fast」の claude-opus-4-7 へのリクエストはエラーを返すようになりました。 Claude Opus 4.6 とは異なり、標準速度に戻りません。 Claude Opus 4.7 自体は引き続き標準速度で利用できます。高速モードを引き続き使用するには、Claude Opus 5 または Claude Opus 4.8 に移行します。続きは高速モードでご覧ください。"
-  },
-  "Effort is the primary control for steering Claude Opus 5: the model supports the full ladder ( low, medium, high, xhigh, max ), with max for capability-critical work.": {
-    "zh": "努力是转向的主要控制Claude Opus 5：该模型支持完整的阶梯（低、中、高、xhigh、最大），最大用于能力关键型工作。",
-    "ja": "努力はステアリング Claude Opus 5 の主な制御です。モデルは完全なラダー ( l​​ow、medium、high、xhigh、max ) をサポートし、能力が重要な作業には max を使用します。"
   },
   "How AI is expanding what people do at work": {
     "zh": "人工智能如何扩展人们的工作范围",
@@ -6380,14 +6372,6 @@
     "zh": "回合范围系统消息处于测试阶段（mid-conversation-system-clear-at-2026-08-21 标头）。在对话中角色：“system”消息上设置clear_at：“next_user_message”，它仅在当前回合呈现，然后保留在历史记录中，无需令牌成本。每回合提醒不会累积，也不会使提示缓存或稍后的思考块失效。",
     "ja": "ターンスコープのシステム メッセージはベータ版です (mid-conversation-system-clear-at-2026-08-21 ヘッダー)。会話中の role: \"system\" メッセージに clear_at: \"next_user_message\" を設定すると、現在のターンのみレンダリングされ、トークンコストなしで履歴に残ります。ターンごとのリマインダーは蓄積されず、プロンプト キャッシュや後の思考ブロックが無効になることもありません。"
   },
-  "Claude Fable 5.1": {
-    "zh": "Claude 寓言 5.1",
-    "ja": "Claude 寓話 5.1"
-  },
-  "We've launched Claude Fable 5.1 ( claude-fable-5-1 ), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside Claude Mythos 5.1 ( claude-mythos-5-1 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok.": {
-    "zh": "我们推出了 Claude Fable 5.1 ( claude-fable-5-1 )，它是 Claude Fable 5 的后继版本，用于长期运行的代理编码、知识工作和研究，同时还为 Glasswing 项目参与者推出了 Claude Mythos 5.1 ( claude-mythos-5-1 )。两种模型都默认支持 1M 令牌上下文窗口、最大 128k 输出令牌和始终在线的自适应思维，每 MTok 价格为 10 美元/50 美元，与 Claude Fable 5 相同，缓存读取削减至每 MTok 0.25 美元。",
-    "ja": "プロジェクト Glasswing 参加者向けの Claude Mythos 5.1 (claude-mythos-5-1) と並行して、長期間実行されるエージェントティック コーディング、ナレッジ ワーク、および研究向けに Claude Fable 5 の後継となる Claude Fable 5.1 ( claude-fable-5-1 ) をリリースしました。どちらのモデルも、デフォルトで 1M のトークン コンテキスト ウィンドウ、最大 128,000 の出力トークン、および常時オンの適応型思考をサポートしており、MTok あたり $10 / $50 USD (Claude Fable 5 と同じ) で、キャッシュ読み取りは MTok あたり $0.25 に削減されます。"
-  },
   "anthropic-version": {
     "zh": "人择版",
     "ja": "人間版"
@@ -6490,14 +6474,6 @@
   "Workbench is now playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground.": {
     "zh": "工作台现在是 Claude 控制台中的游乐场。 Playground 支持每个消息 API 参数，并包含演示 API 功能（例如代码执行和 Web 搜索）的模板。它显示每次运行的完整 SDK 请求和 API 响应，以帮助您了解 API 并使用它进行构建。有关更多信息，请参阅 Claude 帮助中心或在 platform.claude.com/playground 上尝试。",
     "ja": "ワークベンチは Claude コンソールのプレイグラウンドになりました。 Playground はすべての Messages API パラメーターをサポートし、コード実行や Web 検索などの API 機能を示すテンプレートが含まれています。 API を理解し、それを使用して構築するのに役立つように、実行ごとの完全な SDK リクエストと API レスポンスが表示されます。詳細については、Claude ヘルプ センターを参照するか、platform.claude.com/playground でお試しください。"
-  },
-  "Gemini 3.5 Flash default model for Memory Bank": {
-    "zh": "Gemini 3.5 Flash 存储库默认模型",
-    "ja": "Gemini 3.5 Flash メモリ バンクのデフォルト モデル"
-  },
-  "Feature Gemini 3.5 Flash default model for Memory Bank The default model used for Memory Bank generation is now Gemini 3.5 Flash instead of Gemini 2.5 Flash. For information, see Set up Memory Bank. Feature Semantic Governance Policies available in Public Preview Semantic governance policies and the policy engine are now available in Preview.": {
-    "zh": "功能 Gemini 3.5 Flash 存储体默认模型 用于存储体生成的默认模型现在是 Gemini 3.5 Flash 而不是 Gemini 2.5 Flash。有关信息，请参阅设置内存库。公共预览版中提供的功能语义治理策略 语义治理策略和策略引擎现已在预览版中提供。",
-    "ja": "機能 Gemini 3.5 Flash メモリ バンクのデフォルト モデル メモリ バンクの生成に使用されるデフォルト モデルは、Gemini 2.5 Flash ではなく、Gemini 3.5 Flash になりました。詳細については、「メモリ バンクのセットアップ」を参照してください。機能セマンティック ガバナンス ポリシーがパブリック プレビューで利用可能になりました。セマンティック ガバナンス ポリシーとポリシー エンジンがプレビューで利用できるようになりました。"
   },
   "Reopening Copilot Business and Enterprise signups": {
     "zh": "重新开放 Copilot 商业和企业注册",
