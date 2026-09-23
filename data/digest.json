@@ -1244,30 +1244,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-10-github-2026-09-10-github-copilot-weekly-releases-september-7",
-      "date": "2026-09-10",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot weekly releases — September 7",
-        "ja": "GitHub Copilot weekly releases — September 7",
-        "en": "GitHub Copilot weekly releases — September 7"
-      },
-      "summary": {
-        "zh": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
-        "ja": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
-        "en": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains."
-      },
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-10-github-2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "date": "2026-09-10",
       "category": "github",
@@ -4877,6 +4853,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-08-07-github-2026-08-07-github-copilot-weekly-releases-august-3",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot weekly releases — August 3",
+        "ja": "GitHub Copilot weekly releases — August 3",
+        "en": "GitHub Copilot weekly releases — August 3"
+      },
+      "summary": {
+        "zh": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot app Auto now shows which model handled each completed request, plus AI credit and cache details when they’re available.",
+        "ja": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot app Auto now shows which model handled each completed request, plus AI credit and cache details when they’re available.",
+        "en": "This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, review changes, and ask questions without losing context. GitHub Copilot app Auto now shows which model handled each completed request, plus AI credit and cache details when they’re available."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-07-github-2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
       "date": "2026-08-07",
       "category": "github",
@@ -4928,20 +4928,46 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-07-github-2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "id": "2026-08-07-github-2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
       "date": "2026-08-07",
       "category": "github",
       "title": {
-        "zh": "企业托管设置中的 MCP 允许名单",
-        "ja": "エンタープライズ管理設定の MCP 許可リスト",
-        "en": "MCP allowlists in enterprise managed settings"
+        "zh": "Copilot impact dashboard adds a return on investment section",
+        "ja": "Copilot impact dashboard adds a return on investment section",
+        "en": "Copilot impact dashboard adds a return on investment section"
       },
       "summary": {
-        "zh": "企业所有者现在可以通过在企业托管设置中使用新的 allowedMcpServers 和 DeniedMcpServers 键来集中控制允许运行哪些模型上下文协议 (MCP) 服务器 GitHub Copilot 客户端。批准您的开发人员依赖的 MCP 服务器，并阻止整个企业中不受信任或不合规的服务器。",
-        "ja": "エンタープライズ所有者は、エンタープライズ管理設定の新しい allowedMcpServers キーと DeniedMcpServers キーを使用して、どのモデル コンテキスト プロトコル (MCP) サーバー GitHub Copilot クライアントの実行を許可するかを一元的に制御できるようになりました。開発者が依存する MCP サーバーを承認し、信頼できないサーバーや準拠していないサーバーを企業全体でブロックします。",
-        "en": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise."
+        "zh": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”).",
+        "ja": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”).",
+        "en": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”)."
       },
-      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
+      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot code review effort levels are generally available",
+        "ja": "Copilot code review effort levels are generally available",
+        "en": "Copilot code review effort levels are generally available"
+      },
+      "summary": {
+        "zh": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.",
+        "ja": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.",
+        "en": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
       "tags": [
         "release",
         "copilot",
@@ -5803,6 +5829,54 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-30-github-2026-07-30-stacked-pull-requests-are-now-in-public-preview",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "Stacked pull requests are now in public preview",
+        "ja": "Stacked pull requests are now in public preview",
+        "en": "Stacked pull requests are now in public preview"
+      },
+      "summary": {
+        "zh": "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change.",
+        "ja": "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change.",
+        "en": "Stacked pull requests break large changes into small, reviewable pull requests. They’re an ordered series of pull requests that each represent focused layers of your change."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview",
+      "tags": [
+        "release",
+        "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-30-github-2026-07-30-limit-remote-control-to-managed-devices",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "Limit remote control to managed devices",
+        "ja": "Limit remote control to managed devices",
+        "en": "Limit remote control to managed devices"
+      },
+      "summary": {
+        "zh": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis.",
+        "ja": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis.",
+        "en": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-30-github-2026-07-30-github-models-is-now-retired",
       "date": "2026-07-30",
       "category": "github",
@@ -5820,6 +5894,30 @@
       "tags": [
         "retired",
         "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-july-update",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot in Visual Studio — July update",
+        "ja": "GitHub Copilot in Visual Studio — July update",
+        "en": "GitHub Copilot in Visual Studio — July update"
+      },
+      "summary": {
+        "zh": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
+        "ja": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
+        "en": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -6199,6 +6297,58 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-27-github-2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "Manage GitHub Copilot app access with a dedicated policy",
+        "ja": "Manage GitHub Copilot app access with a dedicated policy",
+        "en": "Manage GitHub Copilot app access with a dedicated policy"
+      },
+      "summary": {
+        "zh": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled.",
+        "ja": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled.",
+        "en": "The GitHub Copilot app now has its own policy, so you can control who has access to it at the enterprise and organization levels. Until now, access to the Copilot app depended on your GitHub Copilot CLI policy being enabled."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-27-github-2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+        "ja": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+        "en": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts.",
+        "ja": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts.",
+        "en": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-27-anthropic-position-open-weights-models",
       "date": "2026-07-27",
       "category": "anthropic",
@@ -6239,6 +6389,30 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-07-24-github-2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+      "date": "2026-07-24",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 5 is now available in GitHub Copilot",
+        "ja": "Claude Opus 5 is now available in GitHub Copilot",
+        "en": "Claude Opus 5 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.",
+        "ja": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.",
+        "en": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps."
+      },
+      "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-07-24-anthropic-whats-new-opus-5",
@@ -7366,6 +7540,31 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-07-14-github-2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "date": "2026-07-14",
+      "category": "github",
+      "title": {
+        "zh": "Security reviews now available in the GitHub Copilot app",
+        "ja": "Security reviews now available in the GitHub Copilot app",
+        "en": "Security reviews now available in the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.",
+        "ja": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.",
+        "en": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow."
+      },
+      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
+      "tags": [
+        "improvement",
+        "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-14-github-2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
       "date": "2026-07-14",
       "category": "github",
@@ -7456,6 +7655,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-13-github-2026-07-13-github-code-quality-license-estimate-in-public-preview",
+      "date": "2026-07-13",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Code Quality license estimate in public preview",
+        "ja": "GitHub Code Quality license estimate in public preview",
+        "en": "GitHub Code Quality license estimate in public preview"
+      },
+      "summary": {
+        "zh": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it becomes a paid product on July 20, 2026. Code Quality is free during the public preview, so this usage isn’t billed today.",
+        "ja": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it becomes a paid product on July 20, 2026. Code Quality is free during the public preview, so this usage isn’t billed today.",
+        "en": "You can now see the number of active committers on repositories using GitHub Code Quality across your enterprise, giving you an estimate of your Code Quality license cost before it becomes a paid product on July 20, 2026. Code Quality is free during the public preview, so this usage isn’t billed today."
+      },
+      "url": "https://github.blog/changelog/2026-07-13-github-code-quality-license-estimate-in-public-preview",
+      "tags": [
+        "release",
+        "account-management",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-10-openai-deutsche-telekom",
       "date": "2026-07-10",
       "category": "openai",
@@ -7494,6 +7718,54 @@
       "tags": [
         "improvement",
         "client-apps",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-10-github-2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+      "date": "2026-07-10",
+      "category": "github",
+      "title": {
+        "zh": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
+        "ja": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection",
+        "en": "CodeQL 2.26.0 adds Kotlin 2.4.0 support and AI prompt injection detection"
+      },
+      "summary": {
+        "zh": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages.",
+        "ja": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages.",
+        "en": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.26.0, which adds support for Kotlin 2.4.0, introduces a JavaScript and TypeScript query for system prompt injection, and improves analysis accuracy across multiple languages."
+      },
+      "url": "https://github.blog/changelog/2026-07-10-codeql-2-26-0-adds-kotlin-2-4-0-support-and-ai-prompt-injection-detection",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-10-github-2026-07-10-clearer-names-for-secret-scanning-detector-types",
+      "date": "2026-07-10",
+      "category": "github",
+      "title": {
+        "zh": "Clearer names for secret scanning detector types",
+        "ja": "Clearer names for secret scanning detector types",
+        "en": "Clearer names for secret scanning detector types"
+      },
+      "summary": {
+        "zh": "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change only; detection behavior is exactly the same.",
+        "ja": "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change only; detection behavior is exactly the same.",
+        "en": "To make secret scanning easier to understand, we’re updating the names we use for our detector types to better reflect how each one finds secrets. This is a naming change only; detection behavior is exactly the same."
+      },
+      "url": "https://github.blog/changelog/2026-07-10-clearer-names-for-secret-scanning-detector-types",
+      "tags": [
+        "improvement",
+        "application-security",
         "github",
         "changelog"
       ],
@@ -8363,6 +8635,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-02-github-2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
+      "date": "2026-07-02",
+      "category": "github",
+      "title": {
+        "zh": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+        "ja": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash",
+        "en": "Upcoming deprecation of Gemini 2.5 Pro and Gemini 3 Flash"
+      },
+      "summary": {
+        "zh": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st, 2026: Model Deprecation date Suggested alternative Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash Please update your workflows and integrations to use the supported models before these dates.",
+        "ja": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st, 2026: Model Deprecation date Suggested alternative Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash Please update your workflows and integrations to use the supported models before these dates.",
+        "en": "We will deprecate Gemini 2.5 Pro and Gemini 3 Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on July 31st, 2026: Model Deprecation date Suggested alternative Gemini 2.5 Pro 7-31-2026 Gemini 3.1 Pro Gemini 3 Flash 7-31-2026 Gemini 3.5 Flash Please update your workflows and integrations to use the supported models before these dates."
+      },
+      "url": "https://github.blog/changelog/2026-07-02-upcoming-deprecation-of-gemini-2-5-pro-and-gemini-3-flash",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-02-github-2026-07-02-issue-fields-are-now-generally-available",
       "date": "2026-07-02",
       "category": "github",
@@ -8438,6 +8734,55 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-02-github-2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+      "date": "2026-07-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+        "ja": "Copilot CLI no longer needs a personal access token in GitHub Actions",
+        "en": "Copilot CLI no longer needs a personal access token in GitHub Actions"
+      },
+      "summary": {
+        "zh": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.",
+        "ja": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale.",
+        "en": "You can now run GitHub Copilot CLI in GitHub Actions using the built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the operational and security risks of managing long-lived PATs for automations at scale."
+      },
+      "url": "https://github.blog/changelog/2026-07-02-copilot-cli-no-longer-needs-a-personal-access-token-in-github-actions",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-02-github-2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+      "date": "2026-07-02",
+      "category": "github",
+      "title": {
+        "zh": "Copilot agent session streaming is now in public preview",
+        "ja": "Copilot agent session streaming is now in public preview",
+        "en": "Copilot agent session streaming is now in public preview"
+      },
+      "summary": {
+        "zh": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data resident deployments on ghe.com GitHub Copilot CLI Visual Studio Code Visual Studio Partner IDEs, such as those provided by JetBrains and Eclipse This gives you direct visibility into agent session activity (e.g., prompts, responses, and tool calls) so you can manage AI usage across your enterprise.",
+        "ja": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data resident deployments on ghe.com GitHub Copilot CLI Visual Studio Code Visual Studio Partner IDEs, such as those provided by JetBrains and Eclipse This gives you direct visibility into agent session activity (e.g., prompts, responses, and tool calls) so you can manage AI usage across your enterprise.",
+        "en": "GitHub Enterprise Cloud customers with enterprise managed users can now access GitHub Copilot agent session data across all Copilot clients, including: Cloud agents operating on github.com and data resident deployments on ghe.com GitHub Copilot CLI Visual Studio Code Visual Studio Partner IDEs, such as those provided by JetBrains and Eclipse This gives you direct visibility into agent session activity (e.g., prompts, responses, and tool calls) so you can manage AI usage across your enterprise."
+      },
+      "url": "https://github.blog/changelog/2026-07-02-copilot-agent-session-streaming-is-now-in-public-preview",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-02-anthropic-overview",
       "date": "2026-07-02",
       "category": "anthropic",
@@ -8499,54 +8844,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-01-github-2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "New C++ language server config skill for Copilot CLI",
-        "ja": "New C++ language server config skill for Copilot CLI",
-        "en": "New C++ language server config skill for Copilot CLI"
-      },
-      "summary": {
-        "zh": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code.",
-        "ja": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code.",
-        "en": "The Microsoft C++ Language Server is now available as a plugin on the Copilot Plugins marketplace. It includes a new built-in setup skill that helps automate project setup, making it easier to generate and maintain the compile_commands.json file the language server needs to understand your code."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-new-c-language-server-config-skill-for-copilot-cli",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-01-github-2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "date": "2026-07-01",
-      "category": "github",
-      "title": {
-        "zh": "Kimi K2.7 Code is generally available in GitHub Copilot",
-        "ja": "Kimi K2.7 Code is generally available in GitHub Copilot",
-        "en": "Kimi K2.7 Code is generally available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows.",
-        "ja": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows.",
-        "en": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving you more choice and a lower-cost option for your coding workflows."
-      },
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -9174,55 +9471,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-26-github-2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-      "date": "2026-06-26",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 桌面 3.6：工作树和更深层次的 Copilot 集成",
-        "ja": "GitHub デスクトップ 3.6: ワークツリーとより深い Copilot の統合",
-        "en": "GitHub Desktop 3.6: Worktrees and deeper Copilot integration"
-      },
-      "summary": {
-        "zh": "GitHub Desktop 3.6 将更多的日常 Git 流程集中到一个地方，GitHub Copilot 现在支持提交创作和合并冲突解决，以及新的 Git 工作树支持。问题 越来越多的开发是在人工智能和编码代理的帮助下进行的，这提高了日常 Git 时刻的标准。",
-        "ja": "GitHub Desktop 3.6 では、GitHub Copilot により、コミット オーサリングとマージ競合解決に加え、新しい Git ワークツリー サポートが強化され、日常の Git フローの多くが 1 か所に集約されます。問題 AI とコーディング エージェントの助けを借りて開発が行われることが増えており、その間の日常の Git のレベルが上がっています。",
-        "en": "GitHub Desktop 3.6 brings more of your day-to-day Git flow into one place with GitHub Copilot now powering commit authoring and merge conflict resolution, plus new Git worktree support. The problem More and more development happens with the help of AI and coding agents, which raises the bar for the everyday Git moments in between."
-      },
-      "url": "https://github.blog/changelog/2026-06-26-github-desktop-3-6-worktrees-and-deeper-copilot-integration",
-      "tags": [
-        "release",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-26-github-2026-06-26-cost-center-limit-increased-to-1000-per-enterprise",
-      "date": "2026-06-26",
-      "category": "github",
-      "title": {
-        "zh": "每个企业的成本中心限制增加至 1,000",
-        "ja": "コストセンターの制限が企業あたり 1,000 に増加",
-        "en": "Cost center limit increased to 1,000 per enterprise"
-      },
-      "summary": {
-        "zh": "现在，您可以为每个企业创建最多 1,000 个成本中心（从 500 个）。对数百或数千个业务单位、部门或产品组进行建模的企业现在可以在 GitHub 中表示完整的结构，而不是将使用数据导出到自行开发的系统中来填补空白。",
-        "ja": "企業ごとに 500 から最大 1,000 のコスト センターを作成できるようになりました。数百または数千のビジネス ユニット、部門、製品グループをモデル化する企業は、ギャップを埋めるために使用状況データを自社システムにエクスポートする代わりに、その完全な構造を GitHub で表現できるようになりました。",
-        "en": "You can now create up to 1,000 cost centers per enterprise, up from 500. Enterprises that model hundreds or thousands of business units, departments, or product groups can now represent that full structure in GitHub, instead of exporting usage data into a homegrown system to fill the gap."
-      },
-      "url": "https://github.blog/changelog/2026-06-26-cost-center-limit-increased-to-1000-per-enterprise",
-      "tags": [
-        "improvement",
-        "account-management",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
