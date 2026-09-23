@@ -1,7 +1,98 @@
 {
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-09-23",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-06-22-openai-patch-the-planet",
+      "date": "2026-06-22",
+      "category": "openai",
+      "title": {
+        "zh": "修补地球：支持开源维护者的黎明计划",
+        "ja": "Patch the Planet: オープンソースのメンテナーをサポートする Daybreak イニシアチブ",
+        "en": "Patch the Planet: a Daybreak initiative to support open source maintainers"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了 Patch the Planet，这是一项 Daybreak 计划，可帮助开源维护人员通过人工智能和专家评审来查找、验证和修复漏洞。",
+        "ja": "OpenAI では、オープンソースの保守担当者が AI と専門家によるレビューで脆弱性を発見、検証、修正できるよう支援する Daybreak イニシアチブである Patch the Planet を紹介します。",
+        "en": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
+      },
+      "url": "https://openai.com/index/patch-the-planet",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-22-openai-daybreak-securing-the-world",
+      "date": "2026-06-22",
+      "category": "openai",
+      "title": {
+        "zh": "Daybreak：保护世界上每个组织的工具",
+        "ja": "Daybreak: 世界中のあらゆる組織を保護するためのツール",
+        "en": "Daybreak: Tools for securing every organization in the world"
+      },
+      "summary": {
+        "zh": "OpenAI 推出了新的 Daybreak 工具，包括 Codex Security 和 GPT-5.5-Cyber​​，以帮助组织大规模查找、验证和修补漏洞。",
+        "ja": "OpenAI では、Codex Security や GPT-5.5-Cyber​​ などの新しい Daybreak ツールを導入し、組織が大規模に脆弱性を発見、検証、パッチを適用できるようにします。",
+        "en": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+      },
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-06-22-github-2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "date": "2026-06-22",
+      "category": "github",
+      "title": {
+        "zh": "新功能和 Claude 作为 JetBrains IDE 中的代理提供程序预览",
+        "ja": "JetBrains IDE のエージェント プロバイダー プレビューとしての新機能と Claude",
+        "en": "New features and Claude as agent provider preview in JetBrains IDEs"
+      },
+      "summary": {
+        "zh": "此更新添加了对 GitHub 的组织和企业代理的支持，允许您在 Copilot CLI 会话中对消息进行排队和引导，引入新的代理调试日志摘要视图，并将 Claude 作为代理提供程序引入 JetBrains IDE 的 GitHub Copilot 中的公共预览版。它还包括模型选择器增强功能、每回合人工智能积分指示器以及一系列用户体验和可靠性改进。",
+        "ja": "この更新では、GitHub から組織およびエンタープライズ エージェントのサポートが追加され、Copilot CLI セッションでメッセージをキューに入れて操作できるようになり、新しいエージェント デバッグ ログの概要ビューが導入され、JetBrains IDE の GitHub Copilot でエージェント プロバイダーとして Claude がパブリック プレビューになりました。また、モデル ピッカーの機能強化、ターンごとの AI クレジット インジケーター、一連のユーザー エクスペリエンスと信頼性の向上も含まれています。",
+        "en": "This update adds support for organization and enterprise agents from GitHub, lets you queue and steer messages in Copilot CLI sessions, introduces a new agent debug logs summary view, and brings Claude as agent provider into public preview in GitHub Copilot for JetBrains IDEs. It also includes model picker enhancements, a per-turn AI credits indicator, and a set of user experience and reliability improvements."
+      },
+      "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-22-anthropic-tunnels",
+      "date": "2026-06-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "MCP 隧道",
+        "ja": "MCP トンネル",
+        "en": "MCP tunnels"
+      },
+      "summary": {
+        "zh": "MCP 隧道（研究预览）：管理 API 从管理 API 上的 /v1/organizations/tunnels 移至 Claude API 上的 /v1/tunnels。新表面使用 anthropic-beta: mcp-tunnels-2026-06-22 标头和workspace:manage_tunnels WIF 范围。在迁移窗口期间，先前的表面仍然可用。请参阅隧道 API 参考。",
+        "ja": "MCP トンネル (リサーチ プレビュー): 管理 API は、Admin API の /v1/organizations/tunnels から Claude API の /v1/tunnels に移動されました。新しいサーフェスは、anthropic-beta: mcp-tunnels-2026-06-22 ヘッダーと workspace:manage_tunnels WIF スコープを使用します。以前のサーフェスは、移行期間中も引き続き使用できます。トンネル API リファレンスを参照してください。",
+        "en": "MCP tunnels (research preview): the management API moved from /v1/organizations/tunnels on the Admin API to /v1/tunnels on the Claude API. The new surface uses the anthropic-beta: mcp-tunnels-2026-06-22 header and the workspace:manage_tunnels WIF scope. The previous surface remains available during a migration window. See the Tunnels API reference."
+      },
+      "url": "https://platform.claude.com/docs/en/api/beta/tunnels",
+      "tags": [
+        "mcp-tunnels",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-06-21-openai-samsung-electronics-chatgpt-codex-deployment",
       "date": "2026-06-21",
