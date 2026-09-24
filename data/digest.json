@@ -25,27 +25,30 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-24-anthropic-refusals-and-fallback",
+      "id": "2026-09-24-github-2026-09-24-require-proof-of-presence-for-high-impact-actions",
       "date": "2026-09-24",
-      "category": "anthropic",
+      "category": "github",
       "title": {
-        "zh": "stop_details.category",
-        "ja": "stop_details.category",
-        "en": "stop_details.category"
+        "zh": "Require proof of presence for high-impact actions",
+        "ja": "Require proof of presence for high-impact actions",
+        "en": "Require proof of presence for high-impact actions"
       },
       "summary": {
-        "zh": "We're expanding which refusals are billed to include refusals that arrive before any output when stop_details.category is \"bio\", \"frontier_llm\", or \"reasoning_extraction\", the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged.",
-        "ja": "We're expanding which refusals are billed to include refusals that arrive before any output when stop_details.category is \"bio\", \"frontier_llm\", or \"reasoning_extraction\", the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged.",
-        "en": "We're expanding which refusals are billed to include refusals that arrive before any output when stop_details.category is \"bio\", \"frontier_llm\", or \"reasoning_extraction\", the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. The newly billed refusals are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged."
+        "zh": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub’s sudo mode for enterprises, enforcing a higher security bar when it’s needed.",
+        "ja": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub’s sudo mode for enterprises, enforcing a higher security bar when it’s needed.",
+        "en": "You can now require an interactive re-authentication or a multi-factor challenge before members take high-impact actions on GitHub Enterprise Cloud accounts. Proof of presence is an expansion of GitHub’s sudo mode for enterprises, enforcing a higher security bar when it’s needed."
       },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed",
+      "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions",
       "tags": [
-        "stop-details-category",
-        "anthropic",
-        "release-notes"
+        "release",
+        "account-management",
+        "application-security",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
       ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-09-23-openai-two-years-of-openai-academy",
@@ -2569,32 +2572,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-02-github-2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "date": "2026-09-02",
-      "category": "github",
-      "title": {
-        "zh": "企业管理的设置支持任何默认模型",
-        "ja": "エンタープライズ管理の設定は、あらゆるデフォルト モデルをサポートします",
-        "en": "Enterprise-managed settings support any default model"
-      },
-      "summary": {
-        "zh": "现在，您可以通过企业管理的设置将首选 GitHub Copilot 模型设置为新对话的默认模型。这使您可以选择最适合您的工作流程的默认模型。",
-        "ja": "エンタープライズ管理の設定を通じて、好みの GitHub Copilot モデルを新しい会話のデフォルトとして設定できるようになりました。これにより、ワークフローに最適なデフォルト モデルを選択できます。",
-        "en": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows."
-      },
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
       "date": "2026-09-02",
       "category": "github",
@@ -3698,31 +3675,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-26-github-2026-08-26-global-model-policy-generally-available",
-      "date": "2026-08-26",
-      "category": "github",
-      "title": {
-        "zh": "全球模型政策普遍可用",
-        "ja": "グローバル モデル ポリシーの一般提供が開始されました",
-        "en": "Global model policy generally available"
-      },
-      "summary": {
-        "zh": "7 月，我们宣布了针对 Copilot 商业版和 Copilot 企业版计划中普遍可用的 GitHub Copilot 型号的默认型号政策。从今天开始，我们将逐步推出该政策的执行期限至9月1日，因此针对不同企业的实施时间会有所不同。",
-        "ja": "7 月に、Copilot Business プランおよび Copilot Enterprise プランで一般提供される GitHub Copilot モデルのデフォルト モデル ポリシーを発表しました。本日より、9 月 1 日までこのポリシーの施行を段階的に展開していくため、企業ごとに異なるタイミングで発効することになります。",
-        "en": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises."
-      },
-      "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-25-openai-the-full-stack-behind-abundant-intelligence",
       "date": "2026-08-25",
       "category": "openai",
@@ -4176,7 +4128,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8776aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_86v6aav5ul5tpfibrad4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -4837,30 +4789,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "即将弃用 MAI-Code-1-Flash",
-        "ja": "MAI-Code-1-Flash の今後の非推奨",
-        "en": "Upcoming deprecation of MAI-Code-1-Flash"
-      },
-      "summary": {
-        "zh": "随着 MAI-Code-1.1-Flash 的推出，我们将于 2026 年 9 月 10 日在所有 GitHub Copilot 体验中弃用 MAI-Code-1-Flash： 模型弃用日期 建议替代方案 MAI-Code-1-Flash 2026 年 9 月 10 日 MAI-Code-1.1-Flash 请更新您的9 月 10 日之前使用新模型的工作流程和集成。Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
-        "ja": "MAI-Code-1.1-Flash のリリースに伴い、2026 年 9 月 10 日にすべての GitHub Copilot エクスペリエンスで MAI-Code-1-Flash を非推奨とします: モデルの非推奨日 推奨される代替 MAI-Code-1-Flash 2026 年 9 月 10 日 MAI-Code-1.1-Flash 9 月 10 日までに新しいモデルを使用するようにワークフローと統合を更新してください。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。",
-        "en": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows and integrations to use the new model before September 10. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-11-github-2026-08-11-per-model-token-breakdown-in-the-usage-report",
@@ -6922,7 +6850,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8b76aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8av6aav5ul5tpfibrad4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -7797,7 +7725,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8c76aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8bv6aav5ul5tpfibrad4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -9221,7 +9149,7 @@
         "ja": "Python (0.116.0)、TypeScript (0.110.0)、Go (1.56.0)、Java (2.48.0)、Ruby (1.55.0)、PHP (0.36.0)、C# (12.35.0)、および CLI (1.16.0) SDK は、すべてのメモリ ストア呼び出しで、代わりに、agent-memory-2026-07-22 を送信するようになりました。管理対象エージェント-2026-04-01。コードがメモリ ストア呼び出しでベータを明示的に渡す場合は、2 番目の値を追加するのではなく、そこで managed-agents-2026-04-01 を Agent-memory-2026-07-22 に置き換えます。",
         "en": "The Python (0.116.0), TypeScript (0.110.0), Go (1.56.0), Java (2.48.0), Ruby (1.55.0), PHP (0.36.0), C# (12.35.0), and CLI (1.16.0) SDKs now send agent-memory-2026-07-22 on all memory store calls instead of managed-agents-2026-04-01. If your code passes betas explicitly on memory store calls, replace managed-agents-2026-04-01 with agent-memory-2026-07-22 there rather than adding a second value."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8en6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8ef6aav5ul5tpfibrad4plb_-the-python-0-116-0-typescript-0-110-0-go-1-56-0-java-2-48-0-ruby-1-55-0-php-0-36-0-c-12-35-0-and-cli-1-16-0-sdks-now-send-agent-memory-2026-07-22-on-all-memory-store-calls-instead-of-managed-agents-2026-04-01-if-your-code-passes-betas-explicitly-on-memory-store-calls-replace-managed-agents-2026-04-01-with-agent-memory-2026-07-22-there-rather-than-adding-a-second-value-agent-memory-2026-07-22",
       "tags": [
         "agent-memory-2026-07-22",
         "anthropic",
@@ -9621,30 +9549,6 @@
         "en": "Today, JetBrains and GitHub are announcing a deeper integration between JetBrains AI Assistant and GitHub Copilot. Millions of developers already rely on the GitHub Copilot plugin as their AI pair programmer in JetBrains IDEs, and Copilot has also been available inside JetBrains AI Assistant through the Agent Client Protocol (ACP)."
       },
       "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-06-30-github-2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "date": "2026-06-30",
-      "category": "github",
-      "title": {
-        "zh": "Claude Sonnet 5 is generally available for GitHub Copilot",
-        "ja": "Claude Sonnet 5 is generally available for GitHub Copilot",
-        "en": "Claude Sonnet 5 is generally available for GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option for tasks across the IDE and CLI.",
-        "ja": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option for tasks across the IDE and CLI.",
-        "en": "Claude Sonnet 5 is Anthropic’s latest Sonnet-class model, now available in GitHub Copilot. It brings strong coding performance to everyday development and agentic workflows, giving developers a new Sonnet-class option for tasks across the IDE and CLI."
-      },
-      "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
       "tags": [
         "release",
         "copilot",
