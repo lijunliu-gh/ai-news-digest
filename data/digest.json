@@ -3173,6 +3173,30 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-08-31-github-2026-08-31-selected-github-copilot-models-deprecated",
+      "date": "2026-08-31",
+      "category": "github",
+      "title": {
+        "zh": "Selected GitHub Copilot models deprecated",
+        "ja": "Selected GitHub Copilot models deprecated",
+        "en": "Selected GitHub Copilot models deprecated"
+      },
+      "summary": {
+        "zh": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.",
+        "ja": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.",
+        "en": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans."
+      },
+      "url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-31-github-2026-08-31-github-copilot-in-vs-code-august-2026-releases",
       "date": "2026-08-31",
       "category": "github",
@@ -7575,31 +7599,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "AI credit pools for cost centers in the billing UI",
-        "ja": "AI credit pools for cost centers in the billing UI",
-        "en": "AI credit pools for cost centers in the billing UI"
-      },
-      "summary": {
-        "zh": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API.",
-        "ja": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API.",
-        "en": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-20-anthropic-rare-disease-research-grants",
       "date": "2026-07-20",
       "category": "anthropic",
@@ -9111,30 +9110,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-02-github-2026-07-02-issue-fields-are-now-generally-available",
-      "date": "2026-07-02",
-      "category": "github",
-      "title": {
-        "zh": "问题字段现已普遍可用",
-        "ja": "問題フィールドが一般利用可能になりました",
-        "en": "Issue fields are now generally available"
-      },
-      "summary": {
-        "zh": "问题字段现在普遍适用于具有数据驻留计划的 Free、Team、Enterprise 和 GitHub Enterprise Cloud 上的所有 GitHub 组织，并将在 GitHub Enterprise Server 3.23 中提供。问题字段为问题带来了结构化、类型化的元数据，使您可以轻松地在整个组织中一致地跟踪优先级、工作量、日期和自定义值。",
-        "ja": "問題フィールドは、Free、Team、Enterprise、およびデータ常駐プランを備えた GitHub Enterprise Cloud 上のすべての GitHub 組織で一般提供され、GitHub Enterprise Server 3.23 で出荷されます。課題フィールドを使用すると、構造化され型指定されたメタデータが課題に提供されるため、組織全体で優先度、作業量、日付、カスタム値を一貫して簡単に追跡できるようになります。",
-        "en": "Issue fields are now generally available for all GitHub organizations on Free, Team, Enterprise, and GitHub Enterprise Cloud with data residency plans and will ship in GitHub Enterprise Server 3.23. Issue fields bring structured, typed metadata to issues, making it easy to track priority, effort, dates, and custom values consistently across your organization."
-      },
-      "url": "https://github.blog/changelog/2026-07-02-issue-fields-are-now-generally-available",
-      "tags": [
-        "release",
-        "projects-issues",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-02-github-2026-07-02-improved-accuracy-and-coverage-in-copilot-usage-metrics-reports",
       "date": "2026-07-02",
       "category": "github",
@@ -9609,31 +9584,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-06-30-github-2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers",
-      "date": "2026-06-30",
-      "category": "github",
-      "title": {
-        "zh": "可用于成本中心的每用户 AI 信用预算",
-        "ja": "コストセンターで利用可能なユーザーごとの AI クレジット予算",
-        "en": "Per-user AI credit budgets available for cost centers"
-      },
-      "summary": {
-        "zh": "企业管理员现在可以设置成本中心用户级预算：成本中心上的每用户 AI 信用预算适用于其中的每个人。随着成员资格的变化，预算也会随之变化。",
-        "ja": "企業管理者は、コスト センターのユーザー レベルの予算を設定できるようになりました。つまり、コスト センターでユーザーごとに 1 つの AI クレジット予算を設定し、コスト センター内のすべての個人に適用されます。メンバーが変わると予算もそれに伴います。",
-        "en": "Enterprise admins can now set a cost center user-level budget: one per-user AI credit budget on a cost center that applies to every individual in it. As membership changes, the budget follows."
-      },
-      "url": "https://github.blog/changelog/2026-06-30-per-user-ai-credit-budgets-available-for-cost-centers",
-      "tags": [
-        "release",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-06-30-github-2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
       "date": "2026-06-30",
       "category": "github",
@@ -9853,6 +9803,30 @@
       "tags": [
         "improvement",
         "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-06-29-github-2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "date": "2026-06-29",
+      "category": "github",
+      "title": {
+        "zh": "Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+        "ja": "Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot",
+        "en": "Claude Opus 4.8 (fast mode) is now in preview for GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters.",
+        "ja": "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters.",
+        "en": "Claude Opus 4.8 (fast mode) is now rolling out in preview on GitHub Copilot. Fast mode delivers significantly faster output token speeds while maintaining the same intelligence as Claude Opus 4.8, making it well suited for interactive coding and agentic workflows where responsiveness matters."
+      },
+      "url": "https://github.blog/changelog/2026-06-29-claude-opus-4-8-fast-mode-is-now-in-preview-for-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
