@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-09-25</lastBuildDate>
+    <lastBuildDate>2026-09-26</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
@@ -14,6 +14,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/proaction</guid>
+    </item>
+    <item>
+      <title>Usage metrics API adds pull request review stages</title>
+      <link>https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages</link>
+      <description>The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row reports a median and a 90th percentile for the time from ready for review to first review, first review to final review, and final review to merge.</description>
+      <pubDate>2026-09-25</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages</guid>
     </item>
     <item>
       <title>Updates to GitHub Copilot for Slack and Microsoft Teams</title>
@@ -32,6 +41,15 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21</guid>
+    </item>
+    <item>
+      <title>Enterprise managed settings in-product validator</title>
+      <link>https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator</link>
+      <description>You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.</description>
+      <pubDate>2026-09-25</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator</guid>
     </item>
     <item>
       <title>Agentic autofix now uses Copilot Memory</title>
@@ -178,13 +196,31 @@
       <guid isPermaLink="true">https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech</guid>
     </item>
     <item>
-      <title>More ways to request and configure Copilot code reviews</title>
-      <link>https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews</link>
-      <description>GitHub Copilot code review now offers additional personal configurations to an expanded set of Copilot plans and an enterprise-level default setting. These improvements are now generally available: A dedicated personal settings page for automatic review and your default review effort An enterprise-wide default review effort setting for organization-owned repositories ⚙️ Manage your personal review settings Previously, personal Copilot code review settings were available only with Copilot Pro...</description>
+      <title>Local sandboxing in the GitHub Copilot app</title>
+      <link>https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app</link>
+      <description>Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.</description>
       <pubDate>2026-09-23</pubDate>
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews</guid>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app</guid>
+    </item>
+    <item>
+      <title>OpenTelemetry in the GitHub Copilot app</title>
+      <link>https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app</link>
+      <description>Understand how Copilot agents perform and interact with models and tools. The GitHub Copilot app now supports OpenTelemetry (OTel) configuration through enterprise-managed settings.</description>
+      <pubDate>2026-09-23</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app</guid>
+    </item>
+    <item>
+      <title>New features and improvements in Copilot for JetBrains</title>
+      <link>https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains</link>
+      <description>GitHub Copilot for JetBrains 1.18.0 brings AI-assisted tool approvals, more control over agent conversations, and shared skills and instructions for your organization. You can also review plans with the Codex agent and manage MCP tools with persistent controls.</description>
+      <pubDate>2026-09-23</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains</guid>
     </item>
     <item>
       <title>Claude discovers a novel enzyme system</title>
@@ -230,6 +266,33 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/better-prompt-caching-for-gpt-6</guid>
+    </item>
+    <item>
+      <title>OpenAI’s GPT-6 Sol and GPT-6 Luna now available</title>
+      <link>https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available</link>
+      <description>OpenAI’s GPT-6 family is expanding in GitHub Copilot with two additional models: GPT-6 Sol, and GPT-6 Luna. Joining the previously released GPT-6 Astra, these new options let you select the model that best fits your task, whether that’s everyday agentic coding or fast, cost-efficient assistance.</description>
+      <pubDate>2026-09-22</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available</guid>
+    </item>
+    <item>
+      <title>Faster C++ code intelligence with whole codebase indexing</title>
+      <link>https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing</link>
+      <description>C++ code intelligence in GitHub Copilot CLI is now faster with support for whole codebase indexing. C++ repositories can contain millions of lines of code across deeply connected source files and headers.</description>
+      <pubDate>2026-09-22</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing</guid>
+    </item>
+    <item>
+      <title>Claude Opus 5.5 is now available in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot</link>
+      <description>Claude Opus 5.5, Anthropic’s newest Opus model, is now available in GitHub Copilot. You can use it for agentic coding, long-running agentic tasks, and knowledge work.</description>
+      <pubDate>2026-09-22</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot</guid>
     </item>
     <item>
       <title>inline-tools-2026-09-15</title>
@@ -392,69 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement</guid>
-    </item>
-    <item>
-      <title>Agentic CLI customizations now in the usage metrics API</title>
-      <link>https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api</link>
-      <description>GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.</description>
-      <pubDate>2026-09-17</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api</guid>
-    </item>
-    <item>
-      <title>Introducing the Life Sciences Verification Program</title>
-      <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
-      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-      <pubDate>2026-09-17</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/life-sciences-verification-program</guid>
-    </item>
-    <item>
-      <title>How workers are unlocking new ways of working</title>
-      <link>https://openai.com/index/unlocking-new-ways-of-working</link>
-      <description>New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.</description>
-      <pubDate>2026-09-16</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/unlocking-new-ways-of-working</guid>
-    </item>
-    <item>
-      <title>Reimagining advertising with AI</title>
-      <link>https://openai.com/index/reimagining-advertising-with-ai</link>
-      <description>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</description>
-      <pubDate>2026-09-16</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/reimagining-advertising-with-ai</guid>
-    </item>
-    <item>
-      <title>Our framework for reporting model misalignment</title>
-      <link>https://openai.com/index/model-misalignment-reporting-framework</link>
-      <description>OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</description>
-      <pubDate>2026-09-16</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/model-misalignment-reporting-framework</guid>
-    </item>
-    <item>
-      <title>How to connect AI usage to business value</title>
-      <link>https://openai.com/index/how-to-connect-ai-usage-to-business-value</link>
-      <description>Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.</description>
-      <pubDate>2026-09-16</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/how-to-connect-ai-usage-to-business-value</guid>
-    </item>
-    <item>
-      <title>Helping older adults use AI in everyday life</title>
-      <link>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</link>
-      <description>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</description>
-      <pubDate>2026-09-16</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</guid>
     </item>
   </channel>
 </rss>
