@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+### Fixed
+- Feed fetches now decompress gzip/deflate responses; the Google DeepMind RSS CDN intermittently served a gzip body without it being requested, which failed XML parsing and caused scheduled refreshes to fail validation
+
 ## [1.4.1] - 2026-08-19
 
 ### Fixed

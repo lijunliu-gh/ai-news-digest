@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import gzip
 import json
 import os
 import re
 import sys
+import zlib
 from calendar import monthrange
 from dataclasses import dataclass
 from datetime import UTC, date, datetime
@@ -155,10 +157,26 @@ def fetch_text(url: str) -> str:
         headers={
             'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/rss+xml,application/xml,text/xml;q=0.9,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
         },
     )
     with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
-        return response.read().decode('utf-8', errors='replace')
+        body = response.read()
+        encoding = (response.headers.get('Content-Encoding') or '').strip().lower()
+    return decode_body(body, encoding).decode('utf-8', errors='replace')
+
+
+def decode_body(body: bytes, encoding: str = '') -> bytes:
+    # Some CDNs (e.g. Google Frontend on deepmind.google) serve a cached gzip
+    # variant even when the client did not ask for it, so also sniff the magic bytes.
+    if encoding in ('gzip', 'x-gzip') or body[:2] == b'\x1f\x8b':
+        return gzip.decompress(body)
+    if encoding == 'deflate':
+        try:
+            return zlib.decompress(body)
+        except zlib.error:
+            return zlib.decompress(body, -zlib.MAX_WBITS)
+    return body
 
 
 def try_fetch_text(url: str) -> str | None:
