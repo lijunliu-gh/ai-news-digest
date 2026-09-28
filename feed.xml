@@ -7,6 +7,51 @@
     <lastBuildDate>2026-09-28</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Lenfest Institute grows landmark program with expanded OpenAI support</title>
+      <link>https://openai.com/index/lenfest-ai-collaborative-expansion</link>
+      <description>OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.</description>
+      <pubDate>2026-09-28</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/lenfest-ai-collaborative-expansion</guid>
+    </item>
+    <item>
+      <title>Claude Sonnet 5.5 in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</link>
+      <description>Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.</description>
+      <pubDate>2026-09-28</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot</guid>
+    </item>
+    <item>
+      <title>thinking: {"type": "between_tools"}</title>
+      <link>https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5</link>
+      <description>Code written for Claude Sonnet 5 can break on Claude Sonnet 5.5 in five ways. To turn off up-front thinking, send thinking: {"type": "between_tools"} instead of "disabled", at high effort or below. Forced tool use ( tool_choice types any and tool ) returns a 400 error. Thinking blocks are tied to the model and the conversation. On the Claude API and Google Cloud, the earlier computer_20251124 computer use tool isn't accepted.</description>
+      <pubDate>2026-09-28</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5</guid>
+    </item>
+    <item>
+      <title>Preserved thinking</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#account-bound-thinking</link>
+      <description>Thinking blocks that Claude Sonnet 5.5 produces work only in the account that produced them, or in an account linked to it. When another account sends one of these blocks, the API drops the block before the model sees it, and the request succeeds. Blocks from earlier models aren't affected. See Preserved thinking.</description>
+      <pubDate>2026-09-28</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#account-bound-thinking</guid>
+    </item>
+    <item>
+      <title>Claude Sonnet 5.5</title>
+      <link>https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock</link>
+      <description>We've launched Claude Sonnet 5.5 ( claude-sonnet-5-5 ). It's available on the Claude API, Claude in Amazon Bedrock, Claude Platform on AWS, Claude on Google Cloud, and Claude in Microsoft Foundry. For its context window, output limits, and prices, see the Claude Sonnet 5.5 model page.</description>
+      <pubDate>2026-09-28</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock</guid>
+    </item>
+    <item>
       <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
       <link>https://openai.com/index/proaction</link>
       <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
@@ -14,6 +59,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/proaction</guid>
+    </item>
+    <item>
+      <title>Semantic governance policies support VPC Service Controls (Preview)</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_25_2026-semantic-governance-policies-support-vpc-service-controls-preview</link>
+      <description>Feature Semantic governance policies support VPC Service Controls (Preview) Semantic governance policy and the Semantic governance policy engine support VPC Service Controls in Preview. You can include Semantic governance policy and the policy engine in your service perimeter to help mitigate the risk of data exfiltration when governing agent tool calls. For more information, see VPC Service Controls with Gemini Enterprise Agent Platform and Semantic governance policies overview.</description>
+      <pubDate>2026-09-25</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_25_2026-semantic-governance-policies-support-vpc-service-controls-preview</guid>
     </item>
     <item>
       <title>Usage metrics API adds pull request review stages</title>
@@ -401,60 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot weekly releases — September 14</title>
-      <link>https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14</link>
-      <description>This week, GitHub Copilot adds new model selection options, code review updates, and Sentry integration in the Copilot app. There are also updates for admins, plus new agent features in VS Code.</description>
-      <pubDate>2026-09-18</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14</guid>
-    </item>
-    <item>
-      <title>Copilot code review: An improved review experience</title>
-      <link>https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience</link>
-      <description>Copilot code review now gives you a clearer view of how a review changes over time, more intelligently auto-resolves its own suggestions, and generates useful commit messages when you accept eligible suggestions in a batch. These updates help you focus on findings that still need attention and make the resulting commits easier to understand.</description>
-      <pubDate>2026-09-18</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience</guid>
-    </item>
-    <item>
-      <title>Partnering with Accenture on embedded evaluation</title>
-      <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
-      <description>We’re partnering with Accenture on independent evaluation of frontier AI—part of our recent commitment to embed evaluators at Anthropic. Both we and Accenture expect to invest at least $1 billion to build capacity in this area over the next five years.</description>
-      <pubDate>2026-09-18</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
-    </item>
-    <item>
-      <title>How Cooley is accelerating IPO work with ChatGPT</title>
-      <link>https://openai.com/index/cooley-gopublic</link>
-      <description>Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.</description>
-      <pubDate>2026-09-17</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/cooley-gopublic</guid>
-    </item>
-    <item>
-      <title>Introducing Astra for Law</title>
-      <link>https://openai.com/index/astra-for-law</link>
-      <description>OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.</description>
-      <pubDate>2026-09-17</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/astra-for-law</guid>
-    </item>
-    <item>
-      <title>Gemini Omni Flash supports stateful and streaming video generation (Preview)</title>
-      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_17_2026-gemini-omni-flash-supports-stateful-and-streaming-video-generation-preview</link>
-      <description>Feature Gemini Omni Flash supports stateful and streaming video generation (Preview) Gemini Omni Flash supports stateful ( store: true ) and server-sent event (SSE) streaming ( stream: true ) video generation in the Interactions API in Preview. You can temporarily store generated videos and interaction state on the server, stream status updates and final outputs over an SSE connection, or retrieve completed asynchronous interactions using unary or streaming GET requests.</description>
-      <pubDate>2026-09-17</pubDate>
-      <category>google</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
-      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_17_2026-gemini-omni-flash-supports-stateful-and-streaming-video-generation-preview</guid>
     </item>
   </channel>
 </rss>
