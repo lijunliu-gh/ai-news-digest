@@ -6403,22 +6403,6 @@
     "zh": "截至 2026 年 6 月 5 日，我们已在大多数 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用了以下模型。请注意，GPT-5.2 仍可作为 Copilot 代码审查的一部分使用。",
     "ja": "本日、2026 年 6 月 5 日の時点で、ほとんどの GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問モードとエージェント モード、コード補完を含む) で次のモデルが非推奨になりました。 GPT-5.2 は Copilot コード レビューの一部として引き続き利用できることに注意してください。"
   },
-  "Set an expiration date for individual user budgets": {
-    "zh": "为个人用户预算设置到期日期",
-    "ja": "個々のユーザーの予算に有効期限を設定する"
-  },
-  "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available.": {
-    "zh": "您现在可以为单个用户预算设置可选的到期日期，并且 GitHub 会删除该日期的预算。此功能通常可用。",
-    "ja": "個々のユーザーの予算にオプションの有効期限を設定できるようになり、GitHub によってその日付の予算が削除されます。この機能は一般提供されています。"
-  },
-  "Copilot code review can now approve pull requests": {
-    "zh": "Copilot 代码审查现在可以批准拉取请求",
-    "ja": "Copilot コードレビューでプルリクエストを承認できるようになりました"
-  },
-  "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level.": {
-    "zh": "Copilot 现在会告诉您拉取请求何时准备好批准，并且管理员可以授权它在批准后签字。默认情况下，Copilot 的批准功能处于关闭状态，并且可以在企业、组织和存储库级别进行配置。",
-    "ja": "Copilot は、プル リクエストを承認する準備ができたことを通知し、管理者は承認時にサインオフすることを承認できるようになりました。 Copilot による承認機能はデフォルトではオフになっており、企業、組織、およびリポジトリ レベルで構成可能です。"
-  },
   "GitHub Code Quality no longer adds Copilot as a reviewer": {
     "zh": "GitHub 代码质量不再添加 Copilot 作为审阅者",
     "ja": "GitHub コード品質では、Copilot がレビュー担当者として追加されなくなりました"
@@ -6426,14 +6410,6 @@
   "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled.": {
     "zh": "在存储库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有该规则集的存储库中，我们关闭了启用的设置。",
     "ja": "リポジトリで GitHub コード品質を有効にしても、プル リクエストで GitHub Copilot からのコード レビューを自動的に要求するルールセットは作成されなくなりました。すでにそのルールセットがあるリポジトリでは、有効にした設定を無効にしました。"
-  },
-  "GitHub Mobile: Fix merge conflicts with Copilot cloud agent": {
-    "ja": "GitHub モバイル: Copilot クラウド エージェントとのマージ競合を修正",
-    "zh": "GitHub Mobile：修复与 Copilot 云代理的合并冲突"
-  },
-  "GitHub Mobile now supports fixing pull request merge conflicts with Copilot cloud agent, making it easier to unblock pull requests while you’re on the go. When a pull request has merge conflicts, you can now start the Copilot workflow directly from the pull request merge box on mobile.": {
-    "zh": "GitHub Mobile 现在支持修复与 Copilot 云代理的拉取请求合并冲突，让您在旅途中更轻松地解锁拉取请求。当拉取请求存在合并冲突时，您现在可以直接从移动设备上的拉取请求合并框启动 Copilot 工作流程。",
-    "ja": "GitHub モバイルは、Copilot クラウド エージェントとのプル リクエストのマージ競合の修正をサポートするようになり、外出中でもプル リクエストのブロックを簡単に解除できるようになりました。プル リクエストにマージ競合がある場合、モバイル上のプル リクエスト マージ ボックスから直接 Copilot ワークフローを開始できるようになりました。"
   },
   "Kimi K2.7 now available for Copilot Business and Enterprise": {
     "zh": "Kimi K2.7 现已适用于 Copilot 商业和企业",
@@ -7027,14 +7003,6 @@
     "zh": "我们对 github.com 上的 Copilot Chat 进行了改进，使其更易于使用。其中包括更轻松地访问最近的聊天对话、最小化聊天窗口并返回正在进行的对话的能力，以及帮助您跟踪 Copilot 代币支出的指示器。",
     "ja": "github.com の Copilot Chat を改良し、使いやすくしました。これらには、チャットでの最近の会話への簡単なアクセス、チャット ウィンドウを最小化して進行中の会話に戻る機能、Copilot トークンの支出を追跡するのに役立つインジケーターが含まれます。"
   },
-  "GitHub Models is now retired": {
-    "zh": "GitHub 模型现已退役",
-    "ja": "GitHub モデルは廃止されました"
-  },
-  "As of July 30, 2026, GitHub Models is now retired. The playground, model catalog, inference API, and bring your own key (BYOK) are no longer available to any customer, including existing customers with active usage.": {
-    "zh": "自 2026 年 7 月 30 日起，GitHub 模型现已退役。任何客户（包括活跃使用的现有客户）都不再可以使用 Playground、模型目录、推理 API 和自带密钥 (BYOK)。",
-    "ja": "2026 年 7 月 30 日の時点で、GitHub モデルは廃止されました。プレイグラウンド、モデル カタログ、推論 API、および Bring Your Own Key (BYOK) は、アクティブに使用している既存の顧客を含むすべての顧客が利用できなくなりました。"
-  },
   "Grok 4.5 is now available in GitHub Copilot": {
     "zh": "Grok 4.5 现已在 GitHub Copilot 中提供",
     "ja": "Grok 4.5 が GitHub Copilot で利用可能になりました"
@@ -7050,38 +7018,6 @@
   "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.": {
     "zh": "Copilot 应用程序使用情况现在通过更多 Copilot 使用指标 API 进行报告。个人 Copilot 应用程序活动现在归因于企业用户和组织用户报告中的用户。",
     "ja": "Copilot アプリの使用状況は、より多くの Copilot 使用状況メトリック API で報告されるようになりました。個々の Copilot アプリ アクティビティは、エンタープライズ ユーザー レポートおよび組織ユーザー レポートのユーザーに関連付けられるようになりました。"
-  },
-  "Repository-level GitHub Copilot usage metrics generally available": {
-    "zh": "存储库级别 GitHub Copilot 使用指标普遍可用",
-    "ja": "リポジトリ レベルの GitHub Copilot 使用状況メトリクスが一般提供されました"
-  },
-  "The Copilot usage metrics REST API now reports repository-level activity. Two new endpoints return a daily, per-repository breakdown of pull request activity for Copilot coding agent and Copilot code review.": {
-    "zh": "Copilot 使用指标 REST API 现在报告存储库级别的活动。两个新端点返回 Copilot 编码代理和 Copilot 代码审查的每日、每个存储库的拉取请求活动细分。",
-    "ja": "Copilot 使用状況メトリック REST API は、リポジトリ レベルのアクティビティを報告するようになりました。 2 つの新しいエンドポイントは、Copilot コーディング エージェントと Copilot コード レビューのプル リクエスト アクティビティの毎日のリポジトリごとの内訳を返します。"
-  },
-  "GitHub Mobile: Fix pull request comments with Copilot cloud agent": {
-    "zh": "GitHub 移动版：使用 Copilot 云代理修复拉取请求评论",
-    "ja": "GitHub モバイル: Copilot クラウド エージェントによるプル リクエストのコメントを修正"
-  },
-  "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix.": {
-    "zh": "现在，您可以直接从 GitHub Mobile 中的 Copilot 代码审查拉取请求注释中选择使用 Copilot 修复。该按钮在拉取请求的主视图和个人审阅评论上均可用，为您提供多种方式来启动 Copilot 辅助修复。",
-    "ja": "GitHub モバイルの Copilot コード レビュー プル リクエストのコメントから直接 [Copilot で修正] を選択できるようになりました。このボタンは、プル リクエストのメイン ビューと個々のレビュー コメントの両方で使用でき、Copilot による修正を開始する複数の方法を提供します。"
-  },
-  "GitHub Copilot app now available in the usage metrics API": {
-    "zh": "GitHub Copilot 应用程序现在可在使用指标 API 中使用",
-    "ja": "GitHub Copilot アプリが使用状況メトリクス API で利用可能になりました"
-  },
-  "The Copilot usage metrics API now reports the GitHub Copilot app usage in the enterprise and organization 1-day and 28-day reports. This gives enterprise and organization admins visibility into the app’s activity alongside the IDE, chat, code review, and coding agent metrics they already retrieve.": {
-    "zh": "Copilot 使用情况指标 API 现在在企业和组织 1 天和 28 天报告中报告 GitHub Copilot 应用程序使用情况。这使企业和组织管理员能够了解应用程序的活动以及他们已检索的 IDE、聊天、代码审查和编码代理指标。",
-    "ja": "Copilot 使用状況メトリクス API は、企業および組織の 1 日および 28 日のレポートで GitHub Copilot アプリの使用状況をレポートするようになりました。これにより、企業および組織の管理者は、既に取得した IDE、チャット、コード レビュー、コーディング エージェントのメトリクスとともに、アプリのアクティビティを可視化できるようになります。"
-  },
-  "Copilot code review: Customization and configurability improvements": {
-    "zh": "Copilot 代码审查：自定义和可配置性改进",
-    "ja": "Copilot コード レビュー: カスタマイズと構成可能性の改善"
-  },
-  "Copilot code review now utilizes a firewall, custom setup steps, and independent runner configurations. It now reads custom instructions from the head branch to allow for easy testing and validation of custom instructions.": {
-    "zh": "Copilot 代码审查现在利用防火墙、自定义设置步骤和独立的运行程序配置。现在，它从头分支读取自定义指令，以便轻松测试和验证自定义指令。",
-    "ja": "Copilot コード レビューでは、ファイアウォール、カスタム セットアップ手順、および独立したランナー構成が利用されるようになりました。 head ブランチからカスタム命令を読み取るようになり、カスタム命令のテストと検証が簡単にできるようになりました。"
   },
   "GitHub Mobile: Improved filters and sorting for Copilot sessions": {
     "zh": "GitHub 移动版：改进了 Copilot 会话的过滤器和排序",
@@ -7217,14 +7153,6 @@
   "Gemini 3.7 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. From our early testing, the model has made improvements in web and app development and agentic coding workflows over it’s previous version.": {
     "zh": "Gemini 3.7 Flash，Google 最新的 Flash 模型，现已在 GitHub Copilot 中推出。从我们的早期测试来看，该模型在 Web 和应用程序开发以及代理编码工作流程方面比之前的版本进行了改进。",
     "ja": "Google の最新の Flash モデルである Gemini 3.7 Flash は、GitHub Copilot で展開されています。初期のテストから、このモデルは以前のバージョンに比べて、Web およびアプリの開発とエージェント コーディングのワークフローが改善されました。"
-  },
-  "GitHub Mobile: Live notifications for Copilot CLI sessions": {
-    "zh": "GitHub 移动设备：Copilot CLI 会话的实时通知",
-    "ja": "GitHub モバイル: Copilot CLI セッションのライブ通知"
-  },
-  "Live coding agent notifications on GitHub Mobile now support remote Copilot CLI sessions, making it easier to stay connected to agent work that starts outside of GitHub Mobile. When a Copilot CLI session is running remotely, GitHub Mobile can surface real-time updates directly on your phone so you can track progress, know when the agent needs your input, and jump back into the session when needed.": {
-    "zh": "GitHub Mobile 上的实时编码代理通知现在支持远程 Copilot CLI 会话，从而可以更轻松地与在 GitHub Mobile 之外启动的代理工作保持连接。当 Copilot CLI 会话远程运行时，GitHub Mobile 可以直接在您的手机上显示实时更新，以便您可以跟踪进度、了解代理何时需要您的输入，并在需要时跳回会话。",
-    "ja": "GitHub Mobile のライブ コーディング エージェント通知は、リモート Copilot CLI セッションをサポートするようになり、GitHub Mobile の外部で開始されるエージェントの作業に簡単に接続できるようになりました。 Copilot CLI セッションがリモートで実行されている場合、GitHub Mobile はリアルタイムの更新を電話機に直接表示できるため、進行状況を追跡し、エージェントがいつ入力を必要とするかを把握し、必要に応じてセッションに戻ることができます。"
   },
   "GitHub Code Quality generally available July 20, 2026": {
     "zh": "GitHub 代码质量将于 2026 年 7 月 20 日正式发布",
