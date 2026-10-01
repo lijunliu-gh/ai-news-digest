@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-01-openai-albertsons-reimagining-retail",
+      "date": "2026-10-01",
+      "category": "openai",
+      "title": {
+        "zh": "How Albertsons Companies is reimagining retail from the inside out",
+        "ja": "How Albertsons Companies is reimagining retail from the inside out",
+        "en": "How Albertsons Companies is reimagining retail from the inside out"
+      },
+      "summary": {
+        "zh": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+        "ja": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+        "en": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers."
+      },
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-01-anthropic-barclays-scales-claude",
       "date": "2026-10-01",
       "category": "anthropic",
@@ -72,16 +94,16 @@
       "date": "2026-09-30",
       "category": "google",
       "title": {
-        "zh": "Topologies",
-        "ja": "Topologies",
-        "en": "Topologies"
+        "zh": "Cloud Trace integration with Agent Gateway (Preview)",
+        "ja": "Cloud Trace integration with Agent Gateway (Preview)",
+        "en": "Cloud Trace integration with Agent Gateway (Preview)"
       },
       "summary": {
-        "zh": "Feature The App Topology API that provides agent topologies in Gemini Enterprise Agent Platform is now generally available This launch introduces the following changes: A new query builder for customizing suggested quick queries or creating your own query on the Topologies page. Custom queries let you explore more data related to your agents, such as identity, alerts, vulnerabilities, and underlying infrastructure. For details, see View topologies for a project.",
-        "ja": "Feature The App Topology API that provides agent topologies in Gemini Enterprise Agent Platform is now generally available This launch introduces the following changes: A new query builder for customizing suggested quick queries or creating your own query on the Topologies page. Custom queries let you explore more data related to your agents, such as identity, alerts, vulnerabilities, and underlying infrastructure. For details, see View topologies for a project.",
-        "en": "Feature The App Topology API that provides agent topologies in Gemini Enterprise Agent Platform is now generally available This launch introduces the following changes: A new query builder for customizing suggested quick queries or creating your own query on the Topologies page. Custom queries let you explore more data related to your agents, such as identity, alerts, vulnerabilities, and underlying infrastructure. For details, see View topologies for a project."
+        "zh": "Feature Cloud Trace integration with Agent Gateway (Preview) Agent Gateway integrates with Cloud Trace in Preview to provide end-to-end request observability for agent workloads. Enabling Cloud Trace gives you visibility into how requests travel from your agents through the gateway and across Google Cloud services, tools, agents, and MCP servers. For more information, see Use Cloud Trace. Feature xAI's Grok 4.7 Grok 4.7 is available in Preview in Model Garden.",
+        "ja": "Feature Cloud Trace integration with Agent Gateway (Preview) Agent Gateway integrates with Cloud Trace in Preview to provide end-to-end request observability for agent workloads. Enabling Cloud Trace gives you visibility into how requests travel from your agents through the gateway and across Google Cloud services, tools, agents, and MCP servers. For more information, see Use Cloud Trace. Feature xAI's Grok 4.7 Grok 4.7 is available in Preview in Model Garden.",
+        "en": "Feature Cloud Trace integration with Agent Gateway (Preview) Agent Gateway integrates with Cloud Trace in Preview to provide end-to-end request observability for agent workloads. Enabling Cloud Trace gives you visibility into how requests travel from your agents through the gateway and across Google Cloud services, tools, agents, and MCP servers. For more information, see Use Cloud Trace. Feature xAI's Grok 4.7 Grok 4.7 is available in Preview in Model Garden."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_30_2026-topologies",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_30_2026-cloud-trace-integration-with-agent-gateway-preview",
       "tags": [
         "feature",
         "google",
@@ -406,30 +428,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-28-github-2026-09-28-claude-sonnet-5-5-in-github-copilot",
-      "date": "2026-09-28",
-      "category": "github",
-      "title": {
-        "zh": "Claude Sonnet 5.5 in GitHub Copilot",
-        "ja": "Claude Sonnet 5.5 in GitHub Copilot",
-        "en": "Claude Sonnet 5.5 in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
-        "ja": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
-        "en": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs."
-      },
-      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-28-anthropic-whats-new-sonnet-5-5",
       "date": "2026-09-28",
       "category": "anthropic",
@@ -611,31 +609,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-25-github-2026-09-25-enterprise-managed-settings-in-product-validator",
-      "date": "2026-09-25",
-      "category": "github",
-      "title": {
-        "zh": "Enterprise managed settings in-product validator",
-        "ja": "Enterprise managed settings in-product validator",
-        "en": "Enterprise managed settings in-product validator"
-      },
-      "summary": {
-        "zh": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.",
-        "ja": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.",
-        "en": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced."
-      },
-      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -2824,30 +2797,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-08-github-2026-09-08-new-customer-portal-help-github-com",
-      "date": "2026-09-08",
-      "category": "github",
-      "title": {
-        "zh": "New customer portal help.github.com",
-        "ja": "New customer portal help.github.com",
-        "en": "New customer portal help.github.com"
-      },
-      "summary": {
-        "zh": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search across all of them.",
-        "ja": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search across all of them.",
-        "en": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search across all of them."
-      },
-      "url": "https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com",
-      "tags": [
-        "release",
-        "account-management",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-08-github-2026-09-08-github-enterprise-server-3-22-is-now-generally-available",
       "date": "2026-09-08",
       "category": "github",
@@ -2952,30 +2901,6 @@
         "en": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks."
       },
       "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-04-github-2026-09-04-github-copilot-weekly-releases-august-31",
-      "date": "2026-09-04",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 每周发布 — 8 月 31 日",
-        "ja": "GitHub Copilot 毎週のリリース — 8 月 31 日",
-        "en": "GitHub Copilot weekly releases — August 31"
-      },
-      "summary": {
-        "zh": "本周，GitHub Copilot 扩展了模型选择和内容保护，而 VS Code 添加了管理代理会话和准备拉取请求合并的新方法。 GitHub Copilot，常规 Claude Fable 5.1 可供 Copilot Pro+、Max、Business 和 Enterprise 用户使用。",
-        "ja": "今週、GitHub Copilot はモデルの選択とコンテンツ保護を拡張し、VS Code はエージェント セッションを管理し、プル リクエストのマージ準備を整えるための新しい方法を追加します。 GitHub Copilot、一般 Claude Fable 5.1 は、Copilot Pro+、Max、Business、および Enterprise ユーザーが利用できます。",
-        "en": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable 5.1 is available to Copilot Pro+, Max, Business, and Enterprise users."
-      },
-      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
       "tags": [
         "release",
         "copilot",
@@ -3838,79 +3763,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-08-31-github-2026-08-31-selected-github-copilot-models-deprecated",
-      "date": "2026-08-31",
-      "category": "github",
-      "title": {
-        "zh": "Selected GitHub Copilot models deprecated",
-        "ja": "Selected GitHub Copilot models deprecated",
-        "en": "Selected GitHub Copilot models deprecated"
-      },
-      "summary": {
-        "zh": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.",
-        "ja": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans.",
-        "en": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note that Claude Sonnet 4.6 is still available to individual GitHub Copilot subscribers on annual plans."
-      },
-      "url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-31-github-2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "date": "2026-08-31",
-      "category": "github",
-      "title": {
-        "zh": "VS Code 中的 GitHub Copilot，2026 年 8 月发布",
-        "ja": "VS Code の GitHub Copilot、2026 年 8 月リリース",
-        "en": "GitHub Copilot in VS Code, August 2026 releases"
-      },
-      "summary": {
-        "zh": "此变更日志涵盖 VS Code v1.132 至 v1.135，于 2026 年 8 月发布。这些版本使组织代理会话、审查更改和导航长时间对话变得更加容易。",
-        "ja": "この変更ログには、2026 年 8 月を通じて出荷された VS Code v1.132 から v1.135 が含まれています。これらのリリースにより、エージェント セッションの編成、変更の確認、および長い会話のナビゲートが容易になります。",
-        "en": "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations."
-      },
-      "url": "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-31-github-2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "date": "2026-08-31",
-      "category": "github",
-      "title": {
-        "zh": "Copilot model access update for GitHub Team plans",
-        "ja": "Copilot model access update for GitHub Team plans",
-        "en": "Copilot model access update for GitHub Team plans"
-      },
-      "summary": {
-        "zh": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage.",
-        "ja": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage.",
-        "en": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is now determined only by the organization paying for your usage."
-      },
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-31-anthropic-improving-alignment-security-efforts",
       "date": "2026-08-31",
       "category": "anthropic",
@@ -4641,56 +4493,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-21-github-2026-08-21-the-new-github-copilot-experience-in-slack",
-      "date": "2026-08-21",
-      "category": "github",
-      "title": {
-        "zh": "The new GitHub Copilot experience in Slack",
-        "ja": "The new GitHub Copilot experience in Slack",
-        "en": "The new GitHub Copilot experience in Slack"
-      },
-      "summary": {
-        "zh": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.",
-        "ja": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work.",
-        "en": "The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app into Slack in public preview. You can work with @GitHub to plan changes, investigate problems, and hand off coding tasks from the conversations where your team coordinates work."
-      },
-      "url": "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-21-github-2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "date": "2026-08-21",
-      "category": "github",
-      "title": {
-        "zh": "Shared agentic work with GitHub Copilot in Microsoft Teams",
-        "ja": "Shared agentic work with GitHub Copilot in Microsoft Teams",
-        "en": "Shared agentic work with GitHub Copilot in Microsoft Teams"
-      },
-      "summary": {
-        "zh": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.",
-        "ja": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.",
-        "en": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session."
-      },
-      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-20-openai-stampli",
@@ -6434,56 +6236,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "github.com 上即将弃用 GitHub Spark",
-        "ja": "GitHub Spark の今後の非推奨 (github.com)",
-        "en": "Upcoming deprecation of GitHub Spark on github.com"
-      },
-      "summary": {
-        "zh": "从 2026 年 8 月 4 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。",
-        "ja": "2026 年 8 月 4 日以降、GitHub Spark は新規ユーザーの受け入れ、または新規アプリの作成を許可しなくなりました。既存のユーザーは、2026 年 8 月 31 日まで引き続き GitHub Spark にアクセスし、作成済みのアプリをエクスポートできます。",
-        "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "tags": [
-        "retired",
-        "copilot",
-        "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-retiring-the-copilot-billing-preview-app",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "停用 Copilot 计费预览应用程序",
-        "ja": "Copilot Billing Preview アプリの廃止",
-        "en": "Retiring the Copilot Billing Preview app"
-      },
-      "summary": {
-        "zh": "我们已停用 GitHub Copilot 计费预览应用程序，并且不再可用。您可以直接在 GitHub 结算设置中查看和管理您的 Copilot 支出。",
-        "ja": "GitHub Copilot Billing Preview アプリは廃止され、利用できなくなりました。 Copilot の支出は、GitHub の請求設定で直接確認および管理できます。",
-        "en": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-      "tags": [
-        "retired",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
@@ -8585,54 +8337,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-15-github-2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "date": "2026-07-15",
-      "category": "github",
-      "title": {
-        "zh": "Improvements to secret scanning and public monitoring",
-        "ja": "Improvements to secret scanning and public monitoring",
-        "en": "Improvements to secret scanning and public monitoring"
-      },
-      "summary": {
-        "zh": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend.",
-        "ja": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend.",
-        "en": "This week, we’re rolling out several improvements to secret scanning and public monitoring: Resend is now a GitHub secret scanning partner. Secret scanning now detects new secret types from APIclub and Resend."
-      },
-      "url": "https://github.blog/changelog/2026-07-15-improvements-to-secret-scanning-and-public-monitoring",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-15-github-2026-07-14-github-copilot-in-visual-studio-june-update",
-      "date": "2026-07-15",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot in Visual Studio — June update",
-        "ja": "GitHub Copilot in Visual Studio — June update",
-        "en": "GitHub Copilot in Visual Studio — June update"
-      },
-      "summary": {
-        "zh": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
-        "ja": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
-        "en": "June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP servers, and the first C++ scenarios for the modernization agent reaching general availability. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-15-anthropic-mid-conversation-system-messages",
       "date": "2026-07-15",
       "category": "anthropic",
@@ -9339,82 +9043,6 @@
       "tags": [
         "release",
         "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot in Visual Studio Code, June 2026 releases",
-        "ja": "GitHub Copilot in Visual Studio Code, June 2026 releases",
-        "en": "GitHub Copilot in Visual Studio Code, June 2026 releases"
-      },
-      "summary": {
-        "zh": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow.",
-        "ja": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow.",
-        "en": "This changelog covers VS Code v1.123 through v1.127, shipped throughout June and early July 2026. The latest VS Code releases build on the Copilot experience developers use every day, making it easier to manage agent work, understand usage, choose the right models, and stay in the flow."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-github-copilot-in-visual-studio-code-june-2026-releases",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
-        "ja": "Enterprise-managed OpenTelemetry export for VS Code and CLI",
-        "en": "Enterprise-managed OpenTelemetry export for VS Code and CLI"
-      },
-      "summary": {
-        "zh": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI.",
-        "ja": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI.",
-        "en": "Organizations can now mandate where GitHub Copilot sends OpenTelemetry (OTel) data, so telemetry flows to an approved collector without each developer setting OTEL_* environment variables. The configuration is delivered through the telemetry block in enterprise-managed settings and applies to both the Copilot Chat extension in VS Code and the agent host process that powers Copilot CLI."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-enterprise-managed-opentelemetry-export-for-vs-code-and-cli",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-08-github-2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
-      "date": "2026-07-08",
-      "category": "github",
-      "title": {
-        "zh": "通过 VS Code 和 CLI 中的 MDM 部署托管 Copilot 设置",
-        "ja": "VS Code および CLI で MDM 経由で管理された Copilot 設定をデプロイする",
-        "en": "Deploy managed Copilot settings via MDM in VS Code and CLI"
-      },
-      "summary": {
-        "zh": "除了现有的服务器管理通道之外，企业管理员现在还可以通过本机移动设备管理 (MDM) 和基于文件的配置直接向设备提供托管的 GitHub Copilot 设置。这通常适用于 GitHub Copilot CLI 和 VS Code。",
-        "ja": "企業管理者は、既存のサーバー管理チャネルに加えて、ネイティブ モバイル デバイス管理 (MDM) およびファイルベースの構成を通じて、管理された GitHub Copilot 設定をデバイスに直接配信できるようになりました。これは、GitHub Copilot CLI および VS Code で一般的に利用可能です。",
-        "en": "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing server-managed channel. This is generally available for GitHub Copilot CLI and VS Code."
-      },
-      "url": "https://github.blog/changelog/2026-07-08-deploy-managed-copilot-settings-via-mdm-in-vs-code-and-cli",
-      "tags": [
-        "release",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],

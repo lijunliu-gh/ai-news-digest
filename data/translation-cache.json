@@ -5095,14 +5095,6 @@
     "zh": "我们将于 2026 年 6 月 1 日在所有 GitHub Copilot 体验（包括 Copilot 聊天、内联编辑、询问和代理模式以及代码完成）中弃用以下模型： 模型弃用日期 建议替代方案 GPT-4.1 2026-06-01 GPT-5.5 请在这些日期之前更新您的工作流程和集成以使用支持的模型。 Copilot 企业管理员可能需要通过 Copilot 设置中的模型策略启用对替代模型的访问。",
     "ja": "2026 年 6 月 1 日に、すべての GitHub Copilot エクスペリエンス (Copilot チャット、インライン編集、質問およびエージェント モード、コード補完を含む) で次のモデルを非推奨とします。 モデルの非推奨日 推奨される代替案 GPT-4.1 2026-06-01 GPT-5.5 これらの前に、サポートされているモデルを使用するようにワークフローと統合を更新してください。日付。 Copilot エンタープライズ管理者は、Copilot 設定のモデル ポリシーを通じて代替モデルへのアクセスを有効にする必要がある場合があります。"
   },
-  "Deploy managed Copilot settings via MDM in VS Code and CLI": {
-    "zh": "通过 VS Code 和 CLI 中的 MDM 部署托管 Copilot 设置",
-    "ja": "VS Code および CLI で MDM 経由で管理された Copilot 設定をデプロイする"
-  },
-  "Enterprise administrators can now deliver managed GitHub Copilot settings directly to devices through native mobile device management (MDM) and file-based configuration, in addition to the existing server-managed channel. This is generally available for GitHub Copilot CLI and VS Code.": {
-    "zh": "除了现有的服务器管理通道之外，企业管理员现在还可以通过本机移动设备管理 (MDM) 和基于文件的配置直接向设备提供托管的 GitHub Copilot 设置。这通常适用于 GitHub Copilot CLI 和 VS Code。",
-    "ja": "企業管理者は、既存のサーバー管理チャネルに加えて、ネイティブ モバイル デバイス管理 (MDM) およびファイルベースの構成を通じて、管理された GitHub Copilot 設定をデバイスに直接配信できるようになりました。これは、GitHub Copilot CLI および VS Code で一般的に利用可能です。"
-  },
   "Copilot CLI: Configure everything from one place with /settings": {
     "zh": "Copilot CLI：使用 /settings 从一处配置所有内容",
     "ja": "Copilot CLI: /settings を使用して 1 か所からすべてを構成する"
@@ -6300,14 +6292,6 @@
     "zh": "Claude Fable 5.1 和 Claude Mythos 5.1 上的提示缓存读取每百万代币成本为 0.25 美元：是基本输入价格的 0.025 倍，而其他型号为 0.1 倍。缓存写入未更改。请参阅提示缓存定价。",
     "ja": "Claude Fable 5.1 および Claude Mythos 5.1 でのプロンプト キャッシュ読み取りのコストは、100 万トークンあたり 0.25 米ドルです。これは、他のモデルの 0.1 倍と比較して、基本入力価格の 0.025 倍です。キャッシュ書き込みは変更されません。 「プロンプト キャッシュの料金設定」を参照してください。"
   },
-  "GitHub Copilot in VS Code, August 2026 releases": {
-    "zh": "VS Code 中的 GitHub Copilot，2026 年 8 月发布",
-    "ja": "VS Code の GitHub Copilot、2026 年 8 月リリース"
-  },
-  "This changelog covers VS Code v1.132 through v1.135, shipped throughout August 2026. These releases make it easier to organize agent sessions, review changes, and navigate long conversations.": {
-    "zh": "此变更日志涵盖 VS Code v1.132 至 v1.135，于 2026 年 8 月发布。这些版本使组织代理会话、审查更改和导航长时间对话变得更加容易。",
-    "ja": "この変更ログには、2026 年 8 月を通じて出荷された VS Code v1.132 から v1.135 が含まれています。これらのリリースにより、エージェント セッションの編成、変更の確認、および長い会話のナビゲートが容易になります。"
-  },
   "Upcoming changes to GitHub Copilot policies and billing": {
     "zh": "GitHub Copilot 政策和计费即将发生的变化",
     "ja": "GitHub Copilot ポリシーと請求に対する今後の変更"
@@ -6455,22 +6439,6 @@
     "zh": "功能 xAI 的 Grok 4.6 Grok 4.6 已在 Model Garden 中提供预览版。",
     "ja": "機能 xAI の Grok 4.6 Grok 4.6 は、Model Garden のプレビューで入手できます。"
   },
-  "Upcoming deprecation of GitHub Spark on github.com": {
-    "zh": "github.com 上即将弃用 GitHub Spark",
-    "ja": "GitHub Spark の今後の非推奨 (github.com)"
-  },
-  "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.": {
-    "zh": "从 2026 年 8 月 4 日开始，GitHub Spark 不再接受新用户或允许创建新应用程序。现有用户可以在 2026 年 8 月 31 日之前继续访问 GitHub Spark，以导出他们已经创建的应用程序。",
-    "ja": "2026 年 8 月 4 日以降、GitHub Spark は新規ユーザーの受け入れ、または新規アプリの作成を許可しなくなりました。既存のユーザーは、2026 年 8 月 31 日まで引き続き GitHub Spark にアクセスし、作成済みのアプリをエクスポートできます。"
-  },
-  "Retiring the Copilot Billing Preview app": {
-    "zh": "停用 Copilot 计费预览应用程序",
-    "ja": "Copilot Billing Preview アプリの廃止"
-  },
-  "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.": {
-    "zh": "我们已停用 GitHub Copilot 计费预览应用程序，并且不再可用。您可以直接在 GitHub 结算设置中查看和管理您的 Copilot 支出。",
-    "ja": "GitHub Copilot Billing Preview アプリは廃止され、利用できなくなりました。 Copilot の支出は、GitHub の請求設定で直接確認および管理できます。"
-  },
   "Default model enablement for Copilot Business and Enterprise": {
     "zh": "Copilot 商业和企业的默认模型启用",
     "ja": "Copilot Business および Enterprise のデフォルト モデルの有効化"
@@ -6558,14 +6526,6 @@
   "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks.": {
     "zh": "来自 OpenAI 的 GPT-6 Astra 现已在 GitHub Copilot 中提供。 OpenAI 的最新通用模型 GPT-6 Astra 专为长期、自主编码和代理任务而设计。",
     "ja": "OpenAI の GPT-6 Astra が GitHub Copilot で利用できるようになりました。 OpenAI の最新の汎用モデルである GPT-6 Astra は、長期にわたる自律的なコーディングおよびエージェント タスク向けに設計されています。"
-  },
-  "GitHub Copilot weekly releases — August 31": {
-    "zh": "GitHub Copilot 每周发布 — 8 月 31 日",
-    "ja": "GitHub Copilot 毎週のリリース — 8 月 31 日"
-  },
-  "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable 5.1 is available to Copilot Pro+, Max, Business, and Enterprise users.": {
-    "zh": "本周，GitHub Copilot 扩展了模型选择和内容保护，而 VS Code 添加了管理代理会话和准备拉取请求合并的新方法。 GitHub Copilot，常规 Claude Fable 5.1 可供 Copilot Pro+、Max、Business 和 Enterprise 用户使用。",
-    "ja": "今週、GitHub Copilot はモデルの選択とコンテンツ保護を拡張し、VS Code はエージェント セッションを管理し、プル リクエストのマージ準備を整えるための新しい方法を追加します。 GitHub Copilot、一般 Claude Fable 5.1 は、Copilot Pro+、Max、Business、および Enterprise ユーザーが利用できます。"
   },
   "ant": {
     "zh": "蚂蚁",
