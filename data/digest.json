@@ -3,6 +3,33 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-02-google-google-ai-updates-september-2026",
+      "date": "2026-10-02",
+      "category": "google",
+      "title": {
+        "zh": "The latest AI news we announced in September 2026",
+        "ja": "The latest AI news we announced in September 2026",
+        "en": "The latest AI news we announced in September 2026"
+      },
+      "summary": {
+        "zh": "Here are Google’s latest AI updates from September 2026",
+        "ja": "Here are Google’s latest AI updates from September 2026",
+        "en": "Here are Google’s latest AI updates from September 2026"
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
+      "tags": [
+        "google-deepmind",
+        "googlebook",
+        "ai",
+        "gemini-app",
+        "gemini-models",
+        "google-research",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-01-openai-the-den-family-social",
       "date": "2026-10-01",
       "category": "openai",
@@ -435,30 +462,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-29-github-2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "date": "2026-09-29",
-      "category": "github",
-      "title": {
-        "zh": "GPT-6.1 Sol in GitHub Copilot",
-        "ja": "GPT-6.1 Sol in GitHub Copilot",
-        "en": "GPT-6.1 Sol in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use.",
-        "ja": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use.",
-        "en": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use."
-      },
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -2036,54 +2039,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-09-16-github-2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "date": "2026-09-16",
-      "category": "github",
-      "title": {
-        "zh": "Copilot budget increase requests are generally available",
-        "ja": "Copilot budget increase requests are generally available",
-        "en": "Copilot budget increase requests are generally available"
-      },
-      "summary": {
-        "zh": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit.",
-        "ja": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit.",
-        "en": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit."
-      },
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-16-github-2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "date": "2026-09-16",
-      "category": "github",
-      "title": {
-        "zh": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "ja": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "en": "Code scanning AI Scan no longer requires CodeQL default setup"
-      },
-      "summary": {
-        "zh": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured.",
-        "ja": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured.",
-        "en": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured."
-      },
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-15-google-release-notes",
@@ -5029,9 +4984,9 @@
         "en": "mount_path"
       },
       "summary": {
-        "zh": "在自托管沙箱中运行的 Claude 托管代理会话现在可以附加内存存储。 Python、TypeScript 和 Go SDK 工作人员将每个附加存储下载到沙箱的 mount_path 中，并将代理的更改同步回存储。请参阅使用内存存储。",
-        "ja": "Claude セルフホスト型サンドボックスで実行される管理対象エージェント セッションは、メモリ ストアを接続できるようになりました。 Python、TypeScript、および Go SDK ワーカーは、接続された各ストアをその mount_path にあるサンドボックスにダウンロードし、エージェントの変更をストアに同期させます。 「メモリ ストアの使用」を参照してください。",
-        "en": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Use memory stores."
+        "zh": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Memory stores in self-hosted sandboxes.",
+        "ja": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Memory stores in self-hosted sandboxes.",
+        "en": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent's changes back to the store. See Memory stores in self-hosted sandboxes."
       },
       "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
       "tags": [
@@ -5649,30 +5604,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-12-github-2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
-      "date": "2026-08-12",
-      "category": "github",
-      "title": {
-        "zh": "VS Code、Copilot CLI 和 Copilot 应用程序中的代理插件 1.0",
-        "ja": "VS Code のエージェント プラグイン 1.0、Copilot CLI、および Copilot アプリ",
-        "en": "Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app"
-      },
-      "summary": {
-        "zh": "您现在可以构建一次插件并在所有兼容的代理客户端上使用它。我们于 8 月 6 日与 AWS、Anysphere、Microsoft、OpenAI 和 Vercel 一起发布了代理插件 1.0。",
-        "ja": "プラグインを一度構築すれば、互換性のあるすべてのエージェント クライアントで使用できるようになりました。 8 月 6 日に、AWS、Anysphere、Microsoft、OpenAI、および Vercel を使用してエージェント プラグイン 1.0 を公開しました。",
-        "en": "You can now build a plugin once and use it across all compatible agent clients. We published Agent Plugins 1.0 on August 6 with AWS, Anysphere, Microsoft, OpenAI, and Vercel."
-      },
-      "url": "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-11-openai-testing-ads-in-chatgpt",
       "date": "2026-08-11",
       "category": "openai",
@@ -5783,30 +5714,6 @@
       "tags": [
         "release",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-github-enterprise-server-3-22-release-candidate",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Enterprise Server 3.22 候选版本",
-        "ja": "GitHub Enterprise Server 3.22 リリース候補",
-        "en": "GitHub Enterprise Server 3.22 release candidate"
-      },
-      "summary": {
-        "zh": "GitHub Enterprise Server (GHES) 3.22 现已推出，并在整个平台上引入了新功能。以下是 3.22 版本中的一些亮点： 管理员可以配置 Copilot CLI 以便与在断开连接或气隙环境中运行而无需连接到 GitHub 云的企业的 GHES 配合使用。",
-        "ja": "GitHub Enterprise Server (GHES) 3.22 が利用可能になり、プラットフォーム全体に新機能が導入されました。 3.22 リリースのハイライトをいくつか紹介します。 管理者は、GitHub クラウドに接続せずに、切断された環境またはエアギャップ環境で運用する企業向けに、GHES と連携するように Copilot CLI を構成できます。",
-        "en": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to work with GHES for enterprises that operate in disconnected or air-gapped environments without connectivity to GitHub Cloud."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
-      "tags": [
-        "release",
-        "collaboration-tools",
         "github",
         "changelog"
       ],
@@ -7179,30 +7086,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-30-github-2026-07-30-limit-remote-control-to-managed-devices",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "Limit remote control to managed devices",
-        "ja": "Limit remote control to managed devices",
-        "en": "Limit remote control to managed devices"
-      },
-      "summary": {
-        "zh": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis.",
-        "ja": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis.",
-        "en": "Enterprises and organizations can now restrict which devices are eligible to host remotely controlled Copilot sessions, giving administrators fine-grained control over where remote control access is permitted. The new remoteControl enterprise managed setting gives administrators the ability to define exactly how remote control works on managed devices, whether that means requiring SSO authorization for specific organizations or tailoring access on a per-device basis."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-30-github-2026-07-30-github-models-is-now-retired",
       "date": "2026-07-30",
       "category": "github",
@@ -7220,54 +7103,6 @@
       "tags": [
         "retired",
         "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-july-update",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot in Visual Studio — July update",
-        "ja": "GitHub Copilot in Visual Studio — July update",
-        "en": "GitHub Copilot in Visual Studio — July update"
-      },
-      "summary": {
-        "zh": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
-        "ja": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.",
-        "en": "July 2026 brought a new agent based on the Copilot SDK, built-in expertise from the.NET and Azure teams, and more ways to tailor GitHub Copilot to how you and your team work. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "date": "2026-07-30",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot in Visual Studio Code, July 2026 releases",
-        "ja": "GitHub Copilot in Visual Studio Code, July 2026 releases",
-        "en": "GitHub Copilot in Visual Studio Code, July 2026 releases"
-      },
-      "summary": {
-        "zh": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code.",
-        "ja": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code.",
-        "en": "This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you work with agents, review changes, use chat, and navigate VS Code."
-      },
-      "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -8060,32 +7895,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-22-github-2026-07-22-new-copilot-usage-metrics-impact-dashboard",
-      "date": "2026-07-22",
-      "category": "github",
-      "title": {
-        "zh": "New Copilot usage metrics impact dashboard",
-        "ja": "New Copilot usage metrics impact dashboard",
-        "en": "New Copilot usage metrics impact dashboard"
-      },
-      "summary": {
-        "zh": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot.",
-        "ja": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot.",
-        "en": "We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This dashboard helps you tell a deeper Copilot impact story by sharing not just who is active, but how they’re using Copilot."
-      },
-      "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
-      "tags": [
-        "release",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-22-anthropic-webhooks",
       "date": "2026-07-22",
       "category": "anthropic",
@@ -8307,30 +8116,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-21-github-2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "date": "2026-07-21",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3.6 Flash is now available in GitHub Copilot",
-        "ja": "Gemini 3.6 Flash is now available in GitHub Copilot",
-        "en": "Gemini 3.6 Flash is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.",
-        "ja": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.",
-        "en": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks."
-      },
-      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-07-21-anthropic-donation-public-first-action",
