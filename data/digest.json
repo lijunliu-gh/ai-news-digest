@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-05-openai-eu-text-provenance",
+      "date": "2026-10-05",
+      "category": "openai",
+      "title": {
+        "zh": "Our approach to EU text provenance rules",
+        "ja": "Our approach to EU text provenance rules",
+        "en": "Our approach to EU text provenance rules"
+      },
+      "summary": {
+        "zh": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+        "ja": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+        "en": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+      },
+      "url": "https://openai.com/index/eu-text-provenance",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-02-openai-practical-guide-building-gpt-6",
       "date": "2026-10-02",
       "category": "openai",
@@ -326,6 +348,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-01-anthropic-list",
+      "date": "2026-10-01",
+      "category": "anthropic",
+      "title": {
+        "zh": "line",
+        "ja": "line",
+        "en": "line"
+      },
+      "summary": {
+        "zh": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API.",
+        "ja": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API.",
+        "en": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API."
+      },
+      "url": "https://platform.claude.com/docs/en/api/models/list",
+      "tags": [
+        "line",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-01-anthropic-barclays-scales-claude",
@@ -5240,7 +5285,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_21vpiinpfl9febsivd9l4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_223piinpfl9febrivd9l4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -7961,7 +8006,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_22vpiinpfl9febsivd9l4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_233piinpfl9febrivd9l4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -8836,7 +8881,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_237piinpfl9febsivd9l4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23bpiinpfl9febrivd9l4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
