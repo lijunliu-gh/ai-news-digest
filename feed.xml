@@ -25,6 +25,15 @@
       <guid isPermaLink="true">https://openai.com/index/eu-text-provenance</guid>
     </item>
     <item>
+      <title>CodeMender updates (v0.12.0)</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_05_2026-codemender-updates-v0-12-0</link>
+      <description>Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files.</description>
+      <pubDate>2026-10-05</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_05_2026-codemender-updates-v0-12-0</guid>
+    </item>
+    <item>
       <title>A model guide for the GPT-6 family</title>
       <link>https://openai.com/index/practical-guide-building-gpt-6</link>
       <description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
@@ -349,6 +358,15 @@
       <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock</guid>
     </item>
     <item>
+      <title>Wayfair boosts catalog accuracy and support speed with OpenAI</title>
+      <link>https://openai.com/index/wayfair</link>
+      <description>Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.</description>
+      <pubDate>2026-09-25</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/wayfair</guid>
+    </item>
+    <item>
       <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
       <link>https://openai.com/index/proaction</link>
       <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
@@ -437,24 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions</guid>
-    </item>
-    <item>
-      <title>stop_details.category</title>
-      <link>https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed</link>
-      <description>We're resuming billing for refusals that arrive before any output when stop_details.category is "bio", "frontier_llm", or "reasoning_extraction", the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. Refusals billed under this change are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged.</description>
-      <pubDate>2026-09-24</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed</guid>
-    </item>
-    <item>
-      <title>product_surface</title>
-      <link>https://platform.claude.com/docs/en/manage-claude/compliance-api</link>
-      <description>The Compliance API local session endpoints are out of beta for Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook ( product_surface values beginning with office_agents ). See Sessions on users' machines.</description>
-      <pubDate>2026-09-24</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/compliance-api</guid>
     </item>
   </channel>
 </rss>

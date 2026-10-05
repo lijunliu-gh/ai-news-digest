@@ -47,6 +47,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-05-google-release-notes",
+      "date": "2026-10-05",
+      "category": "google",
+      "title": {
+        "zh": "CodeMender updates (v0.12.0)",
+        "ja": "CodeMender updates (v0.12.0)",
+        "en": "CodeMender updates (v0.12.0)"
+      },
+      "summary": {
+        "zh": "Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files.",
+        "ja": "Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files.",
+        "en": "Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_05_2026-codemender-updates-v0-12-0",
+      "tags": [
+        "fixed",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-10-02-openai-practical-guide-building-gpt-6",
       "date": "2026-10-02",
       "category": "openai",
@@ -867,6 +890,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-09-25-openai-wayfair",
+      "date": "2026-09-25",
+      "category": "openai",
+      "title": {
+        "zh": "Wayfair 通过 OpenAI 提高目录准确性和支持速度",
+        "ja": "Wayfair は OpenAI によりカタログの精度とサポート速度を向上させます",
+        "en": "Wayfair boosts catalog accuracy and support speed with OpenAI"
+      },
+      "summary": {
+        "zh": "Wayfair 使用 OpenAI 模型来提高电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。",
+        "ja": "Wayfair は、OpenAI モデルを使用して、e コマースのサポートと製品カタログの精度を向上させ、チケットのトリアージを自動化し、数百万の製品属性を大規模に強化します。",
+        "en": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
+      },
+      "url": "https://openai.com/index/wayfair",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-09-25-openai-proaction",
@@ -8698,29 +8742,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-17-google-release-notes",
-      "date": "2026-07-17",
-      "category": "google",
-      "title": {
-        "zh": "Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用",
-        "ja": "Gemini 3.1 Flash 画像プレビューと 3 Pro 画像プレビューは廃止されました",
-        "en": "Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired"
-      },
-      "summary": {
-        "zh": "重大 Gemini 3.1 Flash 图像预览和 3 Pro 图像预览已停用 Nano Banana 预览模型 gemini-3.1-flash-image-preview 和 gemini-3-pro-image-preview 已停用，不再可访问。更新您的代码以使用gemini-3.1-flash-image 或gemini-3-flash-image 代替。",
-        "ja": "Gemini 3.1 Flash Image Preview および 3 Pro Image Preview の廃止 Nano Banana プレビュー モデル gemini-3.1-flash-image-preview および gemini-3-pro-image-preview は廃止され、アクセスできなくなりました。代わりに gemini-3.1-flash-image または gemini-3-flash-image を使用するようにコードを更新します。",
-        "en": "Breaking Gemini 3.1 Flash Image Preview and 3 Pro Image Preview are retired The Nano Banana preview models gemini-3.1-flash-image-preview and gemini-3-pro-image-preview have been retired and are no longer accessible. Update your code to use either gemini-3.1-flash-image or gemini-3-flash-image instead."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#July_17_2026-gemini-3-1-flash-image-preview-and-3-pro-image-preview-are-retired",
-      "tags": [
-        "breaking",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-07-17-google-introducing-gemini-3-5-flash-cyber",
