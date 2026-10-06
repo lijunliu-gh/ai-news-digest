@@ -3,6 +3,53 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-06-openai-sharing-ai-progress-in-mathematics",
+      "date": "2026-10-06",
+      "category": "openai",
+      "title": {
+        "zh": "Sharing AI progress in mathematics",
+        "ja": "Sharing AI progress in mathematics",
+        "en": "Sharing AI progress in mathematics"
+      },
+      "summary": {
+        "zh": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+        "ja": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+        "en": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+      },
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-06-openai-changelog",
+      "date": "2026-10-06",
+      "category": "openai",
+      "title": {
+        "zh": "Decisions API",
+        "ja": "Decisions API",
+        "en": "Decisions API"
+      },
+      "summary": {
+        "zh": "Released the Decisions API in beta with gpt-6-luna. Turn text and images into typed answers 10x faster than the Responses API.",
+        "ja": "Released the Decisions API in beta with gpt-6-luna. Turn text and images into typed answers 10x faster than the Responses API.",
+        "en": "Released the Decisions API in beta with gpt-6-luna. Turn text and images into typed answers 10x faster than the Responses API."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-10-06-feature-decisions-api",
+      "tags": [
+        "gpt-6-luna",
+        "v1-decisions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-06-openai-atlassian-partnership",
       "date": "2026-10-06",
       "category": "openai",
@@ -68,6 +115,52 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-06-google-embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "date": "2026-10-06",
+      "category": "google",
+      "title": {
+        "zh": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "ja": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+      },
+      "summary": {
+        "zh": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "ja": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "en": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+      },
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-06-github-2026-10-06-stacked-pull-requests-generally-available",
+      "date": "2026-10-06",
+      "category": "github",
+      "title": {
+        "zh": "Stacked pull requests generally available",
+        "ja": "Stacked pull requests generally available",
+        "en": "Stacked pull requests generally available"
+      },
+      "summary": {
+        "zh": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
+        "ja": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
+        "en": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together."
+      },
+      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
+      "tags": [
+        "release",
+        "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-10-06-github-2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
@@ -179,6 +272,29 @@
         "release-notes"
       ],
       "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-05-anthropic-list",
+      "date": "2026-10-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "capabilities.thinking.types.disabled",
+        "ja": "capabilities.thinking.types.disabled",
+        "en": "capabilities.thinking.types.disabled"
+      },
+      "summary": {
+        "zh": "We've added capabilities.thinking.types.disabled to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
+        "ja": "We've added capabilities.thinking.types.disabled to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API.",
+        "en": "We've added capabilities.thinking.types.disabled to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"disabled\"}, which turns thinking off. See Using the Models API."
+      },
+      "url": "https://platform.claude.com/docs/en/api/models/list",
+      "tags": [
+        "capabilities-thinking-types-disabled",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
     },
     {
@@ -504,29 +620,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-10-01-anthropic-list",
-      "date": "2026-10-01",
-      "category": "anthropic",
-      "title": {
-        "zh": "line",
-        "ja": "line",
-        "en": "line"
-      },
-      "summary": {
-        "zh": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API.",
-        "ja": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API.",
-        "en": "We've added a line field to the Models API. GET /v1/models and GET /v1/models/{model_id} now return the model line each model belongs to. Claude Opus 4.5 and Claude Opus 4.6 both report opus, for example. Use line to group models without parsing their IDs. line is null for a model that belongs to no line. See Using the Models API."
-      },
-      "url": "https://platform.claude.com/docs/en/api/models/list",
-      "tags": [
-        "line",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-01-anthropic-barclays-scales-claude",
@@ -5393,7 +5486,7 @@
         "ja": "Claude 管理対象エージェント エージェントの web_search および web_fetch ツールがアクセスできるサイトを制限できるようになりました。 Agent_toolset_20260401 構成配列内のツールのエントリに allowed_domains または blocked_domains を設定します。 web_fetch は max_content_tokens も受け入れ、web_search は user_location も受け入れます。",
         "en": "You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location."
       },
-      "url": "https://platform.claude.com/docs/en/managed-agents/tools#restrict-web-search-and-web-fetch-domains",
+      "url": "https://platform.claude.com/docs/en/managed-agents/tools#config-entry-types-in-the-sdks",
       "tags": [
         "web-search",
         "anthropic",
@@ -5462,7 +5555,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_223piinpfl9febrivd9l4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_22dpiinpfl9febrivd9l4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -8183,7 +8276,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_233piinpfl9febrivd9l4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23dpiinpfl9febrivd9l4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -9035,7 +9128,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23bpiinpfl9febrivd9l4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23lpiinpfl9febrivd9l4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
