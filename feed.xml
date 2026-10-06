@@ -7,6 +7,15 @@
     <lastBuildDate>2026-10-06</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Code scanning AI Scan enablement status in security overview</title>
+      <link>https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</link>
+      <description>Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository counts, while repository rows show each repository’s effective AI Scan enablement.</description>
+      <pubDate>2026-10-06</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</guid>
+    </item>
+    <item>
       <title>Building advertising for the way people use AI</title>
       <link>https://openai.com/index/new-chatgpt-ads-format-and-measurement</link>
       <description>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.</description>
@@ -446,15 +455,6 @@
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google DeepMind News</source>
       <guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar</guid>
-    </item>
-    <item>
-      <title>stop_details.category</title>
-      <link>https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed</link>
-      <description>We're resuming billing for refusals that arrive before any output when stop_details.category is "bio", "frontier_llm", or "reasoning_extraction", the categories where we measure low volumes of false positives. Mid-stream refusals were already billed. Refusals billed under this change are charged like any other request, at the rates of the model that ran it. Refusals before any output in other categories are still not billed, and fallback credit is unchanged.</description>
-      <pubDate>2026-09-24</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed</guid>
     </item>
   </channel>
 </rss>
