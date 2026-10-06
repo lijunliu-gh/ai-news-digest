@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-06",
   "windowMonths": 3,
   "items": [
     {
@@ -4599,32 +4599,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-27-github-2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "date": "2026-08-27",
-      "category": "github",
-      "title": {
-        "zh": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-        "ja": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
-        "en": "Enterprise-managed settings now support autoUpdate for plugin marketplaces"
-      },
-      "summary": {
-        "zh": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.",
-        "ja": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.",
-        "en": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations."
-      },
-      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-27-anthropic-model-hardware-standard-research-preview",
       "date": "2026-08-27",
       "category": "anthropic",
@@ -4826,31 +4800,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-26-github-2026-08-26-global-model-policy-generally-available",
-      "date": "2026-08-26",
-      "category": "github",
-      "title": {
-        "zh": "Global model policy generally available",
-        "ja": "Global model policy generally available",
-        "en": "Global model policy generally available"
-      },
-      "summary": {
-        "zh": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises.",
-        "ja": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises.",
-        "en": "In July, we announced a default model policy for generally available GitHub Copilot models on Copilot Business and Copilot Enterprise plans. Starting today, we’re gradually rolling out enforcement of the policy through September 1, so it will take effect at different times for different enterprises."
-      },
-      "url": "https://github.blog/changelog/2026-08-26-global-model-policy-generally-available",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-26-anthropic-admin-api",
@@ -5695,54 +5644,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-14-github-2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "date": "2026-08-14",
-      "category": "github",
-      "title": {
-        "zh": "Grok 4.6 现已在 GitHub Copilot 中提供",
-        "ja": "Grok 4.6 が GitHub Copilot で利用可能になりました",
-        "en": "Grok 4.6 is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Grok 4.6 是 xAI 的最新推理模型，现已在 GitHub Copilot 中推出。它专为代理编码和复杂的多步骤工作流程而设计。",
-        "ja": "xAI の最新推論モデルである Grok 4.6 は、GitHub Copilot で展開されています。エージェントコーディングと複雑な複数ステップのワークフロー向けに設計されています。",
-        "en": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows."
-      },
-      "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-14-github-2026-08-13-github-copilot-weekly-releases-august-10",
-      "date": "2026-08-14",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 每周发布 — 8 月 10 日",
-        "ja": "GitHub Copilot 毎週のリリース — 8 月 10 日",
-        "en": "GitHub Copilot weekly releases — August 10"
-      },
-      "summary": {
-        "zh": "从新模型和便携式插件到更流畅的代理工作流程，本周的更新使 GitHub Copilot 在编辑器、命令行和 Copilot 应用程序中更加灵活。 GitHub Copilot，通用 Kimi K3 正在推出 Copilot Pro、Pro+、Max、Business 和 Enterprise 计划。",
-        "ja": "新しいモデルやポータブル プラグインから、よりスムーズなエージェント ワークフローに至るまで、今週の更新により、エディター、コマンド ライン、Copilot アプリ全体で GitHub Copilot の柔軟性が向上しました。 GitHub Copilot、一般的な Kim K3 は、Copilot Pro、Pro+、Max、Business、Enterprise プランに展開されます。",
-        "en": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans."
-      },
-      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-14-anthropic-claude-text-watermark",
@@ -6873,31 +6774,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-04-github-2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming deprecation of GitHub Spark on github.com",
-        "ja": "Upcoming deprecation of GitHub Spark on github.com",
-        "en": "Upcoming deprecation of GitHub Spark on github.com"
-      },
-      "summary": {
-        "zh": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
-        "ja": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
-        "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "tags": [
-        "retired",
-        "copilot",
-        "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-04-github-2026-08-04-retiring-the-copilot-billing-preview-app",
       "date": "2026-08-04",
       "category": "github",
@@ -6916,30 +6792,6 @@
         "retired",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "Code coverage automatic enablement in Code Quality settings",
-        "ja": "Code coverage automatic enablement in Code Quality settings",
-        "en": "Code coverage automatic enablement in Code Quality settings"
-      },
-      "summary": {
-        "zh": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.",
-        "ja": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.",
-        "en": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "tags": [
-        "improvement",
-        "application-security",
         "github",
         "changelog"
       ],
@@ -7967,30 +7819,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-24-github-2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-      "date": "2026-07-24",
-      "category": "github",
-      "title": {
-        "zh": "Claude Opus 5 is now available in GitHub Copilot",
-        "ja": "Claude Opus 5 is now available in GitHub Copilot",
-        "en": "Claude Opus 5 is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.",
-        "ja": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps.",
-        "en": "Claude Opus 5, Anthropic’s newest Opus model, is now available in GitHub Copilot. It is designed for complex, long-running coding tasks that require careful reasoning, effective tool use, and reliable execution across multiple steps."
-      },
-      "url": "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-24-anthropic-refusals-and-fallback",
       "date": "2026-07-24",
       "category": "anthropic",
@@ -8120,54 +7948,6 @@
       "tags": [
         "improvement",
         "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub MCP 服务器支持下一个 MCP 规范",
-        "ja": "GitHub MCP サーバーは次の MCP 仕様をサポートします",
-        "en": "GitHub MCP Server supports the next MCP specification"
-      },
-      "summary": {
-        "zh": "MCP 协议将于 2026 年 7 月 28 日变为无状态，并且 GitHub MCP 服务器在正式发布之前支持最新规范。变化新的无状态核心意味着 MCP 部署现在可以轻松扩展。",
-        "ja": "MCP プロトコルは 2026 年 7 月 28 日にステートレスになり、GitHub MCP サーバーは正式リリースに先立って最新の仕様をサポートします。変更点 新しいステートレス コアにより、MCP デプロイメントの拡張が容易になりました。",
-        "en": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "Copilot cloud agent for Linear is now generally available",
-        "ja": "Copilot cloud agent for Linear is now generally available",
-        "en": "Copilot cloud agent for Linear is now generally available"
-      },
-      "summary": {
-        "zh": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
-        "ja": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
-        "en": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -9993,30 +9773,6 @@
         "improvement",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-07-github-2026-07-07-github-copilot-app-available-to-all",
-      "date": "2026-07-07",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot 应用程序可供所有人使用",
-        "ja": "GitHub Copilot アプリは誰でも利用可能",
-        "en": "GitHub Copilot app available to all"
-      },
-      "summary": {
-        "zh": "GitHub Copilot 应用程序现在可用于每个 Copilot 计划。使用您的 GitHub 帐户登录，从桌面开始代理驱动的开发。",
-        "ja": "GitHub Copilot アプリは、すべての Copilot プランで利用できるようになりました。 GitHub アカウントでサインインして、デスクトップからエージェント駆動開発を開始します。",
-        "en": "The GitHub Copilot app is now available on every Copilot plan. Sign in with your GitHub account to start agent-driven development from your desktop."
-      },
-      "url": "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
