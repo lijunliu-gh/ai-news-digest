@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-07",
   "windowMonths": 3,
   "items": [
     {
@@ -19,6 +19,27 @@
       "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
       "tags": [
         "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-06-openai-jump-trading",
+      "date": "2026-10-06",
+      "category": "openai",
+      "title": {
+        "zh": "How Jump Trading is scaling quant research with ChatGPT",
+        "ja": "How Jump Trading is scaling quant research with ChatGPT",
+        "en": "How Jump Trading is scaling quant research with ChatGPT"
+      },
+      "summary": {
+        "zh": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+        "ja": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+        "en": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+      },
+      "url": "https://openai.com/index/jump-trading",
+      "tags": [
         "openai"
       ],
       "source": "OpenAI News",
@@ -87,7 +108,7 @@
       },
       "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
       "tags": [
-        "company",
+        "publication",
         "openai"
       ],
       "source": "OpenAI News",
@@ -137,6 +158,32 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-10-06-github-2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "date": "2026-10-06",
+      "category": "github",
+      "title": {
+        "zh": "Update your IDE to restore agent activity in Copilot usage metrics",
+        "ja": "Update your IDE to restore agent activity in Copilot usage metrics",
+        "en": "Update your IDE to restore agent activity in Copilot usage metrics"
+      },
+      "summary": {
+        "zh": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.",
+        "ja": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.",
+        "en": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK."
+      },
+      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-10-06-github-2026-10-06-stacked-pull-requests-generally-available",
@@ -779,6 +826,29 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-09-30-anthropic-admin-api",
+      "date": "2026-09-30",
+      "category": "anthropic",
+      "title": {
+        "zh": "蚂蚁",
+        "ja": "アリ",
+        "en": "ant"
+      },
+      "summary": {
+        "zh": "In Python SDK 1.10.0, TypeScript SDK 0.130.0, C# SDK 12.52.0, Go SDK 1.77.0, Java SDK 2.67.0, PHP SDK 0.53.0, Ruby SDK 1.75.0, and version 1.37.0 of the ant CLI, the Admin API methods for organization info, members, invites, workspaces, API keys, rate limits, service accounts, workload identity federation, customer-managed encryption keys, and compliance settings are out of beta: call them under client.organization and ant organization.",
+        "ja": "In Python SDK 1.10.0, TypeScript SDK 0.130.0, C# SDK 12.52.0, Go SDK 1.77.0, Java SDK 2.67.0, PHP SDK 0.53.0, Ruby SDK 1.75.0, and version 1.37.0 of the ant CLI, the Admin API methods for organization info, members, invites, workspaces, API keys, rate limits, service accounts, workload identity federation, customer-managed encryption keys, and compliance settings are out of beta: call them under client.organization and ant organization.",
+        "en": "In Python SDK 1.10.0, TypeScript SDK 0.130.0, C# SDK 12.52.0, Go SDK 1.77.0, Java SDK 2.67.0, PHP SDK 0.53.0, Ruby SDK 1.75.0, and version 1.37.0 of the ant CLI, the Admin API methods for organization info, members, invites, workspaces, API keys, rate limits, service accounts, workload identity federation, customer-managed encryption keys, and compliance settings are out of beta: call them under client.organization and ant organization."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/admin-api",
+      "tags": [
+        "ant",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-09-29-openai-introducing-gpt-6-1-sol",
       "date": "2026-09-29",
       "category": "openai",
@@ -890,30 +960,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-29-github-2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "date": "2026-09-29",
-      "category": "github",
-      "title": {
-        "zh": "GPT-6.1 Sol in GitHub Copilot",
-        "ja": "GPT-6.1 Sol in GitHub Copilot",
-        "en": "GPT-6.1 Sol in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use.",
-        "ja": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use.",
-        "en": "GPT-6.1 Sol, the latest model from OpenAI, is now generally available and rolling out in GitHub Copilot. You can use it for agentic coding and terminal workflows with strong multistep coding performance and efficient token use."
-      },
-      "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -5077,29 +5123,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-26-anthropic-admin-api",
-      "date": "2026-08-26",
-      "category": "anthropic",
-      "title": {
-        "zh": "蚂蚁",
-        "ja": "アリ",
-        "en": "ant"
-      },
-      "summary": {
-        "zh": "The Admin API is now available in the ant CLI and the Python, TypeScript, C#, Go, Java, PHP, and Ruby SDKs under client.beta.organization. They cover organization info, members, invites, workspaces and workspace members, API keys, rate limits, service accounts, workload identity federation issuers and rules, and customer-managed encryption keys. Usage and cost reports and the Claude Enterprise user-management and analytics endpoints remain curl-only.",
-        "ja": "The Admin API is now available in the ant CLI and the Python, TypeScript, C#, Go, Java, PHP, and Ruby SDKs under client.beta.organization. They cover organization info, members, invites, workspaces and workspace members, API keys, rate limits, service accounts, workload identity federation issuers and rules, and customer-managed encryption keys. Usage and cost reports and the Claude Enterprise user-management and analytics endpoints remain curl-only.",
-        "en": "The Admin API is now available in the ant CLI and the Python, TypeScript, C#, Go, Java, PHP, and Ruby SDKs under client.beta.organization. They cover organization info, members, invites, workspaces and workspace members, API keys, rate limits, service accounts, workload identity federation issuers and rules, and customer-managed encryption keys. Usage and cost reports and the Claude Enterprise user-management and analytics endpoints remain curl-only."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/admin-api",
-      "tags": [
-        "ant",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-25-openai-the-full-stack-behind-abundant-intelligence",
@@ -10273,53 +10296,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-06-openai-changelog",
-      "date": "2026-07-06",
-      "category": "openai",
-      "title": {
-        "zh": "GPT-Realtime-2.1、GPT-Realtime-2.1 迷你",
-        "ja": "GPT リアルタイム 2.1、GPT リアルタイム 2.1 ミニ",
-        "en": "GPT-Realtime-2.1, GPT-Realtime-2.1 mini"
-      },
-      "summary": {
-        "zh": "发布了 GPT-Realtime-2.1，这是一个更新的实时推理模型，具有改进的字母数字识别、静音和噪音处理以及中断行为。还发布了 GPT-Realtime-2.1 mini，这是一种用于实时语音应用的更快、成本更低的精炼推理模型。",
-        "ja": "GPT-Realtime-2.1 をリリースしました。これは、英数字認識、沈黙とノイズの処理、割り込み動作が改善された更新されたリアルタイム推論モデルです。また、リアルタイム音声アプリケーション向けの高速かつ低コストの蒸留推論モデルである GPT-Realtime-2.1 mini もリリースされました。",
-        "en": "Released GPT-Realtime-2.1, an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released GPT-Realtime-2.1 mini, a faster, lower-cost distilled reasoning model for realtime voice applications."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-07-06-feature-gpt-realtime-2-1-gpt-realtime-2-1-mini",
-      "tags": [
-        "gpt-realtime-2-1",
-        "gpt-realtime-2-1-mini",
-        "v1-realtime",
-        "feature",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-06-anthropic-alberta-government-claude-cybersecurity",
-      "date": "2026-07-06",
-      "category": "anthropic",
-      "title": {
-        "zh": "艾伯塔省使用 Claude 查找并修复安全漏洞",
-        "ja": "アルバータ州は Claude を使用してセキュリティの脆弱性を見つけて修正しています",
-        "en": "Alberta uses Claude to find and fix security vulnerabilities"
-      },
-      "summary": {
-        "zh": "艾伯塔省政府一直在 Opus 和 Sonnet 模型中使用 Claude Code 来审查其系统、查找漏洞并修复它们。",
-        "ja": "アルバータ州政府は、システムをレビューし、脆弱性を見つけて修正するために、Opus モデルと Sonnet モデルの両方で Claude Code を使用しています。",
-        "en": "The Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them."
-      },
-      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
