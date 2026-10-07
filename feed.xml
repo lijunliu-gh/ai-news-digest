@@ -70,6 +70,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli</guid>
     </item>
     <item>
+      <title>Claude Haiku 5.5 in GitHub Copilot</title>
+      <link>https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</link>
+      <description>Claude Haiku 5.5, Anthropic’s newest lightweight model, is now generally available in GitHub Copilot. It is designed for fast, high-volume work like subagents, quick edits, and terminal tasks.</description>
+      <pubDate>2026-10-07</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-07-claude-haiku-5-5-in-github-copilot</guid>
+    </item>
+    <item>
       <title>limited</title>
       <link>https://platform.claude.com/docs/en/managed-agents/tools-web-restrictions</link>
       <description>With limited networking, creating a session fails with a 400 error when an enabled web tool's allowed_domains has an entry not within allowed_hosts. So does a session update that adds such an entry. An allowed_hosts entry matches one exact host unless it starts with *., so docs.example.com is not within ["example.com"]. To fix the error, add the host to allowed_hosts or remove the entry from allowed_domains. See Restrict web search and web fetch domains.</description>
@@ -358,6 +367,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default</guid>
     </item>
     <item>
+      <title>GitHub Copilot in VS Code, September 2026 releases</title>
+      <link>https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</link>
+      <description>This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge.</description>
+      <pubDate>2026-10-01</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases</guid>
+    </item>
+    <item>
       <title>GitHub Copilot can now interact with desktop apps with computer use</title>
       <link>https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps</link>
       <description>Computer use is now available in public preview in GitHub Copilot CLI and the GitHub Copilot app on macOS and Windows. Copilot can interact with desktop applications on your behalf (e.g., reading accessible app content and visual context, clicking controls, entering and editing text, pressing keys, scrolling, dragging, and navigating workflows across applications).</description>
@@ -437,24 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app</guid>
-    </item>
-    <item>
-      <title>claude-sonnet-4-5-20250929</title>
-      <link>https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide#migrating-from-sonnet-45</link>
-      <description>We announced the deprecation of the Claude Sonnet 4.5 model ( claude-sonnet-4-5-20250929 ), with retirement on the Claude API scheduled for November 30, 2026. We recommend migrating to Claude Sonnet 5.5. Read more in Model deprecations.</description>
-      <pubDate>2026-09-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide#migrating-from-sonnet-45</guid>
-    </item>
-    <item>
-      <title>ant</title>
-      <link>https://platform.claude.com/docs/en/manage-claude/admin-api</link>
-      <description>In Python SDK 1.10.0, TypeScript SDK 0.130.0, C# SDK 12.52.0, Go SDK 1.77.0, Java SDK 2.67.0, PHP SDK 0.53.0, Ruby SDK 1.75.0, and version 1.37.0 of the ant CLI, the Admin API methods for organization info, members, invites, workspaces, API keys, rate limits, service accounts, workload identity federation, customer-managed encryption keys, and compliance settings are out of beta: call them under client.organization and ant organization.</description>
-      <pubDate>2026-09-30</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/admin-api</guid>
     </item>
   </channel>
 </rss>

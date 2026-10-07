@@ -6237,28 +6237,12 @@
     "zh": "提示缓存定价",
     "ja": "即時キャッシュの価格設定"
   },
-  "Upcoming changes to GitHub Copilot policies and billing": {
-    "zh": "GitHub Copilot 政策和计费即将发生的变化",
-    "ja": "GitHub Copilot ポリシーと請求に対する今後の変更"
-  },
-  "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.": {
-    "zh": "为了提供强大、一致的 Copilot 体验，我们即将对 Copilot 政策和计费进行三项单独的更改。请查看即将发布的更新，了解可能对您产生影响的内容。",
-    "ja": "強力で一貫した Copilot エクスペリエンスを提供するために、Copilot ポリシーと請求に対して 3 つの個別の変更を今後行う予定です。今後のアップデートを確認して、影響を受ける可能性のあるものを理解してください。"
-  },
   "client.beta.files": {
     "zh": "客户端.beta.文件"
   },
   "In Python SDK 1.2.0, TypeScript SDK 0.122.0, Go SDK 1.68.0, Java SDK 2.59.0, Ruby SDK 1.67.0, and C# SDK 12.44.0, client.beta.files and client.beta.skills no longer send the files-api-2025-04-14 and skills-2025-10-02 beta headers and return the same shapes as client.files and client.skills. With this change, client.beta.skills.delete() deletes a Skill together with all of its versions, and the beta Messages type BetaSkill (the container Skill reference) is renamed BetaContainerSkill.": {
     "zh": "在 Python SDK 1.2.0、TypeScript SDK 0.122.0、Go SDK 1.68.0、Java SDK 2.59.0、Ruby SDK 1.67.0 和 C# SDK 12.44.0 中，client.beta.files 和 client.beta.skills 不再发送 files-api-2025-04-14 和 Skills-2025-10-02 beta 标头并返回与 client.files 和 client.skills 的形状相同。通过此更改，client.beta.skills.delete() 会删除技能及其所有版本，并且 beta 消息类型 BetaSkill（容器技能引用）被重命名为 BetaContainerSkill。",
     "ja": "Python SDK 1.2.0、TypeScript SDK 0.122.0、Go SDK 1.68.0、Java SDK 2.59.0、Ruby SDK 1.67.0、および C# SDK 12.44.0 では、client.beta.files と client.beta.skills は files-api-2025-04-14 とskill-2025-10-02 ベータ ヘッダーを作成し、client.files および client.skills と同じ形状を返します。この変更により、 client.beta.skills.delete() はスキルをそのすべてのバージョンとともに削除し、ベータ版のメッセージ タイプ BetaSkill (コンテナーのスキル参照) の名前が BetaContainerSkill に変更されました。"
-  },
-  "Copilot code review: Resolution reasons and expanded capabilities": {
-    "zh": "Copilot 代码审查：解决原因和扩展功能",
-    "ja": "Copilot コード レビュー: 解決策の理由と拡張された機能"
-  },
-  "Copilot code review can now review two types of pull requests it didn’t cover before: Reviews requested automatically on pull requests authored by bots, including Copilot cloud agent Very large pull requests Additionally, you can now submit the reason for why you’re resolving a particular Copilot code review comment.": {
-    "zh": "Copilot 代码审查现在可以审查以前未涵盖的两种类型的拉取请求： 对机器人编写的拉取请求自动请求的审查，包括 Copilot 云代理 非常大的拉取请求 此外，您现在可以提交解决特定 Copilot 代码审查评论的原因。",
-    "ja": "Copilot コード レビューでは、以前はカバーしていなかった 2 種類のプル リクエストをレビューできるようになりました。 Copilot クラウド エージェントを含む、ボットによって作成されたプル リクエストで自動的にリクエストされたレビュー 非常に大規模なプル リクエスト さらに、特定の Copilot コード レビュー コメントを解決する理由を送信できるようになりました。"
   },
   "gpt-live-transcribe, gpt-transcribe": {
     "zh": "gpt 实时转录、gpt 转录",
@@ -6344,10 +6328,6 @@
     "zh": "此更新将 Codex 作为公共预览版中的新代理提供程序，通过 Hooks 支持和更丰富的 MCP 服务器管理扩展了自定义编辑器，并引入了由 GitHub Copilot 业务和企业管理员配置的自定义模型支持。它还添加了 Copilot CLI 会话的批准设置、权限模式选择和对 Claude 代理的调试日志支持，并使内联聊天全面可用，同时还进行了一系列性能和可靠性改进。",
     "ja": "この更新プログラムでは、パブリック プレビューの新しいエージェント プロバイダーとして Codex が導入され、フック サポートとより充実した MCP サーバー管理を備えたカスタマイズ エディターが拡張され、GitHub Copilot Business および Enterprise 管理者によって構成されたカスタム モデル サポートが導入されています。また、Copilot CLI セッションの承認設定、Claude エージェントの権限モード選択およびデバッグ ログのサポートが追加され、一連のパフォーマンスと信頼性の向上とともにインライン チャットが一般提供されます。"
   },
-  "Add review cycles and time to adoption phases in the usage API": {
-    "zh": "在使用 API 中添加审核周期和采用阶段的时间",
-    "ja": "使用状況 API にレビュー サイクルと導入フェーズまでの時間を追加する"
-  },
   "Per-user budgets for cost centers in the billing UI": {
     "zh": "计费 UI 中成本中心的每用户预算",
     "ja": "請求 UI のコストセンターのユーザーごとの予算"
@@ -6379,10 +6359,6 @@
   "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise plans.": {
     "zh": "2026 年 7 月 1 日，我们宣布 Kimi K2.7 将适用于 Copilot Pro、Pro+ 和 Max 计划。该模型现在还适用于 Copilot 商业版和 Copilot 企业版计划。",
     "ja": "2026 年 7 月 1 日に、Copilot Pro、Pro+、および Max プランで Kim K2.7 が利用可能になると発表しました。このモデルは、Copilot Business プランと Copilot Enterprise プランでも追加で利用できるようになりました。"
-  },
-  "The Copilot usage metrics API now reports two additional code-review velocity metrics for each AI adoption phase, extending the adoption phase cohorts fields available in the enterprise and organization reports. Alongside the existing per-phase merge time and merge counts, you can now compare how quickly pull requests are reviewed and how many review cycles they take across your adoption cohorts.": {
-    "zh": "Copilot 使用指标 API 现在为每个 AI 采用阶段报告两个额外的代码审查速度指标，扩展了企业和组织报告中可用的采用阶段群组字段。除了现有的每阶段合并时间和合并计数之外，您现在还可以比较拉取请求的审核速度以及它们在采用队列中花费的审核周期。",
-    "ja": "Copilot 使用状況メトリクス API は、AI 導入フェーズごとに 2 つの追加のコードレビュー速度メトリクスを報告するようになり、企業および組織のレポートで利用できる導入フェーズ コホート フィールドを拡張します。既存のフェーズごとのマージ時間とマージ数に加えて、プル リクエストのレビュー速度と導入コホート全体でのレビュー サイクルの数を比較できるようになりました。"
   },
   "Copilot-authored pull requests now included in author searches": {
     "ja": "Copilot が作成したプル リクエストが作成者の検索に含まれるようになりました",
