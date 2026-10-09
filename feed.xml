@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://openai.com/index/sophos</guid>
     </item>
     <item>
+      <title>managed-agents-2026-04-01</title>
+      <link>https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows</link>
+      <description>You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {"type": "multiagent_20261001", "workflows": {"type": "enabled"}}.</description>
+      <pubDate>2026-10-09</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows</guid>
+    </item>
+    <item>
       <title>How Oracle turns days of work into minutes with ChatGPT and Codex</title>
       <link>https://openai.com/index/oracle</link>
       <description>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</description>
@@ -189,7 +198,7 @@
     <item>
       <title>budget_tokens</title>
       <link>https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide</link>
-      <description>Code written for Claude Haiku 4.5 can break on Claude Haiku 5.5. Manual extended thinking ( budget_tokens ) returns a 400 error, and adaptive thinking is on by default, so a response can begin with thinking blocks. The same text also counts as more tokens. See the migration guide. For model-specific prompting patterns, see Prompting Claude Haiku 5.5.</description>
+      <description>Code written for Claude Haiku 4.5 can break on Claude Haiku 5.5. Manual extended thinking ( budget_tokens ), the sampling parameters temperature, top_p, and top_k, and assistant message prefill can each return a 400 error. computer_20250124 also returns a 400 error: use the computer_toolset_20260801 toolset on the Claude API and Google Cloud, or computer_20251124 on Amazon Bedrock.</description>
       <pubDate>2026-10-07</pubDate>
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
@@ -446,15 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</guid>
-    </item>
-    <item>
-      <title>New dashboard experience now the default</title>
-      <link>https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default</link>
-      <description>The new dashboard experience, previously available as a feature preview, is now the default view for everyone. The redesigned dashboard helps you focus on the work that matters most and makes it easier to find and act on what you need next.</description>
-      <pubDate>2026-10-01</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-new-dashboard-experience-now-the-default</guid>
     </item>
   </channel>
 </rss>
