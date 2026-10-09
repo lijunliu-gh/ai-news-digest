@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://openai.com/index/sophos</guid>
     </item>
     <item>
+      <title>Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</title>
+      <link>https://openai.com/index/asana-browser-agent</link>
+      <description>Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.</description>
+      <pubDate>2026-10-09</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/asana-browser-agent</guid>
+    </item>
+    <item>
       <title>managed-agents-2026-04-01</title>
       <link>https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows</link>
       <description>You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {"type": "multiagent_20261001", "workflows": {"type": "enabled"}}.</description>
@@ -59,6 +68,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-10-08-feature-ultrafast-mode-gpt-6-1-sol</guid>
+    </item>
+    <item>
+      <title>Copilot code review: New organization billing options and controls</title>
+      <link>https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls</link>
+      <description>This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can bill Copilot code reviews from members with a Copilot license to the organization’s cost center instead of using up those members’ Copilot quotas. Review request controls: Organization owners and repository admins can control whether people with external licenses can request a review.</description>
+      <pubDate>2026-10-08</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls</guid>
     </item>
     <item>
       <title>Introducing Agent Skills</title>
@@ -313,15 +331,6 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</guid>
     </item>
     <item>
-      <title>Code scanning AI Scan enablement status in security overview</title>
-      <link>https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</link>
-      <description>Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository counts, while repository rows show each repository’s effective AI Scan enablement.</description>
-      <pubDate>2026-10-06</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</guid>
-    </item>
-    <item>
       <title>capabilities.server_tools</title>
       <link>https://platform.claude.com/docs/en/api/models/list</link>
       <description>We've added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request's other tools. See Using the Models API.</description>
@@ -446,15 +455,6 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/albertsons-reimagining-retail</guid>
-    </item>
-    <item>
-      <title>Structured forms for private vulnerability reports</title>
-      <link>https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</link>
-      <description>Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text box made it easy to submit low-quality or AI-generated reports and hard for you to find the signal in them.</description>
-      <pubDate>2026-10-01</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</guid>
     </item>
   </channel>
 </rss>
