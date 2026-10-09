@@ -25,6 +25,15 @@
       <guid isPermaLink="true">https://openai.com/index/asana-browser-agent</guid>
     </item>
     <item>
+      <title>GitHub Copilot weekly releases — October 5</title>
+      <link>https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</link>
+      <description>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku 5.5 is available to Copilot Pro, Pro+, Max, Business, and Enterprise users.</description>
+      <pubDate>2026-10-09</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5</guid>
+    </item>
+    <item>
       <title>managed-agents-2026-04-01</title>
       <link>https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows</link>
       <description>You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {"type": "multiagent_20261001", "workflows": {"type": "enabled"}}.</description>
@@ -313,24 +322,6 @@
       <guid isPermaLink="true">https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model</guid>
     </item>
     <item>
-      <title>Update your IDE to restore agent activity in Copilot usage metrics</title>
-      <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
-      <description>If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.</description>
-      <pubDate>2026-10-06</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</guid>
-    </item>
-    <item>
-      <title>Stacked pull requests generally available</title>
-      <link>https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</link>
-      <description>GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.</description>
-      <pubDate>2026-10-06</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</guid>
-    </item>
-    <item>
       <title>capabilities.server_tools</title>
       <link>https://platform.claude.com/docs/en/api/models/list</link>
       <description>We've added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request's other tools. See Using the Models API.</description>
@@ -455,6 +446,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/albertsons-reimagining-retail</guid>
+    </item>
+    <item>
+      <title>Structured forms for private vulnerability reports</title>
+      <link>https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</link>
+      <description>Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text box made it easy to submit low-quality or AI-generated reports and hard for you to find the signal in them.</description>
+      <pubDate>2026-10-01</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</guid>
     </item>
   </channel>
 </rss>
