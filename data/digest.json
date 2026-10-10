@@ -3,6 +3,31 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-10-github-2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "date": "2026-10-10",
+      "category": "github",
+      "title": {
+        "zh": "New controls and chat improvements in Copilot for JetBrains",
+        "ja": "New controls and chat improvements in Copilot for JetBrains",
+        "en": "New controls and chat improvements in Copilot for JetBrains"
+      },
+      "summary": {
+        "zh": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.",
+        "ja": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.",
+        "en": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees."
+      },
+      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+      "tags": [
+        "release",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-09-openai-sophos",
       "date": "2026-10-09",
       "category": "openai",
@@ -444,30 +469,6 @@
         "application-security",
         "copilot",
         "platform-governance",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-07-github-2026-10-07-discover-local-models-in-github-copilot-cli",
-      "date": "2026-10-07",
-      "category": "github",
-      "title": {
-        "zh": "Discover local models in GitHub Copilot CLI",
-        "ja": "Discover local models in GitHub Copilot CLI",
-        "en": "Discover local models in GitHub Copilot CLI"
-      },
-      "summary": {
-        "zh": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
-        "ja": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
-        "en": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot."
-      },
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "tags": [
-        "improvement",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -2050,31 +2051,6 @@
         "improvement",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-25-github-2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "date": "2026-09-25",
-      "category": "github",
-      "title": {
-        "zh": "Agentic autofix now uses Copilot Memory",
-        "ja": "Agentic autofix now uses Copilot Memory",
-        "en": "Agentic autofix now uses Copilot Memory"
-      },
-      "summary": {
-        "zh": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
-        "ja": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
-        "en": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts."
-      },
-      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "tags": [
-        "improvement",
-        "application-security",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -7415,30 +7391,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-08-07-github-2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
-      "date": "2026-08-07",
-      "category": "github",
-      "title": {
-        "zh": "MCP allowlists in enterprise managed settings",
-        "ja": "MCP allowlists in enterprise managed settings",
-        "en": "MCP allowlists in enterprise managed settings"
-      },
-      "summary": {
-        "zh": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise.",
-        "ja": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise.",
-        "en": "Enterprise owners can now centrally control which Model Context Protocol (MCP) servers GitHub Copilot clients are allowed to run by using the new allowedMcpServers and deniedMcpServers keys in enterprise managed settings. Approve the MCP servers your developers depend on and block untrusted or non-compliant ones across your enterprise."
-      },
-      "url": "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-07-anthropic-skills",
       "date": "2026-08-07",
       "category": "anthropic",
@@ -9647,30 +9599,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-17-github-2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-      "date": "2026-07-17",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-        "ja": "GitHub Mobile: Fix pull request comments with Copilot cloud agent",
-        "en": "GitHub Mobile: Fix pull request comments with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix.",
-        "ja": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix.",
-        "en": "You can now select Fix with Copilot directly from Copilot code review pull request comments in GitHub Mobile. The button is available both on the pull request’s main view and on individual review comments, giving you multilpe ways to start a Copilot-assisted fix."
-      },
-      "url": "https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "client-apps",
         "github",
         "changelog"
       ],
