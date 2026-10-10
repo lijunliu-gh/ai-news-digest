@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-10-09</lastBuildDate>
+    <lastBuildDate>2026-10-10</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Sophos cuts threat investigation time by 96% with OpenAI Daybreak</title>
@@ -322,6 +322,33 @@
       <guid isPermaLink="true">https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model</guid>
     </item>
     <item>
+      <title>Update your IDE to restore agent activity in Copilot usage metrics</title>
+      <link>https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</link>
+      <description>If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.</description>
+      <pubDate>2026-10-06</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics</guid>
+    </item>
+    <item>
+      <title>Stacked pull requests generally available</title>
+      <link>https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</link>
+      <description>GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.</description>
+      <pubDate>2026-10-06</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</guid>
+    </item>
+    <item>
+      <title>Code scanning AI Scan enablement status in security overview</title>
+      <link>https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</link>
+      <description>Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository counts, while repository rows show each repository’s effective AI Scan enablement.</description>
+      <pubDate>2026-10-06</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</guid>
+    </item>
+    <item>
       <title>capabilities.server_tools</title>
       <link>https://platform.claude.com/docs/en/api/models/list</link>
       <description>We've added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request's other tools. See Using the Models API.</description>
@@ -428,33 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-frontier-academy</guid>
-    </item>
-    <item>
-      <title>The Den frees up 10-15 hours a week to grow with ChatGPT Work</title>
-      <link>https://openai.com/index/the-den-family-social</link>
-      <description>As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.</description>
-      <pubDate>2026-10-01</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/the-den-family-social</guid>
-    </item>
-    <item>
-      <title>How Albertsons Companies is reimagining retail from the inside out</title>
-      <link>https://openai.com/index/albertsons-reimagining-retail</link>
-      <description>Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.</description>
-      <pubDate>2026-10-01</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/albertsons-reimagining-retail</guid>
-    </item>
-    <item>
-      <title>Structured forms for private vulnerability reports</title>
-      <link>https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</link>
-      <description>Private vulnerability reports can now use a structured form that asks reporters for the details you need to assess a vulnerability, including a reproducible proof of concept. A single free-text box made it easy to submit low-quality or AI-generated reports and hard for you to find the signal in them.</description>
-      <pubDate>2026-10-01</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-01-structured-forms-for-private-vulnerability-reports</guid>
     </item>
   </channel>
 </rss>
