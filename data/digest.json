@@ -3,6 +3,30 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-13-github-2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+      "date": "2026-10-13",
+      "category": "github",
+      "title": {
+        "zh": "Code scanning AI Scan metrics in security overview",
+        "ja": "Code scanning AI Scan metrics in security overview",
+        "en": "Code scanning AI Scan metrics in security overview"
+      },
+      "summary": {
+        "zh": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions.",
+        "ja": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions.",
+        "en": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions."
+      },
+      "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-12-github-2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
       "date": "2026-10-12",
       "category": "github",
@@ -1163,30 +1187,6 @@
       "url": "https://github.blog/changelog/2026-10-02-github-copilot-weekly-releases-september-28",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-02-github-2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "date": "2026-10-02",
-      "category": "github",
-      "title": {
-        "zh": "Copilot code review: API support and new default effort level",
-        "ja": "Copilot code review: API support and new default effort level",
-        "en": "Copilot code review: API support and new default effort level"
-      },
-      "summary": {
-        "zh": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default review effort level.",
-        "ja": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default review effort level.",
-        "en": "You can now request a GitHub Copilot code review through the REST and GraphQL APIs and set the review effort level for each request. Balanced is also now the default review effort level."
-      },
-      "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -3113,32 +3113,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-17-github-2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "date": "2026-09-17",
-      "category": "github",
-      "title": {
-        "zh": "Agentic CLI customizations now in the usage metrics API",
-        "ja": "Agentic CLI customizations now in the usage metrics API",
-        "en": "Agentic CLI customizations now in the usage metrics API"
-      },
-      "summary": {
-        "zh": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
-        "ja": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports.",
-        "en": "GitHub Copilot expands existing CLI report coverage with agentic activity metrics for skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins. What’s new The fields appear in enterprise and organization per-user and aggregate 1-day reports, per-user 28-day reports, and the day_totals entries in aggregate 28-day reports."
-      },
-      "url": "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-17-anthropic-life-sciences-verification-program",
       "date": "2026-09-17",
       "category": "anthropic",
@@ -4702,32 +4676,6 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-09-02-github-2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "date": "2026-09-02",
-      "category": "github",
-      "title": {
-        "zh": "Enterprise-managed settings support any default model",
-        "ja": "Enterprise-managed settings support any default model",
-        "en": "Enterprise-managed settings support any default model"
-      },
-      "summary": {
-        "zh": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.",
-        "ja": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows.",
-        "en": "You can now set your preferred GitHub Copilot model as the default for new conversations through enterprise-managed settings. This lets you choose the default model that best fits your workflows."
-      },
-      "url": "https://github.blog/changelog/2026-09-02-enterprise-managed-settings-support-any-default-model",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
@@ -7383,32 +7331,6 @@
         "retired",
         "application-security",
         "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-07-github-2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-      "date": "2026-08-07",
-      "category": "github",
-      "title": {
-        "zh": "Copilot usage metrics API adds agent app activity",
-        "ja": "Copilot usage metrics API adds agent app activity",
-        "en": "Copilot usage metrics API adds agent app activity"
-      },
-      "summary": {
-        "zh": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent.",
-        "ja": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent.",
-        "en": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent."
-      },
-      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
