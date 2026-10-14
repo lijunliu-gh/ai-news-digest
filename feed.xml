@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic</guid>
     </item>
     <item>
+      <title>SentinelOne cuts malware analysis from weeks to hours</title>
+      <link>https://openai.com/index/sentinelone</link>
+      <description>With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.</description>
+      <pubDate>2026-10-14</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/sentinelone</guid>
+    </item>
+    <item>
       <title>Singapore office and government MOU | Anthropic</title>
       <link>https://www.anthropic.com/news/singapore-office-opening</link>
       <description>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</description>
@@ -23,6 +32,15 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
       <guid isPermaLink="true">https://www.anthropic.com/news/singapore-office-opening</guid>
+    </item>
+    <item>
+      <title>OpenTelemetry export</title>
+      <link>https://platform.claude.com/docs/en/manage-claude/opentelemetry</link>
+      <description>We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.</description>
+      <pubDate>2026-10-14</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/opentelemetry</guid>
     </item>
     <item>
       <title>Gemini 4 Argon: Built to solve your hardest problems</title>
@@ -437,24 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available</guid>
-    </item>
-    <item>
-      <title>Code scanning AI Scan enablement status in security overview</title>
-      <link>https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</link>
-      <description>Organization and enterprise administrators can now see AI Scan for pull requests enablement status in the security overview coverage view. The code scanning summary shows enabled and not enabled repository counts, while repository rows show each repository’s effective AI Scan enablement.</description>
-      <pubDate>2026-10-06</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview</guid>
-    </item>
-    <item>
-      <title>capabilities.server_tools</title>
-      <link>https://platform.claude.com/docs/en/api/models/list</link>
-      <description>We've added capabilities.server_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts the web search and code execution tools. To check whether a model accepts the code execution tool, read capabilities.server_tools.code_execution. The top-level capabilities.code_execution reports whether code can call your request's other tools. See Using the Models API.</description>
-      <pubDate>2026-10-06</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/api/models/list</guid>
     </item>
   </channel>
 </rss>
