@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14",
+  "lastUpdated": "2026-10-15",
   "windowMonths": 3,
   "items": [
     {
@@ -39,6 +39,27 @@
         "en": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats."
       },
       "url": "https://openai.com/index/sentinelone",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-14-openai-block-ai-powered-security",
+      "date": "2026-10-14",
+      "category": "openai",
+      "title": {
+        "zh": "How Block is building AI-powered security with OpenAI technology",
+        "ja": "How Block is building AI-powered security with OpenAI technology",
+        "en": "How Block is building AI-powered security with OpenAI technology"
+      },
+      "summary": {
+        "zh": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+        "ja": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+        "en": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes."
+      },
+      "url": "https://openai.com/index/block-ai-powered-security",
       "tags": [
         "openai"
       ],
@@ -91,22 +112,22 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-10-14-anthropic-opentelemetry",
+      "id": "2026-10-14-anthropic-multiagent-orchestration",
       "date": "2026-10-14",
       "category": "anthropic",
       "title": {
-        "zh": "OpenTelemetry export",
-        "ja": "OpenTelemetry export",
-        "en": "OpenTelemetry export"
+        "zh": "托管代理-2026-04-01",
+        "ja": "管理対象エージェント-2026-04-01",
+        "en": "managed-agents-2026-04-01"
       },
       "summary": {
-        "zh": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.",
-        "ja": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.",
-        "en": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console."
+        "zh": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
+        "ja": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
+        "en": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}."
       },
-      "url": "https://platform.claude.com/docs/en/manage-claude/opentelemetry",
+      "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows",
       "tags": [
-        "opentelemetry-export",
+        "managed-agents-2026-04-01",
         "anthropic",
         "release-notes"
       ],
@@ -390,29 +411,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-09-anthropic-multiagent-orchestration",
-      "date": "2026-10-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "托管代理-2026-04-01",
-        "ja": "管理対象エージェント-2026-04-01",
-        "en": "managed-agents-2026-04-01"
-      },
-      "summary": {
-        "zh": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
-        "ja": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
-        "en": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows",
-      "tags": [
-        "managed-agents-2026-04-01",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-08-openai-oracle",
@@ -1572,6 +1570,30 @@
       "tags": [
         "improvement",
         "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-01-github-2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+      "date": "2026-10-01",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot in VS Code, September 2026 releases",
+        "ja": "GitHub Copilot in VS Code, September 2026 releases",
+        "en": "GitHub Copilot in VS Code, September 2026 releases"
+      },
+      "summary": {
+        "zh": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge.",
+        "ja": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge.",
+        "en": "This changelog covers VS Code v1.136 through v1.140, shipped throughout September 2026. September’s releases streamline agent-driven development from implementation through pull request merge."
+      },
+      "url": "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -4978,30 +5000,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "date": "2026-09-02",
-      "category": "github",
-      "title": {
-        "zh": "Content exclusions generally available in Copilot app and CLI",
-        "ja": "Content exclusions generally available in Copilot app and CLI",
-        "en": "Content exclusions generally available in Copilot app and CLI"
-      },
-      "summary": {
-        "zh": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
-        "ja": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
-        "en": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows."
-      },
-      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-01-openai-path-to-astra",
       "date": "2026-09-01",
       "category": "openai",
@@ -6535,7 +6533,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8bqmaav5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8cemaav5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -8590,6 +8588,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-30-github-2026-07-30-github-models-is-now-retired",
+      "date": "2026-07-30",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Models is now retired",
+        "ja": "GitHub Models is now retired",
+        "en": "GitHub Models is now retired"
+      },
+      "summary": {
+        "zh": "As of July 30, 2026, GitHub Models is now retired. The playground, model catalog, inference API, and bring your own key (BYOK) are no longer available to any customer, including existing customers with active usage.",
+        "ja": "As of July 30, 2026, GitHub Models is now retired. The playground, model catalog, inference API, and bring your own key (BYOK) are no longer available to any customer, including existing customers with active usage.",
+        "en": "As of July 30, 2026, GitHub Models is now retired. The playground, model catalog, inference API, and bring your own key (BYOK) are no longer available to any customer, including existing customers with active usage."
+      },
+      "url": "https://github.blog/changelog/2026-07-30-github-models-is-now-retired",
+      "tags": [
+        "retired",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-30-github-2026-07-30-github-copilot-in-visual-studio-july-update",
       "date": "2026-07-30",
       "category": "github",
@@ -8913,32 +8935,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-07-28-github-2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
-      "date": "2026-07-28",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot app usage metrics now expand across report rollups",
-        "ja": "GitHub Copilot app usage metrics now expand across report rollups",
-        "en": "GitHub Copilot app usage metrics now expand across report rollups"
-      },
-      "summary": {
-        "zh": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.",
-        "ja": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports.",
-        "en": "Copilot app usage is now reported across much more of the Copilot usage metrics API. Individual Copilot app activity is now attributed to users in the enterprise-user and organization-user reports."
-      },
-      "url": "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-28-github-2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
       "date": "2026-07-28",
       "category": "github",
@@ -9163,7 +9159,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8fqmaav5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8gemaav5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -10015,7 +10011,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8gqmaav5ul5u9fmbtdpl4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8hemaav5ul5u9fmbtdpl4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
@@ -10181,121 +10177,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-07-14-github-2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "date": "2026-07-14",
-      "category": "github",
-      "title": {
-        "zh": "Security reviews now available in the GitHub Copilot app",
-        "ja": "Security reviews now available in the GitHub Copilot app",
-        "en": "Security reviews now available in the GitHub Copilot app"
-      },
-      "summary": {
-        "zh": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.",
-        "ja": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow.",
-        "en": "You can now run a security review on your in-flight code changes directly from the GitHub Copilot app. The /security-review slash command is shipping in public preview, bringing the same AI-driven vulnerability scanning already available in Copilot CLI into your everyday coding workflow."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-      "tags": [
-        "improvement",
-        "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-14-github-2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-      "date": "2026-07-14",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot for JetBrains expands BYOK capabilities",
-        "ja": "GitHub Copilot for JetBrains expands BYOK capabilities",
-        "en": "GitHub Copilot for JetBrains expands BYOK capabilities"
-      },
-      "summary": {
-        "zh": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software.",
-        "ja": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software.",
-        "en": "This update brings major advances in customization and model provider flexibility to all tiers of GitHub Copilot for JetBrains IDEs. With richer plugin and provider experiences, improved conversational interactions, and stronger reliability, teams can more confidently tailor Copilot to how they build software."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-14-github-2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-      "date": "2026-07-14",
-      "category": "github",
-      "title": {
-        "zh": "Code scanning shows AI security detections on pull requests",
-        "ja": "Code scanning shows AI security detections on pull requests",
-        "en": "Code scanning shows AI security detections on pull requests"
-      },
-      "summary": {
-        "zh": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and address potential issues in parts of the codebase that previously had no native scanning coverage, all before code is merged.",
-        "ja": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and address potential issues in parts of the codebase that previously had no native scanning coverage, all before code is merged.",
-        "en": "GitHub code scanning now surfaces AI-powered security detections directly on pull requests, expanding vulnerability coverage to languages and frameworks not currently supported by CodeQL. These detections help teams identify and address potential issues in parts of the codebase that previously had no native scanning coverage, all before code is merged."
-      },
-      "url": "https://github.blog/changelog/2026-07-14-code-scanning-shows-ai-security-detections-on-pull-requests",
-      "tags": [
-        "release",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-14-anthropic-claude-for-teachers",
-      "date": "2026-07-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "为教师介绍 Claude",
-        "ja": "教師向け Claude のご紹介",
-        "en": "Introducing Claude for Teachers"
-      },
-      "summary": {
-        "zh": "经过验证的美国 K-12 教育工作者可以免费使用高级 Claude 功能、教学技能库以及所有 50 个州的符合标准的课程。",
-        "ja": "認定された米国の幼稚園から高校までの教育者は、プレミアム Claude 機能、教育スキル ライブラリ、および全 50 州の標準に準拠したカリキュラムに無料でアクセスできます。",
-        "en": "Verified US K-12 educators get free access to premium Claude capabilities, a teaching skills library, and standards-aligned curricula for all 50 states."
-      },
-      "url": "https://www.anthropic.com/news/claude-for-teachers",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-14-anthropic-canadian-ai-research",
-      "date": "2026-07-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "Anthropic 向加拿大人工智能研究投入 1000 万美元",
-        "ja": "Anthropic はカナダの AI 研究に 1,000 万ドルを寄付",
-        "en": "Anthropic commits $10 million to Canadian AI research"
-      },
-      "summary": {
-        "zh": "Anthropic 承诺向加拿大研究机构捐赠 1000 万美元，资助下一代人工智能研究。",
-        "ja": "Anthropic は、次世代の AI 研究に資金を提供するためにカナダの研究機関に 1,000 万ドルを寄付しています。",
-        "en": "Anthropic is committing $10M to Canadian research institutions to fund the next generation of AI research."
-      },
-      "url": "https://www.anthropic.com/news/canadian-ai-research",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
