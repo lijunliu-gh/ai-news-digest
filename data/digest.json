@@ -3,29 +3,6 @@
   "windowMonths": 3,
   "items": [
     {
-      "id": "2026-10-19-anthropic-compliance-api",
-      "date": "2026-10-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "Instructions for Claude",
-        "ja": "Instructions for Claude",
-        "en": "Instructions for Claude"
-      },
-      "summary": {
-        "zh": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
-        "ja": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
-        "en": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-api",
-      "tags": [
-        "instructions-for-claude",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-10-15-openai-teaching-students-to-think-and-learn-through-questions",
       "date": "2026-10-15",
       "category": "openai",
@@ -46,6 +23,52 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-10-15-openai-introducing-the-rosalind-academic-plan",
+      "date": "2026-10-15",
+      "category": "openai",
+      "title": {
+        "zh": "Bringing GPT-Rosalind to academic research labs",
+        "ja": "Bringing GPT-Rosalind to academic research labs",
+        "en": "Bringing GPT-Rosalind to academic research labs"
+      },
+      "summary": {
+        "zh": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "ja": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "en": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+      },
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-15-github-2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "date": "2026-10-15",
+      "category": "github",
+      "title": {
+        "zh": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "ja": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "en": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
+      },
+      "summary": {
+        "zh": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
+        "ja": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering."
+      },
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-10-15-github-2026-10-15-ai-scan-for-pull-requests-generally-available",
@@ -95,6 +118,73 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-15-anthropic-skills",
+      "date": "2026-10-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "Introducing Agent Skills",
+        "ja": "Introducing Agent Skills",
+        "en": "Introducing Agent Skills"
+      },
+      "summary": {
+        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
+      },
+      "url": "https://www.anthropic.com/news/skills",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-15-anthropic-fast-mode",
+      "date": "2026-10-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "fast-mode-2026-02-01",
+        "ja": "fast-mode-2026-02-01",
+        "en": "fast-mode-2026-02-01"
+      },
+      "summary": {
+        "zh": "Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in every usage tier. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models.",
+        "ja": "Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in every usage tier. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models.",
+        "en": "Fast mode is out of research preview for Claude Opus 5.5, and you no longer need to request access. Requests to Claude Opus 5.5 no longer require the fast-mode-2026-02-01 beta header, and requests that still send it keep working. Claude Opus 5.5 now has a default fast mode rate limit in every usage tier. Fast mode for Claude Opus 5 and Claude Opus 4.8 remains in research preview. Keep sending the beta header with fast mode requests to those models."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "fast-mode-2026-02-01",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-15-anthropic-compliance-api",
+      "date": "2026-10-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "Instructions for Claude",
+        "ja": "Instructions for Claude",
+        "en": "Instructions for Claude"
+      },
+      "summary": {
+        "zh": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
+        "ja": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences.",
+        "en": "The Compliance API now returns the text each organization member saved as Instructions for Claude in claude.ai and as Global instructions in Cowork, in beta for Claude Enterprise organizations. Call GET /v1/compliance/organizations/{org_uuid}/user_preferences with your existing Compliance Access Key and the read:compliance_user_data scope. See List user preferences."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-api",
+      "tags": [
+        "instructions-for-claude",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-15-anthropic-an-update-on-independent-evaluators",
@@ -387,6 +477,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-10-13-github-2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+      "date": "2026-10-13",
+      "category": "github",
+      "title": {
+        "zh": "Code scanning AI Scan metrics in security overview",
+        "ja": "Code scanning AI Scan metrics in security overview",
+        "en": "Code scanning AI Scan metrics in security overview"
+      },
+      "summary": {
+        "zh": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions.",
+        "ja": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions.",
+        "en": "Organization and enterprise administrators can now observe the impact of AI Scan for pull requests in security overview. New metrics show how many AI Scan findings were generated, resolved, the remediation rate, which repositories generated findings, trends over the selected reporting period, and how often developers applied autofix suggestions."
+      },
+      "url": "https://github.blog/changelog/2026-10-13-code-scanning-ai-scan-metrics-in-security-overview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-12-github-2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
       "date": "2026-10-12",
       "category": "github",
@@ -615,27 +729,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-08-anthropic-skills",
-      "date": "2026-10-08",
-      "category": "anthropic",
-      "title": {
-        "zh": "Introducing Agent Skills",
-        "ja": "Introducing Agent Skills",
-        "en": "Introducing Agent Skills"
-      },
-      "summary": {
-        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
-      },
-      "url": "https://www.anthropic.com/news/skills",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-10-08-anthropic-genesis-mission-commitment",
@@ -3078,29 +3171,6 @@
       "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages#define-tools-in-a-message-beta",
       "tags": [
         "inline-tools-2026-09-15",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-09-22-anthropic-fast-mode",
-      "date": "2026-09-22",
-      "category": "anthropic",
-      "title": {
-        "zh": "Fast mode",
-        "ja": "Fast mode",
-        "en": "Fast mode"
-      },
-      "summary": {
-        "zh": "Fast mode (research preview) is available for Claude Opus 5.5 on the Claude API.",
-        "ja": "Fast mode (research preview) is available for Claude Opus 5.5 on the Claude API.",
-        "en": "Fast mode (research preview) is available for Claude Opus 5.5 on the Claude API."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "fast-mode",
         "anthropic",
         "release-notes"
       ],
@@ -6378,6 +6448,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-08-21-github-2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "date": "2026-08-21",
+      "category": "github",
+      "title": {
+        "zh": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+        "ja": "Shared agentic work with GitHub Copilot in Microsoft Teams",
+        "en": "Shared agentic work with GitHub Copilot in Microsoft Teams"
+      },
+      "summary": {
+        "zh": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.",
+        "ja": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session.",
+        "en": "Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHub in a channel, thread, or direct message to start a GitHub Copilot cloud agent session."
+      },
+      "url": "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+      "tags": [
+        "release",
+        "collaboration-tools",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-20-openai-stampli",
       "date": "2026-08-20",
       "category": "openai",
@@ -6600,7 +6695,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8cmmaav5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8dmmaav5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -8098,6 +8193,56 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-08-04-github-2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+      "date": "2026-08-04",
+      "category": "github",
+      "title": {
+        "zh": "Upcoming deprecation of GitHub Spark on github.com",
+        "ja": "Upcoming deprecation of GitHub Spark on github.com",
+        "en": "Upcoming deprecation of GitHub Spark on github.com"
+      },
+      "summary": {
+        "zh": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
+        "ja": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
+        "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
+      },
+      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+      "tags": [
+        "retired",
+        "copilot",
+        "ecosystem-accessibility",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-04-github-2026-08-04-retiring-the-copilot-billing-preview-app",
+      "date": "2026-08-04",
+      "category": "github",
+      "title": {
+        "zh": "Retiring the Copilot Billing Preview app",
+        "ja": "Retiring the Copilot Billing Preview app",
+        "en": "Retiring the Copilot Billing Preview app"
+      },
+      "summary": {
+        "zh": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.",
+        "ja": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.",
+        "en": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings."
+      },
+      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+      "tags": [
+        "retired",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
       "date": "2026-08-04",
       "category": "github",
@@ -8809,6 +8954,54 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-29-github-2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+      "date": "2026-07-29",
+      "category": "github",
+      "title": {
+        "zh": "Default model enablement for Copilot Business and Enterprise",
+        "ja": "Default model enablement for Copilot Business and Enterprise",
+        "en": "Default model enablement for Copilot Business and Enterprise"
+      },
+      "summary": {
+        "zh": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default.",
+        "ja": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default.",
+        "en": "We’re introducing a global default enablement policy for generally available Copilot models on Copilot Business and Copilot Enterprise plans. Instead of requiring admins to manually turn on each new model as it ships, models that become generally available will now be on by default."
+      },
+      "url": "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-29-github-2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+      "date": "2026-07-29",
+      "category": "github",
+      "title": {
+        "zh": "Copilot code review: Agent skills and MCP now generally available",
+        "ja": "Copilot code review: Agent skills and MCP now generally available",
+        "en": "Copilot code review: Agent skills and MCP now generally available"
+      },
+      "summary": {
+        "zh": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities let you bring your team’s tools, standards, and external context directly into every code review.",
+        "ja": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities let you bring your team’s tools, standards, and external context directly into every code review.",
+        "en": "Copilot code review support for agent skills and MCP servers is now generally available for all Copilot Pro, Pro+, Business, and Enterprise users. Previously announced in public preview, these capabilities let you bring your team’s tools, standards, and external context directly into every code review."
+      },
+      "url": "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-28-openai-scientific-computing-agentic-ai",
       "date": "2026-07-28",
       "category": "openai",
@@ -9154,7 +9347,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8gmmaav5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8hmmaav5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -9730,6 +9923,56 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-20-github-2026-07-20-github-code-quality-is-now-generally-available",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Code Quality is now generally available",
+        "ja": "GitHub Code Quality is now generally available",
+        "en": "GitHub Code Quality is now generally available"
+      },
+      "summary": {
+        "zh": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
+        "ja": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
+        "en": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-07-20-github-2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "date": "2026-07-20",
+      "category": "github",
+      "title": {
+        "zh": "Copilot users can now see AI credits used per billing cycle",
+        "ja": "Copilot users can now see AI credits used per billing cycle",
+        "en": "Copilot users can now see AI credits used per billing cycle"
+      },
+      "summary": {
+        "zh": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.",
+        "ja": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.",
+        "en": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings."
+      },
+      "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
       "date": "2026-07-20",
       "category": "github",
@@ -9956,7 +10199,7 @@
         "ja": "プロンプトを生成、改善、テンプレート化するための実験用プロンプト ツール API ( /v1/experimental/generate_prompt、/v1/experimental/improve_prompt、および /v1/experimental/templatize_prompt ) は、2026 年 8 月 17 日にワークベンチとともに廃止されます。削除後、これらのエンドポイントへのリクエストはエラーを返します。",
         "en": "The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_prompt, /v1/experimental/improve_prompt, and /v1/experimental/templatize_prompt ) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8hmmaav5ul5u9fmbtdpl4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_8immaav5ul5u9fmbtdpl4plb_-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts-v1-experimental-generate-prompt-v1-experimental-improve-prompt-and-v1-experimental-templatize-prompt-are-being-retired-along-with-the-workbench-on-august-17-2026-after-removal-requests-to-these-endpoints-will-return-an-error-the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
       "tags": [
         "the-experimental-prompt-tools-apis-for-generating-improving-and-templatizing-prompts",
         "anthropic",
