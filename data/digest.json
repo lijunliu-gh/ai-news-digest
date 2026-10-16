@@ -57,14 +57,14 @@
       "date": "2026-10-16",
       "category": "github",
       "title": {
-        "zh": "Multi-repo support and other improvements for GitHub in Slack and Teams",
-        "ja": "Multi-repo support and other improvements for GitHub in Slack and Teams",
-        "en": "Multi-repo support and other improvements for GitHub in Slack and Teams"
+        "zh": "Multi-repository support and other improvements for GitHub in Slack and Teams",
+        "ja": "Multi-repository support and other improvements for GitHub in Slack and Teams",
+        "en": "Multi-repository support and other improvements for GitHub in Slack and Teams"
       },
       "summary": {
-        "zh": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or catching up on project activity, you can get the information you need across repositories without switching between conversations.",
-        "ja": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or catching up on project activity, you can get the information you need across repositories without switching between conversations.",
-        "en": "Multi-repo support in Slack and Teams GitHub Copilot in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating issues, or catching up on project activity, you can get the information you need across repositories without switching between conversations."
+        "zh": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories without switching conversations.",
+        "ja": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories without switching conversations.",
+        "en": "@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories without switching conversations."
       },
       "url": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
       "tags": [
@@ -549,6 +549,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-13-github-2026-10-13-gemini-4-argon-in-github-copilot",
+      "date": "2026-10-13",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 4 Argon in GitHub Copilot",
+        "ja": "Gemini 4 Argon in GitHub Copilot",
+        "en": "Gemini 4 Argon in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
+        "ja": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
+        "en": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks."
+      },
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-13-github-2026-10-13-enterprise-managed-settings-enforcement-updates",
       "date": "2026-10-13",
       "category": "github",
@@ -616,31 +640,6 @@
       "tags": [
         "improvement",
         "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-10-github-2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "date": "2026-10-10",
-      "category": "github",
-      "title": {
-        "zh": "New controls and chat improvements in Copilot for JetBrains",
-        "ja": "New controls and chat improvements in Copilot for JetBrains",
-        "en": "New controls and chat improvements in Copilot for JetBrains"
-      },
-      "summary": {
-        "zh": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.",
-        "ja": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees.",
-        "en": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and strengthens reliability across agent sessions, customizations, and worktrees."
-      },
-      "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-      "tags": [
-        "release",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -1652,30 +1651,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-10-02-github-2026-10-02-selected-models-in-github-copilot-deprecated",
-      "date": "2026-10-02",
-      "category": "github",
-      "title": {
-        "zh": "Selected models in GitHub Copilot deprecated",
-        "ja": "Selected models in GitHub Copilot deprecated",
-        "en": "Selected models in GitHub Copilot deprecated"
-      },
-      "summary": {
-        "zh": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 Code 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5.5 Please update your workflows and integrations to use supported models.",
-        "ja": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 Code 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5.5 Please update your workflows and integrations to use supported models.",
-        "en": "As of today, October 2, 2026, we have deprecated the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Model Deprecation date Suggested alternative Gemini 3.5 Flash 2026-10-02 Gemini 3.8 Flash Gemini 3.6 Flash 2026-10-02 Gemini 3.8 Flash Kimi K2.7 Code 2026-10-02 Kimi K3 Claude Opus 4.7 2026-10-02 Claude Opus 5.5 Please update your workflows and integrations to use supported models."
-      },
-      "url": "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-02-github-2026-10-02-github-copilot-weekly-releases-september-28",
       "date": "2026-10-02",
       "category": "github",
@@ -2040,30 +2015,6 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-09-30-github-2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-      "date": "2026-09-30",
-      "category": "github",
-      "title": {
-        "zh": "HydraFusion in VS Code and the GitHub Copilot app",
-        "ja": "HydraFusion in VS Code and the GitHub Copilot app",
-        "en": "HydraFusion in VS Code and the GitHub Copilot app"
-      },
-      "summary": {
-        "zh": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models.",
-        "ja": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models.",
-        "en": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models."
-      },
-      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-30-anthropic-migration-guide",
@@ -3363,30 +3314,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-09-21-github-2026-09-21-grok-4-7-is-now-available-in-github-copilot",
-      "date": "2026-09-21",
-      "category": "github",
-      "title": {
-        "zh": "Grok 4.7 is now available in GitHub Copilot",
-        "ja": "Grok 4.7 is now available in GitHub Copilot",
-        "en": "Grok 4.7 is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows.",
-        "ja": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows.",
-        "en": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows."
-      },
-      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-09-18-openai-australian-youth-safety-blueprint",
@@ -7839,31 +7766,6 @@
       "url": "https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3",
       "tags": [
         "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-07-github-2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "date": "2026-08-07",
-      "category": "github",
-      "title": {
-        "zh": "GitHub 代码质量不再添加 Copilot 作为审阅者",
-        "ja": "GitHub コード品質では、Copilot がレビュー担当者として追加されなくなりました",
-        "en": "GitHub Code Quality no longer adds Copilot as a reviewer"
-      },
-      "summary": {
-        "zh": "在存储库上启用 GitHub 代码质量不再创建自动请求 GitHub Copilot 对拉取请求进行代码审查的规则集。在已经具有该规则集的存储库中，我们关闭了启用的设置。",
-        "ja": "リポジトリで GitHub コード品質を有効にしても、プル リクエストで GitHub Copilot からのコード レビューを自動的に要求するルールセットは作成されなくなりました。すでにそのルールセットがあるリポジトリでは、有効にした設定を無効にしました。",
-        "en": "Enabling GitHub Code Quality on a repository no longer creates a ruleset that automatically requests a code review from GitHub Copilot on your pull requests. In repositories that already have that ruleset, we’ve turned off the settings we enabled."
-      },
-      "url": "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer",
-      "tags": [
-        "retired",
-        "application-security",
         "copilot",
         "github",
         "changelog"
