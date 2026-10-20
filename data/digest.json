@@ -3,6 +3,121 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-20-openai-ted-taylor-restaurant",
+      "date": "2026-10-20",
+      "category": "openai",
+      "title": {
+        "zh": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+        "ja": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+        "en": "Franchisee reconciles cash in 94% less time with ChatGPT Work"
+      },
+      "summary": {
+        "zh": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+        "ja": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+        "en": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow."
+      },
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-20-openai-openai-to-acquire-orchestra-bio",
+      "date": "2026-10-20",
+      "category": "openai",
+      "title": {
+        "zh": "OpenAI acquires Orchestra Bio",
+        "ja": "OpenAI acquires Orchestra Bio",
+        "en": "OpenAI acquires Orchestra Bio"
+      },
+      "summary": {
+        "zh": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+        "ja": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+        "en": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
+      },
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-20-openai-changelog",
+      "date": "2026-10-20",
+      "category": "openai",
+      "title": {
+        "zh": "You can now choose 12-hour prompt caching in the API.",
+        "ja": "You can now choose 12-hour prompt caching in the API.",
+        "en": "You can now choose 12-hour prompt caching in the API."
+      },
+      "summary": {
+        "zh": "You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart.",
+        "ja": "You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart.",
+        "en": "You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-10-20-feature-you-can-now-choose-12-hour-prompt-caching-in-the-api",
+      "tags": [
+        "v1-responses",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-20-github-2026-10-20-github-package-firewall-in-public-preview",
+      "date": "2026-10-20",
+      "category": "github",
+      "title": {
+        "zh": "GitHub package firewall in public preview",
+        "ja": "GitHub package firewall in public preview",
+        "en": "GitHub package firewall in public preview"
+      },
+      "summary": {
+        "zh": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability.",
+        "ja": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability.",
+        "en": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability."
+      },
+      "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
+      "tags": [
+        "release",
+        "supply-chain-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-20-anthropic-inference-hooks",
+      "date": "2026-10-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "推理钩子",
+        "ja": "推論フック",
+        "en": "Inference hooks"
+      },
+      "summary": {
+        "zh": "Inference hooks are out of beta for Claude Enterprise organizations.",
+        "ja": "Inference hooks are out of beta for Claude Enterprise organizations.",
+        "en": "Inference hooks are out of beta for Claude Enterprise organizations."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks",
+      "tags": [
+        "inference-hooks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-10-19-openai-low-resource-programming-languages",
       "date": "2026-10-19",
       "category": "openai",
@@ -58,9 +173,9 @@
         "en": "Copilot model policy API for enterprise, orgs, and teams"
       },
       "summary": {
-        "zh": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Enterprise apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization...",
-        "ja": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Enterprise apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization...",
-        "en": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, enterprise apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Enterprise apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization..."
+        "zh": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies...",
+        "ja": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies...",
+        "en": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies..."
       },
       "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
       "tags": [
@@ -88,6 +203,27 @@
         "en": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows."
       },
       "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-18-anthropic-announcements",
+      "date": "2026-10-18",
+      "category": "anthropic",
+      "title": {
+        "zh": "Announcements",
+        "ja": "Announcements",
+        "en": "Announcements"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/announcements",
       "tags": [
         "anthropic"
       ],
@@ -180,6 +316,7 @@
       "tags": [
         "release",
         "supply-chain-security",
+        "universe26",
         "github",
         "changelog"
       ],
@@ -327,6 +464,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-10-15-github-2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "date": "2026-10-15",
+      "category": "github",
+      "title": {
+        "zh": "AI Scan for pull requests generally available",
+        "ja": "AI Scan for pull requests generally available",
+        "en": "AI Scan for pull requests generally available"
+      },
+      "summary": {
+        "zh": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently cover, including PHP, Shell/Bash, Terraform configuration (HCL), Dockerfiles, JSP for Java, Blazor for C#, and more.",
+        "ja": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently cover, including PHP, Shell/Bash, Terraform configuration (HCL), Dockerfiles, JSP for Java, Blazor for C#, and more.",
+        "en": "Code scanning AI Scan for pull requests is now generally available. It complements CodeQL by finding vulnerabilities in pull request changes for languages and frameworks that CodeQL does not currently cover, including PHP, Shell/Bash, Terraform configuration (HCL), Dockerfiles, JSP for Java, Blazor for C#, and more."
+      },
+      "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-15-github-2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
       "date": "2026-10-15",
       "category": "github",
@@ -345,6 +507,7 @@
         "release",
         "application-security",
         "copilot",
+        "universe26",
         "github",
         "changelog"
       ],
@@ -373,6 +536,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-15-anthropic-policy",
+      "date": "2026-10-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "Policy",
+        "ja": "Policy",
+        "en": "Policy"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/policy",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-15-anthropic-list",
       "date": "2026-10-15",
       "category": "anthropic",
@@ -394,6 +578,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-15-anthropic-fine-tune-claude-3-haiku",
+      "date": "2026-10-15",
+      "category": "anthropic",
+      "title": {
+        "zh": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "ja": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "en": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
+      },
+      "summary": {
+        "zh": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "ja": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "en": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available."
+      },
+      "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-10-15-anthropic-fast-mode",
@@ -565,6 +770,27 @@
         "en": "Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption."
       },
       "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-14-anthropic-safeguards",
+      "date": "2026-10-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "Safeguards",
+        "ja": "Safeguards",
+        "en": "Safeguards"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/safeguards",
       "tags": [
         "anthropic"
       ],
@@ -782,6 +1008,27 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-10-12-anthropic-distillation-defenses",
+      "date": "2026-10-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Strengthening our defenses against distillation attacks",
+        "ja": "Strengthening our defenses against distillation attacks",
+        "en": "Strengthening our defenses against distillation attacks"
+      },
+      "summary": {
+        "zh": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+        "ja": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
+        "en": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%."
+      },
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-10-github-2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
       "date": "2026-10-10",
       "category": "github",
@@ -984,6 +1231,48 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-08-anthropic-security",
+      "date": "2026-10-08",
+      "category": "anthropic",
+      "title": {
+        "zh": "Security",
+        "ja": "Security",
+        "en": "Security"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/security",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-08-anthropic-partnerships",
+      "date": "2026-10-08",
+      "category": "anthropic",
+      "title": {
+        "zh": "Partnerships",
+        "ja": "Partnerships",
+        "en": "Partnerships"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/partnerships",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-10-08-anthropic-genesis-mission-commitment",
@@ -3203,27 +3492,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-23-anthropic-claude-discovers-novel-enzyme-system",
-      "date": "2026-09-23",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude discovers a novel enzyme system",
-        "ja": "Claude discovers a novel enzyme system",
-        "en": "Claude discovers a novel enzyme system"
-      },
-      "summary": {
-        "zh": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-        "ja": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown.",
-        "en": "In early results from our new life sciences research lab, Claude agents found an enzyme system whose function is still unknown."
-      },
-      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-09-23-anthropic-cache-diagnostics",
@@ -6927,7 +7195,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23ali9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23dli9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -7609,6 +7877,31 @@
       "tags": [
         "release",
         "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-11-github-2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "date": "2026-08-11",
+      "category": "github",
+      "title": {
+        "zh": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+        "ja": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
+        "en": "Copilot memory and Ollama in GitHub Copilot for JetBrains"
+      },
+      "summary": {
+        "zh": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents.",
+        "ja": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents.",
+        "en": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents."
+      },
+      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+      "tags": [
+        "release",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -9403,6 +9696,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-07-27-github-2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "date": "2026-07-27",
+      "category": "github",
+      "title": {
+        "zh": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+        "ja": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent",
+        "en": "Enterprise managed settings in the GitHub Copilot app and Copilot cloud agent"
+      },
+      "summary": {
+        "zh": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts.",
+        "ja": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts.",
+        "en": "You can now govern the GitHub Copilot app and Copilot cloud agent with enterprise managed settings, the same centrally managed policies you use to control Copilot across your enterprise. With a managed-settings.json file, enterprise owners define one set of guardrails, such as which plugins and marketplaces developers can use and whether they can bypass approval prompts."
+      },
+      "url": "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
+      "tags": [
+        "release",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-27-anthropic-position-open-weights-models",
       "date": "2026-07-27",
       "category": "anthropic",
@@ -9528,7 +9847,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24ali9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24dli9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -9858,6 +10177,27 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-07-22-anthropic-product",
+      "date": "2026-07-22",
+      "category": "anthropic",
+      "title": {
+        "zh": "Product",
+        "ja": "Product",
+        "en": "Product"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/product",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-07-22-anthropic-event-deltas",
