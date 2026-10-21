@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "windowMonths": 3,
   "items": [
     {
@@ -93,6 +93,52 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-20-anthropic-user-profiles",
+      "date": "2026-10-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "蚂蚁",
+        "ja": "アリ",
+        "en": "ant"
+      },
+      "summary": {
+        "zh": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
+        "ja": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
+        "en": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/user-profiles",
+      "tags": [
+        "ant",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-20-anthropic-organization-webhooks",
+      "date": "2026-10-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "webhooks-2026-10-07",
+        "ja": "webhooks-2026-10-07",
+        "en": "webhooks-2026-10-07"
+      },
+      "summary": {
+        "zh": "We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.",
+        "ja": "We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.",
+        "en": "We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/organization-webhooks",
+      "tags": [
+        "webhooks-2026-10-07",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-20-anthropic-inference-hooks",
@@ -801,6 +847,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-14-anthropic-scheduled-deployments",
+      "date": "2026-10-14",
+      "category": "anthropic",
+      "title": {
+        "zh": "预定部署",
+        "ja": "スケジュールされた展開",
+        "en": "scheduled deployments"
+      },
+      "summary": {
+        "zh": "Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS.",
+        "ja": "Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS.",
+        "en": "Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/scheduled-deployments",
+      "tags": [
+        "scheduled-deployments",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-10-14-anthropic-safeguards",
       "date": "2026-10-14",
       "category": "anthropic",
@@ -822,22 +891,22 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-10-14-anthropic-multiagent-orchestration",
+      "id": "2026-10-14-anthropic-opentelemetry",
       "date": "2026-10-14",
       "category": "anthropic",
       "title": {
-        "zh": "托管代理-2026-04-01",
-        "ja": "管理対象エージェント-2026-04-01",
-        "en": "managed-agents-2026-04-01"
+        "zh": "OpenTelemetry export",
+        "ja": "OpenTelemetry export",
+        "en": "OpenTelemetry export"
       },
       "summary": {
-        "zh": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
-        "ja": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
-        "en": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}."
+        "zh": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.",
+        "ja": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console.",
+        "en": "We've launched OpenTelemetry export in beta, so you can trace Messages API requests and Claude Managed Agents sessions in your observability backend. The Claude SDK emits spans in Python, TypeScript, C#, Go, Java, PHP, and Ruby. To get spans from the API, add an OpenTelemetry destination in the Claude Console."
       },
-      "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows",
+      "url": "https://platform.claude.com/docs/en/manage-claude/opentelemetry",
       "tags": [
-        "managed-agents-2026-04-01",
+        "opentelemetry-export",
         "anthropic",
         "release-notes"
       ],
@@ -1166,6 +1235,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-09-anthropic-multiagent-orchestration",
+      "date": "2026-10-09",
+      "category": "anthropic",
+      "title": {
+        "zh": "托管代理-2026-04-01",
+        "ja": "管理対象エージェント-2026-04-01",
+        "en": "managed-agents-2026-04-01"
+      },
+      "summary": {
+        "zh": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
+        "ja": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}.",
+        "en": "You can now let a Claude Managed Agents agent use dynamic workflows, in beta with the managed-agents-2026-04-01 beta header. For work with many pieces, such as reviewing hundreds of documents, the agent can write a workflow. A workflow is a program that runs many agents in phases and combines their results. The server runs it in the background as a workflow run. To turn dynamic workflows on, set the agent's multiagent field to {\"type\": \"multiagent_20261001\", \"workflows\": {\"type\": \"enabled\"}}."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration#dynamic-workflows",
+      "tags": [
+        "managed-agents-2026-04-01",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-08-openai-oracle",
@@ -3837,6 +3929,27 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-21-anthropic-features",
+      "date": "2026-09-21",
+      "category": "anthropic",
+      "title": {
+        "zh": "Features",
+        "ja": "Features",
+        "en": "Features"
+      },
+      "summary": {
+        "zh": "Anthropic 是一家人工智能安全和研究公司，致力于构建可靠、可解释和可操纵的人工智能系统。",
+        "ja": "Anthropic は、信頼性が高く、解釈可能で、操作可能な AI システムの構築に取り組んでいる AI の安全性と研究を行う会社です。",
+        "en": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+      },
+      "url": "https://www.anthropic.com/news/features",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-09-18-openai-australian-youth-safety-blueprint",
@@ -7243,7 +7356,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23dli9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23bli9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -9895,7 +10008,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24dli9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24bli9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
@@ -10463,124 +10576,6 @@
         "en": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million."
       },
       "url": "https://www.anthropic.com/news/donation-public-first-action",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-20-openai-safety-alignment-long-horizon-models",
-      "date": "2026-07-20",
-      "category": "openai",
-      "title": {
-        "zh": "长视野模型时代的安全性和对准",
-        "ja": "ロングホライズンモデル時代の安全性とアライメント",
-        "en": "Safety and alignment in an era of long-horizon models"
-      },
-      "summary": {
-        "zh": "OpenAI 分享部署长期运行的人工智能模型的经验教训，强调新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
-        "ja": "OpenAI は、長期実行 AI モデルの展開から得た教訓を共有し、新たな安全リスク、観察された障害、反復展開による安全対策の改善に焦点を当てています。",
-        "en": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
-      },
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "tags": [
-        "safety",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-github-code-quality-is-now-generally-available",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Code Quality is now generally available",
-        "ja": "GitHub Code Quality is now generally available",
-        "en": "GitHub Code Quality is now generally available"
-      },
-      "summary": {
-        "zh": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
-        "ja": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust.",
-        "en": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. It solves an emerging challenge for software development: AI accelerates code output, and Code Quality helps teams ship code they trust."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-github-code-quality-is-now-generally-available",
-      "tags": [
-        "release",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "Copilot users can now see AI credits used per billing cycle",
-        "ja": "Copilot users can now see AI credits used per billing cycle",
-        "en": "Copilot users can now see AI credits used per billing cycle"
-      },
-      "summary": {
-        "zh": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.",
-        "ja": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings.",
-        "en": "Copilot Business and Copilot Enterprise users can now see how many AI credits they’ve used this billing cycle, even without an individual budget. Find this on your GitHub Copilot usage page in your GitHub settings."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-github-2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "date": "2026-07-20",
-      "category": "github",
-      "title": {
-        "zh": "AI credit pools for cost centers in the billing UI",
-        "ja": "AI credit pools for cost centers in the billing UI",
-        "en": "AI credit pools for cost centers in the billing UI"
-      },
-      "summary": {
-        "zh": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API.",
-        "ja": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API.",
-        "en": "You can now manage a cost center’s AI credit pool directly in the billing UI where you create and edit cost centers. Previously, you could only manage this through the GitHub REST API."
-      },
-      "url": "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-      "tags": [
-        "improvement",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-20-anthropic-rare-disease-research-grants",
-      "date": "2026-07-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "人工智能科学罕见病研究资助",
-        "ja": "AI for Science 希少疾患研究助成金",
-        "en": "AI for Science rare disease research grants"
-      },
-      "summary": {
-        "zh": "研究人员可以在六个月内申请高达 50,000 美元的 Claude 学分，以研究罕见的遗传疾病，作为 Anthropic 的 AI for Science 计划的一部分。",
-        "ja": "研究者は、Anthropic の AI for Science プログラムの一環として、希少遺伝病の研究のために 6 か月間で最大 50,000 ドルの Claude クレジットを申請できます。",
-        "en": "Researchers can apply for up to $50,000 in Claude credits over six months to study rare genetic diseases as part of Anthropic's AI for Science program."
-      },
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
       "tags": [
         "anthropic"
       ],
