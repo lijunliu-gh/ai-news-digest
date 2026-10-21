@@ -47,6 +47,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-21-openai-empowering-cyber-defenders",
+      "date": "2026-10-21",
+      "category": "openai",
+      "title": {
+        "zh": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "ja": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "en": "Democratic governance of frontier AI, part II: Empowering cyber defenders"
+      },
+      "summary": {
+        "zh": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+        "ja": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+        "en": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
+      },
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "tags": [
+        "global-affairs",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-21-openai-coordinated-disclosure-of-critical-vulnerabilities",
       "date": "2026-10-21",
       "category": "openai",
@@ -113,6 +135,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-21-openai-broad-access-through-consistent-standards",
+      "date": "2026-10-21",
+      "category": "openai",
+      "title": {
+        "zh": "Broad access through consistent standards",
+        "ja": "Broad access through consistent standards",
+        "en": "Broad access through consistent standards"
+      },
+      "summary": {
+        "zh": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+        "ja": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+        "en": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
+      },
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-21-openai-att-legal",
       "date": "2026-10-21",
       "category": "openai",
@@ -132,6 +176,29 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-10-21-anthropic-user-profiles",
+      "date": "2026-10-21",
+      "category": "anthropic",
+      "title": {
+        "zh": "enforcement_status",
+        "ja": "enforcement_status",
+        "en": "enforcement_status"
+      },
+      "summary": {
+        "zh": "We've added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
+        "ja": "We've added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
+        "en": "We've added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/user-profiles",
+      "tags": [
+        "enforcement-status",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-21-anthropic-skills",
@@ -379,29 +446,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-20-anthropic-user-profiles",
-      "date": "2026-10-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "蚂蚁",
-        "ja": "アリ",
-        "en": "ant"
-      },
-      "summary": {
-        "zh": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
-        "ja": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.",
-        "en": "We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/user-profiles",
-      "tags": [
-        "ant",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-10-20-anthropic-organization-webhooks",
       "date": "2026-10-20",
       "category": "anthropic",
@@ -441,6 +485,29 @@
       "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks",
       "tags": [
         "inference-hooks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-10-20-anthropic-capabilities",
+      "date": "2026-10-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "Capabilities",
+        "ja": "Capabilities",
+        "en": "Capabilities"
+      },
+      "summary": {
+        "zh": "Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See Web fetch tool and Domain filtering.",
+        "ja": "Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See Web fetch tool and Domain filtering.",
+        "en": "Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See Web fetch tool and Domain filtering."
+      },
+      "url": "https://platform.claude.com/settings/capabilities",
+      "tags": [
+        "capabilities",
         "anthropic",
         "release-notes"
       ],
@@ -1045,29 +1112,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-14-anthropic-tools",
-      "date": "2026-10-14",
-      "category": "anthropic",
-      "title": {
-        "zh": "Allow web search",
-        "ja": "Allow web search",
-        "en": "Allow web search"
-      },
-      "summary": {
-        "zh": "In Claude Managed Agents, the web_search tool now follows your organization's web search domain restrictions set in the Claude Console. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. Sessions have followed the organization's Allow web search setting since October 6. See Restrict web search and web fetch domains.",
-        "ja": "In Claude Managed Agents, the web_search tool now follows your organization's web search domain restrictions set in the Claude Console. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. Sessions have followed the organization's Allow web search setting since October 6. See Restrict web search and web fetch domains.",
-        "en": "In Claude Managed Agents, the web_search tool now follows your organization's web search domain restrictions set in the Claude Console. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. Sessions have followed the organization's Allow web search setting since October 6. See Restrict web search and web fetch domains."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/tools#available-tools",
-      "tags": [
-        "allow-web-search",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-14-anthropic-singapore-office-opening",
@@ -7577,7 +7621,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23cli9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_23eli9av5ul5u9fmbtdpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -10229,7 +10273,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24cli9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_24eli9av5ul5u9fmbtdpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",

@@ -25,6 +25,15 @@
       <guid isPermaLink="true">https://openai.com/index/openai-models-google-cloud</guid>
     </item>
     <item>
+      <title>Democratic governance of frontier AI, part II: Empowering cyber defenders</title>
+      <link>https://openai.com/index/empowering-cyber-defenders</link>
+      <description>OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.</description>
+      <pubDate>2026-10-21</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/empowering-cyber-defenders</guid>
+    </item>
+    <item>
       <title>Patch the Planet: global response coordination as agents uncover critical vulnerabilities</title>
       <link>https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities</link>
       <description>Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.</description>
@@ -52,6 +61,15 @@
       <guid isPermaLink="true">https://openai.com/index/building-chatgpt-ad-stack</guid>
     </item>
     <item>
+      <title>Broad access through consistent standards</title>
+      <link>https://openai.com/index/broad-access-through-consistent-standards</link>
+      <description>How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.</description>
+      <pubDate>2026-10-21</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/broad-access-through-consistent-standards</guid>
+    </item>
+    <item>
       <title>How AT&amp;T is rethinking in-house legal work with OpenAI</title>
       <link>https://openai.com/index/att-legal</link>
       <description>AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.</description>
@@ -59,6 +77,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/att-legal</guid>
+    </item>
+    <item>
+      <title>enforcement_status</title>
+      <link>https://platform.claude.com/docs/en/manage-claude/user-profiles</link>
+      <description>We've added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.</description>
+      <pubDate>2026-10-21</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/user-profiles</guid>
     </item>
     <item>
       <title>Introducing Agent Skills</title>
@@ -160,15 +187,6 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview</guid>
     </item>
     <item>
-      <title>ant</title>
-      <link>https://platform.claude.com/docs/en/manage-claude/user-profiles</link>
-      <description>We've launched user profiles, so you can tell Anthropic which of your end customers each API request is for. If you operate a platform or gateway, or resell API access, a safety enforcement action can then apply to one end customer instead of your whole organization. The SDK and the ant CLI support the new /v1/user_profiles endpoints.</description>
-      <pubDate>2026-10-20</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/user-profiles</guid>
-    </item>
-    <item>
       <title>webhooks-2026-10-07</title>
       <link>https://platform.claude.com/docs/en/manage-claude/organization-webhooks</link>
       <description>We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.</description>
@@ -185,6 +203,15 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
       <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/inference-hooks</guid>
+    </item>
+    <item>
+      <title>Capabilities</title>
+      <link>https://platform.claude.com/settings/capabilities</link>
+      <description>Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See Web fetch tool and Domain filtering.</description>
+      <pubDate>2026-10-20</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/settings/capabilities</guid>
     </item>
     <item>
       <title>Advancing coding in low‑resource programming languages</title>
@@ -421,15 +448,6 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option</guid>
     </item>
     <item>
-      <title>Allow web search</title>
-      <link>https://platform.claude.com/docs/en/managed-agents/tools#available-tools</link>
-      <description>In Claude Managed Agents, the web_search tool now follows your organization's web search domain restrictions set in the Claude Console. The agent receives only the search results that both the organization's domain restrictions and the allowed_domains or blocked_domains list on the agent's web_search tool allow. Sessions have followed the organization's Allow web search setting since October 6. See Restrict web search and web fetch domains.</description>
-      <pubDate>2026-10-14</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/tools#available-tools</guid>
-    </item>
-    <item>
       <title>Singapore office and government MOU | Anthropic</title>
       <link>https://www.anthropic.com/news/singapore-office-opening</link>
       <description>Anthropic opens its fifth Asia-Pacific office in Singapore and signs an MOU with the government on AI safety, evaluation, and responsible adoption.</description>
@@ -437,24 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
       <guid isPermaLink="true">https://www.anthropic.com/news/singapore-office-opening</guid>
-    </item>
-    <item>
-      <title>scheduled deployments</title>
-      <link>https://platform.claude.com/docs/en/managed-agents/scheduled-deployments</link>
-      <description>Claude Managed Agents scheduled deployments are now available on Claude Platform on AWS.</description>
-      <pubDate>2026-10-14</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/docs/en/managed-agents/scheduled-deployments</guid>
-    </item>
-    <item>
-      <title>Safeguards</title>
-      <link>https://www.anthropic.com/news/safeguards</link>
-      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-      <pubDate>2026-10-14</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/safeguards</guid>
     </item>
   </channel>
 </rss>
