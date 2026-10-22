@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21",
+  "lastUpdated": "2026-10-22",
   "windowMonths": 3,
   "items": [
     {
@@ -85,6 +85,27 @@
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "tags": [
         "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-21-openai-cloudflare-cyber",
+      "date": "2026-10-21",
+      "category": "openai",
+      "title": {
+        "zh": "Cloudflare links vulnerability discovery to defense with OpenAI",
+        "ja": "Cloudflare links vulnerability discovery to defense with OpenAI",
+        "en": "Cloudflare links vulnerability discovery to defense with OpenAI"
+      },
+      "summary": {
+        "zh": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+        "ja": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+        "en": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality."
+      },
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "tags": [
         "openai"
       ],
       "source": "OpenAI News",
@@ -430,9 +451,9 @@
         "en": "GitHub package firewall in public preview"
       },
       "summary": {
-        "zh": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability.",
-        "ja": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability.",
-        "en": "An increasing number of malware attacks exploit systems at package installation time, harvesting credentials on CI/CD hosts or developer workstations without even running the package’s code. To stem this tide of attacks, GitHub is introducing a new package firewall capability."
+        "zh": "Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time.",
+        "ja": "Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time.",
+        "en": "Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time."
       },
       "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview",
       "tags": [
@@ -10714,117 +10735,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-07-21-openai-hugging-face-model-evaluation-security-incident",
-      "date": "2026-07-21",
-      "category": "openai",
-      "title": {
-        "zh": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
-        "ja": "OpenAI と Hugging Face が提携してモデル評価中のセキュリティ インシデントに対処",
-        "en": "OpenAI and Hugging Face partner to address security incident during model evaluation"
-      },
-      "summary": {
-        "zh": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
-        "ja": "OpenAI と Hugging Face は、AI モデルの評価中に発生したセキュリティ インシデントの初期の調査結果を共有し、高度なサイバー機能と防御者向けの教訓を強調しています。",
-        "en": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
-      },
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "tags": [
-        "security",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-21-openai-david-velez-robin-vince-join-openai-boards",
-      "date": "2026-07-21",
-      "category": "openai",
-      "title": {
-        "zh": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
-        "ja": "David Vélez と Robin Vince が OpenAI Foundation と OpenAI Group PBC の理事に加わりました",
-        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
-      },
-      "summary": {
-        "zh": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会，带来金融、技术和治理领域的全球领导力。",
-        "ja": "David Vélez と Robin Vince は、OpenAI Foundation と OpenAI Group PBC の役員に加わり、財務、テクノロジー、ガバナンスの分野で世界的なリーダーシップを発揮します。",
-        "en": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
-      },
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "tags": [
-        "company",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-21-google-introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
-      "date": "2026-07-21",
-      "category": "google",
-      "title": {
-        "zh": "介绍 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash 网络",
-        "ja": "Gemini 3.6 Flash、3.5 Flash-Lite、および 3.5 Flash Cyber​​ の紹介",
-        "en": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber"
-      },
-      "summary": {
-        "zh": "我们正在推出新的 Gemini 型号，包括 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​。",
-        "ja": "Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyber​​ などの新しい Gemini モデルを導入します。",
-        "en": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
-      },
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
-      "tags": [
-        "google-deepmind",
-        "google"
-      ],
-      "source": "Google DeepMind News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-21-github-2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "date": "2026-07-21",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 3.6 Flash is now available in GitHub Copilot",
-        "ja": "Gemini 3.6 Flash is now available in GitHub Copilot",
-        "en": "Gemini 3.6 Flash is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.",
-        "ja": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks.",
-        "en": "Gemini 3.6 Flash, Google’s latest Flash model, is now rolling out in GitHub Copilot. It is designed for web and app development, coding, and longer-horizon agentic tasks."
-      },
-      "url": "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-21-anthropic-donation-public-first-action",
-      "date": "2026-07-21",
-      "category": "anthropic",
-      "title": {
-        "zh": "向 Public First Action 再次捐赠 2000 万美元",
-        "ja": "Public First Action にさらに 2,000 万ドルを寄付",
-        "en": "Donating another $20 million to Public First Action"
-      },
-      "summary": {
-        "zh": "Anthropic 为“公共优先行动”额外捐款 2000 万美元，使我们的支持总额达到 4000 万美元。",
-        "ja": "Anthropic は Public First Action にさらに 2,000 万ドルを寄付しており、支援総額は 4,000 万ドルになります。",
-        "en": "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million."
-      },
-      "url": "https://www.anthropic.com/news/donation-public-first-action",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
