@@ -4,8 +4,17 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-10-22</lastBuildDate>
+    <lastBuildDate>2026-10-23</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GitHub Copilot in Visual Studio — September update</title>
+      <link>https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2</link>
+      <description>September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags them. Highlights Here’s what’s new with GitHub Copilot in Visual Studio 2026.</description>
+      <pubDate>2026-10-23</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2</guid>
+    </item>
     <item>
       <title>Uber brings ChatGPT Work to all employees with OpenAI</title>
       <link>https://openai.com/index/uber-chatgpt-work-rollout</link>
@@ -14,15 +23,6 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/uber-chatgpt-work-rollout</guid>
-    </item>
-    <item>
-      <title>What FDE means at OpenAI</title>
-      <link>https://openai.com/index/forward-deployed-engineering-means</link>
-      <description>What forward deployed engineering means at OpenAI</description>
-      <pubDate>2026-10-22</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/forward-deployed-engineering-means</guid>
     </item>
     <item>
       <title>Build more responsive apps with the Decisions API</title>
@@ -59,6 +59,15 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available</guid>
+    </item>
+    <item>
+      <title>Custom skills, agents, and MCP servers in usage metrics API</title>
+      <link>https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api</link>
+      <description>Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.</description>
+      <pubDate>2026-10-22</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api</guid>
     </item>
     <item>
       <title>Introducing Agent Skills</title>
@@ -277,15 +286,6 @@
       <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-10-20-feature-you-can-now-choose-12-hour-prompt-caching-in-the-api</guid>
     </item>
     <item>
-      <title>GitHub package firewall in public preview</title>
-      <link>https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview</link>
-      <description>Editor’s note (October 21, 2026): Rewrote the changelog for clarity and added imagery. There’s been a recent flood of malware attacks that exploit systems at package installation time.</description>
-      <pubDate>2026-10-20</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview</guid>
-    </item>
-    <item>
       <title>webhooks-2026-10-07</title>
       <link>https://platform.claude.com/docs/en/manage-claude/organization-webhooks</link>
       <description>We've added organization webhooks to the Admin API, in beta with the webhooks-2026-10-07 beta header. Its /v1/organizations/webhooks endpoints register webhook endpoints for two event types: one for when Anthropic restricts or bans one of your organization's user profiles, and one for when the restriction or ban ends. To request access, contact your Anthropic account team.</description>
@@ -320,6 +320,24 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/low-resource-programming-languages</guid>
+    </item>
+    <item>
+      <title>GitHub Copilot models deprecated on October 19, 2026</title>
+      <link>https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</link>
+      <description>As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These deprecations were announced on September 18, 2026.</description>
+      <pubDate>2026-10-19</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026</guid>
+    </item>
+    <item>
+      <title>Copilot model policy API for enterprise, orgs, and teams</title>
+      <link>https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</link>
+      <description>You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies...</description>
+      <pubDate>2026-10-19</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams</guid>
     </item>
     <item>
       <title>Investing in the public benefit</title>
@@ -437,24 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available</guid>
-    </item>
-    <item>
-      <title>Agentic autofix for code scanning alerts general availability</title>
-      <link>https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</link>
-      <description>Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review.</description>
-      <pubDate>2026-10-15</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability</guid>
-    </item>
-    <item>
-      <title>Policy</title>
-      <link>https://www.anthropic.com/news/policy</link>
-      <description>Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.</description>
-      <pubDate>2026-10-15</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic News</source>
-      <guid isPermaLink="true">https://www.anthropic.com/news/policy</guid>
     </item>
   </channel>
 </rss>
