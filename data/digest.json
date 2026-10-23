@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-23-openai-scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-23",
+      "category": "openai",
+      "title": {
+        "zh": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "ja": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "en": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
+      },
+      "summary": {
+        "zh": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+        "ja": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+        "en": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+      },
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-23-openai-openai-nask-ai-safety-security-partnership",
       "date": "2026-10-23",
       "category": "openai",
@@ -47,6 +69,48 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-23-anthropic-skills",
+      "date": "2026-10-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "Introducing Agent Skills",
+        "ja": "Introducing Agent Skills",
+        "en": "Introducing Agent Skills"
+      },
+      "summary": {
+        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
+      },
+      "url": "https://www.anthropic.com/news/skills",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-23-anthropic-fine-tune-claude-3-haiku",
+      "date": "2026-10-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "ja": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "en": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
+      },
+      "summary": {
+        "zh": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "ja": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "en": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available."
+      },
+      "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
     },
     {
       "id": "2026-10-22-openai-uber-chatgpt-work-rollout",
@@ -195,27 +259,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-22-anthropic-skills",
-      "date": "2026-10-22",
-      "category": "anthropic",
-      "title": {
-        "zh": "Introducing Agent Skills",
-        "ja": "Introducing Agent Skills",
-        "en": "Introducing Agent Skills"
-      },
-      "summary": {
-        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
-      },
-      "url": "https://www.anthropic.com/news/skills",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-10-22-anthropic-product",
       "date": "2026-10-22",
       "category": "anthropic",
@@ -251,27 +294,6 @@
         "en": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects."
       },
       "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-10-22-anthropic-fine-tune-claude-3-haiku",
-      "date": "2026-10-22",
-      "category": "anthropic",
-      "title": {
-        "zh": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
-        "ja": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
-        "en": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
-      },
-      "summary": {
-        "zh": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
-        "ja": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
-        "en": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available."
-      },
-      "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
       "tags": [
         "anthropic"
       ],
