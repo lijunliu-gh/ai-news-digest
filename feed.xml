@@ -7,6 +7,15 @@
     <lastBuildDate>2026-10-23</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Securing our frontier model training environment</title>
+      <link>https://openai.com/index/securing-our-frontier-model-training-environment</link>
+      <description>OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</description>
+      <pubDate>2026-10-23</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/securing-our-frontier-model-training-environment</guid>
+    </item>
+    <item>
       <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)</title>
       <link>https://openai.com/index/scaling-storage-one-billion-users-part-two</link>
       <description>Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.</description>
@@ -23,6 +32,15 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/openai-nask-ai-safety-security-partnership</guid>
+    </item>
+    <item>
+      <title>Turn notifications into code with the GitHub app in Teams</title>
+      <link>https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</link>
+      <description>The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.</description>
+      <pubDate>2026-10-23</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams</guid>
     </item>
     <item>
       <title>GitHub Copilot in Visual Studio — September update</title>
@@ -340,6 +358,15 @@
       <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/inference-hooks</guid>
     </item>
     <item>
+      <title>experimental-claude-tag-2026-10-21</title>
+      <link>https://platform.claude.com/docs/en/manage-claude/claude-tag-api</link>
+      <description>The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.</description>
+      <pubDate>2026-10-20</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/claude-tag-api</guid>
+    </item>
+    <item>
       <title>Capabilities</title>
       <link>https://platform.claude.com/settings/capabilities</link>
       <description>Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See How to use web fetch and Domain filtering.</description>
@@ -428,33 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available</guid>
-    </item>
-    <item>
-      <title>Multi-repository support and other improvements for GitHub in Slack and Teams</title>
-      <link>https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</link>
-      <description>@GitHub in Slack and Teams now supports working across multiple repositories in a single conversation. Whether you’re creating issues, opening pull requests, or investigating bugs, you can work across repositories without switching conversations.</description>
-      <pubDate>2026-10-16</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates</guid>
-    </item>
-    <item>
-      <title>Teaching students to think and learn through questions</title>
-      <link>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</link>
-      <description>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</description>
-      <pubDate>2026-10-15</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/teaching-students-to-think-and-learn-through-questions</guid>
-    </item>
-    <item>
-      <title>Sullivan &amp; Cromwell brings legal expertise into agreement review</title>
-      <link>https://openai.com/index/sullivan-cromwell</link>
-      <description>In collaboration with OpenAI, Sullivan &amp; Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.</description>
-      <pubDate>2026-10-15</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/sullivan-cromwell</guid>
     </item>
   </channel>
 </rss>

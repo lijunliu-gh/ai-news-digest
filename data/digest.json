@@ -3,6 +3,28 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-10-23-openai-securing-our-frontier-model-training-environment",
+      "date": "2026-10-23",
+      "category": "openai",
+      "title": {
+        "zh": "Securing our frontier model training environment",
+        "ja": "Securing our frontier model training environment",
+        "en": "Securing our frontier model training environment"
+      },
+      "summary": {
+        "zh": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "ja": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "en": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+      },
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-23-openai-scaling-storage-one-billion-users-part-two",
       "date": "2026-10-23",
       "category": "openai",
@@ -45,6 +67,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-10-23-github-2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "date": "2026-10-23",
+      "category": "github",
+      "title": {
+        "zh": "Turn notifications into code with the GitHub app in Teams",
+        "ja": "Turn notifications into code with the GitHub app in Teams",
+        "en": "Turn notifications into code with the GitHub app in Teams"
+      },
+      "summary": {
+        "zh": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
+        "ja": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
+        "en": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action."
+      },
+      "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "tags": [
+        "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-10-23-github-2026-10-22-github-copilot-in-visual-studio-september-update-2",
@@ -836,6 +882,29 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-10-20-anthropic-claude-tag-api",
+      "date": "2026-10-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "experimental-claude-tag-2026-10-21",
+        "ja": "experimental-claude-tag-2026-10-21",
+        "en": "experimental-claude-tag-2026-10-21"
+      },
+      "summary": {
+        "zh": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
+        "ja": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
+        "en": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/claude-tag-api",
+      "tags": [
+        "experimental-claude-tag-2026-10-21",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-10-20-anthropic-capabilities",
       "date": "2026-10-20",
       "category": "anthropic",
@@ -1610,30 +1679,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-10-13-github-2026-10-13-gemini-4-argon-in-github-copilot",
-      "date": "2026-10-13",
-      "category": "github",
-      "title": {
-        "zh": "Gemini 4 Argon in GitHub Copilot",
-        "ja": "Gemini 4 Argon in GitHub Copilot",
-        "en": "Gemini 4 Argon in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
-        "ja": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
-        "en": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks."
-      },
-      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-13-github-2026-10-13-enterprise-managed-settings-enforcement-updates",
       "date": "2026-10-13",
       "category": "github",
@@ -2192,56 +2237,6 @@
       "tags": [
         "release",
         "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-07-github-2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "date": "2026-10-07",
-      "category": "github",
-      "title": {
-        "zh": "Local sandboxing for GitHub Copilot now generally available",
-        "ja": "Local sandboxing for GitHub Copilot now generally available",
-        "en": "Local sandboxing for GitHub Copilot now generally available"
-      },
-      "summary": {
-        "zh": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.",
-        "ja": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.",
-        "en": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines."
-      },
-      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
-      "tags": [
-        "release",
-        "application-security",
-        "copilot",
-        "platform-governance",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-07-github-2026-10-07-discover-local-models-in-github-copilot-cli",
-      "date": "2026-10-07",
-      "category": "github",
-      "title": {
-        "zh": "Discover local models in GitHub Copilot CLI",
-        "ja": "Discover local models in GitHub Copilot CLI",
-        "en": "Discover local models in GitHub Copilot CLI"
-      },
-      "summary": {
-        "zh": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
-        "ja": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
-        "en": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot."
-      },
-      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
-      "tags": [
-        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -3786,31 +3781,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-25-github-2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "date": "2026-09-25",
-      "category": "github",
-      "title": {
-        "zh": "Agentic autofix now uses Copilot Memory",
-        "ja": "Agentic autofix now uses Copilot Memory",
-        "en": "Agentic autofix now uses Copilot Memory"
-      },
-      "summary": {
-        "zh": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
-        "ja": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
-        "en": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts."
-      },
-      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-      "tags": [
-        "improvement",
-        "application-security",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-25-github-2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
       "date": "2026-09-25",
       "category": "github",
@@ -5225,30 +5195,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-11-github-2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-      "date": "2026-09-11",
-      "category": "github",
-      "title": {
-        "zh": "Auto-resolution and analysis updates in Copilot code review",
-        "ja": "Auto-resolution and analysis updates in Copilot code review",
-        "en": "Auto-resolution and analysis updates in Copilot code review"
-      },
-      "summary": {
-        "zh": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.",
-        "ja": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.",
-        "en": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level."
-      },
-      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-11-github-2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
       "date": "2026-09-11",
       "category": "github",
@@ -5426,30 +5372,6 @@
       "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
       "tags": [
         "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-10-github-2026-09-10-github-copilot-weekly-releases-september-7",
-      "date": "2026-09-10",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot weekly releases — September 7",
-        "ja": "GitHub Copilot weekly releases — September 7",
-        "en": "GitHub Copilot weekly releases — September 7"
-      },
-      "summary": {
-        "zh": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
-        "ja": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
-        "en": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains."
-      },
-      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -7027,30 +6949,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-28-github-2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "date": "2026-08-28",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming changes to GitHub Copilot policies and billing",
-        "ja": "Upcoming changes to GitHub Copilot policies and billing",
-        "en": "Upcoming changes to GitHub Copilot policies and billing"
-      },
-      "summary": {
-        "zh": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
-        "ja": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
-        "en": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you."
-      },
-      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-08-28-github-2026-08-28-github-copilot-weekly-releases-august-24",
       "date": "2026-08-28",
       "category": "github",
@@ -7942,7 +7840,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18e6m95bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18eem95bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -8829,30 +8727,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-10-github-2026-08-10-copilot-on-web-expands-conversation-controls",
-      "date": "2026-08-10",
-      "category": "github",
-      "title": {
-        "zh": "Copilot on web expands conversation controls",
-        "ja": "Copilot on web expands conversation controls",
-        "en": "Copilot on web expands conversation controls"
-      },
-      "summary": {
-        "zh": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.",
-        "ja": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.",
-        "en": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend."
-      },
-      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
-      "tags": [
-        "improvement",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-08-10-anthropic-pricing",
@@ -10320,30 +10194,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-07-28-github-2026-07-28-grok-4-5-is-now-available-in-github-copilot",
-      "date": "2026-07-28",
-      "category": "github",
-      "title": {
-        "zh": "Grok 4.5 is now available in GitHub Copilot",
-        "ja": "Grok 4.5 is now available in GitHub Copilot",
-        "en": "Grok 4.5 is now available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.",
-        "ja": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.",
-        "en": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort."
-      },
-      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-07-28-github-2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
       "date": "2026-07-28",
       "category": "github",
@@ -10594,7 +10444,7 @@
         "ja": "会話中のツールの変更は、Claude Fable 5、Claude Mythos 5、Claude Opus 4.8、および Claude Opus 5 でベータ版になりました。プロンプト キャッシュを保持しながら、会話のターンの間にツールを追加または削除します。リクエストにmid-conversation-tool-changes-2026-07-01 betaヘッダーを含めます。",
         "en": "Mid-conversation tool changes are now in beta on Claude Fable 5, Claude Mythos 5, Claude Opus 4.8, and Claude Opus 5: add or remove tools between turns of a conversation while preserving the prompt cache. Include the mid-conversation-tool-changes-2026-07-01 beta header in your requests."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18i6m95bsnqknp5upfllpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18iem95bsnqknp5upfllpl4plb_-mid-conversation-tool-changes-are-now-in-beta-on-claude-fable-5-claude-mythos-5-claude-opus-4-8-and-claude-opus-5-add-or-remove-tools-between-turns-of-a-conversation-while-preserving-the-prompt-cache-include-the-mid-conversation-tool-changes-2026-07-01-beta-header-in-your-requests-mid-conversation-tool-changes-2026-07-01",
       "tags": [
         "mid-conversation-tool-changes-2026-07-01",
         "anthropic",
