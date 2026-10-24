@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23",
+  "lastUpdated": "2026-10-24",
   "windowMonths": 3,
   "items": [
     {
@@ -69,21 +69,48 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-23-github-2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "date": "2026-10-23",
+      "category": "github",
+      "title": {
+        "zh": "Usage metrics API adds usage from tools like OpenCode",
+        "ja": "Usage metrics API adds usage from tools like OpenCode",
+        "en": "Usage metrics API adds usage from tools like OpenCode"
+      },
+      "summary": {
+        "zh": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports. A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
+        "ja": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports. A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
+        "en": "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports. A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports."
+      },
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-23-github-2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
       "date": "2026-10-23",
       "category": "github",
       "title": {
-        "zh": "Turn notifications into code with the GitHub app in Teams",
-        "ja": "Turn notifications into code with the GitHub app in Teams",
-        "en": "Turn notifications into code with the GitHub app in Teams"
+        "zh": "Turn notifications into code with GitHub Copilot in Teams",
+        "ja": "Turn notifications into code with GitHub Copilot in Teams",
+        "en": "Turn notifications into code with GitHub Copilot in Teams"
       },
       "summary": {
-        "zh": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
-        "ja": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
-        "en": "The new GitHub app in Teams brings notifications and copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action."
+        "zh": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
+        "ja": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action.",
+        "en": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group chats, or private chats, then @mention GitHub to turn updates into action."
       },
       "url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
       "tags": [
+        "improvement",
         "client-apps",
         "copilot",
         "github",
@@ -1679,6 +1706,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-13-github-2026-10-13-gemini-4-argon-in-github-copilot",
+      "date": "2026-10-13",
+      "category": "github",
+      "title": {
+        "zh": "Gemini 4 Argon in GitHub Copilot",
+        "ja": "Gemini 4 Argon in GitHub Copilot",
+        "en": "Gemini 4 Argon in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
+        "ja": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks.",
+        "en": "Gemini 4 Argon, Google’s newest frontier model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks."
+      },
+      "url": "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-13-github-2026-10-13-enterprise-managed-settings-enforcement-updates",
       "date": "2026-10-13",
       "category": "github",
@@ -2237,6 +2288,56 @@
       "tags": [
         "release",
         "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-07-github-2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "date": "2026-10-07",
+      "category": "github",
+      "title": {
+        "zh": "Local sandboxing for GitHub Copilot now generally available",
+        "ja": "Local sandboxing for GitHub Copilot now generally available",
+        "en": "Local sandboxing for GitHub Copilot now generally available"
+      },
+      "summary": {
+        "zh": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.",
+        "ja": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines.",
+        "en": "Local sandboxing for GitHub Copilot is now generally available in GitHub Copilot CLI, the GitHub Copilot app, and VS Code sessions using Agent Host. Local sandboxes give developers a secure execution boundary for agentic workflows on their own machines."
+      },
+      "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available",
+      "tags": [
+        "release",
+        "application-security",
+        "copilot",
+        "platform-governance",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-07-github-2026-10-07-discover-local-models-in-github-copilot-cli",
+      "date": "2026-10-07",
+      "category": "github",
+      "title": {
+        "zh": "Discover local models in GitHub Copilot CLI",
+        "ja": "Discover local models in GitHub Copilot CLI",
+        "en": "Discover local models in GitHub Copilot CLI"
+      },
+      "summary": {
+        "zh": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
+        "ja": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot.",
+        "en": "GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI version 1.0.94-0, use /model to discover supported models from a running local Ollama instance, alongside your configured models and cloud models provided by GitHub Copilot."
+      },
+      "url": "https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli",
+      "tags": [
+        "improvement",
         "copilot",
         "github",
         "changelog"
@@ -3781,6 +3882,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-25-github-2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "date": "2026-09-25",
+      "category": "github",
+      "title": {
+        "zh": "Agentic autofix now uses Copilot Memory",
+        "ja": "Agentic autofix now uses Copilot Memory",
+        "en": "Agentic autofix now uses Copilot Memory"
+      },
+      "summary": {
+        "zh": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
+        "ja": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts.",
+        "en": "Agentic autofix now uses Copilot Memory for customers who’ve enabled it. When you use agentic autofix, it reviews existing memories for context that can help resolve security alerts."
+      },
+      "url": "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
+      "tags": [
+        "improvement",
+        "application-security",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-25-github-2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise",
       "date": "2026-09-25",
       "category": "github",
@@ -5195,6 +5321,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-11-github-2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "date": "2026-09-11",
+      "category": "github",
+      "title": {
+        "zh": "Auto-resolution and analysis updates in Copilot code review",
+        "ja": "Auto-resolution and analysis updates in Copilot code review",
+        "en": "Auto-resolution and analysis updates in Copilot code review"
+      },
+      "summary": {
+        "zh": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.",
+        "ja": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level.",
+        "en": "Copilot code review now resolves its own comments once you address them and writes smart commit messages for you when you apply its code suggestions. Behind the scenes, Copilot now uses a broader set of shell tools to validate the code it reviews, and an ensemble of agents produce a more thorough review within the Lite effort level."
+      },
+      "url": "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-11-github-2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
       "date": "2026-09-11",
       "category": "github",
@@ -5372,6 +5522,30 @@
       "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
       "tags": [
         "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-10-github-2026-09-10-github-copilot-weekly-releases-september-7",
+      "date": "2026-09-10",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot weekly releases — September 7",
+        "ja": "GitHub Copilot weekly releases — September 7",
+        "en": "GitHub Copilot weekly releases — September 7"
+      },
+      "summary": {
+        "zh": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
+        "ja": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains.",
+        "en": "This week, GitHub Copilot introduces Jira integration in Copilot app and adaptive model orchestration with Project HydraFusion in Copilot CLI. We also introduced new agent automation in Visual Studio Code and expanded enterprise controls for Copilot in JetBrains."
+      },
+      "url": "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
@@ -6947,6 +7121,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-08-28-github-2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "date": "2026-08-28",
+      "category": "github",
+      "title": {
+        "zh": "Upcoming changes to GitHub Copilot policies and billing",
+        "ja": "Upcoming changes to GitHub Copilot policies and billing",
+        "en": "Upcoming changes to GitHub Copilot policies and billing"
+      },
+      "summary": {
+        "zh": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
+        "ja": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you.",
+        "en": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you."
+      },
+      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-08-28-github-2026-08-28-github-copilot-weekly-releases-august-24",
@@ -8729,6 +8927,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-08-10-github-2026-08-10-copilot-on-web-expands-conversation-controls",
+      "date": "2026-08-10",
+      "category": "github",
+      "title": {
+        "zh": "Copilot on web expands conversation controls",
+        "ja": "Copilot on web expands conversation controls",
+        "en": "Copilot on web expands conversation controls"
+      },
+      "summary": {
+        "zh": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.",
+        "ja": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend.",
+        "en": "We’ve made improvements to Copilot Chat on github.com that make it easier to use. These include easier access to your recent conversations in chat, the ability to minimize the chat window and return to an in-progress conversation, and indicators that help you track your Copilot token spend."
+      },
+      "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+      "tags": [
+        "improvement",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-10-anthropic-pricing",
       "date": "2026-08-10",
       "category": "anthropic",
@@ -10194,6 +10416,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-07-28-github-2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "date": "2026-07-28",
+      "category": "github",
+      "title": {
+        "zh": "Grok 4.5 is now available in GitHub Copilot",
+        "ja": "Grok 4.5 is now available in GitHub Copilot",
+        "en": "Grok 4.5 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.",
+        "ja": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort.",
+        "en": "Grok 4.5, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for fast, agentic coding and complex multi-step workflows, with a context window of up to 500,000 tokens, support for text and image inputs, as well as low, medium, and high reasoning effort."
+      },
+      "url": "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-07-28-github-2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
       "date": "2026-07-28",
       "category": "github",
@@ -10473,126 +10719,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-07-23-openai-health-in-chatgpt",
-      "date": "2026-07-23",
-      "category": "openai",
-      "title": {
-        "zh": "在 ChatGPT 中启动健康",
-        "ja": "ChatGPT でヘルスを起動します",
-        "en": "Launching Health in ChatGPT"
-      },
-      "summary": {
-        "zh": "ChatGPT 中的健康现在可以让符合条件的美国用户安全地连接医疗记录和 Apple Health，以获得更个性化的见解并更好地了解他们的健康状况。",
-        "ja": "Health in ChatGPT では、対象となる米国のユーザーが医療記録と Apple Health を安全に接続して、よりパーソナライズされた洞察を取得し、自分の健康状態をより深く理解できるようになりました。",
-        "en": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
-      },
-      "url": "https://openai.com/index/health-in-chatgpt",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-        "ja": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent",
-        "en": "GitHub Mobile: Fix failing Actions checks with Copilot cloud agent"
-      },
-      "summary": {
-        "zh": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.",
-        "ja": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process.",
-        "en": "Now when a GitHub Actions check fails on your pull request, you can ask Copilot coding agent to investigate and directly fix the problem from GitHub Mobile. From the failed check, select Fix with Copilot to start the process."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "GitHub MCP Server supports the next MCP specification",
-        "ja": "GitHub MCP Server supports the next MCP specification",
-        "en": "GitHub MCP Server supports the next MCP specification"
-      },
-      "summary": {
-        "zh": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale.",
-        "ja": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale.",
-        "en": "The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of the official release. What’s changing The new stateless core means MCP deployments are now easy to scale."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "Copilot cloud agent for Linear is now generally available",
-        "ja": "Copilot cloud agent for Linear is now generally available",
-        "en": "Copilot cloud agent for Linear is now generally available"
-      },
-      "summary": {
-        "zh": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
-        "ja": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request.",
-        "en": "You can now assign issues in Linear to Copilot cloud agent, our asynchronous, autonomous background agent. When you assign a Linear issue to Copilot, it will: Analyze the issue contents and open a draft pull request."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-07-23-github-2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "date": "2026-07-23",
-      "category": "github",
-      "title": {
-        "zh": "Agent automation controls in GitHub Issues in public preview",
-        "ja": "Agent automation controls in GitHub Issues in public preview",
-        "en": "Agent automation controls in GitHub Issues in public preview"
-      },
-      "summary": {
-        "zh": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.",
-        "ja": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop.",
-        "en": "Agent automations increasingly label, type, assign, and close issues for you. GitHub Issues now shows the reason behind each change and lets you review them before they’re applied, so you decide how much to automate and when to stay in the loop."
-      },
-      "url": "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "copilot",
-        "projects-issues",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     }
   ]
 }
