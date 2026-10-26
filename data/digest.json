@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-26-openai-gpt-6-1-sol-coderabbit-code-security",
+      "date": "2026-10-26",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "ja": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "en": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
+      },
+      "summary": {
+        "zh": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+        "ja": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+        "en": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
+      },
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-26-openai-fanatics-streamline-fan-experience",
       "date": "2026-10-26",
       "category": "openai",
@@ -60,6 +82,28 @@
         "en": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
       },
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "tags": [
+        "research",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-10-26-openai-building-scientific-understanding-with-academic-communities",
+      "date": "2026-10-26",
+      "category": "openai",
+      "title": {
+        "zh": "Working with academic communities to build scientific understanding",
+        "ja": "Working with academic communities to build scientific understanding",
+        "en": "Working with academic communities to build scientific understanding"
+      },
+      "summary": {
+        "zh": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+        "ja": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+        "en": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
+      },
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "tags": [
         "research",
         "openai"
@@ -315,6 +359,29 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-23-anthropic-claude-tag-api",
+      "date": "2026-10-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "experimental-claude-tag-2026-10-21",
+        "ja": "experimental-claude-tag-2026-10-21",
+        "en": "experimental-claude-tag-2026-10-21"
+      },
+      "summary": {
+        "zh": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
+        "ja": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
+        "en": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/claude-tag-api",
+      "tags": [
+        "experimental-claude-tag-2026-10-21",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-22-openai-uber-chatgpt-work-rollout",
@@ -1012,29 +1079,6 @@
       "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks",
       "tags": [
         "inference-hooks",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-10-20-anthropic-claude-tag-api",
-      "date": "2026-10-20",
-      "category": "anthropic",
-      "title": {
-        "zh": "experimental-claude-tag-2026-10-21",
-        "ja": "experimental-claude-tag-2026-10-21",
-        "en": "experimental-claude-tag-2026-10-21"
-      },
-      "summary": {
-        "zh": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
-        "ja": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope.",
-        "en": "The Claude Tag API is available in beta for Claude Enterprise organizations with the experimental-claude-tag-2026-10-21 beta header. Its /v1/organizations/claude_tag/ endpoints read and change Claude Tag settings on Slack channels and Slack workspaces, show which settings apply in a channel and where each comes from, and attach Access bundles. Call it with an Admin API key that your primary owner creates in claude.ai with the read:claude_tag or write:claude_tag scope."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/claude-tag-api",
-      "tags": [
-        "experimental-claude-tag-2026-10-21",
         "anthropic",
         "release-notes"
       ],
@@ -8145,7 +8189,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18eem95bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18eam95bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -8328,29 +8372,6 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-08-18-google-release-notes",
-      "date": "2026-08-18",
-      "category": "google",
-      "title": {
-        "zh": "CodeMender updates (v0.4.0): Model support",
-        "ja": "CodeMender updates (v0.4.0): Model support",
-        "en": "CodeMender updates (v0.4.0): Model support"
-      },
-      "summary": {
-        "zh": "Feature CodeMender updates (v0.4.0): Model support This release introduces updates to CodeMender: Gemini 3 Flash removal: Gemini 3 Flash ( gemini-3-flash-preview ) is no longer supported as a model backend for CodeMender. CodeMender supports Gemini 3.5 Flash (default) and Gemini 3.1 Pro Preview. For more information, see Specifying the model.",
-        "ja": "Feature CodeMender updates (v0.4.0): Model support This release introduces updates to CodeMender: Gemini 3 Flash removal: Gemini 3 Flash ( gemini-3-flash-preview ) is no longer supported as a model backend for CodeMender. CodeMender supports Gemini 3.5 Flash (default) and Gemini 3.1 Pro Preview. For more information, see Specifying the model.",
-        "en": "Feature CodeMender updates (v0.4.0): Model support This release introduces updates to CodeMender: Gemini 3 Flash removal: Gemini 3 Flash ( gemini-3-flash-preview ) is no longer supported as a model backend for CodeMender. CodeMender supports Gemini 3.5 Flash (default) and Gemini 3.1 Pro Preview. For more information, see Specifying the model."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_18_2026-codemender-updates-v0-4-0-model-support",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-08-18-github-2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
@@ -9217,6 +9238,32 @@
         "retired",
         "application-security",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot usage metrics API adds agent app activity",
+        "ja": "Copilot usage metrics API adds agent app activity",
+        "en": "Copilot usage metrics API adds agent app activity"
+      },
+      "summary": {
+        "zh": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent.",
+        "ja": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent.",
+        "en": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
