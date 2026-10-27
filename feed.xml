@@ -52,6 +52,15 @@
       <guid isPermaLink="true">https://openai.com/index/building-scientific-understanding-with-academic-communities</guid>
     </item>
     <item>
+      <title>Control user intent matching for semantic governance policies</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_26_2026-control-user-intent-matching-for-semantic-governance-policies</link>
+      <description>Feature Control user intent matching for semantic governance policies You can now turn user intent matching on or off for semantic governance policies by setting the sgpUserIntentMatching key on the authorization extension metadata. User intent matching is on by default; set the key to DISABLED to turn it off. Turning it off reduces protection against indirect prompt injection.</description>
+      <pubDate>2026-10-26</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_26_2026-control-user-intent-matching-for-semantic-governance-policies</guid>
+    </item>
+    <item>
       <title>GPT-6.1 Terra in GitHub Copilot</title>
       <link>https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot</link>
       <description>GPT-6.1 Terra, OpenAI’s newest model, is now generally available in GitHub Copilot. It is designed for everyday agentic coding and terminal work at a lower cost than GPT-6.1 Sol.</description>
@@ -446,15 +455,6 @@
       <category>anthropic</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
       <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/inference-hooks</guid>
-    </item>
-    <item>
-      <title>Capabilities</title>
-      <link>https://platform.claude.com/settings/capabilities</link>
-      <description>Organization admins can now turn off web fetch for their organization on the Capabilities page of the Claude Console. With web fetch off, a Messages API request that includes the web fetch tool fails with a 400 error. In a Claude Managed Agents session, web_fetch calls return an error result to the agent instead. With web fetch on, admins can also set allowed or blocked domains for web fetch on the same page. See How to use web fetch and Domain filtering.</description>
-      <pubDate>2026-10-20</pubDate>
-      <category>anthropic</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
-      <guid isPermaLink="true">https://platform.claude.com/settings/capabilities</guid>
     </item>
   </channel>
 </rss>

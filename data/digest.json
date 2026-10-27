@@ -112,6 +112,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-26-google-release-notes",
+      "date": "2026-10-26",
+      "category": "google",
+      "title": {
+        "zh": "Control user intent matching for semantic governance policies",
+        "ja": "Control user intent matching for semantic governance policies",
+        "en": "Control user intent matching for semantic governance policies"
+      },
+      "summary": {
+        "zh": "Feature Control user intent matching for semantic governance policies You can now turn user intent matching on or off for semantic governance policies by setting the sgpUserIntentMatching key on the authorization extension metadata. User intent matching is on by default; set the key to DISABLED to turn it off. Turning it off reduces protection against indirect prompt injection.",
+        "ja": "Feature Control user intent matching for semantic governance policies You can now turn user intent matching on or off for semantic governance policies by setting the sgpUserIntentMatching key on the authorization extension metadata. User intent matching is on by default; set the key to DISABLED to turn it off. Turning it off reduces protection against indirect prompt injection.",
+        "en": "Feature Control user intent matching for semantic governance policies You can now turn user intent matching on or off for semantic governance policies by setting the sgpUserIntentMatching key on the authorization extension metadata. User intent matching is on by default; set the key to DISABLED to turn it off. Turning it off reduces protection against indirect prompt injection."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_26_2026-control-user-intent-matching-for-semantic-governance-policies",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-10-26-github-2026-10-26-gpt-6-1-terra-in-github-copilot",
       "date": "2026-10-26",
       "category": "github",
@@ -1522,6 +1545,32 @@
       "tags": [
         "release",
         "application-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-15-github-2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "date": "2026-10-15",
+      "category": "github",
+      "title": {
+        "zh": "Agentic autofix for code scanning alerts general availability",
+        "ja": "Agentic autofix for code scanning alerts general availability",
+        "en": "Agentic autofix for code scanning alerts general availability"
+      },
+      "summary": {
+        "zh": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review.",
+        "ja": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review.",
+        "en": "Agentic autofix for code scanning alerts is now generally available. It remediates alerts by working across your codebase the way a developer would: it explores relevant files, proposes a fix, and reruns CodeQL to confirm the fix closes the alert before opening a pull request for your review."
+      },
+      "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+      "tags": [
+        "release",
+        "application-security",
+        "copilot",
         "universe26",
         "github",
         "changelog"
@@ -3776,6 +3825,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-09-28-github-2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "date": "2026-09-28",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 5.5 in GitHub Copilot",
+        "ja": "Claude Sonnet 5.5 in GitHub Copilot",
+        "en": "Claude Sonnet 5.5 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
+        "ja": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
+        "en": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs."
+      },
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-09-28-anthropic-whats-new-sonnet-5-5",
@@ -7433,6 +7506,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-08-27-github-2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+      "date": "2026-08-27",
+      "category": "github",
+      "title": {
+        "zh": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+        "ja": "Enterprise-managed settings now support autoUpdate for plugin marketplaces",
+        "en": "Enterprise-managed settings now support autoUpdate for plugin marketplaces"
+      },
+      "summary": {
+        "zh": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.",
+        "ja": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations.",
+        "en": "You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update installed plugins sourced from it, reducing manual maintenance for organization customizations."
+      },
+      "url": "https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-08-27-anthropic-model-hardware-standard-research-preview",
       "date": "2026-08-27",
       "category": "anthropic",
@@ -9238,6 +9337,30 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot code review effort levels are generally available",
+        "ja": "Copilot code review effort levels are generally available",
+        "en": "Copilot code review effort levels are generally available"
+      },
+      "summary": {
+        "zh": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.",
+        "ja": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request.",
+        "en": "Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the depth of a review to the complexity and risk of a pull request."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
