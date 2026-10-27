@@ -5267,10 +5267,6 @@
     "zh": "推理钩子",
     "ja": "推論フック"
   },
-  "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.": {
-    "zh": "推理挂钩现在针对 Claude 企业组织处于测试阶段。将 Claude 指向您组织的 AI 安全服务器，claude.ai、Cowork 和 Claude Code 中的每个受管提示都会在推理继续之前保留，以供服务器做出允许或拒绝的判决。请求已签名，故障处理可配置，并且每次拒绝都记录在合规活动源中。请参阅推理挂钩。",
-    "ja": "推論フックは、Claude Enterprise 組織向けにベータ版になりました。組織の AI セキュリティ サーバーに Claude を指定すると、claude.ai、Cowork、Claude Code にわたる各管理されたプロンプトが、推論が進む前にサーバーの許可または拒否の判定が保留されます。リクエストは署名され、失敗処理は構成可能で、すべての拒否はコンプライアンス アクティビティ フィードに記録されます。 「推論フック」を参照してください。"
-  },
   "Fast mode, pricing details": {
     "zh": "快速模式，定价详情",
     "ja": "高速モード、価格の詳細"
@@ -5335,17 +5331,9 @@
     "zh": "{“类型”：“顾问”}",
     "ja": "{\"タイプ\": \"アドバイザー\"}"
   },
-  "You can now give a Claude Managed Agents session an advisor: a model at least as capable as the agent's own that the session's primary thread can consult mid-turn for strategic guidance. Configure it as a {\"type\": \"advisor\"} entry in the agent's multiagent roster, naming the model to consult. See Give the session an advisor.": {
-    "zh": "现在，您可以为 Claude 托管代理会话提供一个顾问：一个至少与代理自己的模型一样强大的模型，会话的主线程可以在中途咨询以获取战略指导。将其配置为代理多代理名册中的 {\"type\": \"advisor\"} 条目，命名要咨询的模型。请参阅为会议提供顾问。",
-    "ja": "Claude 管理対象エージェント セッションにアドバイザーを与えることができるようになりました。これは、セッションのプライマリ スレッドがターン中に戦略的なガイダンスを参照できる、少なくともエージェント自身と同等の能力を持つモデルです。これをエージェントのマルチエージェント名簿の {\"type\": \"advisor\"} エントリとして構成し、参照するモデルに名前を付けます。 「セッションにアドバイザーを付ける」を参照してください。"
-  },
   "budget_reached": {
     "zh": "已达到预算",
     "ja": "予算に達しました"
-  },
-  "You can now set a budget on a Claude Managed Agents session: a hard cap on the session's spend, priced at public list rates. A session that reaches its budget pauses with the budget_reached stop reason instead of starting new model requests; changing or removing the budget resumes it. Deployments accept the same budget and apply it to each session they start. See Session budgets.": {
-    "zh": "您现在可以为 Claude 托管代理会话设置预算：会话支出的硬性上限，按公开列表价格定价。达到预算的会话会因budget_reached停止原因而暂停，而不是启动新的模型请求；更改或删除预算可恢复预算。部署接受相同的预算并将其应用于它们启动的每个会话。请参阅会议预算。",
-    "ja": "Claude 管理対象エージェント セッションに予算を設定できるようになりました。これは、セッションの支出に対するハード キャップであり、公開リスト料金で価格設定されます。予算に達したセッションは、新しいモデルリクエストを開始する代わりに、budget_reached の停止理由で一時停止します。予算を変更または削除すると、予算が再開されます。デプロイメントは同じバジェットを受け入れ、それを開始する各セッションに適用します。 「セッションの予算」を参照してください。"
   },
   "You can now control where model inference runs for a Claude Managed Agents agent. Set inference_geo inside the model object when you create the agent, or override it for a single session. See Data residency for the available geos and pricing.": {
     "zh": "您现在可以控制 Claude Managed Agents 代理的模型推理运行位置。创建代理时在模型对象内设置 inference_geo，或在单个会话中覆盖它。请参阅数据驻留以了解可用的地理位置和定价。",
@@ -5663,10 +5651,6 @@
     "zh": "人类工作空间 ID",
     "ja": "人間ワークスペースID"
   },
-  "We've added the anthropic-workspace-id response header to the Claude API. It carries the wrkspc_ -prefixed ID of the workspace that the request's API key or access token resolved to, including your organization's Default Workspace. See Identify the workspace behind an API response.": {
-    "zh": "我们已将 anthropic-workspace-id 响应标头添加到 Claude API。它携带请求的 API 密钥或访问令牌解析到的工作区的 wrkspc_ 前缀 ID，包括您组织的默认工作区。请参阅识别 API 响应背后的工作区。",
-    "ja": "anthropic-workspace-id 応答ヘッダーを Claude API に追加しました。これには、組織のデフォルト ワークスペースを含む、リクエストの API キーまたはアクセス トークンが解決されたワークスペースの wrkspc_ という接頭辞付きの ID が含まれます。 「API 応答の背後にあるワークスペースを特定する」を参照してください。"
-  },
   "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to work with GHES for enterprises that operate in disconnected or air-gapped environments without connectivity to GitHub Cloud.": {
     "zh": "GitHub Enterprise Server (GHES) 3.22 现已推出，并在整个平台上引入了新功能。以下是 3.22 版本中的一些亮点： 管理员可以配置 Copilot CLI 以便与在断开连接或气隙环境中运行而无需连接到 GitHub 云的企业的 GHES 配合使用。",
     "ja": "GitHub Enterprise Server (GHES) 3.22 が利用可能になり、プラットフォーム全体に新機能が導入されました。 3.22 リリースのハイライトをいくつか紹介します。 管理者は、GitHub クラウドに接続せずに、切断された環境またはエアギャップ環境で運用する企業向けに、GHES と連携するように Copilot CLI を構成できます。"
@@ -5681,10 +5665,6 @@
   "This release expands secret scanning’s coverage with more secrets blocked by push protection, one new secret scanning partner, and richer metadata on alerts. Secret scanning partnership program Lovable Labs is now a GitHub secret scanning partner.": {
     "zh": "此版本扩大了秘密扫描的覆盖范围，通过推送保护阻止了更多秘密、一个新的秘密扫描合作伙伴以及更丰富的警报元数据。秘密扫描合作伙伴计划 Lovable Labs 现已成为 GitHub 秘密扫描合作伙伴。",
     "ja": "このリリースでは、プッシュ保護によってブロックされるシークレットの数が増え、新しいシークレット スキャン パートナーが 1 つ追加され、アラートのメタデータが豊富になり、シークレット スキャンの対象範囲が拡張されます。シークレット スキャン パートナーシップ プログラム Lovable Labs は、GitHub シークレット スキャン パートナーになりました。"
-  },
-  "We've retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this model on the Claude API will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program.": {
-    "zh": "我们已经停用了 Claude Opus 4.1 模型 ( claude-opus-4-1-20250805 )。现在，在 Claude API 上对此模型的所有请求都将返回错误。我们建议升级到 Claude Opus 5。研究人员可以通过外部研究人员访问计划请求持续访问。",
-    "ja": "Claude Opus 4.1 モデル ( claude-opus-4-1-20250805 ) を廃止しました。 Claude API でのこのモデルへのすべてのリクエストはエラーを返すようになります。 Claude Opus 5 にアップグレードすることをお勧めします。研究者は、外部研究者アクセス プログラムを通じて継続的なアクセスをリクエストできます。"
   },
   "effort": {
     "zh": "努力",
@@ -5732,10 +5712,6 @@
   "web_search": {
     "ja": "ウェブ検索",
     "zh": "网络搜索"
-  },
-  "You can now restrict which sites a Claude Managed Agents agent's web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool's entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location.": {
-    "zh": "您现在可以限制 Claude Managed Agents 代理的 web_search 和 web_fetch 工具可以访问哪些站点。在agent_toolset_20260401 configs数组中的工具条目上设置allowed_domains或blocked_domains； web_fetch 还接受 max_content_tokens，web_search 接受 user_location。",
-    "ja": "Claude 管理対象エージェント エージェントの web_search および web_fetch ツールがアクセスできるサイトを制限できるようになりました。 Agent_toolset_20260401 構成配列内のツールのエントリに allowed_domains または blocked_domains を設定します。 web_fetch は max_content_tokens も受け入れ、web_search は user_location も受け入れます。"
   },
   "mount_path": {
     "zh": "挂载路径",
@@ -5908,10 +5884,6 @@
   "v1.0 of the Python SDK": {
     "zh": "Python SDK v1.0",
     "ja": "Python SDK の v1.0"
-  },
-  "We've released v1.0 of the Python SDK. The SDK's HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx.": {
-    "zh": "我们发布了 Python SDK v1.0。 SDK 的 HTTP 层从 httpx 移动到 httpx2，这是一个维护的、与 API 兼容的分支：从 httpx2 构建自定义 http_client、Timeout 和传输对象（DefaultHttpxClient 帮助程序保持不变），如果您依赖于修补 httpx 的跟踪或模拟库，则在启动时调用 httpx2.alias_httpx() 。",
-    "ja": "Python SDK v1.0 をリリースしました。 SDK の HTTP レイヤーは、httpx から、維持されている API 互換フォークである httpx2 に移行します。httpx2 からカスタム http_client、Timeout、およびトランスポート オブジェクトを構築し (DefaultHttpxClient ヘルパーは変更されていません)、httpx にパッチを適用するライブラリのトレースまたはモックに依存する場合は、起動時に httpx2.alias_httpx() を呼び出します。"
   },
   "GPT-5.6 Sol now costs $4 per million input tokens and $20 per million output tokens, representing 20% lower input pricing and 33% lower output pricing. GPT-5.6 Sol’s promotional pricing is available at least through November 21, 2026.": {
     "zh": "GPT-5.6 Sol 现在每百万输入代币的成本为 4 美元，每百万输出代币的成本为 20 美元，这意味着输入定价降低了 20%，输出定价降低了 33%。 GPT-5.6 Sol 的促销价格至少在 2026 年 11 月 21 日之前有效。",
@@ -6145,10 +6117,6 @@
     "zh": "更新了 API 错误，以便应用程序可以区分增长过快的流量和临时模型过载。流量增长过快可能会返回带有 Slow_down 代码的 429 错误。",
     "ja": "API エラーを更新して、アプリケーションが急速に増加するトラフィックと一時的なモデルの過負荷を区別できるようにしました。トラフィックが急激に増加すると、slow_down コードで 429 エラーが返される可能性があります。"
   },
-  "Like Claude Fable 5, both models require 30-day data retention and aren't available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.": {
-    "zh": "与 Claude 《神鬼寓言 5》一样，这两种型号都需要 30 天的数据保留，并且在零数据保留下不可用，除非得到 Anthropic 明确授权。请参阅特定于型号的数据保留要求。",
-    "ja": "Claude Fable 5 と同様に、どちらのモデルも 30 日間のデータ保持が必要であり、Anthropic によって明示的に許可されない限り、データ保持ゼロでは使用できません。 「モデル固有のデータ保持要件」を参照してください。"
-  },
   "thinking.display accepts a third value, \"updates\", in beta ( thinking-display-updates-2026-08-18 header). Reasoning comes back with an empty thinking field, as under \"omitted\", and the short progress updates that Claude Fable 5.1, Claude Mythos 5.1, and Claude Fable 5 write between tool calls come back as text, at most one thinking block before a tool call. See Progress updates between tool calls.": {
     "zh": "think.display 接受第三个值“updates”，处于测试版（thinking-display-updates-2026-08-18 标头）。推理返回时会出现一个空思维域，如“省略”所示，并且 Claude Fable 5.1、Claude Mythos 5.1 和 Claude Fable 5 在工具调用之间写入的短暂进度更新会以文本形式返回，最多在工具调用之前出现一个思维块。请参阅工具调用之间的进度更新。",
     "ja": "Thinking.display はベータ版で 3 番目の値「updates」を受け入れます ( Thinking-display-updates-2026-08-18 ヘッダー)。 「省略」の下にあるように、推論は空の思考フィールドとともに返され、Claude Fable 5.1、Claude Mythos 5.1、および Claude Fable 5 がツール呼び出しの間に書き込む短い進行状況の更新が、ツール呼び出しの前に最大 1 つの思考ブロックとしてテキストとして返されます。 「ツール呼び出し間の進行状況の更新」を参照してください。"
@@ -6157,17 +6125,9 @@
     "zh": "系统",
     "ja": "システム"
   },
-  "Thinking blocks produced by Claude Fable 5.1 and Claude Mythos 5.1 are preserved only for the model that produced them or a newer one: earlier models can't read them, and the API drops one replayed to an earlier model. Claude Fable 5.1 accepts thinking blocks from Claude Opus 5, Claude Fable 5, Claude Mythos 5, and earlier Claude models.": {
-    "zh": "由 Claude Fable 5.1 和 Claude Mythos 5.1 生成的思维块仅针对生成它们的模型或较新的模型保留：较早的模型无法读取它们，并且 API 会删除重放到较早模型的一个。 Claude Fable 5.1 接受 Claude Opus 5、Claude Fable 5、Claude Mythos 5 和早期 Claude 模型的思维块。",
-    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 によって生成された思考ブロックは、それらを生成したモデルまたは新しいモデルに対してのみ保存されます。以前のモデルはそれらを読み取ることができず、API は再生されたブロックを以前のモデルにドロップします。 Claude Fable 5.1 は、Claude Opus 5、Claude Fable 5、Claude Mythos 5、および以前の Claude モデルからの思考ブロックを受け入れます。"
-  },
   "mid-conversation-system-clear-at-2026-08-21": {
     "zh": "中期对话系统清除 at-2026-08-21",
     "ja": "会話中-システムクリア-at-2026-08-21"
-  },
-  "Turn-scoped system messages are in beta ( mid-conversation-system-clear-at-2026-08-21 header). Set clear_at: \"next_user_message\" on a mid-conversation role: \"system\" message and it renders for the current turn only, then stays in the history at no token cost. Per-turn reminders don't accumulate and don't invalidate the prompt cache or later thinking blocks.": {
-    "zh": "回合范围系统消息处于测试阶段（mid-conversation-system-clear-at-2026-08-21 标头）。在对话中角色：“system”消息上设置clear_at：“next_user_message”，它仅在当前回合呈现，然后保留在历史记录中，无需令牌成本。每回合提醒不会累积，也不会使提示缓存或稍后的思考块失效。",
-    "ja": "ターンスコープのシステム メッセージはベータ版です (mid-conversation-system-clear-at-2026-08-21 ヘッダー)。会話中の role: \"system\" メッセージに clear_at: \"next_user_message\" を設定すると、現在のターンのみレンダリングされ、トークンコストなしで履歴に残ります。ターンごとのリマインダーは蓄積されず、プロンプト キャッシュや後の思考ブロックが無効になることもありません。"
   },
   "anthropic-version": {
     "zh": "人择版",
@@ -6181,17 +6141,9 @@
     "zh": "工具选择",
     "ja": "ツールの選択"
   },
-  "On Claude Fable 5.1 and Claude Mythos 5.1, tool_choice types any and tool aren't supported and return a 400 error. auto and none are unchanged. To guarantee schema-conformant tool inputs, use strict tool use or structured outputs.": {
-    "zh": "在 Claude Fable 5.1 和 Claude Mythos 5.1 上，不支持 tool_choice 类型 any 和 tool 并返回 400 错误。 auto 和 none 不变。为了保证工具输入符合模式，请严格使用工具或结构化输出。",
-    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 では、tool_choice タイプ any および tools はサポートされておらず、400 エラーが返されます。 auto と none は変更されません。スキーマに準拠したツール入力を保証するには、ツールを厳密に使用するか、構造化された出力を使用します。"
-  },
   "code execution tool": {
     "zh": "代码执行工具",
     "ja": "コード実行ツール"
-  },
-  "Text generated by Claude Fable 5.1 and Claude Mythos 5.1 carries Anthropic's text watermark, and supported image, video, and audio files that Claude produces through the code execution tool carry C2PA Content Credentials when you retrieve them through the Files API on the Claude API. Marking requires no changes to your requests or response handling.": {
-    "zh": "Claude Fable 5.1 和 Claude Mythos 5.1 生成的文本带有 Anthropic 的文本水印，并且当您通过 Claude API 上的文件 API 检索它们时，Claude 通过代码执行工具生成的受支持图像、视频和音频文件带有 C2PA 内容凭证。标记不需要更改您的请求或响应处理。",
-    "ja": "Claude Fable 5.1 および Claude Mythos 5.1 によって生成されたテキストには Anthropic のテキスト ウォーターマークが含まれており、Claude がコード実行ツールを通じて生成するサポートされている画像、ビデオ、およびオーディオ ファイルには、Claude API のファイル API を通じて取得するときに C2PA コンテンツ資格情報が含まれます。マークを付けるには、リクエストやレスポンスの処理を変更する必要はありません。"
   },
   "Prompt caching pricing": {
     "zh": "提示缓存定价",
@@ -6299,14 +6251,6 @@
   "Feature Gemini 3.1 Flash Image and Gemini 3 Pro Image updates This release introduces feature updates and expanded endpoint availability for Gemini 3.1 Flash Image and Gemini 3 Pro Image: Multi-region endpoint support: Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) is now available on US ( us ) and EU ( eu ) multi-region endpoints for model availability, ML processing, Provisioned Throughput, and PayGo Standard.": {
     "zh": "功能 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像更新 此版本引入了 Gemini 3.1 Flash 映像和 Gemini 3 Pro 映像的功能更新和扩展端点可用性：多区域端点支持：Gemini 3.1 Flash 映像 (gemini-3.1-flash-image) 现已推出在美国 ( us ) 和欧盟 ( eu ) 多区域端点上实现模型可用性、ML 处理、预配置吞吐量和 PayGo 标准。",
     "ja": "機能 Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの更新 このリリースでは、Gemini 3.1 Flash イメージおよび Gemini 3 Pro イメージの機能更新とエンドポイントの可用性の拡張が導入されています: マルチリージョン エンドポイントのサポート: Gemini 3.1 Flash イメージ ( gemini-3.1-flash-image )モデルの可用性、ML 処理、プロビジョンド スループット、PayGo Standard については、米国 ( us ) と欧州 ( eu ) のマルチリージョン エンドポイントで利用できるようになりました。"
-  },
-  "xAI's Grok 4.6": {
-    "zh": "xAI 的 Grok 4.6",
-    "ja": "xAI の Grok 4.6"
-  },
-  "Feature xAI's Grok 4.6 Grok 4.6 is available in Preview in Model Garden.": {
-    "zh": "功能 xAI 的 Grok 4.6 Grok 4.6 已在 Model Garden 中提供预览版。",
-    "ja": "機能 xAI の Grok 4.6 Grok 4.6 は、Model Garden のプレビューで入手できます。"
   },
   "On July 1, 2026, we announced Kimi K2.7 would be available to Copilot Pro, Pro+, and Max plans. The model is now additionally available on Copilot Business and Copilot Enterprise plans.": {
     "zh": "2026 年 7 月 1 日，我们宣布 Kimi K2.7 将适用于 Copilot Pro、Pro+ 和 Max 计划。该模型现在还适用于 Copilot 商业版和 Copilot 企业版计划。",
