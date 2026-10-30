@@ -25,6 +25,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-10-30-openai-fair-use-benefits-everyone",
+      "date": "2026-10-30",
+      "category": "openai",
+      "title": {
+        "zh": "Fair use benefits everyone",
+        "ja": "Fair use benefits everyone",
+        "en": "Fair use benefits everyone"
+      },
+      "summary": {
+        "zh": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+        "ja": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+        "en": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+      },
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-10-30-openai-community-safety-report-and-new-protections-for-teens",
       "date": "2026-10-30",
       "category": "openai",
@@ -69,6 +91,29 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-30-anthropic-fast-mode",
+      "date": "2026-10-30",
+      "category": "anthropic",
+      "title": {
+        "zh": "claude-opus-4-8",
+        "ja": "claude-opus-4-8",
+        "en": "claude-opus-4-8"
+      },
+      "summary": {
+        "zh": "We’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to claude-opus-4-8 with speed: \"fast\" will return an error. To continue using fast mode, migrate to Claude Opus 5.5. Read more in Fast mode.",
+        "ja": "We’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to claude-opus-4-8 with speed: \"fast\" will return an error. To continue using fast mode, migrate to Claude Opus 5.5. Read more in Fast mode.",
+        "en": "We’ve deprecated fast mode for Claude Opus 4.8, with removal on November 30, 2026. After removal, requests to claude-opus-4-8 with speed: \"fast\" will return an error. To continue using fast mode, migrate to Claude Opus 5.5. Read more in Fast mode."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "claude-opus-4-8",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-29-openai-updated-model-spec",
@@ -1781,29 +1826,6 @@
       ],
       "source": "Anthropic News",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-10-22-anthropic-fast-mode",
-      "date": "2026-10-22",
-      "category": "anthropic",
-      "title": {
-        "zh": "Fast mode",
-        "ja": "Fast mode",
-        "en": "Fast mode"
-      },
-      "summary": {
-        "zh": "Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).",
-        "ja": "Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed).",
-        "en": "Fast mode is available for Claude Opus 5.5 on Claude Models on Google Cloud (Anthropic managed)."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "fast-mode",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-10-22-anthropic-donating-agent-skills-to-the-agentic-ai-foundation",
@@ -8622,29 +8644,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-08-27-google-release-notes",
-      "date": "2026-08-27",
-      "category": "google",
-      "title": {
-        "zh": "CodeMender updates (v0.5.0)",
-        "ja": "CodeMender updates (v0.5.0)",
-        "en": "CodeMender updates (v0.5.0)"
-      },
-      "summary": {
-        "zh": "Feature CodeMender updates (v0.5.0) This release introduces updates to CodeMender: Model support: Support for Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.7 Flash ( gemini-3.7-flash, default). Unrestricted verification: Added the --unrestricted flag to cm verify to bypass command policy restrictions during exploit verification in isolated environments. Bug fixes: Improved reliability of long sessions. Improved shell resolution across operating environments.",
-        "ja": "Feature CodeMender updates (v0.5.0) This release introduces updates to CodeMender: Model support: Support for Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.7 Flash ( gemini-3.7-flash, default). Unrestricted verification: Added the --unrestricted flag to cm verify to bypass command policy restrictions during exploit verification in isolated environments. Bug fixes: Improved reliability of long sessions. Improved shell resolution across operating environments.",
-        "en": "Feature CodeMender updates (v0.5.0) This release introduces updates to CodeMender: Model support: Support for Gemini 3.6 Flash ( gemini-3.6-flash ) and Gemini 3.7 Flash ( gemini-3.7-flash, default). Unrestricted verification: Added the --unrestricted flag to cm verify to bypass command policy restrictions during exploit verification in isolated environments. Bug fixes: Improved reliability of long sessions. Improved shell resolution across operating environments."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#August_27_2026-codemender-updates-v0-5-0",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-08-27-google-gemini-omni-1-1-flash-lets-you-build-with-more-control",
       "date": "2026-08-27",
       "category": "google",
@@ -9398,7 +9397,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18fjmd5bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18frmd5bsnqknp5upfllpl4plb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
