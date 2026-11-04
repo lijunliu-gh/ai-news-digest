@@ -962,6 +962,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-10-28-github-2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
+      "date": "2026-10-28",
+      "category": "github",
+      "title": {
+        "zh": "Prioritize Dependabot alerts with reachability analysis",
+        "ja": "Prioritize Dependabot alerts with reachability analysis",
+        "en": "Prioritize Dependabot alerts with reachability analysis"
+      },
+      "summary": {
+        "zh": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start.",
+        "ja": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start.",
+        "en": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start."
+      },
+      "url": "https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
+      "tags": [
+        "release",
+        "supply-chain-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-28-github-2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations",
       "date": "2026-10-28",
       "category": "github",
@@ -1207,6 +1232,32 @@
       "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
       "tags": [
         "release",
+        "copilot",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-28-github-2026-10-28-github-agentic-workflows-generally-available",
+      "date": "2026-10-28",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Agentic Workflows generally available",
+        "ja": "GitHub Agentic Workflows generally available",
+        "en": "GitHub Agentic Workflows generally available"
+      },
+      "summary": {
+        "zh": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
+        "ja": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
+        "en": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions."
+      },
+      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
+      "tags": [
+        "release",
+        "actions",
         "copilot",
         "universe26",
         "github",
@@ -2134,6 +2185,32 @@
       "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
       "tags": [
         "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-22-github-2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "date": "2026-10-22",
+      "category": "github",
+      "title": {
+        "zh": "Custom skills, agents, and MCP servers in usage metrics API",
+        "ja": "Custom skills, agents, and MCP servers in usage metrics API",
+        "en": "Custom skills, agents, and MCP servers in usage metrics API"
+      },
+      "summary": {
+        "zh": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.",
+        "ja": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.",
+        "en": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September."
+      },
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "tags": [
+        "improvement",
+        "account-management",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -3086,6 +3163,30 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-15-github-2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "date": "2026-10-15",
+      "category": "github",
+      "title": {
+        "zh": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "ja": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "en": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
+      },
+      "summary": {
+        "zh": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
+        "ja": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
+        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering."
+      },
+      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
