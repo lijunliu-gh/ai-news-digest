@@ -3,6 +3,32 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-11-04-github-2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "date": "2026-11-04",
+      "category": "github",
+      "title": {
+        "zh": "BYOK and enterprise custom models in the Copilot usage API",
+        "ja": "BYOK and enterprise custom models in the Copilot usage API",
+        "en": "BYOK and enterprise custom models in the Copilot usage API"
+      },
+      "summary": {
+        "zh": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of BYOK: Local BYOK is configured by developers in their client.",
+        "ja": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of BYOK: Local BYOK is configured by developers in their client.",
+        "en": "The Copilot usage metrics API now shows bring your own key (BYOK) usage across GitHub Copilot, so you can separate it from Copilot-hosted model usage. Reports cover two kinds of BYOK: Local BYOK is configured by developers in their client."
+      },
+      "url": "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-11-03-openai-jill-hazelbaker-chief-corporate-affairs-officer",
       "date": "2026-11-03",
       "category": "openai",
@@ -936,31 +962,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-28-github-2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Prioritize Dependabot alerts with reachability analysis",
-        "ja": "Prioritize Dependabot alerts with reachability analysis",
-        "en": "Prioritize Dependabot alerts with reachability analysis"
-      },
-      "summary": {
-        "zh": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start.",
-        "ja": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start.",
-        "en": "Dependabot alerts can add up faster than a team can work through them. A vulnerable package in your dependency tree doesn’t always mean your code uses the vulnerable part of it, so knowing whether it does gives you more context when deciding where to start."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis",
-      "tags": [
-        "release",
-        "supply-chain-security",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-28-github-2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations",
       "date": "2026-10-28",
       "category": "github",
@@ -1206,32 +1207,6 @@
       "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases",
       "tags": [
         "release",
-        "copilot",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-28-github-2026-10-28-github-agentic-workflows-generally-available",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Agentic Workflows generally available",
-        "ja": "GitHub Agentic Workflows generally available",
-        "en": "GitHub Agentic Workflows generally available"
-      },
-      "summary": {
-        "zh": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
-        "ja": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
-        "en": "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
-      "tags": [
-        "release",
-        "actions",
         "copilot",
         "universe26",
         "github",
@@ -2168,32 +2143,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-22-github-2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
-      "date": "2026-10-22",
-      "category": "github",
-      "title": {
-        "zh": "Custom skills, agents, and MCP servers in usage metrics API",
-        "ja": "Custom skills, agents, and MCP servers in usage metrics API",
-        "en": "Custom skills, agents, and MCP servers in usage metrics API"
-      },
-      "summary": {
-        "zh": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.",
-        "ja": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September.",
-        "en": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under other or custom. This builds on the agentic CLI customization metrics released in September."
-      },
-      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-22-anthropic-product",
       "date": "2026-10-22",
       "category": "anthropic",
@@ -2795,6 +2744,55 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-10-19-github-2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "date": "2026-10-19",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot models deprecated on October 19, 2026",
+        "ja": "GitHub Copilot models deprecated on October 19, 2026",
+        "en": "GitHub Copilot models deprecated on October 19, 2026"
+      },
+      "summary": {
+        "zh": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These deprecations were announced on September 18, 2026.",
+        "ja": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These deprecations were announced on September 18, 2026.",
+        "en": "As of today, October 19, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). These deprecations were announced on September 18, 2026."
+      },
+      "url": "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-19-github-2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "date": "2026-10-19",
+      "category": "github",
+      "title": {
+        "zh": "Copilot model policy API for enterprise, orgs, and teams",
+        "ja": "Copilot model policy API for enterprise, orgs, and teams",
+        "en": "Copilot model policy API for enterprise, orgs, and teams"
+      },
+      "summary": {
+        "zh": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies...",
+        "ja": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies...",
+        "en": "You can now use the REST API to retrieve and update Copilot model policies for enterprises, enterprise teams, agent apps, and organizations. What’s new GET and PATCH endpoints are now generally available for model policies at four levels: Enterprise: /enterprises/{enterprise}/copilot/model-policies Enterprise teams: /enterprises/{enterprise}/teams/{team_slug}/copilot/model-policies Agent apps: /enterprises/{enterprise}/copilot/apps/model-policies Organization: /orgs/{org}/copilot/model-policies..."
+      },
+      "url": "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-18-anthropic-public-benefit-fund",
       "date": "2026-10-18",
       "category": "anthropic",
@@ -3088,30 +3086,6 @@
         "changelog"
       ],
       "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-15-github-2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "date": "2026-10-15",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
-        "ja": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
-        "en": "Upcoming deprecation of selected GitHub Copilot models in mid-November"
-      },
-      "summary": {
-        "zh": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
-        "ja": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering.",
-        "en": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on November 16th, 2026: Model Deprecation date Suggested alternative Claude Opus 4.8* 2026-11-16 Claude Opus 5.5 Claude Opus 5 2026-11-16 Claude Opus 5.5 GPT-5.6 Terra 2026-11-16 GPT-6.1 Sol or GPT-6 Luna *Claude Opus 4.8 will remain available to individual GitHub Copilot subscribers on annual plans so they retain an Opus offering."
-      },
-      "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
       "sourceType": "changelog"
     },
     {
@@ -4261,9 +4235,9 @@
         "en": "browser use tool"
       },
       "summary": {
-        "zh": "The Python and TypeScript SDKs now include classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets.",
-        "ja": "The Python and TypeScript SDKs now include classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets.",
-        "en": "The Python and TypeScript SDKs now include classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets."
+        "zh": "Python SDK 1.12.0 and TypeScript SDK 0.132.0 add classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets.",
+        "ja": "Python SDK 1.12.0 and TypeScript SDK 0.132.0 add classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets.",
+        "en": "Python SDK 1.12.0 and TypeScript SDK 0.132.0 add classes, in beta, for the browser use tool and the computer use tool. You subclass one and write one method per tool against your own browser or desktop automation. The SDK runs the tool loop, the URL and file policies you set for the browser, and your approval callback. See Browser and computer use with the SDK toolsets."
       },
       "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool",
       "tags": [
@@ -5393,6 +5367,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-28-github-2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "date": "2026-09-28",
+      "category": "github",
+      "title": {
+        "zh": "Claude Sonnet 5.5 in GitHub Copilot",
+        "ja": "Claude Sonnet 5.5 in GitHub Copilot",
+        "en": "Claude Sonnet 5.5 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
+        "ja": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs.",
+        "en": "Claude Sonnet 5.5, Anthropic’s newest Sonnet model, is now generally available in GitHub Copilot. It is designed for well-scoped everyday work like building features and fixing bugs."
+      },
+      "url": "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-28-anthropic-whats-new-sonnet-5-5",
       "date": "2026-09-28",
       "category": "anthropic",
@@ -5548,6 +5546,32 @@
       "sourceType": "release-notes"
     },
     {
+      "id": "2026-09-25-github-2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "date": "2026-09-25",
+      "category": "github",
+      "title": {
+        "zh": "Usage metrics API adds pull request review stages",
+        "ja": "Usage metrics API adds pull request review stages",
+        "en": "Usage metrics API adds pull request review stages"
+      },
+      "summary": {
+        "zh": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row reports a median and a 90th percentile for the time from ready for review to first review, first review to final review, and final review to merge.",
+        "ja": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row reports a median and a 90th percentile for the time from ready for review to first review, first review to final review, and final review to merge.",
+        "en": "The enterprise and organization repository-level Copilot usage metrics reports now break down how long pull requests spend in each stage of review. A new pull_request_review_times array on each repos-1-day row reports a median and a 90th percentile for the time from ready for review to first review, first review to final review, and final review to merge."
+      },
+      "url": "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-25-github-2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
       "date": "2026-09-25",
       "category": "github",
@@ -5590,6 +5614,31 @@
       "tags": [
         "release",
         "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-25-github-2026-09-25-enterprise-managed-settings-in-product-validator",
+      "date": "2026-09-25",
+      "category": "github",
+      "title": {
+        "zh": "Enterprise managed settings in-product validator",
+        "ja": "Enterprise managed settings in-product validator",
+        "en": "Enterprise managed settings in-product validator"
+      },
+      "summary": {
+        "zh": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.",
+        "ja": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced.",
+        "en": "You can now use an in-product validator for enterprise managed settings for GitHub Copilot. The validator detects malformed JSON, unsupported configurations, invalid team mappings, and other errors that can prevent policies from being enforced."
+      },
+      "url": "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -7221,6 +7270,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-10-github-2026-09-10-mai-code-1-flash-deprecated",
+      "date": "2026-09-10",
+      "category": "github",
+      "title": {
+        "zh": "MAI-Code-1-Flash deprecated",
+        "ja": "MAI-Code-1-Flash deprecated",
+        "en": "MAI-Code-1-Flash deprecated"
+      },
+      "summary": {
+        "zh": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model.",
+        "ja": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model.",
+        "en": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative MAI-Code-1-Flash 2026-09-10 MAI-Code-1.1-Flash Please update your workflows and integrations to use a supported model."
+      },
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "tags": [
+        "retired",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-10-github-2026-09-10-github-copilot-weekly-releases-september-7",
       "date": "2026-09-10",
       "category": "github",
@@ -7797,6 +7870,54 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-09-04-github-2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "date": "2026-09-04",
+      "category": "github",
+      "title": {
+        "zh": "GPT-6 Astra is generally available in GitHub Copilot",
+        "ja": "GPT-6 Astra is generally available in GitHub Copilot",
+        "en": "GPT-6 Astra is generally available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks.",
+        "ja": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks.",
+        "en": "GPT-6 Astra from OpenAI is now available in GitHub Copilot. OpenAI’s latest general-purpose model, GPT-6 Astra, is designed for long-horizon, autonomous coding and agentic tasks."
+      },
+      "url": "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-04-github-2026-09-04-github-copilot-weekly-releases-august-31",
+      "date": "2026-09-04",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot weekly releases — August 31",
+        "ja": "GitHub Copilot weekly releases — August 31",
+        "en": "GitHub Copilot weekly releases — August 31"
+      },
+      "summary": {
+        "zh": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable 5.1 is available to Copilot Pro+, Max, Business, and Enterprise users.",
+        "ja": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable 5.1 is available to Copilot Pro+, Max, Business, and Enterprise users.",
+        "en": "This week, GitHub Copilot expands model choice and content protections, while VS Code adds new ways to manage agent sessions and get pull requests merge-ready. GitHub Copilot, general Claude Fable 5.1 is available to Copilot Pro+, Max, Business, and Enterprise users."
+      },
+      "url": "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-09-03-openai-safety-overview-gpt-6-astra",
@@ -9585,7 +9706,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_a44tj9av5ul5u9fmbtdid99lb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_a43tj9av5ul5u9fmbtdid99lb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -10655,6 +10776,32 @@
         "en": "Since agent apps arrived on GitHub, teams have been able to run agents from partners like Claude and Codex directly in their GitHub workflows. The Copilot usage metrics API now reports that activity, broken out by individual agent."
       },
       "url": "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-07-github-2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
+      "date": "2026-08-07",
+      "category": "github",
+      "title": {
+        "zh": "Copilot impact dashboard adds a return on investment section",
+        "ja": "Copilot impact dashboard adds a return on investment section",
+        "en": "Copilot impact dashboard adds a return on investment section"
+      },
+      "summary": {
+        "zh": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”).",
+        "ja": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”).",
+        "en": "The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on Copilot to the pull request output you get back. What’s new Two cards compare developers by how deeply they have adopted Copilot: those working primarily in chat and code completions (i.e., “Passive users” and “Phase 1”) against agent-first developers (i.e., “Phase 2” and “Phase 3”)."
+      },
+      "url": "https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section",
       "tags": [
         "improvement",
         "account-management",
