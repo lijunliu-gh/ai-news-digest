@@ -25,6 +25,140 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-05-openai-changelog",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-6-Cyber, Daybreak setup",
+        "ja": "GPT-6-Cyber, Daybreak setup",
+        "en": "GPT-6-Cyber, Daybreak setup"
+      },
+      "summary": {
+        "zh": "Use GPT-6-Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request.",
+        "ja": "Use GPT-6-Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request.",
+        "en": "Use GPT-6-Cyber to investigate vulnerabilities, reproduce them in an authorized test environment, and verify fixes. See Daybreak setup before sending your first request."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-11-05-feature-gpt-6-cyber-daybreak-setup",
+      "tags": [
+        "gpt-6-cyber",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-05-google-gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "date": "2026-11-05",
+      "category": "google",
+      "title": {
+        "zh": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "ja": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+      },
+      "summary": {
+        "zh": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "ja": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "en": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+      },
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "tags": [
+        "google-deepmind",
+        "google"
+      ],
+      "source": "Google DeepMind News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-05-anthropic-skills",
+      "date": "2026-11-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "Introducing Agent Skills",
+        "ja": "Introducing Agent Skills",
+        "en": "Introducing Agent Skills"
+      },
+      "summary": {
+        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
+        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
+      },
+      "url": "https://www.anthropic.com/news/skills",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-05-anthropic-organization",
+      "date": "2026-11-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Enterprise",
+        "ja": "Claude Enterprise",
+        "en": "Claude Enterprise"
+      },
+      "summary": {
+        "zh": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away.",
+        "ja": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away.",
+        "en": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away."
+      },
+      "url": "https://platform.claude.com/docs/en/api/beta/organization",
+      "tags": [
+        "claude-enterprise",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-05-anthropic-ip-allowlist",
+      "date": "2026-11-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "IP allowlisting",
+        "ja": "IP allowlisting",
+        "en": "IP allowlisting"
+      },
+      "summary": {
+        "zh": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up.",
+        "ja": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up.",
+        "en": "You can now set up an IP allowlist for your organization in the Claude Console, in beta. Requests to covered services from addresses not on your list are refused, which limits where a leaked API key can be used. Add IPv4 and IPv6 addresses or CIDR ranges, up to 1,000 per organization. See IP allowlisting for what’s covered and how to set it up."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/ip-allowlist",
+      "tags": [
+        "ip-allowlisting",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-05-anthropic-fine-tune-claude-3-haiku",
+      "date": "2026-11-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "ja": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
+        "en": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
+      },
+      "summary": {
+        "zh": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "ja": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
+        "en": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available."
+      },
+      "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
+      "tags": [
+        "anthropic"
+      ],
+      "source": "Anthropic News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-04-openai-openai-to-acquire-pierre",
       "date": "2026-11-04",
       "category": "openai",
@@ -577,27 +711,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-11-02-anthropic-skills",
-      "date": "2026-11-02",
-      "category": "anthropic",
-      "title": {
-        "zh": "Introducing Agent Skills",
-        "ja": "Introducing Agent Skills",
-        "en": "Introducing Agent Skills"
-      },
-      "summary": {
-        "zh": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "ja": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand.",
-        "en": "Claude can now use Skills to improve how it performs specific tasks. Skills are folders that include instructions, scripts, and resources that Claude can load when needed. Claude will only access a skill when it's relevant to the task at hand."
-      },
-      "url": "https://www.anthropic.com/news/skills",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
-    },
-    {
       "id": "2026-11-02-anthropic-message-threads",
       "date": "2026-11-02",
       "category": "anthropic",
@@ -619,27 +732,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-02-anthropic-fine-tune-claude-3-haiku",
-      "date": "2026-11-02",
-      "category": "anthropic",
-      "title": {
-        "zh": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
-        "ja": "Fine-tune Claude 3 Haiku in Amazon Bedrock",
-        "en": "Fine-tune Claude 3 Haiku in Amazon Bedrock"
-      },
-      "summary": {
-        "zh": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
-        "ja": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available.",
-        "en": "Claude 3 Haiku can now be fine-tuned in Amazon Bedrock with custom training data, enabling faster, more accurate performance at lower cost. Update: Fine-tuning Claude 3 Haiku in Amazon Bedrock is generally available."
-      },
-      "url": "https://www.anthropic.com/news/fine-tune-claude-3-haiku",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     },
     {
       "id": "2026-10-30-openai-helping-websites-express-ai-training-preferences",
@@ -8783,29 +8875,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-09-01-anthropic-organization",
-      "date": "2026-09-01",
-      "category": "anthropic",
-      "title": {
-        "zh": "人择版",
-        "ja": "人間版",
-        "en": "anthropic-version"
-      },
-      "summary": {
-        "zh": "管理 API（用户管理和支出限制）、Claude 企业分析 API 和合规性 API 的 Claude 企业端点的指南现在显示 anthropic-version 标头；在对这些端点的每个请求上发送它，就像在 Claude API 的其余部分中一样。请参阅 API 版本。",
-        "ja": "Admin API (ユーザー管理と支出制限)、Claude Enterprise Analytics API、および Compliance API の Claude Enterprise エンドポイントのガイドには、anthropic-version ヘッダーが表示されるようになりました。残りの Claude API と同様に、これらのエンドポイントへのリクエストごとにそれを送信します。 API バージョンを参照してください。",
-        "en": "The guides for the Claude Enterprise endpoints of the Admin API ( user management and spend limits ), the Claude Enterprise Analytics API, and the Compliance API now show the anthropic-version header; send it on every request to these endpoints, as in the rest of the Claude API. See API versions."
-      },
-      "url": "https://platform.claude.com/docs/en/api/beta/organization",
-      "tags": [
-        "anthropic-version",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-09-01-anthropic-mid-conversation-system-messages",
       "date": "2026-09-01",
       "category": "anthropic",
@@ -9991,7 +10060,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18gfmd5bsnqknp9fmbtdid99lb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18gnmd5bsnqknp9fmbtdid99lb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
