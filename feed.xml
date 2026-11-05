@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-11-04</lastBuildDate>
+    <lastBuildDate>2026-11-05</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>OpenAI to acquire Pierre Computer Company, Inc.</title>
@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://openai.com/index/openai-to-acquire-pierre</guid>
     </item>
     <item>
+      <title>Introducing Images 2.6</title>
+      <link>https://openai.com/index/introducing-images-2-6</link>
+      <description>Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.</description>
+      <pubDate>2026-11-04</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/introducing-images-2-6</guid>
+    </item>
+    <item>
       <title>Daybreak Red is now available in AWS GovCloud (US-East)</title>
       <link>https://openai.com/index/daybreak-red-aws-govcloud</link>
       <description>Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.</description>
@@ -23,6 +32,33 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/daybreak-red-aws-govcloud</guid>
+    </item>
+    <item>
+      <title>GPT-Image-2.6 Sunburst, GPT-Image-2.6 Flare</title>
+      <link>https://developers.openai.com/api/docs/changelog#2026-11-04-feature-gpt-image-2-6-sunburst-gpt-image-2-6-flare</link>
+      <description>Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.</description>
+      <pubDate>2026-11-04</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI API Changelog</source>
+      <guid isPermaLink="true">https://developers.openai.com/api/docs/changelog#2026-11-04-feature-gpt-image-2-6-sunburst-gpt-image-2-6-flare</guid>
+    </item>
+    <item>
+      <title>A thousand fewer paths to root</title>
+      <link>https://openai.com/index/a-thousand-fewer-paths-to-root</link>
+      <description>OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.</description>
+      <pubDate>2026-11-04</pubDate>
+      <category>openai</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
+      <guid isPermaLink="true">https://openai.com/index/a-thousand-fewer-paths-to-root</guid>
+    </item>
+    <item>
+      <title>AlphaGenome gRPC and unified HTTP serving support</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_04_2026-alphagenome-grpc-and-unified-http-serving-support</link>
+      <description>Feature AlphaGenome gRPC and unified HTTP serving support AlphaGenome ( alphagenome-004 ) now supports unified HTTP/2 gRPC streaming and chunked binary protobuf HTTP streaming on Gemini Enterprise Agent Platform: Streams compressed binary tensor chunks directly over gRPC on shared endpoints ( PredictionService.StreamDirectRawPredict on port 8081 ) and chunked binary protobuf payloads ( proto_b64 ) over HTTP on dedicated endpoints ( streamRawPredict on port 8080 ) across all seven...</description>
+      <pubDate>2026-11-04</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_04_2026-alphagenome-grpc-and-unified-http-serving-support</guid>
     </item>
     <item>
       <title>GitHub Copilot is now available in Xcode’s coding assistant</title>
@@ -419,42 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-10-28-prioritize-dependabot-alerts-with-reachability-analysis</guid>
-    </item>
-    <item>
-      <title>New tools, triggers, and cost controls for Copilot Automations</title>
-      <link>https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations</link>
-      <description>With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works. Triggers define when your automation runs (e.g., “every day at 9am” or “when a pull request is opened”).</description>
-      <pubDate>2026-10-28</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-28-new-tools-triggers-and-cost-controls-for-copilot-automations</guid>
-    </item>
-    <item>
-      <title>Issue artifacts are now in public preview</title>
-      <link>https://github.blog/changelog/2026-10-28-issue-artifacts-are-now-in-public-preview</link>
-      <description>Issue artifacts attach agent-generated outputs and other important context directly to an issue. By keeping plans, research, links, and visualizations alongside the work, they give coding agents richer context and teams a durable record as the work evolves.</description>
-      <pubDate>2026-10-28</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-28-issue-artifacts-are-now-in-public-preview</guid>
-    </item>
-    <item>
-      <title>Introducing Replica, an open-source AI prototyping tool</title>
-      <link>https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool</link>
-      <description>We’re open sourcing Replica, an AI-powered prototyping tool created by GitHub Design that helps anyone on your product team turn ideas into interactive prototypes using your own design system. Music: “Electrodoodle” by Kevin MacLeod ( incompetech.com ), licensed under CC BY 4.0.</description>
-      <pubDate>2026-10-28</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool</guid>
-    </item>
-    <item>
-      <title>GitHub intelligence puts your code, context, and history to work</title>
-      <link>https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work</link>
-      <description>Agents should understand more than your codebase—they should understand how your team works. Your preferences, repository conventions, skills, and custom instructions guide how changes should be made, while code in related repositories can show how the pieces fit together.</description>
-      <pubDate>2026-10-28</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-10-28-github-intelligence-puts-your-code-context-and-history-to-work</guid>
     </item>
   </channel>
 </rss>

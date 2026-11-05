@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04",
+  "lastUpdated": "2026-11-05",
   "windowMonths": 3,
   "items": [
     {
@@ -19,6 +19,28 @@
       "url": "https://openai.com/index/openai-to-acquire-pierre",
       "tags": [
         "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-04-openai-introducing-images-2-6",
+      "date": "2026-11-04",
+      "category": "openai",
+      "title": {
+        "zh": "Introducing Images 2.6",
+        "ja": "Introducing Images 2.6",
+        "en": "Introducing Images 2.6"
+      },
+      "summary": {
+        "zh": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+        "ja": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+        "en": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
+      },
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "tags": [
+        "product",
         "openai"
       ],
       "source": "OpenAI News",
@@ -45,6 +67,78 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-11-04-openai-changelog",
+      "date": "2026-11-04",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-Image-2.6 Sunburst, GPT-Image-2.6 Flare",
+        "ja": "GPT-Image-2.6 Sunburst, GPT-Image-2.6 Flare",
+        "en": "GPT-Image-2.6 Sunburst, GPT-Image-2.6 Flare"
+      },
+      "summary": {
+        "zh": "Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.",
+        "ja": "Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models.",
+        "en": "Released GPT-Image-2.6 Sunburst and GPT-Image-2.6 Flare for image generation and editing, with adjustable complexity, SVG generation, and animated GIF generation. Added markup-guided editing for supported GPT Image 2.5 and 2.6 models."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-11-04-feature-gpt-image-2-6-sunburst-gpt-image-2-6-flare",
+      "tags": [
+        "gpt-image-2-6-sunburst",
+        "gpt-image-2-6-flare",
+        "v1-images-generations",
+        "v1-images-edits",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-04-openai-a-thousand-fewer-paths-to-root",
+      "date": "2026-11-04",
+      "category": "openai",
+      "title": {
+        "zh": "A thousand fewer paths to root",
+        "ja": "A thousand fewer paths to root",
+        "en": "A thousand fewer paths to root"
+      },
+      "summary": {
+        "zh": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+        "ja": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+        "en": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
+      },
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "tags": [
+        "security",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-04-google-release-notes",
+      "date": "2026-11-04",
+      "category": "google",
+      "title": {
+        "zh": "AlphaGenome gRPC and unified HTTP serving support",
+        "ja": "AlphaGenome gRPC and unified HTTP serving support",
+        "en": "AlphaGenome gRPC and unified HTTP serving support"
+      },
+      "summary": {
+        "zh": "Feature AlphaGenome gRPC and unified HTTP serving support AlphaGenome ( alphagenome-004 ) now supports unified HTTP/2 gRPC streaming and chunked binary protobuf HTTP streaming on Gemini Enterprise Agent Platform: Streams compressed binary tensor chunks directly over gRPC on shared endpoints ( PredictionService.StreamDirectRawPredict on port 8081 ) and chunked binary protobuf payloads ( proto_b64 ) over HTTP on dedicated endpoints ( streamRawPredict on port 8080 ) across all seven...",
+        "ja": "Feature AlphaGenome gRPC and unified HTTP serving support AlphaGenome ( alphagenome-004 ) now supports unified HTTP/2 gRPC streaming and chunked binary protobuf HTTP streaming on Gemini Enterprise Agent Platform: Streams compressed binary tensor chunks directly over gRPC on shared endpoints ( PredictionService.StreamDirectRawPredict on port 8081 ) and chunked binary protobuf payloads ( proto_b64 ) over HTTP on dedicated endpoints ( streamRawPredict on port 8080 ) across all seven...",
+        "en": "Feature AlphaGenome gRPC and unified HTTP serving support AlphaGenome ( alphagenome-004 ) now supports unified HTTP/2 gRPC streaming and chunked binary protobuf HTTP streaming on Gemini Enterprise Agent Platform: Streams compressed binary tensor chunks directly over gRPC on shared endpoints ( PredictionService.StreamDirectRawPredict on port 8081 ) and chunked binary protobuf payloads ( proto_b64 ) over HTTP on dedicated endpoints ( streamRawPredict on port 8080 ) across all seven..."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_04_2026-alphagenome-grpc-and-unified-http-serving-support",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
     },
     {
       "id": "2026-11-04-github-2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
@@ -1072,32 +1166,6 @@
       "tags": [
         "improvement",
         "copilot",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-28-github-2026-10-28-issue-artifacts-are-now-in-public-preview",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Issue artifacts are now in public preview",
-        "ja": "Issue artifacts are now in public preview",
-        "en": "Issue artifacts are now in public preview"
-      },
-      "summary": {
-        "zh": "Issue artifacts attach agent-generated outputs and other important context directly to an issue. By keeping plans, research, links, and visualizations alongside the work, they give coding agents richer context and teams a durable record as the work evolves.",
-        "ja": "Issue artifacts attach agent-generated outputs and other important context directly to an issue. By keeping plans, research, links, and visualizations alongside the work, they give coding agents richer context and teams a durable record as the work evolves.",
-        "en": "Issue artifacts attach agent-generated outputs and other important context directly to an issue. By keeping plans, research, links, and visualizations alongside the work, they give coding agents richer context and teams a durable record as the work evolves."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-issue-artifacts-are-now-in-public-preview",
-      "tags": [
-        "release",
-        "copilot",
-        "projects-issues",
         "universe26",
         "github",
         "changelog"
@@ -4598,56 +4666,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-10-06-github-2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "date": "2026-10-06",
-      "category": "github",
-      "title": {
-        "zh": "Update your IDE to restore agent activity in Copilot usage metrics",
-        "ja": "Update your IDE to restore agent activity in Copilot usage metrics",
-        "en": "Update your IDE to restore agent activity in Copilot usage metrics"
-      },
-      "summary": {
-        "zh": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.",
-        "ja": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK.",
-        "en": "If your Copilot usage metrics have shown agent activity or agent lines of code falling while Copilot usage kept growing, we’ve found the cause, and a fix is rolling out to each IDE. Several IDEs recently moved Copilot agent sessions to the Copilot SDK."
-      },
-      "url": "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-06-github-2026-10-06-stacked-pull-requests-generally-available",
-      "date": "2026-10-06",
-      "category": "github",
-      "title": {
-        "zh": "Stacked pull requests generally available",
-        "ja": "Stacked pull requests generally available",
-        "en": "Stacked pull requests generally available"
-      },
-      "summary": {
-        "zh": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
-        "ja": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
-        "en": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together."
-      },
-      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-06-github-2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
       "date": "2026-10-06",
       "category": "github",
@@ -6929,54 +6947,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-09-16-github-2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "date": "2026-09-16",
-      "category": "github",
-      "title": {
-        "zh": "Copilot budget increase requests are generally available",
-        "ja": "Copilot budget increase requests are generally available",
-        "en": "Copilot budget increase requests are generally available"
-      },
-      "summary": {
-        "zh": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit.",
-        "ja": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit.",
-        "en": "Previously, when a member used all the Copilot AI credits available to them, they were blocked from Copilot features that consume credits. This release adds a flow for them to request more budget the moment they hit the limit."
-      },
-      "url": "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-16-github-2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "date": "2026-09-16",
-      "category": "github",
-      "title": {
-        "zh": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "ja": "Code scanning AI Scan no longer requires CodeQL default setup",
-        "en": "Code scanning AI Scan no longer requires CodeQL default setup"
-      },
-      "summary": {
-        "zh": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured.",
-        "ja": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured.",
-        "en": "You can now use AI Scan for pull requests to find security vulnerabilities, even when CodeQL default setup isn’t enabled on a repository. Previously, AI Scan for pull requests only ran on repositories where CodeQL default setup was configured."
-      },
-      "url": "https://github.blog/changelog/2026-09-16-code-scanning-ai-scan-no-longer-requires-codeql-default-setup",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-15-google-release-notes",
       "date": "2026-09-15",
       "category": "google",
@@ -7439,6 +7409,30 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-10-github-2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "date": "2026-09-10",
+      "category": "github",
+      "title": {
+        "zh": "AI Scan for pull request APIs in public preview",
+        "ja": "AI Scan for pull request APIs in public preview",
+        "en": "AI Scan for pull request APIs in public preview"
+      },
+      "summary": {
+        "zh": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
+        "ja": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI.",
+        "en": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic way to roll out AI-powered security detections for pull requests across select repositories without manually configuring each setting in the GitHub UI."
+      },
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-10-anthropic-sessions-connect",
       "date": "2026-09-10",
       "category": "anthropic",
@@ -7574,30 +7568,6 @@
       "sourceType": "release-notes"
     },
     {
-      "id": "2026-09-09-github-2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
-      "date": "2026-09-09",
-      "category": "github",
-      "title": {
-        "zh": "Remediate Code Quality findings with agentic autofix",
-        "ja": "Remediate Code Quality findings with agentic autofix",
-        "en": "Remediate Code Quality findings with agentic autofix"
-      },
-      "summary": {
-        "zh": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the whole set to Copilot in one action.",
-        "ja": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the whole set to Copilot in one action.",
-        "en": "Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the whole set to Copilot in one action."
-      },
-      "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
-      "tags": [
-        "release",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-09-github-2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
       "date": "2026-09-09",
       "category": "github",
@@ -7615,31 +7585,6 @@
       "tags": [
         "improvement",
         "client-apps",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-09-github-2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
-      "date": "2026-09-09",
-      "category": "github",
-      "title": {
-        "zh": "Enterprise-managed sandbox in Copilot for JetBrains",
-        "ja": "Enterprise-managed sandbox in Copilot for JetBrains",
-        "en": "Enterprise-managed sandbox in Copilot for JetBrains"
-      },
-      "summary": {
-        "zh": "此更新支持企业管理的沙箱策略、跨文件光标跳转以获取下一个编辑建议、聊天中的全局项目上下文、企业策略诊断以及终端 Copilot CLI 会话和 JetBrains IDE 之间的新连接。它还改进了模型选择、聊天体验以及 MCP 服务器和代理会话的可靠性。",
-        "ja": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions.",
-        "en": "This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot CLI sessions and JetBrains IDEs. It also improves model selection, the chat experience, and reliability across MCP servers and agent sessions."
-      },
-      "url": "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
-      "tags": [
-        "release",
         "copilot",
         "enterprise-management-tools",
         "github",
@@ -11232,145 +11177,6 @@
       ],
       "source": "Anthropic Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-04-openai-third-party-cyber-evaluations-involving-openai-models",
-      "date": "2026-08-04",
-      "category": "openai",
-      "title": {
-        "zh": "涉及OpenAI模型的第三方网络评估",
-        "ja": "OpenAI モデルを含むサードパーティのサイバー評価",
-        "en": "Third-party cyber evaluations involving OpenAI models"
-      },
-      "summary": {
-        "zh": "OpenAI 解释了最近的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
-        "ja": "OpenAI では、最近のサードパーティによるサイバーセキュリティ評価インシデントについて説明し、AI モデルのテストと評価を強化するための新しい安全対策の概要を説明します。",
-        "en": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation."
-      },
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "tags": [
-        "security",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-08-04-openai-learn-teach-chatgpt-work-codex",
-      "date": "2026-08-04",
-      "category": "openai",
-      "title": {
-        "zh": "使用 ChatGPT 工作和 Codex 进行学习和教学的新方法",
-        "ja": "ChatGPT Work と Codex を使用した新しい学習方法と教える方法",
-        "en": "New ways to learn and teach with ChatGPT Work and Codex"
-      },
-      "summary": {
-        "zh": "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
-        "ja": "幼稚園から高等学校までの教師、大学の教育者、学生の学習、指導、研究、構築に役立つ ChatGPT Work および Codex の新しい教育プラグインを検討してください。",
-        "en": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build."
-      },
-      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming deprecation of GitHub Spark on github.com",
-        "ja": "Upcoming deprecation of GitHub Spark on github.com",
-        "en": "Upcoming deprecation of GitHub Spark on github.com"
-      },
-      "summary": {
-        "zh": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
-        "ja": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created.",
-        "en": "Beginning August 4, 2026, GitHub Spark no longer accepts new users or allows the creation of new apps. Existing users can continue to access GitHub Spark until August 31, 2026 to export apps they’ve already created."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-      "tags": [
-        "retired",
-        "copilot",
-        "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-retiring-the-copilot-billing-preview-app",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "Retiring the Copilot Billing Preview app",
-        "ja": "Retiring the Copilot Billing Preview app",
-        "en": "Retiring the Copilot Billing Preview app"
-      },
-      "summary": {
-        "zh": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.",
-        "ja": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings.",
-        "en": "We’ve retired the GitHub Copilot Billing Preview app, and it’s no longer available. You can review and manage your Copilot spend directly in your GitHub billing settings."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-      "tags": [
-        "retired",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-github-2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "date": "2026-08-04",
-      "category": "github",
-      "title": {
-        "zh": "Code coverage automatic enablement in Code Quality settings",
-        "ja": "Code coverage automatic enablement in Code Quality settings",
-        "en": "Code coverage automatic enablement in Code Quality settings"
-      },
-      "summary": {
-        "zh": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.",
-        "ja": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI.",
-        "en": "We’re making code coverage setup faster and simpler. You’ll now see a new option in your repository’s Code Quality settings that lets GitHub generate your coverage workflow automatically with AI."
-      },
-      "url": "https://github.blog/changelog/2026-08-04-code-coverage-automatic-enablement-in-code-quality-settings",
-      "tags": [
-        "improvement",
-        "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-04-anthropic-tino-cuellar",
-      "date": "2026-08-04",
-      "category": "anthropic",
-      "title": {
-        "zh": "Tino Cuéllar 加入担任首席全球事务官",
-        "ja": "ティノ・クエヤル氏が最高国際責任者として就任",
-        "en": "Tino Cuéllar joins as Chief Global Affairs Officer"
-      },
-      "summary": {
-        "zh": "前加州最高法院法官 Tino Cuéllar 加入 Anthropic 领导全球政策、国际参与和政府关系。",
-        "ja": "元カリフォルニア州最高裁判所判事のティノ・クエヤル氏がAnthropicに加わり、世界中の政策、国際関与、政府関係を主導します。",
-        "en": "Former California Supreme Court Justice Tino Cuéllar joins Anthropic to lead policy, international engagement, and government relations worldwide."
-      },
-      "url": "https://www.anthropic.com/news/tino-cuellar",
-      "tags": [
-        "anthropic"
-      ],
-      "source": "Anthropic News",
-      "sourceType": "news"
     }
   ]
 }
