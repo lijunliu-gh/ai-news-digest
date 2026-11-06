@@ -29,6 +29,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-11-06-github-2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "date": "2026-11-06",
+      "category": "github",
+      "title": {
+        "zh": "Usage metrics API adds code review details and addressed rate",
+        "ja": "Usage metrics API adds code review details and addressed rate",
+        "en": "Usage metrics API adds code review details and addressed rate"
+      },
+      "summary": {
+        "zh": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed pull requests merged without a later change request from a person and how many Copilot code review comments developers acted on.",
+        "ja": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed pull requests merged without a later change request from a person and how many Copilot code review comments developers acted on.",
+        "en": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed pull requests merged without a later change request from a person and how many Copilot code review comments developers acted on."
+      },
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-11-05-openai-setting-new-standard-responsible-ai-infrastructure",
       "date": "2026-11-05",
       "category": "openai",
@@ -94,6 +120,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-05-openai-franklin-templeton",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "Franklin Templeton uses OpenAI to support investment research",
+        "ja": "Franklin Templeton uses OpenAI to support investment research",
+        "en": "Franklin Templeton uses OpenAI to support investment research"
+      },
+      "summary": {
+        "zh": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+        "ja": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+        "en": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks."
+      },
+      "url": "https://openai.com/index/franklin-templeton",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-05-openai-flipsnack",
       "date": "2026-11-05",
       "category": "openai",
@@ -108,6 +155,27 @@
         "en": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup."
       },
       "url": "https://openai.com/ads/customers/flipsnack",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-05-openai-cultfit-builds-with-codex",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "Cult.fit builds operational muscle with Codex",
+        "ja": "Cult.fit builds operational muscle with Codex",
+        "en": "Cult.fit builds operational muscle with Codex"
+      },
+      "summary": {
+        "zh": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+        "ja": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+        "en": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done."
+      },
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
       "tags": [
         "openai"
       ],
@@ -137,6 +205,28 @@
       ],
       "source": "OpenAI API Changelog",
       "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-05-openai-australian-universities-ai-native-graduates",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "Australian universities are creating AI-native graduates",
+        "ja": "Australian universities are creating AI-native graduates",
+        "en": "Australian universities are creating AI-native graduates"
+      },
+      "summary": {
+        "zh": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+        "ja": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+        "en": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
+      },
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "tags": [
+        "company",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
     },
     {
       "id": "2026-11-05-google-gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
@@ -186,18 +276,18 @@
       "date": "2026-11-05",
       "category": "anthropic",
       "title": {
-        "zh": "Claude Enterprise",
-        "ja": "Claude Enterprise",
-        "en": "Claude Enterprise"
+        "zh": "Admin API reference",
+        "ja": "Admin API reference",
+        "en": "Admin API reference"
       },
       "summary": {
-        "zh": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away.",
-        "ja": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away.",
-        "en": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API (see the Admin API reference ). POST /v1/organizations/users/{user_id}/sign_out is in beta, and every request must include the admin-user-sign-out-2026-10-08 beta header. It ends the member’s sign-in sessions and trusted devices on every browser and device, and their OAuth tokens for your organization. The member stays in the organization and can sign in again right away."
+        "zh": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end.",
+        "ja": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end.",
+        "en": "You can now sign a member of your Claude Enterprise (claude.ai) organization out of Claude everywhere with the Admin API. This capability is in beta. See the Admin API reference. The member stays in the organization and can sign in again. See Sign a member out everywhere for the beta header and what the request doesn’t end."
       },
       "url": "https://platform.claude.com/docs/en/api/beta/organization",
       "tags": [
-        "claude-enterprise",
+        "admin-api-reference",
         "anthropic",
         "release-notes"
       ],
@@ -1708,6 +1798,31 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-10-28-github-2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve",
+      "date": "2026-10-28",
+      "category": "github",
+      "title": {
+        "zh": "Copilot Automations now learn from outcomes and self-improve",
+        "ja": "Copilot Automations now learn from outcomes and self-improve",
+        "en": "Copilot Automations now learn from outcomes and self-improve"
+      },
+      "summary": {
+        "zh": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results.",
+        "ja": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results.",
+        "en": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results."
+      },
+      "url": "https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve",
+      "tags": [
+        "improvement",
+        "copilot",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-10-28-github-2026-10-28-connect-your-tools-to-copilot-without-all-the-setup",
       "date": "2026-10-28",
       "category": "github",
@@ -1750,6 +1865,31 @@
       "tags": [
         "release",
         "application-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-28-github-2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "date": "2026-10-28",
+      "category": "github",
+      "title": {
+        "zh": "Build shared workflows for your team with Copilot Automations",
+        "ja": "Build shared workflows for your team with Copilot Automations",
+        "en": "Build shared workflows for your team with Copilot Automations"
+      },
+      "summary": {
+        "zh": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works.",
+        "ja": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works.",
+        "en": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works."
+      },
+      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
+      "tags": [
+        "improvement",
+        "copilot",
         "universe26",
         "github",
         "changelog"
@@ -3975,6 +4115,32 @@
       "tags": [
         "improvement",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-12-github-2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "date": "2026-10-12",
+      "category": "github",
+      "title": {
+        "zh": "Client telemetry user attribution and configurable capture",
+        "ja": "Client telemetry user attribution and configurable capture",
+        "en": "Client telemetry user attribution and configurable capture"
+      },
+      "summary": {
+        "zh": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login.",
+        "ja": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login.",
+        "en": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login."
+      },
+      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+      "tags": [
+        "improvement",
+        "client-apps",
+        "copilot",
+        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -7500,6 +7666,32 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-09-11-github-2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "date": "2026-09-11",
+      "category": "github",
+      "title": {
+        "zh": "Add VS Code Agents to Copilot usage metrics",
+        "ja": "Add VS Code Agents to Copilot usage metrics",
+        "en": "Add VS Code Agents to Copilot usage metrics"
+      },
+      "summary": {
+        "zh": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.",
+        "ja": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.",
+        "en": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day."
+      },
+      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-10-openai-put-data-to-work",
       "date": "2026-09-10",
       "category": "openai",
@@ -8579,6 +8771,30 @@
         "client-apps",
         "copilot",
         "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "date": "2026-09-02",
+      "category": "github",
+      "title": {
+        "zh": "Content exclusions generally available in Copilot app and CLI",
+        "ja": "Content exclusions generally available in Copilot app and CLI",
+        "en": "Content exclusions generally available in Copilot app and CLI"
+      },
+      "summary": {
+        "zh": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
+        "ja": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
+        "en": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows."
+      },
+      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -10337,6 +10553,30 @@
         "en": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows."
       },
       "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-14-github-2026-08-13-github-copilot-weekly-releases-august-10",
+      "date": "2026-08-14",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot weekly releases — August 10",
+        "ja": "GitHub Copilot weekly releases — August 10",
+        "en": "GitHub Copilot weekly releases — August 10"
+      },
+      "summary": {
+        "zh": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans.",
+        "ja": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans.",
+        "en": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans."
+      },
+      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
       "tags": [
         "release",
         "copilot",
