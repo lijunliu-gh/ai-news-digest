@@ -1,7 +1,33 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-11-06-github-2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "date": "2026-11-06",
+      "category": "github",
+      "title": {
+        "zh": "Usage metrics API flags telemetry and version gaps",
+        "ja": "Usage metrics API flags telemetry and version gaps",
+        "en": "Usage metrics API flags telemetry and version gaps"
+      },
+      "summary": {
+        "zh": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in enterprise and organization user reports, and daily affected-user counts appear in enterprise and organization reports.",
+        "ja": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in enterprise and organization user reports, and daily affected-user counts appear in enterprise and organization reports.",
+        "en": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in enterprise and organization user reports, and daily affected-user counts appear in enterprise and organization reports."
+      },
+      "url": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+      "tags": [
+        "improvement",
+        "account-management",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-11-05-openai-setting-new-standard-responsible-ai-infrastructure",
       "date": "2026-11-05",
@@ -25,6 +51,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-05-openai-merge-builds-with-openai",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "Merge builds product and business tools with OpenAI technology",
+        "ja": "Merge builds product and business tools with OpenAI technology",
+        "en": "Merge builds product and business tools with OpenAI technology"
+      },
+      "summary": {
+        "zh": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+        "ja": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+        "en": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates."
+      },
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-05-openai-introducing-gpt-6-cyber",
       "date": "2026-11-05",
       "category": "openai",
@@ -41,6 +88,27 @@
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "tags": [
         "product",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-05-openai-flipsnack",
+      "date": "2026-11-05",
+      "category": "openai",
+      "title": {
+        "zh": "Flipsnack grows product signups with conversion optimization",
+        "ja": "Flipsnack grows product signups with conversion optimization",
+        "en": "Flipsnack grows product signups with conversion optimization"
+      },
+      "summary": {
+        "zh": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+        "ja": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+        "en": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup."
+      },
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "tags": [
         "openai"
       ],
       "source": "OpenAI News",
@@ -1640,31 +1708,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-28-github-2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Copilot Automations now learn from outcomes and self-improve",
-        "ja": "Copilot Automations now learn from outcomes and self-improve",
-        "en": "Copilot Automations now learn from outcomes and self-improve"
-      },
-      "summary": {
-        "zh": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results.",
-        "ja": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results.",
-        "en": "Copilot Automations can now learn from their outcomes and propose improvements to themselves, helping them produce better results over time. It’s easy to create an automation, but harder to build one you can trust to consistently produce high-quality results."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve",
-      "tags": [
-        "improvement",
-        "copilot",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-28-github-2026-10-28-connect-your-tools-to-copilot-without-all-the-setup",
       "date": "2026-10-28",
       "category": "github",
@@ -1707,31 +1750,6 @@
       "tags": [
         "release",
         "application-security",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-28-github-2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Build shared workflows for your team with Copilot Automations",
-        "ja": "Build shared workflows for your team with Copilot Automations",
-        "en": "Build shared workflows for your team with Copilot Automations"
-      },
-      "summary": {
-        "zh": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works.",
-        "ja": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works.",
-        "en": "Shared Copilot Automations are rolling out, enabling teams to build and maintain AI-powered workflows together. With Copilot Automations, you can combine prompts, triggers, and tools to design workflows around the way your team works."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-build-shared-workflows-for-your-team-with-copilot-automations",
-      "tags": [
-        "improvement",
-        "copilot",
         "universe26",
         "github",
         "changelog"
@@ -2809,9 +2827,9 @@
         "en": "enforcement_status"
       },
       "summary": {
-        "zh": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
-        "ja": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
-        "en": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile."
+        "zh": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles Preview with links to the API reference available — press Tab until focus enters the card, Escape to return. with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
+        "ja": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles Preview with links to the API reference available — press Tab until focus enters the card, Escape to return. with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile.",
+        "en": "We’ve added the enforcement_status and enforcement_actions fields to user profiles, so you can see whether Anthropic has restricted or banned one of your end customers. To find the profiles that have an open restriction or ban, list your profiles Preview with links to the API reference available — press Tab until focus enters the card, Escape to return. with the new enforcement_status[] filter. See Check whether Anthropic has restricted or banned a profile."
       },
       "url": "https://platform.claude.com/docs/en/manage-claude/user-profiles",
       "tags": [
@@ -3569,9 +3587,9 @@
         "en": "capabilities.thinking.types.between_tools"
       },
       "summary": {
-        "zh": "We’ve added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
-        "ja": "We’ve added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
-        "en": "We’ve added capabilities.thinking.types.between_tools to the Models API. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API."
+        "zh": "We’ve added capabilities.thinking.types.between_tools to the Models API Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
+        "ja": "We’ve added capabilities.thinking.types.between_tools to the Models API Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API.",
+        "en": "We’ve added capabilities.thinking.types.between_tools to the Models API Preview with links to the API reference available — press Tab until focus enters the card, Escape to return.. GET /v1/models and GET /v1/models/{model_id} now report whether each model accepts thinking: {type: \"between_tools\"}, which turns off up-front thinking. See Using the Models API."
       },
       "url": "https://platform.claude.com/docs/en/api/models/list",
       "tags": [
@@ -3957,32 +3975,6 @@
       "tags": [
         "improvement",
         "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-12-github-2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "date": "2026-10-12",
-      "category": "github",
-      "title": {
-        "zh": "Client telemetry user attribution and configurable capture",
-        "ja": "Client telemetry user attribution and configurable capture",
-        "en": "Client telemetry user attribution and configurable capture"
-      },
-      "summary": {
-        "zh": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login.",
-        "ja": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login.",
-        "en": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three attributes to OpenTelemetry (OTel) data: user.name: The authenticated Copilot account name, currently the GitHub login."
-      },
-      "url": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
-      "tags": [
-        "improvement",
-        "client-apps",
-        "copilot",
-        "enterprise-management-tools",
         "github",
         "changelog"
       ],
@@ -7508,32 +7500,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-09-11-github-2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "date": "2026-09-11",
-      "category": "github",
-      "title": {
-        "zh": "Add VS Code Agents to Copilot usage metrics",
-        "ja": "Add VS Code Agents to Copilot usage metrics",
-        "en": "Add VS Code Agents to Copilot usage metrics"
-      },
-      "summary": {
-        "zh": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.",
-        "ja": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day.",
-        "en": "GitHub Copilot usage metrics reports now include generally available metrics for activity in the dedicated VS Code Agents window, helping you measure adoption and engagement across enterprises and organizations. What’s new Aggregate enterprise and organization reports for both 1-day and 28-day periods now include: daily_active_vscode_agent_users: An optional count of unique users active in the VS Code Agents window each day."
-      },
-      "url": "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-10-openai-put-data-to-work",
       "date": "2026-09-10",
       "category": "openai",
@@ -8613,30 +8579,6 @@
         "client-apps",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-02-github-2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "date": "2026-09-02",
-      "category": "github",
-      "title": {
-        "zh": "Content exclusions generally available in Copilot app and CLI",
-        "ja": "Content exclusions generally available in Copilot app and CLI",
-        "en": "Content exclusions generally available in Copilot app and CLI"
-      },
-      "summary": {
-        "zh": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
-        "ja": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows.",
-        "en": "The GitHub Copilot app and Copilot CLI now respect content exclusion policies configured by enterprise, organization, and repository administrators. Copilot won’t use excluded files as context, helping you protect sensitive code across agentic workflows."
-      },
-      "url": "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -10082,7 +10024,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_18gnmd5bsnqknp9fmbtdid99lb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_523epklbsnqknp9fmbqr4qiilb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -10395,30 +10337,6 @@
         "en": "Grok 4.6, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. It is designed for agentic coding and complex multi-step workflows."
       },
       "url": "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-14-github-2026-08-13-github-copilot-weekly-releases-august-10",
-      "date": "2026-08-14",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot weekly releases — August 10",
-        "ja": "GitHub Copilot weekly releases — August 10",
-        "en": "GitHub Copilot weekly releases — August 10"
-      },
-      "summary": {
-        "zh": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans.",
-        "ja": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans.",
-        "en": "From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexible across editors, the command line, and the Copilot app. GitHub Copilot, general Kimi K3 is rolling out to Copilot Pro, Pro+, Max, Business, and Enterprise plans."
-      },
-      "url": "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
       "tags": [
         "release",
         "copilot",
@@ -11439,78 +11357,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-05-openai-changelog",
-      "date": "2026-08-05",
-      "category": "openai",
-      "title": {
-        "zh": "快速模式，定价详情",
-        "ja": "高速モード、価格の詳細",
-        "en": "Fast mode, pricing details"
-      },
-      "summary": {
-        "zh": "快速模式现在支持 GPT-5.6 Sol、GPT-5.6 Terra 和 GPT-5.6 Luna 的长上下文请求。截至目前，超过 272K 令牌的长上下文提示可以在快速模式下运行，速度比标准层快 2.5 倍。",
-        "ja": "高速モードは、GPT-5.6 Sol、GPT-5.6 Terra、および GPT-5.6 Luna のロングコンテキスト リクエストをサポートするようになりました。現在、272K トークンを超えるロングコンテキスト プロンプトは高速モードで実行でき、標準レベルよりも最大 2.5 倍の速度を実現します。",
-        "en": "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode, delivering speeds up to 2.5× faster than the Standard tier."
-      },
-      "url": "https://developers.openai.com/api/docs/changelog#2026-08-05-update-fast-mode-pricing-details",
-      "tags": [
-        "gpt-5-6-sol",
-        "gpt-5-6-terra",
-        "gpt-5-6-luna",
-        "update",
-        "openai",
-        "changelog"
-      ],
-      "source": "OpenAI API Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-05-anthropic-overview",
-      "date": "2026-08-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "克劳德-opus-4-1-20250805",
-        "ja": "クロード-作品-4-1-20250805",
-        "en": "claude-opus-4-1-20250805"
-      },
-      "summary": {
-        "zh": "We’ve retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this model on the Claude API will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program.",
-        "ja": "We’ve retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this model on the Claude API will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program.",
-        "en": "We’ve retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this model on the Claude API will now return an error. We recommend upgrading to Claude Opus 5. Researchers can request ongoing access through the External Researcher Access Program."
-      },
-      "url": "https://platform.claude.com/docs/en/models/opus-5/overview",
-      "tags": [
-        "claude-opus-4-1-20250805",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-05-anthropic-compliance-activity-feed",
-      "date": "2026-08-05",
-      "category": "anthropic",
-      "title": {
-        "zh": "推理钩子",
-        "ja": "推論フック",
-        "en": "Inference hooks"
-      },
-      "summary": {
-        "zh": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.",
-        "ja": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.",
-        "en": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed",
-      "tags": [
-        "inference-hooks",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     }
   ]
 }

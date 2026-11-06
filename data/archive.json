@@ -1,7 +1,56 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-08-05-openai-changelog",
+      "date": "2026-08-05",
+      "category": "openai",
+      "title": {
+        "zh": "快速模式，定价详情",
+        "ja": "高速モード、価格の詳細",
+        "en": "Fast mode, pricing details"
+      },
+      "summary": {
+        "zh": "快速模式现在支持 GPT-5.6 Sol、GPT-5.6 Terra 和 GPT-5.6 Luna 的长上下文请求。截至目前，超过 272K 令牌的长上下文提示可以在快速模式下运行，速度比标准层快 2.5 倍。",
+        "ja": "高速モードは、GPT-5.6 Sol、GPT-5.6 Terra、および GPT-5.6 Luna のロングコンテキスト リクエストをサポートするようになりました。現在、272K トークンを超えるロングコンテキスト プロンプトは高速モードで実行でき、標準レベルよりも最大 2.5 倍の速度を実現します。",
+        "en": "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode, delivering speeds up to 2.5× faster than the Standard tier."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-08-05-update-fast-mode-pricing-details",
+      "tags": [
+        "gpt-5-6-sol",
+        "gpt-5-6-terra",
+        "gpt-5-6-luna",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-05-anthropic-compliance-activity-feed",
+      "date": "2026-08-05",
+      "category": "anthropic",
+      "title": {
+        "zh": "推理钩子",
+        "ja": "推論フック",
+        "en": "Inference hooks"
+      },
+      "summary": {
+        "zh": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.",
+        "ja": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks.",
+        "en": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization’s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server’s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed. See Inference hooks."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed",
+      "tags": [
+        "inference-hooks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-08-04-openai-third-party-cyber-evaluations-involving-openai-models",
       "date": "2026-08-04",
