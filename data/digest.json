@@ -24,6 +24,28 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-09-openai-control-room",
+      "date": "2026-11-09",
+      "category": "openai",
+      "title": {
+        "zh": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "ja": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "en": "Control Room: A central system to track and stop model workloads across our research infrastructure"
+      },
+      "summary": {
+        "zh": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "ja": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "en": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+      },
+      "url": "https://openai.com/index/control-room",
+      "tags": [
+        "safety",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-09-openai-chatgpt-enterprise-aws-marketplace",
       "date": "2026-11-09",
       "category": "openai",
@@ -44,6 +66,54 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-11-09-github-2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "date": "2026-11-09",
+      "category": "github",
+      "title": {
+        "zh": "Secret scanning detects secrets in GitHub Actions workflow logs",
+        "ja": "Secret scanning detects secrets in GitHub Actions workflow logs",
+        "en": "Secret scanning detects secrets in GitHub Actions workflow logs"
+      },
+      "summary": {
+        "zh": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview.",
+        "ja": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview.",
+        "en": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview."
+      },
+      "url": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+      "tags": [
+        "improvement",
+        "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-09-github-2026-11-09-claude-fable-5-2-in-github-copilot",
+      "date": "2026-11-09",
+      "category": "github",
+      "title": {
+        "zh": "Claude Fable 5.2 in GitHub Copilot",
+        "ja": "Claude Fable 5.2 in GitHub Copilot",
+        "en": "Claude Fable 5.2 in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases.",
+        "ja": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases.",
+        "en": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases."
+      },
+      "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-11-09-anthropic-preserved-thinking-3",
@@ -2137,31 +2207,6 @@
       "tags": [
         "release",
         "actions",
-        "copilot",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-10-28-github-2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Generate and edit images directly in Copilot",
-        "ja": "Generate and edit images directly in Copilot",
-        "en": "Generate and edit images directly in Copilot"
-      },
-      "summary": {
-        "zh": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.",
-        "ja": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project.",
-        "en": "You can now generate and edit images using natural language in GitHub Copilot. When you ask for an image, your selected reasoning model calls a dedicated image-generation tool powered by GPT Image 2.5 Flare, previews the result inline, and saves it to your project."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-generate-and-edit-images-directly-in-copilot",
-      "tags": [
-        "release",
         "copilot",
         "universe26",
         "github",
@@ -5438,30 +5483,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-06-github-2026-10-06-stacked-pull-requests-generally-available",
-      "date": "2026-10-06",
-      "category": "github",
-      "title": {
-        "zh": "Stacked pull requests generally available",
-        "ja": "Stacked pull requests generally available",
-        "en": "Stacked pull requests generally available"
-      },
-      "summary": {
-        "zh": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
-        "ja": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together.",
-        "en": "GitHub stacked pull requests are now generally available. Break large changes into smaller, focused pull requests that you can review independently and merge together."
-      },
-      "url": "https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-06-github-2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview",
       "date": "2026-10-06",
       "category": "github",
@@ -6549,31 +6570,6 @@
         "account-management",
         "copilot",
         "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-25-github-2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "date": "2026-09-25",
-      "category": "github",
-      "title": {
-        "zh": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "ja": "Updates to GitHub Copilot for Slack and Microsoft Teams",
-        "en": "Updates to GitHub Copilot for Slack and Microsoft Teams"
-      },
-      "summary": {
-        "zh": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or images and forwarded messages in Teams, Copilot can use more of the context already in your conversation.",
-        "ja": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or images and forwarded messages in Teams, Copilot can use more of the context already in your conversation.",
-        "en": "GitHub Copilot in Slack and Microsoft Teams now gives you more context, more control, and a clearer path from conversation to GitHub work. Whether you’re sharing files in Slack or images and forwarded messages in Teams, Copilot can use more of the context already in your conversation."
-      },
-      "url": "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
-      "tags": [
-        "improvement",
-        "collaboration-tools",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -8438,29 +8434,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-09-google-release-notes",
-      "date": "2026-09-09",
-      "category": "google",
-      "title": {
-        "zh": "Computer Use和Shell沙箱普遍可用",
-        "ja": "コンピューターの使用とシェル サンドボックスの一般提供が開始されました",
-        "en": "Computer Use and Shell sandboxes are generally available"
-      },
-      "summary": {
-        "zh": "功能 计算机使用和 Shell 沙箱全面可用 Gemini 企业代理平台中的计算机使用和 Shell 沙箱现已全面可用 (GA)。此版本还包括以下适用于代理平台沙箱的新功能： Shell 沙箱：使用直接 API /exec 调用在隔离的 Linux 容器中运行不受信任的 shell 命令、安装软件包和操作文件。有关详细信息，请参阅 Shell 沙箱快速入门。",
-        "ja": "機能 コンピューター使用およびシェル サンドボックスが一般提供されました Gemini Enterprise Agent プラットフォームのコンピューター使用およびシェル サンドボックスが一般提供 (GA) になりました。このリリースには、エージェント プラットフォーム サンドボックスの次の新機能も含まれています。 シェル サンドボックス: 直接 API /exec 呼び出しを使用して、分離された Linux コンテナ内で信頼できないシェル コマンドを実行し、パッケージをインストールし、ファイルを操作します。詳細については、「シェル サンドボックス クイックスタート」を参照してください。",
-        "en": "Feature Computer Use and Shell sandboxes are generally available Computer Use and Shell sandboxes in Gemini Enterprise Agent Platform are now generally available (GA). This release also includes the following new features for Agent Platform sandboxes: Shell sandboxes: Run untrusted shell commands, install packages, and manipulate files in an isolated Linux container using direct API /exec calls. For more information, see the Shell sandbox quickstart."
-      },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_09_2026-computer-use-and-shell-sandboxes-are-generally-available",
-      "tags": [
-        "feature",
-        "google",
-        "release-notes"
-      ],
-      "source": "Google Cloud Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
       "id": "2026-09-09-github-2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
       "date": "2026-09-09",
       "category": "github",
@@ -9379,30 +9352,6 @@
         "en": "Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off by default and configurable at the enterprise, organization, and repository level."
       },
       "url": "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-09-01-github-2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "date": "2026-09-01",
-      "category": "github",
-      "title": {
-        "zh": "Claude Fable 5.1 is generally available in GitHub Copilot",
-        "ja": "Claude Fable 5.1 is generally available in GitHub Copilot",
-        "en": "Claude Fable 5.1 is generally available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.",
-        "ja": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.",
-        "en": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks."
-      },
-      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
       "tags": [
         "release",
         "copilot",
