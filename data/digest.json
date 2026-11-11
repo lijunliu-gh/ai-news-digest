@@ -24,6 +24,27 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-11-openai-jiostar-vijay-seshadri",
+      "date": "2026-11-11",
+      "category": "openai",
+      "title": {
+        "zh": "JioStar’s chief architect on AI discovery at 500M-user scale",
+        "ja": "JioStar’s chief architect on AI discovery at 500M-user scale",
+        "en": "JioStar’s chief architect on AI discovery at 500M-user scale"
+      },
+      "summary": {
+        "zh": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+        "ja": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+        "en": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production."
+      },
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-11-openai-chatgpt-plus-for-veterans",
       "date": "2026-11-11",
       "category": "openai",
@@ -43,6 +64,52 @@
         "openai"
       ],
       "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-11-google-release-notes",
+      "date": "2026-11-11",
+      "category": "google",
+      "title": {
+        "zh": "CodeMender updates (v0.21.0)",
+        "ja": "CodeMender updates (v0.21.0)",
+        "en": "CodeMender updates (v0.21.0)"
+      },
+      "summary": {
+        "zh": "Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh: When sandboxing is enabled, cm build and cm fix build validation now run build.command inside the sandbox, and cm fix refreshes stored patch diffs after build validation finishes.",
+        "ja": "Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh: When sandboxing is enabled, cm build and cm fix build validation now run build.command inside the sandbox, and cm fix refreshes stored patch diffs after build validation finishes.",
+        "en": "Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh: When sandboxing is enabled, cm build and cm fix build validation now run build.command inside the sandbox, and cm fix refreshes stored patch diffs after build validation finishes."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_11_2026-codemender-updates-v0-21-0",
+      "tags": [
+        "fixed",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-11-google-gemini-decisions-api",
+      "date": "2026-11-11",
+      "category": "google",
+      "title": {
+        "zh": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "ja": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "en": "Gemini Decisions API: Fast, calibrated multimodal decisions"
+      },
+      "summary": {
+        "zh": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+        "ja": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+        "en": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions."
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "tags": [
+        "developer-tools",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
       "sourceType": "news"
     },
     {
@@ -654,7 +721,7 @@
         "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
         "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k0br6ilfivaiv55upfl6lqhilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k0br6ilfivaiv55upfl6ml9ilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
       "tags": [
         "claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
         "anthropic",
@@ -891,30 +958,6 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-06-github-2026-11-06-github-copilot-weekly-releases-november-2",
-      "date": "2026-11-06",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot weekly releases — November 2",
-        "ja": "GitHub Copilot weekly releases — November 2",
-        "en": "GitHub Copilot weekly releases — November 2"
-      },
-      "summary": {
-        "zh": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready.",
-        "ja": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready.",
-        "en": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready."
-      },
-      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-11-06-github-2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
@@ -11076,7 +11119,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k8hr6ilfivaiv55upfl6lqhilb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k8hr6ilfivaiv55upfl6ml9ilb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
