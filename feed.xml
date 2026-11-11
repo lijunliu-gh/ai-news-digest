@@ -4,7 +4,7 @@
     <title>AI News Digest</title>
     <link>https://lijunliu-gh.github.io/ai-news-digest</link>
     <description>Official AI product updates from Anthropic, OpenAI, Google, and GitHub</description>
-    <lastBuildDate>2026-11-10</lastBuildDate>
+    <lastBuildDate>2026-11-11</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Introducing Businesses in ChatGPT</title>
@@ -43,13 +43,13 @@
       <guid isPermaLink="true">https://openai.com/index/ai-effect-on-freelance-work</guid>
     </item>
     <item>
-      <title>CodeMender updates (v0.20.0)</title>
-      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_10_2026-codemender-updates-v0-20-0</link>
-      <description>Fixed CodeMender updates (v0.20.0) This release introduces updates to CodeMender: Bug fixes: Fixed patch application failures during validation on large repositories and projects with mixed LF and CRLF line endings. Fixed scan error handling to properly surface permission denied errors when scanning unreadable directories instead of reporting zero findings. For more information, see the CodeMender documentation.</description>
+      <title>Cross-project governance for semantic governance policies</title>
+      <link>https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_10_2026-cross-project-governance-for-semantic-governance-policies</link>
+      <description>Feature Cross-project governance for semantic governance policies You can use semantic governance policies in a multi-project (hub-and-spoke) architecture to centrally govern agents deployed across multiple Google Cloud projects. When you configure a Resource Manager management boundary with the AGENT_MANAGEMENT capability, Agent Registry in the central management project automatically discovers agents across all member projects with their runtime identities intact.</description>
       <pubDate>2026-11-10</pubDate>
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Cloud Release Notes</source>
-      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_10_2026-codemender-updates-v0-20-0</guid>
+      <guid isPermaLink="true">https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_10_2026-cross-project-governance-for-semantic-governance-policies</guid>
     </item>
     <item>
       <title>Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</title>
@@ -268,6 +268,15 @@
       <guid isPermaLink="true">https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage</guid>
     </item>
     <item>
+      <title>Usage metrics API flags telemetry and version gaps</title>
+      <link>https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps</link>
+      <description>The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in enterprise and organization user reports, and daily affected-user counts appear in enterprise and organization reports.</description>
+      <pubDate>2026-11-06</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps</guid>
+    </item>
+    <item>
       <title>Setting a new standard for responsible AI infrastructure</title>
       <link>https://openai.com/index/setting-new-standard-responsible-ai-infrastructure</link>
       <description>OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.</description>
@@ -446,15 +455,6 @@
       <category>openai</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
       <guid isPermaLink="true">https://openai.com/index/cisco-cyber</guid>
-    </item>
-    <item>
-      <title>Accelerating engineering for the physical world</title>
-      <link>https://openai.com/index/accelerating-engineering-for-the-physical-world</link>
-      <description>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</description>
-      <pubDate>2026-11-03</pubDate>
-      <category>openai</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">OpenAI News</source>
-      <guid isPermaLink="true">https://openai.com/index/accelerating-engineering-for-the-physical-world</guid>
     </item>
   </channel>
 </rss>
