@@ -67,6 +67,236 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-12-anthropic-preserved-thinking-3",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Preserved thinking",
+        "ja": "Preserved thinking",
+        "en": "Preserved thinking"
+      },
+      "summary": {
+        "zh": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking.",
+        "ja": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking.",
+        "en": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#account-bound-thinking",
+      "tags": [
+        "preserved-thinking",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-preserved-thinking-2",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "prefix_mismatch_behavior",
+        "ja": "prefix_mismatch_behavior",
+        "en": "prefix_mismatch_behavior"
+      },
+      "summary": {
+        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix.",
+        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix.",
+        "en": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#prefix-check",
+      "tags": [
+        "prefix-mismatch-behavior",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-preserved-thinking",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Switching models mid-conversation",
+        "ja": "Switching models mid-conversation",
+        "en": "Switching models mid-conversation"
+      },
+      "summary": {
+        "zh": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation.",
+        "ja": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation.",
+        "en": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#switching-models",
+      "tags": [
+        "switching-models-mid-conversation",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-overview",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks",
+        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks",
+        "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks"
+      },
+      "summary": {
+        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
+        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
+        "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5."
+      },
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_l02ulklbsnqknp9fmbt6ql6ilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
+      "tags": [
+        "claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-fast-mode",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "speed: \"fast\"",
+        "ja": "speed: \"fast\"",
+        "en": "speed: \"fast\""
+      },
+      "summary": {
+        "zh": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header.",
+        "ja": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header.",
+        "en": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header."
+      },
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "tags": [
+        "speed-fast",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-dreams",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "梦想",
+        "ja": "夢",
+        "en": "Dreams"
+      },
+      "summary": {
+        "zh": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models.",
+        "ja": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models.",
+        "en": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models."
+      },
+      "url": "https://platform.claude.com/docs/en/managed-agents/dreams",
+      "tags": [
+        "dreams",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-computer-use-tool",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Computer_toolset_20260801",
+        "ja": "コンピューターツールセット_20260801",
+        "en": "computer_toolset_20260801"
+      },
+      "summary": {
+        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124.",
+        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124.",
+        "en": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool#migrate-from-computer-20251124",
+      "tags": [
+        "computer-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-api-and-data-retention",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "特定于型号的数据保留要求",
+        "ja": "モデル固有のデータ保持要件",
+        "en": "Model-specific data retention requirements"
+      },
+      "summary": {
+        "zh": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.",
+        "ja": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.",
+        "en": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements",
+      "tags": [
+        "model-specific-data-retention-requirements",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-advisor-tool",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "model",
+        "ja": "model",
+        "en": "model"
+      },
+      "summary": {
+        "zh": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility.",
+        "ja": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility.",
+        "en": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+      "tags": [
+        "model",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-12-anthropic-14604842",
+      "date": "2026-11-12",
+      "category": "anthropic",
+      "title": {
+        "zh": "Claude Fable 5.2",
+        "ja": "Claude Fable 5.2",
+        "en": "Claude Fable 5.2"
+      },
+      "summary": {
+        "zh": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking.",
+        "ja": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking.",
+        "en": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking."
+      },
+      "url": "https://support.claude.com/en/articles/14604842",
+      "tags": [
+        "claude-fable-5-2",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-11-openai-jiostar-vijay-seshadri",
       "date": "2026-11-11",
       "category": "openai",
@@ -680,236 +910,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-11-09-anthropic-preserved-thinking-3",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "Preserved thinking",
-        "ja": "Preserved thinking",
-        "en": "Preserved thinking"
-      },
-      "summary": {
-        "zh": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking.",
-        "ja": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking.",
-        "en": "Thinking blocks that Claude Fable 5.2 and Claude Mythos 5.2 produce work only in the account that produced them, or in an account linked to it. See Preserved thinking."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#account-bound-thinking",
-      "tags": [
-        "preserved-thinking",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-preserved-thinking-2",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "prefix_mismatch_behavior",
-        "ja": "prefix_mismatch_behavior",
-        "en": "prefix_mismatch_behavior"
-      },
-      "summary": {
-        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix.",
-        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix.",
-        "en": "Claude Fable 5.2 and Claude Mythos 5.2 enforce the prefix check for every account, whatever its age. Claude Fable 5.1 returns the error by default on accounts created on or after August 31, 2026 (see When prefix_mismatch_behavior is unset ). If your code edits the system prompt, tools, or an earlier message and then sends back a Claude Fable 5.2 or Claude Mythos 5.2 thinking block from a later turn, the request returns a 400 error. Before you switch, check whether your code edits the prefix."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#prefix-check",
-      "tags": [
-        "prefix-mismatch-behavior",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-preserved-thinking",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "Switching models mid-conversation",
-        "ja": "Switching models mid-conversation",
-        "en": "Switching models mid-conversation"
-      },
-      "summary": {
-        "zh": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation.",
-        "ja": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation.",
-        "en": "No other model reads thinking blocks from Claude Fable 5.2 or Claude Mythos 5.2. When a conversation moves from either one to a model outside this pair, the API drops those blocks. That includes a move to Claude Opus 5.5 or Claude Fable 5.1. The request still succeeds. See Switching models mid-conversation."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking#switching-models",
-      "tags": [
-        "switching-models-mid-conversation",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-overview",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks",
-        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks",
-        "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks"
-      },
-      "summary": {
-        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
-        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
-        "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5."
-      },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_503elklbsnqknp9fmbt6ql6ilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
-      "tags": [
-        "claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-fast-mode",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "speed: \"fast\"",
-        "ja": "speed: \"fast\"",
-        "en": "speed: \"fast\""
-      },
-      "summary": {
-        "zh": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header.",
-        "ja": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header.",
-        "en": "We’ve launched fast mode for Claude Fable 5.2 in Messages API requests on the Claude API. Fast mode delivers up to 2.5x higher output tokens per second, at $16 USD per MTok of input and $80 USD per MTok of output. Set speed: \"fast\" on your request, with no beta header."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "tags": [
-        "speed-fast",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-dreams",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "梦想",
-        "ja": "夢",
-        "en": "Dreams"
-      },
-      "summary": {
-        "zh": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models.",
-        "ja": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models.",
-        "en": "Dreams (research preview) now supports Claude Fable 5.2. See Supported models."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/dreams",
-      "tags": [
-        "dreams",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-computer-use-tool",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "Computer_toolset_20260801",
-        "ja": "コンピューターツールセット_20260801",
-        "en": "computer_toolset_20260801"
-      },
-      "summary": {
-        "zh": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124.",
-        "ja": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124.",
-        "en": "Claude Fable 5.2 and Claude Mythos 5.2 support computer use through the computer_toolset_20260801 toolset. A request that declares the earlier computer_20251124 tool returns a 400 error on every platform except Amazon Bedrock, where the earlier tool still works. See Migrate from computer_20251124."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool#migrate-from-computer-20251124",
-      "tags": [
-        "computer-toolset-20260801",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-api-and-data-retention",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "特定于型号的数据保留要求",
-        "ja": "モデル固有のデータ保持要件",
-        "en": "Model-specific data retention requirements"
-      },
-      "summary": {
-        "zh": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.",
-        "ja": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements.",
-        "en": "Both models require 30-day data retention, like Claude Fable 5.1 and Claude Mythos 5.1. They aren’t available under zero data retention unless expressly authorized by Anthropic. See Model-specific data retention requirements."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements",
-      "tags": [
-        "model-specific-data-retention-requirements",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-advisor-tool",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "model",
-        "ja": "model",
-        "en": "model"
-      },
-      "summary": {
-        "zh": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility.",
-        "ja": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility.",
-        "en": "With the advisor tool, which is in beta, a Claude Fable 5.2 or Claude Mythos 5.2 executor accepts only Claude Fable 5.2 or Claude Mythos 5.2 as its advisor. Any other advisor returns a 400 error, so set the advisor’s model to one of these two models when you move an executor to them. Every executor model accepts Claude Fable 5.2 as its advisor. See Model compatibility."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
-      "tags": [
-        "model",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-11-09-anthropic-14604842",
-      "date": "2026-11-09",
-      "category": "anthropic",
-      "title": {
-        "zh": "Claude Fable 5.2",
-        "ja": "Claude Fable 5.2",
-        "en": "Claude Fable 5.2"
-      },
-      "summary": {
-        "zh": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking.",
-        "ja": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking.",
-        "en": "We’ve launched Claude Fable 5.2 ( claude-fable-5-2 ), built for demanding reasoning and long-horizon agentic work. Claude Mythos 5.2 ( claude-mythos-5-2 ) offers the same capabilities only to organizations verified through Anthropic’s verification programs, such as the Cyber Verification Program. Both models have a 1M token context window, 128k max output tokens, and always-on adaptive thinking."
-      },
-      "url": "https://support.claude.com/en/articles/14604842",
-      "tags": [
-        "claude-fable-5-2",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     },
     {
       "id": "2026-11-07-github-2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
