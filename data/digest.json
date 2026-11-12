@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11",
+  "lastUpdated": "2026-11-12",
   "windowMonths": 3,
   "items": [
     {
@@ -80,7 +80,7 @@
         "ja": "Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh: When sandboxing is enabled, cm build and cm fix build validation now run build.command inside the sandbox, and cm fix refreshes stored patch diffs after build validation finishes.",
         "en": "Fixed CodeMender updates (v0.21.0) This release introduces updates to CodeMender: Sandboxed build commands and patch refresh: When sandboxing is enabled, cm build and cm fix build validation now run build.command inside the sandbox, and cm fix refreshes stored patch diffs after build validation finishes."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_11_2026-codemender-updates-v0-21-0",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_11_2026-codemender-updates-v0-21-0",
       "tags": [
         "fixed",
         "google",
@@ -260,7 +260,7 @@
         "ja": "Feature Cross-project governance for semantic governance policies You can use semantic governance policies in a multi-project (hub-and-spoke) architecture to centrally govern agents deployed across multiple Google Cloud projects. When you configure a Resource Manager management boundary with the AGENT_MANAGEMENT capability, Agent Registry in the central management project automatically discovers agents across all member projects with their runtime identities intact.",
         "en": "Feature Cross-project governance for semantic governance policies You can use semantic governance policies in a multi-project (hub-and-spoke) architecture to centrally govern agents deployed across multiple Google Cloud projects. When you configure a Resource Manager management boundary with the AGENT_MANAGEMENT capability, Agent Registry in the central management project automatically discovers agents across all member projects with their runtime identities intact."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_10_2026-cross-project-governance-for-semantic-governance-policies",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_10_2026-cross-project-governance-for-semantic-governance-policies",
       "tags": [
         "feature",
         "google",
@@ -721,7 +721,7 @@
         "ja": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5.",
         "en": "Claude Fable 5.2 and Claude Mythos 5.2 read other models’ thinking blocks on the Claude API and Claude Models on Google Cloud (Google managed). So on those platforms, a conversation that moves onto either model keeps its reasoning. The other models include Claude Opus 5.5, Claude Sonnet 5.5, and Claude Haiku 5.5."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k0br6ilfivaiv55upfl6ml9ilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_503elklbsnqknp9fmbt6ql6ilb_-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks-on-the-claude-api-and-claude-models-on-google-cloud-google-managed-so-on-those-platforms-a-conversation-that-moves-onto-either-model-keeps-its-reasoning-the-other-models-include-claude-opus-5-5-claude-sonnet-5-5-and-claude-haiku-5-5-claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
       "tags": [
         "claude-fable-5-2-and-claude-mythos-5-2-read-other-models-thinking-blocks",
         "anthropic",
@@ -950,7 +950,7 @@
         "ja": "Feature Dedicated Memory Bank functionality in the Google Cloud console You can create, configure, and inspect Agent Platform Memory Bank instances from the dedicated Memory Bank page in the Google Cloud console, with updated memory management controls for deployed agents in Agent Runtime: Memory Bank list and creation: View and manage standalone memory banks on the Memory Bank page (separate from deployed agents on the Deployments page), edit basic information or labels, delete instances, and...",
         "en": "Feature Dedicated Memory Bank functionality in the Google Cloud console You can create, configure, and inspect Agent Platform Memory Bank instances from the dedicated Memory Bank page in the Google Cloud console, with updated memory management controls for deployed agents in Agent Runtime: Memory Bank list and creation: View and manage standalone memory banks on the Memory Bank page (separate from deployed agents on the Deployments page), edit basic information or labels, delete instances, and..."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_06_2026-dedicated-memory-bank-functionality-in-the-google-cloud-console",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_06_2026-dedicated-memory-bank-functionality-in-the-google-cloud-console",
       "tags": [
         "feature",
         "google",
@@ -958,6 +958,30 @@
       ],
       "source": "Google Cloud Release Notes",
       "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-06-github-2026-11-06-github-copilot-weekly-releases-november-2",
+      "date": "2026-11-06",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot weekly releases — November 2",
+        "ja": "GitHub Copilot weekly releases — November 2",
+        "en": "GitHub Copilot weekly releases — November 2"
+      },
+      "summary": {
+        "zh": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready.",
+        "ja": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready.",
+        "en": "This week, Copilot comes to JetBrains Air and Xcode’s coding assistant, with updates to help you manage pull requests, settings, and agent sessions. GitHub Copilot app Set up Agent Merge directly from a pull request to have Copilot merge it when it’s ready."
+      },
+      "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-11-06-github-2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
@@ -1410,7 +1434,7 @@
         "ja": "Feature Provisioned Throughput support for supervised fine-tuned models (GA) Provisioned Throughput support for supervised fine-tuned models is generally available. Burndown rates for fine-tuned model inference can include a premium that's directly proportional to the model's fine-tuned inference pricing premium.",
         "en": "Feature Provisioned Throughput support for supervised fine-tuned models (GA) Provisioned Throughput support for supervised fine-tuned models is generally available. Burndown rates for fine-tuned model inference can include a premium that's directly proportional to the model's fine-tuned inference pricing premium."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_04_2026-provisioned-throughput-support-for-supervised-fine-tuned-models-ga",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_04_2026-provisioned-throughput-support-for-supervised-fine-tuned-models-ga",
       "tags": [
         "feature",
         "google",
@@ -1798,7 +1822,7 @@
         "ja": "Feature Serving tuned Gemini 3.x models on global endpoints Serving tuned Gemini 3.x models on global endpoints is available in General Availability (GA). You can copy fine-tuned Gemini 3.x models to the global region using the Model Registry models:copy API, deploy them to global serving endpoints, and send inference requests directly to aiplatform.googleapis.com. For more information, see About supervised fine-tuning for Gemini models and Tune Gemini models with supervised fine-tuning.",
         "en": "Feature Serving tuned Gemini 3.x models on global endpoints Serving tuned Gemini 3.x models on global endpoints is available in General Availability (GA). You can copy fine-tuned Gemini 3.x models to the global region using the Model Registry models:copy API, deploy them to global serving endpoints, and send inference requests directly to aiplatform.googleapis.com. For more information, see About supervised fine-tuning for Gemini models and Tune Gemini models with supervised fine-tuning."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#November_02_2026-serving-tuned-gemini-3-x-models-on-global-endpoints",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_02_2026-serving-tuned-gemini-3-x-models-on-global-endpoints",
       "tags": [
         "feature",
         "google",
@@ -2230,7 +2254,7 @@
         "ja": "Change Use a single regional Agent Registry instance for Gemini Enterprise apps For Gemini Enterprise apps, we recommend associating each Agent Gateway with a single regional Agent Registry instance in the same project and region as the gateway. Use the us-central1 registry for global and us apps, and the europe-west1 registry for eu apps. This note updates the September 9, 2026 entry. For more information, see Register your agents and destination resources.",
         "en": "Change Use a single regional Agent Registry instance for Gemini Enterprise apps For Gemini Enterprise apps, we recommend associating each Agent Gateway with a single regional Agent Registry instance in the same project and region as the gateway. Use the us-central1 registry for global and us apps, and the europe-west1 registry for eu apps. This note updates the September 9, 2026 entry. For more information, see Register your agents and destination resources."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_28_2026-use-a-single-regional-agent-registry-instance-for-gemini-enterprise-apps",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#October_28_2026-use-a-single-regional-agent-registry-instance-for-gemini-enterprise-apps",
       "tags": [
         "change",
         "google",
@@ -3040,7 +3064,7 @@
         "ja": "Feature Gemini Robotics ER 2 (Preview) Gemini Robotics ER 2 ( gemini-robotics-er-2-preview ) is available in Preview. Gemini Robotics ER 2 is an embodied reasoning vision-language model built on Gemini 3.5 Flash for robotics applications, including spatial reasoning, agentic code execution, task orchestration, and video understanding. Feature xAI's Grok 4.7 is generally available Grok 4.7 is now generally available (GA) for production use on the global endpoint and the US multi-region endpoint.",
         "en": "Feature Gemini Robotics ER 2 (Preview) Gemini Robotics ER 2 ( gemini-robotics-er-2-preview ) is available in Preview. Gemini Robotics ER 2 is an embodied reasoning vision-language model built on Gemini 3.5 Flash for robotics applications, including spatial reasoning, agentic code execution, task orchestration, and video understanding. Feature xAI's Grok 4.7 is generally available Grok 4.7 is now generally available (GA) for production use on the global endpoint and the US multi-region endpoint."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_27_2026-gemini-robotics-er-2-preview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#October_27_2026-gemini-robotics-er-2-preview",
       "tags": [
         "feature",
         "google",
@@ -4241,7 +4265,7 @@
         "ja": "Feature Supervised fine-tuning for Gemini 3 models is available in General Availability Supervised fine-tuning for Gemini 3 models is available in General Availability (GA). Key updates include the following: Gemini 3.5 Flash Lite support: Supervised fine-tuning is now supported for Gemini 3.5 Flash Lite ( gemini-3.5-flash-lite ), in addition to Gemini 3.5 Flash ( gemini-3.5-flash ) and Gemini 3.1 Flash Lite ( gemini-3.1-flash-lite ).",
         "en": "Feature Supervised fine-tuning for Gemini 3 models is available in General Availability Supervised fine-tuning for Gemini 3 models is available in General Availability (GA). Key updates include the following: Gemini 3.5 Flash Lite support: Supervised fine-tuning is now supported for Gemini 3.5 Flash Lite ( gemini-3.5-flash-lite ), in addition to Gemini 3.5 Flash ( gemini-3.5-flash ) and Gemini 3.1 Flash Lite ( gemini-3.1-flash-lite )."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_19_2026-supervised-fine-tuning-for-gemini-3-models-is-available-in-general-availability",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#October_19_2026-supervised-fine-tuning-for-gemini-3-models-is-available-in-general-availability",
       "tags": [
         "feature",
         "google",
@@ -5928,7 +5952,7 @@
         "ja": "Feature Gemini Nano Banana 2.1 Gemini Nano Banana 2.1 ( gemini-nano-banana-2.1 ) is available in General Availability (GA). Gemini Nano Banana 2.1 is optimized for high-speed multimodal image generation and editing, offering improved visual quality, prompt adherence, and text rendering across 1K, 2K, and 4K output resolutions.",
         "en": "Feature Gemini Nano Banana 2.1 Gemini Nano Banana 2.1 ( gemini-nano-banana-2.1 ) is available in General Availability (GA). Gemini Nano Banana 2.1 is optimized for high-speed multimodal image generation and editing, offering improved visual quality, prompt adherence, and text rendering across 1K, 2K, and 4K output resolutions."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_06_2026-gemini-nano-banana-2-1",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#October_06_2026-gemini-nano-banana-2-1",
       "tags": [
         "feature",
         "google",
@@ -6112,7 +6136,7 @@
         "ja": "Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files.",
         "en": "Fixed CodeMender updates (v0.12.0) This release introduces updates to CodeMender: Hidden file scanning: Added the --include-hidden flag to cm find (or include_hidden under scan in config.yaml ) to include hidden directories and files, such as.github/ and.config/, in vulnerability scans. Larger file support: Raised the default file discovery size limit ( max_file_size_kb ) from 500 KB to 2 MiB so cm find no longer skips large source files."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#October_05_2026-codemender-updates-v0-12-0",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#October_05_2026-codemender-updates-v0-12-0",
       "tags": [
         "fixed",
         "google",
@@ -6551,7 +6575,7 @@
         "ja": "Feature Cloud Trace integration with Agent Gateway (Preview) Agent Gateway integrates with Cloud Trace in Preview to provide end-to-end request observability for agent workloads. Enabling Cloud Trace gives you visibility into how requests travel from your agents through the gateway and across Google Cloud services, tools, agents, and MCP servers. For more information, see Use Cloud Trace. Feature xAI's Grok 4.7 Grok 4.7 is available in Preview in Model Garden.",
         "en": "Feature Cloud Trace integration with Agent Gateway (Preview) Agent Gateway integrates with Cloud Trace in Preview to provide end-to-end request observability for agent workloads. Enabling Cloud Trace gives you visibility into how requests travel from your agents through the gateway and across Google Cloud services, tools, agents, and MCP servers. For more information, see Use Cloud Trace. Feature xAI's Grok 4.7 Grok 4.7 is available in Preview in Model Garden."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_30_2026-cloud-trace-integration-with-agent-gateway-preview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_30_2026-cloud-trace-integration-with-agent-gateway-preview",
       "tags": [
         "feature",
         "google",
@@ -7045,7 +7069,7 @@
         "ja": "Feature Semantic governance policies support VPC Service Controls (Preview) Semantic governance policy and the Semantic governance policy engine support VPC Service Controls in Preview. You can include Semantic governance policy and the policy engine in your service perimeter to help mitigate the risk of data exfiltration when governing agent tool calls. For more information, see VPC Service Controls with Gemini Enterprise Agent Platform and Semantic governance policies overview.",
         "en": "Feature Semantic governance policies support VPC Service Controls (Preview) Semantic governance policy and the Semantic governance policy engine support VPC Service Controls in Preview. You can include Semantic governance policy and the policy engine in your service perimeter to help mitigate the risk of data exfiltration when governing agent tool calls. For more information, see VPC Service Controls with Gemini Enterprise Agent Platform and Semantic governance policies overview."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_25_2026-semantic-governance-policies-support-vpc-service-controls-preview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_25_2026-semantic-governance-policies-support-vpc-service-controls-preview",
       "tags": [
         "feature",
         "google",
@@ -7942,7 +7966,7 @@
         "ja": "Feature xAI's Grok 4.6 is generally available Grok 4.6 is now generally available (GA) and available for production use on the global endpoint and the US multi-region endpoint. Breaking Agent Platform SDK for Python version 2.0.1 is available Version 2.0.1 of the Agent Platform SDK for Python ( google-cloud-agentplatform ) is now available.",
         "en": "Feature xAI's Grok 4.6 is generally available Grok 4.6 is now generally available (GA) and available for production use on the global endpoint and the US multi-region endpoint. Breaking Agent Platform SDK for Python version 2.0.1 is available Version 2.0.1 of the Agent Platform SDK for Python ( google-cloud-agentplatform ) is now available."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_18_2026-xai-s-grok-4-6-is-generally-available",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_18_2026-xai-s-grok-4-6-is-generally-available",
       "tags": [
         "feature",
         "google",
@@ -8101,7 +8125,7 @@
         "ja": "Feature Gemini Omni Flash supports stateful and streaming video generation (Preview) Gemini Omni Flash supports stateful ( store: true ) and server-sent event (SSE) streaming ( stream: true ) video generation in the Interactions API in Preview. You can temporarily store generated videos and interaction state on the server, stream status updates and final outputs over an SSE connection, or retrieve completed asynchronous interactions using unary or streaming GET requests.",
         "en": "Feature Gemini Omni Flash supports stateful and streaming video generation (Preview) Gemini Omni Flash supports stateful ( store: true ) and server-sent event (SSE) streaming ( stream: true ) video generation in the Interactions API in Preview. You can temporarily store generated videos and interaction state on the server, stream status updates and final outputs over an SSE connection, or retrieve completed asynchronous interactions using unary or streaming GET requests."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_17_2026-gemini-omni-flash-supports-stateful-and-streaming-video-generation-preview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_17_2026-gemini-omni-flash-supports-stateful-and-streaming-video-generation-preview",
       "tags": [
         "feature",
         "google",
@@ -8307,7 +8331,7 @@
         "ja": "Feature CodeMender updates (v0.8.0) This release introduces updates to CodeMender: Gemini 3.8 Flash default: Gemini 3.8 Flash ( gemini-3.8-flash ) is now supported and enabled as the default model for CodeMender CLI sessions, delivering faster inference and improved reasoning. A one-time notice in the CLI informs users when the new default is active.",
         "en": "Feature CodeMender updates (v0.8.0) This release introduces updates to CodeMender: Gemini 3.8 Flash default: Gemini 3.8 Flash ( gemini-3.8-flash ) is now supported and enabled as the default model for CodeMender CLI sessions, delivering faster inference and improved reasoning. A one-time notice in the CLI informs users when the new default is active."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_16_2026-codemender-updates-v0-8-0",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_16_2026-codemender-updates-v0-8-0",
       "tags": [
         "feature",
         "google",
@@ -8378,7 +8402,7 @@
         "ja": "Feature Reinforcement learning fine-tuning in the Google Cloud console (Preview) You can create, monitor, and test reinforcement learning fine-tuning jobs for Gemini models in the Google Cloud console ( Preview ). From the Models > Tuning page, you can configure Python code or model-based reward functions, test reward logic against sample prompts before launching a job, track training and evaluation metrics in real time, and test tuned checkpoints in Agent Studio.",
         "en": "Feature Reinforcement learning fine-tuning in the Google Cloud console (Preview) You can create, monitor, and test reinforcement learning fine-tuning jobs for Gemini models in the Google Cloud console ( Preview ). From the Models > Tuning page, you can configure Python code or model-based reward functions, test reward logic against sample prompts before launching a job, track training and evaluation metrics in real time, and test tuned checkpoints in Agent Studio."
       },
-      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/docs/release-notes#September_15_2026-reinforcement-learning-fine-tuning-in-the-google-cloud-console-preview",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#September_15_2026-reinforcement-learning-fine-tuning-in-the-google-cloud-console-preview",
       "tags": [
         "feature",
         "google",
@@ -11119,7 +11143,7 @@
         "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
         "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
       },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_k8hr6ilfivaiv55upfl6ml9ilb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#_R_524ulklbsnqknp9fmbt6ql6ilb_-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
       "tags": [
         "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
         "anthropic",
@@ -11642,195 +11666,6 @@
       ],
       "source": "GitHub Changelog",
       "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-openai-testing-ads-in-chatgpt",
-      "date": "2026-08-11",
-      "category": "openai",
-      "title": {
-        "zh": "在 ChatGPT 中测试广告",
-        "ja": "ChatGPT での広告のテスト",
-        "en": "Testing ads in ChatGPT"
-      },
-      "summary": {
-        "zh": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
-        "ja": "OpenAI は、明確なラベル付け、回答の独立性、強力なプライバシー保護、ユーザー制御を備えた無料アクセスをサポートするために、ChatGPT で広告のテストを開始します。",
-        "en": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control."
-      },
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "tags": [
-        "company",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-08-11-openai-daybreak-models-are-now-available-on-aws",
-      "date": "2026-08-11",
-      "category": "openai",
-      "title": {
-        "zh": "Daybreak 模型现已在 AWS 上提供",
-        "ja": "Daybreak モデルが AWS で利用可能になりました",
-        "en": "Daybreak models are now available on AWS"
-      },
-      "summary": {
-        "zh": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
-        "ja": "OpenAI と AWS は、エンタープライズ セキュリティ ワークフローをサポートするために、Amazon Bedrock を通じて Daybreak サイバーセキュリティ機能を利用できるようにしています。",
-        "en": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows."
-      },
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "tags": [
-        "product",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "Upcoming deprecation of MAI-Code-1-Flash",
-        "ja": "Upcoming deprecation of MAI-Code-1-Flash",
-        "en": "Upcoming deprecation of MAI-Code-1-Flash"
-      },
-      "summary": {
-        "zh": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows and integrations to use the new model before September 10. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings.",
-        "ja": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows and integrations to use the new model before September 10. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings.",
-        "en": "With the launch of MAI-Code-1.1-Flash, we will deprecate MAI-Code-1-Flash across all GitHub Copilot experiences on September 10, 2026: Model Deprecation date Suggested alternative MAI-Code-1-Flash 9-10-2026 MAI-Code-1.1-Flash Please update your workflows and integrations to use the new model before September 10. Copilot Enterprise administrators may need to enable access to the alternative model through their model policies in Copilot settings."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
-      "tags": [
-        "retired",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-per-model-token-breakdown-in-the-usage-report",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "Per-model token breakdown in the usage report",
-        "ja": "Per-model token breakdown in the usage report",
-        "en": "Per-model token breakdown in the usage report"
-      },
-      "summary": {
-        "zh": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed.",
-        "ja": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed.",
-        "en": "You can now see a per-model breakdown of the tokens behind your AI credits in the usage report. For each model, the AI usage report shows the input, output, cache read, and cache write tokens alongside the AI credits it consumed."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
-      "tags": [
-        "improvement",
-        "account-management",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "MAI-Code-1.1-Flash available in GitHub Copilot",
-        "ja": "MAI-Code-1.1-Flash available in GitHub Copilot",
-        "en": "MAI-Code-1.1-Flash available in GitHub Copilot"
-      },
-      "summary": {
-        "zh": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance.",
-        "ja": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance.",
-        "en": "MAI-Code-1.1-Flash, Microsoft’s latest small-tier coding model, is now rolling out in GitHub Copilot. Building on MAI-Code-1-Flash, it adds native vision support for image understanding and delivers improvements across coding quality, instruction following, tool use, and performance."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-github-enterprise-server-3-22-release-candidate",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Enterprise Server 3.22 release candidate",
-        "ja": "GitHub Enterprise Server 3.22 release candidate",
-        "en": "GitHub Enterprise Server 3.22 release candidate"
-      },
-      "summary": {
-        "zh": "GitHub Enterprise Server (GHES) 3.22 现已推出，并在整个平台上引入了新功能。以下是 3.22 版本中的一些亮点： 管理员可以配置 Copilot CLI 以便与在断开连接或气隙环境中运行而无需连接到 GitHub 云的企业的 GHES 配合使用。",
-        "ja": "GitHub Enterprise Server (GHES) 3.22 が利用可能になり、プラットフォーム全体に新機能が導入されました。 3.22 リリースのハイライトをいくつか紹介します。 管理者は、GitHub クラウドに接続せずに、切断された環境またはエアギャップ環境で運用する企業向けに、GHES と連携するように Copilot CLI を構成できます。",
-        "en": "GitHub Enterprise Server (GHES) 3.22 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.22 release: Administrators can configure Copilot CLI to work with GHES for enterprises that operate in disconnected or air-gapped environments without connectivity to GitHub Cloud."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-github-enterprise-server-3-22-release-candidate",
-      "tags": [
-        "release",
-        "collaboration-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-github-2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-      "date": "2026-08-11",
-      "category": "github",
-      "title": {
-        "zh": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
-        "ja": "Copilot memory and Ollama in GitHub Copilot for JetBrains",
-        "en": "Copilot memory and Ollama in GitHub Copilot for JetBrains"
-      },
-      "summary": {
-        "zh": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents.",
-        "ja": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents.",
-        "en": "This update brings persistent memory, local model access, and more enterprise controls to GitHub Copilot for JetBrains. It also improves everyday chat workflows and resolves reliability issues across MCP servers, terminals, customizations, and cloud agents."
-      },
-      "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
-      "tags": [
-        "release",
-        "copilot",
-        "enterprise-management-tools",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-08-11-anthropic-workspaces",
-      "date": "2026-08-11",
-      "category": "anthropic",
-      "title": {
-        "zh": "人类工作空间 ID",
-        "ja": "人間ワークスペースID",
-        "en": "anthropic-workspace-id"
-      },
-      "summary": {
-        "zh": "We’ve added the anthropic-workspace-id response header to the Claude API. It carries the wrkspc_ -prefixed ID of the workspace that the request’s API key or access token resolved to, including your organization’s Default Workspace. See Identify the workspace behind an API response.",
-        "ja": "We’ve added the anthropic-workspace-id response header to the Claude API. It carries the wrkspc_ -prefixed ID of the workspace that the request’s API key or access token resolved to, including your organization’s Default Workspace. See Identify the workspace behind an API response.",
-        "en": "We’ve added the anthropic-workspace-id response header to the Claude API. It carries the wrkspc_ -prefixed ID of the workspace that the request’s API key or access token resolved to, including your organization’s Default Workspace. See Identify the workspace behind an API response."
-      },
-      "url": "https://platform.claude.com/docs/en/manage-claude/workspaces#identify-the-workspace-behind-an-api-response",
-      "tags": [
-        "anthropic-workspace-id",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
     }
   ]
 }
