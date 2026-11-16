@@ -1200,14 +1200,15 @@ def parse_anthropic_release_entries(cutoff: date) -> list[FeedEntry]:
     html = fetch_text('https://platform.claude.com/docs/en/release-notes/overview')
     entries: list[FeedEntry] = []
     section_pattern = re.compile(
-        r'<h3[^>]*>(?P<header>.*?)</h3>\s*<ul[^>]*>(?P<body>.*?)</ul>',
+        # The docs page may insert React Suspense markers (<!--$--><!--/$-->) between a heading and its list.
+        r'<h3(?P<attrs>[^>]*)>(?P<header>(?:(?!</h3>).)*?)</h3>\s*(?:<!--.*?-->\s*)*<ul[^>]*>(?P<body>.*?)</ul>',
         re.S,
     )
     item_pattern = re.compile(r'<li[^>]*>(.*?)</li>', re.S)
 
     for section_match in section_pattern.finditer(html):
         header = section_match.group('header')
-        anchor_match = re.search(r'id="([^"]+)"', header)
+        anchor_match = re.search(r'id="([^"]+)"', section_match.group('attrs')) or re.search(r'id="([^"]+)"', header)
         published_match = re.search(r'[A-Za-z]+ \d{1,2}, \d{4}', strip_html(header))
         if not anchor_match or not published_match:
             continue
