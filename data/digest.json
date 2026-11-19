@@ -25,6 +25,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-19-openai-changelog",
+      "date": "2026-11-19",
+      "category": "openai",
+      "title": {
+        "zh": "GPT-Live-1.1, describe in plain language when to delegate",
+        "ja": "GPT-Live-1.1, describe in plain language when to delegate",
+        "en": "GPT-Live-1.1, describe in plain language when to delegate"
+      },
+      "summary": {
+        "zh": "GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend.",
+        "ja": "GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend.",
+        "en": "GPT-Live-1.1 improves pronunciation, accent consistency, and transcription in multilingual voice conversations. Use gpt-live-1.1 in an existing Live session configuration and describe in plain language when to delegate to your backend."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-11-19-feature-gpt-live-1-1-describe-in-plain-language-when-to-delegate",
+      "tags": [
+        "gpt-live-1-1",
+        "v1-live-sessions",
+        "feature",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-11-19-google-gemini-api-tool-retrieval",
       "date": "2026-11-19",
       "category": "google",
@@ -1416,6 +1441,29 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-11-13-google-release-notes",
+      "date": "2026-11-13",
+      "category": "google",
+      "title": {
+        "zh": "Voice remixing for Gemini 3.8 TTS models in Preview",
+        "ja": "Voice remixing for Gemini 3.8 TTS models in Preview",
+        "en": "Voice remixing for Gemini 3.8 TTS models in Preview"
+      },
+      "summary": {
+        "zh": "Feature Voice remixing for Gemini 3.8 TTS models in Preview Voice remixing is available in Preview for Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Voice remixing creates a new custom voice from an existing prebuilt, Extended Voice Library, designed, or remixed voice. You provide a natural-language description of the changes to make, such as a different age, pitch, energy, or accent. To remix a voice, set prompted.base_voice in a Voices API create request.",
+        "ja": "Feature Voice remixing for Gemini 3.8 TTS models in Preview Voice remixing is available in Preview for Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Voice remixing creates a new custom voice from an existing prebuilt, Extended Voice Library, designed, or remixed voice. You provide a natural-language description of the changes to make, such as a different age, pitch, energy, or accent. To remix a voice, set prompted.base_voice in a Voices API create request.",
+        "en": "Feature Voice remixing for Gemini 3.8 TTS models in Preview Voice remixing is available in Preview for Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS. Voice remixing creates a new custom voice from an existing prebuilt, Extended Voice Library, designed, or remixed voice. You provide a natural-language description of the changes to make, such as a different age, pitch, energy, or accent. To remix a voice, set prompted.base_voice in a Voices API create request."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_13_2026-voice-remixing-for-gemini-3-8-tts-models-in-preview",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-13-github-2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
       "date": "2026-11-13",
       "category": "github",
@@ -1457,6 +1505,30 @@
       "tags": [
         "improvement",
         "application-security",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-13-github-2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "date": "2026-11-13",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Enterprise Server support in the GitHub Copilot app",
+        "ja": "GitHub Enterprise Server support in the GitHub Copilot app",
+        "en": "GitHub Enterprise Server support in the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests.",
+        "ja": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests.",
+        "en": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests."
+      },
+      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+      "tags": [
+        "release",
+        "copilot",
         "github",
         "changelog"
       ],
@@ -4571,6 +4643,31 @@
       "tags": [
         "release",
         "application-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-10-28-github-2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud",
+      "date": "2026-10-28",
+      "category": "github",
+      "title": {
+        "zh": "Agent Merge watches and fixes pull requests in the cloud",
+        "ja": "Agent Merge watches and fixes pull requests in the cloud",
+        "en": "Agent Merge watches and fixes pull requests in the cloud"
+      },
+      "summary": {
+        "zh": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub.",
+        "ja": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub.",
+        "en": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub."
+      },
+      "url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud",
+      "tags": [
+        "release",
+        "copilot",
         "universe26",
         "github",
         "changelog"
@@ -9129,6 +9226,30 @@
       ],
       "source": "Google DeepMind News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-09-23-github-2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "date": "2026-09-23",
+      "category": "github",
+      "title": {
+        "zh": "Local sandboxing in the GitHub Copilot app",
+        "ja": "Local sandboxing in the GitHub Copilot app",
+        "en": "Local sandboxing in the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.",
+        "ja": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.",
+        "en": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions."
+      },
+      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-09-23-github-2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
