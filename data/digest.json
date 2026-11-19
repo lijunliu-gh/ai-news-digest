@@ -3,6 +3,51 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-11-19-openai-how-openai-performance-factory-keeps-chatgpt-fast",
+      "date": "2026-11-19",
+      "category": "openai",
+      "title": {
+        "zh": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "ja": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "en": "How OpenAI’s Performance Factory keeps ChatGPT fast"
+      },
+      "summary": {
+        "zh": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+        "ja": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+        "en": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+      },
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "tags": [
+        "engineering",
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-19-google-gemini-api-tool-retrieval",
+      "date": "2026-11-19",
+      "category": "google",
+      "title": {
+        "zh": "Introducing Tool Retrieval in the Gemini API",
+        "ja": "Introducing Tool Retrieval in the Gemini API",
+        "en": "Introducing Tool Retrieval in the Gemini API"
+      },
+      "summary": {
+        "zh": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+        "ja": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+        "en": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API."
+      },
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "tags": [
+        "developer-tools",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
       "id": "2026-11-19-github-2026-11-18-wait-for-pull-request-events-with-github-cli",
       "date": "2026-11-19",
       "category": "github",
@@ -1412,30 +1457,6 @@
       "tags": [
         "improvement",
         "application-security",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-11-13-github-2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "date": "2026-11-13",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Enterprise Server support in the GitHub Copilot app",
-        "ja": "GitHub Enterprise Server support in the GitHub Copilot app",
-        "en": "GitHub Enterprise Server support in the GitHub Copilot app"
-      },
-      "summary": {
-        "zh": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests.",
-        "ja": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests.",
-        "en": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests."
-      },
-      "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-      "tags": [
-        "release",
-        "copilot",
         "github",
         "changelog"
       ],
@@ -4558,31 +4579,6 @@
       "sourceType": "changelog"
     },
     {
-      "id": "2026-10-28-github-2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud",
-      "date": "2026-10-28",
-      "category": "github",
-      "title": {
-        "zh": "Agent Merge watches and fixes pull requests in the cloud",
-        "ja": "Agent Merge watches and fixes pull requests in the cloud",
-        "en": "Agent Merge watches and fixes pull requests in the cloud"
-      },
-      "summary": {
-        "zh": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub.",
-        "ja": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub.",
-        "en": "With Agent Merge, Copilot watches your pull request and automatically fixes blockers, (e.g., failing Actions workflows and merge conflicts) that stand in the way of getting your pull request merged. Already available in the GitHub Copilot app and Visual Studio Code, Agent Merge is now integrated into pull requests on GitHub."
-      },
-      "url": "https://github.blog/changelog/2026-10-28-agent-merge-watches-and-fixes-pull-requests-in-the-cloud",
-      "tags": [
-        "release",
-        "copilot",
-        "universe26",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-10-28-anthropic-overview",
       "date": "2026-10-28",
       "category": "anthropic",
@@ -6117,6 +6113,31 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-10-16-github-2026-10-16-open-source-license-compliance-generally-available",
+      "date": "2026-10-16",
+      "category": "github",
+      "title": {
+        "zh": "Open source license compliance generally available",
+        "ja": "Open source license compliance generally available",
+        "en": "Open source license compliance generally available"
+      },
+      "summary": {
+        "zh": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud customers, including data-resident GHEC, for repositories with GitHub Code Security enabled.",
+        "ja": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud customers, including data-resident GHEC, for repositories with GitHub Code Security enabled.",
+        "en": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud customers, including data-resident GHEC, for repositories with GitHub Code Security enabled."
+      },
+      "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+      "tags": [
+        "release",
+        "supply-chain-security",
+        "universe26",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-10-16-github-2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
@@ -8199,6 +8220,30 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-30-github-2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "date": "2026-09-30",
+      "category": "github",
+      "title": {
+        "zh": "HydraFusion in VS Code and the GitHub Copilot app",
+        "ja": "HydraFusion in VS Code and the GitHub Copilot app",
+        "en": "HydraFusion in VS Code and the GitHub Copilot app"
+      },
+      "summary": {
+        "zh": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models.",
+        "ja": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models.",
+        "en": "The HydraFusion research preview is now available in Visual Studio Code and the GitHub Copilot app, expanding beyond Copilot CLI. HydraFusion appears in the model picker, but rather than being a single model, it orchestrates multiple models."
+      },
+      "url": "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-30-anthropic-migration-guide",
       "date": "2026-09-30",
       "category": "anthropic",
@@ -9086,30 +9131,6 @@
       "sourceType": "news"
     },
     {
-      "id": "2026-09-23-github-2026-09-23-local-sandboxing-in-the-github-copilot-app",
-      "date": "2026-09-23",
-      "category": "github",
-      "title": {
-        "zh": "Local sandboxing in the GitHub Copilot app",
-        "ja": "Local sandboxing in the GitHub Copilot app",
-        "en": "Local sandboxing in the GitHub Copilot app"
-      },
-      "summary": {
-        "zh": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.",
-        "ja": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions.",
-        "en": "Local sandboxing helps reduce the potential impact of unintended commands by limiting access to files, network resources, and credentials on your machine. In the GitHub Copilot app, you configure it per project for local repository and working tree sessions."
-      },
-      "url": "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
-      "tags": [
-        "release",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
       "id": "2026-09-23-github-2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
       "date": "2026-09-23",
       "category": "github",
@@ -9452,6 +9473,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-09-21-github-2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "date": "2026-09-21",
+      "category": "github",
+      "title": {
+        "zh": "Grok 4.7 is now available in GitHub Copilot",
+        "ja": "Grok 4.7 is now available in GitHub Copilot",
+        "en": "Grok 4.7 is now available in GitHub Copilot"
+      },
+      "summary": {
+        "zh": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows.",
+        "ja": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows.",
+        "en": "Grok 4.7, xAI’s latest reasoning model, is now rolling out in GitHub Copilot. Building on Grok 4.6, it is designed for agentic coding and complex, multistep workflows."
+      },
+      "url": "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-09-21-anthropic-features",
@@ -11244,6 +11289,31 @@
       "sourceType": "news"
     },
     {
+      "id": "2026-09-01-github-2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "date": "2026-09-01",
+      "category": "github",
+      "title": {
+        "zh": "Set an expiration date for individual user budgets",
+        "ja": "Set an expiration date for individual user budgets",
+        "en": "Set an expiration date for individual user budgets"
+      },
+      "summary": {
+        "zh": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available.",
+        "ja": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available.",
+        "en": "You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available."
+      },
+      "url": "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+      "tags": [
+        "improvement",
+        "copilot",
+        "enterprise-management-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
       "id": "2026-09-01-github-2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
       "date": "2026-09-01",
       "category": "github",
@@ -12158,6 +12228,30 @@
       ],
       "source": "OpenAI News",
       "sourceType": "news"
+    },
+    {
+      "id": "2026-08-25-github-2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "date": "2026-08-25",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot app Customize tab is generally available",
+        "ja": "GitHub Copilot app Customize tab is generally available",
+        "en": "GitHub Copilot app Customize tab is generally available"
+      },
+      "summary": {
+        "zh": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.",
+        "ja": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place.",
+        "en": "GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The new Customize tab in the GitHub Copilot app brings MCP servers, plugins, skills, and canvases together in one place."
+      },
+      "url": "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available",
+      "tags": [
+        "release",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
     },
     {
       "id": "2026-08-25-github-2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
