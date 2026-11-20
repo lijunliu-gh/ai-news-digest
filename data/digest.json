@@ -74,6 +74,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-11-19-google-release-notes",
+      "date": "2026-11-19",
+      "category": "google",
+      "title": {
+        "zh": "Gemini 4 Hydrogen in CodeMender (Preview)",
+        "ja": "Gemini 4 Hydrogen in CodeMender (Preview)",
+        "en": "Gemini 4 Hydrogen in CodeMender (Preview)"
+      },
+      "summary": {
+        "zh": "Feature Gemini 4 Hydrogen in CodeMender (Preview) CodeMender now supports Gemini 4 Hydrogen. To use it, pass --model gemini-4-hydrogen to cm find, cm verify, or cm fix. Gemini 3.8 Flash remains the default model. Starting January 12, 2027, CodeMender sessions on Gemini 4 Hydrogen also bill cache writes. For prices, see the CodeMender pricing. For more information, see Specifying the model.",
+        "ja": "Feature Gemini 4 Hydrogen in CodeMender (Preview) CodeMender now supports Gemini 4 Hydrogen. To use it, pass --model gemini-4-hydrogen to cm find, cm verify, or cm fix. Gemini 3.8 Flash remains the default model. Starting January 12, 2027, CodeMender sessions on Gemini 4 Hydrogen also bill cache writes. For prices, see the CodeMender pricing. For more information, see Specifying the model.",
+        "en": "Feature Gemini 4 Hydrogen in CodeMender (Preview) CodeMender now supports Gemini 4 Hydrogen. To use it, pass --model gemini-4-hydrogen to cm find, cm verify, or cm fix. Gemini 3.8 Flash remains the default model. Starting January 12, 2027, CodeMender sessions on Gemini 4 Hydrogen also bill cache writes. For prices, see the CodeMender pricing. For more information, see Specifying the model."
+      },
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes#November_19_2026-gemini-4-hydrogen-in-codemender-preview",
+      "tags": [
+        "feature",
+        "google",
+        "release-notes"
+      ],
+      "source": "Google Cloud Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-19-google-gemini-api-tool-retrieval",
       "date": "2026-11-19",
       "category": "google",
@@ -908,6 +931,30 @@
       "tags": [
         "release",
         "client-apps",
+        "copilot",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-17-github-2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
+      "date": "2026-11-17",
+      "category": "github",
+      "title": {
+        "zh": "GitHub Copilot benchmarks site adds harness comparisons",
+        "ja": "GitHub Copilot benchmarks site adds harness comparisons",
+        "en": "GitHub Copilot benchmarks site adds harness comparisons"
+      },
+      "summary": {
+        "zh": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.",
+        "ja": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.",
+        "en": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task."
+      },
+      "url": "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
+      "tags": [
+        "release",
         "copilot",
         "github",
         "changelog"
