@@ -1,7 +1,31 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-11-20-github-2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "date": "2026-11-20",
+      "category": "github",
+      "title": {
+        "zh": "Improvements on the pull request overview in public preview",
+        "ja": "Improvements on the pull request overview in public preview",
+        "en": "Improvements on the pull request overview in public preview"
+      },
+      "summary": {
+        "zh": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new!",
+        "ja": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new!",
+        "en": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new!"
+      },
+      "url": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+      "tags": [
+        "improvement",
+        "collaboration-tools",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
     {
       "id": "2026-11-19-openai-how-openai-performance-factory-keeps-chatgpt-fast",
       "date": "2026-11-19",
@@ -884,30 +908,6 @@
       "tags": [
         "release",
         "client-apps",
-        "copilot",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
-    },
-    {
-      "id": "2026-11-17-github-2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
-      "date": "2026-11-17",
-      "category": "github",
-      "title": {
-        "zh": "GitHub Copilot benchmarks site adds harness comparisons",
-        "ja": "GitHub Copilot benchmarks site adds harness comparisons",
-        "en": "GitHub Copilot benchmarks site adds harness comparisons"
-      },
-      "summary": {
-        "zh": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.",
-        "ja": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.",
-        "en": "GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task."
-      },
-      "url": "https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons",
-      "tags": [
-        "release",
         "copilot",
         "github",
         "changelog"
@@ -12604,166 +12604,6 @@
       "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
       "tags": [
         "computer-toolset-20260801",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-openai-offering-zero-data-retention-for-frontier-models",
-      "date": "2026-08-19",
-      "category": "openai",
-      "title": {
-        "zh": "为前沿模型提供零数据保留",
-        "ja": "フロンティアモデル向けにゼロデータ保持を提供",
-        "en": "Offering Zero Data Retention for frontier models"
-      },
-      "summary": {
-        "zh": "OpenAI 重申符合条件的 API 客户的零数据保留，并预览私人安全处理，以实现先进的人工智能安全，而不损害数据隐私。",
-        "ja": "OpenAI は、対象となる API 顧客に対してデータ保持ゼロを再確認し、データ プライバシーを損なうことなく高度な AI 安全性を実現するプライベート セーフティ処理をプレビューします。",
-        "en": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
-      },
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "tags": [
-        "company",
-        "openai"
-      ],
-      "source": "OpenAI News",
-      "sourceType": "news"
-    },
-    {
-      "id": "2026-08-19-anthropic-tools",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "网络搜索",
-        "ja": "ウェブ検索",
-        "en": "web_search"
-      },
-      "summary": {
-        "zh": "You can now restrict which sites a Claude Managed Agents agent’s web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool’s entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location.",
-        "ja": "You can now restrict which sites a Claude Managed Agents agent’s web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool’s entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location.",
-        "en": "You can now restrict which sites a Claude Managed Agents agent’s web_search and web_fetch tools can reach. Set allowed_domains or blocked_domains on the tool’s entry in the agent_toolset_20260401 configs array; web_fetch also accepts max_content_tokens and web_search accepts user_location."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/tools#config-entry-types-in-the-sdks",
-      "tags": [
-        "web-search",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-session-observability",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "Inspect a session in the Console",
-        "ja": "Inspect a session in the Console",
-        "en": "Inspect a session in the Console"
-      },
-      "summary": {
-        "zh": "The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Inspect a session in the Console.",
-        "ja": "The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Inspect a session in the Console.",
-        "en": "The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See Inspect a session in the Console."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/session-observability#inspect-a-session-in-the-console",
-      "tags": [
-        "inspect-a-session-in-the-console",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-self-hosted-sandboxes",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "挂载路径",
-        "ja": "マウントパス",
-        "en": "mount_path"
-      },
-      "summary": {
-        "zh": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent’s changes back to the store. See Memory stores in self-hosted sandboxes.",
-        "ja": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent’s changes back to the store. See Memory stores in self-hosted sandboxes.",
-        "en": "Claude Managed Agents sessions that run in a self-hosted sandbox can now attach memory stores. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its mount_path and sync the agent’s changes back to the store. See Memory stores in self-hosted sandboxes."
-      },
-      "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes",
-      "tags": [
-        "mount-path",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-overview-2",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "代理技巧",
-        "ja": "エージェントのスキル",
-        "en": "Agent Skills"
-      },
-      "summary": {
-        "zh": "代理技能和技能 API ( /v1/skills ) 在 Claude API 上已经过测试版。请求不再需要 Skills-2025-10-02 beta 标头，包括通过容器参数加载技能的 Messages API 请求。仍然发送标头的请求将继续保持不变。请参阅通过 API 使用代理技能。要将现有集成移出标题，请参阅从技能迁移-2025-10-02。",
-        "ja": "エージェント スキルとスキル API ( /v1/skills ) は、Claude API のベータ版ではなくなりました。コンテナパラメータを介してスキルをロードするメッセージ API リクエストを含むリクエストには、skills-2025-10-02 ベータヘッダーが必要なくなりました。ヘッダーを送信するリクエストは変更されずに動作し続けます。 「API でのエージェント スキルの使用」を参照してください。既存の統合をヘッダーから移動するには、「スキル 2025-10-02 からの移行」を参照してください。",
-        "en": "Agent Skills and the Skills API ( /v1/skills ) are out of beta on the Claude API. Requests no longer require the skills-2025-10-02 beta header, including Messages API requests that load Skills through the container parameter. Requests that still send the header continue to work unchanged. See Using Agent Skills with the API. To move an existing integration off the header, see Migrate from skills-2025-10-02."
-      },
-      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
-      "tags": [
-        "agent-skills",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-overview",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "这两个工具集均可用于 Claude Fable 5、Claude Mythos 5、Claude",
-        "ja": "どちらのツールセットも、Claude Fable 5、Claude Mythos 5、Claude で使用できます。",
-        "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude"
-      },
-      "summary": {
-        "zh": "这两个工具集均可用于 Claude API 上的 Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5 和 Claude Opus 4.8。",
-        "ja": "どちらのツールセットも、Claude API の Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 で使用できます。",
-        "en": "Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API."
-      },
-      "url": "https://platform.claude.com/docs/en/release-notes/overview#august-19-2026-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude-opus-5-claude-sonnet-5-and-claude-opus-4-8-on-the-claude-api-both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
-      "tags": [
-        "both-toolsets-are-available-for-claude-fable-5-claude-mythos-5-claude",
-        "anthropic",
-        "release-notes"
-      ],
-      "source": "Anthropic Release Notes",
-      "sourceType": "release-notes"
-    },
-    {
-      "id": "2026-08-19-anthropic-files",
-      "date": "2026-08-19",
-      "category": "anthropic",
-      "title": {
-        "zh": "文件API",
-        "ja": "ファイルAPI",
-        "en": "Files API"
-      },
-      "summary": {
-        "zh": "文件 API 在 Claude API 上已结束测试版。对 /v1/files 端点的请求以及引用上传文件的消息 API 请求不再需要 files-api-2025-04-14 beta 标头。不带标头发送的请求使用当前响应格式：文件过期（上传文件时设置 expires_in_seconds；文件对象报告 expires_at ），以及列出文件时的 page 和 next_page 分页以及 ids[] 过滤器。",
-        "ja": "ファイル API は、Claude API のベータ版ではありません。 /v1/files エンドポイントへのリクエスト、およびアップロードされたファイルを参照する Messages API リクエストには、files-api-2025-04-14 ベータ ヘッダーが必要なくなりました。ヘッダーなしで送信されたリクエストでは、現在の応答形式が使用されます。ファイルの有効期限 (ファイルをアップロードするときに、expires_in_秒を設定します。ファイル オブジェクトは、expires_at を報告します)、ファイルをリストするときに、page および next_page のページネーションと ids[] フィルターを使用します。",
-        "en": "The Files API is out of beta on the Claude API. Requests to the /v1/files endpoints, and Messages API requests that reference an uploaded file, no longer require the files-api-2025-04-14 beta header. Requests sent without the header use the current response format: file expiration (set expires_in_seconds when you upload a file; file objects report expires_at ), and page and next_page pagination plus an ids[] filter when you list files."
-      },
-      "url": "https://platform.claude.com/docs/en/build-with-claude/files",
-      "tags": [
-        "files-api",
         "anthropic",
         "release-notes"
       ],
