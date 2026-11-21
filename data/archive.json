@@ -1,7 +1,102 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-21",
   "windowMonths": 3,
   "items": [
+    {
+      "id": "2026-08-20-openai-stampli",
+      "date": "2026-08-20",
+      "category": "openai",
+      "title": {
+        "zh": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68%",
+        "ja": "Stampli は ChatGPT Work を使用して起動時間を 68% 削減します",
+        "en": "Stampli cuts launch hours by 68% using ChatGPT Work"
+      },
+      "summary": {
+        "zh": "在固定的截止日期和在其他地方投入的设计资源的情况下，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
+        "ja": "期限が固定されており、設計リソースが他の場所に割り当てられているため、Stampli は Codex および ChatGPT Work を使用して、数週間にわたるローンチ制作を数日に圧縮しました。",
+        "en": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
+      },
+      "url": "https://openai.com/index/stampli",
+      "tags": [
+        "openai"
+      ],
+      "source": "OpenAI News",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-08-20-openai-changelog",
+      "date": "2026-08-20",
+      "category": "openai",
+      "title": {
+        "zh": "图像生成指南",
+        "ja": "画像生成ガイド",
+        "en": "image generation guide"
+      },
+      "summary": {
+        "zh": "图像 API 和 Responses API 图像生成工具中的 gpt-image-2 和 gpt-image-2-2026-04-21 现已提供透明背景预览。将背景设置为透明并使用 png 或 webp 输出； jpeg 不支持透明背景。",
+        "ja": "透明な背景が、Images API および Responses API 画像生成ツールの gpt-image-2 および gpt-image-2-2026-04-21 のプレビューで利用できるようになりました。背景を透明に設定し、png または webp 出力を使用します。 jpeg は透明な背景をサポートしていません。",
+        "en": "Transparent backgrounds are now available in preview for gpt-image-2 and gpt-image-2-2026-04-21 in the Images API and the Responses API image generation tool. Set background to transparent and use png or webp output; jpeg does not support transparent backgrounds."
+      },
+      "url": "https://developers.openai.com/api/docs/changelog#2026-08-20-update-image-generation-guide",
+      "tags": [
+        "gpt-image-2",
+        "gpt-image-2-2026-04-21",
+        "v1-images-generations",
+        "v1-images-edits",
+        "v1-responses",
+        "update",
+        "openai",
+        "changelog"
+      ],
+      "source": "OpenAI API Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-08-20-anthropic-python",
+      "date": "2026-08-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "Python SDK v1.0",
+        "ja": "Python SDK の v1.0",
+        "en": "v1.0 of the Python SDK"
+      },
+      "summary": {
+        "zh": "We’ve released v1.0 of the Python SDK. The SDK’s HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx.",
+        "ja": "We’ve released v1.0 of the Python SDK. The SDK’s HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx.",
+        "en": "We’ve released v1.0 of the Python SDK. The SDK’s HTTP layer moves from httpx to httpx2, a maintained, API-compatible fork: build custom http_client, Timeout, and transport objects from httpx2 (the DefaultHttpxClient helpers are unchanged), and call httpx2.alias_httpx() at startup if you rely on tracing or mocking libraries that patch httpx."
+      },
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/sdks/python",
+      "tags": [
+        "v1-0-of-the-python-sdk",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-08-20-anthropic-computer-use-tool",
+      "date": "2026-08-20",
+      "category": "anthropic",
+      "title": {
+        "zh": "Computer_toolset_20260801",
+        "ja": "コンピューターツールセット_20260801",
+        "en": "computer_toolset_20260801"
+      },
+      "summary": {
+        "zh": "计算机使用和浏览器使用工具集（computer_toolset_20260801 和 browser_toolset_20260801 ）现在可在 Google Cloud 上用于 Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5 和 Claude Opus 4.8。请求使用与 Claude API 上相同的工具条目。",
+        "ja": "コンピューター使用およびブラウザー使用のツールセット (computer_toolset_20260801 および browser_toolset_20260801 ) が、Claude Fable 5、Claude Mythos 5、Claude Opus 5、Claude Sonnet 5、および Claude Opus 4.8 の Google Cloud で利用できるようになりました。リクエストでは、Claude API と同じツール エントリを使用します。",
+        "en": "The computer use and browser use toolsets ( computer_toolset_20260801 and browser_toolset_20260801 ) are now available on Google Cloud for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8. Requests use the same tools entries as on the Claude API."
+      },
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "tags": [
+        "computer-toolset-20260801",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
     {
       "id": "2026-08-19-openai-offering-zero-data-retention-for-frontier-models",
       "date": "2026-08-19",
