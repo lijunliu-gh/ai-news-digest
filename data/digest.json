@@ -1554,6 +1554,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-11-16-anthropic-organization-webhooks",
+      "date": "2026-11-16",
+      "category": "anthropic",
+      "title": {
+        "zh": "external_key.failed",
+        "ja": "external_key.failed",
+        "en": "external_key.failed"
+      },
+      "summary": {
+        "zh": "We’ve added two event types to organization webhooks, which are in beta. We send external_key.failed when your key management service keeps refusing a customer-managed encryption key, and external_key.recovered when the key works again.",
+        "ja": "We’ve added two event types to organization webhooks, which are in beta. We send external_key.failed when your key management service keeps refusing a customer-managed encryption key, and external_key.recovered when the key works again.",
+        "en": "We’ve added two event types to organization webhooks, which are in beta. We send external_key.failed when your key management service keeps refusing a customer-managed encryption key, and external_key.recovered when the key works again."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/organization-webhooks#encryption-key-events",
+      "tags": [
+        "external-key-failed",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-16-anthropic-16266773-how-claude-marks-ai-generated-content",
       "date": "2026-11-16",
       "category": "anthropic",
