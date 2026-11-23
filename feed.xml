@@ -7,6 +7,51 @@
     <lastBuildDate>2026-11-23</lastBuildDate>
     <atom:link href="https://lijunliu-gh.github.io/ai-news-digest/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>A more tailored Google Search that’s uniquely yours</title>
+      <link>https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps</link>
+      <description>Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.</description>
+      <pubDate>2026-11-23</pubDate>
+      <category>google</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Blog</source>
+      <guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps</guid>
+    </item>
+    <item>
+      <title>Issue statuses and repository boards are in public preview</title>
+      <link>https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</link>
+      <description>Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards.</description>
+      <pubDate>2026-11-23</pubDate>
+      <category>github</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
+      <guid isPermaLink="true">https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview</guid>
+    </item>
+    <item>
+      <title>Enterprise Frontier Safeguards</title>
+      <link>https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/overview</link>
+      <description>We’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). EFS is Zero Data Retention (ZDR) for eligible organizations that use Claude’s most capable models. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account.</description>
+      <pubDate>2026-11-23</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/overview</guid>
+    </item>
+    <item>
+      <title>external_storage.failed</title>
+      <link>https://platform.claude.com/docs/en/manage-claude/organization-webhooks#customer-owned-storage-events</link>
+      <description>We’ve added two event types to organization webhooks, which are in beta. We send external_storage.failed when a bucket that you use as customer-owned storage fails our daily check, and external_storage.recovered when it passes again.</description>
+      <pubDate>2026-11-23</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/manage-claude/organization-webhooks#customer-owned-storage-events</guid>
+    </item>
+    <item>
+      <title>claude-opus-4-5-20251101</title>
+      <link>https://platform.claude.com/docs/en/models/opus-5-5/migration-guide#migrating-from-claude-opus-45</link>
+      <description>We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See Migrating from Claude Opus 4.5 or earlier. To check which dates apply on other platforms, see Model deprecations.</description>
+      <pubDate>2026-11-23</pubDate>
+      <category>anthropic</category>
+      <source url="https://lijunliu-gh.github.io/ai-news-digest">Anthropic Release Notes</source>
+      <guid isPermaLink="true">https://platform.claude.com/docs/en/models/opus-5-5/migration-guide#migrating-from-claude-opus-45</guid>
+    </item>
+    <item>
       <title>Perplexity and Intelligence</title>
       <link>https://openai.com/index/perplexity-and-intelligence</link>
       <description>How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.</description>
@@ -122,15 +167,6 @@
       <category>google</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">Google Blog</source>
       <guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval</guid>
-    </item>
-    <item>
-      <title>Wait for pull request events with GitHub CLI</title>
-      <link>https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli</link>
-      <description>GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it in a loop.</description>
-      <pubDate>2026-11-19</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli</guid>
     </item>
     <item>
       <title>How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise</title>
@@ -419,42 +455,6 @@
       <category>github</category>
       <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
       <guid isPermaLink="true">https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot CLI adds Microsoft Entra sign-in as a preview</title>
-      <link>https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview</link>
-      <description>GitHub Copilot CLI now supports Microsoft Entra authentication in public preview. You can sign in with your Microsoft Entra account to silently authenticate to a linked GitHub Enterprise Managed User (EMU) account, use your Microsoft 365 Copilot license, or both, depending on your organization’s entitlements.</description>
-      <pubDate>2026-11-17</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot benchmarks site adds harness comparisons</title>
-      <link>https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons</link>
-      <description>GitHub Copilot benchmarks now includes Terminal-Bench-Science 0.1 and adds a new view that compares agent harnesses, both available in public preview. The site compares models in the GitHub Copilot agent harness, or harnesses using the same model, across established software engineering benchmarks, weighing resolution rate, reasoning effort, and cost per task.</description>
-      <pubDate>2026-11-17</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-11-17-github-copilot-benchmarks-site-adds-harness-comparisons</guid>
-    </item>
-    <item>
-      <title>GitHub Copilot app, Microsoft Ignite releases</title>
-      <link>https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases</link>
-      <description>Copilot is most useful when it can work where you do. The GitHub Copilot app now supports your Azure DevOps repositories, your GitHub Enterprise Server instance, and the browser you’re already signed in to.</description>
-      <pubDate>2026-11-17</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases</guid>
-    </item>
-    <item>
-      <title>Copilot code review: Adaptive effort, secret detection, and more</title>
-      <link>https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more</link>
-      <description>GitHub Copilot code review now helps you catch more issues earlier, with less effort. Adaptive matches review depth to each pull request, so routine changes get a quick pass and risky changes get a deeper look.</description>
-      <pubDate>2026-11-17</pubDate>
-      <category>github</category>
-      <source url="https://lijunliu-gh.github.io/ai-news-digest">GitHub Changelog</source>
-      <guid isPermaLink="true">https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more</guid>
     </item>
   </channel>
 </rss>

@@ -3,6 +3,124 @@
   "windowMonths": 3,
   "items": [
     {
+      "id": "2026-11-23-google-google-search-personal-intelligence-apps",
+      "date": "2026-11-23",
+      "category": "google",
+      "title": {
+        "zh": "A more tailored Google Search that’s uniquely yours",
+        "ja": "A more tailored Google Search that’s uniquely yours",
+        "en": "A more tailored Google Search that’s uniquely yours"
+      },
+      "summary": {
+        "zh": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+        "ja": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+        "en": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode."
+      },
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "tags": [
+        "search",
+        "gemini",
+        "google-play",
+        "ai",
+        "google"
+      ],
+      "source": "Google Blog",
+      "sourceType": "news"
+    },
+    {
+      "id": "2026-11-23-github-2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "date": "2026-11-23",
+      "category": "github",
+      "title": {
+        "zh": "Issue statuses and repository boards are in public preview",
+        "ja": "Issue statuses and repository boards are in public preview",
+        "en": "Issue statuses and repository boards are in public preview"
+      },
+      "summary": {
+        "zh": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards.",
+        "ja": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards.",
+        "en": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight and what to work on next, then visualize your progress with repository boards."
+      },
+      "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+      "tags": [
+        "release",
+        "projects-issues",
+        "github",
+        "changelog"
+      ],
+      "source": "GitHub Changelog",
+      "sourceType": "changelog"
+    },
+    {
+      "id": "2026-11-23-anthropic-overview",
+      "date": "2026-11-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "Enterprise Frontier Safeguards",
+        "ja": "Enterprise Frontier Safeguards",
+        "en": "Enterprise Frontier Safeguards"
+      },
+      "summary": {
+        "zh": "We’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). EFS is Zero Data Retention (ZDR) for eligible organizations that use Claude’s most capable models. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account.",
+        "ja": "We’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). EFS is Zero Data Retention (ZDR) for eligible organizations that use Claude’s most capable models. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account.",
+        "en": "We’ve launched Enterprise Frontier Safeguards (EFS) in beta on Claude Platform, Claude Platform on AWS, and Claude Models on Google Cloud (Anthropic managed). EFS is Zero Data Retention (ZDR) for eligible organizations that use Claude’s most capable models. Anthropic doesn’t retain your prompts and responses. Encrypted copies of them, called Sealed Safety Data, go to a bucket in your own cloud account."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/enterprise-frontier-safeguards/overview",
+      "tags": [
+        "enterprise-frontier-safeguards",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-23-anthropic-organization-webhooks",
+      "date": "2026-11-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "external_storage.failed",
+        "ja": "external_storage.failed",
+        "en": "external_storage.failed"
+      },
+      "summary": {
+        "zh": "We’ve added two event types to organization webhooks, which are in beta. We send external_storage.failed when a bucket that you use as customer-owned storage fails our daily check, and external_storage.recovered when it passes again.",
+        "ja": "We’ve added two event types to organization webhooks, which are in beta. We send external_storage.failed when a bucket that you use as customer-owned storage fails our daily check, and external_storage.recovered when it passes again.",
+        "en": "We’ve added two event types to organization webhooks, which are in beta. We send external_storage.failed when a bucket that you use as customer-owned storage fails our daily check, and external_storage.recovered when it passes again."
+      },
+      "url": "https://platform.claude.com/docs/en/manage-claude/organization-webhooks#customer-owned-storage-events",
+      "tags": [
+        "external-storage-failed",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
+      "id": "2026-11-23-anthropic-migration-guide",
+      "date": "2026-11-23",
+      "category": "anthropic",
+      "title": {
+        "zh": "claude-opus-4-5-20251101",
+        "ja": "claude-opus-4-5-20251101",
+        "en": "claude-opus-4-5-20251101"
+      },
+      "summary": {
+        "zh": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See Migrating from Claude Opus 4.5 or earlier. To check which dates apply on other platforms, see Model deprecations.",
+        "ja": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See Migrating from Claude Opus 4.5 or earlier. To check which dates apply on other platforms, see Model deprecations.",
+        "en": "We announced the deprecation of the Claude Opus 4.5 model ( claude-opus-4-5-20251101 and claude-opus-4-5 ), with retirement on the Claude API scheduled for January 22, 2027. We recommend migrating to Claude Opus 5.5. See Migrating from Claude Opus 4.5 or earlier. To check which dates apply on other platforms, see Model deprecations."
+      },
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide#migrating-from-claude-opus-45",
+      "tags": [
+        "claude-opus-4-5-20251101",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-22-openai-perplexity-and-intelligence",
       "date": "2026-11-22",
       "category": "openai",
@@ -293,31 +411,6 @@
       ],
       "source": "Google Blog",
       "sourceType": "news"
-    },
-    {
-      "id": "2026-11-19-github-2026-11-18-wait-for-pull-request-events-with-github-cli",
-      "date": "2026-11-19",
-      "category": "github",
-      "title": {
-        "zh": "Wait for pull request events with GitHub CLI",
-        "ja": "Wait for pull request events with GitHub CLI",
-        "en": "Wait for pull request events with GitHub CLI"
-      },
-      "summary": {
-        "zh": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it in a loop.",
-        "ja": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it in a loop.",
-        "en": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it in a loop."
-      },
-      "url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-      "tags": [
-        "release",
-        "client-apps",
-        "ecosystem-accessibility",
-        "github",
-        "changelog"
-      ],
-      "source": "GitHub Changelog",
-      "sourceType": "changelog"
     },
     {
       "id": "2026-11-18-openai-sumitomo-life",
