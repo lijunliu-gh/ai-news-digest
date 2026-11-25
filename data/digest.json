@@ -3915,6 +3915,29 @@
       "sourceType": "changelog"
     },
     {
+      "id": "2026-11-04-anthropic-errors",
+      "date": "2026-11-04",
+      "category": "anthropic",
+      "title": {
+        "zh": "error codes",
+        "ja": "error codes",
+        "en": "error codes"
+      },
+      "summary": {
+        "zh": "We’ve added error codes to the SDK so you can handle one cause of an error without parsing the response body. Each API error now carries the API’s error code, message, and details, and each error code has its own exception class (in Go, a constant). To use error codes, update to the latest version of the SDK. See Handle errors.",
+        "ja": "We’ve added error codes to the SDK so you can handle one cause of an error without parsing the response body. Each API error now carries the API’s error code, message, and details, and each error code has its own exception class (in Go, a constant). To use error codes, update to the latest version of the SDK. See Handle errors.",
+        "en": "We’ve added error codes to the SDK so you can handle one cause of an error without parsing the response body. Each API error now carries the API’s error code, message, and details, and each error code has its own exception class (in Go, a constant). To use error codes, update to the latest version of the SDK. See Handle errors."
+      },
+      "url": "https://platform.claude.com/docs/en/api/errors#error-codes",
+      "tags": [
+        "error-codes",
+        "anthropic",
+        "release-notes"
+      ],
+      "source": "Anthropic Release Notes",
+      "sourceType": "release-notes"
+    },
+    {
       "id": "2026-11-03-openai-jill-hazelbaker-chief-corporate-affairs-officer",
       "date": "2026-11-03",
       "category": "openai",
